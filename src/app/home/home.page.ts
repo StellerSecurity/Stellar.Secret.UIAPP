@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LoadingController} from "@ionic/angular";
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private loadingCtrl: LoadingController) {}
+
+  public async createLink() {
+    const loading = await this.loadingCtrl.create({
+      message: 'Creating Secret..',
+    });
+
+    await loading.present();
+  }
 
 }

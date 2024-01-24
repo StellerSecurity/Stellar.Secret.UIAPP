@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'secret/created',
+    loadChildren: () => import('./secret/created/created.module').then( m => m.CreatedPageModule)
+  },
+  {
+    path: 'secret/view/:id',
+    loadChildren: () => import('./secret/view/view.module').then( m => m.ViewPageModule)
+  },
 ];
 
 @NgModule({

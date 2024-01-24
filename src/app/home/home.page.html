@@ -1,20 +1,70 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+        <div class="left">
+            <img src="/assets/icon/secret_icon_white.png"> Stellar Secret
+        </div>
+
+        <div class="right">
+            <img src="/assets/icon/tabler-icon-info-circle.svg"> How it works
+        </div>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="container" class="ion-padding">
+        <strong style="/* Title 1 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */ ">Share a secret message</strong>
+        <p style="font-size: 14px; ">Write and send message, it will be<br> <strong>deleted once read</strong>.</p>
+
+      <!-- -->
+      <div style="border-radius: 16px; background: rgba(0, 0, 0, 0.08); padding: 16px; font-size: 12px">
+          <img src="/assets/icon/tabler-icon-spy-off.svg" valign="top"> Without a trace.
+          <img src="/assets/icon/tabler-icon-user-shield.svg" valign="top"> Privacy Protected<br>
+          <img src="/assets/icon/tabler-icon-lock-check.svg" valign="top"> End-to-end encrypted
+
+          <div style="border: 1px #EAEAF0 solid; height: 1px; opacity: 0.1;  margin-top: 15px; margin-bottom: 15px;"></div>
+
+          Encrypted, secured and protected by <strong>Stellar Security</strong>, Stellar Secret is open source
+      </div>
+
   </div>
+
+    <!-- white box -->
+    <div style="border-radius: 24px 24px 0px 0px; background: #fff; height: 100vh; color: #62636A" class="ion-padding">
+        <ion-textarea class="ion-padding" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
+
+        <div class="options">
+            <strong>Options</strong>
+            <img src="/assets/icon/tabler-icon-circle-chevron-down.svg" style="float: right">
+            <br><br>
+            <span>Lifetime</span><br><br>
+
+            <ion-grid>
+                <ion-col>
+                <span class="timer-option active">1 hour</span>
+                </ion-col>
+                <ion-col>
+                <span class="timer-option">1 hour</span>
+                </ion-col>
+                <ion-col>
+                <span class="timer-option">1 hour</span>
+                </ion-col>
+            </ion-grid><br>
+
+            <ion-input placeholder="Passphrase"></ion-input>
+
+        </div>
+
+        <span class="blue-btn" (click)="createLink()">Create Secret Link</span>
+    </div>
+
+
+
 </ion-content>
