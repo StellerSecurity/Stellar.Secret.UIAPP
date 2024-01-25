@@ -38,27 +38,31 @@ line-height: 150%; /* 30px */ ">Share a secret message</strong>
 
     <!-- white box -->
     <div style="border-radius: 24px 24px 0px 0px; background: #fff; height: 100vh; color: #62636A" class="ion-padding">
-        <ion-textarea class="ion-padding" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
+        <ion-textarea class="ion-padding" [value]="addSecretModal.message" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
 
         <div class="options">
-            <strong>Options</strong>
-            <img src="/assets/icon/tabler-icon-circle-chevron-down.svg" style="float: right">
-            <br><br>
-            <span>Lifetime</span><br><br>
+            <div class="options-selector" (click)="optionsToggle()"><strong>Options</strong>
+                <img src="/assets/icon/tabler-icon-circle-chevron-down.svg" style="float: right">
+            </div>
 
-            <ion-grid>
-                <ion-col>
-                <span class="timer-option active">1 hour</span>
-                </ion-col>
-                <ion-col>
-                <span class="timer-option">1 hour</span>
-                </ion-col>
-                <ion-col>
-                <span class="timer-option">1 hour</span>
-                </ion-col>
-            </ion-grid><br>
+            <div class="options-content" *ngIf="optionsDisplay">
+                <br><br>
+                <span>Lifetime</span><br><br>
 
-            <ion-input placeholder="Passphrase"></ion-input>
+                <ion-grid>
+                    <ion-col>
+                    <span class="timer-option active">1 hour</span>
+                    </ion-col>
+                    <ion-col>
+                    <span class="timer-option">1 hour</span>
+                    </ion-col>
+                    <ion-col>
+                    <span class="timer-option">1 hour</span>
+                    </ion-col>
+                </ion-grid><br>
+
+                <ion-input [value]="addSecretModal.password" placeholder="Passphrase"></ion-input>
+            </div>
 
         </div>
 
