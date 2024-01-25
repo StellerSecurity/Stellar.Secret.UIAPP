@@ -13,10 +13,8 @@ steps:
 
 - script: |
     cd .
-    npm install --legacy-peer-deps --force
-    npm install -g @angular/cli --skip-confirmation --force
-    ng add @angular/pwa --skip-confirmation --force
-    npm install --legacy-peer-deps --force
+    npm install -g @angular/cli
+    npm install --force
     npm run build --force
   displayName: 'npm install and build'
   workingDirectory: '$(Build.SourcesDirectory)'
