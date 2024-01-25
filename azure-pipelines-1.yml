@@ -25,7 +25,6 @@ stages:
           - script: |
               cd .
               npm install -g @angular/cli
-              ng add @angular/pwa
               npm install --force
             displayName: 'npm install and build'
             workingDirectory: '$(Build.SourcesDirectory)'
