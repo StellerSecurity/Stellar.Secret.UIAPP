@@ -13,7 +13,7 @@ steps:
 
 - script: |
     npm install
-    npm install -g @angular/cli
-    ng add @angular/pwa
+    npm install -g @angular/cli --skip-confirmation
+    ng add @angular/pwa --skip-confirmation
     ng build --prod
   displayName: 'npm install and build'
