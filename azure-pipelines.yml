@@ -22,7 +22,7 @@ stages:
               cd .
               npm install -g @angular/cli
               npm install --force
-              npm run build:ssr
+              npm run build --force
             displayName: 'npm install and build'
             workingDirectory: '$(Build.SourcesDirectory)'
           - task: ArchiveFiles@2
