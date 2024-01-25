@@ -12,6 +12,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    cd .
     npm install --legacy-peer-deps --force
     npm install -g @angular/cli --skip-confirmation --force
     npm i @angular/service-worker@17.0.2 --skip-confirmation --force
