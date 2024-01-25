@@ -39,7 +39,3 @@ stages:
               PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
               ArtifactName: 'drop'
               publishLocation: 'Container'
-  - stage: Development
-    displayName: 'Deploy to Development'
-    dependsOn: Build
-    condition: succeeded()
