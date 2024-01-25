@@ -15,8 +15,9 @@ steps:
     cd .
     npm install --legacy-peer-deps --force
     npm install -g @angular/cli --skip-confirmation --force
-    npm i @angular/service-worker@17.0.2 --skip-confirmation --force
     ng add @angular/pwa --skip-confirmation --force
+    npm install --legacy-peer-deps --force
+    npm build --force
   displayName: 'npm install and build'
   workingDirectory: '$(Build.SourcesDirectory)'
 - task: ArchiveFiles@2
