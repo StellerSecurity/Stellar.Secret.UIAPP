@@ -59,7 +59,7 @@ stages:
                 - task: AzureWebApp@1
                   displayName: 'Deploy App Service'
                   inputs:
-                    azureSubscription: '73c5753e-9466-428b-9502-3d83a32611dd'
+                    azureSubscription: '3654294d-b816-4cc6-be04-c7d9dd7bb1d0'
                     appType: 'webAppLinux'
                     appName: 'stellarsecretUiWebsiteProd'
                     package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
