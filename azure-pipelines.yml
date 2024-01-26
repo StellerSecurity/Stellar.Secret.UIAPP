@@ -42,7 +42,7 @@ stages:
         npm install @angular/service-worker --skip-confirmation --force
         ng add @angular/pwa --skip-confirmation --force
         npm install -g @ionic/cli --skip-confirmation --force
-        ionic build --prod
+        ionic build --prod --skip-confirmation --force
       displayName: 'npm install, build and test'
 
     - task: ArchiveFiles@2
