@@ -4,7 +4,7 @@ server {
     listen 8080;
     listen [::]:8080;
     root /home/site/wwwroot/www; # Changed for Laravel
-    index  index.php index.html index.htm;
+    index  index.html index.htm;
     server_name  example.com www.example.com;
     port_in_redirect off;
 
@@ -45,5 +45,4 @@ server {
         fastcgi_busy_buffers_size 256k;
         fastcgi_temp_file_write_size 256k;
     }
-
 }
