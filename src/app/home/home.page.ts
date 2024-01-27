@@ -5,6 +5,9 @@ import {Secret} from "../models/secret";
 import {Router} from "@angular/router";
 import { sha512, sha384, sha512_256, sha512_224 } from 'js-sha512';
 import { v4 as uuid } from 'uuid';
+
+import * as CryptoJS from 'crypto-js';
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -40,7 +43,13 @@ export class HomePage {
     let id = uuid();
 
     this.addSecretModal.id = sha512(id);
-    this.addSecretModal.expires_at = this.burnerTimes.toString();
+    this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
+
+    if(this.addSecretModal.password.length > 0) {
+      this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, id).toString();
+    } else {
+      this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, this.addSecretModal.password).toString();
+    }
 
     const loading = await this.loadingCtrl.create({
       message: 'Creating Secret..',
