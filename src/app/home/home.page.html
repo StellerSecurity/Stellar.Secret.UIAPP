@@ -31,14 +31,14 @@ line-height: 150%; /* 30px */ ">Share a secret message</strong>
 
           <div style="border: 1px #EAEAF0 solid; height: 1px; opacity: 0.1;  margin-top: 15px; margin-bottom: 15px;"></div>
 
-          Encrypted, secured and protected by <strong>Stellar Security</strong>, Stellar Secret is open source
+          Encrypted, secured and protected by <strong>Stellar Security</strong>
       </div>
 
   </div>
 
     <!-- white box -->
     <div style="border-radius: 24px 24px 0px 0px; background: #fff; height: 100vh; color: #62636A" class="ion-padding">
-        <ion-textarea class="ion-padding" [value]="addSecretModal.message" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
+        <ion-textarea class="ion-padding" [(ngModel)]="addSecretModal.message" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
 
         <div class="options">
             <div class="options-selector" (click)="optionsToggle()"><strong>Options</strong>
@@ -50,18 +50,12 @@ line-height: 150%; /* 30px */ ">Share a secret message</strong>
                 <span>Lifetime</span><br><br>
 
                 <ion-grid>
-                    <ion-col>
-                    <span class="timer-option active">1 hour</span>
-                    </ion-col>
-                    <ion-col>
-                    <span class="timer-option">1 hour</span>
-                    </ion-col>
-                    <ion-col>
-                    <span class="timer-option">1 hour</span>
+                    <ion-col *ngFor="let burnerTime of burnerTimes">
+                        <span (click)="setBurnerTime(burnerTime)" class="timer-option"  [ngClass]="{active: chosenBurnerTime === burnerTime}">{{burnerTime}} hours</span>
                     </ion-col>
                 </ion-grid><br>
 
-                <ion-input [value]="addSecretModal.password" placeholder="Passphrase"></ion-input>
+                <ion-input  [(ngModel)]="addSecretModal.password" placeholder="Passphrase"></ion-input>
             </div>
 
         </div>
