@@ -75,6 +75,7 @@ ion-input {
   color: #fff;
   border-radius: 250px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .timer-option {
@@ -85,6 +86,11 @@ ion-input {
   color: #62636A;
   background-color: #fff;
   border: 1px #EAEAF0 solid;
+  cursor: pointer;
+}
+
+.options-selector {
+  cursor: pointer;
 }
 
 .timer-option.active {

@@ -9,7 +9,7 @@ import {Secret} from "../../models/secret";
   templateUrl: './created.page.html',
   styleUrls: ['./created.page.scss'],
 })
-export class CreatedPage implements OnInit {
+export class CreatedPage {
 
   public id: string = "";
 
@@ -20,31 +20,10 @@ export class CreatedPage implements OnInit {
   constructor(private router: Router, private toastController: ToastController, private secretapi: SecretapiService, private loadingCtrl: LoadingController, private route: ActivatedRoute) {
     this.route.queryParams.subscribe(async params => {
       this.id = params['id'];
-
       this.url = "https://stellarsecret.io/" + this.id;
-
-      /*const loading = await this.loadingCtrl.create({
-        message: 'Getting secret...',
-      });
-
-      await loading.present();
-
-      (
-          await this.secretapi.view(this.id)
-      ).subscribe(async (response) => {
-        this.secret = response;
-        console.log(response)
-        await loading.dismiss();
-      });*/
-
-
     });
   }
 
-
-
-  ngOnInit() {
-  }
 
   public async copy() {
 

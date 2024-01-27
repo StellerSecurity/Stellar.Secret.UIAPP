@@ -20,6 +20,8 @@ export class ViewPage {
 
     public inputPassword = "";
 
+    public loaded = false;
+
     constructor(private router: Router, private toastController: ToastController, private loadingCtrl: LoadingController, private secretapi: SecretapiService, private route: ActivatedRoute) {
       this.route.queryParams.subscribe(params => {
           this.id = params['id'];
@@ -44,10 +46,9 @@ export class ViewPage {
         await toast.present();
     }
 
-
-
     public async secret(id: string) {
 
+        this.loaded = false;
         const loading = await this.loadingCtrl.create({
             message: 'Getting secret...'
         });
@@ -56,13 +57,13 @@ export class ViewPage {
 
         // TODO: Add error handler.
         this.secretapi.view(id).subscribe(async (response) => {
+            this.loaded = true;
             if(response.response_code !== 200) {
                 alert('The Secret Link does not exist or has already been viewed.');
                 await this.router.navigateByUrl("/");
             } else {
                 this.secretModel = response;
-                console.log(this.secretModel.message);
-                if(this.secretModel.password === null) {
+                if(this.secretModel.password.length == 0) {
                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
                    this.unlocked = true;
                 }
