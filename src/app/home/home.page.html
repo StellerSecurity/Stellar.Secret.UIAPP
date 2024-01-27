@@ -55,12 +55,15 @@ line-height: 150%; /* 30px */ ">Share a secret message</strong>
                     </ion-col>
                 </ion-grid><br>
 
-                <ion-input  [(ngModel)]="addSecretModal.password" placeholder="Passphrase"></ion-input>
+                <ion-input  type="password" [(ngModel)]="addSecretModal.password" placeholder="Passphrase"></ion-input><br>
+                Leave empty for none.
             </div>
 
         </div>
 
-        <span class="blue-btn" (click)="createLink()">Create Secret Link</span>
+        <span class="blue-btn" (click)="createLink()">Create Secret Link</span><br><br>
+
+        <img src="assets/logo.svg" class="stellar-logo">
     </div>
 
 

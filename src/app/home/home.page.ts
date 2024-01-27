@@ -45,7 +45,8 @@ export class HomePage {
     this.addSecretModal.id = sha512(id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
 
-    if(this.addSecretModal.password.length > 0) {
+    // if no password is set, encrypt the message with the generated UUID.
+    if(this.addSecretModal.password.length == 0) {
       this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, id).toString();
     } else {
       this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, this.addSecretModal.password).toString();
