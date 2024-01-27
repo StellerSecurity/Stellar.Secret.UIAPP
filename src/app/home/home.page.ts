@@ -19,7 +19,7 @@ export class HomePage {
 
   public optionsDisplay = false;
 
-  public burnerTimes = [1, 6, 12, 24];
+  public burnerTimes = [1, 6, 24];
 
   public chosenBurnerTime = 0;
 
