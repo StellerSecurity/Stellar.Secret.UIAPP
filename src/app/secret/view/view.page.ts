@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, Router} from "@angular/router";
+import {ActivatedRoute, Params, Router} from "@angular/router";
 import {SecretapiService} from "../../services/secretapi.service";
 
 import {LoadingController, ToastController} from '@ionic/angular';
@@ -22,11 +22,15 @@ export class ViewPage {
 
     public loaded = false;
 
-    constructor(private router: Router, private toastController: ToastController, private loadingCtrl: LoadingController, private secretapi: SecretapiService, private route: ActivatedRoute) {
-      this.route.queryParams.subscribe(params => {
-          this.id = params['id'];
-          this.secret(this.id).then(r => {});
-      });
+    constructor(private router: Router, private toastController: ToastController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
+        this.activatedRoute.params.subscribe(
+            (params: Params) => {
+                console.log(params['id']);
+                this.id = params['id'];
+                this.secret(this.id).then(r => {});
+            }
+        )
+
     }
 
     public async copy() {
