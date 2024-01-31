@@ -67,6 +67,9 @@ export class ViewPage {
                 await this.router.navigateByUrl("/");
             } else {
                 this.secretModel = response;
+                if(this.secretModel.message ===null) {
+                    this.secretModel.message = "";
+                }
                 if(this.secretModel.password.length == 0) {
                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
                    this.unlocked = true;
