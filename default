@@ -17,7 +17,7 @@ server {
     #
     #error_page   500 502 503 504  /50x.html; # Commented out for Laravel so that Laravel debug mode pages are shown
     location = /index.html {
-        root   root /home/site/wwwroot/www;
+        root   /home/site/wwwroot/www;
     }
 
 
