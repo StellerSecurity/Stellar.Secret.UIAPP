@@ -66,9 +66,10 @@ export class ViewPage {
                 alert('The Secret Link does not exist or has already been viewed.');
                 await this.router.navigateByUrl("/");
             } else {
+                await loading.dismiss();
                 this.secretModel = response;
-                if(this.secretModel.message ===null) {
-                    this.secretModel.message = "";
+                if(this.secretModel.password === null) {
+                    this.secretModel.password = "";
                 }
                 if(this.secretModel.password.length == 0) {
                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
@@ -76,7 +77,6 @@ export class ViewPage {
                 }
             }
 
-            await loading.dismiss();
         });
     }
 
