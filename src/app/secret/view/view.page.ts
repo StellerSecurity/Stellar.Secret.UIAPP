@@ -62,11 +62,11 @@ export class ViewPage {
         // TODO: Add error handler.
         this.secretapi.view(id).subscribe(async (response) => {
             this.loaded = true;
+            await loading.dismiss();
             if(response.response_code !== 200) {
                 alert('The Secret Link does not exist or has already been viewed.');
                 await this.router.navigateByUrl("/");
             } else {
-                await loading.dismiss();
                 this.secretModel = response;
                 if(this.secretModel.password === null) {
                     this.secretModel.password = "";
