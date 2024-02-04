@@ -75,6 +75,11 @@ export class ViewPage {
                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
                    this.unlocked = true;
                 }
+
+                setTimeout(async () => {
+                    await this.router.navigateByUrl("/");
+                }, 300000);
+
             }
 
         });
