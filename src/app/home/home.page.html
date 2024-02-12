@@ -14,31 +14,36 @@
 
 <ion-content [fullscreen]="true">
 
-  <div id="container" class="ion-padding">
-        <img src="assets/monkeys.png" class="monkeys"><br>
-        <strong style="/* Title 1 */
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 30px */ ">Share a secret message</strong>
-        <p style="font-size: 14px; ">Write and send message, it will be<br> <strong>deleted once read</strong>.</p>
+<ion-grid>
+    <ion-row>
+        <ion-col size-sm="5" size-xs="12">
+          <div id="container" class="ion-padding">
+                <img src="assets/monkeys.png" class="monkeys"><br>
+                <strong class="title" style="/* Title 1 */
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 30px */ ">Share a secret message</strong>
+                <p style="font-size: 14px; ">Write and send message, it will be<br> <strong>deleted once read</strong>.</p>
 
-      <!-- -->
-      <div style="border-radius: 16px; background: rgba(0, 0, 0, 0.08); padding: 16px; font-size: 12px">
-          <img src="/assets/icon/tabler-icon-spy-off.svg" valign="top"> Without a trace.
-          <img src="/assets/icon/tabler-icon-user-shield.svg" valign="top"> Privacy Protected<br><br>
-          <img src="/assets/icon/tabler-icon-lock-check.svg" valign="top"> One-time viewable
+              <!-- -->
+              <div style="border-radius: 16px; background: rgba(0, 0, 0, 0.08); padding: 16px; font-size: 12px">
+                  <img src="/assets/icon/tabler-icon-spy-off.svg" valign="top"> Without a trace.
+                  <img src="/assets/icon/tabler-icon-user-shield.svg" valign="top"> Privacy Protected<br><br>
+                  <img src="/assets/icon/tabler-icon-lock-check.svg" valign="top"> One-time viewable
 
-          <div style="border: 1px #EAEAF0 solid; height: 1px; opacity: 0.1;  margin-top: 15px; margin-bottom: 15px;"></div>
+                  <div style="border: 1px #EAEAF0 solid; height: 1px; opacity: 0.1;  margin-top: 15px; margin-bottom: 15px;"></div>
 
-          Encrypted, secured and protected by <strong>Stellar Security</strong>
-      </div>
+                  Encrypted, secured and protected by <strong>Stellar Security</strong>
+              </div>
 
-  </div>
+          </div>
+        </ion-col>
 
+    <ion-col size-sm="7" size-xs="12">
     <!-- white box -->
-    <div style="border-radius: 24px 24px 0px 0px; background: #fff; height: 100vh; color: #62636A" class="ion-padding">
+    <div style="border-radius: 24px 24px 0px 0px; background: #fff; height: 100vh; color: #62636A" class="ion-padding white-box-options">
         <ion-textarea class="ion-padding" [(ngModel)]="addSecretModal.message" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
 
         <div class="options">
@@ -66,7 +71,8 @@ line-height: 150%; /* 30px */ ">Share a secret message</strong>
 
         <img src="assets/logo.svg" class="stellar-logo">
     </div>
-
-
+    </ion-col>
+    </ion-row>
+</ion-grid>
 
 </ion-content>

@@ -6,6 +6,38 @@ ion-header{
 
 }
 
+ion-toolbar {
+  --background: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  ion-content {
+
+    --padding-start: var(--ion-padding, 146px);
+    --padding-end: var(--ion-padding, 146px);
+    --padding-top: var(--ion-padding, 146px);
+    --padding-bottom: var(--ion-padding, 146px);
+    padding-top: var(--ion-padding, 146px);
+    padding-bottom: var(--ion-padding, 146px);
+  }
+
+  ion-toolbar {
+
+    --padding-start: var(--ion-padding, 146px);
+    --padding-end: var(--ion-padding, 146px);
+  }
+
+  .title {
+    font-size: 32px !important;
+  }
+
+  .white-box-options  {
+    height: 400px !important;
+    border-radius: 24px 24px 24px 24px !important;
+  }
+
+}
+
 ion-textarea {
   border: 1px #EAEAF0 solid;
   border-radius: 12px;
@@ -25,6 +57,8 @@ ion-title img {
   margin-right: 10px;
   float: left;
 }
+
+
 
 .left {
   float: left;
