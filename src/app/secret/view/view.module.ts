@@ -8,6 +8,7 @@ import { ViewPageRoutingModule } from './view-routing.module';
 
 import { ViewPage } from './view.page';
 
+
 @NgModule({
   imports: [
     CommonModule,
