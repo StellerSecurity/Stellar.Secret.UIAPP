@@ -34,10 +34,17 @@ ion-toolbar {
   }
 
   .white-box-options  {
-    max-height: 600px !important;
+   // max-height: 600px !important;
     border-radius: 24px 24px 24px 24px !important;
+    height: auto;
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+  .white-box-options{
+    height: 100vh;
+  }
 }
 
 ion-textarea {
