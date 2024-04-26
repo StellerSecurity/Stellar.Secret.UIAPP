@@ -1,83 +1,93 @@
 <ion-header [translucent]="false">
-  <ion-toolbar>
-    <ion-title>
-        <div class="container">
-            <div class="left">
-                <img src="/assets/icon/secret_icon_white.png"> Stellar Secret
+    <ion-toolbar>
+        <ion-title>
+            <div class="container">
+                <ion-row>
+                    <ion-col size-sm="6" size-xs="12">
+                        <div class="left logo">
+                            <a href="/"><img src="/assets/icon/secret_icon_white.png"> <span>Stellar Secret</span></a>
+                        </div>
+                    </ion-col>
+                    <ion-col size-sm="6" size-xs="12">
+                        <div class="right">
+                            <ion-row>
+                                <ion-col size-sm="6" size-xs="6"><a href="#"><img
+                                            src="/assets/icon/tabler-icon-info-circle.svg"> How it works </a></ion-col>
+                                <ion-col size-sm="6" size-xs="6"><a href="#"><img src="/assets/icon/download-icon.svg">
+                                        Download App</a></ion-col>
+                            </ion-row>
+                        </div>
+                    </ion-col>
+                </ion-row>
             </div>
-
-            <div class="right">
-               <!-- <img src="/assets/icon/tabler-icon-info-circle.svg"> How it works -->
-            </div>
-        </div>
-    </ion-title>
-  </ion-toolbar>
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="false">
 
     <div class="container">
-<ion-grid>
-    <ion-row>
-        <ion-col size-sm="5" size-xs="12">
-          <div id="container" class="ion-padding">
-                <img src="assets/monkeys.png" class="monkeys"><br>
-                <strong class="title" style="/* Title 1 */
-        font-family: Poppins;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 150%; /* 30px */ ">Share a secret message</strong>
-                <p style="font-size: 14px; ">Write and send message, it will be<br> <strong>deleted once read</strong>.</p>
+        <ion-grid>
+            <ion-row>
+                <ion-col size-sm="5" size-xs="12">
+                    <div id="container" class="ion-padding">
+                        <img src="assets/monkeys.png" class="monkeys">
+                        <h2 class="title">Share a secret message</h2>
+                        <p class="sub-title">Write and send message, it will be deleted once
+                                read.</p>
+                        <!-- -->
+                        <div class="box">
+                            <ul>
+                                <li><img src="/assets/icon/tabler-icon-spy-off.svg" valign="top"> Without a trace.</li>
+                                <li><img src="/assets/icon/tabler-icon-user-shield.svg" valign="top"> Privacy Protected</li>
+                                <li><img src="/assets/icon/tabler-icon-lock-check.svg" valign="top"> One-time viewable</li>
+                            </ul>
+                            <div style="border: 1px #EAEAF0 solid; height: 1px; opacity: 0.1;  margin-top: 15px; margin-bottom: 15px;">
+                            </div>
+                            <p>Encrypted, secured and protected by <strong>Stellar Security</strong> Stellar Secret is open source</p>
+                        </div>
 
-              <!-- -->
-              <div style="border-radius: 16px; background: rgba(0, 0, 0, 0.08); padding: 16px; font-size: 12px">
-                  <img src="/assets/icon/tabler-icon-spy-off.svg" valign="top"> Without a trace.
-                  <img src="/assets/icon/tabler-icon-user-shield.svg" valign="top"> Privacy Protected<br><br>
-                  <img src="/assets/icon/tabler-icon-lock-check.svg" valign="top"> One-time viewable
+                    </div>
+                </ion-col>
+                <ion-col size-sm="1" size-xs="12"></ion-col>
+                <ion-col size-sm="6" size-xs="12">
+                    <!-- white box -->
+                    <div
+                        class="ion-padding white-box-options password-box">
+                        <ion-textarea autofocus class="ion-padding" [(ngModel)]="addSecretModal.message"
+                            placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
 
-                  <div style="border: 1px #EAEAF0 solid; height: 1px; opacity: 0.1;  margin-top: 15px; margin-bottom: 15px;"></div>
+                        <div class="options">
+                            <div class="options-selector" (click)="optionsToggle()"><strong>Options</strong>
+                                <img src="/assets/icon/tabler-icon-circle-chevron-down.svg" style="float: right">
+                            </div>
 
-                  Encrypted, secured and protected by <strong>Stellar Security</strong>
-              </div>
+                            <div class="options-content" *ngIf="optionsDisplay">
+                                <br><br>
+                                <span>Lifetime</span><br><br>
 
-          </div>
-        </ion-col>
+                                <ion-grid>
+                                    <ion-col *ngFor="let burnerTime of burnerTimes">
+                                        <span (click)="setBurnerTime(burnerTime)" class="timer-option"
+                                            [ngClass]="{active: chosenBurnerTime === burnerTime}">{{burnerTime}}
+                                            hours</span>
+                                    </ion-col>
+                                </ion-grid><br>
 
-    <ion-col size-sm="7" size-xs="12">
-    <!-- white box -->
-    <div style="border-radius: 24px 24px 0px 0px; background: #fff; color: #62636A" class="ion-padding white-box-options">
-        <ion-textarea autofocus class="ion-padding" [(ngModel)]="addSecretModal.message" placeholder="Write your Secret message, password or sensitive information *"></ion-textarea>
+                                <ion-input autocomplete="off" placeholder="Passphrase" type="password"
+                                    [(ngModel)]="addSecretModal.password"></ion-input><br>
+                            </div>
 
-        <div class="options">
-            <div class="options-selector" (click)="optionsToggle()"><strong>Options</strong>
-                <img src="/assets/icon/tabler-icon-circle-chevron-down.svg" style="float: right">
-            </div>
+                        </div>
 
-            <div class="options-content" *ngIf="optionsDisplay">
-                <br><br>
-                <span>Lifetime</span><br><br>
-
-                <ion-grid>
-                    <ion-col *ngFor="let burnerTime of burnerTimes">
-                        <span (click)="setBurnerTime(burnerTime)" class="timer-option"  [ngClass]="{active: chosenBurnerTime === burnerTime}">{{burnerTime}} hours</span>
-                    </ion-col>
-                </ion-grid><br>
-
-                <ion-input autocomplete="off"  placeholder="Password" type="password" [(ngModel)]="addSecretModal.password"></ion-input><br>
-                Leave empty for none.
-            </div>
-
-        </div>
-
-        <span class="blue-btn" (click)="createLink()">Create Secret Link</span><br><br>
-
-        <a href="https://stellarsecurity.com" target="_blank">
-            <img src="assets/logo.svg" class="stellar-logo">
-        </a>
+                        <span class="blue-btn" (click)="createLink()">Create Secret Link</span>
+                        <!--a href="https://stellarsecurity.com" target="_blank">
+                            <img src="assets/logo.svg" class="stellar-logo">
+                        </a-->
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
     </div>
-    </ion-col>
-    </ion-row>
-</ion-grid></div>
 
 </ion-content>
