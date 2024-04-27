@@ -1,43 +1,54 @@
-ion-header{
+ion-header {
 
   --ion-text-color: #fff;
   --ion-background-color: #2761FC;
   padding: 15px 0;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  background:#2761FC;
+  background: #2761FC;
 }
 
 ion-toolbar {
-  --background:transparent;
+  --background: transparent;
+
   ion-row {
     align-items: center;
   }
 }
 
 .box {
-  border-radius: 16px; background: rgba(0, 0, 0, 0.08); padding: 30px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 30px;
+
   p {
     font-size: 12px;
     font-family: 'Poppins';
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     row-gap: 30px;
     list-style: none;
-    padding:0;
+    padding: 0;
     padding-bottom: 20px;
+
     li {
       width: calc(50% - 20px);
       font-size: 14px;
       font-family: 'Poppins';
+      flex: 1 46%;
     }
   }
 }
- .password-box {
-  border-radius: 24px 24px; background: #fff; color: #62636A;
+
+.password-box {
+  border-radius: 24px 24px;
+  background: #fff;
+  color: #62636A;
   padding: 30px;
+
   ion-textarea {
     border: 1px #EAEAF0 solid;
     border-radius: 12px;
@@ -46,7 +57,12 @@ ion-toolbar {
     --ion-text-color: #EAEAF0;
     min-height: 150px;
   }
- }
+}
+.sub-title {
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
 @media only screen and (min-width: 768px) {
   ion-content {
 
@@ -70,20 +86,18 @@ ion-toolbar {
     font-weight: 600;
     margin: 0;
   }
-  .sub-title {
-    font-size: 16px;
-    font-family: 'Poppins';
-    font-weight: 400;
-  }
-  .white-box-options  {
+
+ 
+
+  .white-box-options {
     height: auto;
   }
 
 }
 
 @media only screen and (max-width: 600px) {
-  .white-box-options{
-    height: 100vh;
+  .white-box-options {
+    //height: 100vh;
   }
 }
 
@@ -105,6 +119,7 @@ ion-title img {
     display: flex;
     align-items: center;
     text-decoration: none;
+
     span {
       font-size: 18px;
       font-family: 'silkaregular';
@@ -119,16 +134,18 @@ ion-title img {
 
 .right {
   float: right;
+
   a {
     font-size: 16px;
     font-weight: 600;
     color: #fff;
     text-decoration: none;
+
     img {
       width: 24px;
       height: 24px;
     }
-  }  
+  }
 }
 
 .header-md {
@@ -136,13 +153,13 @@ ion-title img {
   box-shadow: none !important;
 }
 
-ion-content{
+ion-content {
   --ion-text-color: #fff;
   --ion-background-color: #2761FC;
 }
 
 .options {
-  background-color: #F6F6FD ;
+  background-color: #F6F6FD;
   padding: 16px;
   margin-top: 25px;
   font-size: 12px;
@@ -161,12 +178,15 @@ ion-input {
   font-size: 14px;
   font-weight: 400;
 }
+
 .ion-valid.sc-ion-input-md-h {
   --highlight-color: none;
 }
+
 .ion-valid.sc-ion-textarea-md-h {
   --highlight-color: none;
 }
+
 .blue-btn {
   display: flex;
   padding: 14px 24px;
@@ -210,4 +230,46 @@ ion-input {
 .stellar-logo {
   width: 100%;
   height: 24px;
+}
+
+@media screen and (max-width: 575px) {
+  .logo {
+    a {
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .download-btn {
+    display: none;
+  }
+
+  .main-sec {
+    ion-grid {
+      padding: 0;
+
+      ion-col {
+        padding: 0;
+      }
+    }
+
+    .password-box {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  .box {  
+    ul {
+      row-gap: 15px;
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+  .sub-title {
+    font-size: 14px;
+  }
 }

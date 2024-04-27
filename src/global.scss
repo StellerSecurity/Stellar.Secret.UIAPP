@@ -30,8 +30,17 @@
   max-width: 1300px;
   margin: 0 auto;
 }
+
 .confirmation-popup {
   --height: auto;
   --border-radius: 24px;
   --width: 500px;
+}
+
+@media screen and (max-width: 575px) {
+  .confirmation-popup {
+    align-items: end;
+    --border-radius: 0;
+    --background: transparent;
+  }
 }
