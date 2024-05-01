@@ -173,6 +173,9 @@ ion-content {
 }
 
 @media screen and (max-width: 575px) {
+    ion-title {
+        padding: 0 10px;
+      }
     .logo {
         a {
             img {
