@@ -46,6 +46,9 @@ ion-button {
   color: #fff;
   text-decoration: none;
   text-transform: unset;
+  span {
+    color: #fff;
+  }
 }
 ion-header ion-toolbar {
   --border-width:0 !important;
