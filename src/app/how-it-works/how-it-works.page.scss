@@ -128,9 +128,12 @@ ion-content {
         font-size: 20px;
         font-family: 'Poppins';
         font-weight: 700;
-
         span {
             color: rgba(39, 97, 252, 1);
+            a {
+                color: rgba(39, 97, 252, 1);
+                text-decoration: none;
+            }
         }
     }
 
