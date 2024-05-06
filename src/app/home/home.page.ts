@@ -22,7 +22,6 @@ export class HomePage {
   public burnerTimes = [1, 6, 24];
 
   public chosenBurnerTime = 0;
-
   constructor(private loadingCtrl: LoadingController, private router: Router, private secretapi: SecretapiService) {}
 
   public optionsToggle() {
