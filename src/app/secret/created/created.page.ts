@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, Router} from "@angular/router";
-import {SecretapiService} from "../../services/secretapi.service";
-import {LoadingController, ToastController} from "@ionic/angular";
-import {Secret} from "../../models/secret";
+import { ActivatedRoute, Router } from "@angular/router";
+import { SecretapiService } from "../../services/secretapi.service";
+import { LoadingController, ToastController, ModalController } from "@ionic/angular";
+import { Secret } from "../../models/secret";
+import { ConfirmationModalComponent } from './confirmation-modal.component';
 
 @Component({
   selector: 'app-created',
@@ -17,7 +18,7 @@ export class CreatedPage {
 
   public secret: Secret = new Secret();
 
-  constructor(private router: Router, private toastController: ToastController, private secretapi: SecretapiService, private loadingCtrl: LoadingController, private route: ActivatedRoute) {
+  constructor(private router: Router, private modalCtrl: ModalController, private toastController: ToastController, private secretapi: SecretapiService, private loadingCtrl: LoadingController, private route: ActivatedRoute) {
     this.route.queryParams.subscribe(async params => {
       this.id = params['id'];
       this.url = "https://stellarsecret.io/" + this.id;
@@ -49,19 +50,35 @@ export class CreatedPage {
   }
 
   public async delete() {
-    const loading = await this.loadingCtrl.create({
-      message: 'Burning secret...',
+    const modal = await this.modalCtrl.create({
+      component: ConfirmationModalComponent,
+      cssClass: 'confirmation-popup'
     });
 
-    await loading.present();
+    modal.onDidDismiss().then(async (data) => {
+      if (data && data.data) {
+        const confirm = data.data as boolean;
+        if (confirm) {
+          // User confirmed deletion, proceed with deletion logic
+          const loading = await this.loadingCtrl.create({
+            message: 'Burning secret...',
+          });
 
-    (
-        await this.secretapi.delete(this.id)
-    ).subscribe(async (response) => {
-        await this.router.navigate(['/'])
-        await loading.dismiss();
+          await loading.present();
+
+          (
+            await this.secretapi.delete(this.id)
+          ).subscribe(async (response) => {
+            await this.router.navigate(['/'])
+            await loading.dismiss();
+          });
+        } else {
+          // User canceled deletion, do nothing
+        }
+      }
     });
 
+    return await modal.present();
   }
 
 }

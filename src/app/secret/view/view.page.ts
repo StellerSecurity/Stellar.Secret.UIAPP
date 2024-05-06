@@ -21,13 +21,15 @@ export class ViewPage {
     public inputPassword = "";
 
     public loaded = false;
+    
+    public openMessage = false;
 
     constructor(private router: Router, private toastController: ToastController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
         this.activatedRoute.params.subscribe(
             (params: Params) => {
                 console.log(params['id']);
                 this.id = params['id'];
-                this.secret(this.id).then(r => {});
+                this.secret().then(r => {});
             }
         )
 
@@ -50,7 +52,8 @@ export class ViewPage {
         await toast.present();
     }
 
-    public async secret(id: string) {
+    public async openMessageBox(){
+        this.openMessage = true;
 
         this.loaded = false;
         const loading = await this.loadingCtrl.create({
@@ -59,10 +62,10 @@ export class ViewPage {
 
         await loading.present();
 
-        // TODO: Add error handler.
-        this.secretapi.view(id).subscribe(async (response) => {
+        this.secretapi.view(this.id).subscribe(async (response) => {
             this.loaded = true;
             await loading.dismiss();
+            console.log(response);
             if(response.response_code !== 200) {
                 alert('The Secret Link does not exist or has already been viewed.');
                 await this.router.navigateByUrl("/");
@@ -83,6 +86,19 @@ export class ViewPage {
             }
 
         });
+
+    }
+
+    public async secret() {
+
+        this.loaded = false;
+        const loading = await this.loadingCtrl.create({
+            message: 'Getting secret...'
+        });
+
+        await loading.present();
+        this.loaded = true;
+        await loading.dismiss();
     }
 
     public unlockByPassword() {
