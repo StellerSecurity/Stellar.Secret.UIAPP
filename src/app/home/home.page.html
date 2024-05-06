@@ -67,7 +67,7 @@
                                 <br><br>
                                 <span>Lifetime</span><br><br>
 
-                                <ion-grid>
+                                <ion-grid class="grid options-grid">
                                     <ion-col *ngFor="let burnerTime of burnerTimes">
                                         <span (click)="setBurnerTime(burnerTime)" class="timer-option"
                                             [ngClass]="{active: chosenBurnerTime === burnerTime}">{{burnerTime}}

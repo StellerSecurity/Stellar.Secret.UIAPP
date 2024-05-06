@@ -236,6 +236,12 @@ ion-input {
   height: 24px;
 }
 
+.options-grid {
+  ion-col {
+  margin: 5px;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .title {
     font-size: 25px;
@@ -290,5 +296,6 @@ ion-input {
   ion-title img {
     height: 30px;
     width: 30px;
+    margin-right: 5px;
   }
 }
