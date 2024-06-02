@@ -15,6 +15,7 @@ import * as CryptoJS from 'crypto-js';
 })
 export class HomePage {
 
+
   public addSecretModal = new Secret();
 
   public optionsDisplay = false;

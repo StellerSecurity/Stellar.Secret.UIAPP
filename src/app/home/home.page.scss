@@ -63,6 +63,19 @@ ion-toolbar {
   }
 }
 
+#click-trigger {
+  font-size: 16px;
+  --padding: 0;
+  --background: transparent;
+  --box-shadow: unset;
+  --background-hover: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  top: 8px;
+}
+
 .sub-title {
   font-size: 16px;
   font-family: 'Poppins';
@@ -70,7 +83,7 @@ ion-toolbar {
 }
 
 @media only screen and (min-width: 768px) {
-  ion-content {
+  ion-content.main-sec {
 
     --padding-start: var(--ion-padding, 100px);
     --padding-end: var(--ion-padding, 100px);
@@ -157,7 +170,7 @@ ion-title img {
   box-shadow: none !important;
 }
 
-ion-content {
+ion-content.main-sec {
   --ion-text-color: #fff;
   --ion-background-color: #2761FC;
 }
