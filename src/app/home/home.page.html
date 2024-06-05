@@ -78,7 +78,7 @@
                                 <br><br>
                                 <span>Lifetime</span><br><br>
 
-                                <ion-grid class="grid options-grid">
+                                <ion-grid class="grid options-grids">
                                     <ion-col *ngFor="let burnerTime of burnerTimes">
                                         <span (click)="setBurnerTime(burnerTime)" class="timer-option"
                                             [ngClass]="{active: chosenBurnerTime === burnerTime}">{{burnerTime}}
@@ -92,7 +92,7 @@
 
                         </div>
 
-                        <span class="blue-btn" (click)="createLink()">Create Secret Link</span>
+                        <span class="blue-btn" (click)="createLink()">Create Secret Link <ion-icon name="arrow-forward-outline"></ion-icon></span>
                         <!--a href="https://stellarsecurity.com" target="_blank">
                             <img src="assets/logo.svg" class="stellar-logo">
                         </a-->

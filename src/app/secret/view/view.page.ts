@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Params, Router} from "@angular/router";
 import {SecretapiService} from "../../services/secretapi.service";
 
-import {LoadingController, ToastController} from '@ionic/angular';
+import {AlertController, LoadingController, ToastController} from '@ionic/angular';
 import {Secret} from "../../models/secret";
 import * as CryptoJS from 'crypto-js';
+import {async} from "rxjs";
 @Component({
   selector: 'app-view',
   templateUrl: './view.page.html',
@@ -24,12 +25,11 @@ export class ViewPage {
     
     public openMessage = false;
 
-    constructor(private router: Router, private toastController: ToastController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
+    constructor(private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
         this.activatedRoute.params.subscribe(
             (params: Params) => {
                 console.log(params['id']);
                 this.id = params['id'];
-                this.secret().then(r => {});
             }
         )
 
@@ -65,15 +65,23 @@ export class ViewPage {
         this.secretapi.view(this.id).subscribe(async (response) => {
             this.loaded = true;
             await loading.dismiss();
-            console.log(response);
             if(response.response_code !== 200) {
-                alert('The Secret Link does not exist or has already been viewed.');
+
+                const alert = await this.alertController.create({
+                    header: 'Secret error',
+                    message: 'The Secret Link does not exist or has already been viewed.',
+                    buttons: ['OK'],
+                });
+
+                await alert.present();
+
                 await this.router.navigateByUrl("/");
             } else {
                 this.secretModel = response;
                 if(this.secretModel.password === null) {
                     this.secretModel.password = "";
                 }
+
                 if(this.secretModel.password.length == 0) {
                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
                    this.unlocked = true;
@@ -89,24 +97,19 @@ export class ViewPage {
 
     }
 
-    public async secret() {
-
-        this.loaded = false;
-        const loading = await this.loadingCtrl.create({
-            message: 'Getting secret...'
-        });
-
-        await loading.present();
-        this.loaded = true;
-        await loading.dismiss();
-    }
-
-    public unlockByPassword() {
+    public async unlockByPassword() {
 
         let decryptedMessage = CryptoJS.AES.decrypt(this.secretModel.message, this.inputPassword).toString(CryptoJS.enc.Utf8);
 
-        if(decryptedMessage.length === 0) {
-            alert('Wrong password, try again.');
+        if (decryptedMessage.length === 0) {
+            const alert = await this.alertController.create({
+                header: 'Secret error',
+                message: 'The password is not correct. Try again.',
+                buttons: ['OK'],
+            });
+
+            await alert.present();
+
         } else {
             this.secretModel.message = decryptedMessage;
             this.unlocked = true;

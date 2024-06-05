@@ -40,6 +40,11 @@ export class HomePage {
 
   public async createLink() {
 
+    if(this.addSecretModal.message.length == 0) {
+      return;
+    }
+
+
     let id = uuid();
 
     this.addSecretModal.id = sha512(id);
@@ -59,7 +64,7 @@ export class HomePage {
     await loading.present();
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
-        this.addSecretModal = new Secret();
+        this.addSecretModal = new Secret(); // reset
         await this.router.navigateByUrl("/secret/created?id=" + id)
         await loading.dismiss();
     });
