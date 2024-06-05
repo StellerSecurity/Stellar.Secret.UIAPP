@@ -18,8 +18,9 @@ export class AppComponent {
       this.zone.run(() => {
         // Example url: https://beerswift.app/tabs/tab2
         // slug = /tabs/tab2
-        const slug = event.url.split(".app").pop();
+        const slug = event.url.split(".io").pop();
         if (slug) {
+          console.log("started...");
           this.router.navigateByUrl(slug);
         }
         // If no match, do nothing - let regular routing
