@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 import { SecretapiService } from "../../services/secretapi.service";
-import { LoadingController, ToastController, ModalController } from "@ionic/angular";
+import {LoadingController, ToastController, ModalController, Platform} from "@ionic/angular";
 import { Secret } from "../../models/secret";
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 
@@ -18,7 +18,10 @@ export class CreatedPage {
 
   public secret: Secret = new Secret();
 
-  constructor(private router: Router, private modalCtrl: ModalController, private toastController: ToastController, private secretapi: SecretapiService, private loadingCtrl: LoadingController, private route: ActivatedRoute) {
+  constructor(private router: Router,
+              private modalCtrl: ModalController, private toastController: ToastController,
+              private secretapi: SecretapiService,
+              private loadingCtrl: LoadingController, private route: ActivatedRoute, private platform: Platform) {
     this.route.queryParams.subscribe(async params => {
       this.id = params['id'];
       this.url = "https://stellarsecret.io/" + this.id;
@@ -29,15 +32,15 @@ export class CreatedPage {
   public async copy() {
 
     // Select the text field
-    var copyText = this.url;
+    const copyText = this.url;
 
     // Copy the text inside the text field
     await navigator.clipboard.writeText(copyText);
 
     const toast = await this.toastController.create({
-      message: 'The URL has been copied.',
+      message: 'The Secret URL has been copied.',
       duration: 3000,
-      position: 'top'
+      position: 'bottom'
     });
 
 
