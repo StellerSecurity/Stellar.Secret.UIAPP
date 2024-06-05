@@ -2,14 +2,14 @@ import {Component, NgZone} from '@angular/core';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { Router } from '@angular/router';
 import { App, URLOpenListenerEvent } from '@capacitor/app';
-
+import { Platform } from '@ionic/angular';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(private router: Router, private zone: NgZone) {
+  constructor(private router: Router, private zone: NgZone, public platform: Platform) {
    this.startup();
   }
 
@@ -27,7 +27,11 @@ export class AppComponent {
         // logic take over
       });
     });
-    StatusBar.setBackgroundColor({color: "black"}).then(r => {});
+
+    if(this.platform.is('android')) {
+      StatusBar.setBackgroundColor({color: "black"}).then(r => {});
+    }
+
   }
 
 }
