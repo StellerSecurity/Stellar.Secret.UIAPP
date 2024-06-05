@@ -44,15 +44,14 @@ export class HomePage {
       return;
     }
 
+    let secret_id = uuid();
 
-    let id = uuid();
-
-    this.addSecretModal.id = sha512(id);
+    this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
 
     // if no password is set, encrypt the message with the generated UUID.
     if(this.addSecretModal.password.length == 0) {
-      this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, id).toString();
+      this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, secret_id).toString();
     } else {
       this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, this.addSecretModal.password).toString();
     }
@@ -65,7 +64,7 @@ export class HomePage {
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
         this.addSecretModal = new Secret(); // reset
-        await this.router.navigateByUrl("/secret/created?id=" + id)
+        await this.router.navigateByUrl("/secret/created?id=" + secret_id)
         await loading.dismiss();
     });
 
