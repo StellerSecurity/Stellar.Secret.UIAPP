@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "stellar.secret.app",
+    "sha256_cert_fingerprints": ["22:15:4A:DF:6A:B1:0F:1A:3B:45:42:35:16:FE:EC:DE:DC:CC:3F:A0:55:E7:E6:8A:CE:B6:16:D3:1B:3B:F6:99"] }
+}]
