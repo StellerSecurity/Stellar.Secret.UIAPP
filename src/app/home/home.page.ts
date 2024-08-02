@@ -7,6 +7,7 @@ import { sha512, sha384, sha512_256, sha512_224 } from 'js-sha512';
 import { v4 as uuid } from 'uuid';
 
 import * as CryptoJS from 'crypto-js';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,7 @@ import * as CryptoJS from 'crypto-js';
 })
 export class HomePage {
 
+  selectedLanguage: string = 'en'; // Default language
 
   public addSecretModal = new Secret();
 
@@ -23,7 +25,9 @@ export class HomePage {
   public burnerTimes = [1, 6, 24];
 
   public chosenBurnerTime = 0;
-  constructor(private loadingCtrl: LoadingController, private router: Router, private secretapi: SecretapiService) {}
+  constructor(private loadingCtrl: LoadingController, private router: Router, private secretapi: SecretapiService,private translate: TranslateService) {
+    this.translate.setDefaultLang(this.selectedLanguage);
+  }
 
   public optionsToggle() {
     this.optionsDisplay = !this.optionsDisplay;
@@ -68,6 +72,11 @@ export class HomePage {
         await loading.dismiss();
     });
 
+  }
+
+  changeLanguage(event: any) {
+    this.selectedLanguage = event.detail.value;
+    this.translate.use(this.selectedLanguage);
   }
 
 }

@@ -3,14 +3,25 @@ import { StatusBar, Style } from '@capacitor/status-bar';
 import { Router } from '@angular/router';
 import { App, URLOpenListenerEvent } from '@capacitor/app';
 import { Platform } from '@ionic/angular';
+import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(private router: Router, private zone: NgZone, public platform: Platform) {
-   this.startup();
+  constructor(private router: Router, private zone: NgZone, public platform: Platform, private translate: TranslateService) {
+   // Set default language
+   translate.setDefaultLang('en');
+   // Use a language
+   //en --english
+   //fr--france
+   //chi--Mandarin Chinese
+   //hi--hindi
+   //sp--Spanish
+   //ar--Standard Arabic
+   translate.use('en');
+    this.startup();
   }
 
   public startup() {

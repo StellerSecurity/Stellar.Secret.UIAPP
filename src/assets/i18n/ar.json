@@ -1,0 +1,108 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "سر ستيلار",
+      "HOW_IT_WORKS": "كيف يعمل",
+      "DOWNLOAD_APP": "تحميل التطبيق",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "الرسائل السرية لمرة واحدة",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "شارك الأسرار، وتختفي تمامًا!",
+      
+      "ENCRYPTED_PROTECTED_BY": "مشفرة وآمنة ومحمية بواسطة ستيلار سيكيوريتي",
+      "WITHOUT_TRACE_TITLE": "بدون أثر",
+      "WITHOUT_TRACE_DESCRIPTION": "نضمن حماية قوية لمعلوماتك الحساسة. يتم تشفير جميع البيانات على جانب العميل. لا نعرف عنوان IP الخاص بك، أو ما تشاركه، أو مع من تشارك الروابط السرية - والأهم من ذلك، المحتوى.",
+      
+      "PRIVACY_PROTECTED_TITLE": "الخصوصية محمية",
+      "PRIVACY_PROTECTED_DESCRIPTION": "أنت الوحيد الذي يعرف الرابط إلى المعلومات السرية التي أنشأتها ومع من تشاركها. عند إنشاء سر، يمكنك إضافة كلمة مرور قبل أن يتم فتحه. من الممكن أيضًا تحديد وقت انتهاء. بغض النظر عن أي شيء، سيتم حذف السر بعد 14 يومًا.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "مشفرة من النهاية إلى النهاية",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "جميع الروابط والمحتوى يتم تجزئته على جانب العميل، مما يعني أننا حتى لا نعرف الرابط والمحتوى. كل رابط له معرف فريد بطول 36 والذي هو تشفير أحادي الاتجاه للوصول إلى الرسالة السرية ومحتواها الذي يتم تشفيره باستخدام AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "كيف يعمل؟",
+      "STEP_1_TITLE": "اكتب رسالتك و/أو أنشئ كلمة مرور",
+      "STEP_2_TITLE": "إنشاء رابط سري",
+      "STEP_3_TITLE": "شارك الرابط",
+      
+      "COMPANY_LOGO_ALT": "شعار الشركة",
+      
+      "SHARE_TITLE": "شارك رسالة سرية",
+      "SHARE_DESCRIPTION_PART_1": "اكتب وابعث الرسالة، سيتم",
+      "SHARE_DESCRIPTION_PART_2": "حذفها بمجرد قراءتها.",
+      
+      "SHARE_BULLET_1": "بدون أثر.",
+      "SHARE_BULLET_2": "الخصوصية محمية",
+      "SHARE_BULLET_3": "قابل للرؤية مرة واحدة",
+      
+      "SHARE_ENCRYPTED_BY": "مشفرة وآمنة ومحمية بواسطة ستيلار سيكيوريتي",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "اكتب رسالتك السرية أو كلمة المرور أو المعلومات الحساسة *",
+      "SHARE_OPTIONS": "الخيارات",
+      
+      "SHARE_EMPTY": "اتركها فارغة إذا كنت لا تريد أي شيء.",
+      "SHARE_BUTTON": "إنشاء رابط سري",
+      
+      "CREATED_TITLE": "تم إنشاء سرك",
+      "CREATED_SUBTITLE": "سيتم عرضه مرة واحدة فقط",
+      
+      "CREATED_TITLE_SHARE": "انسخ الرابط أو شاركه.",
+      "CREATED_BUTTON": "نسخ",
+      "CREATED_CREATE_SECRET": "إنشاء سر جديد",
+      "CREATED_BURNSECRET": "حرق السر",
+      "URL_COPIED": "تم نسخ URL.",
+      "SHARE_BURNER_TIME": "مدى الحياة",
+      "SHARE_PASS_PHRASE": "عبارة المرور",
+      "VIEW_SECRET": "عرض السر"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "سر ستيلار",
+      "HOW_IT_WORKS": "كيف يعمل",
+      "DOWNLOAD_APP": "تحميل التطبيق",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "الرسائل السرية لمرة واحدة",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "شارك الأسرار، وتختفي تمامًا!",
+      
+      "ENCRYPTED_PROTECTED_BY": "مشفرة وآمنة ومحمية بواسطة ستيلار سيكيوريتي",
+      "WITHOUT_TRACE_TITLE": "بدون أثر",
+      "WITHOUT_TRACE_DESCRIPTION": "نضمن حماية قوية لمعلوماتك الحساسة. يتم تشفير جميع البيانات على جانب العميل. لا نعرف عنوان IP الخاص بك، أو ما تشاركه، أو مع من تشارك الروابط السرية - والأهم من ذلك، المحتوى.",
+      
+      "PRIVACY_PROTECTED_TITLE": "الخصوصية محمية",
+      "PRIVACY_PROTECTED_DESCRIPTION": "أنت الوحيد الذي يعرف الرابط إلى المعلومات السرية التي أنشأتها ومع من تشاركها. عند إنشاء سر، يمكنك إضافة كلمة مرور قبل أن يتم فتحه. من الممكن أيضًا تحديد وقت انتهاء. بغض النظر عن أي شيء، سيتم حذف السر بعد 14 يومًا.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "مشفرة من النهاية إلى النهاية",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "جميع الروابط والمحتوى يتم تجزئته على جانب العميل، مما يعني أننا حتى لا نعرف الرابط والمحتوى. كل رابط له معرف فريد بطول 36 والذي هو تشفير أحادي الاتجاه للوصول إلى الرسالة السرية ومحتواها الذي يتم تشفيره باستخدام AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "كيف يعمل؟",
+      "STEP_1_TITLE": "اكتب رسالتك و/أو أنشئ كلمة مرور",
+      "STEP_2_TITLE": "إنشاء رابط سري",
+      "STEP_3_TITLE": "شارك الرابط",
+      
+      "COMPANY_LOGO_ALT": "شعار الشركة",
+      
+      "SHARE_TITLE": "شارك رسالة سرية",
+      "SHARE_DESCRIPTION_PART_1": "اكتب وابعث الرسالة، سيتم",
+      "SHARE_DESCRIPTION_PART_2": "حذفها بمجرد قراءتها.",
+      
+      "SHARE_BULLET_1": "بدون أثر.",
+      "SHARE_BULLET_2": "الخصوصية محمية",
+      "SHARE_BULLET_3": "قابل للرؤية مرة واحدة",
+      
+      "SHARE_ENCRYPTED_BY": "مشفرة وآمنة ومحمية بواسطة ستيلار سيكيوريتي",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "اكتب رسالتك السرية أو كلمة المرور أو المعلومات الحساسة *",
+      "SHARE_OPTIONS": "الخيارات",
+      
+      "SHARE_EMPTY": "اتركها فارغة إذا كنت لا تريد أي شيء.",
+      "SHARE_BUTTON": "إنشاء رابط سري",
+      
+      "CREATED_TITLE": "تم إنشاء سرك",
+      "CREATED_SUBTITLE": "سيتم عرضه مرة واحدة فقط",
+      
+      "CREATED_TITLE_SHARE": "انسخ الرابط أو شاركه.",
+      "CREATED_BUTTON": "نسخ",
+      "CREATED_CREATE_SECRET": "إنشاء سر جديد",
+      "CREATED_BURNSECRET": "حرق السر",
+      "URL_COPIED": "تم نسخ URL.",
+      
+      "VIEW_SECRET": "عرض السر"
+    }
+  }
+  

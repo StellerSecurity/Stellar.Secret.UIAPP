@@ -5,17 +5,34 @@
                 <ion-row>
                     <ion-col size-sm="6" size-xs="6">
                         <div class="left logo">
-                            <ion-button routerLink="/"><img src="/assets/icon/secret_icon_white.png"> <span>Stellar Secret</span></ion-button>
+                            <ion-button routerLink="/"><img src="/assets/icon/secret_icon_white.png"> <span>{{ 'HOME.HEADER_TITLE' | translate }}</span></ion-button>
                         </div>
                     </ion-col>
                     <ion-col size-sm="6" size-xs="6">
                         <div class="right">
                             <ion-row>
-                                <ion-col size-sm="6" size-xs="12"><ion-button routerLink="/how-it-works"><img
-                                        src="/assets/icon/tabler-icon-info-circle.svg"> <span>How it works</span> </ion-button></ion-col>
-                                <ion-col size-sm="6" size-xs="6" class="download-btn"><span  id="click-triggers"><img
+                                <ion-col size-sm="4" size-xs="6">
+                                    <div class="center">
+                                        <!-- Language Dropdown -->
+                                        <ion-select [(ngModel)]="selectedLanguage" (ionChange)="changeLanguage($event)">
+                                            <ion-select-option value="en">English</ion-select-option>
+                                            <ion-select-option value="fr">Français</ion-select-option>
+                                            <ion-select-option value="hi">हिन्दी</ion-select-option>
+                                            <ion-select-option value="chi">中文</ion-select-option>
+                                            <ion-select-option value="sp">Spanish</ion-select-option>
+                                            <ion-select-option value="ar">Arabic</ion-select-option>
+                                            <ion-select-option value="be">Bengali</ion-select-option>
+                                            <ion-select-option value="po">Portugese</ion-select-option>
+                                            <ion-select-option value="ru">Russian</ion-select-option>
+                                            <ion-select-option value="ur">Urdu</ion-select-option>
+                                        </ion-select>
+                                    </div>
+                                </ion-col>
+                                <ion-col size-sm="4" size-xs="12"><ion-button routerLink="/how-it-works"><img
+                                        src="/assets/icon/tabler-icon-info-circle.svg"> <span>{{ 'HOME.HOW_IT_WORKS' | translate }}</span> </ion-button></ion-col>
+                                <ion-col size-sm="4" size-xs="6" class="download-btn"><span id="click-triggers"><img
                                         src="/assets/icon/download-icon.svg">
-                                    Download App</span></ion-col>
+                                    {{ 'HOME.DOWNLOAD_APP' | translate }}</span></ion-col>
                             </ion-row>
                         </div>
                     </ion-col>
@@ -25,12 +42,11 @@
     </ion-toolbar>
 </ion-header>
 
-
 <ion-popover trigger="click-triggers" triggerAction="click">
     <ng-template>
-        <ion-content class="ion-padding">Stellar Secret is available in different stores:<br><br>
+        <ion-content class="ion-padding">{{ 'HOWITWORK.SHARE_DESCRIPTION_PART_1' | translate }}<br><br>
             <a href="https://stellar-security-secret.en.aptoide.com/app" target="_blank"><img style="height: 74px; width: 100%" src="assets/aptoide.png"></a><br>
-            <a href="https://play.google.com/store/apps/details?id=stellar.secret.app" target="_blank"><img style="height: 74px; width: 100%"src="assets/playstore.png"></a>
+            <a href="https://play.google.com/store/apps/details?id=stellar.secret.app" target="_blank"><img style="height: 74px; width: 100%" src="assets/playstore.png"></a>
             <a href="https://auroraoss.com/" target="_blank"><img style="height: 74px; width: 100%" src="assets/aurora.jpg"></a>
         </ion-content>
     </ng-template>
@@ -42,9 +58,8 @@
             <ion-row class="ion-align-items-center">
                 <ion-col size-sm="6" size-xs="12">
                     <div id="container" class="ion-padding">
-                        
-                        <h2 class="title">One-Time Secret Messaging</h2>
-                        <p class="sub-title">Share secrets, and poof—they're gone!</p>
+                        <h2 class="title">{{ 'HOWITWORK.ONE_TIME_SECRET_MESSAGING_TITLE' | translate }}</h2>
+                        <p class="sub-title">{{ 'HOWITWORK.ONE_TIME_SECRET_MESSAGING_SUBTITLE' | translate }}</p>
                     </div>
                 </ion-col>
                 <ion-col size-sm="6" size-xs="12">
@@ -57,70 +72,64 @@
             <ion-row class="ion-margin-top">
                 <ion-col size-sm="3" size-xs="12">
                     <div class="how-white-box">
-                        <h2>Encrypted, secured and protected by <span><a href="https://stellarsecurity.com/">Stellar Security</a></span></h2>
-                        <p>Stellar Secret allows you to share one-time viewable links with sensitive content in a secret link, that only you know, and the receiver knows. Its the best way, to keep sensitive information out from any messenger-apps.</p>
+                        <h2>{{ 'HOWITWORK.ENCRYPTED_PROTECTED_BY' | translate }}</h2>
+                        <p>{{ 'HOWITWORK.WITHOUT_TRACE_DESCRIPTION' | translate }}</p>
                     </div>
                 </ion-col>
                 <ion-col size-sm="3" size-xs="12">
                     <div class="how-white-box">
                         <img src="assets/icon/trace.svg" />
-                        <h3>Without a trace</h3>
-                        <p>We ensure robust protection of your sensitive information. All data is being encrypted on the client-side. We dont know your ip-address, what you share, or whom you share the secret links with - and most important, the content.</p>
+                        <h3>{{ 'HOWITWORK.WITHOUT_TRACE_TITLE' | translate }}</h3>
+                        <p>{{ 'HOWITWORK.WITHOUT_TRACE_DESCRIPTION' | translate }}</p>
                     </div>
                 </ion-col>
                 <ion-col size-sm="3" size-xs="12">
                     <div class="how-white-box">
                         <img src="assets/icon/privacy.svg" />
-                        <h3>Privacy Protected</h3>
-                        <p>You are the only one who knows the link to the secret information you created and whom you share it with. When creating a secret, you can add a password before it can be unlocked. Also it is possible to set a burner-time. No matter what, a secret will be deleted after <strong>14 days</strong>.</p>
+                        <h3>{{ 'HOWITWORK.PRIVACY_PROTECTED_TITLE' | translate }}</h3>
+                        <p>{{ 'HOWITWORK.PRIVACY_PROTECTED_DESCRIPTION' | translate }}</p>
                     </div>
                 </ion-col>
                 <ion-col size-sm="3" size-xs="12">
                     <div class="how-white-box">
                         <img src="assets/icon/lock.svg" />
-                        <h3>End-to-end encrypted</h3>
-                        <p>All links and content are hashed on the client-side, meaning even we, dont know the link and the content. Every link has a unique ID of a length of 36 which is a one-way encryption to be able to access the Secret Message and its content that is encrypted with AES-256.</p>
+                        <h3>{{ 'HOWITWORK.END_TO_END_ENCRYPTED_TITLE' | translate }}</h3>
+                        <p>{{ 'HOWITWORK.END_TO_END_ENCRYPTED_DESCRIPTION' | translate }}</p>
                     </div>
                 </ion-col>
             </ion-row>
 
-
             <ion-row class="ion-align-items-center ion-margin-top">
                 <ion-col size-sm="12" size-xs="12">
                     <div class="how-white-box">
-                        <h2>How it works?</h2>
-                        
-
+                        <h2>{{ 'HOWITWORK.HOW_IT_WORKS_TITLE' | translate }}</h2>
                         <ion-row class="ion-align-items-center">
                             <ion-col size-sm="4" size-xs="12">
                                 <div class="how-step">
-                                    <p><span>1</span>Write your message and/or generate password</p>
+                                    <p><span>1</span>{{ 'HOWITWORK.STEP_1_TITLE' | translate }}</p>
                                     <img src="assets/step1.png" />
                                 </div>
                             </ion-col>
                             <ion-col size-sm="4" size-xs="12">
                                 <div class="how-step">
-                                    <p><span>2</span>Create Secret Link</p>
+                                    <p><span>2</span>{{ 'HOWITWORK.STEP_2_TITLE' | translate }}</p>
                                     <img src="assets/step2.png" />
                                 </div>
                             </ion-col>
                             <ion-col size-sm="4" size-xs="12">
                                 <div class="how-step">
-                                    <p><span>3</span>Share link</p>
+                                    <p><span>3</span>{{ 'HOWITWORK.STEP_3_TITLE' | translate }}</p>
                                     <img src="assets/step3.png" />
                                 </div>
                             </ion-col>
                         </ion-row>
-
                     </div>
                 </ion-col>
             </ion-row>
-
         </ion-grid>
     </div>
 
     <div align="center"><br><br>
-        <a href="https://stellarsecurity.com" target="_blank"><img src="assets/Company-Logo-white.png" class="logo"></a>
+        <a href="https://stellarsecurity.com" target="_blank"><img src="assets/Company-Logo-white.png" class="logo" alt="{{ 'HOME.COMPANY_LOGO_ALT' | translate }}"></a>
     </div>
-
 </ion-content>

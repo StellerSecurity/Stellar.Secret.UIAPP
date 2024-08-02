@@ -6,6 +6,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { HowItWorksPageRoutingModule } from './how-it-works-routing.module';
 import { HowItWorksPage } from './how-it-works.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HowItWorksPage } from './how-it-works.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    HowItWorksPageRoutingModule
+    HowItWorksPageRoutingModule,
+    TranslateModule
   ],
   declarations: [HowItWorksPage]
 })
