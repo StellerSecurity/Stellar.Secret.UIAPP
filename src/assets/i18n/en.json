@@ -103,5 +103,18 @@
   "URL_COPIED": "The URL has been copied.",
   
   "VIEW_SECRET": "View Secret"
+  },
+  "CREATEDPAGE": {
+    "CREATEDPAGE": "Stellar Secret",
+    "HOW_IT_WORKS": "How it works",
+    "DOWNLOAD_APP": "Download App",
+    "CREATED_TITLE": "Your Secret was created",
+    "CREATED_SUBTITLE": "It will be shown only once",
+    "CREATED_TITLE_SHARE": "Copy link or share it.",
+    "CREATED_BUTTON": "COPY",
+    "CREATED_CREATE_SECRET": "Create New Secret",
+    "CREATED_BURNSECRET": "Burn Secret",
+    "URL_COPIED": "The URL has been copied."
   }
+  
 }

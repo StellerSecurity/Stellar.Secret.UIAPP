@@ -103,6 +103,18 @@
       "URL_COPIED": "O URL foi copiado.",
       
       "VIEW_SECRET": "Ver Segredo"
-    }
+    },
+    "CREATEDPAGE": {
+    "CREATEDPAGE": "Segredo Estelar",
+    "HOW_IT_WORKS": "Como funciona",
+    "DOWNLOAD_APP": "Baixar aplicativo",
+    "CREATED_TITLE": "Seu segredo foi criado",
+    "CREATED_SUBTITLE": "Será exibido apenas uma vez",
+    "CREATED_TITLE_SHARE": "Copie o link ou compartilhe-o.",
+    "CREATED_BUTTON": "COPIAR",
+    "CREATED_CREATE_SECRET": "Criar Novo Segredo",
+    "CREATED_BURNSECRET": "Queimar Segredo",
+    "URL_COPIED": "O URL foi copiado."
+  }
   }
   

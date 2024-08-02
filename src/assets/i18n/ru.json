@@ -103,6 +103,18 @@
       "URL_COPIED": "URL скопирован.",
       
       "VIEW_SECRET": "Просмотреть секрет"
-    }
+    },
+    "CREATEDPAGE": {
+        "CREATEDPAGE": "Звездный Секрет",
+        "HOW_IT_WORKS": "Как это работает",
+        "DOWNLOAD_APP": "Скачать приложение",
+        "CREATED_TITLE": "Ваш секрет был создан",
+        "CREATED_SUBTITLE": "Он будет показан только один раз",
+        "CREATED_TITLE_SHARE": "Скопируйте ссылку или поделитесь ею.",
+        "CREATED_BUTTON": "СКОПИРОВАТЬ",
+        "CREATED_CREATE_SECRET": "Создать новый секрет",
+        "CREATED_BURNSECRET": "Сжечь секрет",
+        "URL_COPIED": "URL скопирован."
+      }
   }
   

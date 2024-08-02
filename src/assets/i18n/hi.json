@@ -104,6 +104,18 @@
       "URL_COPIED": "URL कॉपी किया गया है।",
       
       "VIEW_SECRET": "सीक्रेट देखें"
-    }
+    },
+    "CREATEDPAGE": {
+    "CREATEDPAGE": "स्टेलर सीक्रेट",
+    "HOW_IT_WORKS": "यह कैसे काम करता है",
+    "DOWNLOAD_APP": "ऐप डाउनलोड करें",
+    "CREATED_TITLE": "आपका सीक्रेट बनाया गया",
+    "CREATED_SUBTITLE": "यह केवल एक बार दिखाया जाएगा",
+    "CREATED_TITLE_SHARE": "लिंक कॉपी करें या साझा करें।",
+    "CREATED_BUTTON": "कॉपी",
+    "CREATED_CREATE_SECRET": "नया सीक्रेट बनाएं",
+    "CREATED_BURNSECRET": "सीक्रेट जलाएं",
+    "URL_COPIED": "URL कॉपी कर लिया गया है।"
+  }
   }
   

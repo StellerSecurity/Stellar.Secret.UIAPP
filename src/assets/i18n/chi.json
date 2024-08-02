@@ -104,6 +104,18 @@
       "URL_COPIED": "网址已复制。",
       
       "VIEW_SECRET": "查看秘密"
-    }
+    },
+    "CREATEDPAGE": {
+    "CREATEDPAGE": "星际秘密",
+    "HOW_IT_WORKS": "如何运作",
+    "DOWNLOAD_APP": "下载应用",
+    "CREATED_TITLE": "您的秘密已创建",
+    "CREATED_SUBTITLE": "它只会显示一次",
+    "CREATED_TITLE_SHARE": "复制链接或分享。",
+    "CREATED_BUTTON": "复制",
+    "CREATED_CREATE_SECRET": "创建新秘密",
+    "CREATED_BURNSECRET": "销毁秘密",
+    "URL_COPIED": "URL 已复制。"
+  }
   }
   

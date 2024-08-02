@@ -10,6 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+  selectedLanguage: string = 'en';
+
   constructor(private router: Router, private zone: NgZone, public platform: Platform, private translate: TranslateService) {
    // Set default language
    translate.setDefaultLang('en');
@@ -22,6 +24,7 @@ export class AppComponent {
    //ar--Standard Arabic
    translate.use('en');
     this.startup();
+    this.setDefaultLanguage()
   }
 
   public startup() {
@@ -43,6 +46,20 @@ export class AppComponent {
       StatusBar.setBackgroundColor({color: "black"}).then(r => {});
     }
 
+  }
+
+  setDefaultLanguage() {
+    // Get browser language
+    const browserLang = navigator.language.split('-')[0]; // Extract language code (e.g., 'en', 'fr')
+    
+    // List of supported languages
+    const supportedLangs = ['en', 'fr', 'hi', 'chi', 'sp', 'ar', 'be', 'po', 'ru', 'ur'];
+    
+    // Set default language based on browser language or fallback to 'en'
+    this.selectedLanguage = supportedLangs.includes(browserLang) ? browserLang : 'en';
+    
+    this.translate.setDefaultLang(this.selectedLanguage);
+    this.translate.use(this.selectedLanguage);
   }
 
 }

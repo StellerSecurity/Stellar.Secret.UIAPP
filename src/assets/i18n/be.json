@@ -103,6 +103,18 @@
       "URL_COPIED": "URL কপি করা হয়েছে।",
       
       "VIEW_SECRET": "গোপনীয়তা দেখুন"
-    }
+    },
+    "CREATEDPAGE": {
+        "CREATEDPAGE": "স্টেলার সিক্রেট",
+        "HOW_IT_WORKS": "কীভাবে কাজ করে",
+        "DOWNLOAD_APP": "অ্যাপ ডাউনলোড করুন",
+        "CREATED_TITLE": "আপনার সিক্রেট তৈরি হয়েছে",
+        "CREATED_SUBTITLE": "এটি শুধুমাত্র একবার দেখানো হবে",
+        "CREATED_TITLE_SHARE": "লিঙ্ক কপি করুন বা শেয়ার করুন।",
+        "CREATED_BUTTON": "কপি",
+        "CREATED_CREATE_SECRET": "নতুন সিক্রেট তৈরি করুন",
+        "CREATED_BURNSECRET": "সিক্রেট পোড়ান",
+        "URL_COPIED": "URL কপি করা হয়েছে।"
+      }
   }
   

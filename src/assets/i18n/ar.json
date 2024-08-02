@@ -103,6 +103,18 @@
       "URL_COPIED": "تم نسخ URL.",
       
       "VIEW_SECRET": "عرض السر"
-    }
+    },
+    "CREATEDPAGE": {
+    "CREATEDPAGE": "سر ستيلار",
+    "HOW_IT_WORKS": "كيف يعمل",
+    "DOWNLOAD_APP": "تنزيل التطبيق",
+    "CREATED_TITLE": "تم إنشاء سرك",
+    "CREATED_SUBTITLE": "سيتم عرضه مرة واحدة فقط",
+    "CREATED_TITLE_SHARE": "انسخ الرابط أو شاركه.",
+    "CREATED_BUTTON": "نسخ",
+    "CREATED_CREATE_SECRET": "إنشاء سر جديد",
+    "CREATED_BURNSECRET": "حرق السر",
+    "URL_COPIED": "تم نسخ عنوان URL."
+  }
   }
   

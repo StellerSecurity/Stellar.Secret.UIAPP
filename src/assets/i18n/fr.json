@@ -103,6 +103,18 @@
       "URL_COPIED": "L'URL a été copiée.",
       
       "VIEW_SECRET": "Voir le secret"
-    }
+    },
+    "CREATEDPAGE": {
+    "CREATEDPAGE": "Secret Stellaire",
+    "HOW_IT_WORKS": "Comment ça marche",
+    "DOWNLOAD_APP": "Télécharger l'application",
+    "CREATED_TITLE": "Votre secret a été créé",
+    "CREATED_SUBTITLE": "Il sera montré une seule fois",
+    "CREATED_TITLE_SHARE": "Copiez le lien ou partagez-le.",
+    "CREATED_BUTTON": "COPIER",
+    "CREATED_CREATE_SECRET": "Créer un nouveau secret",
+    "CREATED_BURNSECRET": "Brûler le secret",
+    "URL_COPIED": "L'URL a été copiée."
+  }
   }
   

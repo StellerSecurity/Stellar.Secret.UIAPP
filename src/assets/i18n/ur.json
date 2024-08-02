@@ -103,6 +103,18 @@
       "URL_COPIED": "URL کاپی ہو گیا ہے۔",
       
       "VIEW_SECRET": "خفیہ دیکھیں"
-    }
+    },
+    "CREATEDPAGE": {
+        "CREATEDPAGE": "اسٹیلر سیکریٹ",
+        "HOW_IT_WORKS": "یہ کیسے کام کرتا ہے",
+        "DOWNLOAD_APP": "ایپ ڈاؤن لوڈ کریں",
+        "CREATED_TITLE": "آپ کا سیکریٹ بنایا گیا",
+        "CREATED_SUBTITLE": "یہ صرف ایک بار دکھایا جائے گا",
+        "CREATED_TITLE_SHARE": "لنک کاپی کریں یا شیئر کریں۔",
+        "CREATED_BUTTON": "کاپی",
+        "CREATED_CREATE_SECRET": "نیا سیکریٹ بنائیں",
+        "CREATED_BURNSECRET": "سیکریٹ جلائیں",
+        "URL_COPIED": "URL کاپی کر لی گئی ہے۔"
+      }
   }
   
