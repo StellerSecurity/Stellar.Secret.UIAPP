@@ -115,6 +115,35 @@
     "CREATED_CREATE_SECRET": "Create New Secret",
     "CREATED_BURNSECRET": "Burn Secret",
     "URL_COPIED": "The URL has been copied."
+  },
+  "CONFIRMATION": {
+    "YOURE_GONNA_BURN_THIS_SECRET": "You're gonna burn this secret",
+    "SECRET_UNAVAILABLE_TEXT": "It will not be available anymore",
+    "BURN_FOREVER": "Burn Forever",
+    "CANCEL": "Cancel"
+  },
+  "VIEW":{
+    "LOGO_TEXT": "Stellar Secret",
+    "HOW_IT_WORKS": "How it works",
+    "DOWNLOAD_APP": "Download App",
+    "WELCOME_MESSAGE": "Hi there, you received a secret message!",
+    "INSTRUCTION": "Write and send message, it will be deleted once read.",
+    "SHOW_MESSAGE_ONCE": "The following message will be shown <strong>only once</strong>",
+    "OPEN_SECRET_MESSAGE": "Open Secret Message",
+    "INPUT_PASSPHRASE": "Input Passphrase",
+    "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+    "OPEN_SECRET_BUTTON": "Open Secret Message",
+    "YOUR_SECRET_MESSAGE": "Your Secret Message",
+    "COPY": "Copy",
+    "MESSAGE_LABEL": "Message",
+    "REPLY": "Reply",
+    "DOWNLOAD_MESSAGE": "Download Stellar Secret on mobile, create your secret messages",
+    "WITHOUT_TRACE": "Without a trace.",
+    "PRIVACY_PROTECTED": "Privacy Protected",
+    "ONE_TIME_VIEWABLE": "One-time viewable",
+    "SECURITY_TEXT": "Encrypted, secured and protected by ",
+    "SECURITY_TEXT2":"Stellar Security"
   }
+
   
 }

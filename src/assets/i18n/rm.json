@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Co funcziuna",
+      "DOWNLOAD_APP": "Sgitar l'app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messaggi secret da ina giada",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partiziun secrets, e puff—els èn svanids!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encryptà, segira e protegia da Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Senza traccia",
+      "WITHOUT_TRACE_DESCRIPTION": "Nus garantin ina protecziun robusta da vossa infurmaziun sensitiva. Tut data vegn encryptada sin il client. Nus na savajan betg voss IP address, tge ch'ei vegn partì u cun tgi che vus partischa ils ligams secret - e quai ch'è il pli impurtant, il conteni.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatad protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vus sasez ilun che l'ena per il secret ch'ins ha creà e cun tgi ch'ins parta quel. Cur che vus creais in secret, pudais agiuntar ina password avant ch'ella pò vegnir sparta. Era è pussibel d'instaura in temp da brisar. Nun tgi, in secret vegn eliminà suenter 14 dis.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encryptà da end to end",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tut ligams e conteni vegnan hashads sin il client, quai ch'è da dir ch'inclus nus na savajan betg il ligam e il conteni. Ogni ligam ha in ID unic da 36 ch'è ina encryptaziun per accedir al Messaggi Secret e ses conteni ch'è encryptà cun AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Co funcziuna?",
+      "STEP_1_TITLE": "Scriva vossa messadi e/u genera password",
+      "STEP_2_TITLE": "Crea ligam secret",
+      "STEP_3_TITLE": "Parta ligam",
+      
+      "COMPANY_LOGO_ALT": "Logo da l'empresa",
+      
+      "SHARE_TITLE": "Parti in messadi secret",
+      "SHARE_DESCRIPTION_PART_1": "Scriva e sendai messadi, el vegn",
+      "SHARE_DESCRIPTION_PART_2": "eliminà suenter ch'el è lèss.",
+      
+      "SHARE_BULLET_1": "Senza traccia.",
+      "SHARE_BULLET_2": "Privatad protegida",
+      "SHARE_BULLET_3": "Visualisaziun da ina giada",
+      
+      "SHARE_ENCRYPTED_BY": "Encryptà, segira e protegia da Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Scriva vossa messadi secret, password u infurmaziun sensitiva *",
+      "SHARE_OPTIONS": "Pussibiltads",
+      
+      "SHARE_EMPTY": "Lascha vuota per nagina.",
+      "SHARE_BUTTON": "Crea Ligam Secret",
+      
+      "CREATED_TITLE": "Voss Secret è stà creat",
+      "CREATED_SUBTITLE": "El vegn mussà be ina giada",
+      
+      "CREATED_TITLE_SHARE": "Copia ligam u parta quel.",
+      "CREATED_BUTTON": "COPIA",
+      "CREATED_CREATE_SECRET": "Crea Nov Secret",
+      "CREATED_BURNSECRET": "Brisà Secret",
+      "URL_COPIED": "Il URL è stà copià.",
+      "SHARE_BURNER_TIME":"Durada",
+      "SHARE_PASS_PHRASE":"Password",
+      "VIEW_SECRET": "Vedi Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Co funcziuna",
+      "DOWNLOAD_APP": "Sgitar l'app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messaggi secret da ina giada",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partiziun secrets, e puff—els èn svanids!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encryptà, segira e protegia da Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Senza traccia",
+      "WITHOUT_TRACE_DESCRIPTION": "Nus garantin ina protecziun robusta da vossa infurmaziun sensitiva. Tut data vegn encryptada sin il client. Nus na savajan betg voss IP address, tge ch'ei vegn partì u cun tgi che vus partischa ils ligams secret - e quai ch'è il pli impurtant, il conteni.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatad protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vus sasez ilun che l'ena per il secret ch'ins ha creà e cun tgi ch'ins parta quel. Cur che vus creais in secret, pudais agiuntar ina password avant ch'ella pò vegnir sparta. Era è pussibel d'instaura in temp da brisar. Nun tgi, in secret vegn eliminà suenter 14 dis.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encryptà da end to end",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tut ligams e conteni vegnan hashads sin il client, quai ch'è da dir ch'inclus nus na savajan betg il ligam e il conteni. Ogni ligam ha in ID unic da 36 ch'è ina encryptaziun per accedir al Messaggi Secret e ses conteni ch'è encryptà cun AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Co funcziuna?",
+      "STEP_1_TITLE": "Scriva vossa messadi e/u genera password",
+      "STEP_2_TITLE": "Crea ligam secret",
+      "STEP_3_TITLE": "Parta ligam",
+      
+      "COMPANY_LOGO_ALT": "Logo da l'empresa",
+      
+      "SHARE_TITLE": "Parti in messadi secret",
+      "SHARE_DESCRIPTION_PART_1": "Scriva e sendai messadi, el vegn",
+      "SHARE_DESCRIPTION_PART_2": "eliminà suenter ch'el è lèss.",
+      
+      "SHARE_BULLET_1": "Senza traccia.",
+      "SHARE_BULLET_2": "Privatad protegida",
+      "SHARE_BULLET_3": "Visualisaziun da ina giada",
+      
+      "SHARE_ENCRYPTED_BY": "Encryptà, segira e protegia da Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Scriva vossa messadi secret, password u infurmaziun sensitiva *",
+      "SHARE_OPTIONS": "Pussibiltads",
+      
+      "SHARE_EMPTY": "Lascha vuota per nagina.",
+      "SHARE_BUTTON": "Crea Ligam Secret",
+      
+      "CREATED_TITLE": "Voss Secret è stà creat",
+      "CREATED_SUBTITLE": "El vegn mussà be ina giada",
+      
+      "CREATED_TITLE_SHARE": "Copia ligam u parta quel.",
+      "CREATED_BUTTON": "COPIA",
+      "CREATED_CREATE_SECRET": "Crea Nov Secret",
+      "CREATED_BURNSECRET": "Brisà Secret",
+      "URL_COPIED": "Il URL è stà copià.",
+      
+      "VIEW_SECRET": "Vedi Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Co funcziuna",
+      "DOWNLOAD_APP": "Sgitar l'app",
+      "CREATED_TITLE": "Voss Secret è stà creat",
+      "CREATED_SUBTITLE": "El vegn mussà be ina giada",
+      "CREATED_TITLE_SHARE": "Copia ligam u parta quel.",
+      "CREATED_BUTTON": "COPIA",
+      "CREATED_CREATE_SECRET": "Crea Nov Secret",
+      "CREATED_BURNSECRET": "Brisà Secret",
+      "URL_COPIED": "Il URL è stà copià."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vus vegnids a brisar quest secret",
+      "SECRET_UNAVAILABLE_TEXT": "El na serà betg accessibel pli",
+      "BURN_FOREVER": "Brisar per adina",
+      "CANCEL": "Annulà"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Co funcziuna",
+      "DOWNLOAD_APP": "Sgitar l'app",
+      "WELCOME_MESSAGE": "Bun di, vus avais retschet in messadi secret!",
+      "INSTRUCTION": "Scriva e sendai messadi, el vegn eliminà suenter ch'el è lèss.",
+      "SHOW_MESSAGE_ONCE": "Il suandant messadi vegn mussà <strong>be ina giada</strong>",
+      "OPEN_SECRET_MESSAGE": "Avrir Messadi Secret",
+      "INPUT_PASSPHRASE": "Inserir Password",
+      "PASS_PHRASE_PLACEHOLDER": "Password",
+      "OPEN_SECRET_BUTTON": "Avrir Messadi Secret",
+      "YOUR_SECRET_MESSAGE": "Voss Messadi Secret",
+      "COPY": "Copia",
+      "MESSAGE_LABEL": "Messadi",
+      "REPLY": "Respuonder",
+      "DOWNLOAD_MESSAGE": "Sgitar Stellar Secret sin mobil, crea voss messadis secret",
+      "WITHOUT_TRACE": "Senza traccia.",
+      "PRIVACY_PROTECTED": "Privatad protegida",
+      "ONE_TIME_VIEWABLE": "Visualisaziun da ina giada",
+      "SECURITY_TEXT": "Encryptà, segira e protegia da ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

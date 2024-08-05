@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ViewPageRoutingModule } from './view-routing.module';
 
 import { ViewPage } from './view.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ViewPage } from './view.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ViewPageRoutingModule
+    ViewPageRoutingModule,
+    TranslateModule
   ],
   declarations: [ViewPage]
 })

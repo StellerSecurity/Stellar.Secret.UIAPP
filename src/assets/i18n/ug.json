@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "قانداق ئىشلەيدۇ",
+      "DOWNLOAD_APP": "ئىلتىماقنى يۈكلەش",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "بىر قېتىملىق سىرىي ئۇچۇر",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "سەرگە بەرگەن سىرلىرىڭىز، ھەممە نەمەلەر ئۆچۈرۈلىدۇ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "شەھسىي قۇرغۇچى ئارقىلىق شifrelenip, مۇھاپىزەتلەنگەن",
+      "WITHOUT_TRACE_TITLE": "سىزنىڭ ئىزى يوق",
+      "WITHOUT_TRACE_DESCRIPTION": "سىزنىڭ مەلۇماتلىرىڭىزنى كۈچلۈك قوغداشنى تەمىنلەيمىز. بارلىق مەلۇماتلار كلىيېنت تەرەپتە شifrelenip, سىزنىڭ IP ئادرىسىڭىزنى، نىمە سەلكىلەش بىلەن شەريكلەشتۈرۈلگەن ياكى قانداق سىر بەرمەيدۇ - ئەڭ مۇھىمى، مەزمۇن.",
+      
+      "PRIVACY_PROTECTED_TITLE": "شەخسىيەت قوغداش",
+      "PRIVACY_PROTECTED_DESCRIPTION": "سىز ياسىغان سىر ئۇچۇرغا ئۇلاش ۋە قايسى بويىچە بەھرىمەندىن باشقا ھېچكىم بىلەلمەيدۇ. سىر ياسىغاندا، ئۇنى ئاچىشقا بولۇشى ئۈچۈن پارول قوشالايسىز. شۇڭا ئۇنىڭغا يېتىش ئۈچۈن مۇددىتىنى بەلگىلەش مۇمكىن. ئەسىلىدە، بىر سىر 14 كۈن پۈتۈنلەي ئۆچۈرۈلۈپ تاشلىنىدۇ.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "ئاخىرلىقتىن ئاخىرغا شifrelenip",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "بارلىق ئۇچۇرلار ۋە مەزمۇنلار كلىيېنت تەرەپتە شifrelenip, شۇڭا ھېچقانداق بىز نىمە سەللىندۇرىدۇق. ھەر بىر ئۇچۇرنىڭ ئۆزگىچە ID بار بولۇپ، ئۇنىڭغا 36 ئۇزۇنلۇقتا بىر تەرەپلىك شifrelenip بىرىلدە تۇرغان. سىر مەلۇمات ۋە مەزمۇن AES-256 بىلەن شifrelenip.",
+      
+      "HOW_IT_WORKS_TITLE": "قانداق ئىشلەيدۇ؟",
+      "STEP_1_TITLE": "سىزنىڭ ئۇچۇرنى يازىڭ ۋە ياكى پارول ياسىغۇ",
+      "STEP_2_TITLE": "سىر ئۇلاشنى قۇرۇڭ",
+      "STEP_3_TITLE": "ئۇلاشنى بەھرىمەند قىلىڭ",
+      
+      "COMPANY_LOGO_ALT": "شىرکەتنىڭ لوگوسى",
+      
+      "SHARE_TITLE": "سىرلىق ئۇچۇرنى بەھرىمەند قىلىڭ",
+      "SHARE_DESCRIPTION_PART_1": "سىزنىڭ ئۇچۇرنى يازىڭ ۋە ئەۋەتىڭ، ئۇ بولىدۇ",
+      "SHARE_DESCRIPTION_PART_2": "ئوقۇلغاندىن كېيىن ئۆچۈرۈلىدۇ.",
+      
+      "SHARE_BULLET_1": "سىزنىڭ ئىزى يوق.",
+      "SHARE_BULLET_2": "شەخسىيەت قوغداش",
+      "SHARE_BULLET_3": "بىر قېتىملىق كۆرۈشۈلۈدىغان",
+      
+      "SHARE_ENCRYPTED_BY": "شەھسىي قۇرغۇچى ئارقىلىق شifrelenip, مۇھاپىزەتلەنگەن",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "سىزنىڭ سىر ئۇچۇرىڭىزنى، پارولنى ياكى شەخسىي مەلۇماتنى يازىڭ *",
+      "SHARE_OPTIONS": "تاللاشلار",
+      
+      "SHARE_EMPTY": "بوش قويۇپ قويۇڭ.",
+      "SHARE_BUTTON": "سىر ئۇلاشنى قۇرۇڭ",
+      
+      "CREATED_TITLE": "سىزنىڭ سىرىڭىز قۇرۇلدى",
+      "CREATED_SUBTITLE": "بۇ پەقەت بىر قېتىم كۆرسىتىلىدۇ",
+      
+      "CREATED_TITLE_SHARE": "ئۇلاشنى نۇسخىلىۋېلىڭ ياكى بەھرىمەند قىلىڭ.",
+      "CREATED_BUTTON": "نۇسخىلىۋېلىڭ",
+      "CREATED_CREATE_SECRET": "يېڭى سىر قۇرۇڭ",
+      "CREATED_BURNSECRET": "سىرنى ئۆچۈرۈڭ",
+      "URL_COPIED": "URL نۇسخىلاندى.",
+      "SHARE_BURNER_TIME":"مەۋجۇت ۋاقىت",
+      "SHARE_PASS_PHRASE":"پارول",
+      "VIEW_SECRET": "سىرنى كۆرۈش"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "قانداق ئىشلەيدۇ",
+      "DOWNLOAD_APP": "ئىلتىماقنى يۈكلەش",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "بىر قېتىملىق سىرىي ئۇچۇر",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "سەرگە بەرگەن سىرلىرىڭىز، ھەممە نەمەلەر ئۆچۈرۈلىدۇ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "شەھسىي قۇرغۇچى ئارقىلىق شifrelenip, مۇھاپىزەتلەنگەن",
+      "WITHOUT_TRACE_TITLE": "سىزنىڭ ئىزى يوق",
+      "WITHOUT_TRACE_DESCRIPTION": "سىزنىڭ مەلۇماتلىرىڭىزنى كۈچلۈك قوغداشنى تەمىنلەيمىز. بارلىق مەلۇماتلار كلىيېنت تەرەپتە شifrelenip, سىزنىڭ IP ئادرىسىڭىزنى، نىمە سەلكىلەش بىلەن شەريكلەشتۈرۈلگەن ياكى قانداق سىر بەرمەيدۇ - ئەڭ مۇھىمى، مەزمۇن.",
+      
+      "PRIVACY_PROTECTED_TITLE": "شەخسىيەت قوغداش",
+      "PRIVACY_PROTECTED_DESCRIPTION": "سىز ياسىغان سىر ئۇچۇرغا ئۇلاش ۋە قايسى بويىچە بەھرىمەندىن باشقا ھېچكىم بىلەلمەيدۇ. سىر ياسىغاندا، ئۇنى ئاچىشقا بولۇشى ئۈچۈن پارول قوشالايسىز. شۇڭا ئۇنىڭغا يېتىش ئۈچۈن مۇددىتىنى بەلگىلەش مۇمكىن. ئەسىلىدە، بىر سىر 14 كۈن پۈتۈنلەي ئۆچۈرۈلۈپ تاشلىنىدۇ.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "ئاخىرلىقتىن ئاخىرغا شifrelenip",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "بارلىق ئۇچۇرلار ۋە مەزمۇنلار كلىيېنت تەرەپتە شifrelenip, شۇڭا ھېچقانداق بىز نىمە سەللىندۇرىدۇق. ھەر بىر ئۇچۇرنىڭ ئۆزگىچە ID بار بولۇپ، ئۇنىڭغا 36 ئۇزۇنلۇقتا بىر تەرەپلىك شifrelenip بىرىلدە تۇرغان. سىر مەلۇمات ۋە مەزمۇن AES-256 بىلەن شifrelenip.",
+      
+      "HOW_IT_WORKS_TITLE": "قانداق ئىشلەيدۇ؟",
+      "STEP_1_TITLE": "سىزنىڭ ئۇچۇرنى يازىڭ ۋە ياكى پارول ياسىغۇ",
+      "STEP_2_TITLE": "سىر ئۇلاشنى قۇرۇڭ",
+      "STEP_3_TITLE": "ئۇلاشنى بەھرىمەند قىلىڭ",
+      
+      "COMPANY_LOGO_ALT": "شىرڪەتنىڭ لوگوسى",
+      
+      "SHARE_TITLE": "سىرلىق ئۇچۇرنى بەھرىمەند قىلىڭ",
+      "SHARE_DESCRIPTION_PART_1": "سىزنىڭ ئۇچۇرنى يازىڭ ۋە ئەۋەتىڭ، ئۇ بولىدۇ",
+      "SHARE_DESCRIPTION_PART_2": "ئوقۇلغاندىن كېيىن ئۆچۈرۈلىدۇ.",
+      
+      "SHARE_BULLET_1": "سىزنىڭ ئىزى يوق.",
+      "SHARE_BULLET_2": "شەخسىيەت قوغداش",
+      "SHARE_BULLET_3": "بىر قېتىملىق كۆرۈشۈلۈدىغان",
+      
+      "SHARE_ENCRYPTED_BY": "شەھسىي قۇرغۇچى ئارقىلىق شifrelenip, مۇھاپىزەتلەنگەن",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "سىزنىڭ سىر ئۇچۇرىڭىزنى، پارولنى ياكى شەخسىي مەلۇماتنى يازىڭ *",
+      "SHARE_OPTIONS": "تاللاشلار",
+      
+      "SHARE_EMPTY": "بوش قويۇپ قويۇڭ.",
+      "SHARE_BUTTON": "سىر ئۇلاشنى قۇرۇڭ",
+      
+      "CREATED_TITLE": "سىزنىڭ سىرىڭىز قۇرۇلدى",
+      "CREATED_SUBTITLE": "بۇ پەقەت بىر قېتىم كۆرسىتىلىدۇ",
+      
+      "CREATED_TITLE_SHARE": "ئۇلاشنى نۇسخىلىۋېلىڭ ياكى بەھرىمەند قىلىڭ.",
+      "CREATED_BUTTON": "نۇسخىلىۋېلىڭ",
+      "CREATED_CREATE_SECRET": "يېڭى سىر قۇرۇڭ",
+      "CREATED_BURNSECRET": "سىرنى ئۆچۈرۈڭ",
+      "URL_COPIED": "URL نۇسخىلاندى.",
+      
+      "VIEW_SECRET": "سىرنى كۆرۈش"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "قانداق ئىشلەيدۇ",
+      "DOWNLOAD_APP": "ئىلتىماقنى يۈكلەش",
+      "CREATED_TITLE": "سىزنىڭ سىرىڭىز قۇرۇلدى",
+      "CREATED_SUBTITLE": "بۇ پەقەت بىر قېتىم كۆرسىتىلىدۇ",
+      "CREATED_TITLE_SHARE": "ئۇلاشنى نۇسخىلىۋېلىڭ ياكى بەھرىمەند قىلىڭ.",
+      "CREATED_BUTTON": "نۇسخىلىۋېلىڭ",
+      "CREATED_CREATE_SECRET": "يېڭى سىر قۇرۇڭ",
+      "CREATED_BURNSECRET": "سىرنى ئۆچۈرۈڭ",
+      "URL_COPIED": "URL نۇسخىلاندى."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "سىز بۇ سىرنى ئۆچۈرۈسز",
+      "SECRET_UNAVAILABLE_TEXT": "ئۇ يەنە بولمايدۇ",
+      "BURN_FOREVER": "ئەمەلىيەتتىن ئۆچۈرۈش",
+      "CANCEL": "چوقۇتمۇ"
+    },
+    "VIEW":{
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "قانداق ئىشلەيدۇ",
+      "DOWNLOAD_APP": "ئىلتىماقنى يۈكلەش",
+      "WELCOME_MESSAGE": "سالام، سىزگە سىرلىق ئۇچۇر كەلدى!",
+      "INSTRUCTION": "سىزنىڭ ئۇچۇرنى يازىڭ ۋە ئەۋەتىڭ، ئۇ بولىدۇ",
+      "SHOW_MESSAGE_ONCE": "كۆرسىتىلىدىغان ئۇچۇر <strong>پەقەت بىر قېتىم</strong>",
+      "OPEN_SECRET_MESSAGE": "سىرلىق ئۇچۇرنى ئېچىڭ",
+      "INPUT_PASSPHRASE": "پارولنى كىرگۈزۈڭ",
+      "PASS_PHRASE_PLACEHOLDER": "پارول",
+      "OPEN_SECRET_BUTTON": "سىرلىق ئۇچۇرنى ئېچىڭ",
+      "YOUR_SECRET_MESSAGE": "سىزنىڭ سىرلىق ئۇچۇرىڭىز",
+      "COPY": "نۇسخىلىۋېلىڭ",
+      "MESSAGE_LABEL": "ئۇچۇر",
+      "REPLY": "جاۋاب بىرىڭ",
+      "DOWNLOAD_MESSAGE": "Stellar Secret نى مەبلەغكە يۈكلەپ، سىزنىڭ سىرلىق ئۇچۇرلارنى قۇرۇڭ",
+      "WITHOUT_TRACE": "سىزنىڭ ئىزى يوق.",
+      "PRIVACY_PROTECTED": "شەخسىيەت قوغداش",
+      "ONE_TIME_VIEWABLE": "بىر قېتىملىق كۆرۈشۈلۈدىغان",
+      "SECURITY_TEXT": "شەھسىي قۇرغۇچى ئارقىلىق شifrelenip, مۇھاپىزەتلەنگەن ",
+      "SECURITY_TEXT2":"Stellar Security"
+    }
+  }
+  

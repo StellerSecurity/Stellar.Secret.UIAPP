@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Secreta sa Stellar",
+      "HOW_IT_WORKS": "Kamoo e sebetsang kateng",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Mesegepelo e sa phethago",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Abelana mekgwa, mme e shwa!",
+      
+      "ENCRYPTED_PROTECTED_BY": "E patilwe, e sireleditswe ebile e sireleditswe ke Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Tsebello",
+      "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tshepo e matla ya tshebediso ya tshedimosetso ya gago. Datha yohle e patilwe ka lehlakoreng la moreki. Ha re tsebe aterese ya gago, se o abelana ka sona, le bao o abelanang le bona - le se kgethegileng, dikahare.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Phetoho e sireleditswe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "O feela o itseng sehokelo sa tshedimosetso se o se thehileng le bao o abelanang le bona. Ha o theha sephiri, o ka eketsa password pele se ka bula. Hape ho kgethegile ho beha nako ya burner. Le fa ho ntse jalo, sephiri se tla tloswa ka mor'a matsatsi a 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "E patilwe go tswa qetellong go ya qetellong",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Link yohle le dikahare di hashewa ka lehlakoreng la moreki, ho bolelang hore le rona re sitwa go tseba sehokelo le dikahare. Sekhetho se seng le se seng se na le ID e kgethegileng e telele e leng 36 e leng encryption e e lekgolo go nna le tshebediso ya Secreta Message le dikahare tse di patilweng ka AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kamoo e sebetsang kateng?",
+      "STEP_1_TITLE": "Ngwaga ya gago le/ke password",
+      "STEP_2_TITLE": "Theha Secreta Link",
+      "STEP_3_TITLE": "Abelana link",
+      
+      "COMPANY_LOGO_ALT": "Logo ya Khamphani",
+      
+      "SHARE_TITLE": "Abelana molaetsa wa sephiri",
+      "SHARE_DESCRIPTION_PART_1": "Ngwaga le romela molaetsa, e tla",
+      "SHARE_DESCRIPTION_PART_2": "tloswa ka mor'a go balwa.",
+      
+      "SHARE_BULLET_1": "Tsebello.",
+      "SHARE_BULLET_2": "Phetoho e sireleditswe",
+      "SHARE_BULLET_3": "E ka balwa hang-hang",
+      
+      "SHARE_ENCRYPTED_BY": "E patilwe, e sireleditswe ebile e sireleditswe ke Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ngwaga molaetsa wa gago wa Secreta, password kapa tshedimosetso e amanang *",
+      "SHARE_OPTIONS": "Dikgetho",
+      
+      "SHARE_EMPTY": "Tlohela e sa na le lefa.",
+      "SHARE_BUTTON": "Theha Secreta Link",
+      
+      "CREATED_TITLE": "Sephiri sa gago se thehilwe",
+      "CREATED_SUBTITLE": "Se tla bonwa hang-hang fela",
+      
+      "CREATED_TITLE_SHARE": "Kopitsa link kapa abelana ka yona.",
+      "CREATED_BUTTON": "KOPITSA",
+      "CREATED_CREATE_SECRET": "Theha Secreta e Ntjha",
+      "CREATED_BURNSECRET": "Tloswa Secreta",
+      "URL_COPIED": "URL e kopilwe.",
+      "SHARE_BURNER_TIME": "Nako ya bophelo",
+      "SHARE_PASS_PHRASE": "Passphrase",
+      "VIEW_SECRET": "Bona Secreta"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Secreta sa Stellar",
+      "HOW_IT_WORKS": "Kamoo e sebetsang kateng",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Mesegepelo e sa phethago",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Abelana mekgwa, mme e shwa!",
+      
+      "ENCRYPTED_PROTECTED_BY": "E patilwe, e sireleditswe ebile e sireleditswe ke Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Tsebello",
+      "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tshepo e matla ya tshebediso ya tshedimosetso ya gago. Datha yohle e patilwe ka lehlakoreng la moreki. Ha re tsebe aterese ya gago, se o abelana ka sona, le bao o abelanang le bona - le se kgethegileng, dikahare.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Phetoho e sireleditswe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "O feela o itseng sehokelo sa tshedimosetso se o se thehileng le bao o abelanang le bona. Ha o theha sephiri, o ka eketsa password pele se ka bula. Hape ho kgethegile ho beha nako ya burner. Le fa ho ntse jalo, sephiri se tla tloswa ka mor'a matsatsi a 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "E patilwe go tswa qetellong go ya qetellong",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Link yohle le dikahare di hashewa ka lehlakoreng la moreki, ho bolelang hore le rona re sitwa go tseba sehokelo le dikahare. Sekhetho se seng le se seng se na le ID e kgethegileng e telele e leng 36 e leng encryption e e lekgolo go nna le tshebediso ya Secreta Message le dikahare tse di patilweng ka AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kamoo e sebetsang kateng?",
+      "STEP_1_TITLE": "Ngwaga ya gago le/ke password",
+      "STEP_2_TITLE": "Theha Secreta Link",
+      "STEP_3_TITLE": "Abelana link",
+      
+      "COMPANY_LOGO_ALT": "Logo ya Khamphani",
+      
+      "SHARE_TITLE": "Abelana molaetsa wa sephiri",
+      "SHARE_DESCRIPTION_PART_1": "Ngwaga le romela molaetsa, e tla",
+      "SHARE_DESCRIPTION_PART_2": "tloswa ka mor'a go balwa.",
+      
+      "SHARE_BULLET_1": "Tsebello.",
+      "SHARE_BULLET_2": "Phetoho e sireleditswe",
+      "SHARE_BULLET_3": "E ka balwa hang-hang",
+      
+      "SHARE_ENCRYPTED_BY": "E patilwe, e sireleditswe ebile e sireleditswe ke Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ngwaga molaetsa wa gago wa Secreta, password kapa tshedimosetso e amanang *",
+      "SHARE_OPTIONS": "Dikgetho",
+      
+      "SHARE_EMPTY": "Tlohela e sa na le lefa.",
+      "SHARE_BUTTON": "Theha Secreta Link",
+      
+      "CREATED_TITLE": "Sephiri sa gago se thehilwe",
+      "CREATED_SUBTITLE": "Se tla bonwa hang-hang fela",
+      
+      "CREATED_TITLE_SHARE": "Kopitsa link kapa abelana ka yona.",
+      "CREATED_BUTTON": "KOPITSA",
+      "CREATED_CREATE_SECRET": "Theha Secreta e Ntjha",
+      "CREATED_BURNSECRET": "Tloswa Secreta",
+      "URL_COPIED": "URL e kopilwe.",
+      
+      "VIEW_SECRET": "Bona Secreta"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Secreta sa Stellar",
+      "HOW_IT_WORKS": "Kamoo e sebetsang kateng",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Sephiri sa gago se thehilwe",
+      "CREATED_SUBTITLE": "Se tla bonwa hang-hang fela",
+      "CREATED_TITLE_SHARE": "Kopitsa link kapa abelana ka yona.",
+      "CREATED_BUTTON": "KOPITSA",
+      "CREATED_CREATE_SECRET": "Theha Secreta e Ntjha",
+      "CREATED_BURNSECRET": "Tloswa Secreta",
+      "URL_COPIED": "URL e kopilwe."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "O tla tloswa sephiri se",
+      "SECRET_UNAVAILABLE_TEXT": "Se ke ke sa atleha go ba teng",
+      "BURN_FOREVER": "Tloswa Bophela",
+      "CANCEL": "Kgaotsa"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Secreta sa Stellar",
+      "HOW_IT_WORKS": "Kamoo e sebetsang kateng",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Lumelang, o amohetse molaetsa wa sephiri!",
+      "INSTRUCTION": "Ngwaga le romela molaetsa, e tla tloswa ka mor'a go balwa.",
+      "SHOW_MESSAGE_ONCE": "Molaetsa o latelang o tla bonwa <strong>hang-hang fela</strong>",
+      "OPEN_SECRET_MESSAGE": "Bula Molaetsa wa Secreta",
+      "INPUT_PASSPHRASE": "Kenya Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Bula Molaetsa wa Secreta",
+      "YOUR_SECRET_MESSAGE": "Molaetsa wa gago wa Secreta",
+      "COPY": "Kopitsa",
+      "MESSAGE_LABEL": "Molaetsa",
+      "REPLY": "Araba",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret mo mobile, theha mekgwa ya gago ya sephiri",
+      "WITHOUT_TRACE": "Tsebello.",
+      "PRIVACY_PROTECTED": "Phetoho e sireleditswe",
+      "ONE_TIME_VIEWABLE": "E ka balwa hang-hang",
+      "SECURITY_TEXT": "E patilwe, e sireleditswe ebile e sireleditswe ke ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

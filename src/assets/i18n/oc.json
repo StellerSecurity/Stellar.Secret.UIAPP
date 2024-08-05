@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Secret Stellar",
+      "HOW_IT_WORKS": "Coma fonciona",
+      "DOWNLOAD_APP": "Telecargar l'aplicacion",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messatge secret a un còp",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partissi secrets, e puf—desaparisseràn!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encriptat, segur e protegit per la Seguretat Stellar",
+      "WITHOUT_TRACE_TITLE": "Sens traça",
+      "WITHOUT_TRACE_DESCRIPTION": "Asseguram una proteccion robusta de vòstras informacions sensiblas. Totas las donadas son encriptadas sul costat client. Sabem pas vòstre IP, çò que partejatz, ni amb qui partejatz los ligams secrets - e lo mai important, lo contengut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacitat protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Soz pas qu'unicament qui coneis lo ligam a l'informacion secreta que creètz e amb qui lo partejatz. Quand creadz un secret, pòdetz agregar un mot de passa abans que pòsca èsser desblocat. Es tanben possible de definir un temps de vida limitat. Quina que siá, un secret serà suprimat après 14 jorns.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encriptat de punta a punta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Totes los ligams e contenguts son hashets sul costat client, çò que significa que, encara, sabem pas lo ligam e lo contengut. Cadun ligam ten un ID unic de 36 de longor que es una encriptacion unidireccionada per accedir al Messatge Secret e son contengut que es encriptat amb AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Coma fonciona?",
+      "STEP_1_TITLE": "Escrivètz vòstre messatge e/o generar un mot de passa",
+      "STEP_2_TITLE": "Crea ligam secret",
+      "STEP_3_TITLE": "Partejatz lo ligam",
+      
+      "COMPANY_LOGO_ALT": "Logò de l'entrepresa",
+      
+      "SHARE_TITLE": "Partejar un messatge secret",
+      "SHARE_DESCRIPTION_PART_1": "Escrivètz e enviatz lo messatge, serà",
+      "SHARE_DESCRIPTION_PART_2": "suprimat un cop luòch.",
+      
+      "SHARE_BULLET_1": "Sens traça.",
+      "SHARE_BULLET_2": "Privacitat protegida",
+      "SHARE_BULLET_3": "Visibla un còp",
+      
+      "SHARE_ENCRYPTED_BY": "Encriptat, segur e protegit per la Seguretat Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escrivètz vòstre messatge secret, mot de passa o informacions sensiblas *",
+      "SHARE_OPTIONS": "Opcions",
+      
+      "SHARE_EMPTY": "Deixatz buèc per cap.",
+      "SHARE_BUTTON": "Crear ligam secret",
+      
+      "CREATED_TITLE": "Vòstre Secret foguèt creat",
+      "CREATED_SUBTITLE": "Serà mostrada unicament un còp",
+      
+      "CREATED_TITLE_SHARE": "Copiat lo ligam o partejat o.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Crear un nòu Secret",
+      "CREATED_BURNSECRET": "Crema lo Secret",
+      "URL_COPIED": "Lo URL foguèt copiat.",
+      "SHARE_BURNER_TIME":"Durada de vida",
+      "SHARE_PASS_PHRASE":"Mot de passa",
+      "VIEW_SECRET": "Veire lo Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Secret Stellar",
+      "HOW_IT_WORKS": "Coma fonciona",
+      "DOWNLOAD_APP": "Telecargar l'aplicacion",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messatge secret a un còp",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partissi secrets, e puf—desaparisseràn!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encriptat, segur e protegit per la Seguretat Stellar",
+      "WITHOUT_TRACE_TITLE": "Sens traça",
+      "WITHOUT_TRACE_DESCRIPTION": "Asseguram una proteccion robusta de vòstras informacions sensiblas. Totas las donadas son encriptadas sul costat client. Sabem pas vòstre IP, çò que partejatz, ni amb qui partejatz los ligams secrets - e lo mai important, lo contengut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacitat protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Soz pas qu'unicament qui coneis lo ligam a l'informacion secreta que creètz e amb qui lo partejatz. Quand creadz un secret, pòdetz agregar un mot de passa abans que pòsca èsser desblocat. Es tanben possible de definir un temps de vida limitat. Quina que siá, un secret serà suprimat après 14 jorns.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encriptat de punta a punta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Totes los ligams e contenguts son hashets sul costat client, çò que significa que, encara, sabem pas lo ligam e lo contengut. Cadun ligam ten un ID unic de 36 de longor que es una encriptacion unidireccionada per accedir al Messatge Secret e son contengut que es encriptat amb AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Coma fonciona?",
+      "STEP_1_TITLE": "Escrivètz vòstre messatge e/o generar un mot de passa",
+      "STEP_2_TITLE": "Crea ligam secret",
+      "STEP_3_TITLE": "Partejatz lo ligam",
+      
+      "COMPANY_LOGO_ALT": "Logò de l'entrepresa",
+      
+      "SHARE_TITLE": "Partejar un messatge secret",
+      "SHARE_DESCRIPTION_PART_1": "Escrivètz e enviatz lo messatge, serà",
+      "SHARE_DESCRIPTION_PART_2": "suprimat un cop luòch.",
+      
+      "SHARE_BULLET_1": "Sens traça.",
+      "SHARE_BULLET_2": "Privacitat protegida",
+      "SHARE_BULLET_3": "Visibla un còp",
+      
+      "SHARE_ENCRYPTED_BY": "Encriptat, segur e protegit per la Seguretat Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escrivètz vòstre messatge secret, mot de passa o informacions sensiblas *",
+      "SHARE_OPTIONS": "Opcions",
+      
+      "SHARE_EMPTY": "Deixatz buèc per cap.",
+      "SHARE_BUTTON": "Crear ligam secret",
+      
+      "CREATED_TITLE": "Vòstre Secret foguèt creat",
+      "CREATED_SUBTITLE": "Serà mostrada unicament un còp",
+      
+      "CREATED_TITLE_SHARE": "Copiat lo ligam o partejat o.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Crear un nòu Secret",
+      "CREATED_BURNSECRET": "Crema lo Secret",
+      "URL_COPIED": "Lo URL foguèt copiat.",
+      
+      "VIEW_SECRET": "Veire lo Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Secret Stellar",
+      "HOW_IT_WORKS": "Coma fonciona",
+      "DOWNLOAD_APP": "Telecargar l'aplicacion",
+      "CREATED_TITLE": "Vòstre Secret foguèt creat",
+      "CREATED_SUBTITLE": "Serà mostrada unicament un còp",
+      "CREATED_TITLE_SHARE": "Copiat lo ligam o partejat o.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Crear un nòu Secret",
+      "CREATED_BURNSECRET": "Crema lo Secret",
+      "URL_COPIED": "Lo URL foguèt copiat."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vas cremar aqueste secret",
+      "SECRET_UNAVAILABLE_TEXT": "Serà pas mai disponible",
+      "BURN_FOREVER": "Crema per sempre",
+      "CANCEL": "Anullar"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Secret Stellar",
+      "HOW_IT_WORKS": "Coma fonciona",
+      "DOWNLOAD_APP": "Telecargar l'aplicacion",
+      "WELCOME_MESSAGE": "Bona jornada, recebi un messatge secret!",
+      "INSTRUCTION": "Escrivètz e enviatz lo messatge, serà suprimat un cop luòch.",
+      "SHOW_MESSAGE_ONCE": "Lo messatge seguent serà mostrada <strong>unicament un còp</strong>",
+      "OPEN_SECRET_MESSAGE": "Ouvrir lo Messatge Secret",
+      "INPUT_PASSPHRASE": "Introduïtz lo Mot de Passa",
+      "PASS_PHRASE_PLACEHOLDER": "Mot de passa",
+      "OPEN_SECRET_BUTTON": "Ouvrir lo Messatge Secret",
+      "YOUR_SECRET_MESSAGE": "Vòstre Messatge Secret",
+      "COPY": "Copiar",
+      "MESSAGE_LABEL": "Messatge",
+      "REPLY": "Respòndre",
+      "DOWNLOAD_MESSAGE": "Telecargar Secret Stellar sul mòbil, crear vòstres messatges secrets",
+      "WITHOUT_TRACE": "Sens traça.",
+      "PRIVACY_PROTECTED": "Privacitat protegida",
+      "ONE_TIME_VIEWABLE": "Visibla un còp",
+      "SECURITY_TEXT": "Encriptat, segur e protegit per ",
+      "SECURITY_TEXT2": "Seguretat Stellar"
+    }
+  }
+  

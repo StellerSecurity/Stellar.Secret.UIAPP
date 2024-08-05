@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Carane Kerja",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Pesan Rahasia Sekali Wektu",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikan rahasia, lan ilang—mung sakpisan!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dienkripsi, diamankan lan dilindhungi dening Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Tanpa jejak",
+      "WITHOUT_TRACE_DESCRIPTION": "Kita njamin perlindungan sing kuwat kanggo informasi sensitif sampeyan. Kabeh data dienkripsi ing sisih klien. Kita ora ngerti alamat IP sampeyan, apa sing sampeyan bagi, utawa sapa sampeyan nuduhake pranala rahasia - lan sing paling penting, konten kasebut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privasi Dilindhungi",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Sampeyan siji-sijine sing ngerti pranala kanggo informasi rahasia sing sampeyan gawe lan sapa sampeyan bagikake. Nalika nggawe rahasia, sampeyan bisa nambah sandhi sadurunge bisa dibuka. Uga bisa nyetel wektu-bakar. Ora preduli apa, rahasia bakal dihapus sawise 14 dina.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Dienkripsi saka pungkasan nganti pungkasan",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Kabeh pranala lan konten dienkripsi ing sisih klien, tegese kita ora ngerti pranala lan konten kasebut. Saben pranala duwe ID unik kanthi dawa 36 sing minangka enkripsi siji arah kanggo ngakses Pesan Rahasia lan konten sing dienkripsi nganggo AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Carane Kerja?",
+      "STEP_1_TITLE": "Tulis pesen sampeyan lan/utawa gawe sandhi",
+      "STEP_2_TITLE": "Gawe Pranala Rahasia",
+      "STEP_3_TITLE": "Bagikan pranala",
+      
+      "COMPANY_LOGO_ALT": "Logo Perusahaan",
+      
+      "SHARE_TITLE": "Bagikan pesen rahasia",
+      "SHARE_DESCRIPTION_PART_1": "Tulis lan kirim pesen, bakal",
+      "SHARE_DESCRIPTION_PART_2": "dihapus sawise diwaca.",
+      
+      "SHARE_BULLET_1": "Tanpa jejak.",
+      "SHARE_BULLET_2": "Privasi Dilindhungi",
+      "SHARE_BULLET_3": "Siji wektu wae bisa dideleng",
+      
+      "SHARE_ENCRYPTED_BY": "Dienkripsi, diamankan lan dilindhungi dening Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Tulis pesen Rahasia sampeyan, sandhi utawa informasi sensitif *",
+      "SHARE_OPTIONS": "Pilihan",
+      
+      "SHARE_EMPTY": "Tinggal kosong kanggo ora ana.",
+      "SHARE_BUTTON": "Gawe Pranala Rahasia",
+      
+      "CREATED_TITLE": "Rahasia sampeyan wis digawe",
+      "CREATED_SUBTITLE": "Bakal ditampilake mung sakpisan",
+      
+      "CREATED_TITLE_SHARE": "Salin pranala utawa bagikan.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Gawe Rahasia Anyar",
+      "CREATED_BURNSECRET": "Bakar Rahasia",
+      "URL_COPIED": "URL wis disalin.",
+      "SHARE_BURNER_TIME": "Masa Hidup",
+      "SHARE_PASS_PHRASE": "Sandi",
+      "VIEW_SECRET": "Tampilake Rahasia"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Carane Kerja",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Pesan Rahasia Sekali Wektu",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikan rahasia, lan ilang—mung sakpisan!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dienkripsi, diamankan lan dilindhungi dening Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Tanpa jejak",
+      "WITHOUT_TRACE_DESCRIPTION": "Kita njamin perlindungan sing kuwat kanggo informasi sensitif sampeyan. Kabeh data dienkripsi ing sisih klien. Kita ora ngerti alamat IP sampeyan, apa sing sampeyan bagi, utawa sapa sampeyan nuduhake pranala rahasia - lan sing paling penting, konten kasebut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privasi Dilindhungi",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Sampeyan siji-sijine sing ngerti pranala kanggo informasi rahasia sing sampeyan gawe lan sapa sampeyan bagikake. Nalika nggawe rahasia, sampeyan bisa nambah sandhi sadurunge bisa dibuka. Uga bisa nyetel wektu-bakar. Ora preduli apa, rahasia bakal dihapus sawise 14 dina.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Dienkripsi saka pungkasan nganti pungkasan",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Kabeh pranala lan konten dienkripsi ing sisih klien, tegese kita ora ngerti pranala lan konten kasebut. Saben pranala duwe ID unik kanthi dawa 36 sing minangka enkripsi siji arah kanggo ngakses Pesan Rahasia lan konten sing dienkripsi nganggo AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Carane Kerja?",
+      "STEP_1_TITLE": "Tulis pesen sampeyan lan/utawa gawe sandhi",
+      "STEP_2_TITLE": "Gawe Pranala Rahasia",
+      "STEP_3_TITLE": "Bagikan pranala",
+      
+      "COMPANY_LOGO_ALT": "Logo Perusahaan",
+      
+      "SHARE_TITLE": "Bagikan pesen rahasia",
+      "SHARE_DESCRIPTION_PART_1": "Tulis lan kirim pesen, bakal",
+      "SHARE_DESCRIPTION_PART_2": "dihapus sawise diwaca.",
+      
+      "SHARE_BULLET_1": "Tanpa jejak.",
+      "SHARE_BULLET_2": "Privasi Dilindhungi",
+      "SHARE_BULLET_3": "Siji wektu wae bisa dideleng",
+      
+      "SHARE_ENCRYPTED_BY": "Dienkripsi, diamankan lan dilindhungi dening Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Tulis pesen Rahasia sampeyan, sandhi utawa informasi sensitif *",
+      "SHARE_OPTIONS": "Pilihan",
+      
+      "SHARE_EMPTY": "Tinggal kosong kanggo ora ana.",
+      "SHARE_BUTTON": "Gawe Pranala Rahasia",
+      
+      "CREATED_TITLE": "Rahasia sampeyan wis digawe",
+      "CREATED_SUBTITLE": "Bakal ditampilake mung sakpisan",
+      
+      "CREATED_TITLE_SHARE": "Salin pranala utawa bagikan.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Gawe Rahasia Anyar",
+      "CREATED_BURNSECRET": "Bakar Rahasia",
+      "URL_COPIED": "URL wis disalin.",
+      
+      "VIEW_SECRET": "Tampilake Rahasia"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Carane Kerja",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      "CREATED_TITLE": "Rahasia sampeyan wis digawe",
+      "CREATED_SUBTITLE": "Bakal ditampilake mung sakpisan",
+      "CREATED_TITLE_SHARE": "Salin pranala utawa bagikan.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Gawe Rahasia Anyar",
+      "CREATED_BURNSECRET": "Bakar Rahasia",
+      "URL_COPIED": "URL wis disalin."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Sampeyan arep mbakar rahasia iki",
+      "SECRET_UNAVAILABLE_TEXT": "Bakal ora kasedhiya maneh",
+      "BURN_FOREVER": "Bakar Selawase",
+      "CANCEL": "Batal"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Carane Kerja",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      "WELCOME_MESSAGE": "Halo, sampeyan nampa pesen rahasia!",
+      "INSTRUCTION": "Tulis lan kirim pesen, bakal dihapus sawise diwaca.",
+      "SHOW_MESSAGE_ONCE": "Pesen ing ngisor iki bakal ditampilake <strong>mung sakpisan</strong>",
+      "OPEN_SECRET_MESSAGE": "Buka Pesan Rahasia",
+      "INPUT_PASSPHRASE": "Masukkan Sandhi",
+      "PASS_PHRASE_PLACEHOLDER": "Sandhi",
+      "OPEN_SECRET_BUTTON": "Buka Pesan Rahasia",
+      "YOUR_SECRET_MESSAGE": "Pesan Rahasia sampeyan",
+      "COPY": "Salin",
+      "MESSAGE_LABEL": "Pesan",
+      "REPLY": "Balas",
+      "DOWNLOAD_MESSAGE": "Unduh Rahasia Stellar ing mobile, gawe pesen rahasia sampeyan",
+      "WITHOUT_TRACE": "Tanpa jejak.",
+      "PRIVACY_PROTECTED": "Privasi Dilindhungi",
+      "ONE_TIME_VIEWABLE": "Siji wektu wae bisa dideleng",
+      "SECURITY_TEXT": "Dienkripsi, diamankan lan dilindhungi dening ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

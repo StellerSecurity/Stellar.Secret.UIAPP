@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "How e dey work",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Share secrets, and poof—they're gone!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Without a trace",
+      "WITHOUT_TRACE_DESCRIPTION": "We make sure say your sensitive information dey well protected. All data dey encrypted for client-side. We no sabi your IP address, wetin you dey share, or who you dey share di secret links with - and most important, di content.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protected",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Na you alone dey sabi di link to di secret information wey you create and who you dey share am with. When you dey create secret, you fit add password before e go fit unlock. E dey possible too to set burner-time. No matter wetin, secret go delete after 14 days.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "All links and content dey hashed for client-side, meaning even we no sabi di link and di content. Every link get unique ID of 36 length which na one-way encryption to fit access di Secret Message and di content wey encrypted with AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "How e dey work?",
+      "STEP_1_TITLE": "Write your message and/or generate password",
+      "STEP_2_TITLE": "Create Secret Link",
+      "STEP_3_TITLE": "Share link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Share a secret message",
+      "SHARE_DESCRIPTION_PART_1": "Write and send message, e go be",
+      "SHARE_DESCRIPTION_PART_2": "deleted once read.",
+      
+      "SHARE_BULLET_1": "Without a trace.",
+      "SHARE_BULLET_2": "Privacy Protected",
+      "SHARE_BULLET_3": "One-time viewable",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured and protected by Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Write your Secret message, password or sensitive information *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Leave empty for none.",
+      "SHARE_BUTTON": "Create Secret Link",
+      
+      "CREATED_TITLE": "Your Secret don dey created",
+      "CREATED_SUBTITLE": "E go show only once",
+      
+      "CREATED_TITLE_SHARE": "Copy link or share am.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Create New Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "Di URL don copied.",
+      "SHARE_BURNER_TIME":"Lifetime",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "View Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "How e dey work",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Share secrets, and poof—they're gone!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Without a trace",
+      "WITHOUT_TRACE_DESCRIPTION": "We make sure say your sensitive information dey well protected. All data dey encrypted for client-side. We no sabi your IP address, wetin you dey share, or who you dey share di secret links with - and most important, di content.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protected",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Na you alone dey sabi di link to di secret information wey you create and who you dey share am with. When you dey create secret, you fit add password before e go fit unlock. E dey possible too to set burner-time. No matter wetin, secret go delete after 14 days.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "All links and content dey hashed for client-side, meaning even we no sabi di link and di content. Every link get unique ID of 36 length which na one-way encryption to fit access di Secret Message and di content wey encrypted with AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "How e dey work?",
+      "STEP_1_TITLE": "Write your message and/or generate password",
+      "STEP_2_TITLE": "Create Secret Link",
+      "STEP_3_TITLE": "Share link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Share a secret message",
+      "SHARE_DESCRIPTION_PART_1": "Write and send message, e go be",
+      "SHARE_DESCRIPTION_PART_2": "deleted once read.",
+      
+      "SHARE_BULLET_1": "Without a trace.",
+      "SHARE_BULLET_2": "Privacy Protected",
+      "SHARE_BULLET_3": "One-time viewable",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured and protected by Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Write your Secret message, password or sensitive information *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Leave empty for none.",
+      "SHARE_BUTTON": "Create Secret Link",
+      
+      "CREATED_TITLE": "Your Secret don dey created",
+      "CREATED_SUBTITLE": "E go show only once",
+      
+      "CREATED_TITLE_SHARE": "Copy link or share am.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Create New Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "Di URL don copied.",
+      
+      "VIEW_SECRET": "View Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "How e dey work",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Your Secret don dey created",
+      "CREATED_SUBTITLE": "E go show only once",
+      "CREATED_TITLE_SHARE": "Copy link or share am.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Create New Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "Di URL don copied."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "You go burn dis secret",
+      "SECRET_UNAVAILABLE_TEXT": "E no go dey available again",
+      "BURN_FOREVER": "Burn Forever",
+      "CANCEL": "Cancel"
+    },
+    "VIEW":{
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "How e dey work",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Hi, you don receive one secret message!",
+      "INSTRUCTION": "Write and send message, e go delete once read.",
+      "SHOW_MESSAGE_ONCE": "Di following message go show <strong>only once</strong>",
+      "OPEN_SECRET_MESSAGE": "Open Secret Message",
+      "INPUT_PASSPHRASE": "Input Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Open Secret Message",
+      "YOUR_SECRET_MESSAGE": "Your Secret Message",
+      "COPY": "Copy",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Reply",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret for mobile, create your secret messages",
+      "WITHOUT_TRACE": "Without a trace.",
+      "PRIVACY_PROTECTED": "Privacy Protected",
+      "ONE_TIME_VIEWABLE": "One-time viewable",
+      "SECURITY_TEXT": "Encrypted, secured and protected by ",
+      "SECURITY_TEXT2":"Stellar Security"
+    }
+  }
+  

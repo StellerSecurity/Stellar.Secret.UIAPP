@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Indlela esebenza ngayo",
+      "DOWNLOAD_APP": "Landa iApp",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Umyalezo wesekethe onxulumene neOne-Time",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Yabelana ngemicimbi, kwaye phofu—zilahle!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ukuqinisekiswa, kuqinisekisiwe kwaye kuvikelwe yiStellar Security",
+      "WITHOUT_TRACE_TITLE": "Ngaphandle kweziqhumiso",
+      "WITHOUT_TRACE_DESCRIPTION": "Siqinisekisa ukuvikelwa okuphezulu kweenkcukacha zakho ezibucayi. Yonke idatha ihlaziywa kwindawo yomthengi. Asazi i-IP yakho, into oyabelana ngayo, okanye kubani oyabelana naye ngale miqolo yeemfihlo - kwaye okubalulekileyo, umxholo.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ubumfihlo Buqinisekisiwe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ungumntu kuphela owaziyo ikhonkco kwiinkcukacha ezifihliweyo ozilungiselele kunye nalowo umabelana naye. Xa uqala umyalezo, ungongeza iiphasiwedi phambi kokuba kuvulwe. Kungenzeka ukuba ubeke ixesha lokubhubhisa. Nokuba kunjalo, umyalezo ufihlwe emva kweentsuku ezili-14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Ukupakishwa kokugqibela ukuya kokugqibela",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Onke amakhonkco kunye nomxholo amaxhonywe kwindawo yomthengi, kuthetha ukuba asazi nokuthi ikhonkco nomxholo. Ngamnye ikhonkco inenombolo eyingqayizivele ye-36 ebhalwe ngendlela enye yokupakishwa ukuze ufikelele kuMnyalezo weMfihlo kunye nomxholo wayo ogciniwe nge-AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Indlela esebenza ngayo?",
+      "STEP_1_TITLE": "Bhala umyalezo wakho kunye/nokuba wenze iphasiwedi",
+      "STEP_2_TITLE": "Yenza ikhonkco leMfihlo",
+      "STEP_3_TITLE": "Yabelana ngelikhonkco",
+      
+      "COMPANY_LOGO_ALT": "Uphawu lweNkampani",
+      
+      "SHARE_TITLE": "Yabelana ngomyalezo wemfihlo",
+      "SHARE_DESCRIPTION_PART_1": "Bhala kwaye uthumele umyalezo, uya kuba",
+      "SHARE_DESCRIPTION_PART_2": "ukhubazekile uma ufundiwe.",
+      
+      "SHARE_BULLET_1": "Ngaphandle kweziqhumiso.",
+      "SHARE_BULLET_2": "Ubumfihlo Buqinisekisiwe",
+      "SHARE_BULLET_3": "Ukubukelwa kanye",
+      
+      "SHARE_ENCRYPTED_BY": "Ukuqinisekiswa, kuqinisekisiwe kwaye kuvikelwe yiStellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Bhala umyalezo wakho wemfihlo, iphasiwedi okanye iinkcukacha ezibucayi *",
+      "SHARE_OPTIONS": "Iinketho",
+      
+      "SHARE_EMPTY": "Shiya engenanto.",
+      "SHARE_BUTTON": "Yenza Ikhonkco leMfihlo",
+      
+      "CREATED_TITLE": "Umyalezo wakho wemfihlo wenziwe",
+      "CREATED_SUBTITLE": "Uya kuboniswa kuphela kanye",
+      
+      "CREATED_TITLE_SHARE": "Kopisha ikhonkco okanye yabelana ngalo.",
+      "CREATED_BUTTON": "KOPISHA",
+      "CREATED_CREATE_SECRET": "Yenza iMfihlo Entsha",
+      "CREATED_BURNSECRET": "Bhidanisa iMfihlo",
+      "URL_COPIED": "I-URL ikhophiwe.",
+      "SHARE_BURNER_TIME":"Ixesha lokuphila",
+      "SHARE_PASS_PHRASE":"Iphasiwedi",
+      "VIEW_SECRET": "Buka iMfihlo"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Indlela esebenza ngayo",
+      "DOWNLOAD_APP": "Landa iApp",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Umyalezo wesekethe onxulumene neOne-Time",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Yabelana ngemicimbi, kwaye phofu—zilahle!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Ukuqinisekiswa, kuqinisekisiwe kwaye kuvikelwe yiStellar Security",
+      "WITHOUT_TRACE_TITLE": "Ngaphandle kweziqhumiso",
+      "WITHOUT_TRACE_DESCRIPTION": "Siqinisekisa ukuvikelwa okuphezulu kweenkcukacha zakho ezibucayi. Yonke idatha ihlaziywa kwindawo yomthengi. Asazi i-IP yakho, into oyabelana ngayo, okanye kubani oyabelana naye ngale miqolo yeemfihlo - kwaye okubalulekileyo, umxholo.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Ubumfihlo Buqinisekisiwe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ungumntu kuphela owaziyo ikhonkco kwiinkcukacha ezifihliweyo ozilungiselele kunye nalowo umabelana naye. Xa uqala umyalezo, ungongeza iiphasiwedi phambi kokuba kuvulwe. Kungenzeka ukuba ubeke ixesha lokubhubhisa. Nokuba kunjalo, umyalezo ufihlwe emva kweentsuku ezili-14.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Ukupakishwa kokugqibela ukuya kokugqibela",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Onke amakhonkco kunye nomxholo amaxhonywe kwindawo yomthengi, kuthetha ukuba asazi nokuthi ikhonkco nomxholo. Ngamnye ikhonkco inenombolo eyingqayizivele ye-36 ebhalwe ngendlela enye yokupakishwa ukuze ufikelele kuMnyalezo weMfihlo kunye nomxholo wayo ogciniwe nge-AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Indlela esebenza ngayo?",
+      "STEP_1_TITLE": "Bhala umyalezo wakho kunye/nokuba wenze iphasiwedi",
+      "STEP_2_TITLE": "Yenza ikhonkco leMfihlo",
+      "STEP_3_TITLE": "Yabelana ngelikhonkco",
+    
+      "COMPANY_LOGO_ALT": "Uphawu lweNkampani",
+    
+      "SHARE_TITLE": "Yabelana ngomyalezo wemfihlo",
+      "SHARE_DESCRIPTION_PART_1": "Bhala kwaye uthumele umyalezo, uya kuba",
+      "SHARE_DESCRIPTION_PART_2": "ukhubazekile uma ufundiwe.",
+    
+      "SHARE_BULLET_1": "Ngaphandle kweziqhumiso.",
+      "SHARE_BULLET_2": "Ubumfihlo Buqinisekisiwe",
+      "SHARE_BULLET_3": "Ukubukelwa kanye",
+    
+      "SHARE_ENCRYPTED_BY": "Ukuqinisekiswa, kuqinisekisiwe kwaye kuvikelwe yiStellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Bhala umyalezo wakho wemfihlo, iphasiwedi okanye iinkcukacha ezibucayi *",
+      "SHARE_OPTIONS": "Iinketho",
+    
+      "SHARE_EMPTY": "Shiya engenanto.",
+      "SHARE_BUTTON": "Yenza Ikhonkco leMfihlo",
+    
+      "CREATED_TITLE": "Umyalezo wakho wemfihlo wenziwe",
+      "CREATED_SUBTITLE": "Uya kuboniswa kuphela kanye",
+    
+      "CREATED_TITLE_SHARE": "Kopisha ikhonkco okanye yabelana ngalo.",
+      "CREATED_BUTTON": "KOPISHA",
+      "CREATED_CREATE_SECRET": "Yenza iMfihlo Entsha",
+      "CREATED_BURNSECRET": "Bhidanisa iMfihlo",
+      "URL_COPIED": "I-URL ikhophiwe.",
+    
+      "VIEW_SECRET": "Buka iMfihlo"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Indlela esebenza ngayo",
+      "DOWNLOAD_APP": "Landa iApp",
+      "CREATED_TITLE": "Umyalezo wakho wemfihlo wenziwe",
+      "CREATED_SUBTITLE": "Uya kuboniswa kuphela kanye",
+      "CREATED_TITLE_SHARE": "Kopisha ikhonkco okanye yabelane ngalo.",
+      "CREATED_BUTTON": "KOPISHA",
+      "CREATED_CREATE_SECRET": "Yenza iMfihlo Entsha",
+      "CREATED_BURNSECRET": "Bhidanisa iMfihlo",
+      "URL_COPIED": "I-URL ikhophiwe."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Uya kuyibhidanisa le mfihlo",
+      "SECRET_UNAVAILABLE_TEXT": "Ayiyi kuba ukufumaneka kwakhona",
+      "BURN_FOREVER": "Bhidanisa Phakade",
+      "CANCEL": "Hlawula"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Indlela esebenza ngayo",
+      "DOWNLOAD_APP": "Landa iApp",
+      "WELCOME_MESSAGE": "Molo, ufumene umyalezo wemfihlo!",
+      "INSTRUCTION": "Bhala kwaye uthumele umyalezo, uya kuba ususiwe uma ufundiwe.",
+      "SHOW_MESSAGE_ONCE": "Umyalezo olandelayo uya kuboniswa <strong>kanye kuphela</strong>",
+      "OPEN_SECRET_MESSAGE": "Vula Umyalezo Wemfihlo",
+      "INPUT_PASSPHRASE": "Faka iPhasiwedi",
+      "PASS_PHRASE_PLACEHOLDER": "Iphasiwedi",
+      "OPEN_SECRET_BUTTON": "Vula Umyalezo Wemfihlo",
+      "YOUR_SECRET_MESSAGE": "Umyalezo Wakho Wemfihlo",
+      "COPY": "Kopisha",
+      "MESSAGE_LABEL": "Umyalezo",
+      "REPLY": "Phendula",
+      "DOWNLOAD_MESSAGE": "Landa iStellar Secret kwi-mobile, yenza imiyalezo yakho yemfihlo",
+      "WITHOUT_TRACE": "Ngaphandle kweziqhumiso.",
+      "PRIVACY_PROTECTED": "Ubumfihlo Buqinisekisiwe",
+      "ONE_TIME_VIEWABLE": "Ukubukelwa kanye",
+      "SECURITY_TEXT": "Ukuqinisekiswa, kuqinisekisiwe kwaye kuvikelwe yi ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

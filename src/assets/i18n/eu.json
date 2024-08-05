@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nola funtzionatzen duen",
+      "DOWNLOAD_APP": "App-a deskargatu",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Aldizkako Secret Messak",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sustatu sekretuak, eta poof—joan dira!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Enkriptatuta, babestuta eta Stellar Security-k babestuta",
+      "WITHOUT_TRACE_TITLE": "Hutsik gabe",
+      "WITHOUT_TRACE_DESCRIPTION": "Zure informazio sentikorra babesteko babesa bermatzen dugu. Datu guztiak bezeroaren aldean enkriptatzen dira. Zure IP helbidea, zer partekatzen duzun edo sekretu estekak norekin partekatzen dituzun ezagutzen ez dugu - eta garrantzitsuena, edukia.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Pribatutasuna Babestuta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Zuk bakarrik dakizu sortu duzun sekretuaren estekaren helbidea eta norekin partekatzen duzun. Sekretu bat sortzerakoan, pasahitz bat gehitu dezakezu aurkitzeko. Era berean, bonba-denbora ezar daiteke. Edozein kasutan, sekretua 14 egunetan ezabatu egingo da.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Amaieratik amaierara enkriptatuta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Esteka eta eduki guztiak bezeroaren aldean hash egiten dira, hau da, guk ere esteka eta edukiaren berri ez dugu. Esteka bakoitzak 36 luzeko ID berezia du, Secret Message eta AES-256 erabiliz enkriptatutako edukira sartzeko aukera ematen duen enkriptatze bat.",
+      
+      "HOW_IT_WORKS_TITLE": "Nola funtzionatzen duen?",
+      "STEP_1_TITLE": "Idatzi zure mezua eta/edo pasahitza sortu",
+      "STEP_2_TITLE": "Sortu Secret Link",
+      "STEP_3_TITLE": "Partekatu esteka",
+      
+      "COMPANY_LOGO_ALT": "Enpresaren Logoa",
+      
+      "SHARE_TITLE": "Partekatu sekretu-mezu bat",
+      "SHARE_DESCRIPTION_PART_1": "Idatzi eta bidali mezua,",
+      "SHARE_DESCRIPTION_PART_2": "irakurtzean ezabatuko da.",
+      
+      "SHARE_BULLET_1": "Hutsik gabe.",
+      "SHARE_BULLET_2": "Pribatutasuna Babestuta",
+      "SHARE_BULLET_3": "Aldizkako ikusgarria",
+      
+      "SHARE_ENCRYPTED_BY": "Enkriptatuta, babestuta eta Stellar Security-k babestuta",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Idatzi zure Secret mezuak, pasahitza edo informazio sentikorra *",
+      "SHARE_OPTIONS": "Aukerak",
+      
+      "SHARE_EMPTY": "Hutsik utzi ezer ez badago.",
+      "SHARE_BUTTON": "Sortu Secret Link",
+      
+      "CREATED_TITLE": "Zure Secret sortu da",
+      "CREATED_SUBTITLE": "Behin bakarrik erakutsiko da",
+      
+      "CREATED_TITLE_SHARE": "Kopiatu esteka edo partekatu.",
+      "CREATED_BUTTON": "KOPIATU",
+      "CREATED_CREATE_SECRET": "Sortu Secret Berria",
+      "CREATED_BURNSECRET": "Suntsitu Secret",
+      "URL_COPIED": "URL-a kopiatuta izan da.",
+      "SHARE_BURNER_TIME": "Iraupena",
+      "SHARE_PASS_PHRASE": "Pasahitza",
+      "VIEW_SECRET": "Ikusi Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nola funtzionatzen duen",
+      "DOWNLOAD_APP": "App-a deskargatu",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Aldizkako Secret Messak",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sustatu sekretuak, eta poof—joan dira!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Enkriptatuta, babestuta eta Stellar Security-k babestuta",
+      "WITHOUT_TRACE_TITLE": "Hutsik gabe",
+      "WITHOUT_TRACE_DESCRIPTION": "Zure informazio sentikorra babesteko babesa bermatzen dugu. Datu guztiak bezeroaren aldean enkriptatzen dira. Zure IP helbidea, zer partekatzen duzun edo sekretu estekak norekin partekatzen dituzun ezagutzen ez dugu - eta garrantzitsuena, edukia.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Pribatutasuna Babestuta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Zuk bakarrik dakizu sortu duzun sekretuaren estekaren helbidea eta norekin partekatzen duzun. Sekretu bat sortzerakoan, pasahitz bat gehitu dezakezu aurkitzeko. Era berean, bonba-denbora ezar daiteke. Edozein kasutan, sekretua 14 egunetan ezabatu egingo da.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Amaieratik amaierara enkriptatuta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Esteka eta eduki guztiak bezeroaren aldean hash egiten dira, hau da, guk ere esteka eta edukiaren berri ez dugu. Esteka bakoitzak 36 luzeko ID berezia du, Secret Message eta AES-256 erabiliz enkriptatutako edukira sartzeko aukera ematen duen enkriptatze bat.",
+      
+      "HOW_IT_WORKS_TITLE": "Nola funtzionatzen duen?",
+      "STEP_1_TITLE": "Idatzi zure mezua eta/edo pasahitza sortu",
+      "STEP_2_TITLE": "Sortu Secret Link",
+      "STEP_3_TITLE": "Partekatu esteka",
+      
+      "COMPANY_LOGO_ALT": "Enpresaren Logoa",
+      
+      "SHARE_TITLE": "Partekatu sekretu-mezu bat",
+      "SHARE_DESCRIPTION_PART_1": "Idatzi eta bidali mezua,",
+      "SHARE_DESCRIPTION_PART_2": "irakurtzean ezabatuko da.",
+      
+      "SHARE_BULLET_1": "Hutsik gabe.",
+      "SHARE_BULLET_2": "Pribatutasuna Babestuta",
+      "SHARE_BULLET_3": "Aldizkako ikusgarria",
+      
+      "SHARE_ENCRYPTED_BY": "Enkriptatuta, babestuta eta Stellar Security-k babestuta",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Idatzi zure Secret mezuak, pasahitza edo informazio sentikorra *",
+      "SHARE_OPTIONS": "Aukerak",
+      
+      "SHARE_EMPTY": "Hutsik utzi ezer ez badago.",
+      "SHARE_BUTTON": "Sortu Secret Link",
+      
+      "CREATED_TITLE": "Zure Secret sortu da",
+      "CREATED_SUBTITLE": "Behin bakarrik erakutsiko da",
+      
+      "CREATED_TITLE_SHARE": "Kopiatu esteka edo partekatu.",
+      "CREATED_BUTTON": "KOPIATU",
+      "CREATED_CREATE_SECRET": "Sortu Secret Berria",
+      "CREATED_BURNSECRET": "Suntsitu Secret",
+      "URL_COPIED": "URL-a kopiatuta izan da.",
+      
+      "VIEW_SECRET": "Ikusi Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nola funtzionatzen duen",
+      "DOWNLOAD_APP": "App-a deskargatu",
+      "CREATED_TITLE": "Zure Secret sortu da",
+      "CREATED_SUBTITLE": "Behin bakarrik erakutsiko da",
+      "CREATED_TITLE_SHARE": "Kopiatu esteka edo partekatu.",
+      "CREATED_BUTTON": "KOPIATU",
+      "CREATED_CREATE_SECRET": "Sortu Secret Berria",
+      "CREATED_BURNSECRET": "Suntsitu Secret",
+      "URL_COPIED": "URL-a kopiatuta izan da."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Sekretu hau suntsituko duzu",
+      "SECRET_UNAVAILABLE_TEXT": "Ez dago erabilgarri izango",
+      "BURN_FOREVER": "Suntsitu Betiko",
+      "CANCEL": "Utzi"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Nola funtzionatzen duen",
+      "DOWNLOAD_APP": "App-a deskargatu",
+      "WELCOME_MESSAGE": "Kaixo, sekretu-mezu bat jaso duzu!",
+      "INSTRUCTION": "Idatzi eta bidali mezua, irakurtzean ezabatuko da.",
+      "SHOW_MESSAGE_ONCE": "Hurrengo mezua <strong>behin bakarrik</strong> erakutsiko da",
+      "OPEN_SECRET_MESSAGE": "Ireki Secret Mezu",
+      "INPUT_PASSPHRASE": "Sartu Pasahitza",
+      "PASS_PHRASE_PLACEHOLDER": "Pasahitza",
+      "OPEN_SECRET_BUTTON": "Ireki Secret Mezu",
+      "YOUR_SECRET_MESSAGE": "Zure Secret Mezu",
+      "COPY": "Kopiatu",
+      "MESSAGE_LABEL": "Mezua",
+      "REPLY": "Erantzun",
+      "DOWNLOAD_MESSAGE": "Deskargatu Stellar Secret mugikorretan, zure sekretu-mezuak sortu",
+      "WITHOUT_TRACE": "Hutsik gabe.",
+      "PRIVACY_PROTECTED": "Pribatutasuna Babestuta",
+      "ONE_TIME_VIEWABLE": "Aldizkako ikusgarria",
+      "SECURITY_TEXT": "Enkriptatuta, babestuta eta",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

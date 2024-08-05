@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nu nyuie woɖaɖa",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tɔgbɔ le secret la, na poof—woaʋɛ o!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Metsɔ aɖe",
+      "WITHOUT_TRACE_DESCRIPTION": "Miaɖuɖe nye wɔmɔaɖo kple ɖaɖa me. Fie dzidziwo yɛ encrypted na client-side. Memaɖi wò IP address, amɛ woŋɔ, eye wò nya secret links me – kple agbɔ, nɛkpɔ.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protected",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Wò ne na meɖe link kple secret information a wòɖe wò ne, eye wò ya na amɛ. Wɔ creating secret la, wòle password kple nye be nɛkpɔ. Nɛkpɔ secret la bɛ ye deleted 14 days wɔa.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Link kple content nyuie hashed na client-side, eye nya ne, amɛ ne nye link kple content. Link si le 36 nyuie ID na ɛyɛ one-way encryption, a able to access Secret Message kple content a encrypted wɔ AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Nu nyuie woɖaɖa?",
+      "STEP_1_TITLE": "Kɔ wo message kple/generate password",
+      "STEP_2_TITLE": "Create Secret Link",
+      "STEP_3_TITLE": "Share link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Share a secret message",
+      "SHARE_DESCRIPTION_PART_1": "Kɔ eye send message, eya",
+      "SHARE_DESCRIPTION_PART_2": "deleted once read.",
+      
+      "SHARE_BULLET_1": "Metsɔ aɖe.",
+      "SHARE_BULLET_2": "Privacy Protected",
+      "SHARE_BULLET_3": "One-time viewable",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured and protected by Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kɔ wo Secret message, password kple sensitive information *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Leave empty for none.",
+      "SHARE_BUTTON": "Create Secret Link",
+      
+      "CREATED_TITLE": "Wò Secret meɖe",
+      "CREATED_SUBTITLE": "Eya be eɖe one-time o",
+      
+      "CREATED_TITLE_SHARE": "Copy link kple share e.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Create New Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "URL la wòkopiwo.",
+      "SHARE_BURNER_TIME":"Lifetime",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "View Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nu nyuie woɖaɖa",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tɔgbɔ le secret la, na poof—woaʋɛ o!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Metsɔ aɖe",
+      "WITHOUT_TRACE_DESCRIPTION": "Miaɖuɖe nye wɔmɔaɖo kple ɖaɖa me. Fie dzidziwo yɛ encrypted na client-side. Memaɖi wò IP address, amɛ woŋɔ, eye wò nya secret links me – kple agbɔ, nɛkpɔ.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protected",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Wò ne na meɖe link kple secret information a wòɖe wò ne, eye wò ya na amɛ. Wɔ creating secret la, wòle password kple nye be nɛkpɔ. Nɛkpɔ secret la bɛ ye deleted 14 days wɔa.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Link kple content nyuie hashed na client-side, eye nya ne, amɛ ne nye link kple content. Link si le 36 nyuie ID na ɛyɛ one-way encryption, a able to access Secret Message kple content a encrypted wɔ AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Nu nyuie woɖaɖa?",
+      "STEP_1_TITLE": "Kɔ wo message kple/generate password",
+      "STEP_2_TITLE": "Create Secret Link",
+      "STEP_3_TITLE": "Share link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Share a secret message",
+      "SHARE_DESCRIPTION_PART_1": "Kɔ eye send message, eya",
+      "SHARE_DESCRIPTION_PART_2": "deleted once read.",
+      
+      "SHARE_BULLET_1": "Metsɔ aɖe.",
+      "SHARE_BULLET_2": "Privacy Protected",
+      "SHARE_BULLET_3": "One-time viewable",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured and protected by Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kɔ wo Secret message, password kple sensitive information *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Leave empty for none.",
+      "SHARE_BUTTON": "Create Secret Link",
+      
+      "CREATED_TITLE": "Wò Secret meɖe",
+      "CREATED_SUBTITLE": "Eya be eɖe one-time o",
+      
+      "CREATED_TITLE_SHARE": "Copy link kple share e.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Create New Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "URL la wòkopiwo.",
+      
+      "VIEW_SECRET": "View Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nu nyuie woɖaɖa",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Wò Secret meɖe",
+      "CREATED_SUBTITLE": "Eya be eɖe one-time o",
+      "CREATED_TITLE_SHARE": "Copy link kple share e.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Create New Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "URL la wòkopiwo."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Wòɖe burn secret la",
+      "SECRET_UNAVAILABLE_TEXT": "Eya be eya wɔmɔ o",
+      "BURN_FOREVER": "Burn Forever",
+      "CANCEL": "Cancel"
+    },
+    "VIEW":{
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Nu nyuie woɖaɖa",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Hi there, wò ŋɔ a secret message!",
+      "INSTRUCTION": "Kɔ eye send message, eya be eɖe once read.",
+      "SHOW_MESSAGE_ONCE": "Eyi message la bɛ ye <strong>one-time</strong>",
+      "OPEN_SECRET_MESSAGE": "Open Secret Message",
+      "INPUT_PASSPHRASE": "Input Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Open Secret Message",
+      "YOUR_SECRET_MESSAGE": "Wò Secret Message",
+      "COPY": "Copy",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Reply",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret na mobile, create wò secret messages",
+      "WITHOUT_TRACE": "Metsɔ aɖe.",
+      "PRIVACY_PROTECTED": "Privacy Protected",
+      "ONE_TIME_VIEWABLE": "One-time viewable",
+      "SECURITY_TEXT": "Encrypted, secured and protected by ",
+      "SECURITY_TEXT2":"Stellar Security"
+    }
+  }
+  

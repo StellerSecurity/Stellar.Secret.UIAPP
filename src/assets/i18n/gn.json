@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secreto",
+      "HOW_IT_WORKS": "Mba'éichapa oikóta",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Secreto de Mensaje Único",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Comparte secretos, ha poof—ha'ete!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encriptado, protegido ha guardado por Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sin Rastro",
+      "WITHOUT_TRACE_DESCRIPTION": "Ore ha'eve heta proteção para tu información sensible. Todos datos están encriptados en el lado del cliente. No sabemos tu IP dirección, mba'éichapa reipota, ni mba'éichapa reipota umi secreto links - ha más importante, el contenido.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacidad Protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Nde rehegua ha'éva. Nde ko’ẽporãha oñembojoaju ha mba’éichapa reipota. Ñembojoaju peteĩ secreto, ikatu rembojoaju peteĩ contraseña. Avei ikatu reipe'ape peteĩ tiempo de quemado. Mba'e reheve, peteĩ secreto ojehecha 14 días rupi.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encriptado de Fin a Fin",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Todos los enlaces y contenidos están encriptados en el lado del cliente, significando nde'íre rohecha el enlace ha el contenido. Cada enlace oñemohenda peteĩ ID único de 36 que es una encriptación unidireccional para acceder al Secreto Mensaje ha su contenido que está encriptado con AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Mba'éichapa oikóta?",
+      "STEP_1_TITLE": "Ñembojoaju nde mensaja ha/oiñembojoaju contraseña",
+      "STEP_2_TITLE": "Embojoaju Secreto Enlace",
+      "STEP_3_TITLE": "Eipojo enlace",
+      
+      "COMPANY_LOGO_ALT": "Logo de la Empresa",
+      
+      "SHARE_TITLE": "Comparte un mensaje secreto",
+      "SHARE_DESCRIPTION_PART_1": "Escribe ha envia el mensaje, ojehecha porá",
+      "SHARE_DESCRIPTION_PART_2": "ojehecha rire.",
+      
+      "SHARE_BULLET_1": "Sin Rastro.",
+      "SHARE_BULLET_2": "Privacidad Protegida",
+      "SHARE_BULLET_3": "Visto una vez",
+      
+      "SHARE_ENCRYPTED_BY": "Encriptado, protegido ha guardado por Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escribe tu mensaje Secreto, contraseña o información sensible *",
+      "SHARE_OPTIONS": "Opciones",
+      
+      "SHARE_EMPTY": "Dejá vacío para ninguno.",
+      "SHARE_BUTTON": "Crear Enlace Secreto",
+      
+      "CREATED_TITLE": "Tu Secreto ha sido creado",
+      "CREATED_SUBTITLE": "Ojehecha peteĩ vez peve",
+      
+      "CREATED_TITLE_SHARE": "Copia el enlace o compartilo.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Crear Nuevo Secreto",
+      "CREATED_BURNSECRET": "Quemar Secreto",
+      "URL_COPIED": "El URL ha sido copiado.",
+      "SHARE_BURNER_TIME":"Vida útil",
+      "SHARE_PASS_PHRASE":"Frase Secreta",
+      "VIEW_SECRET": "Ver Secreto"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secreto",
+      "HOW_IT_WORKS": "Mba'éichapa oikóta",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Secreto de Mensaje Único",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Comparte secretos, ha poof—ha'ete!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encriptado, protegido ha guardado por Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sin Rastro",
+      "WITHOUT_TRACE_DESCRIPTION": "Ore ha'eve heta proteção para tu información sensible. Todos datos están encriptados en el lado del cliente. No sabemos tu IP dirección, mba'éichapa reipota, ni mba'éichapa reipota umi secreto links - ha más importante, el contenido.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacidad Protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Nde rehegua ha'éva. Nde ko’ẽporãha oñembojoaju ha mba’éichapa reipota. Ñembojoaju peteĩ secreto, ikatu rembojoaju peteĩ contraseña. Avei ikatu reipe'ape peteĩ tiempo de quemado. Mba'e reheve, peteĩ secreto ojehecha 14 días rupi.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encriptado de Fin a Fin",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Todos los enlaces y contenidos están encriptados en el lado del cliente, significando nde'íre rohecha el enlace ha el contenido. Cada enlace oñemohenda peteĩ ID único de 36 que es una encriptación unidireccional para acceder al Secreto Mensaje ha su contenido que está encriptado con AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Mba'éichapa oikóta?",
+      "STEP_1_TITLE": "Ñembojoaju nde mensaja ha/oiñembojoaju contraseña",
+      "STEP_2_TITLE": "Embojoaju Secreto Enlace",
+      "STEP_3_TITLE": "Eipojo enlace",
+      
+      "COMPANY_LOGO_ALT": "Logo de la Empresa",
+      
+      "SHARE_TITLE": "Comparte un mensaje secreto",
+      "SHARE_DESCRIPTION_PART_1": "Escribe ha envia el mensaje, ojehecha porá",
+      "SHARE_DESCRIPTION_PART_2": "ojehecha rire.",
+      
+      "SHARE_BULLET_1": "Sin Rastro.",
+      "SHARE_BULLET_2": "Privacidad Protegida",
+      "SHARE_BULLET_3": "Visto una vez",
+      
+      "SHARE_ENCRYPTED_BY": "Encriptado, protegido ha guardado por Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escribe tu mensaje Secreto, contraseña o información sensible *",
+      "SHARE_OPTIONS": "Opciones",
+      
+      "SHARE_EMPTY": "Dejá vacío para ninguno.",
+      "SHARE_BUTTON": "Crear Enlace Secreto",
+      
+      "CREATED_TITLE": "Tu Secreto ha sido creado",
+      "CREATED_SUBTITLE": "Ojehecha peteĩ vez peve",
+      
+      "CREATED_TITLE_SHARE": "Copia el enlace o compartilo.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Crear Nuevo Secreto",
+      "CREATED_BURNSECRET": "Quemar Secreto",
+      "URL_COPIED": "El URL ha sido copiado.",
+      
+      "VIEW_SECRET": "Ver Secreto"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secreto",
+      "HOW_IT_WORKS": "Mba'éichapa oikóta",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Tu Secreto ha sido creado",
+      "CREATED_SUBTITLE": "Ojehecha peteĩ vez peve",
+      "CREATED_TITLE_SHARE": "Copia el enlace o compartilo.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Crear Nuevo Secreto",
+      "CREATED_BURNSECRET": "Quemar Secreto",
+      "URL_COPIED": "El URL ha sido copiado."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Reñembopirota ko secreto",
+      "SECRET_UNAVAILABLE_TEXT": "Ndaipóri jehecha vevéva",
+      "BURN_FOREVER": "Quemar para siempre",
+      "CANCEL": "Cancelar"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secreto",
+      "HOW_IT_WORKS": "Mba'éichapa oikóta",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Mba'eteko, rehuvaite peteĩ secreto mensaja!",
+      "INSTRUCTION": "Escribe ha envia el mensaje, ojehecha porá",
+      "SHOW_MESSAGE_ONCE": "El mensaje ojehecha <strong>unavez</strong> peve",
+      "OPEN_SECRET_MESSAGE": "Abrir Secreto Mensaje",
+      "INPUT_PASSPHRASE": "Ingresa Frase Secreta",
+      "PASS_PHRASE_PLACEHOLDER": "Frase Secreta",
+      "OPEN_SECRET_BUTTON": "Abrir Secreto Mensaje",
+      "YOUR_SECRET_MESSAGE": "Tu Secreto Mensaje",
+      "COPY": "Copiar",
+      "MESSAGE_LABEL": "Mensaje",
+      "REPLY": "Responder",
+      "DOWNLOAD_MESSAGE": "Descargá Stellar Secret en tu móvil, crea tus mensajes secretos",
+      "WITHOUT_TRACE": "Sin Rastro.",
+      "PRIVACY_PROTECTED": "Privacidad Protegida",
+      "ONE_TIME_VIEWABLE": "Visto una vez",
+      "SECURITY_TEXT": "Encriptado, protegido ha guardado por ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

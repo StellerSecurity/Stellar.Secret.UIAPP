@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvernig það virkar",
+      "DOWNLOAD_APP": "Sæktu forritið",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Einn-tíma leyndarmálsköflun",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deildu leyndarmálum, og puf—þau eru horfin!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dulkóðað, öruggt og varið af Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Án spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Við tryggjum sterka vernd á næmri upplýsingum þínum. Öll gögn eru dulkóðuð á viðskiptavinasíðu. Við vitum ekki IP-tölu þína, hvað þú deilir eða hverju þú deilir leyndarmálstenglum - og mikilvægt, innihaldinu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Fjarskipti vernduð",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Þú ert eini sem veit um tengilinn á leyndarmálaupplýsingarnar sem þú býrð til og hverjum þú deilir honum með. Þegar þú býrð til leyndarmál geturðu bætt við lykilorði áður en það er aflétt. Það er einnig hægt að stilla brennitíma. Hvað sem gerist, þá verður leyndarmálið eytt eftir 14 daga.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Enda-til-endar dulkóðað",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Allir tenglar og efni eru hertir á viðskiptavinasíðu, sem þýðir að jafnvel við vitum ekki tengilinn og efnið. Sérhver tengill hefur einstakt ID sem er 36 lengd sem er einleiðis dulkóðun til að fá aðgang að leyndarmálsskilaboðunum og innihaldinu sem er dulkóðað með AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hvernig það virkar?",
+      "STEP_1_TITLE": "Skrifaðu skilaboðin þín og/eða búa til lykilorð",
+      "STEP_2_TITLE": "Búðu til leyndarmálstengil",
+      "STEP_3_TITLE": "Deildu tenglinum",
+      
+      "COMPANY_LOGO_ALT": "Fyrirtækja merki",
+      
+      "SHARE_TITLE": "Deildu leyndarmálsskilaboðum",
+      "SHARE_DESCRIPTION_PART_1": "Skrifaðu og sendu skilaboðin, þau verða",
+      "SHARE_DESCRIPTION_PART_2": "eitt lesin.",
+      
+      "SHARE_BULLET_1": "Án spor.",
+      "SHARE_BULLET_2": "Fjarskipti vernduð",
+      "SHARE_BULLET_3": "Einn-tíma skoðanleg",
+      
+      "SHARE_ENCRYPTED_BY": "Dulkóðað, öruggt og varið af Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skrifaðu leyndarmálsskilaboðin þín, lykilorð eða næmar upplýsingar *",
+      "SHARE_OPTIONS": "Valkostir",
+      
+      "SHARE_EMPTY": "Láttu vera ef ekkert.",
+      "SHARE_BUTTON": "Búðu til leyndarmálstengil",
+      
+      "CREATED_TITLE": "Leyndarmálið þitt var búið til",
+      "CREATED_SUBTITLE": "Það mun aðeins vera sýnt einu sinni",
+      
+      "CREATED_TITLE_SHARE": "Afritaðu tengilinn eða deildu honum.",
+      "CREATED_BUTTON": "AFRITA",
+      "CREATED_CREATE_SECRET": "Búðu til nýtt leyndarmál",
+      "CREATED_BURNSECRET": "Brennir leyndarmál",
+      "URL_COPIED": "Tengillinn hefur verið afritaður.",
+      "SHARE_BURNER_TIME":"Lífslengd",
+      "SHARE_PASS_PHRASE":"Lykilorð",
+      "VIEW_SECRET": "Skoða leyndarmál"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvernig það virkar",
+      "DOWNLOAD_APP": "Sæktu forritið",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Einn-tíma leyndarmálsköflun",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deildu leyndarmálum, og puf—þau eru horfin!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dulkóðað, öruggt og varið af Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Án spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Við tryggjum sterka vernd á næmri upplýsingum þínum. Öll gögn eru dulkóðuð á viðskiptavinasíðu. Við vitum ekki IP-tölu þína, hvað þú deilir eða hverju þú deilir leyndarmálstenglum - og mikilvægt, innihaldinu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Fjarskipti vernduð",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Þú ert eini sem veit um tengilinn á leyndarmálaupplýsingarnar sem þú býrð til og hverjum þú deilir honum með. Þegar þú býrð til leyndarmál geturðu bætt við lykilorði áður en það er aflétt. Það er einnig hægt að stilla brennitíma. Hvað sem gerist, þá verður leyndarmálið eytt eftir 14 daga.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Enda-til-endar dulkóðað",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Allir tenglar og efni eru hertir á viðskiptavinasíðu, sem þýðir að jafnvel við vitum ekki tengilinn og efnið. Sérhver tengill hefur einstakt ID sem er 36 lengd sem er einleiðis dulkóðun til að fá aðgang að leyndarmálsskilaboðunum og innihaldinu sem er dulkóðað með AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hvernig það virkar?",
+      "STEP_1_TITLE": "Skrifaðu skilaboðin þín og/eða búa til lykilorð",
+      "STEP_2_TITLE": "Búðu til leyndarmálstengil",
+      "STEP_3_TITLE": "Deildu tenglinum",
+      
+      "COMPANY_LOGO_ALT": "Fyrirtækja merki",
+      
+      "SHARE_TITLE": "Deildu leyndarmálsskilaboðum",
+      "SHARE_DESCRIPTION_PART_1": "Skrifaðu og sendu skilaboðin, þau verða",
+      "SHARE_DESCRIPTION_PART_2": "eitt lesin.",
+      
+      "SHARE_BULLET_1": "Án spor.",
+      "SHARE_BULLET_2": "Fjarskipti vernduð",
+      "SHARE_BULLET_3": "Einn-tíma skoðanleg",
+      
+      "SHARE_ENCRYPTED_BY": "Dulkóðað, öruggt og varið af Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skrifaðu leyndarmálsskilaboðin þín, lykilorð eða næmar upplýsingar *",
+      "SHARE_OPTIONS": "Valkostir",
+      
+      "SHARE_EMPTY": "Láttu vera ef ekkert.",
+      "SHARE_BUTTON": "Búðu til leyndarmálstengil",
+      
+      "CREATED_TITLE": "Leyndarmálið þitt var búið til",
+      "CREATED_SUBTITLE": "Það mun aðeins vera sýnt einu sinni",
+      
+      "CREATED_TITLE_SHARE": "Afritaðu tengilinn eða deildu honum.",
+      "CREATED_BUTTON": "AFRITA",
+      "CREATED_CREATE_SECRET": "Búðu til nýtt leyndarmál",
+      "CREATED_BURNSECRET": "Brennir leyndarmál",
+      "URL_COPIED": "Tengillinn hefur verið afritaður.",
+      
+      "VIEW_SECRET": "Skoða leyndarmál"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvernig það virkar",
+      "DOWNLOAD_APP": "Sæktu forritið",
+      "CREATED_TITLE": "Leyndarmálið þitt var búið til",
+      "CREATED_SUBTITLE": "Það mun aðeins vera sýnt einu sinni",
+      "CREATED_TITLE_SHARE": "Afritaðu tengilinn eða deildu honum.",
+      "CREATED_BUTTON": "AFRITA",
+      "CREATED_CREATE_SECRET": "Búðu til nýtt leyndarmál",
+      "CREATED_BURNSECRET": "Brennir leyndarmál",
+      "URL_COPIED": "Tengillinn hefur verið afritaður."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Þú ert að brenna þetta leyndarmál",
+      "SECRET_UNAVAILABLE_TEXT": "Það verður ekki aðgengilegt lengur",
+      "BURN_FOREVER": "Brenna Fyrir Alltaf",
+      "CANCEL": "Hætta við"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvernig það virkar",
+      "DOWNLOAD_APP": "Sæktu forritið",
+      "WELCOME_MESSAGE": "Halló, þú fékkst leyndarmálsskilaboð!",
+      "INSTRUCTION": "Skrifaðu og sendu skilaboðin, þau verða eytt eftir lestur.",
+      "SHOW_MESSAGE_ONCE": "Eftirfarandi skilaboð verða sýnd <strong>einungis einu sinni</strong>",
+      "OPEN_SECRET_MESSAGE": "Opna leyndarmálsskilaboð",
+      "INPUT_PASSPHRASE": "Sláðu inn lykilorð",
+      "PASS_PHRASE_PLACEHOLDER": "Lykilorð",
+      "OPEN_SECRET_BUTTON": "Opna leyndarmálsskilaboð",
+      "YOUR_SECRET_MESSAGE": "Leyndarmálsskilaboð þitt",
+      "COPY": "Afrita",
+      "MESSAGE_LABEL": "Skilaboð",
+      "REPLY": "Svara",
+      "DOWNLOAD_MESSAGE": "Sæktu Stellar Secret á farsíma, búðu til leyndarmálsskilaboð",
+      "WITHOUT_TRACE": "Án spor.",
+      "PRIVACY_PROTECTED": "Fjarskipti vernduð",
+      "ONE_TIME_VIEWABLE": "Einn-tíma skoðanleg",
+      "SECURITY_TEXT": "Dulkóðað, öruggt og varið af ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

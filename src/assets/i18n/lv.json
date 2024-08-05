@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kā tas darbojas",
+      "DOWNLOAD_APP": "Lejupielādēt lietotni",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Vienreizējs slepens ziņojums",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dalieties ar noslēpumiem, un pūk, tie ir pazuduši!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrēts, drošs un aizsargāts ar Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bez pēdām",
+      "WITHOUT_TRACE_DESCRIPTION": "Mēs nodrošinām spēcīgu jūsu sensitīvo informāciju aizsardzību. Visus datus šifrē klienta pusē. Mēs nezinam jūsu IP adresi, ko jūs dalāties vai ar ko jūs dalāties ar slepenajiem saitēm - un vissvarīgāk, saturu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privātums aizsargāts",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jūs esat vienīgais, kurš zina saiti uz slepeno informāciju, ko esat izveidojis, un ar ko jūs to dalāties. Izveidojot noslēpumu, varat pievienot paroli, pirms tā var tikt atbloķēta. Tāpat ir iespējams iestatīt izdzēšanas laiku. Neatkarīgi no tā, noslēpums tiks dzēsts pēc 14 dienām.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "No gala līdz galam šifrēts",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Visas saites un saturs tiek hashēti klienta pusē, tas nozīmē, ka pat mēs nezinam saiti un saturu. Katrai saitei ir unikāls ID ar garumu 36, kas ir vienvirziena šifrēšana, lai piekļūtu slepenajam ziņojumam un tā saturam, kas ir šifrēts ar AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kā tas darbojas?",
+      "STEP_1_TITLE": "Uzrakstiet savu ziņojumu un/vai ģenerējiet paroli",
+      "STEP_2_TITLE": "Izveidojiet slepeno saiti",
+      "STEP_3_TITLE": "Dalieties ar saiti",
+      
+      "COMPANY_LOGO_ALT": "Uzņēmuma logo",
+      
+      "SHARE_TITLE": "Dalieties ar slepeno ziņojumu",
+      "SHARE_DESCRIPTION_PART_1": "Uzrakstiet un nosūtiet ziņojumu, tas tiks",
+      "SHARE_DESCRIPTION_PART_2": "dzēsts pēc izlasīšanas.",
+      
+      "SHARE_BULLET_1": "Bez pēdām.",
+      "SHARE_BULLET_2": "Privātums aizsargāts",
+      "SHARE_BULLET_3": "Vienreizējs apskats",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrēts, drošs un aizsargāts ar Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Uzrakstiet savu slepeno ziņojumu, paroli vai sensitīvu informāciju *",
+      "SHARE_OPTIONS": "Opcijas",
+      
+      "SHARE_EMPTY": "Atstājiet tukšu, ja nav nepieciešams.",
+      "SHARE_BUTTON": "Izveidot slepeno saiti",
+      
+      "CREATED_TITLE": "Jūsu noslēpums tika izveidots",
+      "CREATED_SUBTITLE": "Tas tiks rādīts tikai vienu reizi",
+      
+      "CREATED_TITLE_SHARE": "Kopējiet saiti vai dalieties ar to.",
+      "CREATED_BUTTON": "KOPĒT",
+      "CREATED_CREATE_SECRET": "Izveidot jaunu noslēpumu",
+      "CREATED_BURNSECRET": "Izdzēst noslēpumu",
+      "URL_COPIED": "URL ir nokopēts.",
+      "SHARE_BURNER_TIME":"Mūžīgais",
+      "SHARE_PASS_PHRASE":"Parole",
+      "VIEW_SECRET": "Skatīt noslēpumu"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kā tas darbojas",
+      "DOWNLOAD_APP": "Lejupielādēt lietotni",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Vienreizējs slepens ziņojums",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dalieties ar noslēpumiem, un pūk, tie ir pazuduši!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrēts, drošs un aizsargāts ar Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bez pēdām",
+      "WITHOUT_TRACE_DESCRIPTION": "Mēs nodrošinām spēcīgu jūsu sensitīvo informāciju aizsardzību. Visus datus šifrē klienta pusē. Mēs nezinam jūsu IP adresi, ko jūs dalāties vai ar ko jūs dalāties ar slepenajiem saitēm - un vissvarīgāk, saturu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privātums aizsargāts",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jūs esat vienīgais, kurš zina saiti uz slepeno informāciju, ko esat izveidojis, un ar ko jūs to dalāties. Izveidojot noslēpumu, varat pievienot paroli, pirms tā var tikt atbloķēta. Tāpat ir iespējams iestatīt izdzēšanas laiku. Neatkarīgi no tā, noslēpums tiks dzēsts pēc 14 dienām.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "No gala līdz galam šifrēts",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Visas saites un saturs tiek hashēti klienta pusē, tas nozīmē, ka pat mēs nezinam saiti un saturu. Katrai saitei ir unikāls ID ar garumu 36, kas ir vienvirziena šifrēšana, lai piekļūtu slepenajam ziņojumam un tā saturam, kas ir šifrēts ar AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kā tas darbojas?",
+      "STEP_1_TITLE": "Uzrakstiet savu ziņojumu un/vai ģenerējiet paroli",
+      "STEP_2_TITLE": "Izveidojiet slepeno saiti",
+      "STEP_3_TITLE": "Dalieties ar saiti",
+      
+      "COMPANY_LOGO_ALT": "Uzņēmuma logo",
+      
+      "SHARE_TITLE": "Dalieties ar slepeno ziņojumu",
+      "SHARE_DESCRIPTION_PART_1": "Uzrakstiet un nosūtiet ziņojumu, tas tiks",
+      "SHARE_DESCRIPTION_PART_2": "dzēsts pēc izlasīšanas.",
+      
+      "SHARE_BULLET_1": "Bez pēdām.",
+      "SHARE_BULLET_2": "Privātums aizsargāts",
+      "SHARE_BULLET_3": "Vienreizējs apskats",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrēts, drošs un aizsargāts ar Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Uzrakstiet savu slepeno ziņojumu, paroli vai sensitīvu informāciju *",
+      "SHARE_OPTIONS": "Opcijas",
+      
+      "SHARE_EMPTY": "Atstājiet tukšu, ja nav nepieciešams.",
+      "SHARE_BUTTON": "Izveidot slepeno saiti",
+      
+      "CREATED_TITLE": "Jūsu noslēpums tika izveidots",
+      "CREATED_SUBTITLE": "Tas tiks rādīts tikai vienu reizi",
+      
+      "CREATED_TITLE_SHARE": "Kopējiet saiti vai dalieties ar to.",
+      "CREATED_BUTTON": "KOPĒT",
+      "CREATED_CREATE_SECRET": "Izveidot jaunu noslēpumu",
+      "CREATED_BURNSECRET": "Izdzēst noslēpumu",
+      "URL_COPIED": "URL ir nokopēts.",
+      
+      "VIEW_SECRET": "Skatīt noslēpumu"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kā tas darbojas",
+      "DOWNLOAD_APP": "Lejupielādēt lietotni",
+      "CREATED_TITLE": "Jūsu noslēpums tika izveidots",
+      "CREATED_SUBTITLE": "Tas tiks rādīts tikai vienu reizi",
+      "CREATED_TITLE_SHARE": "Kopējiet saiti vai dalieties ar to.",
+      "CREATED_BUTTON": "KOPĒT",
+      "CREATED_CREATE_SECRET": "Izveidot jaunu noslēpumu",
+      "CREATED_BURNSECRET": "Izdzēst noslēpumu",
+      "URL_COPIED": "URL ir nokopēts."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Jūs gatavojaties izdzēst šo noslēpumu",
+      "SECRET_UNAVAILABLE_TEXT": "Tas vairs nebūs pieejams",
+      "BURN_FOREVER": "Izdzēst uz visiem laikiem",
+      "CANCEL": "Atcelt"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kā tas darbojas",
+      "DOWNLOAD_APP": "Lejupielādēt lietotni",
+      "WELCOME_MESSAGE": "Sveiki, jūs saņēmāt slepenu ziņojumu!",
+      "INSTRUCTION": "Uzrakstiet un nosūtiet ziņojumu, tas tiks dzēsts pēc izlasīšanas.",
+      "SHOW_MESSAGE_ONCE": "Šā ziņojuma tiks rādīts <strong>tikai vienu reizi</strong>",
+      "OPEN_SECRET_MESSAGE": "Atvērt slepeno ziņojumu",
+      "INPUT_PASSPHRASE": "Ievadiet paroli",
+      "PASS_PHRASE_PLACEHOLDER": "Parole",
+      "OPEN_SECRET_BUTTON": "Atvērt slepeno ziņojumu",
+      "YOUR_SECRET_MESSAGE": "Jūsu slepenais ziņojums",
+      "COPY": "Kopēt",
+      "MESSAGE_LABEL": "Ziņojums",
+      "REPLY": "Atbildēt",
+      "DOWNLOAD_MESSAGE": "Lejupielādējiet Stellar Secret mobilajām ierīcēm, izveidojiet savus slepenos ziņojumus",
+      "WITHOUT_TRACE": "Bez pēdām.",
+      "PRIVACY_PROTECTED": "Privātums aizsargāts",
+      "ONE_TIME_VIEWABLE": "Vienreizējs apskats",
+      "SECURITY_TEXT": "Šifrēts, drošs un aizsargāts ar ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

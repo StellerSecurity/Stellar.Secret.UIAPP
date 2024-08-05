@@ -1,0 +1,147 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Mungayifuna",
+      "DOWNLOAD_APP": "Chotsani App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Uthenga Wachinsinsi Wochita Kamodzi",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gawani zinsinsi, ndipo zidzakhala zothamangira!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Zikufichidwa, chitetezo ndi chitetezo ndi Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Popanda chizindikiro",
+      "WITHOUT_TRACE_DESCRIPTION": "Tikhazikitsa chitetezo chogwira pa zidziwitso zanu zokhudza. Zonse zimakhala zikufichidwa pa mbali ya makasitomala. Sitidziwa IP yanu, zomwe mukugawana, kapena amene mukugawana nawo maulalo achinsinsi - ndipo chofunika kwambiri, zomwe zikuphatikizidwa.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Chinsinsi Chitetezedwa",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ndinu okha omwe mumadziwa ulalo wa chinsinsi chomwe chinalenga ndi amene mukugawana nalo. Mukalenga chinsinsi, mutha kuwonjezera chinsinsi musanadabwe. Ndipo zimathandiza kukonza nthawi ya burner. Popanda chilichonse, chinsinsi chidzachotsedwa mutatha masiku 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Chitsimikizo chonse",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Maulalo ndi zomwe zikuphatikizidwa zikufichidwa pa mbali ya makasitomala, kutanthauza kuti sitidziwa ulalo ndi zomwe zikuphatikizidwa. Ulalo uliwonse uli ndi ID yapadera ya 36 yokhala ndi chitsimikizo cha njira imodzi kuti mupeze Uthenga Wachinsinsi ndi zomwe zikuphatikizidwa zomwe zafichidwa ndi AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Mungayifuna bwanji?",
+      "STEP_1_TITLE": "Lembani uthenga wanu ndi / kapena kupanga chinsinsi",
+      "STEP_2_TITLE": "Lenga Ulalo Wachinsinsi",
+      "STEP_3_TITLE": "Gawani ulalo",
+      
+      "COMPANY_LOGO_ALT": "Logo ya Kampani",
+      
+      "SHARE_TITLE": "Gawani uthenga wachinsinsi",
+      "SHARE_DESCRIPTION_PART_1": "Lembani ndikugawana uthenga, zidzakhalapo",
+      "SHARE_DESCRIPTION_PART_2": "chotsedwa mutakhala mukuwona.",
+      
+      "SHARE_BULLET_1": "Popanda chizindikiro.",
+      "SHARE_BULLET_2": "Chinsinsi Chitetezedwa",
+      "SHARE_BULLET_3": "Chingakhale chithunzi chimodzi",
+      
+      "SHARE_ENCRYPTED_BY": "Zikufichidwa, chitetezo ndi chitetezo ndi Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Lembani Uthenga Wanu Wachinsinsi, chinsinsi kapena zomwe zili zofunika *",
+      "SHARE_OPTIONS": "Zoptions",
+      
+      "SHARE_EMPTY": "Kusiya zosaloledwa.",
+      "SHARE_BUTTON": "Lenga Ulalo Wachinsinsi",
+      
+      "CREATED_TITLE": "Chinsinsi chanu chinalengedwa",
+      "CREATED_SUBTITLE": "Chidzawonetsedwa kamodzi kokha",
+      
+      "CREATED_TITLE_SHARE": "Kopera ulalo kapena gawani.",
+      "CREATED_BUTTON": "KOPERA",
+      "CREATED_CREATE_SECRET": "Lenga Chinsinsi Chatsopano",
+      "CREATED_BURNSECRET": "Chotsani Chinsinsi",
+      "URL_COPIED": "Ulalo wakhazikitsidwa.",
+      "SHARE_BURNER_TIME":"Nthawi yowona",
+      "SHARE_PASS_PHRASE":"Chinsinsi",
+      "VIEW_SECRET": "Onani Chinsinsi"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Mungayifuna",
+      "DOWNLOAD_APP": "Chotsani App",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Uthenga Wachinsinsi Wochita Kamodzi",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gawani zinsinsi, ndipo zidzakhala zothamangira!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Zikufichidwa, chitetezo ndi chitetezo ndi Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Popanda chizindikiro",
+      "WITHOUT_TRACE_DESCRIPTION": "Tikhazikitsa chitetezo chogwira pa zidziwitso zanu zokhudza. Zonse zimakhala zikufichidwa pa mbali ya makasitomala. Sitidziwa IP yanu, zomwe mukugawana, kapena amene mukugawana nawo maulalo achinsinsi - ndipo chofunika kwambiri, zomwe zikuphatikizidwa.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Chinsinsi Chitetezedwa",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ndinu okha omwe mumadziwa ulalo wa chinsinsi chomwe chinalenga ndi amene mukugawana nalo. Mukalenga chinsinsi, mutha kuwonjezera chinsinsi musanadabwe. Ndipo zimathandiza kukonza nthawi ya burner. Popanda chilichonse, chinsinsi chidzachotsedwa mutatha masiku 14.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Chitsimikizo chonse",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Maulalo ndi zomwe zikuphatikizidwa zikufichidwa pa mbali ya makasitomala, kutanthauza kuti sitidziwa ulalo ndi zomwe zikuphatikizidwa. Ulalo uliwonse uli ndi ID yapadera ya 36 yokhala ndi chitsimikizo cha njira imodzi kuti mupeze Uthenga Wachinsinsi ndi zomwe zikuphatikizidwa zomwe zafichidwa ndi AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Mungayifuna bwanji?",
+      "STEP_1_TITLE": "Lembani uthenga wanu ndi / kapena kupanga chinsinsi",
+      "STEP_2_TITLE": "Lenga Ulalo Wachinsinsi",
+      "STEP_3_TITLE": "Gawani ulalo",
+    
+      "COMPANY_LOGO_ALT": "Logo ya Kampani",
+    
+      "SHARE_TITLE": "Gawani uthenga wachinsinsi",
+      "SHARE_DESCRIPTION_PART_1": "Lembani ndikugawana uthenga, zidzakhalapo",
+      "SHARE_DESCRIPTION_PART_2": "chotsedwa mutakhala mukuwona.",
+    
+      "SHARE_BULLET_1": "Popanda chizindikiro.",
+      "SHARE_BULLET_2": "Chinsinsi Chitetezedwa",
+      "SHARE_BULLET_3": "Chingakhale chithunzi chimodzi",
+    
+      "SHARE_ENCRYPTED_BY": "Zikufichidwa, chitetezo ndi chitetezo ndi Stellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Lembani Uthenga Wanu Wachinsinsi, chinsinsi kapena zomwe zili zofunika *",
+      "SHARE_OPTIONS": "Zoptions",
+    
+      "SHARE_EMPTY": "Kusiya zosaloledwa.",
+      "SHARE_BUTTON": "Lenga Ulalo Wachinsinsi",
+    
+      "CREATED_TITLE": "Chinsinsi chanu chinalengedwa",
+      "CREATED_SUBTITLE": "Chidzawonetsedwa kamodzi kokha",
+    
+      "CREATED_TITLE_SHARE": "Kopera ulalo kapena gawani.",
+      "CREATED_BUTTON": "KOPERA",
+      "CREATED_CREATE_SECRET": "Lenga Chinsinsi Chatsopano",
+      "CREATED_BURNSECRET": "Chotsani Chinsinsi",
+      "URL_COPIED": "Ulalo wakhazikitsidwa.",
+      "VIEW_SECRET": "Onani Chinsinsi"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Mungayifuna",
+      "DOWNLOAD_APP": "Chotsani App",
+      "CREATED_TITLE": "Chinsinsi chanu chinalengedwa",
+      "CREATED_SUBTITLE": "Chidzawonetsedwa kamodzi kokha",
+      "CREATED_TITLE_SHARE": "Kopera ulalo kapena gawani.",
+      "CREATED_BUTTON": "KOPERA",
+      "CREATED_CREATE_SECRET": "Lenga Chinsinsi Chatsopano",
+      "CREATED_BURNSECRET": "Chotsani Chinsinsi",
+      "URL_COPIED": "Ulalo wakhazikitsidwa."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Mudzachotsa chinsinsi ichi",
+      "SECRET_UNAVAILABLE_TEXT": "Sidzakhala ntchito ndipo",
+      "BURN_FOREVER": "Chotsani Kwamuyaya",
+      "CANCEL": "Kuleka"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Mungayifuna",
+      "DOWNLOAD_APP": "Chotsani App",
+      "WELCOME_MESSAGE": "Moni, mwalandira uthenga wachinsinsi!",
+      "INSTRUCTION": "Lembani ndikugawana uthenga, zidzakhalapo chotsedwa mutakhala mukuwona.",
+      "SHOW_MESSAGE_ONCE": "Uthenga un following udayamba <strong>kamodzi kokha</strong>",
+      "OPEN_SECRET_MESSAGE": "Tsegulani Uthenga Wachinsinsi",
+      "INPUT_PASSPHRASE": "Lembani Chinsinsi",
+      "PASS_PHRASE_PLACEHOLDER": "Chinsinsi",
+      "OPEN_SECRET_BUTTON": "Tsegulani Uthenga Wachinsinsi",
+      "YOUR_SECRET_MESSAGE": "Uthenga Wachinsinsi Wanu",
+      "COPY": "Kopera",
+      "MESSAGE_LABEL": "Uthenga",
+      "REPLY": "Yankhani",
+      "DOWNLOAD_MESSAGE": "Tsegulani Stellar Secret pa foni, pangani uthenga wanu wachinsinsi",
+      "WITHOUT_TRACE": "Popanda chizindikiro.",
+      "PRIVACY_PROTECTED": "Chinsinsi Chitetezedwa",
+      "ONE_TIME_VIEWABLE": "Chingakhale chithunzi chimodzi",
+      "SECURITY_TEXT": "Zikufichidwa, chitetezo ndi chitetezo ndi ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

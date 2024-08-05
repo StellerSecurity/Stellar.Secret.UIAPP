@@ -4,22 +4,22 @@
       "HOW_IT_WORKS": "Comment ça marche",
       "DOWNLOAD_APP": "Télécharger l'application",
       
-      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messagerie Secret à Usage Unique",
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messagerie Secrète à Usage Unique",
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partagez des secrets, et pouf—ils disparaissent !",
       
-      "ENCRYPTED_PROTECTED_BY": "Crypté, sécurisé et protégé par la Sécurité Stellaire",
+      "ENCRYPTED_PROTECTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
       "WITHOUT_TRACE_TITLE": "Sans laisser de trace",
-      "WITHOUT_TRACE_DESCRIPTION": "Nous garantissons une protection robuste de vos informations sensibles. Toutes les données sont cryptées côté client. Nous ne connaissons pas votre adresse IP, ce que vous partagez, ou avec qui vous partagez les liens secrets - et surtout, le contenu.",
+      "WITHOUT_TRACE_DESCRIPTION": "Nous assurons une protection robuste de vos informations sensibles. Toutes les données sont chiffrées côté client. Nous ne connaissons pas votre adresse IP, ce que vous partagez, ni avec qui vous partagez les liens secrets - et surtout, le contenu.",
       
       "PRIVACY_PROTECTED_TITLE": "Vie privée protégée",
-      "PRIVACY_PROTECTED_DESCRIPTION": "Vous êtes le seul à connaître le lien vers les informations secrètes que vous avez créées et avec qui vous les partagez. Lorsque vous créez un secret, vous pouvez ajouter un mot de passe avant qu'il puisse être déverrouillé. Il est également possible de définir un délai de suppression. Peu importe, un secret sera supprimé après 14 jours.",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vous êtes le seul à connaître le lien vers les informations secrètes que vous avez créées et avec qui vous les partagez. Lors de la création d'un secret, vous pouvez ajouter un mot de passe avant qu'il puisse être déverrouillé. Il est également possible de définir un délai de destruction. Peu importe ce qui se passe, un secret sera supprimé après 14 jours.",
       
-      "END_TO_END_ENCRYPTED_TITLE": "Crypté de bout en bout",
-      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tous les liens et contenus sont hachés côté client, ce qui signifie même nous ne connaissons pas le lien et le contenu. Chaque lien a un ID unique de longueur 36 qui est un cryptage unidirectionnel permettant d'accéder au Message Secret et à son contenu qui est crypté avec AES-256.",
+      "END_TO_END_ENCRYPTED_TITLE": "Chiffrement de bout en bout",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tous les liens et contenus sont hachés côté client, ce qui signifie que même nous ne connaissons pas le lien et le contenu. Chaque lien a un identifiant unique de 36 caractères qui est un chiffrement unidirectionnel permettant d'accéder au Message Secret et à son contenu, qui est chiffré avec AES-256.",
       
       "HOW_IT_WORKS_TITLE": "Comment ça marche ?",
-      "STEP_1_TITLE": "Rédigez votre message et/ou générez un mot de passe",
-      "STEP_2_TITLE": "Créez le lien secret",
+      "STEP_1_TITLE": "Écrivez votre message et/ou générez un mot de passe",
+      "STEP_2_TITLE": "Créez un lien secret",
       "STEP_3_TITLE": "Partagez le lien",
       
       "COMPANY_LOGO_ALT": "Logo de l'entreprise",
@@ -30,9 +30,9 @@
       
       "SHARE_BULLET_1": "Sans laisser de trace.",
       "SHARE_BULLET_2": "Vie privée protégée",
-      "SHARE_BULLET_3": "Consultation unique",
+      "SHARE_BULLET_3": "Vue unique",
       
-      "SHARE_ENCRYPTED_BY": "Crypté, sécurisé et protégé par la Sécurité Stellaire",
+      "SHARE_ENCRYPTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
       
       "SHARE_TEXTAREA_PLACEHOLDER": "Écrivez votre message secret, mot de passe ou information sensible *",
       "SHARE_OPTIONS": "Options",
@@ -41,15 +41,15 @@
       "SHARE_BUTTON": "Créer un lien secret",
       
       "CREATED_TITLE": "Votre secret a été créé",
-      "CREATED_SUBTITLE": "Il sera affiché une seule fois",
+      "CREATED_SUBTITLE": "Il sera affiché uniquement une fois",
       
       "CREATED_TITLE_SHARE": "Copiez le lien ou partagez-le.",
       "CREATED_BUTTON": "COPIER",
       "CREATED_CREATE_SECRET": "Créer un nouveau secret",
       "CREATED_BURNSECRET": "Brûler le secret",
       "URL_COPIED": "L'URL a été copiée.",
-      "SHARE_BURNER_TIME": "Durée de vie",
-      "SHARE_PASS_PHRASE": "Phrase secrète",
+      "SHARE_BURNER_TIME":"Durée de vie",
+      "SHARE_PASS_PHRASE":"Mot de passe",
       "VIEW_SECRET": "Voir le secret"
     },
     "HOWITWORK": {
@@ -57,22 +57,22 @@
       "HOW_IT_WORKS": "Comment ça marche",
       "DOWNLOAD_APP": "Télécharger l'application",
       
-      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messagerie Secret à Usage Unique",
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messagerie Secrète à Usage Unique",
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partagez des secrets, et pouf—ils disparaissent !",
       
-      "ENCRYPTED_PROTECTED_BY": "Crypté, sécurisé et protégé par la Sécurité Stellaire",
+      "ENCRYPTED_PROTECTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
       "WITHOUT_TRACE_TITLE": "Sans laisser de trace",
-      "WITHOUT_TRACE_DESCRIPTION": "Nous garantissons une protection robuste de vos informations sensibles. Toutes les données sont cryptées côté client. Nous ne connaissons pas votre adresse IP, ce que vous partagez, ou avec qui vous partagez les liens secrets - et surtout, le contenu.",
+      "WITHOUT_TRACE_DESCRIPTION": "Nous assurons une protection robuste de vos informations sensibles. Toutes les données sont chiffrées côté client. Nous ne connaissons pas votre adresse IP, ce que vous partagez, ni avec qui vous partagez les liens secrets - et surtout, le contenu.",
       
       "PRIVACY_PROTECTED_TITLE": "Vie privée protégée",
-      "PRIVACY_PROTECTED_DESCRIPTION": "Vous êtes le seul à connaître le lien vers les informations secrètes que vous avez créées et avec qui vous les partagez. Lorsque vous créez un secret, vous pouvez ajouter un mot de passe avant qu'il puisse être déverrouillé. Il est également possible de définir un délai de suppression. Peu importe, un secret sera supprimé après 14 jours.",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vous êtes le seul à connaître le lien vers les informations secrètes que vous avez créées et avec qui vous les partagez. Lors de la création d'un secret, vous pouvez ajouter un mot de passe avant qu'il puisse être déverrouillé. Il est également possible de définir un délai de destruction. Peu importe ce qui se passe, un secret sera supprimé après 14 jours.",
       
-      "END_TO_END_ENCRYPTED_TITLE": "Crypté de bout en bout",
-      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tous les liens et contenus sont hachés côté client, ce qui signifie même nous ne connaissons pas le lien et le contenu. Chaque lien a un ID unique de longueur 36 qui est un cryptage unidirectionnel permettant d'accéder au Message Secret et à son contenu qui est crypté avec AES-256.",
+      "END_TO_END_ENCRYPTED_TITLE": "Chiffrement de bout en bout",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tous les liens et contenus sont hachés côté client, ce qui signifie que même nous ne connaissons pas le lien et le contenu. Chaque lien a un identifiant unique de 36 caractères qui est un chiffrement unidirectionnel permettant d'accéder au Message Secret et à son contenu, qui est chiffré avec AES-256.",
       
       "HOW_IT_WORKS_TITLE": "Comment ça marche ?",
-      "STEP_1_TITLE": "Rédigez votre message et/ou générez un mot de passe",
-      "STEP_2_TITLE": "Créez le lien secret",
+      "STEP_1_TITLE": "Écrivez votre message et/ou générez un mot de passe",
+      "STEP_2_TITLE": "Créez un lien secret",
       "STEP_3_TITLE": "Partagez le lien",
       
       "COMPANY_LOGO_ALT": "Logo de l'entreprise",
@@ -83,9 +83,9 @@
       
       "SHARE_BULLET_1": "Sans laisser de trace.",
       "SHARE_BULLET_2": "Vie privée protégée",
-      "SHARE_BULLET_3": "Consultation unique",
+      "SHARE_BULLET_3": "Vue unique",
       
-      "SHARE_ENCRYPTED_BY": "Crypté, sécurisé et protégé par la Sécurité Stellaire",
+      "SHARE_ENCRYPTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
       
       "SHARE_TEXTAREA_PLACEHOLDER": "Écrivez votre message secret, mot de passe ou information sensible *",
       "SHARE_OPTIONS": "Options",
@@ -94,7 +94,7 @@
       "SHARE_BUTTON": "Créer un lien secret",
       
       "CREATED_TITLE": "Votre secret a été créé",
-      "CREATED_SUBTITLE": "Il sera affiché une seule fois",
+      "CREATED_SUBTITLE": "Il sera affiché uniquement une fois",
       
       "CREATED_TITLE_SHARE": "Copiez le lien ou partagez-le.",
       "CREATED_BUTTON": "COPIER",
@@ -105,16 +105,44 @@
       "VIEW_SECRET": "Voir le secret"
     },
     "CREATEDPAGE": {
-    "CREATEDPAGE": "Secret Stellaire",
-    "HOW_IT_WORKS": "Comment ça marche",
-    "DOWNLOAD_APP": "Télécharger l'application",
-    "CREATED_TITLE": "Votre secret a été créé",
-    "CREATED_SUBTITLE": "Il sera montré une seule fois",
-    "CREATED_TITLE_SHARE": "Copiez le lien ou partagez-le.",
-    "CREATED_BUTTON": "COPIER",
-    "CREATED_CREATE_SECRET": "Créer un nouveau secret",
-    "CREATED_BURNSECRET": "Brûler le secret",
-    "URL_COPIED": "L'URL a été copiée."
-  }
+      "CREATEDPAGE": "Secret Stellaire",
+      "HOW_IT_WORKS": "Comment ça marche",
+      "DOWNLOAD_APP": "Télécharger l'application",
+      "CREATED_TITLE": "Votre secret a été créé",
+      "CREATED_SUBTITLE": "Il sera affiché uniquement une fois",
+      "CREATED_TITLE_SHARE": "Copiez le lien ou partagez-le.",
+      "CREATED_BUTTON": "COPIER",
+      "CREATED_CREATE_SECRET": "Créer un nouveau secret",
+      "CREATED_BURNSECRET": "Brûler le secret",
+      "URL_COPIED": "L'URL a été copiée."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vous allez brûler ce secret",
+      "SECRET_UNAVAILABLE_TEXT": "Il ne sera plus disponible",
+      "BURN_FOREVER": "Brûler pour toujours",
+      "CANCEL": "Annuler"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Secret Stellaire",
+      "HOW_IT_WORKS": "Comment ça marche",
+      "DOWNLOAD_APP": "Télécharger l'application",
+      "WELCOME_MESSAGE": "Bonjour, vous avez reçu un message secret !",
+      "INSTRUCTION": "Écrivez et envoyez le message, il sera supprimé une fois lu.",
+      "SHOW_MESSAGE_ONCE": "Le message suivant sera affiché <strong>uniquement une fois</strong>",
+      "OPEN_SECRET_MESSAGE": "Ouvrir le message secret",
+      "INPUT_PASSPHRASE": "Saisir le mot de passe",
+      "PASS_PHRASE_PLACEHOLDER": "Mot de passe",
+      "OPEN_SECRET_BUTTON": "Ouvrir le message secret",
+      "YOUR_SECRET_MESSAGE": "Votre message secret",
+      "COPY": "Copier",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Répondre",
+      "DOWNLOAD_MESSAGE": "Téléchargez Stellar Secret sur mobile, créez vos messages secrets",
+      "WITHOUT_TRACE": "Sans laisser de trace.",
+      "PRIVACY_PROTECTED": "Vie privée protégée",
+      "ONE_TIME_VIEWABLE": "Vue unique",
+      "SECURITY_TEXT": "Chiffré, sécurisé et protégé par ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
   }
   

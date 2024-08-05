@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Csillag Titok",
+      "HOW_IT_WORKS": "Hogyan működik",
+      "DOWNLOAD_APP": "Alkalmazás letöltése",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Egyszeri Titkos Üzenetküldés",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ossza meg a titkokat, és puff—eltűnnek!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Titkosítva, biztosítva és védve a Stellar Security által",
+      "WITHOUT_TRACE_TITLE": "Nyom nélkül",
+      "WITHOUT_TRACE_DESCRIPTION": "Biztosítjuk az érzékeny információk erős védelmét. Minden adatot titkosítunk az ügyfélnél. Nem tudjuk az IP címét, mit oszt meg, vagy kivel osztja meg a titkos linkeket - és ami a legfontosabb, a tartalmat sem.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Védett adatvédelem",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Csak Ön tudja a linket a létrehozott titkos információhoz, és hogy kivel osztja meg. Titok létrehozásakor jelszót adhat hozzá, mielőtt feloldható lenne. Beállíthat egy elévülési időt is. Mindenesetre a titok 14 nap után törlésre kerül.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Végponttól végpontig titkosítva",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Minden link és tartalom a kliens oldalon van hash-elve, így még mi sem tudjuk a linket és a tartalmat. Minden link rendelkezik egy 36 karakter hosszú egyedi azonosítóval, ami egyirányú titkosítás az Üzenet és annak tartalmának eléréséhez, amit AES-256-tal titkosítunk.",
+      
+      "HOW_IT_WORKS_TITLE": "Hogyan működik?",
+      "STEP_1_TITLE": "Írja be az üzenetet és/vagy generáljon jelszót",
+      "STEP_2_TITLE": "Hozzon létre titkos linket",
+      "STEP_3_TITLE": "Ossza meg a linket",
+      
+      "COMPANY_LOGO_ALT": "Cég Logó",
+      
+      "SHARE_TITLE": "Ossza meg a titkos üzenetet",
+      "SHARE_DESCRIPTION_PART_1": "Írja és küldje el az üzenetet, törölni fogják",
+      "SHARE_DESCRIPTION_PART_2": "olvassa el.",
+      
+      "SHARE_BULLET_1": "Nyom nélkül.",
+      "SHARE_BULLET_2": "Védett adatvédelem",
+      "SHARE_BULLET_3": "Egyszeri megtekintés",
+      
+      "SHARE_ENCRYPTED_BY": "Titkosítva, biztosítva és védve a Stellar Security által",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Írja be titkos üzenetét, jelszavát vagy érzékeny információját *",
+      "SHARE_OPTIONS": "Opciók",
+      
+      "SHARE_EMPTY": "Hagyja üresen, ha nincs.",
+      "SHARE_BUTTON": "Titkos Link Létrehozása",
+      
+      "CREATED_TITLE": "A titkát létrehoztuk",
+      "CREATED_SUBTITLE": "Csak egyszer lesz látható",
+      
+      "CREATED_TITLE_SHARE": "Másolja a linket vagy ossza meg.",
+      "CREATED_BUTTON": "MÁSOLÁS",
+      "CREATED_CREATE_SECRET": "Új Titok Létrehozása",
+      "CREATED_BURNSECRET": "Titok Elégetése",
+      "URL_COPIED": "A URL másolva lett.",
+      "SHARE_BURNER_TIME":"Élettartam",
+      "SHARE_PASS_PHRASE":"Jelszó",
+      "VIEW_SECRET": "Titok Megtekintése"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Csillag Titok",
+      "HOW_IT_WORKS": "Hogyan működik",
+      "DOWNLOAD_APP": "Alkalmazás letöltése",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Egyszeri Titkos Üzenetküldés",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ossza meg a titkokat, és puff—eltűnnek!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Titkosítva, biztosítva és védve a Stellar Security által",
+      "WITHOUT_TRACE_TITLE": "Nyom nélkül",
+      "WITHOUT_TRACE_DESCRIPTION": "Biztosítjuk az érzékeny információk erős védelmét. Minden adatot titkosítunk az ügyfélnél. Nem tudjuk az IP címét, mit oszt meg, vagy kivel osztja meg a titkos linkeket - és ami a legfontosabb, a tartalmat sem.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Védett adatvédelem",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Csak Ön tudja a linket a létrehozott titkos információhoz, és hogy kivel osztja meg. Titok létrehozásakor jelszót adhat hozzá, mielőtt feloldható lenne. Beállíthat egy elévülési időt is. Mindenesetre a titok 14 nap után törlésre kerül.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Végponttól végpontig titkosítva",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Minden link és tartalom a kliens oldalon van hash-elve, így még mi sem tudjuk a linket és a tartalmat. Minden link rendelkezik egy 36 karakter hosszú egyedi azonosítóval, ami egyirányú titkosítás az Üzenet és annak tartalmának eléréséhez, amit AES-256-tal titkosítunk.",
+      
+      "HOW_IT_WORKS_TITLE": "Hogyan működik?",
+      "STEP_1_TITLE": "Írja be az üzenetet és/vagy generáljon jelszót",
+      "STEP_2_TITLE": "Hozzon létre titkos linket",
+      "STEP_3_TITLE": "Ossza meg a linket",
+      
+      "COMPANY_LOGO_ALT": "Cég Logó",
+      
+      "SHARE_TITLE": "Ossza meg a titkos üzenetet",
+      "SHARE_DESCRIPTION_PART_1": "Írja és küldje el az üzenetet, törölni fogják",
+      "SHARE_DESCRIPTION_PART_2": "olvassa el.",
+      
+      "SHARE_BULLET_1": "Nyom nélkül.",
+      "SHARE_BULLET_2": "Védett adatvédelem",
+      "SHARE_BULLET_3": "Egyszeri megtekintés",
+      
+      "SHARE_ENCRYPTED_BY": "Titkosítva, biztosítva és védve a Stellar Security által",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Írja be titkos üzenetét, jelszavát vagy érzékeny információját *",
+      "SHARE_OPTIONS": "Opciók",
+      
+      "SHARE_EMPTY": "Hagyja üresen, ha nincs.",
+      "SHARE_BUTTON": "Titkos Link Létrehozása",
+      
+      "CREATED_TITLE": "A titkát létrehoztuk",
+      "CREATED_SUBTITLE": "Csak egyszer lesz látható",
+      
+      "CREATED_TITLE_SHARE": "Másolja a linket vagy ossza meg.",
+      "CREATED_BUTTON": "MÁSOLÁS",
+      "CREATED_CREATE_SECRET": "Új Titok Létrehozása",
+      "CREATED_BURNSECRET": "Titok Elégetése",
+      "URL_COPIED": "A URL másolva lett.",
+      
+      "VIEW_SECRET": "Titok Megtekintése"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Csillag Titok",
+      "HOW_IT_WORKS": "Hogyan működik",
+      "DOWNLOAD_APP": "Alkalmazás letöltése",
+      "CREATED_TITLE": "A titkát létrehoztuk",
+      "CREATED_SUBTITLE": "Csak egyszer lesz látható",
+      "CREATED_TITLE_SHARE": "Másolja a linket vagy ossza meg.",
+      "CREATED_BUTTON": "MÁSOLÁS",
+      "CREATED_CREATE_SECRET": "Új Titok Létrehozása",
+      "CREATED_BURNSECRET": "Titok Elégetése",
+      "URL_COPIED": "A URL másolva lett."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "El fogja égetni ezt a titkot",
+      "SECRET_UNAVAILABLE_TEXT": "Többé nem lesz elérhető",
+      "BURN_FOREVER": "Elégetés Örökre",
+      "CANCEL": "Mégsem"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Csillag Titok",
+      "HOW_IT_WORKS": "Hogyan működik",
+      "DOWNLOAD_APP": "Alkalmazás letöltése",
+      "WELCOME_MESSAGE": "Helló, kaptál egy titkos üzenetet!",
+      "INSTRUCTION": "Írja és küldje el az üzenetet, törölni fogják, amint elolvassa.",
+      "SHOW_MESSAGE_ONCE": "A következő üzenet csak <strong>egyszer</strong> lesz látható",
+      "OPEN_SECRET_MESSAGE": "Titkos Üzenet Megnyitása",
+      "INPUT_PASSPHRASE": "Jelszó megadása",
+      "PASS_PHRASE_PLACEHOLDER": "Jelszó",
+      "OPEN_SECRET_BUTTON": "Titkos Üzenet Megnyitása",
+      "YOUR_SECRET_MESSAGE": "Az Ön Titkos Üzenete",
+      "COPY": "Másolás",
+      "MESSAGE_LABEL": "Üzenet",
+      "REPLY": "Válasz",
+      "DOWNLOAD_MESSAGE": "Töltse le a Stellar Secret alkalmazást mobilra, és hozza létre titkos üzeneteit",
+      "WITHOUT_TRACE": "Nyom nélkül.",
+      "PRIVACY_PROTECTED": "Védett adatvédelem",
+      "ONE_TIME_VIEWABLE": "Egyszeri megtekintés",
+      "SECURITY_TEXT": "Titkosítva, biztosítva és védve a ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "ווי עס ארבעט",
+      "DOWNLOAD_APP": "אנטלאָדן אַפּ",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": " איינמאָליק סוד אָפּשטימונג",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "שאַרע סוד, און פּווף—ניט מער!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "WITHOUT_TRACE_TITLE": "בלי אַ שטיקל",
+      "WITHOUT_TRACE_DESCRIPTION": "מיר באַשטעטיקן שטאַרק שוץ פון דיין זיסלעכע אינפֿאָרמאַציע. אַלע דאַטן ווערן encrypted אויף די קליענט-סייד. מיר ווייסן נישט דיין IP אדרעס, וואָס דו טיילסט, אָדער ווער דו טיילסט די סוד לינקען מיט—און מער וויכטיק, די אינהאַלט.",
+      
+      "PRIVACY_PROTECTED_TITLE": "פּריוואצי געשיצט",
+      "PRIVACY_PROTECTED_DESCRIPTION": "דו bist דער בלויז איינער וואס ווייסט די לינק צו די סוד אינפֿאָרמאַציע וואָס דו באשאפן hast און וועמען דו טיילסט עס מיט. ווען קריייטינג אַ סוד, קען מען צוגעבן אַ פּאַראָל איידער עס קען ווערן עפנט. אויך איז מעגלעך צו שטעלן אַ בונער-צייַט. קיין ענין וואָס, אַ סוד וועט זיין אָפּשטיגער נאָך 14 טעג.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "אַלע לינקען און אינהאַלט ווערן hashed אויף די קליענט-סייד, מיינענדיקע אַף מיר וויסן נישט די לינק און די אינהאַלט. יעדער לינק האט אַן יינציק ID פון אַ לענג פון 36 וואָס איז אַן איינע-וועג encryption צו קענען צו עררייכן די סוד מעסידזש און זיין אינהאַלט וואָס איז encrypted מיט AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "ווי עס ארבעט?",
+      "STEP_1_TITLE": "שרייב דיין מעסידזש און/אָדער גענערירן פּאַראָל",
+      "STEP_2_TITLE": "שאַפֿן סוד לינק",
+      "STEP_3_TITLE": "טיילן לינק",
+      
+      "COMPANY_LOGO_ALT": "פֿירמע לאָגאָ",
+      
+      "SHARE_TITLE": "טיילן אַ סוד מעסידזש",
+      "SHARE_DESCRIPTION_PART_1": "שרייב און שטעלן מעסידזש, עס וועט זיין",
+      "SHARE_DESCRIPTION_PART_2": "געווערן געשטאָרבן נאָך לייענען.",
+      
+      "SHARE_BULLET_1": "בלי אַ שטיקל.",
+      "SHARE_BULLET_2": "פּריוואצי געשיצט",
+      "SHARE_BULLET_3": "איינמאָליק צו זען",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured and protected by Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "שרייב דיין סוד מעסידזש, פּאַראָל אָדער זיסלעכע אינפֿאָרמאַציע *",
+      "SHARE_OPTIONS": "אופציעס",
+      
+      "SHARE_EMPTY": "לאָזן רײַן פֿאַר קיין.",
+      "SHARE_BUTTON": "שאַפֿן סוד לינק",
+      
+      "CREATED_TITLE": "דיין סוד איז געשאפן",
+      "CREATED_SUBTITLE": "עס וועט זיין געוויזן נאָר איין מאָל",
+      
+      "CREATED_TITLE_SHARE": "קאָפּירן לינק אָדער טיילן עס.",
+      "CREATED_BUTTON": "קאָפּירן",
+      "CREATED_CREATE_SECRET": "שאַפֿן נײַע סוד",
+      "CREATED_BURNSECRET": "בערן סוד",
+      "URL_COPIED": "די URL איז קאָפּירט.",
+      "SHARE_BURNER_TIME": "לעבן צייט",
+      "SHARE_PASS_PHRASE": "Passphrase",
+      "VIEW_SECRET": "ווייַזן סוד"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "ווי עס ארבעט",
+      "DOWNLOAD_APP": "אנטלאָדן אַפּ",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": " איינמאָליק סוד אָפּשטימונג",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "שאַרע סוד, און פּווף—ניט מער!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "WITHOUT_TRACE_TITLE": "בלי אַ שטיקל",
+      "WITHOUT_TRACE_DESCRIPTION": "מיר באַשטעטיקן שטאַרק שוץ פון דיין זיסלעכע אינפֿאָרמאַציע. אַלע דאַטן ווערן encrypted אויף די קליענט-סייד. מיר ווייסן נישט דיין IP אדרעס, וואָס דו טיילסט, אָדער ווער דו טיילסט די סוד לינקען מיט—און מער וויכטיק, די אינהאַלט.",
+      
+      "PRIVACY_PROTECTED_TITLE": "פּריוואצי געשיצט",
+      "PRIVACY_PROTECTED_DESCRIPTION": "דו bist דער בלויז איינער וואס ווייסט די לינק צו די סוד אינפֿאָרמאַציע וואָס דו באשאפן hast און וועמען דו טיילסט עס מיט. ווען קריייטינג אַ סוד, קען מען צוגעבן אַ פּאַראָל איידער עס קען ווערן עפנט. אויך איז מעגלעך צו שטעלן אַ בונער-צייַט. קיין ענין וואָס, אַ סוד וועט זיין אָפּשטיגער נאָך 14 טעג.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "אַלע לינקען און אינהאַלט ווערן hashed אויף די קליענט-סייד, מיינענדיקע אַף מיר וויסן נישט די לינק און די אינהאַלט. יעדער לינק האט אַן יינציק ID פון אַ לענג פון 36 וואָס איז אַן איינע-וועג encryption צו קענען צו עררייכן די סוד מעסידזש און זיין אינהאַלט וואָס איז encrypted מיט AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "ווי עס ארבעט?",
+      "STEP_1_TITLE": "שרייב דיין מעסידזש און/אָדער גענערירן פּאַראָל",
+      "STEP_2_TITLE": "שאַפֿן סוד לינק",
+      "STEP_3_TITLE": "טיילן לינק",
+      
+      "COMPANY_LOGO_ALT": "פֿירמע לאָגאָ",
+      
+      "SHARE_TITLE": "טיילן אַ סוד מעסידזש",
+      "SHARE_DESCRIPTION_PART_1": "שרייב און שטעלן מעסידזש, עס וועט זיין",
+      "SHARE_DESCRIPTION_PART_2": "געווערן געשטאָרבן נאָך לייענען.",
+      
+      "SHARE_BULLET_1": "בלי אַ שטיקל.",
+      "SHARE_BULLET_2": "פּריוואצי געשיצט",
+      "SHARE_BULLET_3": "איינמאָליק צו זען",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured and protected by Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "שרייב דיין סוד מעסידזש, פּאַראָל אָדער זיסלעכע אינפֿאָרמאַציע *",
+      "SHARE_OPTIONS": "אופציעס",
+      
+      "SHARE_EMPTY": "לאָזן רײַן פֿאַר קיין.",
+      "SHARE_BUTTON": "שאַפֿן סוד לינק",
+      
+      "CREATED_TITLE": "דיין סוד איז געשאפן",
+      "CREATED_SUBTITLE": "עס וועט זיין געוויזן נאָר איין מאָל",
+      
+      "CREATED_TITLE_SHARE": "קאָפּירן לינק אָדער טיילן עס.",
+      "CREATED_BUTTON": "קאָפּירן",
+      "CREATED_CREATE_SECRET": "שאַפֿן נײַע סוד",
+      "CREATED_BURNSECRET": "בערן סוד",
+      "URL_COPIED": "די URL איז קאָפּירט.",
+      
+      "VIEW_SECRET": "ווייַזן סוד"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "ווי עס ארבעט",
+      "DOWNLOAD_APP": "אנטלאָדן אַפּ",
+      "CREATED_TITLE": "דיין סוד איז געשאפן",
+      "CREATED_SUBTITLE": "עס וועט זיין געוויזן נאָר איין מאָל",
+      "CREATED_TITLE_SHARE": "קאָפּירן לינק אָדער טיילן עס.",
+      "CREATED_BUTTON": "קאָפּירן",
+      "CREATED_CREATE_SECRET": "שאַפֿן נײַע סוד",
+      "CREATED_BURNSECRET": "בערן סוד",
+      "URL_COPIED": "די URL איז קאָפּירט."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "דו גייסט צו בערן דעם סוד",
+      "SECRET_UNAVAILABLE_TEXT": "עס וועט נישט זיין אַנגרייטן נאָך",
+      "BURN_FOREVER": "בערן פֿאַר עווער",
+      "CANCEL": "キャンセル"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "ווי עס ארבעט",
+      "DOWNLOAD_APP": "אנטלאָדן אַפּ",
+      "WELCOME_MESSAGE": "הי דאָ, דו האָט געבעטן אַ סוד מעסידזש!",
+      "INSTRUCTION": "שרייב און שטעלן מעסידזש, עס וועט זיין געשטאָרבן נאָך לייענען.",
+      "SHOW_MESSAGE_ONCE": "די ווייַענדיקער מעסידזש וועט זיין געוויזן <strong>נאָר איין מאָל</strong>",
+      "OPEN_SECRET_MESSAGE": "עפענען סוד מעסידזש",
+      "INPUT_PASSPHRASE": "אַרייַן Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "עפענען סוד מעסידזש",
+      "YOUR_SECRET_MESSAGE": "דיין סוד מעסידזש",
+      "COPY": "קאָפּירן",
+      "MESSAGE_LABEL": "מעסידזש",
+      "REPLY": "רעפּלי",
+      "DOWNLOAD_MESSAGE": "אנטלאָדן Stellar Secret אויף מאָביל, שאַפֿן דיין סוד מעסידזשן",
+      "WITHOUT_TRACE": "בלי אַ שטיקל.",
+      "PRIVACY_PROTECTED": "פּריוואצי געשיצט",
+      "ONE_TIME_VIEWABLE": "איינמאָליק צו זען",
+      "SECURITY_TEXT": "Encrypted, secured and protected by ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

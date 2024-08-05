@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Cara Kerjanya",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Pesan Rahasia Sekali Pakai",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikan rahasia, dan hilang begitu saja!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Terenkripsi, aman dan dilindungi oleh Keamanan Stellar",
+      "WITHOUT_TRACE_TITLE": "Tanpa Jejak",
+      "WITHOUT_TRACE_DESCRIPTION": "Kami memastikan perlindungan yang kuat terhadap informasi sensitif Anda. Semua data dienkripsi di sisi klien. Kami tidak mengetahui alamat IP Anda, apa yang Anda bagikan, atau kepada siapa Anda membagikan tautan rahasia - dan yang paling penting, kontennya.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privasi Terlindungi",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Hanya Anda yang tahu tautan ke informasi rahasia yang Anda buat dan dengan siapa Anda membagikannya. Saat membuat rahasia, Anda dapat menambahkan kata sandi sebelum dapat dibuka. Anda juga dapat mengatur waktu pembakar. Bagaimanapun, rahasia akan dihapus setelah 14 hari.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Terenkripsi End-to-End",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Semua tautan dan konten di-hash di sisi klien, artinya bahkan kami tidak mengetahui tautan dan kontennya. Setiap tautan memiliki ID unik sepanjang 36 yang merupakan enkripsi satu arah untuk mengakses Pesan Rahasia dan kontennya yang dienkripsi dengan AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Cara Kerjanya?",
+      "STEP_1_TITLE": "Tulis pesan Anda dan/atau buat kata sandi",
+      "STEP_2_TITLE": "Buat Tautan Rahasia",
+      "STEP_3_TITLE": "Bagikan tautan",
+      
+      "COMPANY_LOGO_ALT": "Logo Perusahaan",
+      
+      "SHARE_TITLE": "Bagikan pesan rahasia",
+      "SHARE_DESCRIPTION_PART_1": "Tulis dan kirim pesan, itu akan",
+      "SHARE_DESCRIPTION_PART_2": "dihapus setelah dibaca.",
+      
+      "SHARE_BULLET_1": "Tanpa jejak.",
+      "SHARE_BULLET_2": "Privasi Terlindungi",
+      "SHARE_BULLET_3": "Dapat dilihat sekali",
+      
+      "SHARE_ENCRYPTED_BY": "Terenkripsi, aman dan dilindungi oleh Keamanan Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Tulis pesan Rahasia Anda, kata sandi, atau informasi sensitif *",
+      "SHARE_OPTIONS": "Opsi",
+      
+      "SHARE_EMPTY": "Biarkan kosong jika tidak ada.",
+      "SHARE_BUTTON": "Buat Tautan Rahasia",
+      
+      "CREATED_TITLE": "Rahasia Anda telah dibuat",
+      "CREATED_SUBTITLE": "Akan ditampilkan hanya sekali",
+      
+      "CREATED_TITLE_SHARE": "Salin tautan atau bagikan.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Buat Rahasia Baru",
+      "CREATED_BURNSECRET": "Hapus Rahasia",
+      "URL_COPIED": "URL telah disalin.",
+      "SHARE_BURNER_TIME":"Umur Panjang",
+      "SHARE_PASS_PHRASE":"Kata Sandi",
+      "VIEW_SECRET": "Lihat Rahasia"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Cara Kerjanya",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Pesan Rahasia Sekali Pakai",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikan rahasia, dan hilang begitu saja!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Terenkripsi, aman dan dilindungi oleh Keamanan Stellar",
+      "WITHOUT_TRACE_TITLE": "Tanpa Jejak",
+      "WITHOUT_TRACE_DESCRIPTION": "Kami memastikan perlindungan yang kuat terhadap informasi sensitif Anda. Semua data dienkripsi di sisi klien. Kami tidak mengetahui alamat IP Anda, apa yang Anda bagikan, atau kepada siapa Anda membagikan tautan rahasia - dan yang paling penting, kontennya.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Privasi Terlindungi",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Hanya Anda yang tahu tautan ke informasi rahasia yang Anda buat dan dengan siapa Anda membagikannya. Saat membuat rahasia, Anda dapat menambahkan kata sandi sebelum dapat dibuka. Anda juga dapat mengatur waktu pembakar. Bagaimanapun, rahasia akan dihapus setelah 14 hari.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Terenkripsi End-to-End",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Semua tautan dan konten di-hash di sisi klien, artinya bahkan kami tidak mengetahui tautan dan kontennya. Setiap tautan memiliki ID unik sepanjang 36 yang merupakan enkripsi satu arah untuk mengakses Pesan Rahasia dan kontennya yang dienkripsi dengan AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Cara Kerjanya?",
+      "STEP_1_TITLE": "Tulis pesan Anda dan/atau buat kata sandi",
+      "STEP_2_TITLE": "Buat Tautan Rahasia",
+      "STEP_3_TITLE": "Bagikan tautan",
+    
+      "COMPANY_LOGO_ALT": "Logo Perusahaan",
+    
+      "SHARE_TITLE": "Bagikan pesan rahasia",
+      "SHARE_DESCRIPTION_PART_1": "Tulis dan kirim pesan, itu akan",
+      "SHARE_DESCRIPTION_PART_2": "dihapus setelah dibaca.",
+    
+      "SHARE_BULLET_1": "Tanpa jejak.",
+      "SHARE_BULLET_2": "Privasi Terlindungi",
+      "SHARE_BULLET_3": "Dapat dilihat sekali",
+    
+      "SHARE_ENCRYPTED_BY": "Terenkripsi, aman dan dilindungi oleh Keamanan Stellar",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Tulis pesan Rahasia Anda, kata sandi, atau informasi sensitif *",
+      "SHARE_OPTIONS": "Opsi",
+    
+      "SHARE_EMPTY": "Biarkan kosong jika tidak ada.",
+      "SHARE_BUTTON": "Buat Tautan Rahasia",
+    
+      "CREATED_TITLE": "Rahasia Anda telah dibuat",
+      "CREATED_SUBTITLE": "Akan ditampilkan hanya sekali",
+    
+      "CREATED_TITLE_SHARE": "Salin tautan atau bagikan.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Buat Rahasia Baru",
+      "CREATED_BURNSECRET": "Hapus Rahasia",
+      "URL_COPIED": "URL telah disalin.",
+    
+      "VIEW_SECRET": "Lihat Rahasia"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Cara Kerjanya",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      "CREATED_TITLE": "Rahasia Anda telah dibuat",
+      "CREATED_SUBTITLE": "Akan ditampilkan hanya sekali",
+      "CREATED_TITLE_SHARE": "Salin tautan atau bagikan.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Buat Rahasia Baru",
+      "CREATED_BURNSECRET": "Hapus Rahasia",
+      "URL_COPIED": "URL telah disalin."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Anda akan menghapus rahasia ini",
+      "SECRET_UNAVAILABLE_TEXT": "Ini tidak akan tersedia lagi",
+      "BURN_FOREVER": "Hapus Selamanya",
+      "CANCEL": "Batal"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Rahasia Stellar",
+      "HOW_IT_WORKS": "Cara Kerjanya",
+      "DOWNLOAD_APP": "Unduh Aplikasi",
+      "WELCOME_MESSAGE": "Halo, Anda menerima pesan rahasia!",
+      "INSTRUCTION": "Tulis dan kirim pesan, itu akan dihapus setelah dibaca.",
+      "SHOW_MESSAGE_ONCE": "Pesan berikut akan ditampilkan <strong>hanya sekali</strong>",
+      "OPEN_SECRET_MESSAGE": "Buka Pesan Rahasia",
+      "INPUT_PASSPHRASE": "Masukkan Kata Sandi",
+      "PASS_PHRASE_PLACEHOLDER": "Kata Sandi",
+      "OPEN_SECRET_BUTTON": "Buka Pesan Rahasia",
+      "YOUR_SECRET_MESSAGE": "Pesan Rahasia Anda",
+      "COPY": "Salin",
+      "MESSAGE_LABEL": "Pesan",
+      "REPLY": "Balas",
+      "DOWNLOAD_MESSAGE": "Unduh Stellar Secret di ponsel, buat pesan rahasia Anda",
+      "WITHOUT_TRACE": "Tanpa jejak.",
+      "PRIVACY_PROTECTED": "Privasi Terlindungi",
+      "ONE_TIME_VIEWABLE": "Dapat dilihat sekali",
+      "SECURITY_TEXT": "Terenkripsi, aman dan dilindungi oleh ",
+      "SECURITY_TEXT2": "Keamanan Stellar"
+    }
+  }
+  

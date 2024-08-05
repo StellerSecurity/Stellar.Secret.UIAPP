@@ -1,0 +1,149 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት ይሰራል?",
+      "DOWNLOAD_APP": "አፕሊኬሽን አውርድ",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "አንዴ የሚጠቀም ሲክረት መልእክት",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "ሲክረቶችን አጋር እንዲሁም ይሄዳሉ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "በስቴላር የስምንት ደህንነት ተጠብቋል፣ ተጠባበቅ እና ተጠበቅ እንደሆንና",
+      "WITHOUT_TRACE_TITLE": "በመሠረት በማይከታተሉ",
+      "WITHOUT_TRACE_DESCRIPTION": "ከማንኛውም በማንኛውም የሚሠሩ መረጃዎችን በየጊዜው እንደሚጠበቅ እና ይገርም፣ አንደኛ ቢሆንም፣ አንድ የሆኑት መንገዶችን የእኛ አንዱን በመሆን የተመረጡ ማንኛውም መረጃ ተደርጓል፣ በሆኑት እና በተመረጡ አርከት ማብከር፣ አንዴነት አይደርስም።",
+      
+      "PRIVACY_PROTECTED_TITLE": "የግል እንዲተጠበቅ",
+      "PRIVACY_PROTECTED_DESCRIPTION": "ሰንበት የሆኑት የሚታወቁትን ማስታወቂያዎችን እና ማንኛውም እና የሚጠየቅ ወቅታዊ አድርግ። በሚወድዱት ቀን የሚታወቁትን የሚሰጠው የሚታወቁትን የማንም ብቅነት እና በተመረጡ ይሠራል።",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "መጠን በመጠን እንደሆነ",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "በማኅበረ ሰብነት መከላከል ተጠብቋል፣ ከበለጠ እንዲሁም እንደሆነ፣ ለአንደኛ ሰነድ የሚሰጠው እና እንደዚህ ሲወድም።",
+      
+      "HOW_IT_WORKS_TITLE": "እንዴት ይሰራል?",
+      "STEP_1_TITLE": "መልእክትዎን ይጻፉ፣ ወይም የሚታወቁትን ይሰጣሉ",
+      "STEP_2_TITLE": "ሲክረት ሊንክ ይፍጠሩ",
+      "STEP_3_TITLE": "ሊንኩን እንደሚገልጽ",
+      
+      "COMPANY_LOGO_ALT": "የኩባንያ ሎጎ",
+      
+      "SHARE_TITLE": "ሲክረት መልእክት ይካፈሉ",
+      "SHARE_DESCRIPTION_PART_1": "መልእክት ይጻፉ እና ይላኩ፣ እንዲሁም በመርጠው በተደርስም ተጠብቆታል።",
+      "SHARE_DESCRIPTION_PART_2": "አንዴ የተገለጸ።",
+      
+      "SHARE_BULLET_1": "በመሠረት በማይከታተሉ።",
+      "SHARE_BULLET_2": "የግል እንዲተጠበቅ",
+      "SHARE_BULLET_3": "አንዴ የሚታወቁትን",
+      
+      "SHARE_ENCRYPTED_BY": "በስቴላር የስምንት ደህንነት ተጠብቋል፣ ተጠባበቅ እና ተጠበቅ እንደሆንና",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "ሲክረት መልእክትዎን፣ የተጠቃሚነት ወይም አሳይ መረጃ ጻፉ።",
+      "SHARE_OPTIONS": "አማራጮች",
+      
+      "SHARE_EMPTY": "አልባ እንደሆን ስትይሉ።",
+      "SHARE_BUTTON": "ሲክረት ሊንክ ይፍጠሩ",
+      
+      "CREATED_TITLE": "ሲክረትዎ ተፍጠረ",
+      "CREATED_SUBTITLE": "አንዴ ብቻ እንደሚታወቁትን",
+      
+      "CREATED_TITLE_SHARE": "ሊንኩን ይቀይሩ ወይም ይጋሩ።",
+      "CREATED_BUTTON": "ኮፒ",
+      "CREATED_CREATE_SECRET": "አዲስ ሲክረት ይፍጠሩ",
+      "CREATED_BURNSECRET": "ሲክረት ይበስል",
+      "URL_COPIED": "ዩአርኤል ተኮፍቷል።",
+      "SHARE_BURNER_TIME": "ህዝብ አስተዋይ",
+      "SHARE_PASS_PHRASE": "ማስታወቂያ",
+      "VIEW_SECRET": "ሲክረት ይመልከቱ"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት ይሰራል?",
+      "DOWNLOAD_APP": "አፕሊኬሽን አውርድ",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "አንዴ የሚጠቀም ሲክረት መልእክት",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "ሲክረቶችን አጋር እንዲሁም ይሄዳሉ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "በስቴላር የስምንት ደህንነት ተጠብቋል፣ ተጠባበቅ እና ተጠበቅ እንደሆንና",
+      "WITHOUT_TRACE_TITLE": "በመሠረት በማይከታተሉ",
+      "WITHOUT_TRACE_DESCRIPTION": "ከማንኛውም በማንኛውም የሚሠሩ መረጃዎችን በየጊዜው እንደሚጠበቅ እና ይገርም፣ አንደኛ ቢሆንም፣ አንድ የሆኑት መንገዶችን የእኛ አንዱን በመሆን የተመረጡ ማንኛውም መረጃ ተደርጓል፣ በሆኑት እና በተመረጡ አርከት ማብከር፣ አንዴነት አይደርስም።",
+      
+      "PRIVACY_PROTECTED_TITLE": "የግል እንዲተጠበቅ",
+      "PRIVACY_PROTECTED_DESCRIPTION": "ሰንበት የሆኑት የሚታወቁትን ማስታወቂያዎችን እና ማንኛውም እና የሚጠየቅ ወቅታዊ አድርግ። በሚወድዱት ቀን የሚታወቁትን የሚሰጠው የሚታወቁትን የማንም ብቅነት እና በተመረጡ ይሠራል።",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "መጠን በመጠን እንደሆነ",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "በማኅበረ ሰብነት መከላከል ተጠብቋል፣ ከበለጠ እንዲሁም እንደሆነ፣ ለአንደኛ ሰነድ የሚሰጠው እና እንደዚህ ሲወድም።",
+      
+      "HOW_IT_WORKS_TITLE": "እንዴት ይሰራል?",
+      "STEP_1_TITLE": "መልእክትዎን ይጻፉ፣ ወይም የሚታወቁትን ይሰጣሉ",
+      "STEP_2_TITLE": "ሲክረት ሊንክ ይፍጠሩ",
+      "STEP_3_TITLE": "ሊንኩን እንደሚገልጽ",
+      
+      "COMPANY_LOGO_ALT": "የኩባንያ ሎጎ",
+      
+      "SHARE_TITLE": "ሲክረት መልእክት ይካፈሉ",
+      "SHARE_DESCRIPTION_PART_1": "መልእክት ይጻፉ እና ይላኩ፣ እንዲሁም በመርጠው በተደርስም ተጠብቆታል።",
+      "SHARE_DESCRIPTION_PART_2": "አንዴ የተገለጸ።",
+      
+      "SHARE_BULLET_1": "በመሠረት በማይከታተሉ።",
+      "SHARE_BULLET_2": "የግል እንዲተጠበቅ",
+      "SHARE_BULLET_3": "አንዴ የሚታወቁትን",
+      
+      "SHARE_ENCRYPTED_BY": "በስቴላር የስምንት ደህንነት ተጠብቋል፣ ተጠባበቅ እና ተጠበቅ እንደሆንና",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "ሲክረት መልእክትዎን፣ የተጠቃሚነት ወይም አሳይ መረጃ ጻፉ።",
+      "SHARE_OPTIONS": "አማራጮች",
+      
+      "SHARE_EMPTY": "አልባ እንደሆን ስትይሉ።",
+      "SHARE_BUTTON": "ሲክረት ሊንክ ይፍጠሩ",
+      
+      "CREATED_TITLE": "ሲክረትዎ ተፍጠረ",
+      "CREATED_SUBTITLE": "አንዴ ብቻ እንደሚታወቁትን",
+      
+      "CREATED_TITLE_SHARE": "ሊንኩን ይቀይሩ ወይም ይጋሩ።",
+      "CREATED_BUTTON": "ኮፒ",
+      "CREATED_CREATE_SECRET": "አዲስ ሲክረት ይፍጠሩ",
+      "CREATED_BURNSECRET": "ሲክረት ይበስል",
+      "URL_COPIED": "ዩአርኤል ተኮፍቷል።",
+      "SHARE_BURNER_TIME": "ህዝብ አስተዋይ",
+      "SHARE_PASS_PHRASE": "ማስታወቂያ",
+      "VIEW_SECRET": "ሲክረት ይመልከቱ"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት ይሰራል?",
+      "DOWNLOAD_APP": "አፕሊኬሽን አውርድ",
+      "CREATED_TITLE": "ሲክረትዎ ተፍጠረ",
+      "CREATED_SUBTITLE": "አንዴ ብቻ እንደሚታወቁትን",
+      "CREATED_TITLE_SHARE": "ሊንኩን ይቀይሩ ወይም ይጋሩ።",
+      "CREATED_BUTTON": "ኮፒ",
+      "CREATED_CREATE_SECRET": "አዲስ ሲክረት ይፍጠሩ",
+      "CREATED_BURNSECRET": "ሲክረት ይበስል",
+      "URL_COPIED": "ዩአርኤል ተኮፍቷል።"
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "እርስዎ ይህን ሲክረት ማጥፋት ትችላላችሁ",
+      "SECRET_UNAVAILABLE_TEXT": "እንደዚህ በማይሰጥና አልተገናኝም",
+      "BURN_FOREVER": "ለማንም ትደርስ",
+      "CANCEL": "ተው"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት ይሰራል?",
+      "DOWNLOAD_APP": "አፕሊኬሽን አውርድ",
+      "WELCOME_MESSAGE": "ሰላም፣ ሲክረት መልእክት ተቀብላችሁ!",
+      "INSTRUCTION": "መልእክት ይጻፉና ይላኩ፣ እንደዚህ ተጠብቆአል።",
+      "SHOW_MESSAGE_ONCE": "እንደአንዴ ብቻ ተገልጿል",
+      "OPEN_SECRET_MESSAGE": "ሲክረት መልእክት ክፈት",
+      "INPUT_PASSPHRASE": "ማስታወቂያ ይግቡ",
+      "PASS_PHRASE_PLACEHOLDER": "ማስታወቂያ",
+      "OPEN_SECRET_BUTTON": "ሲክረት መልእክት ክፈት",
+      "YOUR_SECRET_MESSAGE": "የሲክረት መልእክትዎ",
+      "COPY": "ኮፒ",
+      "MESSAGE_LABEL": "መልእክት",
+      "REPLY": "እንደ መልስ",
+      "DOWNLOAD_MESSAGE": "ስቴላር ሲክረት እንደ ሞባይል መተግበሪያ ይውሰዱ፣ ሲክረት መልእክቶችን ይፍጠሩ",
+      "WITHOUT_TRACE": "በመሠረት በማይከታተሉ",
+      "PRIVACY_PROTECTED": "የግል እንዲተጠበቅ",
+      "ONE_TIME_VIEWABLE": "አንዴ የሚታወቁትን",
+      "SECURITY_TEXT": "በእንዲሁም በእንደሚያስጠብቁ",
+      "SECURITY_TEXT2": "ስቴላር የስምንት ደህንነት"
+    }
+  }
+  

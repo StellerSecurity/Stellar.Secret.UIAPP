@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Rún Stellar",
+      "HOW_IT_WORKS": "Conas a oibríonn sé",
+      "DOWNLOAD_APP": "Íoslódáil an App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Teachtaireacht Rún Amháin",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Roinn rúin, agus poof—tá siad imithe!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Criptiúchán, slán agus cosanta ag Slándáil Stellar",
+      "WITHOUT_TRACE_TITLE": "Gan rian",
+      "WITHOUT_TRACE_DESCRIPTION": "Déanaimid cosaint láidir ar do chuid eolais íogair. Tá gach sonra criptithe ar an taobh-cliant. Ní fios dúinn do sheoladh IP, cad a roinneann tú, nó cé leis a roinneann tú na nascanna rúin - agus is tábhachtaí, an t-ábhar.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Príobháideacht Cosanta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Is tusa amháin atá ar an eolas faoi na naisc chuig an eolas rúnda a chruthaigh tú agus cé leis a roinneann tú é. Nuair a chruthaíonn tú rún, is féidir leat pasfhocal a chur leis sula bhféadfaidh sé a bheith oscailte. Tá sé freisin indéanta am breise a shocrú. Pé scéal é, scriosfar rún tar éis 14 lá.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Criptiúchán ón tús go deireadh",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tá na naisc agus an t-ábhar go léir hashed ar an taobh-cliant, rud a chiallaíonn nach bhfuil fhios againn fiú an nasc agus an t-ábhar. Tá ID uathúil 36 charachtar ag gach nasc, atá ina criptithe unidirectional chun rochtain a fháil ar an Teachtaireacht Rún agus an t-ábhar atá criptithe le AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Conas a oibríonn sé?",
+      "STEP_1_TITLE": "Scríobh do theachtaireacht agus/nó gineadóir pasfhocal",
+      "STEP_2_TITLE": "Cruthaigh Nasc Rún",
+      "STEP_3_TITLE": "Roinn an nasc",
+      
+      "COMPANY_LOGO_ALT": "Lógó na Compani",
+      
+      "SHARE_TITLE": "Roinn teachtaireacht rúnda",
+      "SHARE_DESCRIPTION_PART_1": "Scríobh agus seol teachtaireacht, beidh sé",
+      "SHARE_DESCRIPTION_PART_2": "scriosta a luaithe a léitear.",
+      
+      "SHARE_BULLET_1": "Gan rian.",
+      "SHARE_BULLET_2": "Príobháideacht Cosanta",
+      "SHARE_BULLET_3": "In-am amháin",
+      
+      "SHARE_ENCRYPTED_BY": "Criptiúchán, slán agus cosanta ag Slándáil Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Scríobh do theachtaireacht rúnda, pasfhocal nó eolas íogair *",
+      "SHARE_OPTIONS": "Roghoirí",
+      
+      "SHARE_EMPTY": "Fág folamh má tá aon rud ann.",
+      "SHARE_BUTTON": "Cruthaigh Nasc Rún",
+      
+      "CREATED_TITLE": "Cruthaíodh do Rún",
+      "CREATED_SUBTITLE": "Taispeánfar é ach amháin uair amháin",
+      
+      "CREATED_TITLE_SHARE": "Cóipeáil an nasc nó roinn é.",
+      "CREATED_BUTTON": "Cóipeáil",
+      "CREATED_CREATE_SECRET": "Cruthaigh Rún Nua",
+      "CREATED_BURNSECRET": "Scrios Rún",
+      "URL_COPIED": "Cóipeáil an URL.",
+      "SHARE_BURNER_TIME":"Taoiseach",
+      "SHARE_PASS_PHRASE":"Pasfhocal",
+      "VIEW_SECRET": "Déan Rún a Fheiceáil"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Rún Stellar",
+      "HOW_IT_WORKS": "Conas a oibríonn sé",
+      "DOWNLOAD_APP": "Íoslódáil an App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Teachtaireacht Rún Amháin",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Roinn rúin, agus poof—tá siad imithe!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Criptiúchán, slán agus cosanta ag Slándáil Stellar",
+      "WITHOUT_TRACE_TITLE": "Gan rian",
+      "WITHOUT_TRACE_DESCRIPTION": "Déanaimid cosaint láidir ar do chuid eolais íogair. Tá gach sonra criptithe ar an taobh-cliant. Ní fios dúinn do sheoladh IP, cad a roinneann tú, nó cé leis a roinneann tú na nascanna rúin - agus is tábhachtaí, an t-ábhar.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Príobháideacht Cosanta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Is tusa amháin atá ar an eolas faoi na naisc chuig an eolas rúnda a chruthaigh tú agus cé leis a roinneann tú é. Nuair a chruthaíonn tú rún, is féidir leat pasfhocal a chur leis sula bhféadfaidh sé a bheith oscailte. Tá sé freisin indéanta am breise a shocrú. Pé scéal é, scriosfar rún tar éis 14 lá.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Criptiúchán ón tús go deireadh",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tá na naisc agus an t-ábhar go léir hashed ar an taobh-cliant, rud a chiallaíonn nach bhfuil fhios againn fiú an nasc agus an t-ábhar. Tá ID uathúil 36 charachtar ag gach nasc, atá ina criptithe unidirectional chun rochtain a fháil ar an Teachtaireacht Rún agus an t-ábhar atá criptithe le AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Conas a oibríonn sé?",
+      "STEP_1_TITLE": "Scríobh do theachtaireacht agus/nó gineadóir pasfhocal",
+      "STEP_2_TITLE": "Cruthaigh Nasc Rún",
+      "STEP_3_TITLE": "Roinn an nasc",
+      
+      "COMPANY_LOGO_ALT": "Lógó na Compani",
+      
+      "SHARE_TITLE": "Roinn teachtaireacht rúnda",
+      "SHARE_DESCRIPTION_PART_1": "Scríobh agus seol teachtaireacht, beidh sé",
+      "SHARE_DESCRIPTION_PART_2": "scriosta a luaithe a léitear.",
+      
+      "SHARE_BULLET_1": "Gan rian.",
+      "SHARE_BULLET_2": "Príobháideacht Cosanta",
+      "SHARE_BULLET_3": "In-am amháin",
+      
+      "SHARE_ENCRYPTED_BY": "Criptiúchán, slán agus cosanta ag Slándáil Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Scríobh do theachtaireacht rúnda, pasfhocal nó eolas íogair *",
+      "SHARE_OPTIONS": "Roghoirí",
+      
+      "SHARE_EMPTY": "Fág folamh má tá aon rud ann.",
+      "SHARE_BUTTON": "Cruthaigh Nasc Rún",
+      
+      "CREATED_TITLE": "Cruthaíodh do Rún",
+      "CREATED_SUBTITLE": "Taispeánfar é ach amháin uair amháin",
+      
+      "CREATED_TITLE_SHARE": "Cóipeáil an nasc nó roinn é.",
+      "CREATED_BUTTON": "Cóipeáil",
+      "CREATED_CREATE_SECRET": "Cruthaigh Rún Nua",
+      "CREATED_BURNSECRET": "Scrios Rún",
+      "URL_COPIED": "Cóipeáil an URL.",
+      
+      "VIEW_SECRET": "Déan Rún a Fheiceáil"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Rún Stellar",
+      "HOW_IT_WORKS": "Conas a oibríonn sé",
+      "DOWNLOAD_APP": "Íoslódáil an App",
+      "CREATED_TITLE": "Cruthaíodh do Rún",
+      "CREATED_SUBTITLE": "Taispeánfar é ach amháin uair amháin",
+      "CREATED_TITLE_SHARE": "Cóipeáil an nasc nó roinn é.",
+      "CREATED_BUTTON": "Cóipeáil",
+      "CREATED_CREATE_SECRET": "Cruthaigh Rún Nua",
+      "CREATED_BURNSECRET": "Scrios Rún",
+      "URL_COPIED": "Cóipeáil an URL."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Tá tú chun an rún seo a scriosadh",
+      "SECRET_UNAVAILABLE_TEXT": "Ní bheidh sé ar fáil níos mó",
+      "BURN_FOREVER": "Scrios go Deo",
+      "CANCEL": "Cealaigh"
+    },
+    "VIEW":{
+      "LOGO_TEXT": "Rún Stellar",
+      "HOW_IT_WORKS": "Conas a oibríonn sé",
+      "DOWNLOAD_APP": "Íoslódáil an App",
+      "WELCOME_MESSAGE": "Dia dhuit, fuair tú teachtaireacht rúnda!",
+      "INSTRUCTION": "Scríobh agus seol teachtaireacht, beidh sé scriosta a luaithe a léitear.",
+      "SHOW_MESSAGE_ONCE": "Taispeánfar an teachtaireacht seo <strong>ach uair amháin</strong>",
+      "OPEN_SECRET_MESSAGE": "Oscail Teachtaireacht Rún",
+      "INPUT_PASSPHRASE": "Iontráil Pasfhocal",
+      "PASS_PHRASE_PLACEHOLDER": "Pasfhocal",
+      "OPEN_SECRET_BUTTON": "Oscail Teachtaireacht Rún",
+      "YOUR_SECRET_MESSAGE": "Do Theachtaireacht Rún",
+      "COPY": "Cóipeáil",
+      "MESSAGE_LABEL": "Teachtaireacht",
+      "REPLY": "Freagair",
+      "DOWNLOAD_MESSAGE": "Íoslódáil Stellar Secret ar mobile, cruthaigh do theachtaireachtaí rúnda",
+      "WITHOUT_TRACE": "Gan rian.",
+      "PRIVACY_PROTECTED": "Príobháideacht Cosanta",
+      "ONE_TIME_VIEWABLE": "In-am amháin",
+      "SECURITY_TEXT": "Criptiúchán, slán agus cosanta ag ",
+      "SECURITY_TEXT2":"Slándáil Stellar"
+    }
+  }
+  

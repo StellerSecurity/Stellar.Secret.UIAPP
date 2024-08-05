@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nädip işleýär",
+      "DOWNLOAD_APP": "Ýüklemek üçin programma",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Bir gezeklik Gyzyk habarlaşma",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gyzyklar paýlaşyň, we ýok!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Şifrlendi, howpsuz we Stellar Howpsuzlygy bilen goraldy",
+      "WITHOUT_TRACE_TITLE": "Izi galmazdan",
+      "WITHOUT_TRACE_DESCRIPTION": "Siziň duýgur maglumatlaryňyzy berkitmek üçin güýçli gorag berýäris. Bar bolan maglumat müşderi tarapdan şifrlenýär. Biz sizniň IP salgynyňyzy, näme paýlaşýandygyňyzy ýa-da kim bilen paýlaşýandygyňyzy bilmeýäris - we iň möhümi, mazmuny.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Gizlinlik goraldy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Siz diňe gizlin maglumatlaryňyzy we kim bilen paýlaşýandygyňyzy bilýärsiňiz. Gizlinlik döredilende, açmak üçin password goşup bilersiňiz. Şeýle hem, ýangyç wagtyny bellemegi mümkin. Her halda, gizlinlik 14 günden soň ýok edilýär.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Başdan başa şifrlenen",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Bütün bağlantylaryň we mazmunyň müşderi tarapdan hasaplanýar, ýagny biz bilemzok. Her bir baglanyşyk 36 belgili unik gumur ID-dä bir ýol bilen şifrlendi we AES-256 bilen şifrlenýär.",
+      
+      "HOW_IT_WORKS_TITLE": "Nädip işleýär?",
+      "STEP_1_TITLE": "Habaryňyzy ýazyň we/ýa-da parol dörediň",
+      "STEP_2_TITLE": "Gizlin baglanyşyk döredin",
+      "STEP_3_TITLE": "Baglanyşygy paýlaşyň",
+      
+      "COMPANY_LOGO_ALT": "Şirket logotipi",
+      
+      "SHARE_TITLE": "Gyzyk habar paýlaşyň",
+      "SHARE_DESCRIPTION_PART_1": "Habary ýazyp we iberiň, ol",
+      "SHARE_DESCRIPTION_PART_2": "okalan soň ýok bolar.",
+      
+      "SHARE_BULLET_1": "Izi galmazdan.",
+      "SHARE_BULLET_2": "Gizlinlik goraldy",
+      "SHARE_BULLET_3": "Bir gezek görüler",
+      
+      "SHARE_ENCRYPTED_BY": "Şifrlendi, howpsuz we Stellar Howpsuzlygy bilen goraldy",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Gyzyk habaryňyzy, parol ýa-da duýgur maglumatlary ýazyp bilersiňiz *",
+      "SHARE_OPTIONS": "Optiýalar",
+      
+      "SHARE_EMPTY": "Heç bir zat goýmaň.",
+      "SHARE_BUTTON": "Gizyk Baglanyşyk Dörediň",
+      
+      "CREATED_TITLE": "Gyzykňyz döredildi",
+      "CREATED_SUBTITLE": "Ol diňe bir gezek görkeziler",
+      
+      "CREATED_TITLE_SHARE": "Baglanyşygy göçüriň ýa-da paýlaşyň.",
+      "CREATED_BUTTON": "Göçürmek",
+      "CREATED_CREATE_SECRET": "Täze Gizyk Dörediň",
+      "CREATED_BURNSECRET": "Gyzyk ýok et",
+      "URL_COPIED": "URL göçürüldi.",
+      "SHARE_BURNER_TIME":"Ömürlik",
+      "SHARE_PASS_PHRASE":"Parol",
+      "VIEW_SECRET": "Gyzyk Görüň"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nädip işleýär",
+      "DOWNLOAD_APP": "Ýüklemek üçin programma",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Bir gezeklik Gyzyk habarlaşma",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gyzyklar paýlaşyň, we ýok!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Şifrlendi, howpsuz we Stellar Howpsuzlygy bilen goraldy",
+      "WITHOUT_TRACE_TITLE": "Izi galmazdan",
+      "WITHOUT_TRACE_DESCRIPTION": "Siziň duýgur maglumatlaryňyzy berkitmek üçin güýçli gorag berýäris. Bar bolan maglumat müşderi tarapdan şifrlenýär. Biz sizniň IP salgynyňyzy, näme paýlaşýandygyňyzy ýa-da kim bilen paýlaşýandygyňyzy bilmeýäris - we iň möhümi, mazmuny.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Gizlinlik goraldy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Siz diňe gizlin maglumatlaryňyzy we kim bilen paýlaşýandygyňyzy bilýärsiňiz. Gizlinlik döredilende, açmak üçin password goşup bilersiňiz. Şeýle hem, ýangyç wagtyny bellemegi mümkin. Her halda, gizlinlik 14 günden soň ýok edilýär.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Başdan başa şifrlenen",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Bütün bağlantylaryň we mazmunyň müşderi tarapdan hasaplanýar, ýagny biz bilemzok. Her bir baglanyşyk 36 belgili unik gumur ID-dä bir ýol bilen şifrlendi we AES-256 bilen şifrlenýär.",
+      
+      "HOW_IT_WORKS_TITLE": "Nädip işleýär?",
+      "STEP_1_TITLE": "Habaryňyzy ýazyň we/ýa-da parol dörediň",
+      "STEP_2_TITLE": "Gizlin baglanyşyk döredin",
+      "STEP_3_TITLE": "Baglanyşygy paýlaşyň",
+      
+      "COMPANY_LOGO_ALT": "Şirket logotipi",
+      
+      "SHARE_TITLE": "Gyzyk habar paýlaşyň",
+      "SHARE_DESCRIPTION_PART_1": "Habary ýazyp we iberiň, ol",
+      "SHARE_DESCRIPTION_PART_2": "okalan soň ýok bolar.",
+      
+      "SHARE_BULLET_1": "Izi galmazdan.",
+      "SHARE_BULLET_2": "Gizlinlik goraldy",
+      "SHARE_BULLET_3": "Bir gezek görüler",
+      
+      "SHARE_ENCRYPTED_BY": "Şifrlendi, howpsuz we Stellar Howpsuzlygy bilen goraldy",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Gyzyk habaryňyzy, parol ýa-da duýgur maglumatlary ýazyp bilersiňiz *",
+      "SHARE_OPTIONS": "Optiýalar",
+      
+      "SHARE_EMPTY": "Heç bir zat goýmaň.",
+      "SHARE_BUTTON": "Gizyk Baglanyşyk Dörediň",
+      
+      "CREATED_TITLE": "Gyzykňyz döredildi",
+      "CREATED_SUBTITLE": "Ol diňe bir gezek görkeziler",
+      
+      "CREATED_TITLE_SHARE": "Baglanyşygy göçüriň ýa-da paýlaşyň.",
+      "CREATED_BUTTON": "Göçürmek",
+      "CREATED_CREATE_SECRET": "Täze Gizyk Dörediň",
+      "CREATED_BURNSECRET": "Gyzyk ýok et",
+      "URL_COPIED": "URL göçürüldi.",
+      
+      "VIEW_SECRET": "Gyzyk Görüň"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nädip işleýär",
+      "DOWNLOAD_APP": "Ýüklemek üçin programma",
+      "CREATED_TITLE": "Gyzykňyz döredildi",
+      "CREATED_SUBTITLE": "Ol diňe bir gezek görkeziler",
+      "CREATED_TITLE_SHARE": "Baglanyşygy göçüriň ýa-da paýlaşyň.",
+      "CREATED_BUTTON": "Göçürmek",
+      "CREATED_CREATE_SECRET": "Täze Gizyk Dörediň",
+      "CREATED_BURNSECRET": "Gyzyk ýok et",
+      "URL_COPIED": "URL göçürüldi."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Bu gyzyny ýok edersiňiz",
+      "SECRET_UNAVAILABLE_TEXT": "Ol indi elýeterli bolmaýar",
+      "BURN_FOREVER": "Ömürlik ýok et",
+      "CANCEL": "Ýatyr"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Nädip işleýär",
+      "DOWNLOAD_APP": "Ýüklemek üçin programma",
+      "WELCOME_MESSAGE": "Salam, gizyk habar aldyňyz!",
+      "INSTRUCTION": "Habary ýazyp we iberiň, ol okalan soň ýok bolar.",
+      "SHOW_MESSAGE_ONCE": "Aşakdaky habar <strong>bir gezek</strong> görkeziler",
+      "OPEN_SECRET_MESSAGE": "Gizyk habary açyň",
+      "INPUT_PASSPHRASE": "Parol giriziň",
+      "PASS_PHRASE_PLACEHOLDER": "Parol",
+      "OPEN_SECRET_BUTTON": "Gizyk habary açyň",
+      "YOUR_SECRET_MESSAGE": "Siziň Gizyk Habar",
+      "COPY": "Göçürmek",
+      "MESSAGE_LABEL": "Habar",
+      "REPLY": "Jogap bermek",
+      "DOWNLOAD_MESSAGE": "Mobilde Stellar Secret ýüklemegi we gizyk habarlar döretmegi",
+      "WITHOUT_TRACE": "Izi galmazdan.",
+      "PRIVACY_PROTECTED": "Gizlinlik goraldy",
+      "ONE_TIME_VIEWABLE": "Bir gezek görüler",
+      "SECURITY_TEXT": "Şifrlendi, howpsuz we",
+      "SECURITY_TEXT2": "Stellar Howpsuzlygy bilen"
+    }
+  }
+  

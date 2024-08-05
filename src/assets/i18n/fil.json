@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Paano Ito Gumagana",
+      "DOWNLOAD_APP": "I-download ang App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Isang-Oras na Lihim na Pagmemensahe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ibahagi ang mga lihim, at poof—nawala na!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Na-encrypt, naka-secure, at protektado ng Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Walang Bakas",
+      "WITHOUT_TRACE_DESCRIPTION": "Tinitiyak namin ang matibay na proteksyon ng iyong sensitibong impormasyon. Lahat ng data ay naka-encrypt sa client-side. Hindi namin alam ang iyong IP address, kung ano ang iyong ibinabahagi, o kung kanino mo ibinabahagi ang mga lihim na link—at pinaka-mahalaga, ang nilalaman.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Pinoprotektahan ang Privacy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ikaw lamang ang nakakaalam ng link sa lihim na impormasyon na iyong ginawa at kung sino ang iyong ibinabahagi nito. Kapag lumilikha ng lihim, maaari kang magdagdag ng password bago ito ma-access. Posible ring magtakda ng burner-time. Anuman ang mangyari, ang isang lihim ay tatanggalin pagkatapos ng 14 na araw.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end na naka-encrypt",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Lahat ng mga link at nilalaman ay na-hash sa client-side, ibig sabihin kahit kami ay hindi alam ang link at ang nilalaman. Ang bawat link ay may natatanging ID na may haba na 36 na isang-way na encryption upang ma-access ang Lihim na Mensahe at ang nilalaman nito na naka-encrypt gamit ang AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Paano Ito Gumagana?",
+      "STEP_1_TITLE": "Isulat ang iyong mensahe at/o bumuo ng password",
+      "STEP_2_TITLE": "Gumawa ng Lihim na Link",
+      "STEP_3_TITLE": "Ibahagi ang link",
+      
+      "COMPANY_LOGO_ALT": "Logo ng Kumpanya",
+      
+      "SHARE_TITLE": "Ibahagi ang lihim na mensahe",
+      "SHARE_DESCRIPTION_PART_1": "Isulat at ipadala ang mensahe, ito ay",
+      "SHARE_DESCRIPTION_PART_2": "tatanggalin pagkatapos mabasa.",
+      
+      "SHARE_BULLET_1": "Walang bakas.",
+      "SHARE_BULLET_2": "Pinoprotektahan ang Privacy",
+      "SHARE_BULLET_3": "Isang beses na ma-view",
+      
+      "SHARE_ENCRYPTED_BY": "Na-encrypt, naka-secure, at protektado ng Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Isulat ang iyong lihim na mensahe, password o sensitibong impormasyon *",
+      "SHARE_OPTIONS": "Mga Opsyon",
+      
+      "SHARE_EMPTY": "Iwanang walang laman para sa wala.",
+      "SHARE_BUTTON": "Lumikha ng Lihim na Link",
+      
+      "CREATED_TITLE": "Ang Iyong Lihim ay Nalikha",
+      "CREATED_SUBTITLE": "Ito ay ipapakita lamang ng isang beses",
+      
+      "CREATED_TITLE_SHARE": "Kopyahin ang link o ibahagi ito.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Gumawa ng Bagong Lihim",
+      "CREATED_BURNSECRET": "Sunugin ang Lihim",
+      "URL_COPIED": "Ang URL ay nakopya na.",
+      "SHARE_BURNER_TIME":"Buhay",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "Tingnan ang Lihim"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Paano Ito Gumagana",
+      "DOWNLOAD_APP": "I-download ang App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Isang-Oras na Lihim na Pagmemensahe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ibahagi ang mga lihim, at poof—nawala na!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Na-encrypt, naka-secure, at protektado ng Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Walang Bakas",
+      "WITHOUT_TRACE_DESCRIPTION": "Tinitiyak namin ang matibay na proteksyon ng iyong sensitibong impormasyon. Lahat ng data ay naka-encrypt sa client-side. Hindi namin alam ang iyong IP address, kung ano ang iyong ibinabahagi, o kung kanino mo ibinabahagi ang mga lihim na link—at pinaka-mahalaga, ang nilalaman.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Pinoprotektahan ang Privacy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ikaw lamang ang nakakaalam ng link sa lihim na impormasyon na iyong ginawa at kung sino ang iyong ibinabahagi nito. Kapag lumilikha ng lihim, maaari kang magdagdag ng password bago ito ma-access. Posible ring magtakda ng burner-time. Anuman ang mangyari, ang isang lihim ay tatanggalin pagkatapos ng 14 na araw.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end na naka-encrypt",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Lahat ng mga link at nilalaman ay na-hash sa client-side, ibig sabihin kahit kami ay hindi alam ang link at ang nilalaman. Ang bawat link ay may natatanging ID na may haba na 36 na isang-way na encryption upang ma-access ang Lihim na Mensahe at ang nilalaman nito na naka-encrypt gamit ang AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Paano Ito Gumagana?",
+      "STEP_1_TITLE": "Isulat ang iyong mensahe at/o bumuo ng password",
+      "STEP_2_TITLE": "Gumawa ng Lihim na Link",
+      "STEP_3_TITLE": "Ibahagi ang link",
+      
+      "COMPANY_LOGO_ALT": "Logo ng Kumpanya",
+      
+      "SHARE_TITLE": "Ibahagi ang lihim na mensahe",
+      "SHARE_DESCRIPTION_PART_1": "Isulat at ipadala ang mensahe, ito ay",
+      "SHARE_DESCRIPTION_PART_2": "tatanggalin pagkatapos mabasa.",
+      
+      "SHARE_BULLET_1": "Walang bakas.",
+      "SHARE_BULLET_2": "Pinoprotektahan ang Privacy",
+      "SHARE_BULLET_3": "Isang beses na ma-view",
+      
+      "SHARE_ENCRYPTED_BY": "Na-encrypt, naka-secure, at protektado ng Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Isulat ang iyong lihim na mensahe, password o sensitibong impormasyon *",
+      "SHARE_OPTIONS": "Mga Opsyon",
+      
+      "SHARE_EMPTY": "Iwanang walang laman para sa wala.",
+      "SHARE_BUTTON": "Lumikha ng Lihim na Link",
+      
+      "CREATED_TITLE": "Ang Iyong Lihim ay Nalikha",
+      "CREATED_SUBTITLE": "Ito ay ipapakita lamang ng isang beses",
+      
+      "CREATED_TITLE_SHARE": "Kopyahin ang link o ibahagi ito.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Gumawa ng Bagong Lihim",
+      "CREATED_BURNSECRET": "Sunugin ang Lihim",
+      "URL_COPIED": "Ang URL ay nakopya na.",
+      
+      "VIEW_SECRET": "Tingnan ang Lihim"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Paano Ito Gumagana",
+      "DOWNLOAD_APP": "I-download ang App",
+      "CREATED_TITLE": "Ang Iyong Lihim ay Nalikha",
+      "CREATED_SUBTITLE": "Ito ay ipapakita lamang ng isang beses",
+      "CREATED_TITLE_SHARE": "Kopyahin ang link o ibahagi ito.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Gumawa ng Bagong Lihim",
+      "CREATED_BURNSECRET": "Sunugin ang Lihim",
+      "URL_COPIED": "Ang URL ay nakopya na."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Ibuburn mo ang lihim na ito",
+      "SECRET_UNAVAILABLE_TEXT": "Hindi na ito magiging available",
+      "BURN_FOREVER": "Sunugin Magpakailanman",
+      "CANCEL": "Kanselahin"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Paano Ito Gumagana",
+      "DOWNLOAD_APP": "I-download ang App",
+      "WELCOME_MESSAGE": "Kamusta, nakatanggap ka ng lihim na mensahe!",
+      "INSTRUCTION": "Isulat at ipadala ang mensahe, ito ay tatanggalin pagkatapos mabasa.",
+      "SHOW_MESSAGE_ONCE": "Ang sumusunod na mensahe ay ipapakita <strong>ng isang beses lamang</strong>",
+      "OPEN_SECRET_MESSAGE": "Buksan ang Lihim na Mensahe",
+      "INPUT_PASSPHRASE": "Ilagay ang Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Buksan ang Lihim na Mensahe",
+      "YOUR_SECRET_MESSAGE": "Ang Iyong Lihim na Mensahe",
+      "COPY": "Kopya",
+      "MESSAGE_LABEL": "Mensahe",
+      "REPLY": "Tumugon",
+      "DOWNLOAD_MESSAGE": "I-download ang Stellar Secret sa mobile, lumikha ng iyong lihim na mensahe",
+      "WITHOUT_TRACE": "Walang bakas.",
+      "PRIVACY_PROTECTED": "Pinoprotektahan ang Privacy",
+      "ONE_TIME_VIEWABLE": "Isang beses na ma-view",
+      "SECURITY_TEXT": "Na-encrypt, naka-secure, at protektado ng ",
+      "SECURITY_TEXT2":"Stellar Security"
+    }
+  }
+  

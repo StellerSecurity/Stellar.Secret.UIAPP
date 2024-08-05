@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Wéi et funktionnéiert",
+      "DOWNLOAD_APP": "App eroflueden",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Een-Zäit Geheimnismessaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deelt Geheimnisse, an poof—si sinn fort!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Verschlësselt, geséchert an geschützt duerch Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Ohne Spuer",
+      "WITHOUT_TRACE_DESCRIPTION": "Mir garantéieren robust Schutz fir Äre sensiblen Informatiounen. All Daten ginn um Client-Side verschlësselt. Mir kennen Ären IP-Adress net, wat Dir deelt oder mat wien Dir d'Geheimlinke deelt - an am wichtegsten, de Inhalt.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatsphär geschützt",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Dir sidd de einzige deen d'Link zum Geheiminformatioun kennt, déi Dir erstallt hutt an mat wien Dir et deelt. Wann Dir e Geheimnis erstallt, kënnt Dir eng Passwuert dobäisetzen fir datt et entsperrt ka ginn. Et ass och méiglech e Brenn-Zäitraum ze setzen. Wéi och ëmmer, e Geheimnis gëtt no 14 Deeg geläscht.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-End verschlësselt",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "All Linken an Inhalt sinn um Client-Side gehasht, wat heescht datt mir selwer den Link an den Inhalt net kennen. All Link huet eise unique ID vun 36 Längen, wat eng een-Wee Verschlësselung ass fir d'Geheimnachricht an den Inhalt ze kënnen zougräifen, deen mat AES-256 verschlësselt ass.",
+      
+      "HOW_IT_WORKS_TITLE": "Wéi et funktionnéiert?",
+      "STEP_1_TITLE": "Schreift Äre Message an/oder generéiert Passwuert",
+      "STEP_2_TITLE": "Geheim Link erstellen",
+      "STEP_3_TITLE": "Link deelen",
+      
+      "COMPANY_LOGO_ALT": "Firma Logo",
+      
+      "SHARE_TITLE": "Deelt eng geheim Nachricht",
+      "SHARE_DESCRIPTION_PART_1": "Schreift an schéckt Message, et gëtt",
+      "SHARE_DESCRIPTION_PART_2": "geläscht wann gelies.",
+      
+      "SHARE_BULLET_1": "Ohne Spuer.",
+      "SHARE_BULLET_2": "Privatsphär geschützt",
+      "SHARE_BULLET_3": "Ein-Zäit gesinbar",
+      
+      "SHARE_ENCRYPTED_BY": "Verschlësselt, geséchert an geschützt duerch Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Schreift Äre Geheim Message, Passwuert oder sensibel Informatiounen *",
+      "SHARE_OPTIONS": "Optiounen",
+      
+      "SHARE_EMPTY": "Loosst e leer fir keen.",
+      "SHARE_BUTTON": "Geheim Link erstellen",
+      
+      "CREATED_TITLE": "Äre Geheimnis gouf erstellt",
+      "CREATED_SUBTITLE": "Et wäert nëmmen eemol gewisen",
+      
+      "CREATED_TITLE_SHARE": "Kopéiert Link oder deelt et.",
+      "CREATED_BUTTON": "KOPIÉIEREN",
+      "CREATED_CREATE_SECRET": "Neit Geheimnis erstellen",
+      "CREATED_BURNSECRET": "Geheimnis verbrennen",
+      "URL_COPIED": "D'URL gouf kopéiert.",
+      "SHARE_BURNER_TIME":"Liewensdauer",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "Geheimnis uweisen"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Wéi et funktionnéiert",
+      "DOWNLOAD_APP": "App eroflueden",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Een-Zäit Geheimnismessaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deelt Geheimnisse, an poof—si sinn fort!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Verschlësselt, geséchert an geschützt duerch Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Ohne Spuer",
+      "WITHOUT_TRACE_DESCRIPTION": "Mir garantéieren robust Schutz fir Äre sensiblen Informatiounen. All Daten ginn um Client-Side verschlësselt. Mir kennen Ären IP-Adress net, wat Dir deelt oder mat wien Dir d'Geheimlinke deelt - an am wichtegsten, de Inhalt.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatsphär geschützt",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Dir sidd de einzige deen d'Link zum Geheiminformatioun kennt, déi Dir erstallt hutt an mat wien Dir et deelt. Wann Dir e Geheimnis erstallt, kënnt Dir eng Passwuert dobäisetzen fir datt et entsperrt ka ginn. Et ass och méiglech e Brenn-Zäitraum ze setzen. Wéi och ëmmer, e Geheimnis gëtt no 14 Deeg geläscht.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-End verschlësselt",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "All Linken an Inhalt sinn um Client-Side gehasht, wat heescht datt mir selwer den Link an den Inhalt net kennen. All Link huet eise unique ID vun 36 Längen, wat eng een-Wee Verschlësselung ass fir d'Geheimnachricht an den Inhalt ze kënnen zougräifen, deen mat AES-256 verschlësselt ass.",
+      
+      "HOW_IT_WORKS_TITLE": "Wéi et funktionnéiert?",
+      "STEP_1_TITLE": "Schreift Äre Message an/oder generéiert Passwuert",
+      "STEP_2_TITLE": "Geheim Link erstellen",
+      "STEP_3_TITLE": "Link deelen",
+      
+      "COMPANY_LOGO_ALT": "Firma Logo",
+      
+      "SHARE_TITLE": "Deelt eng geheim Nachricht",
+      "SHARE_DESCRIPTION_PART_1": "Schreift an schéckt Message, et gëtt",
+      "SHARE_DESCRIPTION_PART_2": "geläscht wann gelies.",
+      
+      "SHARE_BULLET_1": "Ohne Spuer.",
+      "SHARE_BULLET_2": "Privatsphär geschützt",
+      "SHARE_BULLET_3": "Ein-Zäit gesinbar",
+      
+      "SHARE_ENCRYPTED_BY": "Verschlësselt, geséchert an geschützt duerch Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Schreift Äre Geheim Message, Passwuert oder sensibel Informatiounen *",
+      "SHARE_OPTIONS": "Optiounen",
+      
+      "SHARE_EMPTY": "Loosst e leer fir keen.",
+      "SHARE_BUTTON": "Geheim Link erstellen",
+      
+      "CREATED_TITLE": "Äre Geheimnis gouf erstellt",
+      "CREATED_SUBTITLE": "Et wäert nëmmen eemol gewisen",
+      
+      "CREATED_TITLE_SHARE": "Kopéiert Link oder deelt et.",
+      "CREATED_BUTTON": "KOPIÉIEREN",
+      "CREATED_CREATE_SECRET": "Neit Geheimnis erstellen",
+      "CREATED_BURNSECRET": "Geheimnis verbrennen",
+      "URL_COPIED": "D'URL gouf kopéiert.",
+      
+      "VIEW_SECRET": "Geheimnis uweisen"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Wéi et funktionnéiert",
+      "DOWNLOAD_APP": "App eroflueden",
+      "CREATED_TITLE": "Äre Geheimnis gouf erstellt",
+      "CREATED_SUBTITLE": "Et wäert nëmmen eemol gewisen",
+      "CREATED_TITLE_SHARE": "Kopéiert Link oder deelt et.",
+      "CREATED_BUTTON": "KOPIÉIEREN",
+      "CREATED_CREATE_SECRET": "Neit Geheimnis erstellen",
+      "CREATED_BURNSECRET": "Geheimnis verbrennen",
+      "URL_COPIED": "D'URL gouf kopéiert."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Dir wäert dëst Geheimnis verbrennen",
+      "SECRET_UNAVAILABLE_TEXT": "Et wäert net méi verfügbar sinn",
+      "BURN_FOREVER": "Fir ëmmer verbrennen",
+      "CANCEL": "Ofbriechen"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Wéi et funktionnéiert",
+      "DOWNLOAD_APP": "App eroflueden",
+      "WELCOME_MESSAGE": "Salut, Dir hutt eng geheim Nachricht kritt!",
+      "INSTRUCTION": "Schreift an schéckt Message, et gëtt geläscht wann gelies.",
+      "SHOW_MESSAGE_ONCE": "Déi folgend Nachricht gëtt <strong>nëmmen eemol</strong> gewisen",
+      "OPEN_SECRET_MESSAGE": "Geheim Message opmaachen",
+      "INPUT_PASSPHRASE": "Passphrase aginn",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Geheim Message opmaachen",
+      "YOUR_SECRET_MESSAGE": "Är Geheim Message",
+      "COPY": "Kopéieren",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Reeagéieren",
+      "DOWNLOAD_MESSAGE": "Lued Stellar Secret op mobil, erstellt Är geheim Nachrichten",
+      "WITHOUT_TRACE": "Ohne Spuer.",
+      "PRIVACY_PROTECTED": "Privatsphär geschützt",
+      "ONE_TIME_VIEWABLE": "Ein-Zäit gesinbar",
+      "SECURITY_TEXT": "Verschlësselt, geséchert an geschützt duerch ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

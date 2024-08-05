@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvordan det fungerer",
+      "DOWNLOAD_APP": "Last ned app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Engangs hemmelig meldingssending",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmeligheter, og vips—de er borte!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kryptert, sikret og beskyttet av Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Uten spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Vi sikrer robust beskyttelse av din sensitive informasjon. Alle data krypteres på klientsiden. Vi kjenner ikke din IP-adresse, hva du deler, eller hvem du deler hemmelige lenker med - og viktigst av alt, innholdet.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Personvern Beskyttet",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Du er den eneste som vet lenken til den hemmelige informasjonen du opprettet og hvem du deler den med. Når du oppretter en hemmelighet, kan du legge til et passord før den kan låses opp. Det er også mulig å sette en brenntid. Uansett hva, vil en hemmelighet bli slettet etter 14 dager.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end kryptert",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle lenker og innhold er hashet på klientsiden, noe som betyr at selv vi ikke vet lenken og innholdet. Hver lenke har en unik ID på 36 tegn som er en enveiskryptering for å kunne få tilgang til den hemmelige meldingen og innholdet som er kryptert med AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hvordan det fungerer?",
+      "STEP_1_TITLE": "Skriv meldingen din og/eller generer passord",
+      "STEP_2_TITLE": "Opprett hemmelig lenke",
+      "STEP_3_TITLE": "Del lenke",
+      
+      "COMPANY_LOGO_ALT": "Firma Logo",
+      
+      "SHARE_TITLE": "Del en hemmelig melding",
+      "SHARE_DESCRIPTION_PART_1": "Skriv og send melding, den vil bli",
+      "SHARE_DESCRIPTION_PART_2": "slettet når den er lest.",
+      
+      "SHARE_BULLET_1": "Uten spor.",
+      "SHARE_BULLET_2": "Personvern Beskyttet",
+      "SHARE_BULLET_3": "Engangsvisning",
+      
+      "SHARE_ENCRYPTED_BY": "Kryptert, sikret og beskyttet av Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriv din hemmelige melding, passord eller sensitive informasjon *",
+      "SHARE_OPTIONS": "Alternativer",
+      
+      "SHARE_EMPTY": "La stå tomt for ingen.",
+      "SHARE_BUTTON": "Opprett hemmelig lenke",
+      
+      "CREATED_TITLE": "Din hemmelighet ble opprettet",
+      "CREATED_SUBTITLE": "Den vil vises bare én gang",
+      
+      "CREATED_TITLE_SHARE": "Kopier lenken eller del den.",
+      "CREATED_BUTTON": "KOPIER",
+      "CREATED_CREATE_SECRET": "Opprett ny hemmelighet",
+      "CREATED_BURNSECRET": "Slett hemmelighet",
+      "URL_COPIED": "URL-en er kopiert.",
+      "SHARE_BURNER_TIME": "Levetid",
+      "SHARE_PASS_PHRASE": "Passordfrase",
+      "VIEW_SECRET": "Se hemmelighet"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvordan det fungerer",
+      "DOWNLOAD_APP": "Last ned app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Engangs hemmelig meldingssending",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmeligheter, og vips—de er borte!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kryptert, sikret og beskyttet av Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Uten spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Vi sikrer robust beskyttelse av din sensitive informasjon. Alle data krypteres på klientsiden. Vi kjenner ikke din IP-adresse, hva du deler, eller hvem du deler hemmelige lenker med - og viktigst av alt, innholdet.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Personvern Beskyttet",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Du er den eneste som vet lenken til den hemmelige informasjonen du opprettet og hvem du deler den med. Når du oppretter en hemmelighet, kan du legge til et passord før den kan låses opp. Det er også mulig å sette en brenntid. Uansett hva, vil en hemmelighet bli slettet etter 14 dager.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end kryptert",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle lenker og innhold er hashet på klientsiden, noe som betyr at selv vi ikke vet lenken og innholdet. Hver lenke har en unik ID på 36 tegn som er en enveiskryptering for å kunne få tilgang til den hemmelige meldingen og innholdet som er kryptert med AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hvordan det fungerer?",
+      "STEP_1_TITLE": "Skriv meldingen din og/eller generer passord",
+      "STEP_2_TITLE": "Opprett hemmelig lenke",
+      "STEP_3_TITLE": "Del lenke",
+      
+      "COMPANY_LOGO_ALT": "Firma Logo",
+      
+      "SHARE_TITLE": "Del en hemmelig melding",
+      "SHARE_DESCRIPTION_PART_1": "Skriv og send melding, den vil bli",
+      "SHARE_DESCRIPTION_PART_2": "slettet når den er lest.",
+      
+      "SHARE_BULLET_1": "Uten spor.",
+      "SHARE_BULLET_2": "Personvern Beskyttet",
+      "SHARE_BULLET_3": "Engangsvisning",
+      
+      "SHARE_ENCRYPTED_BY": "Kryptert, sikret og beskyttet av Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriv din hemmelige melding, passord eller sensitive informasjon *",
+      "SHARE_OPTIONS": "Alternativer",
+      
+      "SHARE_EMPTY": "La stå tomt for ingen.",
+      "SHARE_BUTTON": "Opprett hemmelig lenke",
+      
+      "CREATED_TITLE": "Din hemmelighet ble opprettet",
+      "CREATED_SUBTITLE": "Den vil vises bare én gang",
+      
+      "CREATED_TITLE_SHARE": "Kopier lenken eller del den.",
+      "CREATED_BUTTON": "KOPIER",
+      "CREATED_CREATE_SECRET": "Opprett ny hemmelighet",
+      "CREATED_BURNSECRET": "Slett hemmelighet",
+      "URL_COPIED": "URL-en er kopiert.",
+      
+      "VIEW_SECRET": "Se hemmelighet"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvordan det fungerer",
+      "DOWNLOAD_APP": "Last ned app",
+      "CREATED_TITLE": "Din hemmelighet ble opprettet",
+      "CREATED_SUBTITLE": "Den vil vises bare én gang",
+      "CREATED_TITLE_SHARE": "Kopier lenken eller del den.",
+      "CREATED_BUTTON": "KOPIER",
+      "CREATED_CREATE_SECRET": "Opprett ny hemmelighet",
+      "CREATED_BURNSECRET": "Slett hemmelighet",
+      "URL_COPIED": "URL-en er kopiert."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Du skal slette denne hemmeligheten",
+      "SECRET_UNAVAILABLE_TEXT": "Den vil ikke være tilgjengelig lenger",
+      "BURN_FOREVER": "Slett for alltid",
+      "CANCEL": "Avbryt"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvordan det fungerer",
+      "DOWNLOAD_APP": "Last ned app",
+      "WELCOME_MESSAGE": "Hei, du har mottatt en hemmelig melding!",
+      "INSTRUCTION": "Skriv og send melding, den vil bli slettet når den er lest.",
+      "SHOW_MESSAGE_ONCE": "Den følgende meldingen vil bli vist <strong>bare én gang</strong>",
+      "OPEN_SECRET_MESSAGE": "Åpne hemmelig melding",
+      "INPUT_PASSPHRASE": "Skriv inn passordfrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passordfrase",
+      "OPEN_SECRET_BUTTON": "Åpne hemmelig melding",
+      "YOUR_SECRET_MESSAGE": "Din hemmelige melding",
+      "COPY": "Kopier",
+      "MESSAGE_LABEL": "Melding",
+      "REPLY": "Svar",
+      "DOWNLOAD_MESSAGE": "Last ned Stellar Secret på mobil, opprett dine hemmelige meldinger",
+      "WITHOUT_TRACE": "Uten spor.",
+      "PRIVACY_PROTECTED": "Personvern Beskyttet",
+      "ONE_TIME_VIEWABLE": "Engangsvisning",
+      "SECURITY_TEXT": "Kryptert, sikret og beskyttet av ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Slaptas Žvaigždė",
+      "HOW_IT_WORKS": "Kaip tai veikia",
+      "DOWNLOAD_APP": "Atsisiųsti programėlę",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Vienkartinė Slapta Žinutė",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dalinkitės paslaptimis ir jos dings!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifruota, saugoma ir apsaugota Žvaigždės Saugumo",
+      "WITHOUT_TRACE_TITLE": "Be pėdsakų",
+      "WITHOUT_TRACE_DESCRIPTION": "Mes užtikriname stiprią jūsų jautrios informacijos apsaugą. Visi duomenys šifruojami kliento pusėje. Mes nežinome jūsų IP adreso, ką dalijatės ar su kuo dalijatės slaptais nuorodomis - ir svarbiausia, turiniu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatumas Apsaugotas",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Tik jūs žinote nuorodą į slapta sukurtą informaciją ir su kuo ją dalijatės. Kurdamas paslaptį, galite pridėti slaptažodį, kad ji būtų atrakinta. Taip pat galima nustatyti „degimo laiką“. Nepaisant to, paslaptis bus ištrinta po 14 dienų.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifruota nuo galo iki galo",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Visos nuorodos ir turinys yra šifruojami kliento pusėje, todėl net mes nežinome nuorodos ir turinio. Kiekviena nuoroda turi unikalų 36 simbolių ilgį, kuris yra vienpusis šifravimas, kad būtų galima pasiekti Slaptą Žinutę ir jos turinį, kuris šifruojamas AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kaip tai veikia?",
+      "STEP_1_TITLE": "Parašykite savo žinutę ir/arba sugeneruokite slaptažodį",
+      "STEP_2_TITLE": "Sukurkite Slaptą Nuorodą",
+      "STEP_3_TITLE": "Pasidalykite nuoroda",
+      
+      "COMPANY_LOGO_ALT": "Įmonės logotipas",
+      
+      "SHARE_TITLE": "Pasidalykite slapta žinute",
+      "SHARE_DESCRIPTION_PART_1": "Parašykite ir siųskite žinutę, ji bus",
+      "SHARE_DESCRIPTION_PART_2": "ištrinta perskaičius.",
+      
+      "SHARE_BULLET_1": "Be pėdsakų.",
+      "SHARE_BULLET_2": "Privatumas Apsaugotas",
+      "SHARE_BULLET_3": "Vienkartinis peržiūrėjimas",
+      
+      "SHARE_ENCRYPTED_BY": "Šifruota, saugoma ir apsaugota Žvaigždės Saugumo",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Parašykite savo Slaptą žinutę, slaptažodį ar jautrią informaciją *",
+      "SHARE_OPTIONS": "Parinktys",
+      
+      "SHARE_EMPTY": "Palikite tuščia, jei nėra.",
+      "SHARE_BUTTON": "Sukurti Slaptą Nuorodą",
+      
+      "CREATED_TITLE": "Jūsų Slaptumas buvo sukurtas",
+      "CREATED_SUBTITLE": "Jis bus rodomas tik vieną kartą",
+      
+      "CREATED_TITLE_SHARE": "Kopijuokite nuorodą arba pasidalykite ja.",
+      "CREATED_BUTTON": "KOPIJUOTI",
+      "CREATED_CREATE_SECRET": "Sukurti Naują Slaptumą",
+      "CREATED_BURNSECRET": "Sudeginti Slaptumą",
+      "URL_COPIED": "URL buvo nukopijuotas.",
+      "SHARE_BURNER_TIME": "Gyvavimo trukmė",
+      "SHARE_PASS_PHRASE": "Slaptažodis",
+      "VIEW_SECRET": "Peržiūrėti Slaptumą"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Slaptas Žvaigždė",
+      "HOW_IT_WORKS": "Kaip tai veikia",
+      "DOWNLOAD_APP": "Atsisiųsti programėlę",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Vienkartinė Slapta Žinutė",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dalinkitės paslaptimis ir jos dings!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifruota, saugoma ir apsaugota Žvaigždės Saugumo",
+      "WITHOUT_TRACE_TITLE": "Be pėdsakų",
+      "WITHOUT_TRACE_DESCRIPTION": "Mes užtikriname stiprią jūsų jautrios informacijos apsaugą. Visi duomenys šifruojami kliento pusėje. Mes nežinome jūsų IP adreso, ką dalijatės ar su kuo dalijatės slaptais nuorodomis - ir svarbiausia, turiniu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatumas Apsaugotas",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Tik jūs žinote nuorodą į slapta sukurtą informaciją ir su kuo ją dalijatės. Kurdamas paslaptį, galite pridėti slaptažodį, kad ji būtų atrakinta. Taip pat galima nustatyti „degimo laiką“. Nepaisant to, paslaptis bus ištrinta po 14 dienų.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifruota nuo galo iki galo",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Visos nuorodos ir turinys yra šifruojami kliento pusėje, todėl net mes nežinome nuorodos ir turinio. Kiekviena nuoroda turi unikalų 36 simbolių ilgį, kuris yra vienpusis šifravimas, kad būtų galima pasiekti Slaptą Žinutę ir jos turinį, kuris šifruojamas AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kaip tai veikia?",
+      "STEP_1_TITLE": "Parašykite savo žinutę ir/arba sugeneruokite slaptažodį",
+      "STEP_2_TITLE": "Sukurkite Slaptą Nuorodą",
+      "STEP_3_TITLE": "Pasidalykite nuoroda",
+      
+      "COMPANY_LOGO_ALT": "Įmonės logotipas",
+      
+      "SHARE_TITLE": "Pasidalykite slapta žinute",
+      "SHARE_DESCRIPTION_PART_1": "Parašykite ir siųskite žinutę, ji bus",
+      "SHARE_DESCRIPTION_PART_2": "ištrinta perskaičius.",
+      
+      "SHARE_BULLET_1": "Be pėdsakų.",
+      "SHARE_BULLET_2": "Privatumas Apsaugotas",
+      "SHARE_BULLET_3": "Vienkartinis peržiūrėjimas",
+      
+      "SHARE_ENCRYPTED_BY": "Šifruota, saugoma ir apsaugota Žvaigždės Saugumo",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Parašykite savo Slaptą žinutę, slaptažodį ar jautrią informaciją *",
+      "SHARE_OPTIONS": "Parinktys",
+      
+      "SHARE_EMPTY": "Palikite tuščia, jei nėra.",
+      "SHARE_BUTTON": "Sukurti Slaptą Nuorodą",
+      
+      "CREATED_TITLE": "Jūsų Slaptumas buvo sukurtas",
+      "CREATED_SUBTITLE": "Jis bus rodomas tik vieną kartą",
+      
+      "CREATED_TITLE_SHARE": "Kopijuokite nuorodą arba pasidalykite ja.",
+      "CREATED_BUTTON": "KOPIJUOTI",
+      "CREATED_CREATE_SECRET": "Sukurti Naują Slaptumą",
+      "CREATED_BURNSECRET": "Sudeginti Slaptumą",
+      "URL_COPIED": "URL buvo nukopijuotas.",
+      
+      "VIEW_SECRET": "Peržiūrėti Slaptumą"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Slaptas Žvaigždė",
+      "HOW_IT_WORKS": "Kaip tai veikia",
+      "DOWNLOAD_APP": "Atsisiųsti programėlę",
+      "CREATED_TITLE": "Jūsų Slaptumas buvo sukurtas",
+      "CREATED_SUBTITLE": "Jis bus rodomas tik vieną kartą",
+      "CREATED_TITLE_SHARE": "Kopijuokite nuorodą arba pasidalykite ja.",
+      "CREATED_BUTTON": "KOPIJUOTI",
+      "CREATED_CREATE_SECRET": "Sukurti Naują Slaptumą",
+      "CREATED_BURNSECRET": "Sudeginti Slaptumą",
+      "URL_COPIED": "URL buvo nukopijuotas."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Jūs ketinate sudeginti šią paslaptį",
+      "SECRET_UNAVAILABLE_TEXT": "Ji nebus prieinama daugiau",
+      "BURN_FOREVER": "Sudeginti amžinai",
+      "CANCEL": "Atšaukti"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Slaptas Žvaigždė",
+      "HOW_IT_WORKS": "Kaip tai veikia",
+      "DOWNLOAD_APP": "Atsisiųsti programėlę",
+      "WELCOME_MESSAGE": "Sveiki, gavote slaptą žinutę!",
+      "INSTRUCTION": "Parašykite ir siųskite žinutę, ji bus ištrinta perskaičius.",
+      "SHOW_MESSAGE_ONCE": "Toliau pateikta žinutė bus rodoma <strong>tik vieną kartą</strong>",
+      "OPEN_SECRET_MESSAGE": "Atidaryti Slaptą Žinutę",
+      "INPUT_PASSPHRASE": "Įveskite Slaptažodį",
+      "PASS_PHRASE_PLACEHOLDER": "Slaptažodis",
+      "OPEN_SECRET_BUTTON": "Atidaryti Slaptą Žinutę",
+      "YOUR_SECRET_MESSAGE": "Jūsų Slapta Žinutė",
+      "COPY": "Kopijuoti",
+      "MESSAGE_LABEL": "Žinutė",
+      "REPLY": "Atsakyti",
+      "DOWNLOAD_MESSAGE": "Atsisiųskite Slaptą Žvaigždę į mobilųjį telefoną, kurkite savo slapta žinutes",
+      "WITHOUT_TRACE": "Be pėdsakų.",
+      "PRIVACY_PROTECTED": "Privatumas Apsaugotas",
+      "ONE_TIME_VIEWABLE": "Vienkartinis peržiūrėjimas",
+      "SECURITY_TEXT": "Šifruota, saugoma ir apsaugota ",
+      "SECURITY_TEXT2": "Žvaigždės Saugumo"
+    }
+  }
+  

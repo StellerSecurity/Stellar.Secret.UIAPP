@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nañu na jàmm",
+      "DOWNLOAD_APP": "Jàppale App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Jàmm Tàng Tàng",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tànn sa yëng, te bu baax!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Yàqot, suqali ak jàmm ci Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bu ñuy wéy",
+      "WITHOUT_TRACE_DESCRIPTION": "Ñu jëfandikoo yàqot yi ci kàddukatay sa xaalis. Nuyoo nañu ndax sa IP adress, lu nga jàppale, walla la ngay jàppale sa yëng gi - ak gën ñi, biir sa content.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Jàmm ci Sa Yëng",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jàmm ci sa yëng la ngay jàppale. Bu jàppale sa yëng, dinga amal password bu ñu mën a nekk ba muy xool. Loolu dañoo mën a wax bu njëkk, bu baax ca 14 fanu.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Yàqot bu jàmm",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Buur, liggéey la ci kàddukatay yi, mel ne ñungi jàppale sa yëng ak sa content. Bëre bi ci yëng yi, mën na ci ID bu ne 36. Loolu na ne jàmm ci AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Nañu na jàmm?",
+      "STEP_1_TITLE": "Soo def sa kàddu ak/waaye password",
+      "STEP_2_TITLE": "Soo def Secret Link",
+      "STEP_3_TITLE": "Soo jàppale link",
+      
+      "COMPANY_LOGO_ALT": "Logo ci Kampanyi",
+      
+      "SHARE_TITLE": "Jàppale sa kàddu",
+      "SHARE_DESCRIPTION_PART_1": "Defal te jàppale kàddu gi, buñu",
+      "SHARE_DESCRIPTION_PART_2": "sàngane bu xool.",
+      
+      "SHARE_BULLET_1": "Bu ñuy wéy.",
+      "SHARE_BULLET_2": "Jàmm ci sa yëng",
+      "SHARE_BULLET_3": "Jàmm ci yëng bu njëkk",
+      
+      "SHARE_ENCRYPTED_BY": "Yàqot, suqali ak jàmm ci Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Defal sa kàddu, password wala sa yëng *",
+      "SHARE_OPTIONS": "Njaboot",
+      
+      "SHARE_EMPTY": "Tàmbali ci bokk.",
+      "SHARE_BUTTON": "Defal Secret Link",
+      
+      "CREATED_TITLE": "Sa Secret dañoo def",
+      "CREATED_SUBTITLE": "Bu ñu xool ci, buñu xool lool",
+      
+      "CREATED_TITLE_SHARE": "Jàppale link walla jàppale.",
+      "CREATED_BUTTON": "JÀPPAL",
+      "CREATED_CREATE_SECRET": "Defal Secret Bëre",
+      "CREATED_BURNSECRET": "Sàngane Secret",
+      "URL_COPIED": "URL yi dañoo jàppale.",
+      "SHARE_BURNER_TIME":"Bëre",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "Xool Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nañu na jàmm",
+      "DOWNLOAD_APP": "Jàppale App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Jàmm Tàng Tàng",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tànn sa yëng, te bu baax!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Yàqot, suqali ak jàmm ci Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bu ñuy wéy",
+      "WITHOUT_TRACE_DESCRIPTION": "Ñu jëfandikoo yàqot yi ci kàddukatay sa xaalis. Nuyoo nañu ndax sa IP adress, lu nga jàppale, walla la ngay jàppale sa yëng gi - ak gën ñi, biir sa content.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Jàmm ci Sa Yëng",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jàmm ci sa yëng la ngay jàppale. Bu jàppale sa yëng, dinga amal password bu ñu mën a nekk ba muy xool. Loolu dañoo mën a wax bu njëkk, bu baax ca 14 fanu.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Yàqot bu jàmm",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Buur, liggéey la ci kàddukatay yi, mel ne ñungi jàppale sa yëng ak sa content. Bëre bi ci yëng yi, mën na ci ID bu ne 36. Loolu na ne jàmm ci AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Nañu na jàmm?",
+      "STEP_1_TITLE": "Soo def sa kàddu ak/waaye password",
+      "STEP_2_TITLE": "Soo def Secret Link",
+      "STEP_3_TITLE": "Soo jàppale link",
+      
+      "COMPANY_LOGO_ALT": "Logo ci Kampanyi",
+      
+      "SHARE_TITLE": "Jàppale sa kàddu",
+      "SHARE_DESCRIPTION_PART_1": "Defal te jàppale kàddu gi, buñu",
+      "SHARE_DESCRIPTION_PART_2": "sàngane bu xool.",
+      
+      "SHARE_BULLET_1": "Bu ñuy wéy.",
+      "SHARE_BULLET_2": "Jàmm ci sa yëng",
+      "SHARE_BULLET_3": "Jàmm ci yëng bu njëkk",
+      
+      "SHARE_ENCRYPTED_BY": "Yàqot, suqali ak jàmm ci Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Defal sa kàddu, password wala sa yëng *",
+      "SHARE_OPTIONS": "Njaboot",
+      
+      "SHARE_EMPTY": "Tàmbali ci bokk.",
+      "SHARE_BUTTON": "Defal Secret Link",
+      
+      "CREATED_TITLE": "Sa Secret dañoo def",
+      "CREATED_SUBTITLE": "Bu ñu xool ci, buñu xool lool",
+      
+      "CREATED_TITLE_SHARE": "Jàppale link walla jàppale.",
+      "CREATED_BUTTON": "JÀPPAL",
+      "CREATED_CREATE_SECRET": "Defal Secret Bëre",
+      "CREATED_BURNSECRET": "Sàngane Secret",
+      "URL_COPIED": "URL yi dañoo jàppale.",
+      
+      "VIEW_SECRET": "Xool Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Nañu na jàmm",
+      "DOWNLOAD_APP": "Jàppale App",
+      "CREATED_TITLE": "Sa Secret dañoo def",
+      "CREATED_SUBTITLE": "Bu ñu xool ci, buñu xool lool",
+      "CREATED_TITLE_SHARE": "Jàppale link walla jàppale.",
+      "CREATED_BUTTON": "JÀPPAL",
+      "CREATED_CREATE_SECRET": "Defal Secret Bëre",
+      "CREATED_BURNSECRET": "Sàngane Secret",
+      "URL_COPIED": "URL yi dañoo jàppale."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Danga sàngane loolu secret",
+      "SECRET_UNAVAILABLE_TEXT": "Bépp loolu ci, du mën a jàmm.",
+      "BURN_FOREVER": "Sàngane Bëre",
+      "CANCEL": "Jàppale"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Nañu na jàmm",
+      "DOWNLOAD_APP": "Jàppale App",
+      "WELCOME_MESSAGE": "Nanga def, nga am secret message!",
+      "INSTRUCTION": "Defal te jàppale kàddu gi, buñu sàngane bu xool.",
+      "SHOW_MESSAGE_ONCE": "Kàddu gi dañoo mën a xool <strong>bu njëkk</strong>",
+      "OPEN_SECRET_MESSAGE": "Soo xool Secret Message",
+      "INPUT_PASSPHRASE": "Defal Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Soo xool Secret Message",
+      "YOUR_SECRET_MESSAGE": "Sa Secret Message",
+      "COPY": "Jàppale",
+      "MESSAGE_LABEL": "Kàddu",
+      "REPLY": "Jàppale",
+      "DOWNLOAD_MESSAGE": "Jàppale Stellar Secret ci mobile, defal sa secret messages",
+      "WITHOUT_TRACE": "Bu ñuy wéy.",
+      "PRIVACY_PROTECTED": "Jàmm ci sa yëng",
+      "ONE_TIME_VIEWABLE": "Jàmm ci yëng bu njëkk",
+      "SECURITY_TEXT": "Yàqot, suqali ak jàmm ci ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Korleis det fungerer",
+      "DOWNLOAD_APP": "Last ned appen",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Éin-gongs Hemmeleg Meldingar",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmelegheiter, og poff – dei er borte!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kryptert, sikra og beskytta av Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Utan spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Vi sikrar robust verning av di sensitive informasjon. Alle data blir kryptert på klientsida. Vi kjenner ikkje IP-adressa di, kva du deler, eller kven du deler dei hemmelege lenkene med - og viktigast av alt, innhaldet.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Personvern verna",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Du er den einaste som kjenner lenka til den hemmelege informasjonen du har laga og kven du deler det med. Når du opprettar ein hemmeleghet, kan du legge til eit passord før det kan låsast opp. Det er også mogleg å sette ein brenntid. Uansett vil ein hemmeleghet bli sletta etter 14 dagar.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Ende-til-ende kryptert",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle lenker og innhald blir hash-a på klientsida, som betyr at ikkje engang vi kjenner lenka og innhaldet. Kvar lenke har ein unik ID på 36 teikn som er ein éin-vegs kryptering for å kunne få tilgang til den Hemmelige Meldinga og innhaldet som er kryptert med AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Korleis det fungerer?",
+      "STEP_1_TITLE": "Skriv meldinga di og/eller generer passord",
+      "STEP_2_TITLE": "Lag Hemmeleg Lenke",
+      "STEP_3_TITLE": "Del lenka",
+      
+      "COMPANY_LOGO_ALT": "Firmanamn Logo",
+      
+      "SHARE_TITLE": "Del ein hemmeleg melding",
+      "SHARE_DESCRIPTION_PART_1": "Skriv og send melding, den vil bli",
+      "SHARE_DESCRIPTION_PART_2": "slett etter lesing.",
+      
+      "SHARE_BULLET_1": "Utan spor.",
+      "SHARE_BULLET_2": "Personvern verna",
+      "SHARE_BULLET_3": "Éin-gongs vising",
+      
+      "SHARE_ENCRYPTED_BY": "Kryptert, sikra og beskytta av Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriv din Hemmelige melding, passord eller sensitiv informasjon *",
+      "SHARE_OPTIONS": "Alternativ",
+      
+      "SHARE_EMPTY": "La vere for ingen.",
+      "SHARE_BUTTON": "Lag Hemmeleg Lenke",
+      
+      "CREATED_TITLE": "Din Hemmelege melding er oppretta",
+      "CREATED_SUBTITLE": "Den vil berre bli vist ein gong",
+      
+      "CREATED_TITLE_SHARE": "Kopier lenka eller del den.",
+      "CREATED_BUTTON": "KOPIER",
+      "CREATED_CREATE_SECRET": "Lag Ny Hemmeleghet",
+      "CREATED_BURNSECRET": "Slett Hemmeleghet",
+      "URL_COPIED": "URL-en er kopiert.",
+      "SHARE_BURNER_TIME": "Levande tid",
+      "SHARE_PASS_PHRASE": "Passordsetning",
+      "VIEW_SECRET": "Sjå Hemmeleghet"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Korleis det fungerer",
+      "DOWNLOAD_APP": "Last ned appen",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Éin-gongs Hemmeleg Meldingar",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmelegheiter, og poff – dei er borte!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Kryptert, sikra og beskytta av Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Utan spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Vi sikrar robust verning av di sensitive informasjon. Alle data blir kryptert på klientsida. Vi kjenner ikkje IP-adressa di, kva du deler, eller kven du deler dei hemmelege lenkene med - og viktigast av alt, innhaldet.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Personvern verna",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Du er den einaste som kjenner lenka til den hemmelege informasjonen du har laga og kven du deler det med. Når du opprettar ein hemmeleghet, kan du legge til eit passord før det kan låsast opp. Det er også mogleg å sette ein brenntid. Uansett vil ein hemmeleghet bli sletta etter 14 dagar.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Ende-til-ende kryptert",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle lenker og innhald blir hash-a på klientsida, som betyr at ikkje engang vi kjenner lenka og innhaldet. Kvar lenke har ein unik ID på 36 teikn som er ein éin-vegs kryptering for å kunne få tilgang til den Hemmelige Meldinga og innhaldet som er kryptert med AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Korleis det fungerer?",
+      "STEP_1_TITLE": "Skriv meldinga di og/eller generer passord",
+      "STEP_2_TITLE": "Lag Hemmeleg Lenke",
+      "STEP_3_TITLE": "Del lenka",
+    
+      "COMPANY_LOGO_ALT": "Firmanamn Logo",
+    
+      "SHARE_TITLE": "Del ein hemmeleg melding",
+      "SHARE_DESCRIPTION_PART_1": "Skriv og send melding, den vil bli",
+      "SHARE_DESCRIPTION_PART_2": "slett etter lesing.",
+    
+      "SHARE_BULLET_1": "Utan spor.",
+      "SHARE_BULLET_2": "Personvern verna",
+      "SHARE_BULLET_3": "Éin-gongs vising",
+    
+      "SHARE_ENCRYPTED_BY": "Kryptert, sikra og beskytta av Stellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriv din Hemmelige melding, passord eller sensitiv informasjon *",
+      "SHARE_OPTIONS": "Alternativ",
+    
+      "SHARE_EMPTY": "La vere for ingen.",
+      "SHARE_BUTTON": "Lag Hemmeleg Lenke",
+    
+      "CREATED_TITLE": "Din Hemmelege melding er oppretta",
+      "CREATED_SUBTITLE": "Den vil berre bli vist ein gong",
+    
+      "CREATED_TITLE_SHARE": "Kopier lenka eller del den.",
+      "CREATED_BUTTON": "KOPIER",
+      "CREATED_CREATE_SECRET": "Lag Ny Hemmeleghet",
+      "CREATED_BURNSECRET": "Slett Hemmeleghet",
+      "URL_COPIED": "URL-en er kopiert.",
+    
+      "VIEW_SECRET": "Sjå Hemmeleghet"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Korleis det fungerer",
+      "DOWNLOAD_APP": "Last ned appen",
+      "CREATED_TITLE": "Din Hemmelege melding er oppretta",
+      "CREATED_SUBTITLE": "Den vil berre bli vist ein gong",
+      "CREATED_TITLE_SHARE": "Kopier lenka eller del den.",
+      "CREATED_BUTTON": "KOPIER",
+      "CREATED_CREATE_SECRET": "Lag Ny Hemmeleghet",
+      "CREATED_BURNSECRET": "Slett Hemmeleghet",
+      "URL_COPIED": "URL-en er kopiert."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Du vil slette denne hemmelegheita",
+      "SECRET_UNAVAILABLE_TEXT": "Den vil ikkje vere tilgjengeleg lenger",
+      "BURN_FOREVER": "Slett for alltid",
+      "CANCEL": "Avbryt"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Korleis det fungerer",
+      "DOWNLOAD_APP": "Last ned appen",
+      "WELCOME_MESSAGE": "Hei der, du har fått ein hemmeleg melding!",
+      "INSTRUCTION": "Skriv og send melding, den vil bli sletta etter lesing.",
+      "SHOW_MESSAGE_ONCE": "Den følgjande meldinga vil bli vist <strong>kun ein gong</strong>",
+      "OPEN_SECRET_MESSAGE": "Opne Hemmeleg Meldinga",
+      "INPUT_PASSPHRASE": "Skriv inn Passordsetning",
+      "PASS_PHRASE_PLACEHOLDER": "Passordsetning",
+      "OPEN_SECRET_BUTTON": "Opne Hemmeleg Meldinga",
+      "YOUR_SECRET_MESSAGE": "Din Hemmelige Meldinga",
+      "COPY": "Kopier",
+      "MESSAGE_LABEL": "Melding",
+      "REPLY": "Svar",
+      "DOWNLOAD_MESSAGE": "Last ned Stellar Secret på mobilen, lag dine hemmelege meldingar",
+      "WITHOUT_TRACE": "Utan spor.",
+      "PRIVACY_PROTECTED": "Personvern verna",
+      "ONE_TIME_VIEWABLE": "Éin-gongs vising",
+      "SECURITY_TEXT": "Kryptert, sikra og beskytta av ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

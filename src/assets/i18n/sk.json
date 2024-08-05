@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Tajomstvo Stellar",
+      "HOW_IT_WORKS": "Ako to funguje",
+      "DOWNLOAD_APP": "Stiahnuť aplikáciu",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Jednorazové tajné správy",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Zdieľajte tajomstvá a poof—sú preč!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrované, zabezpečené a chránené Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bez stopy",
+      "WITHOUT_TRACE_DESCRIPTION": "Zabezpečujeme silnú ochranu vašich citlivých informácií. Všetky dáta sú šifrované na strane klienta. Nevieme vašu IP adresu, čo zdieľate ani s kým zdieľate tajné odkazy - a čo je najdôležitejšie, obsah.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ochrana súkromia",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ste jediný, kto pozná odkaz na tajné informácie, ktoré ste vytvorili, a s kým ich zdieľate. Pri vytváraní tajomstva môžete pridať heslo, ktoré bude potrebné na jeho odomknutie. Je tiež možné nastaviť dobu vypršania platnosti. Bez ohľadu na všetko, tajomstvo bude vymazané po 14 dňoch.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifrované end-to-end",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Všetky odkazy a obsah sú hashované na strane klienta, čo znamená, že ani my nevieme odkaz a obsah. Každý odkaz má jedinečné ID dĺžky 36, ktoré je jednosmerné šifrovanie na prístup k Tajnej správe a jej obsahu, ktorý je šifrovaný pomocou AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Ako to funguje?",
+      "STEP_1_TITLE": "Napíšte svoju správu a/alebo vygenerujte heslo",
+      "STEP_2_TITLE": "Vytvorte tajný odkaz",
+      "STEP_3_TITLE": "Zdieľajte odkaz",
+      
+      "COMPANY_LOGO_ALT": "Logo spoločnosti",
+      
+      "SHARE_TITLE": "Zdieľajte tajnú správu",
+      "SHARE_DESCRIPTION_PART_1": "Napíšte a odošlite správu, bude",
+      "SHARE_DESCRIPTION_PART_2": "vymazaná po prečítaní.",
+      
+      "SHARE_BULLET_1": "Bez stopy.",
+      "SHARE_BULLET_2": "Ochrana súkromia",
+      "SHARE_BULLET_3": "Jednorazové zobrazenie",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrované, zabezpečené a chránené Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Napíšte svoju tajnú správu, heslo alebo citlivé informácie *",
+      "SHARE_OPTIONS": "Možnosti",
+      
+      "SHARE_EMPTY": "Nechajte prázdne pre žiadne.",
+      "SHARE_BUTTON": "Vytvoriť tajný odkaz",
+      
+      "CREATED_TITLE": "Vaše tajomstvo bolo vytvorené",
+      "CREATED_SUBTITLE": "Bude zobrazené iba raz",
+      
+      "CREATED_TITLE_SHARE": "Kopírujte odkaz alebo ho zdieľajte.",
+      "CREATED_BUTTON": "KOPÍROVAŤ",
+      "CREATED_CREATE_SECRET": "Vytvoriť nové tajomstvo",
+      "CREATED_BURNSECRET": "Spáliť tajomstvo",
+      "URL_COPIED": "URL adresa bola skopírovaná.",
+      "SHARE_BURNER_TIME": "Životnosť",
+      "SHARE_PASS_PHRASE": "Heslová fráza",
+      "VIEW_SECRET": "Zobraziť tajomstvo"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Tajomstvo Stellar",
+      "HOW_IT_WORKS": "Ako to funguje",
+      "DOWNLOAD_APP": "Stiahnuť aplikáciu",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Jednorazové tajné správy",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Zdieľajte tajomstvá a poof—sú preč!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrované, zabezpečené a chránené Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bez stopy",
+      "WITHOUT_TRACE_DESCRIPTION": "Zabezpečujeme silnú ochranu vašich citlivých informácií. Všetky dáta sú šifrované na strane klienta. Nevieme vašu IP adresu, čo zdieľate ani s kým zdieľate tajné odkazy - a čo je najdôležitejšie, obsah.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ochrana súkromia",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ste jediný, kto pozná odkaz na tajné informácie, ktoré ste vytvorili, a s kým ich zdieľate. Pri vytváraní tajomstva môžete pridať heslo, ktoré bude potrebné na jeho odomknutie. Je tiež možné nastaviť dobu vypršania platnosti. Bez ohľadu na všetko, tajomstvo bude vymazané po 14 dňoch.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifrované end-to-end",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Všetky odkazy a obsah sú hashované na strane klienta, čo znamená, že ani my nevieme odkaz a obsah. Každý odkaz má jedinečné ID dĺžky 36, ktoré je jednosmerné šifrovanie na prístup k Tajnej správe a jej obsahu, ktorý je šifrovaný pomocou AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Ako to funguje?",
+      "STEP_1_TITLE": "Napíšte svoju správu a/alebo vygenerujte heslo",
+      "STEP_2_TITLE": "Vytvorte tajný odkaz",
+      "STEP_3_TITLE": "Zdieľajte odkaz",
+      
+      "COMPANY_LOGO_ALT": "Logo spoločnosti",
+      
+      "SHARE_TITLE": "Zdieľajte tajnú správu",
+      "SHARE_DESCRIPTION_PART_1": "Napíšte a odošlite správu, bude",
+      "SHARE_DESCRIPTION_PART_2": "vymazaná po prečítaní.",
+      
+      "SHARE_BULLET_1": "Bez stopy.",
+      "SHARE_BULLET_2": "Ochrana súkromia",
+      "SHARE_BULLET_3": "Jednorazové zobrazenie",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrované, zabezpečené a chránené Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Napíšte svoju tajnú správu, heslo alebo citlivé informácie *",
+      "SHARE_OPTIONS": "Možnosti",
+      
+      "SHARE_EMPTY": "Nechajte prázdne pre žiadne.",
+      "SHARE_BUTTON": "Vytvoriť tajný odkaz",
+      
+      "CREATED_TITLE": "Vaše tajomstvo bolo vytvorené",
+      "CREATED_SUBTITLE": "Bude zobrazené iba raz",
+      
+      "CREATED_TITLE_SHARE": "Kopírujte odkaz alebo ho zdieľajte.",
+      "CREATED_BUTTON": "KOPÍROVAŤ",
+      "CREATED_CREATE_SECRET": "Vytvoriť nové tajomstvo",
+      "CREATED_BURNSECRET": "Spáliť tajomstvo",
+      "URL_COPIED": "URL adresa bola skopírovaná.",
+      
+      "VIEW_SECRET": "Zobraziť tajomstvo"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Tajomstvo Stellar",
+      "HOW_IT_WORKS": "Ako to funguje",
+      "DOWNLOAD_APP": "Stiahnuť aplikáciu",
+      "CREATED_TITLE": "Vaše tajomstvo bolo vytvorené",
+      "CREATED_SUBTITLE": "Bude zobrazené iba raz",
+      "CREATED_TITLE_SHARE": "Kopírujte odkaz alebo ho zdieľajte.",
+      "CREATED_BUTTON": "KOPÍROVAŤ",
+      "CREATED_CREATE_SECRET": "Vytvoriť nové tajomstvo",
+      "CREATED_BURNSECRET": "Spáliť tajomstvo",
+      "URL_COPIED": "URL adresa bola skopírovaná."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Chystáte sa spáliť toto tajomstvo",
+      "SECRET_UNAVAILABLE_TEXT": "Už nebude dostupné",
+      "BURN_FOREVER": "Spáliť navždy",
+      "CANCEL": "Zrušiť"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Tajomstvo Stellar",
+      "HOW_IT_WORKS": "Ako to funguje",
+      "DOWNLOAD_APP": "Stiahnuť aplikáciu",
+      "WELCOME_MESSAGE": "Ahoj, dostali ste tajnú správu!",
+      "INSTRUCTION": "Napíšte a odošlite správu, bude vymazaná po prečítaní.",
+      "SHOW_MESSAGE_ONCE": "Nasledujúca správa bude zobrazená <strong>iba raz</strong>",
+      "OPEN_SECRET_MESSAGE": "Otvoriť tajnú správu",
+      "INPUT_PASSPHRASE": "Zadajte heslovú frázu",
+      "PASS_PHRASE_PLACEHOLDER": "Heslová fráza",
+      "OPEN_SECRET_BUTTON": "Otvoriť tajnú správu",
+      "YOUR_SECRET_MESSAGE": "Vaša tajná správa",
+      "COPY": "Kopírovať",
+      "MESSAGE_LABEL": "Správa",
+      "REPLY": "Odpovedať",
+      "DOWNLOAD_MESSAGE": "Stiahnite si Stellar Secret na mobil, vytvorte svoje tajné správy",
+      "WITHOUT_TRACE": "Bez stopy.",
+      "PRIVACY_PROTECTED": "Ochrana súkromia",
+      "ONE_TIME_VIEWABLE": "Jednorazové zobrazenie",
+      "SECURITY_TEXT": "Šifrované, zabezpečené a chránené ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

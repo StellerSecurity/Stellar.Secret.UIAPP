@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Secret Estel·lar",
+      "HOW_IT_WORKS": "Com funciona",
+      "DOWNLOAD_APP": "Descarrega l'app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Missatgeria Secret Única",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Comparteix secrets, i poof—desapareixen!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Xifrat, segur i protegit per Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sense rastre",
+      "WITHOUT_TRACE_DESCRIPTION": "Assegurem una protecció robusta de la teva informació sensible. Tots les dades es xifren al costat del client. No sabem la teva adreça IP, què comparteixes, ni amb qui comparteixes els enllaços secrets - i el més important, el contingut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privadesa Protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ets l'únic que coneix l'enllaç a la informació secreta que has creat i amb qui la comparteixes. Quan crees un secret, pots afegir una contrasenya abans que es pugui desbloquejar. També és possible establir un temps d'autodestrucció. No importa què, un secret es suprimirà després de 14 dies.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Xifrat de punta a punta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tots els enllaços i contingut estan xifrats al costat del client, cosa que significa que ni nosaltres sabem l'enllaç ni el contingut. Cada enllaç té una ID única de longitud 36, que és una xifra unidireccional per accedir al Missatge Secret i al seu contingut, que està xifrat amb AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Com funciona?",
+      "STEP_1_TITLE": "Escriu el teu missatge i/o genera contrasenya",
+      "STEP_2_TITLE": "Crea l'Enllaç Secret",
+      "STEP_3_TITLE": "Comparteix l'enllaç",
+      
+      "COMPANY_LOGO_ALT": "Logotip de l'empresa",
+      
+      "SHARE_TITLE": "Comparteix un missatge secret",
+      "SHARE_DESCRIPTION_PART_1": "Escriu i envia el missatge, serà",
+      "SHARE_DESCRIPTION_PART_2": "eliminat un cop llegit.",
+      
+      "SHARE_BULLET_1": "Sense rastre.",
+      "SHARE_BULLET_2": "Privadesa Protegida",
+      "SHARE_BULLET_3": "Visualització única",
+      
+      "SHARE_ENCRYPTED_BY": "Xifrat, segur i protegit per Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escriu el teu missatge secret, contrasenya o informació sensible *",
+      "SHARE_OPTIONS": "Opcions",
+      
+      "SHARE_EMPTY": "Deixa buit per cap.",
+      "SHARE_BUTTON": "Crea l'Enllaç Secret",
+      
+      "CREATED_TITLE": "El teu Secret ha estat creat",
+      "CREATED_SUBTITLE": "Es mostrarà només una vegada",
+      
+      "CREATED_TITLE_SHARE": "Copia l'enllaç o comparteix-lo.",
+      "CREATED_BUTTON": "COPIA",
+      "CREATED_CREATE_SECRET": "Crea un Nou Secret",
+      "CREATED_BURNSECRET": "Destrueix el Secret",
+      "URL_COPIED": "L'URL ha estat copiat.",
+      "SHARE_BURNER_TIME":"Vida útil",
+      "SHARE_PASS_PHRASE":"Contrasenya",
+      "VIEW_SECRET": "Veure Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Secret Estel·lar",
+      "HOW_IT_WORKS": "Com funciona",
+      "DOWNLOAD_APP": "Descarrega l'app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Missatgeria Secret Única",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Comparteix secrets, i poof—desapareixen!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Xifrat, segur i protegit per Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sense rastre",
+      "WITHOUT_TRACE_DESCRIPTION": "Assegurem una protecció robusta de la teva informació sensible. Tots les dades es xifren al costat del client. No sabem la teva adreça IP, què comparteixes, ni amb qui comparteixes els enllaços secrets - i el més important, el contingut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privadesa Protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ets l'únic que coneix l'enllaç a la informació secreta que has creat i amb qui la comparteixes. Quan crees un secret, pots afegir una contrasenya abans que es pugui desbloquejar. També és possible establir un temps d'autodestrucció. No importa què, un secret es suprimirà després de 14 dies.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Xifrat de punta a punta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tots els enllaços i contingut estan xifrats al costat del client, cosa que significa que ni nosaltres sabem l'enllaç ni el contingut. Cada enllaç té una ID única de longitud 36, que és una xifra unidireccional per accedir al Missatge Secret i al seu contingut, que està xifrat amb AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Com funciona?",
+      "STEP_1_TITLE": "Escriu el teu missatge i/o genera contrasenya",
+      "STEP_2_TITLE": "Crea l'Enllaç Secret",
+      "STEP_3_TITLE": "Comparteix l'enllaç",
+      
+      "COMPANY_LOGO_ALT": "Logotip de l'empresa",
+      
+      "SHARE_TITLE": "Comparteix un missatge secret",
+      "SHARE_DESCRIPTION_PART_1": "Escriu i envia el missatge, serà",
+      "SHARE_DESCRIPTION_PART_2": "eliminat un cop llegit.",
+      
+      "SHARE_BULLET_1": "Sense rastre.",
+      "SHARE_BULLET_2": "Privadesa Protegida",
+      "SHARE_BULLET_3": "Visualització única",
+      
+      "SHARE_ENCRYPTED_BY": "Xifrat, segur i protegit per Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escriu el teu missatge secret, contrasenya o informació sensible *",
+      "SHARE_OPTIONS": "Opcions",
+      
+      "SHARE_EMPTY": "Deixa buit per cap.",
+      "SHARE_BUTTON": "Crea l'Enllaç Secret",
+      
+      "CREATED_TITLE": "El teu Secret ha estat creat",
+      "CREATED_SUBTITLE": "Es mostrarà només una vegada",
+      
+      "CREATED_TITLE_SHARE": "Copia l'enllaç o comparteix-lo.",
+      "CREATED_BUTTON": "COPIA",
+      "CREATED_CREATE_SECRET": "Crea un Nou Secret",
+      "CREATED_BURNSECRET": "Destrueix el Secret",
+      "URL_COPIED": "L'URL ha estat copiat.",
+      
+      "VIEW_SECRET": "Veure Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Secret Estel·lar",
+      "HOW_IT_WORKS": "Com funciona",
+      "DOWNLOAD_APP": "Descarrega l'app",
+      "CREATED_TITLE": "El teu Secret ha estat creat",
+      "CREATED_SUBTITLE": "Es mostrarà només una vegada",
+      "CREATED_TITLE_SHARE": "Copia l'enllaç o comparteix-lo.",
+      "CREATED_BUTTON": "COPIA",
+      "CREATED_CREATE_SECRET": "Crea un Nou Secret",
+      "CREATED_BURNSECRET": "Destrueix el Secret",
+      "URL_COPIED": "L'URL ha estat copiat."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vas a destruir aquest secret",
+      "SECRET_UNAVAILABLE_TEXT": "No estarà disponible més",
+      "BURN_FOREVER": "Destrueix per sempre",
+      "CANCEL": "Cancel·la"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Secret Estel·lar",
+      "HOW_IT_WORKS": "Com funciona",
+      "DOWNLOAD_APP": "Descarrega l'app",
+      "WELCOME_MESSAGE": "Hola, has rebut un missatge secret!",
+      "INSTRUCTION": "Escriu i envia el missatge, serà eliminat un cop llegit.",
+      "SHOW_MESSAGE_ONCE": "El següent missatge es mostrarà <strong>només una vegada</strong>",
+      "OPEN_SECRET_MESSAGE": "Obre el Missatge Secret",
+      "INPUT_PASSPHRASE": "Introdueix la Contrasenya",
+      "PASS_PHRASE_PLACEHOLDER": "Contrasenya",
+      "OPEN_SECRET_BUTTON": "Obre el Missatge Secret",
+      "YOUR_SECRET_MESSAGE": "El teu Missatge Secret",
+      "COPY": "Copia",
+      "MESSAGE_LABEL": "Missatge",
+      "REPLY": "Respon",
+      "DOWNLOAD_MESSAGE": "Descarrega Secret Estel·lar al mòbil, crea els teus missatges secrets",
+      "WITHOUT_TRACE": "Sense rastre.",
+      "PRIVACY_PROTECTED": "Privadesa Protegida",
+      "ONE_TIME_VIEWABLE": "Visualització única",
+      "SECURITY_TEXT": "Xifrat, segur i protegit per ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

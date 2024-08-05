@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "별의 비밀",
+      "HOW_IT_WORKS": "작동 방식",
+      "DOWNLOAD_APP": "앱 다운로드",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "한 번만 비밀 메시징",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "비밀을 공유하면, 사라집니다!",
+      
+      "ENCRYPTED_PROTECTED_BY": "암호화 및 보안, 별의 보안으로 보호됩니다",
+      "WITHOUT_TRACE_TITLE": "흔적 없이",
+      "WITHOUT_TRACE_DESCRIPTION": "민감한 정보의 강력한 보호를 보장합니다. 모든 데이터는 클라이언트 측에서 암호화됩니다. 우리는 당신의 IP 주소, 공유하는 내용, 비밀 링크를 공유하는 사람을 알지 못하며, 가장 중요한 것은 콘텐츠입니다.",
+      
+      "PRIVACY_PROTECTED_TITLE": "프라이버시 보호",
+      "PRIVACY_PROTECTED_DESCRIPTION": "당신만이 생성한 비밀 정보 링크와 그것을 공유하는 사람을 알고 있습니다. 비밀을 생성할 때 잠금을 해제하기 전에 비밀번호를 추가할 수 있습니다. 또한 소멸 시간을 설정할 수 있습니다. 비밀은 14일 후에 삭제됩니다.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "종단 간 암호화",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "모든 링크와 콘텐츠는 클라이언트 측에서 해시 처리되며, 우리는 링크와 콘텐츠를 알지 못합니다. 모든 링크는 길이 36의 고유 ID를 가지며, AES-256으로 암호화된 비밀 메시지 및 콘텐츠에 접근할 수 있는 일방향 암호화입니다.",
+      
+      "HOW_IT_WORKS_TITLE": "작동 방식?",
+      "STEP_1_TITLE": "메시지 및/또는 비밀번호 생성",
+      "STEP_2_TITLE": "비밀 링크 생성",
+      "STEP_3_TITLE": "링크 공유",
+      
+      "COMPANY_LOGO_ALT": "회사 로고",
+      
+      "SHARE_TITLE": "비밀 메시지 공유",
+      "SHARE_DESCRIPTION_PART_1": "메시지를 작성하고 보내면",
+      "SHARE_DESCRIPTION_PART_2": "읽은 후 삭제됩니다.",
+      
+      "SHARE_BULLET_1": "흔적 없이.",
+      "SHARE_BULLET_2": "프라이버시 보호",
+      "SHARE_BULLET_3": "한 번만 보기 가능",
+      
+      "SHARE_ENCRYPTED_BY": "암호화 및 보안, 별의 보안으로 보호됩니다",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "비밀 메시지, 비밀번호 또는 민감한 정보를 작성하세요 *",
+      "SHARE_OPTIONS": "옵션",
+      
+      "SHARE_EMPTY": "없음으로 두세요.",
+      "SHARE_BUTTON": "비밀 링크 생성",
+      
+      "CREATED_TITLE": "비밀이 생성되었습니다",
+      "CREATED_SUBTITLE": "한 번만 표시됩니다",
+      
+      "CREATED_TITLE_SHARE": "링크를 복사하거나 공유하세요.",
+      "CREATED_BUTTON": "복사",
+      "CREATED_CREATE_SECRET": "새 비밀 생성",
+      "CREATED_BURNSECRET": "비밀 소멸",
+      "URL_COPIED": "URL이 복사되었습니다.",
+      "SHARE_BURNER_TIME": "유효 기간",
+      "SHARE_PASS_PHRASE": "암호",
+      "VIEW_SECRET": "비밀 보기"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "별의 비밀",
+      "HOW_IT_WORKS": "작동 방식",
+      "DOWNLOAD_APP": "앱 다운로드",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "한 번만 비밀 메시징",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "비밀을 공유하면, 사라집니다!",
+      
+      "ENCRYPTED_PROTECTED_BY": "암호화 및 보안, 별의 보안으로 보호됩니다",
+      "WITHOUT_TRACE_TITLE": "흔적 없이",
+      "WITHOUT_TRACE_DESCRIPTION": "민감한 정보의 강력한 보호를 보장합니다. 모든 데이터는 클라이언트 측에서 암호화됩니다. 우리는 당신의 IP 주소, 공유하는 내용, 비밀 링크를 공유하는 사람을 알지 못하며, 가장 중요한 것은 콘텐츠입니다.",
+      
+      "PRIVACY_PROTECTED_TITLE": "프라이버시 보호",
+      "PRIVACY_PROTECTED_DESCRIPTION": "당신만이 생성한 비밀 정보 링크와 그것을 공유하는 사람을 알고 있습니다. 비밀을 생성할 때 잠금을 해제하기 전에 비밀번호를 추가할 수 있습니다. 또한 소멸 시간을 설정할 수 있습니다. 비밀은 14일 후에 삭제됩니다.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "종단 간 암호화",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "모든 링크와 콘텐츠는 클라이언트 측에서 해시 처리되며, 우리는 링크와 콘텐츠를 알지 못합니다. 모든 링크는 길이 36의 고유 ID를 가지며, AES-256으로 암호화된 비밀 메시지 및 콘텐츠에 접근할 수 있는 일방향 암호화입니다.",
+      
+      "HOW_IT_WORKS_TITLE": "작동 방식?",
+      "STEP_1_TITLE": "메시지 및/또는 비밀번호 생성",
+      "STEP_2_TITLE": "비밀 링크 생성",
+      "STEP_3_TITLE": "링크 공유",
+      
+      "COMPANY_LOGO_ALT": "회사 로고",
+      
+      "SHARE_TITLE": "비밀 메시지 공유",
+      "SHARE_DESCRIPTION_PART_1": "메시지를 작성하고 보내면",
+      "SHARE_DESCRIPTION_PART_2": "읽은 후 삭제됩니다.",
+      
+      "SHARE_BULLET_1": "흔적 없이.",
+      "SHARE_BULLET_2": "프라이버시 보호",
+      "SHARE_BULLET_3": "한 번만 보기 가능",
+      
+      "SHARE_ENCRYPTED_BY": "암호화 및 보안, 별의 보안으로 보호됩니다",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "비밀 메시지, 비밀번호 또는 민감한 정보를 작성하세요 *",
+      "SHARE_OPTIONS": "옵션",
+      
+      "SHARE_EMPTY": "없음으로 두세요.",
+      "SHARE_BUTTON": "비밀 링크 생성",
+      
+      "CREATED_TITLE": "비밀이 생성되었습니다",
+      "CREATED_SUBTITLE": "한 번만 표시됩니다",
+      
+      "CREATED_TITLE_SHARE": "링크를 복사하거나 공유하세요.",
+      "CREATED_BUTTON": "복사",
+      "CREATED_CREATE_SECRET": "새 비밀 생성",
+      "CREATED_BURNSECRET": "비밀 소멸",
+      "URL_COPIED": "URL이 복사되었습니다.",
+      
+      "VIEW_SECRET": "비밀 보기"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "별의 비밀",
+      "HOW_IT_WORKS": "작동 방식",
+      "DOWNLOAD_APP": "앱 다운로드",
+      "CREATED_TITLE": "비밀이 생성되었습니다",
+      "CREATED_SUBTITLE": "한 번만 표시됩니다",
+      "CREATED_TITLE_SHARE": "링크를 복사하거나 공유하세요.",
+      "CREATED_BUTTON": "복사",
+      "CREATED_CREATE_SECRET": "새 비밀 생성",
+      "CREATED_BURNSECRET": "비밀 소멸",
+      "URL_COPIED": "URL이 복사되었습니다."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "이 비밀을 소멸시키시겠습니까?",
+      "SECRET_UNAVAILABLE_TEXT": "더 이상 사용할 수 없습니다.",
+      "BURN_FOREVER": "영구 소멸",
+      "CANCEL": "취소"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "별의 비밀",
+      "HOW_IT_WORKS": "작동 방식",
+      "DOWNLOAD_APP": "앱 다운로드",
+      "WELCOME_MESSAGE": "안녕하세요, 비밀 메시지를 받았습니다!",
+      "INSTRUCTION": "메시지를 작성하고 보내면 읽은 후 삭제됩니다.",
+      "SHOW_MESSAGE_ONCE": "다음 메시지는 <strong>한 번만</strong> 표시됩니다.",
+      "OPEN_SECRET_MESSAGE": "비밀 메시지 열기",
+      "INPUT_PASSPHRASE": "암호 입력",
+      "PASS_PHRASE_PLACEHOLDER": "암호",
+      "OPEN_SECRET_BUTTON": "비밀 메시지 열기",
+      "YOUR_SECRET_MESSAGE": "당신의 비밀 메시지",
+      "COPY": "복사",
+      "MESSAGE_LABEL": "메시지",
+      "REPLY": "답장",
+      "DOWNLOAD_MESSAGE": "모바일에서 별의 비밀을 다운로드하고 비밀 메시지를 만드세요.",
+      "WITHOUT_TRACE": "흔적 없이.",
+      "PRIVACY_PROTECTED": "프라이버시 보호",
+      "ONE_TIME_VIEWABLE": "한 번만 보기 가능",
+      "SECURITY_TEXT": "암호화 및 보안, ",
+      "SECURITY_TEXT2": "별의 보안으로 보호됩니다"
+    }
+  }
+  

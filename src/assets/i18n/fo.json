@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvat tað er",
+      "DOWNLOAD_APP": "Lata niður app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ein ferðing Geheim Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deil secrets, og poof—teir eru burtur!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kryptert, tryggjaður og verndaður av Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Utan spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Vit tryggja sterka vernd av tínari dýrmætari upplýsingum. Allar dátur verða krypteraðar á klientsíðuni. Vit vita ikki tín IP-adressa, hvat tú deilir, ella við hvønn tú deilir secret linkarnar við - og mest umráðandi, innihaldið.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatvernd",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Tú ert einasti, sum veit linkið til secret upplýsingarnar tú hevur skapað og hvønn tú deilir tað við. Tá tú skapar eitt secret, kanst tú leggja eitt løg á tað áður enn tað kann latast upp. Okkurt er eisini møguligt at seta eina brennitíð. Uansett, eitt secret verður strikað eftir 14 dagar.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end kryptert",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Allir linkar og innihald eru hashkaðir á klientsíðuni, sum merkir at vit ikki vita linkið og innihaldið. Hvør linkur hevur eina serliga ID við eini lengd á 36, sum er eina eingangs kryptering at kunna atgongd til Secret Message og innihaldið, sum er krypterað við AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hvat tað er?",
+      "STEP_1_TITLE": "Skriv tín boð og/ella generera eitt passord",
+      "STEP_2_TITLE": "Skapa Secret Link",
+      "STEP_3_TITLE": "Deil linkið",
+      
+      "COMPANY_LOGO_ALT": "Fyrirtøku Logo",
+      
+      "SHARE_TITLE": "Deil eitt secret boð",
+      "SHARE_DESCRIPTION_PART_1": "Skriv og send boð, tað verður",
+      "SHARE_DESCRIPTION_PART_2": "strikað eftir at tað er upplisið.",
+      
+      "SHARE_BULLET_1": "Utan spor.",
+      "SHARE_BULLET_2": "Privatvernd",
+      "SHARE_BULLET_3": "Ein ferðing síggjast",
+      
+      "SHARE_ENCRYPTED_BY": "Kryptert, tryggjaður og verndaður av Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriv títt Secret boð, passord ella dýrmæt upplýsingar *",
+      "SHARE_OPTIONS": "Valmøguleikar",
+      
+      "SHARE_EMPTY": "Latið tomt fyri eingin.",
+      "SHARE_BUTTON": "Skapa Secret Link",
+      
+      "CREATED_TITLE": "Tín Secret varð skapað",
+      "CREATED_SUBTITLE": "Tað verður sýnt einans eina ferð",
+      
+      "CREATED_TITLE_SHARE": "Kopiera link ella deil tað.",
+      "CREATED_BUTTON": "KOPIERA",
+      "CREATED_CREATE_SECRET": "Skapa Nýtt Secret",
+      "CREATED_BURNSECRET": "Brendi Secret",
+      "URL_COPIED": "URL'urin er kopieraður.",
+      "SHARE_BURNER_TIME":"Lívslangt",
+      "SHARE_PASS_PHRASE":"Passfrasa",
+      "VIEW_SECRET": "Skoða Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvat tað er",
+      "DOWNLOAD_APP": "Lata niður app",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ein ferðing Geheim Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deil secrets, og poof—teir eru burtur!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kryptert, tryggjaður og verndaður av Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Utan spor",
+      "WITHOUT_TRACE_DESCRIPTION": "Vit tryggja sterka vernd av tínari dýrmætari upplýsingum. Allar dátur verða krypteraðar á klientsíðuni. Vit vita ikki tín IP-adressa, hvat tú deilir, ella við hvønn tú deilir secret linkarnar við - og mest umráðandi, innihaldið.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatvernd",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Tú ert einasti, sum veit linkið til secret upplýsingarnar tú hevur skapað og hvønn tú deilir tað við. Tá tú skapar eitt secret, kanst tú leggja eitt løg á tað áður enn tað kann latast upp. Okkurt er eisini møguligt at seta eina brennitíð. Uansett, eitt secret verður strikað eftir 14 dagar.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end kryptert",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Allir linkar og innihald eru hashkaðir á klientsíðuni, sum merkir at vit ikki vita linkið og innihaldið. Hvør linkur hevur eina serliga ID við eini lengd á 36, sum er eina eingangs kryptering at kunna atgongd til Secret Message og innihaldið, sum er krypterað við AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hvat tað er?",
+      "STEP_1_TITLE": "Skriv tín boð og/ella generera eitt passord",
+      "STEP_2_TITLE": "Skapa Secret Link",
+      "STEP_3_TITLE": "Deil linkið",
+      
+      "COMPANY_LOGO_ALT": "Fyrirtøku Logo",
+      
+      "SHARE_TITLE": "Deil eitt secret boð",
+      "SHARE_DESCRIPTION_PART_1": "Skriv og send boð, tað verður",
+      "SHARE_DESCRIPTION_PART_2": "strikað eftir at tað er upplisið.",
+      
+      "SHARE_BULLET_1": "Utan spor.",
+      "SHARE_BULLET_2": "Privatvernd",
+      "SHARE_BULLET_3": "Ein ferðing síggjast",
+      
+      "SHARE_ENCRYPTED_BY": "Kryptert, tryggjaður og verndaður av Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriv títt Secret boð, passord ella dýrmæt upplýsingar *",
+      "SHARE_OPTIONS": "Valmøguleikar",
+      
+      "SHARE_EMPTY": "Latið tomt fyri eingin.",
+      "SHARE_BUTTON": "Skapa Secret Link",
+      
+      "CREATED_TITLE": "Tín Secret varð skapað",
+      "CREATED_SUBTITLE": "Tað verður sýnt einans eina ferð",
+      
+      "CREATED_TITLE_SHARE": "Kopiera link ella deil tað.",
+      "CREATED_BUTTON": "KOPIERA",
+      "CREATED_CREATE_SECRET": "Skapa Nýtt Secret",
+      "CREATED_BURNSECRET": "Brendi Secret",
+      "URL_COPIED": "URL'urin er kopieraður.",
+      
+      "VIEW_SECRET": "Skoða Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvat tað er",
+      "DOWNLOAD_APP": "Lata niður app",
+      "CREATED_TITLE": "Tín Secret varð skapað",
+      "CREATED_SUBTITLE": "Tað verður sýnt einans eina ferð",
+      "CREATED_TITLE_SHARE": "Kopiera link ella deil tað.",
+      "CREATED_BUTTON": "KOPIERA",
+      "CREATED_CREATE_SECRET": "Skapa Nýtt Secret",
+      "CREATED_BURNSECRET": "Brendi Secret",
+      "URL_COPIED": "URL'urin er kopieraður."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Tú ætlar at brenna hetta secret",
+      "SECRET_UNAVAILABLE_TEXT": "Tað verður ikki longur tøkt",
+      "BURN_FOREVER": "Brendi Altíð",
+      "CANCEL": "Avbjóða"
+    },
+    "VIEW":{
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Hvat tað er",
+      "DOWNLOAD_APP": "Lata niður app",
+      "WELCOME_MESSAGE": "Heil og góðan dag, tú fóð títt secret boð!",
+      "INSTRUCTION": "Skriv og send boð, tað verður strikað eftir at tað er upplisið.",
+      "SHOW_MESSAGE_ONCE": "Følgende boð verður sýnt <strong>bara eina ferð</strong>",
+      "OPEN_SECRET_MESSAGE": "Opna Secret Message",
+      "INPUT_PASSPHRASE": "Set Passfrasa",
+      "PASS_PHRASE_PLACEHOLDER": "Passfrasa",
+      "OPEN_SECRET_BUTTON": "Opna Secret Message",
+      "YOUR_SECRET_MESSAGE": "Tín Secret Message",
+      "COPY": "Kopiera",
+      "MESSAGE_LABEL": "Boð",
+      "REPLY": "Svara",
+      "DOWNLOAD_MESSAGE": "Lata niður Stellar Secret á mobil, skapa tín secret boð",
+      "WITHOUT_TRACE": "Utan spor.",
+      "PRIVACY_PROTECTED": "Privatvernd",
+      "ONE_TIME_VIEWABLE": "Ein ferðing síggjast",
+      "SECURITY_TEXT": "Kryptert, tryggjaður og verndaður av ",
+      "SECURITY_TEXT2":"Stellar Security"
+    }
+  }
+  

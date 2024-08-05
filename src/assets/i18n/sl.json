@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako deluje",
+      "DOWNLOAD_APP": "Prenesi aplikacijo",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Sporočila enkratne uporabe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deli skrivnosti in poof—izginile so!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrirano, zaščiteno in zaščiteno s strani Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Brez sledi",
+      "WITHOUT_TRACE_DESCRIPTION": "Zagotavljamo robustno zaščito vaših občutljivih informacij. Vse podatke šifriramo na strani odjemalca. Ne poznamo vašega IP naslova, kaj delite ali s kom delite povezave do skrivnosti - in kar je najpomembnejše, vsebina.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Zaščita zasebnosti",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Samo vi veste povezavo do skrivnih informacij, ki ste jih ustvarili, in s kom jih delite. Ko ustvarite skrivnost, lahko dodate geslo, preden jo lahko odklenete. Prav tako je mogoče nastaviti čas izgorevanja. Kljub vsemu bo skrivnost izbrisana po 14 dneh.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifrirano od konca do konca",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Vse povezave in vsebine so shranjene na strani odjemalca, kar pomeni, da tudi mi ne poznamo povezave in vsebine. Vsaka povezava ima edinstveno ID dolžine 36, kar je enosmerna šifriranje za dostop do skrivnega sporočila in njene vsebine, ki je šifrirana z AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kako deluje?",
+      "STEP_1_TITLE": "Napišite svoje sporočilo in/ali ustvarite geslo",
+      "STEP_2_TITLE": "Ustvari skrivno povezavo",
+      "STEP_3_TITLE": "Deli povezavo",
+      
+      "COMPANY_LOGO_ALT": "Logotip podjetja",
+      
+      "SHARE_TITLE": "Deli skrivno sporočilo",
+      "SHARE_DESCRIPTION_PART_1": "Napišite in pošljite sporočilo, to bo",
+      "SHARE_DESCRIPTION_PART_2": "izbrisano, ko bo prebrano.",
+      
+      "SHARE_BULLET_1": "Brez sledi.",
+      "SHARE_BULLET_2": "Zaščita zasebnosti",
+      "SHARE_BULLET_3": "Enkratna ogledljivost",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrirano, zaščiteno in zaščiteno s strani Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Napišite svoje skrivno sporočilo, geslo ali občutljive informacije *",
+      "SHARE_OPTIONS": "Možnosti",
+      
+      "SHARE_EMPTY": "Pustite prazno za brez vsebine.",
+      "SHARE_BUTTON": "Ustvari skrivno povezavo",
+      
+      "CREATED_TITLE": "Vaša skrivnost je bila ustvarjena",
+      "CREATED_SUBTITLE": "Prikazana bo le enkrat",
+      
+      "CREATED_TITLE_SHARE": "Kopirajte povezavo ali jo delite.",
+      "CREATED_BUTTON": "KOPIRAJ",
+      "CREATED_CREATE_SECRET": "Ustvari novo skrivnost",
+      "CREATED_BURNSECRET": "Izbriši skrivnost",
+      "URL_COPIED": "URL je bil kopiran.",
+      "SHARE_BURNER_TIME": "Življenjska doba",
+      "SHARE_PASS_PHRASE": "Geslo",
+      "VIEW_SECRET": "Ogled skrivnosti"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako deluje",
+      "DOWNLOAD_APP": "Prenesi aplikacijo",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Sporočila enkratne uporabe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deli skrivnosti in poof—izginile so!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrirano, zaščiteno in zaščiteno s strani Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Brez sledi",
+      "WITHOUT_TRACE_DESCRIPTION": "Zagotavljamo robustno zaščito vaših občutljivih informacij. Vse podatke šifriramo na strani odjemalca. Ne poznamo vašega IP naslova, kaj delite ali s kom delite povezave do skrivnosti - in kar je najpomembnejše, vsebina.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Zaščita zasebnosti",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Samo vi veste povezavo do skrivnih informacij, ki ste jih ustvarili, in s kom jih delite. Ko ustvarite skrivnost, lahko dodate geslo, preden jo lahko odklenete. Prav tako je mogoče nastaviti čas izgorevanja. Kljub vsemu bo skrivnost izbrisana po 14 dneh.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifrirano od konca do konca",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Vse povezave in vsebine so shranjene na strani odjemalca, kar pomeni, da tudi mi ne poznamo povezave in vsebine. Vsaka povezava ima edinstveno ID dolžine 36, kar je enosmerna šifriranje za dostop do skrivnega sporočila in njene vsebine, ki je šifrirana z AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kako deluje?",
+      "STEP_1_TITLE": "Napišite svoje sporočilo in/ali ustvarite geslo",
+      "STEP_2_TITLE": "Ustvari skrivno povezavo",
+      "STEP_3_TITLE": "Deli povezavo",
+      
+      "COMPANY_LOGO_ALT": "Logotip podjetja",
+      
+      "SHARE_TITLE": "Deli skrivno sporočilo",
+      "SHARE_DESCRIPTION_PART_1": "Napišite in pošljite sporočilo, to bo",
+      "SHARE_DESCRIPTION_PART_2": "izbrisano, ko bo prebrano.",
+      
+      "SHARE_BULLET_1": "Brez sledi.",
+      "SHARE_BULLET_2": "Zaščita zasebnosti",
+      "SHARE_BULLET_3": "Enkratna ogledljivost",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrirano, zaščiteno in zaščiteno s strani Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Napišite svoje skrivno sporočilo, geslo ali občutljive informacije *",
+      "SHARE_OPTIONS": "Možnosti",
+      
+      "SHARE_EMPTY": "Pustite prazno za brez vsebine.",
+      "SHARE_BUTTON": "Ustvari skrivno povezavo",
+      
+      "CREATED_TITLE": "Vaša skrivnost je bila ustvarjena",
+      "CREATED_SUBTITLE": "Prikazana bo le enkrat",
+      
+      "CREATED_TITLE_SHARE": "Kopirajte povezavo ali jo delite.",
+      "CREATED_BUTTON": "KOPIRAJ",
+      "CREATED_CREATE_SECRET": "Ustvari novo skrivnost",
+      "CREATED_BURNSECRET": "Izbriši skrivnost",
+      "URL_COPIED": "URL je bil kopiran.",
+      
+      "VIEW_SECRET": "Ogled skrivnosti"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako deluje",
+      "DOWNLOAD_APP": "Prenesi aplikacijo",
+      "CREATED_TITLE": "Vaša skrivnost je bila ustvarjena",
+      "CREATED_SUBTITLE": "Prikazana bo le enkrat",
+      "CREATED_TITLE_SHARE": "Kopirajte povezavo ali jo delite.",
+      "CREATED_BUTTON": "KOPIRAJ",
+      "CREATED_CREATE_SECRET": "Ustvari novo skrivnost",
+      "CREATED_BURNSECRET": "Izbriši skrivnost",
+      "URL_COPIED": "URL je bil kopiran."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Izbrišete to skrivnost",
+      "SECRET_UNAVAILABLE_TEXT": "Ne bo več na voljo",
+      "BURN_FOREVER": "Izbriši za vedno",
+      "CANCEL": "Prekliči"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako deluje",
+      "DOWNLOAD_APP": "Prenesi aplikacijo",
+      "WELCOME_MESSAGE": "Živjo, prejeli ste skrivno sporočilo!",
+      "INSTRUCTION": "Napišite in pošljite sporočilo, to bo izbrisano, ko bo prebrano.",
+      "SHOW_MESSAGE_ONCE": "Naslednje sporočilo bo prikazano <strong>le enkrat</strong>",
+      "OPEN_SECRET_MESSAGE": "Odpri skrivno sporočilo",
+      "INPUT_PASSPHRASE": "Vnesite geslo",
+      "PASS_PHRASE_PLACEHOLDER": "Geslo",
+      "OPEN_SECRET_BUTTON": "Odpri skrivno sporočilo",
+      "YOUR_SECRET_MESSAGE": "Vaše skrivno sporočilo",
+      "COPY": "Kopiraj",
+      "MESSAGE_LABEL": "Sporočilo",
+      "REPLY": "Odgovori",
+      "DOWNLOAD_MESSAGE": "Prenesite Stellar Secret na mobilno napravo, ustvarite svoja skrivna sporočila",
+      "WITHOUT_TRACE": "Brez sledi.",
+      "PRIVACY_PROTECTED": "Zaščita zasebnosti",
+      "ONE_TIME_VIEWABLE": "Enkratna ogledljivost",
+      "SECURITY_TEXT": "Šifrirano, zaščiteno in zaščiteno s strani ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

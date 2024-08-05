@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Sekreto",
+      "HOW_IT_WORKS": "Unsaon kini pagtrabaho",
+      "DOWNLOAD_APP": "I-download ang App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Usa ka Higayon nga Sekreto nga Pagpadala",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "I-share ang mga sekreto, ug poof—wala na!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured ug protektado sa Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Walay mga bakas",
+      "WITHOUT_TRACE_DESCRIPTION": "Nagtanyag kami og lig-on nga pagpanalipod sa imong sensitibong impormasyon. Ang tanang data gi-encrypt sa client-side. Wala kami kahibalo sa imong IP address, unsa imong gi-share, o kinsa imong gi-sharean sa mga sekreto nga link - ug pinaka-importante, ang sulod.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Protektado ang Privacy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ikaw ra ang nakahibalo sa link sa sekreto nga impormasyon nga imong gihimo ug kinsa imong gi-sharean niini. Sa paghimog sekreto, mahimo nimong idugang ang password antes kini ma-unlock. Posible usab nga mag-set og burner-time. Bisan unsa, ang sekreto ma-delete human sa 14 ka adlaw.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Ang tanang link ug sulod gi-hash sa client-side, nga nagpasabot nga bisan kami wala kahibalo sa link ug ang sulod. Ang matag link adunay talagsaon nga ID nga 36 ka gitas-on nga usa ka-way nga encryption aron ma-access ang Secret Message ug ang sulod nga gi-encrypt sa AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Unsaon kini pagtrabaho?",
+      "STEP_1_TITLE": "Isulat ang imong mensahe ug/o mag-generate og password",
+      "STEP_2_TITLE": "Himoa ang Secret Link",
+      "STEP_3_TITLE": "I-share ang link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "I-share ang usa ka sekreto nga mensahe",
+      "SHARE_DESCRIPTION_PART_1": "Isulat ug ipadala ang mensahe, kini ma",
+      "SHARE_DESCRIPTION_PART_2": "ma-delete human mabasa.",
+      
+      "SHARE_BULLET_1": "Walay mga bakas.",
+      "SHARE_BULLET_2": "Protektado ang Privacy",
+      "SHARE_BULLET_3": "Usa ka higayon nga ma-view",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured ug protektado sa Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Isulat ang imong Sekreto nga mensahe, password o sensitibong impormasyon *",
+      "SHARE_OPTIONS": "Mga Opsyon",
+      
+      "SHARE_EMPTY": "Biyaan nga walay sulod kung wala.",
+      "SHARE_BUTTON": "Himoa ang Secret Link",
+      
+      "CREATED_TITLE": "Ang imong Sekreto nahimo na",
+      "CREATED_SUBTITLE": "Ipakita ra kini usa ka higayon",
+      
+      "CREATED_TITLE_SHARE": "Kopyaha ang link o i-share kini.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Himoa ang Bag-ong Sekreto",
+      "CREATED_BURNSECRET": "Sunuga ang Sekreto",
+      "URL_COPIED": "Ang URL nakopya na.",
+      "SHARE_BURNER_TIME":"Kahimtang sa Kinabuhi",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "Tan-awa ang Sekreto"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Sekreto",
+      "HOW_IT_WORKS": "Unsaon kini pagtrabaho",
+      "DOWNLOAD_APP": "I-download ang App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Usa ka Higayon nga Sekreto nga Pagpadala",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "I-share ang mga sekreto, ug poof—wala na!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured ug protektado sa Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Walay mga bakas",
+      "WITHOUT_TRACE_DESCRIPTION": "Nagtanyag kami og lig-on nga pagpanalipod sa imong sensitibong impormasyon. Ang tanang data gi-encrypt sa client-side. Wala kami kahibalo sa imong IP address, unsa imong gi-share, o kinsa imong gi-sharean sa mga sekreto nga link - ug pinaka-importante, ang sulod.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Protektado ang Privacy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ikaw ra ang nakahibalo sa link sa sekreto nga impormasyon nga imong gihimo ug kinsa imong gi-sharean niini. Sa paghimog sekreto, mahimo nimong idugang ang password antes kini ma-unlock. Posible usab nga mag-set og burner-time. Bisan unsa, ang sekreto ma-delete human sa 14 ka adlaw.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Ang tanang link ug sulod gi-hash sa client-side, nga nagpasabot nga bisan kami wala kahibalo sa link ug ang sulod. Ang matag link adunay talagsaon nga ID nga 36 ka gitas-on nga usa ka-way nga encryption aron ma-access ang Secret Message ug ang sulod nga gi-encrypt sa AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Unsaon kini pagtrabaho?",
+      "STEP_1_TITLE": "Isulat ang imong mensahe ug/o mag-generate og password",
+      "STEP_2_TITLE": "Himoa ang Secret Link",
+      "STEP_3_TITLE": "I-share ang link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "I-share ang usa ka sekreto nga mensahe",
+      "SHARE_DESCRIPTION_PART_1": "Isulat ug ipadala ang mensahe, kini ma",
+      "SHARE_DESCRIPTION_PART_2": "ma-delete human mabasa.",
+      
+      "SHARE_BULLET_1": "Walay mga bakas.",
+      "SHARE_BULLET_2": "Protektado ang Privacy",
+      "SHARE_BULLET_3": "Usa ka higayon nga ma-view",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured ug protektado sa Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Isulat ang imong Sekreto nga mensahe, password o sensitibong impormasyon *",
+      "SHARE_OPTIONS": "Mga Opsyon",
+      
+      "SHARE_EMPTY": "Biyaan nga walay sulod kung wala.",
+      "SHARE_BUTTON": "Himoa ang Secret Link",
+      
+      "CREATED_TITLE": "Ang imong Sekreto nahimo na",
+      "CREATED_SUBTITLE": "Ipakita ra kini usa ka higayon",
+      
+      "CREATED_TITLE_SHARE": "Kopyaha ang link o i-share kini.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Himoa ang Bag-ong Sekreto",
+      "CREATED_BURNSECRET": "Sunuga ang Sekreto",
+      "URL_COPIED": "Ang URL nakopya na.",
+      
+      "VIEW_SECRET": "Tan-awa ang Sekreto"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Sekreto",
+      "HOW_IT_WORKS": "Unsaon kini pagtrabaho",
+      "DOWNLOAD_APP": "I-download ang App",
+      "CREATED_TITLE": "Ang imong Sekreto nahimo na",
+      "CREATED_SUBTITLE": "Ipakita ra kini usa ka higayon",
+      "CREATED_TITLE_SHARE": "Kopyaha ang link o i-share kini.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Himoa ang Bag-ong Sekreto",
+      "CREATED_BURNSECRET": "Sunuga ang Sekreto",
+      "URL_COPIED": "Ang URL nakopya na."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Mausik nimo kini nga sekreto",
+      "SECRET_UNAVAILABLE_TEXT": "Dili na kini magamit",
+      "BURN_FOREVER": "Sunuga Pag-uli",
+      "CANCEL": "Kanselahin"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Sekreto",
+      "HOW_IT_WORKS": "Unsaon kini pagtrabaho",
+      "DOWNLOAD_APP": "I-download ang App",
+      "WELCOME_MESSAGE": "Hi didto, nakadawat ka og sekreto nga mensahe!",
+      "INSTRUCTION": "Isulat ug ipadala ang mensahe, kini ma-delete human mabasa.",
+      "SHOW_MESSAGE_ONCE": "Ang mosunod nga mensahe ipakita <strong>usa ra ka higayon</strong>",
+      "OPEN_SECRET_MESSAGE": "Ablihi ang Sekreto nga Mensahe",
+      "INPUT_PASSPHRASE": "Ibutang ang Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Ablihi ang Sekreto nga Mensahe",
+      "YOUR_SECRET_MESSAGE": "Ang Imong Sekreto nga Mensahe",
+      "COPY": "Kopya",
+      "MESSAGE_LABEL": "Mensahe",
+      "REPLY": "Tubag",
+      "DOWNLOAD_MESSAGE": "I-download ang Stellar Secret sa mobile, paghimo sa imong mga sekreto nga mensahe",
+      "WITHOUT_TRACE": "Walay mga bakas.",
+      "PRIVACY_PROTECTED": "Protektado ang Privacy",
+      "ONE_TIME_VIEWABLE": "Usa ka higayon nga ma-view",
+      "SECURITY_TEXT": "Encrypted, secured ug protektado sa ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  
