@@ -51,24 +51,15 @@ export class AppComponent {
   setDefaultLanguage() {
     // Get browser language
     const browserLang = navigator.language.split('-')[0]; // Extract language code (e.g., 'en', 'fr')
-    console.log(browserLang, 'browserLang');
+    // console.log(browserLang, 'browserLang');
 
     // List of supported languages
     const supportedLangs = [
-      'en', 'hi', 'es', 'af', 'en-US',
-      'mr', 'ak', 'sq', 'am', 'ar',
-      'an', 'hy', 'eu', 'bn', 'bm',
-      'az', 'ay', 'ast', 'as', 'zu',
-      'yo', 'yi', 'xh', 'wo', 'fy',
-      'cy', 'wa', 'vi', 'uz', 'ug',
-      'ur', 'uk', 'tk', 'tr', 'tn',
-      'ts', 'to', 'ti', 'th', 'te',
-      'tt', 'ta', 'tg', 'sw', 'sv',
-      'su', 'es-VE', 'es-UY', 'es-US', 'es-ES',
-      'es-MX', 'es-419', 'es-HN', 'es-CR',
-      'es-CO', 'es-CL', 'es-AR', 'st',
-      'so', 'sl', 'sk', 'si',
-      'sd', 'sn', 'sh', 'sr', 'gd', 'sa', 'sm', 'ru', 'rm', 'ro-MD',
+      'en', 'hi', 'es', 'af', 'en-US','mr', 'ak', 'sq', 'am', 'ar','an', 'hy', 'eu', 'bn', 'bm',
+      'az', 'ay', 'ast', 'as', 'zu','yo', 'yi', 'xh', 'wo', 'fy','cy', 'wa', 'vi', 'uz', 'ug',
+      'ur', 'uk', 'tk', 'tr', 'tn','ts', 'to', 'ti', 'th', 'te','tt', 'ta', 'tg', 'sw', 'sv',
+      'su', 'es-VE', 'es-UY', 'es-US', 'es-ES','es-MX', 'es-419', 'es-HN', 'es-CR','es-CO', 'es-CL', 'es-AR', 'st',
+      'so', 'sl', 'sk', 'si','sd', 'sn', 'sh', 'sr', 'gd', 'sa', 'sm', 'ru', 'rm', 'ro-MD',
       'ro', 'qu', 'pa', 'pt-PT', 'pt-BR', 'pt', 'pl', 'fa', 'ps', 'om', 'or',
       'oc', 'ny', 'nn', 'nb', 'no', 'nso', 'ne', 'mn', 'lus', 'mi', 'mni',
       'mt', 'ml', 'ms', 'mg', 'mai', 'mk', 'lb', 'lt', 'ln', 'lv', 'la', 'ky', 'ku',
