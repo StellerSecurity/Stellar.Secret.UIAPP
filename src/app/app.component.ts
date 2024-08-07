@@ -51,6 +51,8 @@ export class AppComponent {
   setDefaultLanguage() {
     // Get browser language
     const browserLang = navigator.language.split('-')[0]; // Extract language code (e.g., 'en', 'fr')
+    console.log(browserLang,'browserLang');
+    
     // console.log(browserLang, 'browserLang');
 
     // List of supported languages
@@ -68,7 +70,7 @@ export class AppComponent {
       'ha', 'ht', 'gu', 'gn', 'el', 'de-CH', 'de', 'ka', 'lg', 'gl', 'fr', 'fi',
       'fil', 'fo', 'et', 'ee', 'eo', 'nl', 'en-GB', 'en-ZA', 'en-NZ', 'en-IE',
       'en-IN', 'en-CA', 'en-AU', 'zh-TW', 'zh-CN', 'zh-HK', 'zh', 'chr',
-      'ckb', 'ceb', 'ca', 'my', 'bg', 'br', 'bs', 'bho', 'be'
+      'ckb', 'ceb', 'ca', 'my', 'bg', 'br', 'bs', 'bho', 'be','da'
     ];
 
     // Set default language based on browser language or fallback to 'en'
