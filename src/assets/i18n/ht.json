@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Pataje sekrè, epi pafwa—yo disparèt!",
       
       "ENCRYPTED_PROTECTED_BY": "Enkripte, sekirize e pwoteje pa Sekirite Stellè",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret pèmèt ou pataje lyen ki ka wè yon sèl fwa avèk kontni sansib ke sèlman ou menm ak moun k'ap resevwa a konnen. Se pi bon fason pou kenbe enfòmasyon sansib lwen nenpòt aplikasyon messagerie.",
+
       "WITHOUT_TRACE_TITLE": "San tras",
       "WITHOUT_TRACE_DESCRIPTION": "Nou garanti pwoteksyon solid pou enfòmasyon sansib ou yo. Tout done yo ankripte sou bò kliyan an. Nou pa konnen adrès IP ou, sa w ap pataje, ni ak kiyès ou pataje lyen sekrè yo - e pi enpòtan, kontni an.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Telechaje Aplikasyon an",
       "WELCOME_MESSAGE": "Bonjou, ou te resevwa yon mesaj sekrè!",
       "INSTRUCTION": "Ekri ak voye mesaj, li pral efase apre li li.",
-      "SHOW_MESSAGE_ONCE": "Mesaj sa a ap montre <strong>yon fwa sèlman</strong>",
+      "SHOW_MESSAGE_ONCE": "Mesaj sa a ap montre yon fwa sèlman",
       "OPEN_SECRET_MESSAGE": "Louvri Mesaj Sekrè",
       "INPUT_PASSPHRASE": "Antre Modpas",
       "PASS_PHRASE_PLACEHOLDER": "Modpas",

@@ -8,6 +8,7 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Yabelana ngem秘密, bese kuba khona!",
       
       "ENCRYPTED_PROTECTED_BY": "Ukuvikelwa, kuqinisekisiwe futhi kuvikelwe yi-Stellar Security",
+
       "WITHOUT_TRACE_TITLE": "Ngaphandle kwesikhumbuzo",
       "WITHOUT_TRACE_DESCRIPTION": "Siqinisekisa ukuvikelwa okuqinile kolwazi lwakho olubucayi. Wonke amanye data ayagcinwa ku-client-side. Asikwazi ukwazi ikheli lakho le-IP, okukhona, noma obani owasabelana ngamagama am秘密 - futhi okubaluleke kakhulu, okuqukethwe.",
       
@@ -61,6 +62,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Yabelana ngem秘密, bese kuba khona!",
       
       "ENCRYPTED_PROTECTED_BY": "Ukuvikelwa, kuqinisekisiwe futhi kuvikelwe yi-Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Imfihlo ye-Stellar ikuvumela ukuthi wabelane ngezixhumanisi ezibukwa ngesikhathi esisodwa nokuqukethwe okubucayi kusixhumanisi esiyimfihlo, owaziyo kuphela, nomamukeli owaziyo. Indlela engcono kakhulu, yokugcina ulwazi olubucayi lungangeni kunoma yiziphi izinhlelo zokusebenza ze-messenger-app.",
+
       "WITHOUT_TRACE_TITLE": "Ngaphandle kwesikhumbuzo",
       "WITHOUT_TRACE_DESCRIPTION": "Siqinisekisa ukuvikelwa okuqinile kolwazi lwakho olubucayi. Wonke amanye data ayagcinwa ku-client-side. Asikwazi ukwazi ikheli lakho le-IP, okukhona, noma obani owasabelana ngamagama am秘密 - futhi okubaluleke kakhulu, okuqukethwe.",
       
@@ -128,7 +131,7 @@
       "DOWNLOAD_APP": "Landa uhlelo lokusebenza",
       "WELCOME_MESSAGE": "Sawubona, uthole umyalezo we-secret!",
       "INSTRUCTION": "Bhala bese uthumela umyalezo, kuzoba kususwa uma kufundwa.",
-      "SHOW_MESSAGE_ONCE": "Umyalezo olandelayo uzoboniswa <strong>kanye kuphela</strong>",
+      "SHOW_MESSAGE_ONCE": "Umyalezo olandelayo uzoboniswa kanye kuphela",
       "OPEN_SECRET_MESSAGE": "Vula Umyalezo We-Secret",
       "INPUT_PASSPHRASE": "Faka Iphasiwedi",
       "PASS_PHRASE_PLACEHOLDER": "Iphasiwedi",

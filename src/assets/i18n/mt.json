@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ikkunsma sigrieti, u poof—għadhom ma jibqgħux!",
       
       "ENCRYPTED_PROTECTED_BY": "Ikun kriptat, sikur u protett minn Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret jippermettilek taqsam links li jistgħu jidhru darba b'kontenut sensittiv f'rabta sigrieta, li taf int biss, u r-riċevitur jaf. Huwa l-aħjar mod, biex iżżomm informazzjoni sensittiva barra minn kwalunkwe apps tal-messaġġier.",
+
       "WITHOUT_TRACE_TITLE": "Mingħajr traċċi",
       "WITHOUT_TRACE_DESCRIPTION": "Aħna niżguraw protezzjoni soda ta' l-informazzjoni sensittiva tiegħek. Id-dejta kollha tkun kriptata fuq il-klijent. Aħna ma nafux l-indirizz IP tiegħek, x'inqas tagħti, jew maħrugha l-linki sigrieti - u l-aktar importanti, il-kontenut.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Niżżel l-App",
       "WELCOME_MESSAGE": "Ħelow, irċevejt messaġġ sigriet!",
       "INSTRUCTION": "Ikteb u ibgħat messaġġ, se jkun imnaddaf ladarba jiġi qrat.",
-      "SHOW_MESSAGE_ONCE": "Il-messaġġ li ġej se juri <strong>biss darba waħda</strong>",
+      "SHOW_MESSAGE_ONCE": "Il-messaġġ li ġej se juri biss darba waħda",
       "OPEN_SECRET_MESSAGE": "Oħloq Messaġġ Sigriet",
       "INPUT_PASSPHRASE": "Idħol fil-Phrasa tal-Pass",
       "PASS_PHRASE_PLACEHOLDER": "Phrasa tal-Pass",

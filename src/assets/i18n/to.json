@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kau 'a e ngaahi kupu, mo e ko'ia—'oku 'ikai ke fai 'a e ngaahi mo'ui!",
       
       "ENCRYPTED_PROTECTED_BY": "Faka'aonga'i, fakapapau'i mo faka'uhinga 'e Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"'Oku faka'ata 'e he Stellar Secret ke ke vahevahe 'a e ngaahi fehokotaki'anga 'oku lava ke sio ki ai 'a e taimi 'e taha mo e ngaahi me'a 'oku mahu'inga 'i ha fehokotaki'anga fakapulipuli, 'a ia ko koe pe 'oku ke 'ilo, pea 'oku 'ilo 'e he tokotaha 'oku ne ma'u. Ko hono founga lelei taha, ke tauhi 'a e fakamatala mahu'inga mei ha fa'ahinga talafekau-apps.",
+
       "WITHOUT_TRACE_TITLE": "Ongoonga",
       "WITHOUT_TRACE_DESCRIPTION": "Te ke fakapapau'i lelei 'a e fakahinohino kuo maumau. Kuo fakafou 'a e data 'i he client-side. 'Ikai ke tau 'ilo ho'o IP address, he me'a 'oku ke fatu, pe ko hai 'e ke fatu 'a e ngaahi link sekreti—mo e me'a mautinoa, e content.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Mau'u 'a e app",
       "WELCOME_MESSAGE": "Malo e lelei, na'e ke ma'u ha message sekreti!",
       "INSTRUCTION": "Tuhinga mo fakafou e message, 'e moui 'a e hiki.",
-      "SHOW_MESSAGE_ONCE": "Ko e message ko 'eni e tokoni <strong>ha taimi kotoa pē</strong>",
+      "SHOW_MESSAGE_ONCE": "Ko e message ko 'eni e tokoni ha taimi kotoa pē",
       "OPEN_SECRET_MESSAGE": "Tuhinga e Secret Message",
       "INPUT_PASSPHRASE": "Tuhinga Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

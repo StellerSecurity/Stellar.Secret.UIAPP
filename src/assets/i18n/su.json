@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikeun rahasia, sareng geura leungit!",
     
       "ENCRYPTED_PROTECTED_BY": "Terenskripsi, aman, sareng dilindungi ku Kaamanan Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ngidinan Anjeun pikeun babagi hiji-waktos Tumbu viewable kalawan eusi sénsitip dina link rusiah, nu ngan anjeun terang, sarta panarima weruh. Cara anu pangsaéna, pikeun ngajaga inpormasi sénsitip tina aplikasi messenger.",
+
       "WITHOUT_TRACE_TITLE": "Tanpa jejak",
       "WITHOUT_TRACE_DESCRIPTION": "Kami mastikeun perlindungan anu kuat pikeun inpormasi sénsitip anjeun. Sakabéh data énkripsi di sisi klien. Kami henteu terang alamat IP anjeun, naon anu anjeun bagikeun, atanapi saha anu anjeun bagikeun tautan rahasia sareng - sareng anu paling penting, eusi na.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Unduh Aplikasi",
       "WELCOME_MESSAGE": "Halo, anjeun nampi pesen rahasia!",
       "INSTRUCTION": "Tulis sareng kirim pesen, éta bakal dihapus saatos dibaca.",
-      "SHOW_MESSAGE_ONCE": "Pesen anu bakal dipintonkeun <strong>najan sakali</strong>",
+      "SHOW_MESSAGE_ONCE": "Pesen anu bakal dipintonkeun najan sakali",
       "OPEN_SECRET_MESSAGE": "Buka Pesen Rahasia",
       "INPUT_PASSPHRASE": "Masukkan Frasa Kode",
       "PASS_PHRASE_PLACEHOLDER": "Frasa Kode",

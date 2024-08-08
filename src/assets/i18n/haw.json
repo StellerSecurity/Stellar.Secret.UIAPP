@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kāhea i nā kī, a pēlā—ʻo ia hoʻi, ʻaʻole ia e noho!",
       
       "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Keʻena Nani",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"ʻAe ʻo Stellar Secret iā ʻoe e kaʻana like i nā loulou ʻike i hoʻokahi manawa me nā ʻike koʻikoʻi i loko o kahi loulou huna, ʻo ʻoe wale nō ka mea i ʻike, a ʻo ka mea hoʻokipa e ʻike. ʻO ke ala maikaʻi loa, e mālama i ka ʻike koʻikoʻi mai nā messenger-apps.",
+
       "WITHOUT_TRACE_TITLE": "Mea ʻole nā traces",
       "WITHOUT_TRACE_DESCRIPTION": "Hāʻawi mākou i ka mālama ikaika o kāu ʻike ʻike. Hoʻopaʻa ʻia nā ʻike a pau ma ka ʻaoʻao mea hoʻohana. ʻAʻole mākou e ʻike i kāu IP helu, nā mea āu e kīʻai ai, a pehea ʻoe e kīʻai ai i nā kī huna - a ʻo ka mea nui, nā ʻano kālā.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Hoʻoiho i ka Pūnaewele",
       "WELCOME_MESSAGE": "Aloha, ua loaʻa iā ʻoe i ka leka huna!",
       "INSTRUCTION": "Kākau a hoʻouna i ka leka, e hoʻoluʻu ʻia ma hope o ka helu.",
-      "SHOW_MESSAGE_ONCE": "E hōʻike ʻia kēia leka <strong>i hoʻokahi manawa wale nō</strong>",
+      "SHOW_MESSAGE_ONCE": "E hōʻike ʻia kēia leka i hoʻokahi manawa wale nō",
       "OPEN_SECRET_MESSAGE": "Wehe i ka Leka Huna",
       "INPUT_PASSPHRASE": "Nā ʻōlelo huna",
       "PASS_PHRASE_PLACEHOLDER": "Nā ʻōlelo huna",

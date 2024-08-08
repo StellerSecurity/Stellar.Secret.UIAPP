@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Pín ìkọ̀kọ́, àti poof—wọ́n lọ!",
       
       "ENCRYPTED_PROTECTED_BY": "Ti fi ẹ̀kọ́, aabo àti ìtọ́jú nipasẹ Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Ang Stellar Secret nagapahanugot sa imo nga magpaambit sang isa ka beses nga makita nga mga link nga may sensitibo nga kaundan sa isa ka sekreto nga link, nga ikaw lang ang nakahibalo, kag ang nagabaton ang nakahibalo. Amo ini ang pinakamaayo nga paagi, sa pagtipig sang sensitibo nga impormasyon sa bisan ano nga messenger-app.",
+
       "WITHOUT_TRACE_TITLE": "Láì sì ààmì",
       "WITHOUT_TRACE_DESCRIPTION": "A ṣe ìtọ́jú pẹ̀lú ìmúlò ẹ̀rọ rẹ̀ lára. Gbogbo data ni a ti n kọ́kọ́kọ́ ni ẹgbẹ́ oníbàárà. A kò mọ ìpè rẹ, ohun tí o pín, tàbí ẹni tí o pín ìjápọ̀ ìkọ̀kọ́ pọ̀ pẹlu—ati pé, àwọn akoonu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Báwo ni, o gba ìránṣẹ́ ìkọ̀kọ́!",
       "INSTRUCTION": "Kọ àti rán ìránṣẹ́, yóò jẹ́ pé yóò parí lẹ́yìn tí a bá ka.",
-      "SHOW_MESSAGE_ONCE": "Ìránṣẹ́ tó tẹ̀le yìí yóò jẹ́ afihan <strong>lékan ṣoṣo</strong>",
+      "SHOW_MESSAGE_ONCE": "Ìránṣẹ́ tó tẹ̀le yìí yóò jẹ́ afihan lékan ṣoṣo",
       "OPEN_SECRET_MESSAGE": "Ṣí Ìránṣẹ́ Ìkọ̀kọ́",
       "INPUT_PASSPHRASE": "Fi Ọrọ ìkọ̀kọ́",
       "PASS_PHRASE_PLACEHOLDER": "Ọrọ ìkọ̀kọ́",

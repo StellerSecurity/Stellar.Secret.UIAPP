@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dalinkitės paslaptimis ir jos dings!",
       
       "ENCRYPTED_PROTECTED_BY": "Šifruota, saugoma ir apsaugota Žvaigždės Saugumo",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"„Stellar Secret“ leidžia bendrinti vienkartines peržiūrimos nuorodas su neskelbtinu turiniu slaptoje nuorodoje, kurią žinote tik jūs, o tik gavėjas. Tai geriausias būdas apsaugoti neskelbtiną informaciją iš bet kokių „Messenger“ programų.",
+
       "WITHOUT_TRACE_TITLE": "Be pėdsakų",
       "WITHOUT_TRACE_DESCRIPTION": "Mes užtikriname stiprią jūsų jautrios informacijos apsaugą. Visi duomenys šifruojami kliento pusėje. Mes nežinome jūsų IP adreso, ką dalijatės ar su kuo dalijatės slaptais nuorodomis - ir svarbiausia, turiniu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Atsisiųsti programėlę",
       "WELCOME_MESSAGE": "Sveiki, gavote slaptą žinutę!",
       "INSTRUCTION": "Parašykite ir siųskite žinutę, ji bus ištrinta perskaičius.",
-      "SHOW_MESSAGE_ONCE": "Toliau pateikta žinutė bus rodoma <strong>tik vieną kartą</strong>",
+      "SHOW_MESSAGE_ONCE": "Toliau pateikta žinutė bus rodoma tik vieną kartą",
       "OPEN_SECRET_MESSAGE": "Atidaryti Slaptą Žinutę",
       "INPUT_PASSPHRASE": "Įveskite Slaptažodį",
       "PASS_PHRASE_PLACEHOLDER": "Slaptažodis",

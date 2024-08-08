@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Fa'asoa fa'amatalaga, ma poof—ua 'aumaia!",
     
       "ENCRYPTED_PROTECTED_BY": "Fa'amatalaga e fa'amaonia, fa'amautu ma puipuia e Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret e fa'atagaina oe e fa'asoa fa'atasi so'otaga va'aia ma mea ma'ale'ale i totonu o se feso'ota'iga faalilolilo, e na'o oe e te iloa, ma e iloa e le tagata e taliaina. O le auala sili, e taofia ai faʻamatalaga maaleale mai soʻo se avefeʻau-apps.",
+
       "WITHOUT_TRACE_TITLE": "E leai ni fa'amaoniga",
       "WITHOUT_TRACE_DESCRIPTION": "Matou te mautinoa i le puipuiga malosi o au fa'amaumauga tāua. O fa'amaumauga uma e fa'amaonia i le tagata fa'aoga. E le iloa e matou lau IP, le mea e fa'asoa ai, po'o ai e fa'asoa ai fa'amatalaga secrecy - ma o le mea e taua, o le fua.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Saini i le App",
       "WELCOME_MESSAGE": "Talofa, ua e mauaina se fa'amaoniga fa'avae!",
       "INSTRUCTION": "Fa'amolemole fa'ata'ita'iga ma fa'asoa fa'amaoniga, o le a",
-      "SHOW_MESSAGE_ONCE": "O le fa'amaoniga i lalo o le a fa'aalia <strong>i se taimi e tasi</strong>",
+      "SHOW_MESSAGE_ONCE": "O le fa'amaoniga i lalo o le a fa'aalia i se taimi e tasi",
       "OPEN_SECRET_MESSAGE": "Fa'aalia le Fa'amaoniga Fa'avae",
       "INPUT_PASSPHRASE": "Fa'avaa",
       "PASS_PHRASE_PLACEHOLDER": "Fa'avae",

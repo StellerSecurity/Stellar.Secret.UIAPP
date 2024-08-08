@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Zarao ny tsiambaratelo, ary ho lasa ny zava-drehetra!",
       
       "ENCRYPTED_PROTECTED_BY": "Voahodidin'ny Stellar Security, voaaro sy voaaro",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret dia ahafahanao mizara rohy azo jerena indray mandeha miaraka amin'ny atiny saro-pady ao anaty rohy miafina, izay ianao irery no mahalala, ary ny mpandray no mahalala. Izany no fomba tsara indrindra, mba hisorohana ny vaovao saro-pady amin'ny fampiharana messenger.",
+
       "WITHOUT_TRACE_TITLE": "Tsy misy sisa",
       "WITHOUT_TRACE_DESCRIPTION": "Miantoka ny fiarovana matanjaka ny mombamomba anao manan-danja izahay. Ny angona rehetra dia voahodina amin'ny lafiny mpanjifa. Tsy fantatray ny adiresy IP anao, izay zarainao, na iza no zarainao ny rohy tsiambaratelo - ary ny zava-dehibe indrindra, ny votoaty.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Alaina ny App",
       "WELCOME_MESSAGE": "Manao ahoana, nahazo hafatra tsiambaratelo ianao!",
       "INSTRUCTION": "Soraty sy alefaso ny hafatra, dia ho voafafa rehefa vakiana.",
-      "SHOW_MESSAGE_ONCE": "Ny hafatra manaraka dia ho aseho <strong>indray mandeha ihany</strong>",
+      "SHOW_MESSAGE_ONCE": "Ny hafatra manaraka dia ho aseho indray mandeha ihany",
       "OPEN_SECRET_MESSAGE": "Sokafy ny Hafatra Tsiambaratelo",
       "INPUT_PASSPHRASE": "Ampidiro ny Fitenenana",
       "PASS_PHRASE_PLACEHOLDER": "Fitenenana",

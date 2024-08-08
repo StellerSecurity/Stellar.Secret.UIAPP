@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "ᏚᏩᏗᏟ ᏌᏌᏆᏅᏛᏗ ᎩᎦᎾᏍᏆᏗ, ᎠᎩᏍᏚᏂᏍᏆᏓᏏ",
       
       "ENCRYPTED_PROTECTED_BY": "ᏅᎩᎩᎦᎢᎠ, ᎦᎸᎪᎳᎢ Ᏹ ᏍᏛᏍᏆᏍᏆᏍ",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"ᏍᏆᏍᏗᏍᏛᏍᏆᏍᏆᏍ ᎢᏯᎢᎩᎦᏙᎢᎦᎡᎯᎡᎯ ᏧᏍᏆᏂᏛᏍᏗ ᏛᏗᎢᎦᏛᏍᏙᎢᏍᏗᏥᎧᏗ ᏂᏗᏍᏆᏂᏍᏛᏍᏗ ᏂᏗᎢᎦᏛᏍᏙᎢᏍᏗ ᎠᏂᏙᎦᎡᎯ ᏃᏨᏍᏙᎡᎯᎢᏍᏗᏲᎢᏧᎦᎢᎦᏍᏗ ᎨᏍᏆᏂᏍᏛᏍᏗ",
+
       "WITHOUT_TRACE_TITLE": "ᎦᎸᎪᎳ ᏯᏛᏒ",
       "WITHOUT_TRACE_DESCRIPTION": "ᏥᎦᏍᏙ ᎩᎦᎾᏍᏆᏗ ᏑᏃᏪᎯ ᎦᎸᎪᎳ ᎦᎸᎯᎢ ᎯᎠᎢᎦᎢ ᎤᏙᏪᎶᎢ. ᎤᏃᏄ ᏧᏣᏙᏗᏢ ᏙᏯᎢᎦᎢ, ᎯᎠ ᏣᏙᏗᏢ ᏛᏛᏟᏪᎢ ᎯᎠ ᏌᏋᏑᏌᏯᎢ",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "ᎦᎶᎦᎯᎯ ᎪᏛ",
       "WELCOME_MESSAGE": "ᎣᎦᏙᎠ ᏥᎦᎾᏍᏆᏗ ᏕᏜᏛᏣᏯ!",
       "INSTRUCTION": "ᏙᎦᏙᎠ ᏍᏛᏍᏆᏍᏆᏍ ᏲᏟ",
-      "SHOW_MESSAGE_ONCE": "ᏝᏣᏙᏗᏢ ᎠᎩᏍᏚᏂᏍᏆᏓᏏ <strong>ᏧᎩᎦᎾᏍᏆᏗ</strong>",
+      "SHOW_MESSAGE_ONCE": "ᏝᏣᏙᏗᏢ ᎠᎩᏍᏚᏂᏍᏆᏓᏏ  ᏧᎩᎦᎾᏍᏆᏗ",
       "OPEN_SECRET_MESSAGE": "ᎣᎦᏙᎠ ᏍᏛᏍᏆᏍᏆᏍ",
       "INPUT_PASSPHRASE": "ᏂᎯᎠ ᏕᏜᏛᏣᏯ",
       "PASS_PHRASE_PLACEHOLDER": "ᏕᏜᏛᏣᏯ",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Lakaat ar sekredoù, ha poof—zeo peogwir 'zo !",
       
       "ENCRYPTED_PROTECTED_BY": "Dibabet, diwallet hag ampart gant Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Gant Stellar Secret e c'hallit rannañ liammoù a c'haller gwelet ur wech hepken gant endalc'hadoù kizidik en ul liamm kuzh, ha n'anavezit nemet c'hwi hag ar resever. An doare gwellañ eo, mirout titouroù kizidik diouzh an arloadoù kemennadennoù.",
+
       "WITHOUT_TRACE_TITLE": "Hag ur skeudenn",
       "WITHOUT_TRACE_DESCRIPTION": "Gwelet hon eus ur surentez kreñv evit ho titl. Tostit ho data a zo enskrivet war ar c'hleient. N'eus ket a gompren ho IP, petra ho kinnig, pe piv a zo o vezañ desket ar sekredoù - hag ar gwellañ, ar content.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Distro ar Raktres",
       "WELCOME_MESSAGE": "Demat, ho peus kinnig ur mesk sekred !",
       "INSTRUCTION": "Skrivit hag kasit ar mesk, e vo kastet pa vo lennet.",
-      "SHOW_MESSAGE_ONCE": "Ar mesk-mañ a vo diskouezet <strong>ur wech hepken</strong>",
+      "SHOW_MESSAGE_ONCE": "Ar mesk-mañ a vo diskouezet ur wech hepken",
       "OPEN_SECRET_MESSAGE": "Ouvrit ar Mesaj Sekred",
       "INPUT_PASSPHRASE": "Skrivit ar Ger-Keloù",
       "PASS_PHRASE_PLACEHOLDER": "Ger-Keloù",

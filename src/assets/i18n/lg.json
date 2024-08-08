@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gabasenga, era bwebinakoma!",
       
       "ENCRYPTED_PROTECTED_BY": "Ekitibwa, okwefuga, n'okulwanyisa eby'enfuna obutalina ku by'okulonda ky'ekibanja",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ekusobozesa okugabana enkolagana ezirabibwa omulundi gumu n’ebintu ebikulu mu nkolagana ey’ekyama, ggwe wekka gy’omanyi, era oyo afuna y’amanyi. Its the best way, okukuuma amawulire amakulu okuva mu messenger-apps zonna.",
+
       "WITHOUT_TRACE_TITLE": "Waliwo kitabe",
       "WITHOUT_TRACE_DESCRIPTION": "Tukirindaamu ku buno obutafuna kubisinga eby'enfuna. Byonna birina okwekebejebwa ku mukutu. Tetukimanyi ku IP yawe, kye wogedde, oba kiki ky'oguddewo - era ekikulu, eby'okulonda.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Dha App",
       "WELCOME_MESSAGE": "Gyebale ko, osanga ekiteeso ky'ekibanja!",
       "INSTRUCTION": "Yandikamu n'osangamu ekiteeso, kijja kuba kimu.",
-      "SHOW_MESSAGE_ONCE": "Ekiteeso ky'ekibanja kijja kuba <strong>kimu kyokka</strong>",
+      "SHOW_MESSAGE_ONCE": "Ekiteeso ky'ekibanja kijja kuba kimu kyokka",
       "OPEN_SECRET_MESSAGE": "Fungula Ekiteeso ky'ekibanja",
       "INPUT_PASSPHRASE": "Londawo Ekiteeso",
       "PASS_PHRASE_PLACEHOLDER": "Ekiteeso",

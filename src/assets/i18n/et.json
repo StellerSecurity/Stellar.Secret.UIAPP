@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Jaga saladusi, ja puhk – need on kadunud!",
       
       "ENCRYPTED_PROTECTED_BY": "Krüptitud, turvatud ja kaitstud Stellar Security poolt",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret võimaldab teil jagada tundliku sisuga ühekordseid vaadatavaid linke salajasel lingil, mida teate ainult teie ja vastuvõtja teab. See on parim viis hoida tundlikku teavet kõigist Messenger-rakendustest eemal.",
+
       "WITHOUT_TRACE_TITLE": "Ilma jäljeta",
       "WITHOUT_TRACE_DESCRIPTION": "Tagame teie tundliku teabe tugev kaitse. Kõik andmed krüptitakse kliendipoolsel poolel. Me ei tea teie IP-aadressi, mida te jagate ega kellega te saladuse linke jagate - ja mis kõige tähtsam, sisu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Laadi rakendus alla",
       "WELCOME_MESSAGE": "Tere, sa said saladuse sõnumi!",
       "INSTRUCTION": "Kirjutage ja saatke sõnum, see kustutatakse pärast lugemist.",
-      "SHOW_MESSAGE_ONCE": "Järgmine sõnum kuvatakse <strong>ainult üks kord</strong>",
+      "SHOW_MESSAGE_ONCE": "Järgmine sõnum kuvatakse ainult üks kord",
       "OPEN_SECRET_MESSAGE": "Ava saladuse sõnum",
       "INPUT_PASSPHRASE": "Sisestage parool",
       "PASS_PHRASE_PLACEHOLDER": "Parool",

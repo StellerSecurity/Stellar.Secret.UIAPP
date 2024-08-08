@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Raba sirrin, kuma sai su bace!",
       
       "ENCRYPTED_PROTECTED_BY": "An encrypt da tsaro daga Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Sirrin Stellar yana ba ku damar raba hanyoyin haɗin yanar gizo na lokaci ɗaya da ake iya gani tare da abun ciki mai mahimmanci a cikin hanyar haɗin sirri, wanda kawai ku sani, kuma mai karɓa ya sani. Hanya mafi kyau, don kiyaye mahimman bayanai daga kowane manhaja na Messenger.",
+
       "WITHOUT_TRACE_TITLE": "Ba tare da alamar ba",
       "WITHOUT_TRACE_DESCRIPTION": "Muna tabbatar da kariya mai karfi ga bayananka masu muhimmanci. Duk bayanai ana encrypt su a gefen abokin ciniki. Ba mu san adireshin IP dinka ba, abin da kake raba ba, ko wanda kake raba haɗin sirri tare da shi - kuma mafi muhimmanci, abun ciki.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Sannu, ka karɓi sakon sirri!",
       "INSTRUCTION": "Rubuta da aika sako, zai bace bayan an karanta.",
-      "SHOW_MESSAGE_ONCE": "Sakon da ke ƙasa zai bayyana <strong>sau ɗaya kawai</strong>",
+      "SHOW_MESSAGE_ONCE": "Sakon da ke ƙasa zai bayyana sau ɗaya kawai",
       "OPEN_SECRET_MESSAGE": "Buɗe Sakon Sirri",
       "INPUT_PASSPHRASE": "Shigar da Kalmar Wucewa",
       "PASS_PHRASE_PLACEHOLDER": "Kalmar Wucewa",

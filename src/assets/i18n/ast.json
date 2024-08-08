@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Comparte secrets, ¡y puff—se'n van!",
     
       "ENCRYPTED_PROTECTED_BY": "Cifrado, asegurado y protexido por Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret permite compartir enlaces de una sola vez con conteníu sensible en un enlace secreto, que solamentu tú y el receptor saben. Ye la meyor manera de mantener la información sensible al marxe de cualquier aplicación de mensaxería.",
+
       "WITHOUT_TRACE_TITLE": "Sen rastro",
       "WITHOUT_TRACE_DESCRIPTION": "Garantimos una protección robusta de la túa información sensible. Toda la información ye cifrada al lado del cliente. No sabemos la túa dirección IP, qué compartes, o con quién compartes los enlaces secretos - y lo más importante, el conteniu.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Descargar App",
       "WELCOME_MESSAGE": "Hola, recibiste un mensaxe secreto!",
       "INSTRUCTION": "Escribe y envía el mensaxe, será eliminado una vez lleido.",
-      "SHOW_MESSAGE_ONCE": "El siguientu mensaxe será amosáu <strong>solo una vez</strong>",
+      "SHOW_MESSAGE_ONCE": "El siguientu mensaxe será amosáu solo una vez ",
       "OPEN_SECRET_MESSAGE": "Abrir Mensaxe Secreta",
       "INPUT_PASSPHRASE": "Introduce la Frase de Contraseña",
       "PASS_PHRASE_PLACEHOLDER": "Frase de Contraseña",

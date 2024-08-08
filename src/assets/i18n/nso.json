@@ -8,6 +8,7 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Abelana mekgwa, mme e shwa!",
       
       "ENCRYPTED_PROTECTED_BY": "E patilwe, e sireleditswe ebile e sireleditswe ke Stellar Security",
+
       "WITHOUT_TRACE_TITLE": "Tsebello",
       "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tshepo e matla ya tshebediso ya tshedimosetso ya gago. Datha yohle e patilwe ka lehlakoreng la moreki. Ha re tsebe aterese ya gago, se o abelana ka sona, le bao o abelanang le bona - le se kgethegileng, dikahare.",
       
@@ -61,6 +62,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Abelana mekgwa, mme e shwa!",
       
       "ENCRYPTED_PROTECTED_BY": "E patilwe, e sireleditswe ebile e sireleditswe ke Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret e fa monyetla wa go abelana mekgwa ya go bonwa ka makgetho a borai fela le wena le moamogedi. Ke tsela e e molemo go boloka tshedimosetso e amanang le borai go tswa mo dipheletseng tsotlhe.",
+
       "WITHOUT_TRACE_TITLE": "Tsebello",
       "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tshepo e matla ya tshebediso ya tshedimosetso ya gago. Datha yohle e patilwe ka lehlakoreng la moreki. Ha re tsebe aterese ya gago, se o abelana ka sona, le bao o abelanang le bona - le se kgethegileng, dikahare.",
       
@@ -128,7 +131,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Lumelang, o amohetse molaetsa wa sephiri!",
       "INSTRUCTION": "Ngwaga le romela molaetsa, e tla tloswa ka mor'a go balwa.",
-      "SHOW_MESSAGE_ONCE": "Molaetsa o latelang o tla bonwa <strong>hang-hang fela</strong>",
+      "SHOW_MESSAGE_ONCE": "Molaetsa o latelang o tla bonwa hang-hang fela",
       "OPEN_SECRET_MESSAGE": "Bula Molaetsa wa Secreta",
       "INPUT_PASSPHRASE": "Kenya Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

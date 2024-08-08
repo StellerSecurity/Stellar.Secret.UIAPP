@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partiziun secrets, e puff—els èn svanids!",
       
       "ENCRYPTED_PROTECTED_BY": "Encryptà, segira e protegia da Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret permetta da partisar links da visiun unica cun cuntgnids sensibels che mo ti e il destinatari san. Iè il meglder mod da proteger las infurmaziuns sensiblas da tut ils apps da messaggeria",
+
       "WITHOUT_TRACE_TITLE": "Senza traccia",
       "WITHOUT_TRACE_DESCRIPTION": "Nus garantin ina protecziun robusta da vossa infurmaziun sensitiva. Tut data vegn encryptada sin il client. Nus na savajan betg voss IP address, tge ch'ei vegn partì u cun tgi che vus partischa ils ligams secret - e quai ch'è il pli impurtant, il conteni.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Sgitar l'app",
       "WELCOME_MESSAGE": "Bun di, vus avais retschet in messadi secret!",
       "INSTRUCTION": "Scriva e sendai messadi, el vegn eliminà suenter ch'el è lèss.",
-      "SHOW_MESSAGE_ONCE": "Il suandant messadi vegn mussà <strong>be ina giada</strong>",
+      "SHOW_MESSAGE_ONCE": "Il suandant messadi vegn mussà be ina giada",
       "OPEN_SECRET_MESSAGE": "Avrir Messadi Secret",
       "INPUT_PASSPHRASE": "Inserir Password",
       "PASS_PHRASE_PLACEHOLDER": "Password",

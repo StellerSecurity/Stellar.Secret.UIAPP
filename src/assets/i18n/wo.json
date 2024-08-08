@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tànn sa yëng, te bu baax!",
       
       "ENCRYPTED_PROTECTED_BY": "Yàqot, suqali ak jàmm ci Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret daf lay may nga séddoo lëkkalekaay yuñ mëna gis benn yoon ak ëmbiit yu am solo ci lëkkalekaay bu nëbbu, te yaw kese nga xam, te ki koy jot moo ko xam. Mooy anam wi gëna baax, ngir tëye xibaar bu am solo ci bépp aplikaasioŋu mesaas.",
+
       "WITHOUT_TRACE_TITLE": "Bu ñuy wéy",
       "WITHOUT_TRACE_DESCRIPTION": "Ñu jëfandikoo yàqot yi ci kàddukatay sa xaalis. Nuyoo nañu ndax sa IP adress, lu nga jàppale, walla la ngay jàppale sa yëng gi - ak gën ñi, biir sa content.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Jàppale App",
       "WELCOME_MESSAGE": "Nanga def, nga am secret message!",
       "INSTRUCTION": "Defal te jàppale kàddu gi, buñu sàngane bu xool.",
-      "SHOW_MESSAGE_ONCE": "Kàddu gi dañoo mën a xool <strong>bu njëkk</strong>",
+      "SHOW_MESSAGE_ONCE": "Kàddu gi dañoo mën a xool bu njëkk",
       "OPEN_SECRET_MESSAGE": "Soo xool Secret Message",
       "INPUT_PASSPHRASE": "Defal Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "I-share dagiti sekreto, ket awan—napukaw da!",
     
       "ENCRYPTED_PROTECTED_BY": "Naka-encrypt, na-secure ken naprotektaran babaen ti Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ket mangted kadagiti link a mabalin nga kitaen iti maysa a panawen laeng a naglaon iti sensitibo nga nilalaman nga ammo laeng niyo ken ti agawat. Daytoy ti kasayaatan a wagas tapno maipreservar ti sensitibo nga impormasyon manipud kadagiti amin nga aplikasyon ti mensahe",
+
       "WITHOUT_TRACE_TITLE": "Awan ti bakas",
       "WITHOUT_TRACE_DESCRIPTION": "Siguradwenmi ti naimbag a proteksyon kadagiti sensitibo a impormasyon yo. Amin a datos ket na-encrypt iti client-side. Awan ti ammom a IP address yo, anya ti i-share yo, wenno kaniya ti i-share yo ti sekreto a link - ken ti pinaka-importante, ti nilalaman.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "I-download ti App",
       "WELCOME_MESSAGE": "Kumusta, nakaawat ka ti sekreto a mensahe!",
       "INSTRUCTION": "Isurat ken i-send ti mensahe, ket madelter kalpasan ti nabasa.",
-      "SHOW_MESSAGE_ONCE": "Ti sumaganad a mensahe ket makitkita <strong>maysa laeng a beses</strong>",
+      "SHOW_MESSAGE_ONCE": "Ti sumaganad a mensahe ket makitkita maysa laeng a beses",
       "OPEN_SECRET_MESSAGE": "Kitaen ti Secret Message",
       "INPUT_PASSPHRASE": "Isurat ti Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

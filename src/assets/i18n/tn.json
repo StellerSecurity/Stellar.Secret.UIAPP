@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Abelana le mekgwa e amanang, mme e fella!",
       
       "ENCRYPTED_PROTECTED_BY": "E kgotlhelele, e sireletsehile le go sirelediwa ke Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret e go letla go abelana dikgokagano tse di ka bonwang gangwe fela le diteng tse di botlhokwa mo kgolaganong ya sephiri, e e itsiweng ke wena fela, mme moamogedi a e itse. Eona tsela e molemo ka ho fetisisa, ho boloka tlhahisoleseding e bohlokwa tsoa ho tloha efe kapa efe morongwa-ditiriso tse dingwe.",
+
       "WITHOUT_TRACE_TITLE": "Ka go sa senyege",
       "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tshegetso e e maatla ya tshedimosetso ya gago. Datha e agiwa go ngwaga ya mekgwa. Re sitwa go itse IP ya gago, se o se abelanang le eng, le go mang o abelanang le mekgwa ya sekete - go botlhokwa, dikwalo.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Dumela, o amogile molaetsa wa sekete!",
       "INSTRUCTION": "Tsaya le go romela molaetsa, e tla bolawa fa e balwe.",
-      "SHOW_MESSAGE_ONCE": "Molaetsa o o latelang o tla bonwa <strong>ka nako e le nngwe fela</strong>",
+      "SHOW_MESSAGE_ONCE": "Molaetsa o o latelang o tla bonwa ka nako e le nngwe fela",
       "OPEN_SECRET_MESSAGE": "Bona Molaetsa wa Sekete",
       "INPUT_PASSPHRASE": "Tsaya Paswedi",
       "PASS_PHRASE_PLACEHOLDER": "Paswedi",

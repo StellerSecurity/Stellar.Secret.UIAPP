@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kongsi rahsia, dan hilang—begitu sahaja!",
     
       "ENCRYPTED_PROTECTED_BY": "Dihash, dilindungi dan dilindungi oleh Keselamatan Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Rahsia Stellar membolehkan anda berkongsi pautan boleh lihat sekali dengan kandungan sensitif dalam pautan rahsia, yang hanya anda tahu dan penerima tahu. Ini adalah cara terbaik, untuk mengelakkan maklumat sensitif daripada mana-mana apl messenger.",
+
       "WITHOUT_TRACE_TITLE": "Tanpa Jejak",
       "WITHOUT_TRACE_DESCRIPTION": "Kami memastikan perlindungan kukuh terhadap maklumat sensitif anda. Semua data dihash di sisi pelanggan. Kami tidak tahu alamat IP anda, apa yang anda kongsi, atau dengan siapa anda berkongsi pautan rahsia - dan yang paling penting, kandungannya.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Muat Turun Aplikasi",
       "WELCOME_MESSAGE": "Hai, anda menerima pesanan rahsia!",
       "INSTRUCTION": "Tulis dan hantar pesanan, ia akan dipadam selepas dibaca.",
-      "SHOW_MESSAGE_ONCE": "Pesanan berikut akan ditunjukkan <strong>hanya sekali</strong>",
+      "SHOW_MESSAGE_ONCE": "Pesanan berikut akan ditunjukkan hanya sekali",
       "OPEN_SECRET_MESSAGE": "Buka Pesanan Rahsia",
       "INPUT_PASSPHRASE": "Masukkan Kata Laluan",
       "PASS_PHRASE_PLACEHOLDER": "Kata Laluan",

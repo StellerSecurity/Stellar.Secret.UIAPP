@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Diele secrets, en poef—se binne fuort!",
     
       "ENCRYPTED_PROTECTED_BY": "Enkriptearre, befeilige en beskermd troch Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret makket it mooglik om ienmalige sichtbere keppelings te diele mei gefoelige ynformaasje dy't allinnich jimme beiden witte. It is de bêste manier om gefoelige ynformaasje út elts berjochtapp te hâlden.",
+
       "WITHOUT_TRACE_TITLE": "Sûnder spoar",
       "WITHOUT_TRACE_DESCRIPTION": "Wy soargje foar robúste beskerming fan jo gefoelige ynformaasje. Alle gegevens wurde enkriptearre oan 'e klantside. Wy witte net jo IP-adres, wat jo diele, of mei wa't jo de geheime keppelings diele - en it wichtichste, de ynhâld.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Hallo dêr, jo hawwe in geheim berjocht krigen!",
       "INSTRUCTION": "Skriuw en stjoer berjocht, it sil fuorthelle wurde as lêzen.",
-      "SHOW_MESSAGE_ONCE": "It folgjende berjocht sil <strong>mar ien kear</strong> sjen litte",
+      "SHOW_MESSAGE_ONCE": "It folgjende berjocht sil mar ien kear sjen litte",
       "OPEN_SECRET_MESSAGE": "Iepenje Secret Message",
       "INPUT_PASSPHRASE": "Input Wachtwurd",
       "PASS_PHRASE_PLACEHOLDER": "Wachtwurd",

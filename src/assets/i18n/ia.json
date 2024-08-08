@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Compartir secretes, e puff—ils dispare!",
     
       "ENCRYPTED_PROTECTED_BY": "Encryptate, securitate e protegite per Secret Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret te permite compartir ligamines de visione unic con contento sensitive que solmente tu e le recipiatur cognosce. Es le melior maniera de mantener information sensitive fora de omne applicatios de messaggeria.",
+
       "WITHOUT_TRACE_TITLE": "Sine traccia",
       "WITHOUT_TRACE_DESCRIPTION": "Nos garante robuste protection de tu information sensible. Tot datos es encryptate a lato cliente. Nos non cognosce tu IP adresse, lo que tu comparte, o con qui tu comparte le links secret - e le plus importante, le contento.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Discar App",
       "WELCOME_MESSAGE": "Salve, tu ha recepite un message secret!",
       "INSTRUCTION": "Scribe e manda message, il essera eliminate post lege.",
-      "SHOW_MESSAGE_ONCE": "Le sequente message essera monstrate <strong>solmente un vice</strong>",
+      "SHOW_MESSAGE_ONCE": "Le sequente message essera monstrate solmente un vice",
       "OPEN_SECRET_MESSAGE": "Aperir Secret Message",
       "INPUT_PASSPHRASE": "Inserer Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

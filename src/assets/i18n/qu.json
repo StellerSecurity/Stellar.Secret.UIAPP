@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sumaq ñawpaqkunam, ñawpaqmi kachkan!",
       
       "ENCRYPTED_PROTECTED_BY": "Kawsaykuchkan, amtaqkuchkan, chinkachkan Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret huk kuti qhawanapaq t'inkikuna sensibles contenidowan huk pakasqa t'inkipi qunakuy atikunki, chayta qamlla yachanki, chaymanta chaskiq yachan. Su aswan allin ñan, sensibles willayta mana mayqin mensajero-apps kaqmanta waqaychaypaq.",
+
       "WITHOUT_TRACE_TITLE": "Ñawi chinkachiy",
       "WITHOUT_TRACE_DESCRIPTION": "Ñawpaq ñawpa runakunamuyku kikinmi. Tukuy dataqmi chinkachkanñachu. Ñuqanchikmi llamkaykuchkan ñawi runakuna, ima ruwan, orkunamni aswan, allinmi kanki.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Applikashunami masinchiy",
       "WELCOME_MESSAGE": "Kuska, ñawpaq chinkachiykuchkanki!",
       "INSTRUCTION": "Yachaykuchkankichikmi, chaymi kikinmi kachkanku.",
-      "SHOW_MESSAGE_ONCE": "Chaymi kachkan <strong>hukñawi kachkanmi</strong>",
+      "SHOW_MESSAGE_ONCE": "Chaymi kachkan hukñawi kachkanmi",
       "OPEN_SECRET_MESSAGE": "Ñawpaq chinkachiykuchkani",
       "INPUT_PASSPHRASE": "Ñawpaq ñawpa",
       "PASS_PHRASE_PLACEHOLDER": "Ñawpaq ñawpa",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "I-share ang mga sekreto, ug poof—wala na!",
       
       "ENCRYPTED_PROTECTED_BY": "Encrypted, secured ug protektado sa Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Gitugotan ka sa Stellar Secret nga ipaambit ang usa ka higayon nga makita nga mga link nga adunay sensitibo nga sulud sa usa ka sekreto nga link, nga ikaw ra ang nahibal-an, ug nahibal-an sa tigdawat. Kini ang labing kaayo nga paagi, aron mapugngan ang sensitibo nga kasayuran gikan sa bisan unsang messenger-app.",
+
       "WITHOUT_TRACE_TITLE": "Walay mga bakas",
       "WITHOUT_TRACE_DESCRIPTION": "Nagtanyag kami og lig-on nga pagpanalipod sa imong sensitibong impormasyon. Ang tanang data gi-encrypt sa client-side. Wala kami kahibalo sa imong IP address, unsa imong gi-share, o kinsa imong gi-sharean sa mga sekreto nga link - ug pinaka-importante, ang sulod.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "I-download ang App",
       "WELCOME_MESSAGE": "Hi didto, nakadawat ka og sekreto nga mensahe!",
       "INSTRUCTION": "Isulat ug ipadala ang mensahe, kini ma-delete human mabasa.",
-      "SHOW_MESSAGE_ONCE": "Ang mosunod nga mensahe ipakita <strong>usa ra ka higayon</strong>",
+      "SHOW_MESSAGE_ONCE": "Ang mosunod nga mensahe ipakita  usa ra ka higayon ",
       "OPEN_SECRET_MESSAGE": "Ablihi ang Sekreto nga Mensahe",
       "INPUT_PASSPHRASE": "Ibutang ang Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

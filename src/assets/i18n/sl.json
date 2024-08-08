@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deli skrivnosti in poof—izginile so!",
       
       "ENCRYPTED_PROTECTED_BY": "Šifrirano, zaščiteno in zaščiteno s strani Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret vam omogoča, da delite enkratne vidne povezave z občutljivo vsebino v skrivni povezavi, ki jo poznate samo vi in ​​prejemnik. To je najboljši način, da občutljive informacije preprečite dostopu do katere koli aplikacije za sporočanje.",
+
       "WITHOUT_TRACE_TITLE": "Brez sledi",
       "WITHOUT_TRACE_DESCRIPTION": "Zagotavljamo robustno zaščito vaših občutljivih informacij. Vse podatke šifriramo na strani odjemalca. Ne poznamo vašega IP naslova, kaj delite ali s kom delite povezave do skrivnosti - in kar je najpomembnejše, vsebina.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Prenesi aplikacijo",
       "WELCOME_MESSAGE": "Živjo, prejeli ste skrivno sporočilo!",
       "INSTRUCTION": "Napišite in pošljite sporočilo, to bo izbrisano, ko bo prebrano.",
-      "SHOW_MESSAGE_ONCE": "Naslednje sporočilo bo prikazano <strong>le enkrat</strong>",
+      "SHOW_MESSAGE_ONCE": "Naslednje sporočilo bo prikazano le enkrat",
       "OPEN_SECRET_MESSAGE": "Odpri skrivno sporočilo",
       "INPUT_PASSPHRASE": "Vnesite geslo",
       "PASS_PHRASE_PLACEHOLDER": "Geslo",

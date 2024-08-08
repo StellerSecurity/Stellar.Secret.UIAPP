@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Arola mehlolo, 'me poof—e tlosoa!",
       
       "ENCRYPTED_PROTECTED_BY": "E bolokiloeng, e sirelelitsoe le Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret e u fa monyetla oa ho arolelana likhokahano tse ka bonwang hang feela tse nang le litaba tse amanang le borai tseo u tsebang tsona feela le moamogedi. Ke tsela e molemo ka ho fetisisa ea ho boloka ts'ebetso ea borai hole le mekgwa e meng ea molaetsa.",
+
       "WITHOUT_TRACE_TITLE": "Ha ho na matsapa",
       "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tsireletso e tiileng ea boitsebahatso ba hau bo sa bonahaleng. Tlhahisoleseding eohle e patoa ka lehlakoreng la moreki. Ha re tsebe aterese ea IP, seo o se arolang, kapa le mehlolo eo o e arolang le bona - le ho bohlokoa, litaba.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Lumela, u amohetse molaetsa oa sekhahla!",
       "INSTRUCTION": "Ngola le ho romella molaetsa, e tla hlakoloa ha e se e baloa.",
-      "SHOW_MESSAGE_ONCE": "Molaetsa o latelang o tla bontšoa <strong>hang feela</strong>",
+      "SHOW_MESSAGE_ONCE": "Molaetsa o latelang o tla bontšoa hang feela",
       "OPEN_SECRET_MESSAGE": "Bulela Molaetsa oa Sekhahla",
       "INPUT_PASSPHRASE": "Kenya Phasefo",
       "PASS_PHRASE_PLACEHOLDER": "Phasefo",

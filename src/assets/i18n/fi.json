@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Jaa salaisuuksia, ja poof—ne ovat poissa!",
       
       "ENCRYPTED_PROTECTED_BY": "Salattu, suojattu ja turvattu Stellar Securityn toimesta",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secretin avulla voit jakaa kertaluonteisia katseltavia linkkejä, joissa on arkaluontoista sisältöä salaisessa linkissä, jonka vain sinä tiedät ja vastaanottaja tietää. Se on paras tapa pitää arkaluontoiset tiedot poissa kaikista messenger-sovelluksista.",
+
       "WITHOUT_TRACE_TITLE": "Ilman jälkiä",
       "WITHOUT_TRACE_DESCRIPTION": "Varmistamme herkän tietosi vahvan suojan. Kaikki tiedot salataan asiakaspäässä. Emme tiedä IP-osoitettasi, mitä jaat tai kenelle jaat salaiset linkit - ja mikä tärkeintä, sisältö.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Lataa sovellus",
       "WELCOME_MESSAGE": "Hei, sait salaisen viestin!",
       "INSTRUCTION": "Kirjoita ja lähetä viesti, se poistuu luettuasi.",
-      "SHOW_MESSAGE_ONCE": "Seuraava viesti näkyy <strong>vain kerran</strong>",
+      "SHOW_MESSAGE_ONCE": "Seuraava viesti näkyy vain kerran",
       "OPEN_SECRET_MESSAGE": "Avaa salainen viesti",
       "INPUT_PASSPHRASE": "Syötä salasana",
       "PASS_PHRASE_PLACEHOLDER": "Salasana",

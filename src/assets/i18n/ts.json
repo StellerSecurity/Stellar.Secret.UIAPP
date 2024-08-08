@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Hlela vukorhokeri, naswona poof—va ha hera!",
     
       "ENCRYPTED_PROTECTED_BY": "Ku na vukorhokeri, ku bolokaka ni ku sirhelela hi Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret yi ku pfumelela ku avelana swihlanganisi leswi voniwaka kan’we na swilo leswi nga na vuxiyaxiya eka xihlanganisi xa xihundla, lexi u swi tivaka ntsena, naswona muamukeri wa swi tiva. Its the best way, ku hlayisa vuxokoxoko bya nkoka ehandle eka messenger-apps yihi na yihi.",
+
       "WITHOUT_TRACE_TITLE": "Loko swi nga riki na ndlela",
       "WITHOUT_TRACE_DESCRIPTION": "Hi khutazela vukorhokeri lebyikulu bya natiwo ya wena. Datha hinkwayo yi hlanganisiwa hi xihlovo-xikongomelo. Ha hi tivisi IP ya wena, lexi u xi endlaka, kumbe u ri na yini lexi u sivelaka lexo vukorhokeri - na swivutiso.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Hi kona, u fumile mesajeni ya vukorhokeri!",
       "INSTRUCTION": "Tinya ni sivelana mesajeni, swi ta hoxiwa loko swi humelela.",
-      "SHOW_MESSAGE_ONCE": "Mesajeni leyi yi ta bonisiwa <strong>hi nkarhi wun’wana</strong>",
+      "SHOW_MESSAGE_ONCE": "Mesajeni leyi yi ta bonisiwa hi nkarhi wun’wana",
       "OPEN_SECRET_MESSAGE": "Vula Vukorhokeri",
       "INPUT_PASSPHRASE": "Tinya Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

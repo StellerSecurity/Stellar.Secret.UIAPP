@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "分享祕密，瞬間消失！",
       
       "ENCRYPTED_PROTECTED_BY": "由星際安全加密、保護和保障",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret 讓您分享一次性可查看的連結，這些連結包含敏感內容，只有您和收件人知道。這是將敏感資訊遠離任何即時消息應用程式的最佳方式。",
+
       "WITHOUT_TRACE_TITLE": "無痕跡",
       "WITHOUT_TRACE_DESCRIPTION": "我們確保您敏感信息的強大保護。所有數據在客戶端加密。我們不知道您的 IP 地址、您分享了什麼或與誰分享秘密鏈接 - 更重要的是，內容。",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "下載應用程式",
       "WELCOME_MESSAGE": "嗨，您收到了一條秘密訊息！",
       "INSTRUCTION": "寫下並發送訊息，將會在讀取後被刪除。",
-      "SHOW_MESSAGE_ONCE": "以下訊息將<strong>僅顯示一次</strong>",
+      "SHOW_MESSAGE_ONCE": "以下訊息將僅顯示一次",
       "OPEN_SECRET_MESSAGE": "打開秘密訊息",
       "INPUT_PASSPHRASE": "輸入密碼短語",
       "PASS_PHRASE_PLACEHOLDER": "密碼短語",

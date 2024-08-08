@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Govera zvemashoko, uye poof—zvanyanya!",
       
       "ENCRYPTED_PROTECTED_BY": "Yakavharirwa, yakachengetedzwa uye yakadzivirirwa neStellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Chakavanzika cheStellar chinokutendera kuti ugovane-imwe-nguva inotaridzika zvinongedzo neyakajeka yemukati mune yakavanzika chinongedzo, icho iwe chete unoziva, uye anogamuchira anoziva. Iyo ndiyo nzira yakanakisa, yekuchengeta ruzivo rwakadzama kubva kune chero mutumwa-apps.",
+
       "WITHOUT_TRACE_TITLE": "Pasina Chiratidzo",
       "WITHOUT_TRACE_DESCRIPTION": "Tinovimbisa kuchengetedzwa kwakasimba kwe ruzivo rwako rwakavanzika. Dhata yose iri kuve yakavharirwa kumutengi. Hatizive IP yako, chii chawakatumira, kana kuti kune ani wawakatumira zvinongedzo zvezvakatemwa - uye zvakanyanya, zvemukati.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Dhawunirodha App",
       "WELCOME_MESSAGE": "Mhoro, wawana meseji yakavanzika!",
       "INSTRUCTION": "Nyora uye tumira meseji, ichave yakapfuurwa kana yaverengwa.",
-      "SHOW_MESSAGE_ONCE": "Meseji inotevera icharatidzwa <strong>kamwe chete</strong>",
+      "SHOW_MESSAGE_ONCE": "Meseji inotevera icharatidzwa kamwe chete",
       "OPEN_SECRET_MESSAGE": "Vhura Meseji Yakavanzika",
       "INPUT_PASSPHRASE": "Nyora Shoko reKupinda",
       "PASS_PHRASE_PLACEHOLDER": "Shoko reKupinda",

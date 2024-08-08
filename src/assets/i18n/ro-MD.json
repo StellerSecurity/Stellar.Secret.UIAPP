@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Împărtășește secrete, și puff—au dispărut!",
       
       "ENCRYPTED_PROTECTED_BY": "Criptat, securizat și protejat de Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret îți permite să împărtășești linkuri cu vizualizare unică care conțin informații sensibile, cunoscute doar de tine și de destinatar. Este cea mai bună modalitate de a menține informațiile sensibile departe de orice aplicație de mesagerie.",
+
       "WITHOUT_TRACE_TITLE": "Fără urmă",
       "WITHOUT_TRACE_DESCRIPTION": "Asigurăm o protecție robustă a informațiilor tale sensibile. Toate datele sunt criptate pe partea clientului. Nu știm adresa ta IP, ce împărtășești sau cu cine împărtășești linkurile secrete - și cel mai important, conținutul.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Descarcă aplicația",
       "WELCOME_MESSAGE": "Bună, ai primit un mesaj secret!",
       "INSTRUCTION": "Scrie și trimite mesajul, va fi șters după ce a fost citit.",
-      "SHOW_MESSAGE_ONCE": "Următorul mesaj va fi afișat <strong>doar o singură dată</strong>",
+      "SHOW_MESSAGE_ONCE": "Următorul mesaj va fi afișat doar o singură dată",
       "OPEN_SECRET_MESSAGE": "Deschide Mesajul Secret",
       "INPUT_PASSPHRASE": "Introdu Parola",
       "PASS_PHRASE_PLACEHOLDER": "Parolă",

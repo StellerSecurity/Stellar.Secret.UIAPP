@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Roinn rúin, agus poof—tá siad imithe!",
       
       "ENCRYPTED_PROTECTED_BY": "Criptiúchán, slán agus cosanta ag Slándáil Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Ligeann Stellar Secret duit naisc aonuaire infheicthe a roinnt le hábhar íogair i nasc rúnda, nach bhfuil ach a fhios agat, agus a bhfuil a fhios ag an nglacadóir. Is é an bealach is fearr, faisnéis íogair a choinneáil amach ó aon apps teachtaire.",
+
       "WITHOUT_TRACE_TITLE": "Gan rian",
       "WITHOUT_TRACE_DESCRIPTION": "Déanaimid cosaint láidir ar do chuid eolais íogair. Tá gach sonra criptithe ar an taobh-cliant. Ní fios dúinn do sheoladh IP, cad a roinneann tú, nó cé leis a roinneann tú na nascanna rúin - agus is tábhachtaí, an t-ábhar.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Íoslódáil an App",
       "WELCOME_MESSAGE": "Dia dhuit, fuair tú teachtaireacht rúnda!",
       "INSTRUCTION": "Scríobh agus seol teachtaireacht, beidh sé scriosta a luaithe a léitear.",
-      "SHOW_MESSAGE_ONCE": "Taispeánfar an teachtaireacht seo <strong>ach uair amháin</strong>",
+      "SHOW_MESSAGE_ONCE": "Taispeánfar an teachtaireacht seo ach uair amháin",
       "OPEN_SECRET_MESSAGE": "Oscail Teachtaireacht Rún",
       "INPUT_PASSPHRASE": "Iontráil Pasfhocal",
       "PASS_PHRASE_PLACEHOLDER": "Pasfhocal",

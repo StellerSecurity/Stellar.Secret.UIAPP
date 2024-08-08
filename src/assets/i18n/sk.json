@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Zdieľajte tajomstvá a poof—sú preč!",
       
       "ENCRYPTED_PROTECTED_BY": "Šifrované, zabezpečené a chránené Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret vám umožňuje zdieľať jednorazové viditeľné odkazy s citlivým obsahom v tajnom odkaze, ktorý poznáte iba vy a príjemca. Je to najlepší spôsob, ako zabrániť citlivým informáciám zo všetkých aplikácií na odosielanie správ.",
+
       "WITHOUT_TRACE_TITLE": "Bez stopy",
       "WITHOUT_TRACE_DESCRIPTION": "Zabezpečujeme silnú ochranu vašich citlivých informácií. Všetky dáta sú šifrované na strane klienta. Nevieme vašu IP adresu, čo zdieľate ani s kým zdieľate tajné odkazy - a čo je najdôležitejšie, obsah.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Stiahnuť aplikáciu",
       "WELCOME_MESSAGE": "Ahoj, dostali ste tajnú správu!",
       "INSTRUCTION": "Napíšte a odošlite správu, bude vymazaná po prečítaní.",
-      "SHOW_MESSAGE_ONCE": "Nasledujúca správa bude zobrazená <strong>iba raz</strong>",
+      "SHOW_MESSAGE_ONCE": "Nasledujúca správa bude zobrazená iba raz",
       "OPEN_SECRET_MESSAGE": "Otvoriť tajnú správu",
       "INPUT_PASSPHRASE": "Zadajte heslovú frázu",
       "PASS_PHRASE_PLACEHOLDER": "Heslová fráza",

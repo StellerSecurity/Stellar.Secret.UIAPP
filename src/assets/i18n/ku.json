@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sîrên xwe parve bikin, û poof—ji nêzîk in!",
       
       "ENCRYPTED_PROTECTED_BY": "Encriptkirî, ewlehî û parastî ji hêla Stellar Security ve",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret dihêle hûn di girêdanek veşartî de, ku tenê hûn pê dizanin, û wergir jî zencîreyên dîtbar ên yek-carî bi naverokek hesas re parve bikin. Awayê çêtirîn ew e ku agahdariya hesas ji her sepanên peyamberan dûr bixe.",
+
       "WITHOUT_TRACE_TITLE": "Bêşopa",
       "WITHOUT_TRACE_DESCRIPTION": "Em ji hêla client-side de daneyên we parastin. Em nikaribin nasnameya IP'yê we, çi hûn parve dikin, an jî kî hûn sîrêyan parve dikin - û herî girîng, naveroka.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Serlêdana Sepana",
       "WELCOME_MESSAGE": "Silav, hûn peyama sîrê wergirtin!",
       "INSTRUCTION": "Peyam binivîse û bişîne, ew dê bi dawî bibe.",
-      "SHOW_MESSAGE_ONCE": "Peyama jêrîn dê tenê carê yekê nîşan bide <strong>tenê carê yekê</strong>",
+      "SHOW_MESSAGE_ONCE": "Peyama jêrîn dê tenê carê yekê nîşan bide tenê carê yekê",
       "OPEN_SECRET_MESSAGE": "Peyama Sîrê Vebike",
       "INPUT_PASSPHRASE": "Şîfre binivîse",
       "PASS_PHRASE_PLACEHOLDER": "Şîfre",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Rhannwch gyfrinachau, a phuff—maen nhw'n mynd!",
       
       "ENCRYPTED_PROTECTED_BY": "Encrypted, diogel ac amddiffynnir gan Diogelwch Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Mae Stellar Secret yn caniatáu ichi rannu cysylltiadau un-amser y gellir eu gweld â chynnwys sensitif mewn cyswllt cyfrinachol, mai dim ond chi sy'n gwybod, a'r derbynnydd sy'n gwybod. Dyma'r ffordd orau o gadw gwybodaeth sensitif allan o unrhyw apiau negesydd.",
+
       "WITHOUT_TRACE_TITLE": "Heb olion",
       "WITHOUT_TRACE_DESCRIPTION": "Rydym yn sicrhau amddiffyniad cadarn o'ch gwybodaeth sensitif. Mae pob data yn cael ei dargyfeirio ar ochr y cwsmer. Nid ydym yn gwybod eich cyfeiriad IP, beth rydych chi'n rhannu, nac ewch chi'n rhannu'r dolenni cyfrinach gyda—ac yn bwysicaf oll, y cynnwys.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Lawrlwytho'r Ap",
       "WELCOME_MESSAGE": "Helo, derbyniwch neges gyfrinachol!",
       "INSTRUCTION": "Ysgrifennwch a chyfnewid neges, fe fydd yn cael ei ddileu unwaith wedi ei ddarllen.",
-      "SHOW_MESSAGE_ONCE": "Bydd y neges ganlynol yn cael ei dangos <strong>dim ond unwaith</strong>",
+      "SHOW_MESSAGE_ONCE": "Bydd y neges ganlynol yn cael ei dangos dim ond unwaith",
       "OPEN_SECRET_MESSAGE": "Agor Neges Secret",
       "INPUT_PASSPHRASE": "Rhowch y Cyfrinair",
       "PASS_PHRASE_PLACEHOLDER": "Cyfrinair",

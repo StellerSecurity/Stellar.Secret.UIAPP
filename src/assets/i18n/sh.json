@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Podelite tajne i - puff - nestaju!",
       
       "ENCRYPTED_PROTECTED_BY": "Šifrovano, zaštićeno i obezbeđeno Stellar Security-jem",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret vam omogućava da delite linkove koji se mogu pregledati samo jednom sa osetljivim sadržajem, koje samo vi i primalac znate. To je najbolji način da sačuvate osetljive informacije od bilo koje aplikacije za razmenu poruka",
+
       "WITHOUT_TRACE_TITLE": "Bez traga",
       "WITHOUT_TRACE_DESCRIPTION": "Osiguravamo robusnu zaštitu vaših osetljivih informacija. Svi podaci se šifruju na klijentskoj strani. Ne znamo vašu IP adresu, šta delite ili s kim delite tajne linkove - i što je najvažnije, sadržaj.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Preuzmi aplikaciju",
       "WELCOME_MESSAGE": "Zdravo, primili ste tajnu poruku!",
       "INSTRUCTION": "Napišite i pošaljite poruku, biće obrisana kada se pročita.",
-      "SHOW_MESSAGE_ONCE": "Sledeća poruka će biti prikazana <strong>samo jednom</strong>",
+      "SHOW_MESSAGE_ONCE": "Sledeća poruka će biti prikazana samo jednom",
       "OPEN_SECRET_MESSAGE": "Otvorite tajnu poruku",
       "INPUT_PASSPHRASE": "Unesite lozinku",
       "PASS_PHRASE_PLACEHOLDER": "Lozinka",

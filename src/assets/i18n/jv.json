@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikan rahasia, lan ilang—mung sakpisan!",
       
       "ENCRYPTED_PROTECTED_BY": "Dienkripsi, diamankan lan dilindhungi dening Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Rahasia Stellar ngidini sampeyan nuduhake tautan sing bisa dideleng kanthi konten sensitif ing tautan rahasia, sing mung sampeyan ngerti, lan panrima sing ngerti. Cara sing paling apik, supaya informasi sensitif metu saka aplikasi messenger.",
+
       "WITHOUT_TRACE_TITLE": "Tanpa jejak",
       "WITHOUT_TRACE_DESCRIPTION": "Kita njamin perlindungan sing kuwat kanggo informasi sensitif sampeyan. Kabeh data dienkripsi ing sisih klien. Kita ora ngerti alamat IP sampeyan, apa sing sampeyan bagi, utawa sapa sampeyan nuduhake pranala rahasia - lan sing paling penting, konten kasebut.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Unduh Aplikasi",
       "WELCOME_MESSAGE": "Halo, sampeyan nampa pesen rahasia!",
       "INSTRUCTION": "Tulis lan kirim pesen, bakal dihapus sawise diwaca.",
-      "SHOW_MESSAGE_ONCE": "Pesen ing ngisor iki bakal ditampilake <strong>mung sakpisan</strong>",
+      "SHOW_MESSAGE_ONCE": "Pesen ing ngisor iki bakal ditampilake mung sakpisan",
       "OPEN_SECRET_MESSAGE": "Buka Pesan Rahasia",
       "INPUT_PASSPHRASE": "Masukkan Sandhi",
       "PASS_PHRASE_PLACEHOLDER": "Sandhi",

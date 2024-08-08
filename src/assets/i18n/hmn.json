@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Xa xov xwm, thiab poof—lawv mus!",
     
       "ENCRYPTED_PROTECTED_BY": "Encrypted, secured thiab tiv thaiv los ntawm Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret tso cai rau koj los qhia ib lub sij hawm saib cov kev sib txuas nrog cov ntsiab lus rhiab hauv qhov txuas tsis pub lwm tus paub, uas tsuas yog koj paub, thiab tus txais yuav paub. Nws yog txoj hauv kev zoo tshaj plaws kom khaws cov ntaub ntawv rhiab tawm ntawm txhua tus tub txib-apps.",
+
       "WITHOUT_TRACE_TITLE": "Tsis muaj ntawv",
       "WITHOUT_TRACE_DESCRIPTION": "Peb xyuas kom muaj kev tiv thaiv koj cov ntaub ntawv tseem ceeb. Txhua yam ntaub ntawv tau encrypted ntawm lub client-side. Peb tsis paub txog koj IP chaw, dab tsi koj xa, lossis leej twg koj xa cov secret links nrog - thiab tseem ceeb tshaj plaws, cov ntsiab lus.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Rub tawm App",
       "WELCOME_MESSAGE": "Nyob zoo, koj tau txais ib qho secret message!",
       "INSTRUCTION": "Sau thiab xa lus, nws yuav rho tawm tom qab nyeem.",
-      "SHOW_MESSAGE_ONCE": "Daim ntawv tshaj tawm yuav tshwm sim <strong>tsuas ib zaug nkaus xwb</strong>",
+      "SHOW_MESSAGE_ONCE": "Daim ntawv tshaj tawm yuav tshwm sim tsuas ib zaug nkaus xwb",
       "OPEN_SECRET_MESSAGE": "Qhib Secret Message",
       "INPUT_PASSPHRASE": "Sau Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

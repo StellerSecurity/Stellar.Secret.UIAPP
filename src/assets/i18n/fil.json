@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ibahagi ang mga lihim, at poof—nawala na!",
       
       "ENCRYPTED_PROTECTED_BY": "Na-encrypt, naka-secure, at protektado ng Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Binibigyang-daan ka ng Stellar Secret na magbahagi ng isang beses na natitingnang mga link na may sensitibong nilalaman sa isang lihim na link, na ikaw lang ang nakakaalam, at ang receiver ang nakakaalam. Ito ang pinakamahusay na paraan, upang maiwasan ang sensitibong impormasyon mula sa anumang messenger-app.",
+
       "WITHOUT_TRACE_TITLE": "Walang Bakas",
       "WITHOUT_TRACE_DESCRIPTION": "Tinitiyak namin ang matibay na proteksyon ng iyong sensitibong impormasyon. Lahat ng data ay naka-encrypt sa client-side. Hindi namin alam ang iyong IP address, kung ano ang iyong ibinabahagi, o kung kanino mo ibinabahagi ang mga lihim na link—at pinaka-mahalaga, ang nilalaman.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "I-download ang App",
       "WELCOME_MESSAGE": "Kamusta, nakatanggap ka ng lihim na mensahe!",
       "INSTRUCTION": "Isulat at ipadala ang mensahe, ito ay tatanggalin pagkatapos mabasa.",
-      "SHOW_MESSAGE_ONCE": "Ang sumusunod na mensahe ay ipapakita <strong>ng isang beses lamang</strong>",
+      "SHOW_MESSAGE_ONCE": "Ang sumusunod na mensahe ay ipapakita ng isang beses lamang",
       "OPEN_SECRET_MESSAGE": "Buksan ang Lihim na Mensahe",
       "INPUT_PASSPHRASE": "Ilagay ang Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

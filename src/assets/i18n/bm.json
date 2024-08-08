@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dɔɔnin kɛ nɛbɛ, a ka bɔ!",
       
       "ENCRYPTED_PROTECTED_BY": "Sukuran, alayen ye kɛnɛ ka Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret b’a to i bɛ se ka ɲɔgɔndanw tila ɲɔgɔn na minnu bɛ se ka ye siɲɛ kelen ni kɔnɔkow ye minnu bɛ se ka ye gundolatɔn dɔ kɔnɔ, i dɔrɔn de b’o dɔn, ani a sɔrɔbaga b’o dɔn. A ka fɛɛrɛ ɲuman ye, ka kunnafoni nafamaw bɔ ciden-application (cikan-application) bɛɛ la.",
+
       "WITHOUT_TRACE_TITLE": "Kɔrɔ yera",
       "WITHOUT_TRACE_DESCRIPTION": "N na ka fɛrɛsɛ bɔra kɛlɛya ka sigi. N bɔ min wɛrɛ, i bɔ kɛ nɛbɛ, an bɔ min nɛ fɛrɛsɛ ni bɔ kɛ i ka yɛlɛdɔ. - ka wɛrɛ bɛ bɛ.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Telecɛ app",
       "WELCOME_MESSAGE": "A ni fɔ, i bɛ nɛbɛ fɛrɛ!",
       "INSTRUCTION": "Kɛnɛ bɛ ni sɔgɔ, i bɛ sigi kɛ tɛmɛ.",
-      "SHOW_MESSAGE_ONCE": "A bɛ fɛrɛ <strong>sisan</strong>",
+      "SHOW_MESSAGE_ONCE": "A bɛ fɛrɛ sisan ",
       "OPEN_SECRET_MESSAGE": "Fɛrɛ nɛbɛ",
       "INPUT_PASSPHRASE": "Sɛbɛ",
       "PASS_PHRASE_PLACEHOLDER": "Sɛbɛ",

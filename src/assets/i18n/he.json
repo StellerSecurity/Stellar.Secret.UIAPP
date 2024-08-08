@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "שתף סודות, וחפץ—הם נעלמים!",
       
       "ENCRYPTED_PROTECTED_BY": "מוצפן, מאובטח ומוגן על ידי אבטחת כוכב",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret מאפשר לך לשתף קישורים ניתנים לצפייה חד-פעמית עם תוכן רגיש בקישור סודי, שרק אתה מכיר, והמקלט יודע. זו הדרך הטובה ביותר להרחיק מידע רגיש מכל אפליקציות מסנג'ר.",
+
       "WITHOUT_TRACE_TITLE": "ללא עקבות",
       "WITHOUT_TRACE_DESCRIPTION": "אנו מבטיחים הגנה חזקה על המידע הרגיש שלך. כל הנתונים מוצפנים בצד הלקוח. איננו יודעים את כתובת ה-IP שלך, מה אתה משתף, או עם מי אתה משתף את הקישורים הסודיים - ויותר חשוב, את התוכן.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "הורד אפליקציה",
       "WELCOME_MESSAGE": "שלום, קיבלת הודעה סודית!",
       "INSTRUCTION": "כתוב ושלח הודעה, היא תימחק לאחר הקריאה.",
-      "SHOW_MESSAGE_ONCE": "ההודעה הבאה תוצג <strong>רק פעם אחת</strong>",
+      "SHOW_MESSAGE_ONCE": "ההודעה הבאה תוצג רק פעם אחת",
       "OPEN_SECRET_MESSAGE": "פתח את ההודעה הסודית",
       "INPUT_PASSPHRASE": "הזן סיסמה",
       "PASS_PHRASE_PLACEHOLDER": "סיסמה",

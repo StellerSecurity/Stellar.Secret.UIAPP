@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deil secrets, og poof—teir eru burtur!",
       
       "ENCRYPTED_PROTECTED_BY": "Kryptert, tryggjaður og verndaður av Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ger, at tú kanst deila einaferðs síggjandi leinkjur við viðkvæmum innihaldi í eini loyniligari leinkju, sum bert tú veitst, og móttakarin veit. Tað er tann besti mátin, at halda viðkvæmar upplýsingar burtur frá øllum messenger-appum.",
+
       "WITHOUT_TRACE_TITLE": "Utan spor",
       "WITHOUT_TRACE_DESCRIPTION": "Vit tryggja sterka vernd av tínari dýrmætari upplýsingum. Allar dátur verða krypteraðar á klientsíðuni. Vit vita ikki tín IP-adressa, hvat tú deilir, ella við hvønn tú deilir secret linkarnar við - og mest umráðandi, innihaldið.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Lata niður app",
       "WELCOME_MESSAGE": "Heil og góðan dag, tú fóð títt secret boð!",
       "INSTRUCTION": "Skriv og send boð, tað verður strikað eftir at tað er upplisið.",
-      "SHOW_MESSAGE_ONCE": "Følgende boð verður sýnt <strong>bara eina ferð</strong>",
+      "SHOW_MESSAGE_ONCE": "Følgende boð verður sýnt bara eina ferð",
       "OPEN_SECRET_MESSAGE": "Opna Secret Message",
       "INPUT_PASSPHRASE": "Set Passfrasa",
       "PASS_PHRASE_PLACEHOLDER": "Passfrasa",

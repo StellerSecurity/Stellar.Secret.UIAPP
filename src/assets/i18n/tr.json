@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gizli mesajlar paylaşın, ve paf—hemen kaybolurlar!",
       
       "ENCRYPTED_PROTECTED_BY": "Şifrelenmiş, güvenli ve Gizemli Yıldız Güvenliği tarafından korunmuştur",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret, hassas içerikli tek seferlik görüntülenebilir bağlantıları yalnızca sizin bildiğiniz ve alıcının bildiği gizli bir bağlantıda paylaşmanıza olanak tanır. Hassas bilgileri herhangi bir mesajlaşma uygulamasından uzak tutmanın en iyi yoludur.",
+
       "WITHOUT_TRACE_TITLE": "İz bırakmadan",
       "WITHOUT_TRACE_DESCRIPTION": "Hassas bilgilerinizi güçlü bir şekilde koruruz. Tüm veriler istemci tarafında şifrelenir. IP adresinizi, ne paylaştığınızı veya gizli bağlantıları kiminle paylaştığınızı bilmiyoruz - ve en önemlisi, içeriği.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Uygulamayı İndir",
       "WELCOME_MESSAGE": "Merhaba, bir gizli mesaj aldınız!",
       "INSTRUCTION": "Mesajınızı yazın ve gönderin, okunduktan sonra silinecektir.",
-      "SHOW_MESSAGE_ONCE": "Aşağıdaki mesaj <strong>sadece bir kez</strong> gösterilecektir",
+      "SHOW_MESSAGE_ONCE": "Aşağıdaki mesaj sadece bir kez gösterilecektir",
       "OPEN_SECRET_MESSAGE": "Gizli Mesajı Aç",
       "INPUT_PASSPHRASE": "Şifreyi Girin",
       "PASS_PHRASE_PLACEHOLDER": "Şifre",

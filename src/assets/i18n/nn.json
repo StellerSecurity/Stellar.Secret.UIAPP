@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmelegheiter, og poff – dei er borte!",
     
       "ENCRYPTED_PROTECTED_BY": "Kryptert, sikra og beskytta av Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret lar deg dele eingongsvisingslenker med sensitivt innhald som berre du og mottakaren kjenner til. Det er den beste måten å halde sensitiv informasjon unna alle meldingstenester.",
+
       "WITHOUT_TRACE_TITLE": "Utan spor",
       "WITHOUT_TRACE_DESCRIPTION": "Vi sikrar robust verning av di sensitive informasjon. Alle data blir kryptert på klientsida. Vi kjenner ikkje IP-adressa di, kva du deler, eller kven du deler dei hemmelege lenkene med - og viktigast av alt, innhaldet.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Last ned appen",
       "WELCOME_MESSAGE": "Hei der, du har fått ein hemmeleg melding!",
       "INSTRUCTION": "Skriv og send melding, den vil bli sletta etter lesing.",
-      "SHOW_MESSAGE_ONCE": "Den følgjande meldinga vil bli vist <strong>kun ein gong</strong>",
+      "SHOW_MESSAGE_ONCE": "Den følgjande meldinga vil bli vist kun ein gong",
       "OPEN_SECRET_MESSAGE": "Opne Hemmeleg Meldinga",
       "INPUT_PASSPHRASE": "Skriv inn Passordsetning",
       "PASS_PHRASE_PLACEHOLDER": "Passordsetning",

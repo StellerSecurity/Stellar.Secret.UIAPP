@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tāpiri tūmataiti, ā, ka ngaro—kāore e kitea!",
       
       "ENCRYPTED_PROTECTED_BY": "Kia whakamarūhia, whakawhāiti, ā, tiakina e Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Ka āhei koe ki te whakamahi i Stellar Secret ki te tuku hononga titiro-kotahi me ngā mōhiohio tairongo e mōhiotia ana e koe anake me te tangata whiwhi. Koinei te huarahi pai rawa atu hei tiaki i ngā mōhiohio tairongo mai i ngā taupānga karere katoa.",
+
       "WITHOUT_TRACE_TITLE": "Kāore he tohu",
       "WITHOUT_TRACE_DESCRIPTION": "Ka mōhiotia e mātou te tiaki kaha o tō mōhiohio pēnei. Katoa ngā raraunga e whakamōhiotia ana i runga i te taha kiritaki. Kāore e mōhiotia e mātou tō IP wāhitau, he aha tāu e tohatoha ana, ā, nā wai e tohatoha ana i ngā hono tūmataiti - ā, te mea nui, te kōrero.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Tāpiri App",
       "WELCOME_MESSAGE": "Kia ora, nāu i whiwhi he karere tūmataiti!",
       "INSTRUCTION": "Tuhia me tuku te karere, ka ngaro i muri i te pānui.",
-      "SHOW_MESSAGE_ONCE": "Ka kitea te karere e whai ake nei <strong>anake i te wā kotahi</strong>",
+      "SHOW_MESSAGE_ONCE": "Ka kitea te karere e whai ake nei anake i te wā kotahi",
       "OPEN_SECRET_MESSAGE": "Tāpirihia te Tūmataiti Kōrero",
       "INPUT_PASSPHRASE": "Tāpirihia te Kupu Huna",
       "PASS_PHRASE_PLACEHOLDER": "Kupu Huna",

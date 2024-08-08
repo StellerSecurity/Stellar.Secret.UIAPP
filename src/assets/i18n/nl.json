@@ -61,6 +61,7 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deel geheimen en poef—ze zijn weg!",
       
       "ENCRYPTED_PROTECTED_BY": "Versleuteld, beveiligd en beschermd door Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Met Stellar Secret kunt u eenmalige zichtbare links delen met gevoelige content in een geheime link, die alleen u en de ontvanger kent. Het is de beste manier om gevoelige informatie uit alle messenger-apps te houden.",
       "WITHOUT_TRACE_TITLE": "Zonder spoor",
       "WITHOUT_TRACE_DESCRIPTION": "Wij zorgen voor robuuste bescherming van je gevoelige informatie. Alle gegevens worden aan de cliëntzijde versleuteld. We kennen je IP-adres niet, wat je deelt, of met wie je de geheime links deelt - en vooral de inhoud.",
       
@@ -128,7 +129,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Hallo, je hebt een geheim bericht ontvangen!",
       "INSTRUCTION": "Schrijf en stuur bericht, het zal worden verwijderd zodra gelezen.",
-      "SHOW_MESSAGE_ONCE": "Het volgende bericht wordt <strong>slechts één keer</strong> getoond",
+      "SHOW_MESSAGE_ONCE": "Het volgende bericht wordt slechts één keer getoond",
       "OPEN_SECRET_MESSAGE": "Open Geheime Bericht",
       "INPUT_PASSPHRASE": "Voer Wachtwoordzin in",
       "PASS_PHRASE_PLACEHOLDER": "Wachtwoordzin",

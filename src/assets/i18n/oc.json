@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partissi secrets, e puf—desaparisseràn!",
       
       "ENCRYPTED_PROTECTED_BY": "Encriptat, segur e protegit per la Seguretat Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret vos permet de partejar de ligams visualizables un còp amb de contengut sensible dins un ligam secret, que sonque vos coneissètz, e lo receptor o sap. Es lo melhor biais, de gardar d'informacions sensiblas fòra de totas las aplicacions messatgièras.",
+
       "WITHOUT_TRACE_TITLE": "Sens traça",
       "WITHOUT_TRACE_DESCRIPTION": "Asseguram una proteccion robusta de vòstras informacions sensiblas. Totas las donadas son encriptadas sul costat client. Sabem pas vòstre IP, çò que partejatz, ni amb qui partejatz los ligams secrets - e lo mai important, lo contengut.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Telecargar l'aplicacion",
       "WELCOME_MESSAGE": "Bona jornada, recebi un messatge secret!",
       "INSTRUCTION": "Escrivètz e enviatz lo messatge, serà suprimat un cop luòch.",
-      "SHOW_MESSAGE_ONCE": "Lo messatge seguent serà mostrada <strong>unicament un còp</strong>",
+      "SHOW_MESSAGE_ONCE": "Lo messatge seguent serà mostrada unicament un còp",
       "OPEN_SECRET_MESSAGE": "Ouvrir lo Messatge Secret",
       "INPUT_PASSPHRASE": "Introduïtz lo Mot de Passa",
       "PASS_PHRASE_PLACEHOLDER": "Mot de passa",

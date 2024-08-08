@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Shiriki siri, na poof—zimepotea!",
       
       "ENCRYPTED_PROTECTED_BY": "Imejificha, salama na kulindwa na Usalama wa Nyota",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Siri ya Stellar hukuruhusu kushiriki viungo vinavyoweza kutazamwa mara moja na maudhui nyeti katika kiungo cha siri, ambacho ni wewe pekee unajua, na mpokeaji anajua. Ndiyo njia bora zaidi, ya kuzuia taarifa nyeti kutoka kwa programu zozote za mjumbe.",
+
       "WITHOUT_TRACE_TITLE": "Bila Kidokezo",
       "WITHOUT_TRACE_DESCRIPTION": "Tunahakikisha ulinzi thabiti wa taarifa zako za nyeti. Data zote zinafichwa kwenye upande wa mteja. Hatujui anwani yako ya IP, kile unachoshiriki, au na nani unashiriki viungo vya siri - na muhimu zaidi, maudhui.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Pakua Programu",
       "WELCOME_MESSAGE": "Habari, umepokea ujumbe wa siri!",
       "INSTRUCTION": "Andika na tuma ujumbe, utakuwa umefutwa mara baada ya kusomwa.",
-      "SHOW_MESSAGE_ONCE": "Ujumbe ufuatao utaonyeshwa <strong>mara moja tu</strong>",
+      "SHOW_MESSAGE_ONCE": "Ujumbe ufuatao utaonyeshwa mara moja tu",
       "OPEN_SECRET_MESSAGE": "Fungua Ujumbe wa Siri",
       "INPUT_PASSPHRASE": "Ingiza Nenosiri",
       "PASS_PHRASE_PLACEHOLDER": "Nenosiri",

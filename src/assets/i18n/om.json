@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Seerota qooduu, achi booda—gonee!",
     
       "ENCRYPTED_PROTECTED_BY": "Nyaatamuu, eegu fi eegamuu Sirna Seeraa",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret hidhannoo yeroo tokko ilaalamuu danda'an qabiyyee miira namaa kakaasu waliin hidhaa dhoksaa keessatti, kan ati qofti beektu, fi fudhataan beeku akka qooddattu si dandeessisa. Karaan isaa isa hunda caalu, odeeffannoo miiraa ergamaa-apps kamiyyuu irraa akka hin baane gochuu.",
+
       "WITHOUT_TRACE_TITLE": "Barbaachisummaa Male",
       "WITHOUT_TRACE_DESCRIPTION": "Osoo dhugaa kee ilaalcha hin qabnu, odeeffannoon kee hunda kaanii hin beeynu. Odeeffannoo hunda client-irratti amansiisaa ta'ee ni eeggama. IP kee, maal qooduu fi eenyu waliin qoodaa akka ta'e, fi akkaataa isiinii yeroo barbaachisaa waliin hunda.",
     
@@ -127,7 +129,7 @@
       "DOWNLOAD_APP": "App Fayyadami",
       "WELCOME_MESSAGE": "Baga Nagaan Dhuftan, ergaa sirrii argatte!",
       "INSTRUCTION": "Barreessi fi ergaa erguu, ka'umsa booda haquu.",
-      "SHOW_MESSAGE_ONCE": "Ergaa armaan gadi <strong>yeroo tokko qofa</strong> agarsiifama",
+      "SHOW_MESSAGE_ONCE": "Ergaa armaan gadi yeroo tokko qofa agarsiifama",
       "OPEN_SECRET_MESSAGE": "Ergaa Sirrii Banuu",
       "INPUT_PASSPHRASE": "Gola Galchi",
       "PASS_PHRASE_PLACEHOLDER": "Gola",

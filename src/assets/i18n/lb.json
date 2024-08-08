@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deelt Geheimnisse, an poof—si sinn fort!",
       
       "ENCRYPTED_PROTECTED_BY": "Verschlësselt, geséchert an geschützt duerch Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret erlaabt Iech eng Kéier sichtbar Linken mat sensiblen Inhalt an engem geheime Link ze deelen, deen nëmmen Dir wësst, an den Empfänger weess. Et ass de beschte Wee fir sensibel Informatioun aus all Messenger-Apps ze halen.",
+
       "WITHOUT_TRACE_TITLE": "Ohne Spuer",
       "WITHOUT_TRACE_DESCRIPTION": "Mir garantéieren robust Schutz fir Äre sensiblen Informatiounen. All Daten ginn um Client-Side verschlësselt. Mir kennen Ären IP-Adress net, wat Dir deelt oder mat wien Dir d'Geheimlinke deelt - an am wichtegsten, de Inhalt.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "App eroflueden",
       "WELCOME_MESSAGE": "Salut, Dir hutt eng geheim Nachricht kritt!",
       "INSTRUCTION": "Schreift an schéckt Message, et gëtt geläscht wann gelies.",
-      "SHOW_MESSAGE_ONCE": "Déi folgend Nachricht gëtt <strong>nëmmen eemol</strong> gewisen",
+      "SHOW_MESSAGE_ONCE": "Déi folgend Nachricht gëtt nëmmen eemol gewisen",
       "OPEN_SECRET_MESSAGE": "Geheim Message opmaachen",
       "INPUT_PASSPHRASE": "Passphrase aginn",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

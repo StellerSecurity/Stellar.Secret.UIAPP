@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Bagikan rahasia, dan hilang begitu saja!",
     
       "ENCRYPTED_PROTECTED_BY": "Terenkripsi, aman dan dilindungi oleh Keamanan Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret memungkinkan Anda untuk berbagi tautan yang dapat dilihat satu kali dengan konten sensitif dalam tautan rahasia, yang hanya Anda dan penerimanya yang tahu. Ini adalah cara terbaik untuk menjaga informasi sensitif tidak masuk ke aplikasi messenger mana pun.",
+
       "WITHOUT_TRACE_TITLE": "Tanpa Jejak",
       "WITHOUT_TRACE_DESCRIPTION": "Kami memastikan perlindungan yang kuat terhadap informasi sensitif Anda. Semua data dienkripsi di sisi klien. Kami tidak mengetahui alamat IP Anda, apa yang Anda bagikan, atau kepada siapa Anda membagikan tautan rahasia - dan yang paling penting, kontennya.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Unduh Aplikasi",
       "WELCOME_MESSAGE": "Halo, Anda menerima pesan rahasia!",
       "INSTRUCTION": "Tulis dan kirim pesan, itu akan dihapus setelah dibaca.",
-      "SHOW_MESSAGE_ONCE": "Pesan berikut akan ditampilkan <strong>hanya sekali</strong>",
+      "SHOW_MESSAGE_ONCE": "Pesan berikut akan ditampilkan hanya sekali",
       "OPEN_SECRET_MESSAGE": "Buka Pesan Rahasia",
       "INPUT_PASSPHRASE": "Masukkan Kata Sandi",
       "PASS_PHRASE_PLACEHOLDER": "Kata Sandi",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partagez des secrets, et pouf—ils disparaissent !",
       
       "ENCRYPTED_PROTECTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret vous permet de partager des liens visibles une seule fois avec du contenu sensible dans un lien secret, que vous seul connaissez et que le destinataire connaît. C'est le meilleur moyen de garder les informations sensibles à l'écart de toutes les applications de messagerie.",
+
       "WITHOUT_TRACE_TITLE": "Sans laisser de trace",
       "WITHOUT_TRACE_DESCRIPTION": "Nous assurons une protection robuste de vos informations sensibles. Toutes les données sont chiffrées côté client. Nous ne connaissons pas votre adresse IP, ce que vous partagez, ni avec qui vous partagez les liens secrets - et surtout, le contenu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Télécharger l'application",
       "WELCOME_MESSAGE": "Bonjour, vous avez reçu un message secret !",
       "INSTRUCTION": "Écrivez et envoyez le message, il sera supprimé une fois lu.",
-      "SHOW_MESSAGE_ONCE": "Le message suivant sera affiché <strong>uniquement une fois</strong>",
+      "SHOW_MESSAGE_ONCE": "Le message suivant sera affiché uniquement une fois",
       "OPEN_SECRET_MESSAGE": "Ouvrir le message secret",
       "INPUT_PASSPHRASE": "Saisir le mot de passe",
       "PASS_PHRASE_PLACEHOLDER": "Mot de passe",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Roinn na rìbhinn, agus poof—tha iad air falbh!",
       
       "ENCRYPTED_PROTECTED_BY": "Cuirpichte, tèarainte agus dìon le Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Tha Stellar Secret a' leigeil leat ceanglaichean a tha ri fhaicinn aon uair a cho-roinn le susbaint freagairteach ris am faod thu agus an neach-faighinn a-mhàin faighinn freagairt. 'S e seo an dòigh as fheàrr air freagairteach fiosrachadh a chumail às na freagairtean app sam bith.",
+
       "WITHOUT_TRACE_TITLE": "Gun trassa",
       "WITHOUT_TRACE_DESCRIPTION": "Bidh sinn a' dèanamh cinnteach gu bheil dìon làidir air do fhiosrachadh mothachail. Tha an dàta air a churpachadh air an taobh cliant. Chan eil fios againn air do sheòladh IP, dè na tha thu a’ roinn, no cò leis a tha thu a’ roinn na ceanglaichean rìbhinn - agus nas cudromaiche, an susbaint.",
       
@@ -127,7 +129,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Halò, fhuair thu teachdaireachd rìbhinn!",
       "INSTRUCTION": "Scribe agus cuir a’ theachdaireachd, bidh e air a dhubhadh às às dèidh a leughadh.",
-      "SHOW_MESSAGE_ONCE": "Nochdaidh an teachdaireachd a leanas <strong>aon uair a-mhàin</strong>",
+      "SHOW_MESSAGE_ONCE": "Nochdaidh an teachdaireachd a leanas aon uair a-mhàin",
       "OPEN_SECRET_MESSAGE": "Furasta Teachdaireachd Rìbhinn",
       "INPUT_PASSPHRASE": "Cuir a-steach Freagairtean",
       "PASS_PHRASE_PLACEHOLDER": "Freagairtean",

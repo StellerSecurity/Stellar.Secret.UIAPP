@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deildu leyndarmálum, og puf—þau eru horfin!",
       
       "ENCRYPTED_PROTECTED_BY": "Dulkóðað, öruggt og varið af Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret gerir þér kleift að deila einu sinni sýnilegum tenglum með viðkvæmu efni í leynilegum hlekk, sem aðeins þú þekkir og viðtakandinn veit. Það er besta leiðin til að halda viðkvæmum upplýsingum frá hvaða boðberaforritum sem er.",
+
       "WITHOUT_TRACE_TITLE": "Án spor",
       "WITHOUT_TRACE_DESCRIPTION": "Við tryggjum sterka vernd á næmri upplýsingum þínum. Öll gögn eru dulkóðuð á viðskiptavinasíðu. Við vitum ekki IP-tölu þína, hvað þú deilir eða hverju þú deilir leyndarmálstenglum - og mikilvægt, innihaldinu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Sæktu forritið",
       "WELCOME_MESSAGE": "Halló, þú fékkst leyndarmálsskilaboð!",
       "INSTRUCTION": "Skrifaðu og sendu skilaboðin, þau verða eytt eftir lestur.",
-      "SHOW_MESSAGE_ONCE": "Eftirfarandi skilaboð verða sýnd <strong>einungis einu sinni</strong>",
+      "SHOW_MESSAGE_ONCE": "Eftirfarandi skilaboð verða sýnd einungis einu sinni",
       "OPEN_SECRET_MESSAGE": "Opna leyndarmálsskilaboð",
       "INPUT_PASSPHRASE": "Sláðu inn lykilorð",
       "PASS_PHRASE_PLACEHOLDER": "Lykilorð",

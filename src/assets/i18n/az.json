@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gizli məlumatları paylaşın, və bam - getdi!",
       
       "ENCRYPTED_PROTECTED_BY": "Şifrlənmiş, qorunmuş və Stellar Təhlükəsizliyi tərəfindən qorunur",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret sizə yalnız siz və alıcının bildiyi bir gizli bağlantıda həssas məzmunu bir dəfə baxıla bilən bağlantılar şəklində paylaşmağa imkan verir. Bu, həssas məlumatları hər hansı bir mesajlaşma tətbiqindən uzaq tutmağın ən yaxşı yoludur",
+
       "WITHOUT_TRACE_TITLE": "İz olmadan",
       "WITHOUT_TRACE_DESCRIPTION": "Həssas məlumatlarınızın güclü qorunmasını təmin edirik. Bütün məlumatlar müştəri tərəfində şifrlənir. Biz sizin IP ünvanınızı, nəyi paylaşdığınızı və kimlərlə paylaşdığınızı bilmirik - və ən önəmlisi, məzmunu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Tətbiqi Yüklə",
       "WELCOME_MESSAGE": "Salam, siz gizli mesaj aldınız!",
       "INSTRUCTION": "Mesajınızı yazın və göndərin, o oxunduqdan sonra silinəcək.",
-      "SHOW_MESSAGE_ONCE": "Aşağıdakı mesaj <strong>yalnız bir dəfə</strong> göstəriləcək",
+      "SHOW_MESSAGE_ONCE": "Aşağıdakı mesaj yalnız bir dəfə göstəriləcək",
       "OPEN_SECRET_MESSAGE": "Gizli Mesajı Açın",
       "INPUT_PASSPHRASE": "Şifrə İfadesini Daxil Edin",
       "PASS_PHRASE_PLACEHOLDER": "Şifrə İfadesi",

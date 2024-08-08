@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Comparte secretos, ha poof—ha'ete!",
       
       "ENCRYPTED_PROTECTED_BY": "Encriptado, protegido ha guardado por Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret oheja ndéve ekomparti umi enlace ojehechakuaáva peteĩ jey contenido sensitivo reheve peteĩ enlace secreto-pe, nde añoite reikuaáva, ha pe receptor oikuaáva. Ha’e tape iporãvéva, eñongatu hag̃ua marandu sensitivo okápe oimeraẽ mensajero-aplicaciones-gui.",
+
       "WITHOUT_TRACE_TITLE": "Sin Rastro",
       "WITHOUT_TRACE_DESCRIPTION": "Ore ha'eve heta proteção para tu información sensible. Todos datos están encriptados en el lado del cliente. No sabemos tu IP dirección, mba'éichapa reipota, ni mba'éichapa reipota umi secreto links - ha más importante, el contenido.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Mba'eteko, rehuvaite peteĩ secreto mensaja!",
       "INSTRUCTION": "Escribe ha envia el mensaje, ojehecha porá",
-      "SHOW_MESSAGE_ONCE": "El mensaje ojehecha <strong>unavez</strong> peve",
+      "SHOW_MESSAGE_ONCE": "El mensaje ojehecha unavez peve",
       "OPEN_SECRET_MESSAGE": "Abrir Secreto Mensaje",
       "INPUT_PASSPHRASE": "Ingresa Frase Secreta",
       "PASS_PHRASE_PLACEHOLDER": "Frase Secreta",

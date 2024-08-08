@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sangira amabanga, kandi poof—arasezeye!",
       
       "ENCRYPTED_PROTECTED_BY": "Yahishwe, yizewe kandi irinzwe na Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Ibanga rya Stellar ryemerera gusangira inshuro imwe igaragara ihuza nibintu byoroshye mumurongo wibanga, ibyo gusa urabizi, kandi uwakiriye arabizi. Nuburyo bwiza cyane, kugirango amakuru yunvikana hanze yintumwa-porogaramu zose.",
+
       "WITHOUT_TRACE_TITLE": "Nta gitekerezo",
       "WITHOUT_TRACE_DESCRIPTION": "Tugira umutekano ukomeye w’amakuru yawe yihariye. Amakuru yose arakunzwe ku ruhande rw’umukiriya. Nta kintu tuzi ku kugaragaza IP yawe, ibyo usangira, cyangwa uwo usangira imiyoboro y’ibanga nayo—n'ibikomeye, ibikubiye muri byo.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Kuramo Porogaramu",
       "WELCOME_MESSAGE": "Muraho, wakiriye ubutumwa bw’ibanga!",
       "INSTRUCTION": "Andika kandi ohereza ubutumwa, buzakurwaho nyuma yo gusomwa.",
-      "SHOW_MESSAGE_ONCE": "Ubutumwa bukurikira buzerekana <strong>rimwe gusa</strong>",
+      "SHOW_MESSAGE_ONCE": "Ubutumwa bukurikira buzerekana rimwe gusa",
       "OPEN_SECRET_MESSAGE": "Fungura Ubutumwa Bw’ibanga",
       "INPUT_PASSPHRASE": "Shyiramo Ijambo ry’ibanga",
       "PASS_PHRASE_PLACEHOLDER": "Ijambo ry’ibanga",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ossza meg a titkokat, és puff—eltűnnek!",
       
       "ENCRYPTED_PROTECTED_BY": "Titkosítva, biztosítva és védve a Stellar Security által",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"A Stellar Secret lehetővé teszi, hogy egyszeri megtekinthető linkeket osszon meg érzékeny tartalommal egy titkos linken, amelyet csak Ön ismer, és a fogadó tud. Ez a legjobb módja annak, hogy távol tartsa az érzékeny információkat az üzenetküldő alkalmazásoktól.",
+
       "WITHOUT_TRACE_TITLE": "Nyom nélkül",
       "WITHOUT_TRACE_DESCRIPTION": "Biztosítjuk az érzékeny információk erős védelmét. Minden adatot titkosítunk az ügyfélnél. Nem tudjuk az IP címét, mit oszt meg, vagy kivel osztja meg a titkos linkeket - és ami a legfontosabb, a tartalmat sem.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Alkalmazás letöltése",
       "WELCOME_MESSAGE": "Helló, kaptál egy titkos üzenetet!",
       "INSTRUCTION": "Írja és küldje el az üzenetet, törölni fogják, amint elolvassa.",
-      "SHOW_MESSAGE_ONCE": "A következő üzenet csak <strong>egyszer</strong> lesz látható",
+      "SHOW_MESSAGE_ONCE": "A következő üzenet csak egyszer lesz látható",
       "OPEN_SECRET_MESSAGE": "Titkos Üzenet Megnyitása",
       "INPUT_PASSPHRASE": "Jelszó megadása",
       "PASS_PHRASE_PLACEHOLDER": "Jelszó",

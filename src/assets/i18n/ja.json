@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "秘密を共有し、さようなら！",
       
       "ENCRYPTED_PROTECTED_BY": "ステラ・セキュリティによって暗号化、保護されています",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"ステラ・シークレット を使用すると、機密コンテンツを含む 1 回限りの表示可能なリンクを、あなたと受信者だけが知っている秘密のリンクで共有できます。これは、機密情報をメッセンジャー アプリから遮断する最善の方法です。",
+
       "WITHOUT_TRACE_TITLE": "痕跡なし",
       "WITHOUT_TRACE_DESCRIPTION": "私たちは、あなたの敏感な情報をしっかり保護します。すべてのデータはクライアント側で暗号化されます。私たちはあなたのIPアドレス、あなたが何を共有しているか、また誰と共有しているかを知りません - そして最も重要なのは、コンテンツです。",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "アプリをダウンロード",
       "WELCOME_MESSAGE": "こんにちは、秘密のメッセージを受け取りました！",
       "INSTRUCTION": "メッセージを書いて送信すると、それは読まれた後に削除されます。",
-      "SHOW_MESSAGE_ONCE": "以下のメッセージは<strong>一度だけ表示</strong>されます",
+      "SHOW_MESSAGE_ONCE": "以下のメッセージは一度だけ表示されます",
       "OPEN_SECRET_MESSAGE": "秘密のメッセージを開く",
       "INPUT_PASSPHRASE": "パスフレーズを入力",
       "PASS_PHRASE_PLACEHOLDER": "パスフレーズ",

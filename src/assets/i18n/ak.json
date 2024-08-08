@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kyɛ nkɔnsɔnkɔnsɔn, na ɛkɔ!",
       
       "ENCRYPTED_PROTECTED_BY": "Ehyɛ yɛn ho ban na yɛn hyɛ Stellar Security so",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ma w’anya ɔkwan a ɛyɛ kɛse sɛ wɔde link a ɛda ho adi kɔma ɔbarima koro pɛ na ɛda ho adi, a ɛnyɛ w’ankasa na ɔyɛ nkyerɛkyerɛ. Ɛyɛ ɔkwan pa ara a ɛyɛ sɛ wopɛ sɛ wode nsɛm a ɛyɛ sɛ nkɔmɔ a ɛyɛ hɔ pɛ fi nkɔmɔ-apps nyinaa.",
+
       "WITHOUT_TRACE_TITLE": "Nni akwan",
       "WITHOUT_TRACE_DESCRIPTION": "Yɛhyɛ nkɔnsɔnkɔnsɔn ahotɔ wɔ wo sensitive information no. Data nyinaa wɔ client-side so. Yɛnte wo IP address, nea wopɛ sɛ wosian anaa wɔn a wɔkyɛ secret links no - na nsɛm a ɛda ho.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Sɔ App no",
       "WELCOME_MESSAGE": "Afehyia pa, wunya secret message!",
       "INSTRUCTION": "Kyerɛ na to message no, ɛbɛyɛ deleted bere a ɛda ho.",
-      "SHOW_MESSAGE_ONCE": "Ná message a ɛda ho pɛ <strong>da koro pɛ</strong>",
+      "SHOW_MESSAGE_ONCE": "Ná message a ɛda ho pɛ da koro pɛ",
       "OPEN_SECRET_MESSAGE": "Bue Secret Message",
       "INPUT_PASSPHRASE": "Tɔ Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

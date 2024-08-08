@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Share secrets, and poof—they're gone!",
       
       "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret de alaw yu fɔ sheb link dɛn we yu kin si wan tɛm wit sɛnsitiv kɔntinyu na sikrit link, we na yu nɔmɔ no, ɛn di pɔsin we gɛt am no. Its di bes we, fɔ kip sɛnsitiv infɔmeshɔn aut frɔm ɛni mɛsenja-ap.",
+
       "WITHOUT_TRACE_TITLE": "Without a trace",
       "WITHOUT_TRACE_DESCRIPTION": "We make sure say your sensitive information dey well protected. All data dey encrypted for client-side. We no sabi your IP address, wetin you dey share, or who you dey share di secret links with - and most important, di content.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Hi, you don receive one secret message!",
       "INSTRUCTION": "Write and send message, e go delete once read.",
-      "SHOW_MESSAGE_ONCE": "Di following message go show <strong>only once</strong>",
+      "SHOW_MESSAGE_ONCE": "Di following message go show only once",
       "OPEN_SECRET_MESSAGE": "Open Secret Message",
       "INPUT_PASSPHRASE": "Input Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

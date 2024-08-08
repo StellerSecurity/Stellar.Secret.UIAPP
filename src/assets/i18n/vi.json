@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Chia sẻ bí mật và biến mất ngay lập tức!",
       
       "ENCRYPTED_PROTECTED_BY": "Được mã hóa, bảo mật và bảo vệ bởi Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret cho phép bạn chia sẻ các liên kết có thể xem một lần với nội dung nhạy cảm trong một liên kết bí mật mà chỉ bạn biết và người nhận biết. Đây là cách tốt nhất để giữ thông tin nhạy cảm khỏi bất kỳ ứng dụng nhắn tin nào.",
+
       "WITHOUT_TRACE_TITLE": "Không dấu vết",
       "WITHOUT_TRACE_DESCRIPTION": "Chúng tôi đảm bảo bảo vệ mạnh mẽ thông tin nhạy cảm của bạn. Tất cả dữ liệu được mã hóa phía máy khách. Chúng tôi không biết địa chỉ IP của bạn, những gì bạn chia sẻ, hoặc bạn chia sẻ liên kết bí mật với ai - và quan trọng nhất, nội dung.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Tải ứng dụng",
       "WELCOME_MESSAGE": "Chào bạn, bạn đã nhận được một tin nhắn bí mật!",
       "INSTRUCTION": "Viết và gửi tin nhắn, nó sẽ được xóa sau khi đọc.",
-      "SHOW_MESSAGE_ONCE": "Tin nhắn sau đây sẽ chỉ được hiển thị <strong>một lần</strong>",
+      "SHOW_MESSAGE_ONCE": "Tin nhắn sau đây sẽ chỉ được hiển thị một lần",
       "OPEN_SECRET_MESSAGE": "Mở Tin nhắn Bí mật",
       "INPUT_PASSPHRASE": "Nhập Mật khẩu",
       "PASS_PHRASE_PLACEHOLDER": "Mật khẩu",

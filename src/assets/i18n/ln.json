@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Zwaka masolo, mpe poof—ezangi awa!",
       
       "ENCRYPTED_PROTECTED_BY": "Ekomi, ebotami mpe ekoki na Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret epesaka yo nzela ya kokabola ba liens oyo okoki kotala mbala moko na makambo ya sensibles na lien moko ya sekele, oyo kaka yo nde oyebi, mpe moyambi nde ayebi. Ya ye lolenge ya malamu koleka, mpo na kobatela ba informations sensibles libanda na ba messenger-apps nionso.",
+
       "WITHOUT_TRACE_TITLE": "Na nzela te",
       "WITHOUT_TRACE_DESCRIPTION": "Tozali kokitisa nzela ya makasi mpo na biloko ya makambo ya sika. Bato nyonso balekaki na client-side. Tozali na mayele te pona IP yo, yango okomaki, to ye oyekoli masolo na ba lien - mpe nsima, contenu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Kokoma App",
       "WELCOME_MESSAGE": "Mbote, o received masolo ya sika!",
       "INSTRUCTION": "Koma mpe kenda masolo, ekosala pamba soki esimbi.",
-      "SHOW_MESSAGE_ONCE": "Masolo oyo ekoyaka <strong>mbala moko</strong> kaka",
+      "SHOW_MESSAGE_ONCE": "Masolo oyo ekoyaka mbala moko kaka",
       "OPEN_SECRET_MESSAGE": "Luka Masolo ya Sika",
       "INPUT_PASSPHRASE": "Koma Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

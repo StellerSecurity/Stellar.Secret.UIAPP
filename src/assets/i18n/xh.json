@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Yabelana ngemicimbi, kwaye phofu—zilahle!",
     
       "ENCRYPTED_PROTECTED_BY": "Ukuqinisekiswa, kuqinisekisiwe kwaye kuvikelwe yiStellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Imfihlo ye-Stellar ikuvumela ukuba wabelane ngexesha elinye amakhonkco anokubonwa kunye nomxholo obuthathaka kwikhonkco eliyimfihlo, owaziyo kuphela, kwaye umamkeli uyazi. Yeyona ndlela ilungileyo, ukugcina ulwazi olunovakalelo ngaphandle nakwesiphi na isithunywa-apps.",
+
       "WITHOUT_TRACE_TITLE": "Ngaphandle kweziqhumiso",
       "WITHOUT_TRACE_DESCRIPTION": "Siqinisekisa ukuvikelwa okuphezulu kweenkcukacha zakho ezibucayi. Yonke idatha ihlaziywa kwindawo yomthengi. Asazi i-IP yakho, into oyabelana ngayo, okanye kubani oyabelana naye ngale miqolo yeemfihlo - kwaye okubalulekileyo, umxholo.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Landa iApp",
       "WELCOME_MESSAGE": "Molo, ufumene umyalezo wemfihlo!",
       "INSTRUCTION": "Bhala kwaye uthumele umyalezo, uya kuba ususiwe uma ufundiwe.",
-      "SHOW_MESSAGE_ONCE": "Umyalezo olandelayo uya kuboniswa <strong>kanye kuphela</strong>",
+      "SHOW_MESSAGE_ONCE": "Umyalezo olandelayo uya kuboniswa kanye kuphela",
       "OPEN_SECRET_MESSAGE": "Vula Umyalezo Wemfihlo",
       "INPUT_PASSPHRASE": "Faka iPhasiwedi",
       "PASS_PHRASE_PLACEHOLDER": "Iphasiwedi",

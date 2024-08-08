@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kekọrịta ozi, na poof—ha na-apụ!",
       
       "ENCRYPTED_PROTECTED_BY": "Edebere, echebe ma zere site na Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Nzuzo Stellar na-enye gị ohere ịkekọrịta njikọ nwere ike ịhụ otu oge yana ọdịnaya nwere mmetụta na njikọ nzuzo, nke naanị gị maara, yana onye nnata maara. Ụzọ ya kacha mma, idobe ozi dị nro na ngwa ozi-ngwa ọ bụla.",
+
       "WITHOUT_TRACE_TITLE": "Na-enweghị mkpụrụ",
       "WITHOUT_TRACE_DESCRIPTION": "Anyị na-eme ka nchekwa siri ike nke ozi gị. A na-encrypt data niile na ndị na-ahụ anya. Anyị amaghị adreesị IP gị, ihe ị na-ekekọrịta, ma ọ bụ onye ị na-ekekọrịta njikọ nzuzo ahụ - na nke kachasị mkpa, ọdịnaya ahụ.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Budata ngwa",
       "WELCOME_MESSAGE": "Ndewo, ị natara ozi nzuzo!",
       "INSTRUCTION": "Dee ma zipu ozi, a ga-eme ya",
-      "SHOW_MESSAGE_ONCE": "Ozi ndị a ga-egosi <strong>otu oge</strong> naanị",
+      "SHOW_MESSAGE_ONCE": "Ozi ndị a ga-egosi otu oge naanị",
       "OPEN_SECRET_MESSAGE": "Meghee Ozi Nzuzo",
       "INPUT_PASSPHRASE": "Tinye Okwu Nzuzo",
       "PASS_PHRASE_PLACEHOLDER": "Okwu nzuzo",

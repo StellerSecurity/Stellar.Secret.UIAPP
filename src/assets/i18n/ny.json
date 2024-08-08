@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gawani zinsinsi, ndipo zidzakhala zothamangira!",
     
       "ENCRYPTED_PROTECTED_BY": "Zikufichidwa, chitetezo ndi chitetezo ndi Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ikukuthandizani kugawira maulendo a maulendo okhoza kuwonetsedwa kamodzi okhala ndi zinthu zosagwirizana zomwe inu ndi wolandira mukudziwa zokha. Ndizoyenera kwambiri kusunga zambiri zazinsinsi kuti zisathekeke mu mapulogalamu aliwonse a uthenga.",
+
       "WITHOUT_TRACE_TITLE": "Popanda chizindikiro",
       "WITHOUT_TRACE_DESCRIPTION": "Tikhazikitsa chitetezo chogwira pa zidziwitso zanu zokhudza. Zonse zimakhala zikufichidwa pa mbali ya makasitomala. Sitidziwa IP yanu, zomwe mukugawana, kapena amene mukugawana nawo maulalo achinsinsi - ndipo chofunika kwambiri, zomwe zikuphatikizidwa.",
     
@@ -127,7 +129,7 @@
       "DOWNLOAD_APP": "Chotsani App",
       "WELCOME_MESSAGE": "Moni, mwalandira uthenga wachinsinsi!",
       "INSTRUCTION": "Lembani ndikugawana uthenga, zidzakhalapo chotsedwa mutakhala mukuwona.",
-      "SHOW_MESSAGE_ONCE": "Uthenga un following udayamba <strong>kamodzi kokha</strong>",
+      "SHOW_MESSAGE_ONCE": "Uthenga un following udayamba kamodzi kokha",
       "OPEN_SECRET_MESSAGE": "Tsegulani Uthenga Wachinsinsi",
       "INPUT_PASSPHRASE": "Lembani Chinsinsi",
       "PASS_PHRASE_PLACEHOLDER": "Chinsinsi",

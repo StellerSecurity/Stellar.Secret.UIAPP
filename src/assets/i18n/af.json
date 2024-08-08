@@ -61,6 +61,7 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deel geheime boodskappe, en poef—hulle is weg!",
       
       "ENCRYPTED_PROTECTED_BY": "Enkripteer, beveilig en beskerm deur Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret laat jou toe om eenmalig besigtelike skakels met sensitiewe inhoud te deel in 'n geheime skakel, wat net jy en die ontvanger weet. Dit is die beste manier om sensitiewe inligting uit enige boodskap-apps te hou.",
       "WITHOUT_TRACE_TITLE": "Sonder 'n spoor",
       "WITHOUT_TRACE_DESCRIPTION": "Ons verseker robuuste beskerming van jou sensitiewe inligting. Alle data word aan die kliëntkant enkripteer. Ons weet nie jou IP-adres, wat jy deel, of met wie jy die geheime skakels deel nie - en die belangrikste, die inhoud.",
       
@@ -128,7 +129,7 @@
       "DOWNLOAD_APP": "Laai App Af",
       "WELCOME_MESSAGE": "Hallo daar, jy het 'n geheime boodskap ontvang!",
       "INSTRUCTION": "Skryf en stuur boodskap, dit sal verwyder word nadat dit gelees is.",
-      "SHOW_MESSAGE_ONCE": "Die volgende boodskap sal <strong>net een keer</strong> vertoon word",
+      "SHOW_MESSAGE_ONCE": "Die volgende boodskap sal net een keer vertoon word",
       "OPEN_SECRET_MESSAGE": "Open Geheime Boodskap",
       "INPUT_PASSPHRASE": "Voer Wagwoord In",
       "PASS_PHRASE_PLACEHOLDER": "Wagwoord",

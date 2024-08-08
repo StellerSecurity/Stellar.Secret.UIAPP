@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Tɔgbɔ le secret la, na poof—woaʋɛ o!",
       
       "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret na be nàte ŋu ama kadodo siwo woate ŋu akpɔ zi ɖeka kple nyatakaka veviwo le kadodo ɣaɣla aɖe me, si wò ɖeka koe nya, eye amesi xɔe la nya. Eƒe mɔ nyuitɔ kekeake, be woana nyatakaka veviwo nado le messenger-apps ɖesiaɖe me.",
+
       "WITHOUT_TRACE_TITLE": "Metsɔ aɖe",
       "WITHOUT_TRACE_DESCRIPTION": "Miaɖuɖe nye wɔmɔaɖo kple ɖaɖa me. Fie dzidziwo yɛ encrypted na client-side. Memaɖi wò IP address, amɛ woŋɔ, eye wò nya secret links me – kple agbɔ, nɛkpɔ.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Hi there, wò ŋɔ a secret message!",
       "INSTRUCTION": "Kɔ eye send message, eya be eɖe once read.",
-      "SHOW_MESSAGE_ONCE": "Eyi message la bɛ ye <strong>one-time</strong>",
+      "SHOW_MESSAGE_ONCE": "Eyi message la bɛ ye one-time",
       "OPEN_SECRET_MESSAGE": "Open Secret Message",
       "INPUT_PASSPHRASE": "Input Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

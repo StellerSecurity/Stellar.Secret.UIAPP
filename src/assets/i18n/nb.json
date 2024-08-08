@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmeligheter, og poof—de er borte!",
       
       "ENCRYPTED_PROTECTED_BY": "Kryptert, sikret og beskyttet av Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret lar deg dele engangsvisningslenker med sensitivt innhold som bare du og mottakeren kjenner til. Det er den beste måten å holde sensitiv informasjon unna enhver meldingsapp.",
+
       "WITHOUT_TRACE_TITLE": "Uten spor",
       "WITHOUT_TRACE_DESCRIPTION": "Vi sikrer robust beskyttelse av din sensitive informasjon. Alle data krypteres på klientsiden. Vi vet ikke din IP-adresse, hva du deler, eller hvem du deler de hemmelige lenkene med - og viktigst av alt, innholdet.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Last ned app",
       "WELCOME_MESSAGE": "Hei, du har mottatt en hemmelig melding!",
       "INSTRUCTION": "Skriv og send melding, den vil bli slettet når den er lest.",
-      "SHOW_MESSAGE_ONCE": "Den følgende meldingen vil bli vist <strong>bare én gang</strong>",
+      "SHOW_MESSAGE_ONCE": "Den følgende meldingen vil bli vist bare én gang",
       "OPEN_SECRET_MESSAGE": "Åpne hemmelig melding",
       "INPUT_PASSPHRASE": "Skriv inn passordfrase",
       "PASS_PHRASE_PLACEHOLDER": "Passordfrase",

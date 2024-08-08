@@ -8,6 +8,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gyzyklar paýlaşyň, we ýok!",
       
       "ENCRYPTED_PROTECTED_BY": "Şifrlendi, howpsuz we Stellar Howpsuzlygy bilen goraldy",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"“Stellar Secret”, diňe bilýän we kabul edijiniň bilýän gizlin baglanyşygynda duýgur mazmunly bir gezeklik görünýän baglanyşyklary paýlaşmaga mümkinçilik berýär. Iň oňat usuly, duýgur maglumatlary islendik habarçy-programmalardan daşlaşdyrmak.",
+
       "WITHOUT_TRACE_TITLE": "Izi galmazdan",
       "WITHOUT_TRACE_DESCRIPTION": "Siziň duýgur maglumatlaryňyzy berkitmek üçin güýçli gorag berýäris. Bar bolan maglumat müşderi tarapdan şifrlenýär. Biz sizniň IP salgynyňyzy, näme paýlaşýandygyňyzy ýa-da kim bilen paýlaşýandygyňyzy bilmeýäris - we iň möhümi, mazmuny.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Ýüklemek üçin programma",
       "WELCOME_MESSAGE": "Salam, gizyk habar aldyňyz!",
       "INSTRUCTION": "Habary ýazyp we iberiň, ol okalan soň ýok bolar.",
-      "SHOW_MESSAGE_ONCE": "Aşakdaky habar <strong>bir gezek</strong> görkeziler",
+      "SHOW_MESSAGE_ONCE": "Aşakdaky habar bir gezek görkeziler",
       "OPEN_SECRET_MESSAGE": "Gizyk habary açyň",
       "INPUT_PASSPHRASE": "Parol giriziň",
       "PASS_PHRASE_PLACEHOLDER": "Parol",

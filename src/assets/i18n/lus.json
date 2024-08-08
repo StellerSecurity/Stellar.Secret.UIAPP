@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Chhiar leh a hmel loh chuan a hmu a, a hma lo!",
       
       "ENCRYPTED_PROTECTED_BY": "Stellar Security chuan a chhuak leh a pakhat a hman",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret hian vawi khata en theih link te chu secret link-ah sensitive content nen share theih a ni a, chu chu nangmah chauhin i hria a, a dawngtu pawhin a hre bawk. A kawng tha ber, eng messenger-apps atanga sensitive information chhuah loh nan.",
+
       "WITHOUT_TRACE_TITLE": "Trace a lo thil a",
       "WITHOUT_TRACE_DESCRIPTION": "I chhantu chu a hlauhawm a hmu a, chhinchhawn leh in chhuak a phal bawk. Kan IP address, chu in chhuak chhuak leh a hmu chuan a ni a, chuan chhanchhuak zungzaw lo hmu a.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "App a download ang",
       "WELCOME_MESSAGE": "Hi, i chhantu hi a hmu a ni!",
       "INSTRUCTION": "Message a chhuak leh a hmu a, a hmu a ni lo.",
-      "SHOW_MESSAGE_ONCE": "A message hi <strong>thil pakhat</strong> a hmu a ni.",
+      "SHOW_MESSAGE_ONCE": "A message hi thil pakhat a hmu a ni.",
       "OPEN_SECRET_MESSAGE": "Open Secret Message",
       "INPUT_PASSPHRASE": "Passphrase a chhuak",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

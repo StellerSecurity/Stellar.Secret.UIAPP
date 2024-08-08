@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dividu sekretojn, kaj poof—ili malaperas!",
       
       "ENCRYPTED_PROTECTED_BY": "Kriptigita, sekurigita kaj protektita de Stela Sekureco",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret permesas kunhavigi unufojajn rigardeblajn ligilojn kun sentema enhavo en sekreta ligilo, kiun nur vi scias, kaj la ricevilo scias. Ĝia plej bona maniero, konservi sentemajn informojn ekstere de ajna mesaĝisto-apo.",
+
       "WITHOUT_TRACE_TITLE": "Senza spuro",
       "WITHOUT_TRACE_DESCRIPTION": "Ni certigas fortan protekton de viaj sentemaj informoj. Ĉiuj datumoj estas kriptigitaj sur la kliento-flanko. Ni ne scias vian IP-adreson, kion vi dividas, aŭ kun kiu vi dividas la sekretajn ligilojn - kaj plej grave, la enhavon.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Elŝutu Aplikaĵon",
       "WELCOME_MESSAGE": "Saluton, vi ricevis sekretan mesaĝon!",
       "INSTRUCTION": "Skribu kaj sendu mesaĝon, ĝi estos forigita post legado.",
-      "SHOW_MESSAGE_ONCE": "La sekvanta mesaĝo estos montrita <strong>nur unufoje</strong>",
+      "SHOW_MESSAGE_ONCE": "La sekvanta mesaĝo estos montrita nur unufoje",
       "OPEN_SECRET_MESSAGE": "Malfermu Sekretan Mesaĝon",
       "INPUT_PASSPHRASE": "Enigu Pasvorton",
       "PASS_PHRASE_PLACEHOLDER": "Pasvorto",

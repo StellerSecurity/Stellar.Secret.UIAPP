@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dalieties ar noslēpumiem, un pūk, tie ir pazuduši!",
       
       "ENCRYPTED_PROTECTED_BY": "Šifrēts, drošs un aizsargāts ar Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ļauj kopīgot vienreizējas skatāmas saites ar sensitīvu saturu slepenā saitē, ko zināt tikai jūs un uztvērējs. Tas ir labākais veids, kā aizsargāt sensitīvu informāciju no ziņojumapmaiņas lietotnēm.",
+
       "WITHOUT_TRACE_TITLE": "Bez pēdām",
       "WITHOUT_TRACE_DESCRIPTION": "Mēs nodrošinām spēcīgu jūsu sensitīvo informāciju aizsardzību. Visus datus šifrē klienta pusē. Mēs nezinam jūsu IP adresi, ko jūs dalāties vai ar ko jūs dalāties ar slepenajiem saitēm - un vissvarīgāk, saturu.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Lejupielādēt lietotni",
       "WELCOME_MESSAGE": "Sveiki, jūs saņēmāt slepenu ziņojumu!",
       "INSTRUCTION": "Uzrakstiet un nosūtiet ziņojumu, tas tiks dzēsts pēc izlasīšanas.",
-      "SHOW_MESSAGE_ONCE": "Šā ziņojuma tiks rādīts <strong>tikai vienu reizi</strong>",
+      "SHOW_MESSAGE_ONCE": "Šā ziņojuma tiks rādīts tikai vienu reizi",
       "OPEN_SECRET_MESSAGE": "Atvērt slepeno ziņojumu",
       "INPUT_PASSPHRASE": "Ievadiet paroli",
       "PASS_PHRASE_PLACEHOLDER": "Parole",

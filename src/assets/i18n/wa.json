@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partî des secrets, et hop—lès s'n'font rimer !",
     
       "ENCRYPTED_PROTECTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret you permet d’partî lins d’viåcion on k’eye tî kî vo di nén vos si l’expéditeur et l’récipiendêre. C’est l’meilleure mwayê di r’ter l’info sénsiblo lîd des nénse d’message",
+
       "WITHOUT_TRACE_TITLE": "Sans trace",
       "WITHOUT_TRACE_DESCRIPTION": "Nos assurons la protection robuste de vos informations sensibles. Tot les données sont chiffrées d'sur le client. Nén n'connèssons vôtre IP, c'qui vos partî, ou qui vos partagez les liens secrets - et pus l'plus important, l'contenu.",
     
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Téléchertî l' App",
       "WELCOME_MESSAGE": "Bonjour, vos avèt reçû un messadje secret !",
       "INSTRUCTION": "Rèdèye et envoye messadje, ç' va ètre supprimé d'ès lu.",
-      "SHOW_MESSAGE_ONCE": "L' messadje suivant s'rè montré <strong> qu'une foye </strong>",
+      "SHOW_MESSAGE_ONCE": "L' messadje suivant s'rè montré  qu'une foye ",
       "OPEN_SECRET_MESSAGE": "Ouvrir Messadje Secret",
       "INPUT_PASSPHRASE": "Rèdèye Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Share secreta, et poof—illae evanescunt!",
       
       "ENCRYPTED_PROTECTED_BY": "Encryptum, tutum et protegendum a Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Secretum stellare tibi permittit ut unum tempus nexus visibiles cum sensitivo contento in arcano nexu communicas, quod solum scis et ille qui scit. Optima via est, ut notitias sensitivas ab aliquo nuntio-apps custodiant.",
+
       "WITHOUT_TRACE_TITLE": "Sine vestigio",
       "WITHOUT_TRACE_DESCRIPTION": "Nos robusta protectio tua sensitiva informationem curamus. Omnes data in clientis parte encrypta sunt. Nescimus tuam IP inscriptionem, quid participes, aut quibuscum secretorum nexus communicetis - et praecipuum, contentum.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "App Download",
       "WELCOME_MESSAGE": "Salve, accepisti secretum nuntium!",
       "INSTRUCTION": "Scribe et mitte nuntium, id erit deletum post legere.",
-      "SHOW_MESSAGE_ONCE": "Sequentem nuntium ostendetur <strong>solum semel</strong>",
+      "SHOW_MESSAGE_ONCE": "Sequentem nuntium ostendetur solum semel",
       "OPEN_SECRET_MESSAGE": "Aperi Secretum Nuntium",
       "INPUT_PASSPHRASE": "Input Passphrase",
       "PASS_PHRASE_PLACEHOLDER": "Passphrase",

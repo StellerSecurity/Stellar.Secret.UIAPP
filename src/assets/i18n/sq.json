@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ndani sekrete, dhe poof—shkarkohen!",
       
       "ENCRYPTED_PROTECTED_BY": "Enkriptimi, i siguruar dhe mbrojtur nga Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ju lejon të ndani lidhje të shikueshme një herë me përmbajtje të ndjeshme në një lidhje sekrete, të cilën vetëm ju e dini dhe marrësi e di. Është mënyra më e mirë për të mbajtur informacione të ndjeshme jashtë çdo aplikacioni të mesazheve.",
+
       "WITHOUT_TRACE_TITLE": "Pa gjurmë",
       "WITHOUT_TRACE_DESCRIPTION": "Ne sigurojmë mbrojtje të fortë të informacionit tuaj të ndjeshëm. Të gjitha të dhënat janë të enkriptuara në anën e klientit. Ne nuk e dimë adresën tuaj IP, çfarë ndani, ose me kë ndani lidhjet sekrete - dhe më e rëndësishmja, përmbajtjen.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Shkarko Aplikacionin",
       "WELCOME_MESSAGE": "Përshëndetje, keni marrë një mesazh sekret!",
       "INSTRUCTION": "Shkruani dhe dërgoni mesazhin, do të fshihet sapo të lexohet.",
-      "SHOW_MESSAGE_ONCE": "Mesazhi në vijim do të shfaqet <strong>vetëm një herë</strong>",
+      "SHOW_MESSAGE_ONCE": "Mesazhi në vijim do të shfaqet vetëm një herë",
       "OPEN_SECRET_MESSAGE": "Hap Mesazhin Sekret",
       "INPUT_PASSPHRASE": "Futni Fjalëkalimin",
       "PASS_PHRASE_PLACEHOLDER": "Fjalëkalim",

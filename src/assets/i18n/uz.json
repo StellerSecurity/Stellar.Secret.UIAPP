@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sirlarni baham ko‘ring, va poof—ular yo‘q bo‘ladi!",
       
       "ENCRYPTED_PROTECTED_BY": "Stellar Security tomonidan shifrlangan, himoyalangan va himoyalangan",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret maxfiy havoladagi maxfiy kontent bilan bir martalik koʻrish mumkin boʻlgan havolalarni baham koʻrish imkonini beradi, buni faqat siz bilasiz va qabul qiluvchi ham biladi. Bu har qanday messenjer-ilovalardan maxfiy ma'lumotlarni saqlashning eng yaxshi usuli.",
+
       "WITHOUT_TRACE_TITLE": "Iz qoldirmasdan",
       "WITHOUT_TRACE_DESCRIPTION": "Biz sizning sezgir ma'lumotlaringizni kuchli himoya qilishni ta'minlaymiz. Barcha ma'lumotlar mijoz tomonida shifrlangan. Biz sizning IP-manzilingizni, nima baham ko‘rayotganingizni yoki sirli havolalaringizni kim bilan baham ko‘rayotganingizni bilmaymiz - va eng muhimi, mazmuni.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Ilovani yuklab oling",
       "WELCOME_MESSAGE": "Salom, siz sirli xabar oldingiz!",
       "INSTRUCTION": "Xabar yozing va yuboring, bu o'qilgandan so'ng o'chiriladi.",
-      "SHOW_MESSAGE_ONCE": "Quyidagi xabar <strong>faqat bir marta</strong> ko'rsatiladi",
+      "SHOW_MESSAGE_ONCE": "Quyidagi xabar faqat bir marta ko'rsatiladi",
       "OPEN_SECRET_MESSAGE": "Sirli xabarni oching",
       "INPUT_PASSPHRASE": "Parolni kiriting",
       "PASS_PHRASE_PLACEHOLDER": "Parol",

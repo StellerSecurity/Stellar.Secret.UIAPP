@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Siraha la wadaag, kadibna—waxaana ka tagaa!",
       
       "ENCRYPTED_PROTECTED_BY": "Lagu xafiday, ammaaneysan oo ilaalinaya Sirta Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Sirta Stellar waxay kuu ogolaaneysaa inaad la wadaagto xiriiriyeyaasha la arki karo hal mar oo leh waxyaabo xasaasi ah oo ku jira xiriirinta sirta ah, taas oo kaliya oo aad taqaano, qaatahana uu ogyahay. Waa habka ugu fiican, in laga ilaaliyo macluumaadka xasaasiga ah ee Messenger-apps kasta.",
+
       "WITHOUT_TRACE_TITLE": "Iyadoo aan raad lahayn",
       "WITHOUT_TRACE_DESCRIPTION": "Waxaan xaqiijinaynaa ilaalinta xooggan ee macluumaadkaaga xasaasiga ah. Dhammaan xogta waxaa lagu qariyaa dhinaca macmiilka. Ma aqaanin cinwaankaaga IP-ga, waxa aad wadaagto, ama cidda aad la wadaagayso xiriirka sirta - iyo waxa ugu muhiimsan, waxa ku jira.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Soo Degso App",
       "WELCOME_MESSAGE": "Salaan, waxaad heshay farriin sir ah!",
       "INSTRUCTION": "Qor oo dir farriinta, waxay noqon doontaa la tirtiri doono marka la akhriyo.",
-      "SHOW_MESSAGE_ONCE": "Farriinta soo socota waxaa la muujin doonaa <strong>hal mar kaliya</strong>",
+      "SHOW_MESSAGE_ONCE": "Farriinta soo socota waxaa la muujin doonaa hal mar kaliya",
       "OPEN_SECRET_MESSAGE": "Fur Farriinta Sirta",
       "INPUT_PASSPHRASE": "Gali Eray Sir",
       "PASS_PHRASE_PLACEHOLDER": "Eray Sir",

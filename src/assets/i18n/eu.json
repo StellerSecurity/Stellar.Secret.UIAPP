@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sustatu sekretuak, eta poof—joan dira!",
       
       "ENCRYPTED_PROTECTED_BY": "Enkriptatuta, babestuta eta Stellar Security-k babestuta",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret-ek esteka sekretu batean behin-behineko ikus daitezkeen estekak partekatzeko aukera ematen du, zuk bakarrik ezagutzen duzuna eta hartzaileak ezagutzen duena. Modurik onena da edozein mezularitza-aplikazioetatik informazio sentikorra ez edukitzea.",
+
       "WITHOUT_TRACE_TITLE": "Hutsik gabe",
       "WITHOUT_TRACE_DESCRIPTION": "Zure informazio sentikorra babesteko babesa bermatzen dugu. Datu guztiak bezeroaren aldean enkriptatzen dira. Zure IP helbidea, zer partekatzen duzun edo sekretu estekak norekin partekatzen dituzun ezagutzen ez dugu - eta garrantzitsuena, edukia.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "App-a deskargatu",
       "WELCOME_MESSAGE": "Kaixo, sekretu-mezu bat jaso duzu!",
       "INSTRUCTION": "Idatzi eta bidali mezua, irakurtzean ezabatuko da.",
-      "SHOW_MESSAGE_ONCE": "Hurrengo mezua <strong>behin bakarrik</strong> erakutsiko da",
+      "SHOW_MESSAGE_ONCE": "Hurrengo mezua behin bakarrik erakutsiko da",
       "OPEN_SECRET_MESSAGE": "Ireki Secret Mezu",
       "INPUT_PASSPHRASE": "Sartu Pasahitza",
       "PASS_PHRASE_PLACEHOLDER": "Pasahitza",

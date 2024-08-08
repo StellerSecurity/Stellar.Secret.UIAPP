@@ -61,6 +61,8 @@
       "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Del hemmeligheder, og poof—de er væk!",
       
       "ENCRYPTED_PROTECTED_BY": "Krypteret, sikret og beskyttet af Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret giver dig mulighed for at dele engangslinks med følsomt indhold i et hemmeligt link, som kun du kender, og modtageren kender. Det er den bedste måde at holde følsomme oplysninger ude fra alle messenger-apps.",
+
       "WITHOUT_TRACE_TITLE": "Uden spor",
       "WITHOUT_TRACE_DESCRIPTION": "Vi sikrer robust beskyttelse af dine følsomme oplysninger. Alle data bliver krypteret på klientsiden. Vi kender ikke din IP-adresse, hvad du deler, eller hvem du deler hemmelige links med - og vigtigst af alt, indholdet.",
       
@@ -128,7 +130,7 @@
       "DOWNLOAD_APP": "Download App",
       "WELCOME_MESSAGE": "Hej, du har modtaget en hemmelig besked!",
       "INSTRUCTION": "Skriv og send besked, den vil blive slettet, når den er læst.",
-      "SHOW_MESSAGE_ONCE": "Den følgende besked vil blive vist <strong>kun én gang</strong>",
+      "SHOW_MESSAGE_ONCE": "Den følgende besked vil blive vist kun én gang",
       "OPEN_SECRET_MESSAGE": "Åbn hemmelig besked",
       "INPUT_PASSPHRASE": "Indtast adgangskode",
       "PASS_PHRASE_PLACEHOLDER": "Adgangskode",
