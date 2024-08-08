@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Qanday ishlaydi",
+      "DOWNLOAD_APP": "Ilovani yuklab oling",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Bir martalik sirli xabar",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sirlarni baham ko‘ring, va poof—ular yo‘q bo‘ladi!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Stellar Security tomonidan shifrlangan, himoyalangan va himoyalangan",
+      "WITHOUT_TRACE_TITLE": "Iz qoldirmasdan",
+      "WITHOUT_TRACE_DESCRIPTION": "Biz sizning sezgir ma'lumotlaringizni kuchli himoya qilishni ta'minlaymiz. Barcha ma'lumotlar mijoz tomonida shifrlangan. Biz sizning IP-manzilingizni, nima baham ko‘rayotganingizni yoki sirli havolalaringizni kim bilan baham ko‘rayotganingizni bilmaymiz - va eng muhimi, mazmuni.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Maxfiylik himoyalangan",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Siz yaratgan sirli ma'lumotlarning havolasini va kim bilan baham ko‘rayotganingizni biladigan yagona odam sizdir. Sir yaratishda siz uni ochishdan oldin parol qo‘shishingiz mumkin. Shuningdek, yo‘q qilish vaqtini belgilash mumkin. Har qanday holatda ham, sir 14 kundan keyin o'chiriladi.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end shifrlangan",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Barcha havolalar va mazmun mijoz tomonida xesh qilingan, bu bizning havola va mazmunni bilmasligimizni anglatadi. Har bir havola 36 uzunlikdagi noyob ID ga ega bo'lib, bu bir tomonlama shifrlash bo'lib, Secret Message va uning mazmunini AES-256 bilan shifrlashga imkon beradi.",
+      
+      "HOW_IT_WORKS_TITLE": "Qanday ishlaydi?",
+      "STEP_1_TITLE": "Xabar yozing va/yoki parol yarating",
+      "STEP_2_TITLE": "Sirli havolani yarating",
+      "STEP_3_TITLE": "Havolani baham ko'ring",
+      
+      "COMPANY_LOGO_ALT": "Kompaniya logotipi",
+      
+      "SHARE_TITLE": "Sirli xabarni baham ko‘ring",
+      "SHARE_DESCRIPTION_PART_1": "Xabar yozing va yuboring, bu",
+      "SHARE_DESCRIPTION_PART_2": "o'qilgandan so'ng o'chiriladi.",
+      
+      "SHARE_BULLET_1": "Iz qoldirmasdan.",
+      "SHARE_BULLET_2": "Maxfiylik himoyalangan",
+      "SHARE_BULLET_3": "Bir martalik ko‘rish",
+      
+      "SHARE_ENCRYPTED_BY": "Stellar Security tomonidan shifrlangan, himoyalangan va himoyalangan",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Sirli xabaringizni, parolni yoki sezgir ma'lumotlarni yozing *",
+      "SHARE_OPTIONS": "Variantlar",
+      
+      "SHARE_EMPTY": "Hech narsa qoldirmasangiz, bo‘sh qoldiring.",
+      "SHARE_BUTTON": "Sirli havolani yaratish",
+      
+      "CREATED_TITLE": "Siringiz yaratildi",
+      "CREATED_SUBTITLE": "Bu faqat bir marta ko'rsatiladi",
+      
+      "CREATED_TITLE_SHARE": "Havolani nusxalash yoki baham ko‘ring.",
+      "CREATED_BUTTON": "NUSXALASH",
+      "CREATED_CREATE_SECRET": "Yangi sir yaratish",
+      "CREATED_BURNSECRET": "Sirni yo‘q qilish",
+      "URL_COPIED": "URL nusxalandi.",
+      "SHARE_BURNER_TIME": "Umr davomida",
+      "SHARE_PASS_PHRASE": "Parol",
+      "VIEW_SECRET": "Siri ko‘rish"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Qanday ishlaydi",
+      "DOWNLOAD_APP": "Ilovani yuklab oling",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Bir martalik sirli xabar",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sirlarni baham ko‘ring, va poof—ular yo‘q bo‘ladi!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Stellar Security tomonidan shifrlangan, himoyalangan va himoyalangan",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret maxfiy havoladagi maxfiy kontent bilan bir martalik koʻrish mumkin boʻlgan havolalarni baham koʻrish imkonini beradi, buni faqat siz bilasiz va qabul qiluvchi ham biladi. Bu har qanday messenjer-ilovalardan maxfiy ma'lumotlarni saqlashning eng yaxshi usuli.",
+
+      "WITHOUT_TRACE_TITLE": "Iz qoldirmasdan",
+      "WITHOUT_TRACE_DESCRIPTION": "Biz sizning sezgir ma'lumotlaringizni kuchli himoya qilishni ta'minlaymiz. Barcha ma'lumotlar mijoz tomonida shifrlangan. Biz sizning IP-manzilingizni, nima baham ko‘rayotganingizni yoki sirli havolalaringizni kim bilan baham ko‘rayotganingizni bilmaymiz - va eng muhimi, mazmuni.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Maxfiylik himoyalangan",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Siz yaratgan sirli ma'lumotlarning havolasini va kim bilan baham ko‘rayotganingizni biladigan yagona odam sizdir. Sir yaratishda siz uni ochishdan oldin parol qo‘shishingiz mumkin. Shuningdek, yo‘q qilish vaqtini belgilash mumkin. Har qanday holatda ham, sir 14 kundan keyin o'chiriladi.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end shifrlangan",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Barcha havolalar va mazmun mijoz tomonida xesh qilingan, bu bizning havola va mazmunni bilmasligimizni anglatadi. Har bir havola 36 uzunlikdagi noyob ID ga ega bo'lib, bu bir tomonlama shifrlash bo'lib, Secret Message va uning mazmunini AES-256 bilan shifrlashga imkon beradi.",
+      
+      "HOW_IT_WORKS_TITLE": "Qanday ishlaydi?",
+      "STEP_1_TITLE": "Xabar yozing va/yoki parol yarating",
+      "STEP_2_TITLE": "Sirli havolani yarating",
+      "STEP_3_TITLE": "Havolani baham ko'ring",
+      
+      "COMPANY_LOGO_ALT": "Kompaniya logotipi",
+      
+      "SHARE_TITLE": "Sirli xabarni baham ko‘ring",
+      "SHARE_DESCRIPTION_PART_1": "Xabar yozing va yuboring, bu",
+      "SHARE_DESCRIPTION_PART_2": "o'qilgandan so'ng o'chiriladi.",
+      
+      "SHARE_BULLET_1": "Iz qoldirmasdan.",
+      "SHARE_BULLET_2": "Maxfiylik himoyalangan",
+      "SHARE_BULLET_3": "Bir martalik ko‘rish",
+      
+      "SHARE_ENCRYPTED_BY": "Stellar Security tomonidan shifrlangan, himoyalangan va himoyalangan",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Sirli xabaringizni, parolni yoki sezgir ma'lumotlarni yozing *",
+      "SHARE_OPTIONS": "Variantlar",
+      
+      "SHARE_EMPTY": "Hech narsa qoldirmasangiz, bo‘sh qoldiring.",
+      "SHARE_BUTTON": "Sirli havolani yaratish",
+      
+      "CREATED_TITLE": "Siringiz yaratildi",
+      "CREATED_SUBTITLE": "Bu faqat bir marta ko'rsatiladi",
+      
+      "CREATED_TITLE_SHARE": "Havolani nusxalash yoki baham ko‘ring.",
+      "CREATED_BUTTON": "NUSXALASH",
+      "CREATED_CREATE_SECRET": "Yangi sir yaratish",
+      "CREATED_BURNSECRET": "Sirni yo‘q qilish",
+      "URL_COPIED": "URL nusxalandi.",
+      
+      "VIEW_SECRET": "Siri ko‘rish"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Qanday ishlaydi",
+      "DOWNLOAD_APP": "Ilovani yuklab oling",
+      "CREATED_TITLE": "Siringiz yaratildi",
+      "CREATED_SUBTITLE": "Bu faqat bir marta ko'rsatiladi",
+      "CREATED_TITLE_SHARE": "Havolani nusxalash yoki baham ko‘ring.",
+      "CREATED_BUTTON": "NUSXALASH",
+      "CREATED_CREATE_SECRET": "Yangi sir yaratish",
+      "CREATED_BURNSECRET": "Sirni yo‘q qilish",
+      "URL_COPIED": "URL nusxalandi."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Siz bu sirni yo‘q qilmoqdasiz",
+      "SECRET_UNAVAILABLE_TEXT": "Bu endi mavjud bo'lmaydi",
+      "BURN_FOREVER": "Abadiy yo‘q qilish",
+      "CANCEL": "Bekor qilish"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Qanday ishlaydi",
+      "DOWNLOAD_APP": "Ilovani yuklab oling",
+      "WELCOME_MESSAGE": "Salom, siz sirli xabar oldingiz!",
+      "INSTRUCTION": "Xabar yozing va yuboring, bu o'qilgandan so'ng o'chiriladi.",
+      "SHOW_MESSAGE_ONCE": "Quyidagi xabar faqat bir marta ko'rsatiladi",
+      "OPEN_SECRET_MESSAGE": "Sirli xabarni oching",
+      "INPUT_PASSPHRASE": "Parolni kiriting",
+      "PASS_PHRASE_PLACEHOLDER": "Parol",
+      "OPEN_SECRET_BUTTON": "Sirli xabarni ochish",
+      "YOUR_SECRET_MESSAGE": "Sizning sirli xabaringiz",
+      "COPY": "Nusxalash",
+      "MESSAGE_LABEL": "Xabar",
+      "REPLY": "Javob berish",
+      "DOWNLOAD_MESSAGE": "Stellar Secret ilovasini mobil telefoningizga yuklab oling, sirli xabarlaringizni yarating",
+      "WITHOUT_TRACE": "Iz qoldirmasdan.",
+      "PRIVACY_PROTECTED": "Maxfiylik himoyalangan",
+      "ONE_TIME_VIEWABLE": "Bir martalik ko‘rish",
+      "SECURITY_TEXT": "Shifrlangan, himoyalangan va himoyalangan ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

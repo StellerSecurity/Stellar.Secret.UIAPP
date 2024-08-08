@@ -1,0 +1,148 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stella Segreta",
+      "HOW_IT_WORKS": "Come Funziona",
+      "DOWNLOAD_APP": "Scarica l'App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messaggi Segreti a Tempo Limitato",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Condividi un segreto e dillo addio!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Crittografato e protetto da Stella Sicurezza",
+      "WITHOUT_TRACE_TITLE": "Senza Tracce",
+      "WITHOUT_TRACE_DESCRIPTION": "Proteggiamo accuratamente le tue informazioni sensibili. Tutti i dati vengono crittografati lato client. Non sappiamo il tuo indirizzo IP, cosa stai condividendo o con chi lo stai condividendo – e la cosa più importante è, il contenuto.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protetta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Solo tu conosci il link del segreto che hai creato e con chi lo condividi. Puoi aggiungere una password per sbloccare il segreto quando lo crei e puoi anche impostare un tempo di scadenza. In ogni caso, il segreto verrà eliminato dopo 14 giorni.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Crittografia End-to-End",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tutti i link e i contenuti sono criptati lato client e anche noi non possiamo sapere nulla sui link o sui contenuti. Ogni link ha un ID di crittografia unidirezionale (lunghezza 36) per accedere al messaggio segreto e al suo contenuto e sono criptati con AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Come Funziona",
+      "STEP_1_TITLE": "Inserisci un messaggio o genera una password",
+      "STEP_2_TITLE": "Crea un link segreto",
+      "STEP_3_TITLE": "Condividi il link",
+      
+      "COMPANY_LOGO_ALT": "Logo dell'Azienda",
+      
+      "SHARE_TITLE": "Condividi un Messaggio Segreto",
+      "SHARE_DESCRIPTION_PART_1": "Quando crei e invii un messaggio, esso",
+      "SHARE_DESCRIPTION_PART_2": "verrà eliminato dopo essere stato letto.",
+      
+      "SHARE_BULLET_1": "Senza tracce.",
+      "SHARE_BULLET_2": "Privacy protetta",
+      "SHARE_BULLET_3": "Visibile solo una volta",
+      
+      "SHARE_ENCRYPTED_BY": "Crittografato e protetto da Stella Sicurezza",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Inserisci un messaggio segreto, una password o informazioni sensibili *",
+      "SHARE_OPTIONS": "Opzioni",
+      
+      "SHARE_EMPTY": "Lascia vuoto se non necessario.",
+      "SHARE_BUTTON": "Crea il Link Segreto",
+      
+      "CREATED_TITLE": "Il Segreto è Stato Creato",
+      "CREATED_SUBTITLE": "Visibile solo una volta",
+      
+      "CREATED_TITLE_SHARE": "Copia o condividi il link qui sotto.",
+      "CREATED_BUTTON": "Copia",
+      "CREATED_CREATE_SECRET": "Crea un Nuovo Segreto",
+      "CREATED_BURNSECRET": "Elimina il Segreto",
+      "URL_COPIED": "URL copiato negli appunti.",
+      "SHARE_BURNER_TIME":"Tempo di Scadenza",
+      "SHARE_PASS_PHRASE":"Frase di Passaggio",
+      "VIEW_SECRET": "Visualizza il Segreto"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stella Segreta",
+      "HOW_IT_WORKS": "Come Funziona",
+      "DOWNLOAD_APP": "Scarica l'App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messaggi Segreti a Tempo Limitato",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Condividi un segreto e dillo addio!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Crittografato e protetto da Stella Sicurezza",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ti consente di condividere link visibili una sola volta con contenuti sensibili che solo tu e il destinatario conoscete. È il modo migliore per mantenere le informazioni sensibili lontane da qualsiasi app di messaggistica.",
+
+      "WITHOUT_TRACE_TITLE": "Senza Tracce",
+      "WITHOUT_TRACE_DESCRIPTION": "Proteggiamo accuratamente le tue informazioni sensibili. Tutti i dati vengono crittografati lato client. Non sappiamo il tuo indirizzo IP, cosa stai condividendo o con chi lo stai condividendo – e la cosa più importante è, il contenuto.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protetta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Solo tu conosci il link del segreto che hai creato e con chi lo condividi. Puoi aggiungere una password per sbloccare il segreto quando lo crei e puoi anche impostare un tempo di scadenza. In ogni caso, il segreto verrà eliminato dopo 14 giorni.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Crittografia End-to-End",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tutti i link e i contenuti sono criptati lato client e anche noi non possiamo sapere nulla sui link o sui contenuti. Ogni link ha un ID di crittografia unidirezionale (lunghezza 36) per accedere al messaggio segreto e al suo contenuto e sono criptati con AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Come Funziona",
+      "STEP_1_TITLE": "Inserisci un messaggio o genera una password",
+      "STEP_2_TITLE": "Crea un link segreto",
+      "STEP_3_TITLE": "Condividi il link",
+      
+      "COMPANY_LOGO_ALT": "Logo dell'Azienda",
+      
+      "SHARE_TITLE": "Condividi un Messaggio Segreto",
+      "SHARE_DESCRIPTION_PART_1": "Quando crei e invii un messaggio, esso",
+      "SHARE_DESCRIPTION_PART_2": "verrà eliminato dopo essere stato letto.",
+      
+      "SHARE_BULLET_1": "Senza tracce.",
+      "SHARE_BULLET_2": "Privacy protetta",
+      "SHARE_BULLET_3": "Visibile solo una volta",
+      
+      "SHARE_ENCRYPTED_BY": "Crittografato e protetto da Stella Sicurezza",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Inserisci un messaggio segreto, una password o informazioni sensibili *",
+      "SHARE_OPTIONS": "Opzioni",
+      
+      "SHARE_EMPTY": "Lascia vuoto se non necessario.",
+      "SHARE_BUTTON": "Crea il Link Segreto",
+      
+      "CREATED_TITLE": "Il Segreto è Stato Creato",
+      "CREATED_SUBTITLE": "Visibile solo una volta",
+      
+      "CREATED_TITLE_SHARE": "Copia o condividi il link qui sotto.",
+      "CREATED_BUTTON": "Copia",
+      "CREATED_CREATE_SECRET": "Crea un Nuovo Segreto",
+      "CREATED_BURNSECRET": "Elimina il Segreto",
+      "URL_COPIED": "URL copiato negli appunti.",
+      
+      "VIEW_SECRET": "Visualizza il Segreto"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stella Segreta",
+      "HOW_IT_WORKS": "Come Funziona",
+      "DOWNLOAD_APP": "Scarica l'App",
+      "CREATED_TITLE": "Il Segreto è Stato Creato",
+      "CREATED_SUBTITLE": "Visibile solo una volta",
+      "CREATED_TITLE_SHARE": "Copia o condividi il link qui sotto.",
+      "CREATED_BUTTON": "Copia",
+      "CREATED_CREATE_SECRET": "Crea un Nuovo Segreto",
+      "CREATED_BURNSECRET": "Elimina il Segreto",
+      "URL_COPIED": "URL copiato negli appunti."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vuoi eliminare questo segreto?",
+      "SECRET_UNAVAILABLE_TEXT": "Non sarà più disponibile",
+      "BURN_FOREVER": "Elimina per Sempre",
+      "CANCEL": "Annulla"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stella Segreta",
+      "HOW_IT_WORKS": "Come Funziona",
+      "DOWNLOAD_APP": "Scarica l'App",
+      "WELCOME_MESSAGE": "Ciao, hai ricevuto un messaggio segreto!",
+      "INSTRUCTION": "Scrivi e invia il messaggio e verrà eliminato dopo essere stato letto.",
+      "SHOW_MESSAGE_ONCE": "Il messaggio qui sotto sarà visibile solo una volta",
+      "OPEN_SECRET_MESSAGE": "Apri il Messaggio Segreto",
+      "INPUT_PASSPHRASE": "Inserisci la Frase di Passaggio",
+      "PASS_PHRASE_PLACEHOLDER": "Frase di Passaggio",
+      "OPEN_SECRET_BUTTON": "Apri il Messaggio Segreto",
+      "YOUR_SECRET_MESSAGE": "Il Tuo Messaggio Segreto",
+      "COPY": "Copia",
+      "MESSAGE_LABEL": "Messaggio",
+      "REPLY": "Rispondi",
+      "DOWNLOAD_MESSAGE": "Scarica Stella Segreta",
+      "APP_STORE": "App Store",
+      "PLAY_STORE": "Play Store",
+      "END_TO_END_ENCRYPTED": "Crittografia End-to-End"
+    }
+  }
+  

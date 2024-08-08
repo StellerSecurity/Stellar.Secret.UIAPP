@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Y Gwirionedd Stellar",
+      "HOW_IT_WORKS": "Sut mae'n gweithio",
+      "DOWNLOAD_APP": "Lawrlwytho'r Ap",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Negeseuon Secret un tro",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Rhannwch gyfrinachau, a phuff—maen nhw'n mynd!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, diogel ac amddiffynnir gan Diogelwch Stellar",
+      "WITHOUT_TRACE_TITLE": "Heb olion",
+      "WITHOUT_TRACE_DESCRIPTION": "Rydym yn sicrhau amddiffyniad cadarn o'ch gwybodaeth sensitif. Mae pob data yn cael ei dargyfeirio ar ochr y cwsmer. Nid ydym yn gwybod eich cyfeiriad IP, beth rydych chi'n rhannu, nac ewch chi'n rhannu'r dolenni cyfrinach gyda—ac yn bwysicaf oll, y cynnwys.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Preifatrwydd Diogelu",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Chi yw'r unig un sy'n gwybod y ddolen i'r gwybodaeth gyfrinachol a greu a'r rhai rydych chi'n ei rhannu gyda. Pan fyddwch yn creu cyfrinach, gallwch ychwanegu cyfrinair cyn iddo gael ei agor. Hefyd, mae'n bosib gosod amser llosgi. Ni waeth beth yw'r sefyllfa, bydd cyfrinach yn cael ei dileu ar ôl 14 diwrnod.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Cuddio pen-i-ben",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Mae pob dolen a chynnwys yn cael ei dehongli ar ochr y cwsmer, sy'n golygu nad ydym hyd yn oed yn gwybod y ddolen a'r cynnwys. Mae pob dolen â ID unig o hyd at 36 sy'n gysylltiedig â chuddio unffordd i gael mynediad i'r Neges Secret a'i chynnwys sydd wedi'i guddio gyda AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Sut mae'n gweithio?",
+      "STEP_1_TITLE": "Ysgrifennwch eich neges a/gwneud cyfrinair",
+      "STEP_2_TITLE": "Creu Dolen Secret",
+      "STEP_3_TITLE": "Rhannwch y ddolen",
+      
+      "COMPANY_LOGO_ALT": "Logo'r Cwmni",
+      
+      "SHARE_TITLE": "Rhannwch neges gyfrinachol",
+      "SHARE_DESCRIPTION_PART_1": "Ysgrifennwch a chyfnewid neges, fe fydd",
+      "SHARE_DESCRIPTION_PART_2": "dileu unwaith wedi ei ddarllen.",
+      
+      "SHARE_BULLET_1": "Heb olion.",
+      "SHARE_BULLET_2": "Preifatrwydd Diogelu",
+      "SHARE_BULLET_3": "Un tro yn weld",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, diogel ac amddiffynnir gan Diogelwch Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ysgrifennwch eich Neges Secret, cyfrinair neu wybodaeth sensitif *",
+      "SHARE_OPTIONS": "Opsiynau",
+      
+      "SHARE_EMPTY": "Gadewch yn wag am ddim.",
+      "SHARE_BUTTON": "Creu Dolen Secret",
+      
+      "CREATED_TITLE": "Mae eich Secret wedi'i greu",
+      "CREATED_SUBTITLE": "Bydd yn cael ei ddangos dim ond unwaith",
+      
+      "CREATED_TITLE_SHARE": "Copïwch y ddolen neu rannwch hi.",
+      "CREATED_BUTTON": "COPÏO",
+      "CREATED_CREATE_SECRET": "Creu Secret Newydd",
+      "CREATED_BURNSECRET": "Llosgi Secret",
+      "URL_COPIED": "Mae'r URL wedi'i gopïo.",
+      "SHARE_BURNER_TIME":"Bywyd",
+      "SHARE_PASS_PHRASE":"Cyfrinair",
+      "VIEW_SECRET": "Gweld Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Y Gwirionedd Stellar",
+      "HOW_IT_WORKS": "Sut mae'n gweithio",
+      "DOWNLOAD_APP": "Lawrlwytho'r Ap",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Negeseuon Secret un tro",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Rhannwch gyfrinachau, a phuff—maen nhw'n mynd!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, diogel ac amddiffynnir gan Diogelwch Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Mae Stellar Secret yn caniatáu ichi rannu cysylltiadau un-amser y gellir eu gweld â chynnwys sensitif mewn cyswllt cyfrinachol, mai dim ond chi sy'n gwybod, a'r derbynnydd sy'n gwybod. Dyma'r ffordd orau o gadw gwybodaeth sensitif allan o unrhyw apiau negesydd.",
+
+      "WITHOUT_TRACE_TITLE": "Heb olion",
+      "WITHOUT_TRACE_DESCRIPTION": "Rydym yn sicrhau amddiffyniad cadarn o'ch gwybodaeth sensitif. Mae pob data yn cael ei dargyfeirio ar ochr y cwsmer. Nid ydym yn gwybod eich cyfeiriad IP, beth rydych chi'n rhannu, nac ewch chi'n rhannu'r dolenni cyfrinach gyda—ac yn bwysicaf oll, y cynnwys.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Preifatrwydd Diogelu",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Chi yw'r unig un sy'n gwybod y ddolen i'r gwybodaeth gyfrinachol a greu a'r rhai rydych chi'n ei rhannu gyda. Pan fyddwch yn creu cyfrinach, gallwch ychwanegu cyfrinair cyn iddo gael ei agor. Hefyd, mae'n bosib gosod amser llosgi. Ni waeth beth yw'r sefyllfa, bydd cyfrinach yn cael ei dileu ar ôl 14 diwrnod.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Cuddio pen-i-ben",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Mae pob dolen a chynnwys yn cael ei dehongli ar ochr y cwsmer, sy'n golygu nad ydym hyd yn oed yn gwybod y ddolen a'r cynnwys. Mae pob dolen â ID unig o hyd at 36 sy'n gysylltiedig â chuddio unffordd i gael mynediad i'r Neges Secret a'i chynnwys sydd wedi'i guddio gyda AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Sut mae'n gweithio?",
+      "STEP_1_TITLE": "Ysgrifennwch eich neges a/gwneud cyfrinair",
+      "STEP_2_TITLE": "Creu Dolen Secret",
+      "STEP_3_TITLE": "Rhannwch y ddolen",
+      
+      "COMPANY_LOGO_ALT": "Logo'r Cwmni",
+      
+      "SHARE_TITLE": "Rhannwch neges gyfrinachol",
+      "SHARE_DESCRIPTION_PART_1": "Ysgrifennwch a chyfnewid neges, fe fydd",
+      "SHARE_DESCRIPTION_PART_2": "dileu unwaith wedi ei ddarllen.",
+      
+      "SHARE_BULLET_1": "Heb olion.",
+      "SHARE_BULLET_2": "Preifatrwydd Diogelu",
+      "SHARE_BULLET_3": "Un tro yn weld",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, diogel ac amddiffynnir gan Diogelwch Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ysgrifennwch eich Neges Secret, cyfrinair neu wybodaeth sensitif *",
+      "SHARE_OPTIONS": "Opsiynau",
+      
+      "SHARE_EMPTY": "Gadewch yn wag am ddim.",
+      "SHARE_BUTTON": "Creu Dolen Secret",
+      
+      "CREATED_TITLE": "Mae eich Secret wedi'i greu",
+      "CREATED_SUBTITLE": "Bydd yn cael ei ddangos dim ond unwaith",
+      
+      "CREATED_TITLE_SHARE": "Copïwch y ddolen neu rannwch hi.",
+      "CREATED_BUTTON": "COPÏO",
+      "CREATED_CREATE_SECRET": "Creu Secret Newydd",
+      "CREATED_BURNSECRET": "Llosgi Secret",
+      "URL_COPIED": "Mae'r URL wedi'i gopïo.",
+      
+      "VIEW_SECRET": "Gweld Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Y Gwirionedd Stellar",
+      "HOW_IT_WORKS": "Sut mae'n gweithio",
+      "DOWNLOAD_APP": "Lawrlwytho'r Ap",
+      "CREATED_TITLE": "Mae eich Secret wedi'i greu",
+      "CREATED_SUBTITLE": "Bydd yn cael ei ddangos dim ond unwaith",
+      "CREATED_TITLE_SHARE": "Copïwch y ddolen neu rannwch hi.",
+      "CREATED_BUTTON": "COPÏO",
+      "CREATED_CREATE_SECRET": "Creu Secret Newydd",
+      "CREATED_BURNSECRET": "Llosgi Secret",
+      "URL_COPIED": "Mae'r URL wedi'i gopïo."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Rydych chi'n mynd i losgi'r cyfrinach hon",
+      "SECRET_UNAVAILABLE_TEXT": "Ni fydd yn hygyrch mwyach",
+      "BURN_FOREVER": "Llosgi am byth",
+      "CANCEL": "Canslo"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Y Gwirionedd Stellar",
+      "HOW_IT_WORKS": "Sut mae'n gweithio",
+      "DOWNLOAD_APP": "Lawrlwytho'r Ap",
+      "WELCOME_MESSAGE": "Helo, derbyniwch neges gyfrinachol!",
+      "INSTRUCTION": "Ysgrifennwch a chyfnewid neges, fe fydd yn cael ei ddileu unwaith wedi ei ddarllen.",
+      "SHOW_MESSAGE_ONCE": "Bydd y neges ganlynol yn cael ei dangos dim ond unwaith",
+      "OPEN_SECRET_MESSAGE": "Agor Neges Secret",
+      "INPUT_PASSPHRASE": "Rhowch y Cyfrinair",
+      "PASS_PHRASE_PLACEHOLDER": "Cyfrinair",
+      "OPEN_SECRET_BUTTON": "Agor Neges Secret",
+      "YOUR_SECRET_MESSAGE": "Eich Neges Secret",
+      "COPY": "Copïo",
+      "MESSAGE_LABEL": "Neges",
+      "REPLY": "Ateb",
+      "DOWNLOAD_MESSAGE": "Lawrlwythwch Stellar Secret ar symudol, creu eich negeseuon cyfrinachol",
+      "WITHOUT_TRACE": "Heb olion.",
+      "PRIVACY_PROTECTED": "Preifatrwydd Diogelu",
+      "ONE_TIME_VIEWABLE": "Un tro yn weld",
+      "SECURITY_TEXT": "Encrypted, diogel ac amddiffynnir gan ",
+      "SECURITY_TEXT2": "Diogelwch Stellar"
+    }
+  }
+  

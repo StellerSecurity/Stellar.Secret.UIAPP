@@ -11,7 +11,7 @@ import {async} from "rxjs";
   templateUrl: './view.page.html',
   styleUrls: ['./view.page.scss'],
 })
-export class ViewPage {
+export class ViewPage implements OnInit {
 
     private id : string = "";
 
@@ -26,6 +26,7 @@ export class ViewPage {
     public openMessage = false;
 
     constructor(private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
+        
         this.activatedRoute.params.subscribe(
             (params: Params) => {
                 console.log(params['id']);
@@ -33,6 +34,11 @@ export class ViewPage {
             }
         )
 
+    }
+
+    ngOnInit(): void {
+        console.log('hi');
+        
     }
 
     public async copy() {

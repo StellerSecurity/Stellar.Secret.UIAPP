@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kunaqa kikinmi",
+      "DOWNLOAD_APP": "Applikashunami masinchiy",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ñawpaq watakuna chinkachiy",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sumaq ñawpaqkunam, ñawpaqmi kachkan!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kawsaykuchkan, amtaqkuchkan, chinkachkan Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Ñawi chinkachiy",
+      "WITHOUT_TRACE_DESCRIPTION": "Ñawpaq ñawpa runakunamuyku kikinmi. Tukuy dataqmi chinkachkanñachu. Ñuqanchikmi llamkaykuchkan ñawi runakuna, ima ruwan, orkunamni aswan, allinmi kanki.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Intiqllaqkuchkan",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ñuqanchikmi kikinmi layaq ñawpaq chinkachkan chaykuna chaylla layaqkunam. Ñawpaq kikinmi ruwan llapa kachkanqachu, kiki ninchikmi. Qunqayniyku, kikinmi kikinmi riqsishkaqmi. Ñaima kachkanchik 14 ñawiqmi.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Kawsaykuchkan ñawpaq ñawpaqmi",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tukuy linkkuna, yachaykuna ñawpaqmi chinkachkan. Ñawpaq kachkanmi allinmi. Tinkuy linkkuna uniqama IDmi 36 karqanmi, ñawpaq ñawpaqmi kachkanqachu kachkanku kawsaykuchkan AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kunaqa kikinmi?",
+      "STEP_1_TITLE": "Yachaykuchkankichikmi, kunan kachkankichikmi",
+      "STEP_2_TITLE": "Ñawpaq link kachkan",
+      "STEP_3_TITLE": "Link ruwan",
+      
+      "COMPANY_LOGO_ALT": "Kawsaykuchkan logo",
+      
+      "SHARE_TITLE": "Ñawpaq chinkachiy",
+      "SHARE_DESCRIPTION_PART_1": "Yachaykuchkankichikmi, chaymi",
+      "SHARE_DESCRIPTION_PART_2": "kikinmi kachkanku.",
+      
+      "SHARE_BULLET_1": "Ñawi chinkachiy.",
+      "SHARE_BULLET_2": "Intiqllaqkuchkan",
+      "SHARE_BULLET_3": "Ñawpaq chinkachiy",
+      
+      "SHARE_ENCRYPTED_BY": "Kawsaykuchkan, amtaqkuchkan, chinkachkan Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ñawpaq chinkachiykuchkani, yachaykuchkani, orkunam *",
+      "SHARE_OPTIONS": "Ñawpaqkunam",
+      
+      "SHARE_EMPTY": "Ñawpaqkunam ruwanakuchkani.",
+      "SHARE_BUTTON": "Ñawpaq link kachkan",
+      
+      "CREATED_TITLE": "Ñawpaq kachkanku",
+      "CREATED_SUBTITLE": "Tukuyta kachkanmi",
+      
+      "CREATED_TITLE_SHARE": "Link ruwan orkunam.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Ñawpaq kachkan",
+      "CREATED_BURNSECRET": "Ñawpaq chinkachiy",
+      "URL_COPIED": "URL ruwanakuchkani.",
+      "SHARE_BURNER_TIME": "Ñawpaq wakin",
+      "SHARE_PASS_PHRASE": "Ñawpaq ñawpa",
+      "VIEW_SECRET": "Ñawpaq kachkan"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kunaqa kikinmi",
+      "DOWNLOAD_APP": "Applikashunami masinchiy",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ñawpaq watakuna chinkachiy",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sumaq ñawpaqkunam, ñawpaqmi kachkan!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kawsaykuchkan, amtaqkuchkan, chinkachkan Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret huk kuti qhawanapaq t'inkikuna sensibles contenidowan huk pakasqa t'inkipi qunakuy atikunki, chayta qamlla yachanki, chaymanta chaskiq yachan. Su aswan allin ñan, sensibles willayta mana mayqin mensajero-apps kaqmanta waqaychaypaq.",
+
+      "WITHOUT_TRACE_TITLE": "Ñawi chinkachiy",
+      "WITHOUT_TRACE_DESCRIPTION": "Ñawpaq ñawpa runakunamuyku kikinmi. Tukuy dataqmi chinkachkanñachu. Ñuqanchikmi llamkaykuchkan ñawi runakuna, ima ruwan, orkunamni aswan, allinmi kanki.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Intiqllaqkuchkan",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ñuqanchikmi kikinmi layaq ñawpaq chinkachkan chaykuna chaylla layaqkunam. Ñawpaq kikinmi ruwan llapa kachkanqachu, kiki ninchikmi. Qunqayniyku, kikinmi kikinmi riqsishkaqmi. Ñaima kachkanchik 14 ñawiqmi.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Kawsaykuchkan ñawpaq ñawpaqmi",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tukuy linkkuna, yachaykuna ñawpaqmi chinkachkan. Ñawpaq kachkanmi allinmi. Tinkuy linkkuna uniqama IDmi 36 karqanmi, ñawpaq ñawpaqmi kachkanqachu kachkanku kawsaykuchkan AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kunaqa kikinmi?",
+      "STEP_1_TITLE": "Yachaykuchkankichikmi, kunan kachkankichikmi",
+      "STEP_2_TITLE": "Ñawpaq link kachkan",
+      "STEP_3_TITLE": "Link ruwan",
+      
+      "COMPANY_LOGO_ALT": "Kawsaykuchkan logo",
+      
+      "SHARE_TITLE": "Ñawpaq chinkachiy",
+      "SHARE_DESCRIPTION_PART_1": "Yachaykuchkankichikmi, chaymi",
+      "SHARE_DESCRIPTION_PART_2": "kikinmi kachkanku.",
+      
+      "SHARE_BULLET_1": "Ñawi chinkachiy.",
+      "SHARE_BULLET_2": "Intiqllaqkuchkan",
+      "SHARE_BULLET_3": "Ñawpaq chinkachiy",
+      
+      "SHARE_ENCRYPTED_BY": "Kawsaykuchkan, amtaqkuchkan, chinkachkan Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ñawpaq chinkachiykuchkani, yachaykuchkani, orkunam *",
+      "SHARE_OPTIONS": "Ñawpaqkunam",
+      
+      "SHARE_EMPTY": "Ñawpaqkunam ruwanakuchkani.",
+      "SHARE_BUTTON": "Ñawpaq link kachkan",
+      
+      "CREATED_TITLE": "Ñawpaq kachkanku",
+      "CREATED_SUBTITLE": "Tukuyta kachkanmi",
+      
+      "CREATED_TITLE_SHARE": "Link ruwan orkunam.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Ñawpaq kachkan",
+      "CREATED_BURNSECRET": "Ñawpaq chinkachiy",
+      "URL_COPIED": "URL ruwanakuchkani.",
+      
+      "VIEW_SECRET": "Ñawpaq kachkan"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kunaqa kikinmi",
+      "DOWNLOAD_APP": "Applikashunami masinchiy",
+      "CREATED_TITLE": "Ñawpaq kachkanku",
+      "CREATED_SUBTITLE": "Tukuyta kachkanmi",
+      "CREATED_TITLE_SHARE": "Link ruwan orkunam.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "Ñawpaq kachkan",
+      "CREATED_BURNSECRET": "Ñawpaq chinkachiy",
+      "URL_COPIED": "URL ruwanakuchkani."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Ñawpaq chinkachiykuchkanki",
+      "SECRET_UNAVAILABLE_TEXT": "Ñawpaqmi chinkachkan",
+      "BURN_FOREVER": "Ñawpaqmi chinkachiy",
+      "CANCEL": "Sumaqmi"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kunaqa kikinmi",
+      "DOWNLOAD_APP": "Applikashunami masinchiy",
+      "WELCOME_MESSAGE": "Kuska, ñawpaq chinkachiykuchkanki!",
+      "INSTRUCTION": "Yachaykuchkankichikmi, chaymi kikinmi kachkanku.",
+      "SHOW_MESSAGE_ONCE": "Chaymi kachkan hukñawi kachkanmi",
+      "OPEN_SECRET_MESSAGE": "Ñawpaq chinkachiykuchkani",
+      "INPUT_PASSPHRASE": "Ñawpaq ñawpa",
+      "PASS_PHRASE_PLACEHOLDER": "Ñawpaq ñawpa",
+      "OPEN_SECRET_BUTTON": "Ñawpaq chinkachiykuchkani",
+      "YOUR_SECRET_MESSAGE": "Ñawpaq chinkachiy",
+      "COPY": "COPY",
+      "MESSAGE_LABEL": "Ñawpaq",
+      "REPLY": "Ñawpaqkuchkani",
+      "DOWNLOAD_MESSAGE": "Stellar Secret applikashunami masinchiy, ñawpaq chinkachiykuchkani",
+      "WITHOUT_TRACE": "Ñawi chinkachiy.",
+      "PRIVACY_PROTECTED": "Intiqllaqkuchkan",
+      "ONE_TIME_VIEWABLE": "Ñawpaq chinkachiy",
+      "SECURITY_TEXT": "Kawsaykuchkan, amtaqkuchkan, chinkachkan ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

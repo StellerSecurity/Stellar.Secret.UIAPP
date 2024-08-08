@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kuinka se toimii",
+      "DOWNLOAD_APP": "Lataa sovellus",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Yhden kerran salainen viestintä",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Jaa salaisuuksia, ja poof—ne ovat poissa!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Salattu, suojattu ja turvattu Stellar Securityn toimesta",
+      "WITHOUT_TRACE_TITLE": "Ilman jälkiä",
+      "WITHOUT_TRACE_DESCRIPTION": "Varmistamme herkän tietosi vahvan suojan. Kaikki tiedot salataan asiakaspäässä. Emme tiedä IP-osoitettasi, mitä jaat tai kenelle jaat salaiset linkit - ja mikä tärkeintä, sisältö.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Yksityisyys suojattu",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Olet ainoa, joka tietää linkin salaisiin tietoihin, jotka olet luonut, ja kenelle jaat sen. Kun luot salaisuuden, voit lisätä salasanan ennen sen avaamista. On myös mahdollista asettaa hävitys-aika. Mikä tahansa, salaisuus poistetaan 14 päivän kuluttua.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Päästä päähän salattu",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Kaikki linkit ja sisältö on tiivistetty asiakaspäässä, mikä tarkoittaa, että emme tiedä linkkiä tai sisältöä. Jokaisella linkillä on ainutlaatuinen ID, joka on 36 merkin pituinen ja se on yksisuuntainen salaus, jotta voidaan käyttää salaisia viestejä ja sen sisältöä, joka on salattu AES-256:lla.",
+      
+      "HOW_IT_WORKS_TITLE": "Kuinka se toimii?",
+      "STEP_1_TITLE": "Kirjoita viestisi ja/tai luo salasana",
+      "STEP_2_TITLE": "Luo salainen linkki",
+      "STEP_3_TITLE": "Jaa linkki",
+      
+      "COMPANY_LOGO_ALT": "Yrityksen logo",
+      
+      "SHARE_TITLE": "Jaa salainen viesti",
+      "SHARE_DESCRIPTION_PART_1": "Kirjoita ja lähetä viesti, se poistuu",
+      "SHARE_DESCRIPTION_PART_2": "luettuasi.",
+      
+      "SHARE_BULLET_1": "Ilman jälkiä.",
+      "SHARE_BULLET_2": "Yksityisyys suojattu",
+      "SHARE_BULLET_3": "Yhden kerran katsottavissa",
+      
+      "SHARE_ENCRYPTED_BY": "Salattu, suojattu ja turvattu Stellar Securityn toimesta",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kirjoita salainen viestisi, salasana tai arkaluontoinen tieto *",
+      "SHARE_OPTIONS": "Vaihtoehdot",
+      
+      "SHARE_EMPTY": "Jätä tyhjäksi, jos ei haluta.",
+      "SHARE_BUTTON": "Luo salainen linkki",
+      
+      "CREATED_TITLE": "Salaisuutesi on luotu",
+      "CREATED_SUBTITLE": "Se näkyy vain kerran",
+      
+      "CREATED_TITLE_SHARE": "Kopioi linkki tai jaa se.",
+      "CREATED_BUTTON": "KOPIOI",
+      "CREATED_CREATE_SECRET": "Luo uusi salaisuus",
+      "CREATED_BURNSECRET": "Hävitä salaisuus",
+      "URL_COPIED": "URL on kopioitu.",
+      "SHARE_BURNER_TIME":"Elinikäinen",
+      "SHARE_PASS_PHRASE":"Salasana",
+      "VIEW_SECRET": "Näytä salaisuus"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kuinka se toimii",
+      "DOWNLOAD_APP": "Lataa sovellus",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Yhden kerran salainen viestintä",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Jaa salaisuuksia, ja poof—ne ovat poissa!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Salattu, suojattu ja turvattu Stellar Securityn toimesta",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secretin avulla voit jakaa kertaluonteisia katseltavia linkkejä, joissa on arkaluontoista sisältöä salaisessa linkissä, jonka vain sinä tiedät ja vastaanottaja tietää. Se on paras tapa pitää arkaluontoiset tiedot poissa kaikista messenger-sovelluksista.",
+
+      "WITHOUT_TRACE_TITLE": "Ilman jälkiä",
+      "WITHOUT_TRACE_DESCRIPTION": "Varmistamme herkän tietosi vahvan suojan. Kaikki tiedot salataan asiakaspäässä. Emme tiedä IP-osoitettasi, mitä jaat tai kenelle jaat salaiset linkit - ja mikä tärkeintä, sisältö.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Yksityisyys suojattu",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Olet ainoa, joka tietää linkin salaisiin tietoihin, jotka olet luonut, ja kenelle jaat sen. Kun luot salaisuuden, voit lisätä salasanan ennen sen avaamista. On myös mahdollista asettaa hävitys-aika. Mikä tahansa, salaisuus poistetaan 14 päivän kuluttua.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Päästä päähän salattu",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Kaikki linkit ja sisältö on tiivistetty asiakaspäässä, mikä tarkoittaa, että emme tiedä linkkiä tai sisältöä. Jokaisella linkillä on ainutlaatuinen ID, joka on 36 merkin pituinen ja se on yksisuuntainen salaus, jotta voidaan käyttää salaisia viestejä ja sen sisältöä, joka on salattu AES-256:lla.",
+      
+      "HOW_IT_WORKS_TITLE": "Kuinka se toimii?",
+      "STEP_1_TITLE": "Kirjoita viestisi ja/tai luo salasana",
+      "STEP_2_TITLE": "Luo salainen linkki",
+      "STEP_3_TITLE": "Jaa linkki",
+      
+      "COMPANY_LOGO_ALT": "Yrityksen logo",
+      
+      "SHARE_TITLE": "Jaa salainen viesti",
+      "SHARE_DESCRIPTION_PART_1": "Kirjoita ja lähetä viesti, se poistuu",
+      "SHARE_DESCRIPTION_PART_2": "luettuasi.",
+      
+      "SHARE_BULLET_1": "Ilman jälkiä.",
+      "SHARE_BULLET_2": "Yksityisyys suojattu",
+      "SHARE_BULLET_3": "Yhden kerran katsottavissa",
+      
+      "SHARE_ENCRYPTED_BY": "Salattu, suojattu ja turvattu Stellar Securityn toimesta",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kirjoita salainen viestisi, salasana tai arkaluontoinen tieto *",
+      "SHARE_OPTIONS": "Vaihtoehdot",
+      
+      "SHARE_EMPTY": "Jätä tyhjäksi, jos ei haluta.",
+      "SHARE_BUTTON": "Luo salainen linkki",
+      
+      "CREATED_TITLE": "Salaisuutesi on luotu",
+      "CREATED_SUBTITLE": "Se näkyy vain kerran",
+      
+      "CREATED_TITLE_SHARE": "Kopioi linkki tai jaa se.",
+      "CREATED_BUTTON": "KOPIOI",
+      "CREATED_CREATE_SECRET": "Luo uusi salaisuus",
+      "CREATED_BURNSECRET": "Hävitä salaisuus",
+      "URL_COPIED": "URL on kopioitu.",
+      
+      "VIEW_SECRET": "Näytä salaisuus"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kuinka se toimii",
+      "DOWNLOAD_APP": "Lataa sovellus",
+      "CREATED_TITLE": "Salaisuutesi on luotu",
+      "CREATED_SUBTITLE": "Se näkyy vain kerran",
+      "CREATED_TITLE_SHARE": "Kopioi linkki tai jaa se.",
+      "CREATED_BUTTON": "KOPIOI",
+      "CREATED_CREATE_SECRET": "Luo uusi salaisuus",
+      "CREATED_BURNSECRET": "Hävitä salaisuus",
+      "URL_COPIED": "URL on kopioitu."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Aiot hävittää tämän salaisuuden",
+      "SECRET_UNAVAILABLE_TEXT": "Se ei ole enää saatavilla",
+      "BURN_FOREVER": "Hävitä ikuisesti",
+      "CANCEL": "Peruuta"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kuinka se toimii",
+      "DOWNLOAD_APP": "Lataa sovellus",
+      "WELCOME_MESSAGE": "Hei, sait salaisen viestin!",
+      "INSTRUCTION": "Kirjoita ja lähetä viesti, se poistuu luettuasi.",
+      "SHOW_MESSAGE_ONCE": "Seuraava viesti näkyy vain kerran",
+      "OPEN_SECRET_MESSAGE": "Avaa salainen viesti",
+      "INPUT_PASSPHRASE": "Syötä salasana",
+      "PASS_PHRASE_PLACEHOLDER": "Salasana",
+      "OPEN_SECRET_BUTTON": "Avaa salainen viesti",
+      "YOUR_SECRET_MESSAGE": "Salainen viestisi",
+      "COPY": "Kopioi",
+      "MESSAGE_LABEL": "Viestin",
+      "REPLY": "Vastaa",
+      "DOWNLOAD_MESSAGE": "Lataa Stellar Secret mobiililaitteeseen, luo salaisia viestejäsi",
+      "WITHOUT_TRACE": "Ilman jälkiä.",
+      "PRIVACY_PROTECTED": "Yksityisyys suojattu",
+      "ONE_TIME_VIEWABLE": "Yhden kerran katsottavissa",
+      "SECURITY_TEXT": "Salattu, suojattu ja turvattu ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

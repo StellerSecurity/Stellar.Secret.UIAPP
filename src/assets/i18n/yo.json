@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Bá ṣe ń ṣiṣẹ",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ìránṣẹ́ ìkọ̀kọ́ ìgbà kan ṣoṣo",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Pín ìkọ̀kọ́, àti poof—wọ́n lọ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ti fi ẹ̀kọ́, aabo àti ìtọ́jú nipasẹ Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Láì sì ààmì",
+      "WITHOUT_TRACE_DESCRIPTION": "A ṣe ìtọ́jú pẹ̀lú ìmúlò ẹ̀rọ rẹ̀ lára. Gbogbo data ni a ti n kọ́kọ́kọ́ ni ẹgbẹ́ oníbàárà. A kò mọ ìpè rẹ, ohun tí o pín, tàbí ẹni tí o pín ìjápọ̀ ìkọ̀kọ́ pọ̀ pẹlu—ati pé, àwọn akoonu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ìpamọ́ tó dáàbò bo",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Iwọ nikan ni o mọ ìjápọ̀ sí ìkọ̀kọ́ tí o ṣẹ̀dá àti ẹni tí o pín rẹ̀ pẹ̀lú. Nígbà tí o bá ń ṣẹ̀dá ìkọ̀kọ́, o lè fi ọrọ ìkọ̀kọ́ kun ṣáájú kí o tó lè ṣí i. Pẹ̀lú náà, o lè ṣètò ìgbà ìparí. Kò sí ìkànsí, ìkọ̀kọ́ yóò parí lẹ́yìn ọjọ́ 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Àkọ̀kọ́ sí àkọ̀kọ́",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Gbogbo ìjápọ̀ àti akoonu ni a ti kọ́kọ́kọ́ ni ẹgbẹ́ oníbàárà, ní ìtumọ̀ pé paapaa àwa kò mọ ìjápọ̀ àti akoonu. Gbogbo ìjápọ̀ ní ID aláyẹ̀ méjìlélọ́gọ́rin (36) tí ó jẹ́ ẹ̀kọ́ àkọ̀kọ́ kan tí a lè wọlé sí ìkọ̀kọ́ ifiranṣẹ àti akoonu rẹ̀ tí a ti kọ́kọ́kọ́ pẹ̀lú AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Bá ṣe ń ṣiṣẹ?",
+      "STEP_1_TITLE": "Kọ ìránṣẹ́ rẹ àti/ tàbí ṣẹ̀dá ọrọ ìkọ̀kọ́",
+      "STEP_2_TITLE": "Ṣẹ̀dá Ìjápọ̀ ìkọ̀kọ́",
+      "STEP_3_TITLE": "Pín ìjápọ̀",
+      
+      "COMPANY_LOGO_ALT": "Aami Ilé-iṣẹ́",
+      
+      "SHARE_TITLE": "Pín ìránṣẹ́ ìkọ̀kọ́",
+      "SHARE_DESCRIPTION_PART_1": "Kọ àti rán ìránṣẹ́, yóò jẹ́",
+      "SHARE_DESCRIPTION_PART_2": "párí lẹ́yìn tí a bá ka.",
+      
+      "SHARE_BULLET_1": "Láì sì ààmì.",
+      "SHARE_BULLET_2": "Ìpamọ́ tó dáàbò bo",
+      "SHARE_BULLET_3": "Àkọ̀kọ́ láì fẹ́rẹ̀",
+      
+      "SHARE_ENCRYPTED_BY": "Ti fi ẹ̀kọ́, aabo àti ìtọ́jú nipasẹ Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kọ ìránṣẹ́ ìkọ̀kọ́ rẹ, ọrọ ìkọ̀kọ́ tàbí alaye pẹ̀lú *",
+      "SHARE_OPTIONS": "Àṣàyàn",
+      
+      "SHARE_EMPTY": "Fi silẹ fún kò sí.",
+      "SHARE_BUTTON": "Ṣẹ̀dá Ìjápọ̀ ìkọ̀kọ́",
+      
+      "CREATED_TITLE": "Ìkọ̀kọ́ rẹ̀ ti ṣẹ̀dá",
+      "CREATED_SUBTITLE": "Yóò jẹ́ afihan lẹ́kan ṣoṣo",
+      
+      "CREATED_TITLE_SHARE": "Da ìjápọ̀ pọ̀ tàbí pín í.",
+      "CREATED_BUTTON": "DA",
+      "CREATED_CREATE_SECRET": "Ṣẹ̀dá Ìkọ̀kọ́ Tuntun",
+      "CREATED_BURNSECRET": "Kọ ìkọ̀kọ́",
+      "URL_COPIED": "Ìjápọ̀ náà ti da.",
+      "SHARE_BURNER_TIME": "Ìgbà ìparí",
+      "SHARE_PASS_PHRASE": "Ọrọ ìkọ̀kọ́",
+      "VIEW_SECRET": "Wo Ìkọ̀kọ́"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Bá ṣe ń ṣiṣẹ",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ìránṣẹ́ ìkọ̀kọ́ ìgbà kan ṣoṣo",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Pín ìkọ̀kọ́, àti poof—wọ́n lọ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ti fi ẹ̀kọ́, aabo àti ìtọ́jú nipasẹ Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Ang Stellar Secret nagapahanugot sa imo nga magpaambit sang isa ka beses nga makita nga mga link nga may sensitibo nga kaundan sa isa ka sekreto nga link, nga ikaw lang ang nakahibalo, kag ang nagabaton ang nakahibalo. Amo ini ang pinakamaayo nga paagi, sa pagtipig sang sensitibo nga impormasyon sa bisan ano nga messenger-app.",
+
+      "WITHOUT_TRACE_TITLE": "Láì sì ààmì",
+      "WITHOUT_TRACE_DESCRIPTION": "A ṣe ìtọ́jú pẹ̀lú ìmúlò ẹ̀rọ rẹ̀ lára. Gbogbo data ni a ti n kọ́kọ́kọ́ ni ẹgbẹ́ oníbàárà. A kò mọ ìpè rẹ, ohun tí o pín, tàbí ẹni tí o pín ìjápọ̀ ìkọ̀kọ́ pọ̀ pẹlu—ati pé, àwọn akoonu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ìpamọ́ tó dáàbò bo",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Iwọ nikan ni o mọ ìjápọ̀ sí ìkọ̀kọ́ tí o ṣẹ̀dá àti ẹni tí o pín rẹ̀ pẹ̀lú. Nígbà tí o bá ń ṣẹ̀dá ìkọ̀kọ́, o lè fi ọrọ ìkọ̀kọ́ kun ṣáájú kí o tó lè ṣí i. Pẹ̀lú náà, o lè ṣètò ìgbà ìparí. Kò sí ìkànsí, ìkọ̀kọ́ yóò parí lẹ́yìn ọjọ́ 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Àkọ̀kọ́ sí àkọ̀kọ́",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Gbogbo ìjápọ̀ àti akoonu ni a ti kọ́kọ́kọ́ ni ẹgbẹ́ oníbàárà, ní ìtumọ̀ pé paapaa àwa kò mọ ìjápọ̀ àti akoonu. Gbogbo ìjápọ̀ ní ID aláyẹ̀ méjìlélọ́gọ́rin (36) tí ó jẹ́ ẹ̀kọ́ àkọ̀kọ́ kan tí a lè wọlé sí ìkọ̀kọ́ ifiranṣẹ àti akoonu rẹ̀ tí a ti kọ́kọ́kọ́ pẹ̀lú AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Bá ṣe ń ṣiṣẹ?",
+      "STEP_1_TITLE": "Kọ ìránṣẹ́ rẹ àti/ tàbí ṣẹ̀dá ọrọ ìkọ̀kọ́",
+      "STEP_2_TITLE": "Ṣẹ̀dá Ìjápọ̀ ìkọ̀kọ́",
+      "STEP_3_TITLE": "Pín ìjápọ̀",
+      
+      "COMPANY_LOGO_ALT": "Aami Ilé-iṣẹ́",
+      
+      "SHARE_TITLE": "Pín ìránṣẹ́ ìkọ̀kọ́",
+      "SHARE_DESCRIPTION_PART_1": "Kọ àti rán ìránṣẹ́, yóò jẹ́",
+      "SHARE_DESCRIPTION_PART_2": "párí lẹ́yìn tí a bá ka.",
+      
+      "SHARE_BULLET_1": "Láì sì ààmì.",
+      "SHARE_BULLET_2": "Ìpamọ́ tó dáàbò bo",
+      "SHARE_BULLET_3": "Àkọ̀kọ́ láì fẹ́rẹ̀",
+      
+      "SHARE_ENCRYPTED_BY": "Ti fi ẹ̀kọ́, aabo àti ìtọ́jú nipasẹ Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kọ ìránṣẹ́ ìkọ̀kọ́ rẹ, ọrọ ìkọ̀kọ́ tàbí alaye pẹ̀lú *",
+      "SHARE_OPTIONS": "Àṣàyàn",
+      
+      "SHARE_EMPTY": "Fi silẹ fún kò sí.",
+      "SHARE_BUTTON": "Ṣẹ̀dá Ìjápọ̀ ìkọ̀kọ́",
+      
+      "CREATED_TITLE": "Ìkọ̀kọ́ rẹ̀ ti ṣẹ̀dá",
+      "CREATED_SUBTITLE": "Yóò jẹ́ afihan lẹ́kan ṣoṣo",
+      
+      "CREATED_TITLE_SHARE": "Da ìjápọ̀ pọ̀ tàbí pín í.",
+      "CREATED_BUTTON": "DA",
+      "CREATED_CREATE_SECRET": "Ṣẹ̀dá Ìkọ̀kọ́ Tuntun",
+      "CREATED_BURNSECRET": "Kọ ìkọ̀kọ́",
+      "URL_COPIED": "Ìjápọ̀ náà ti da.",
+      
+      "VIEW_SECRET": "Wo Ìkọ̀kọ́"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Bá ṣe ń ṣiṣẹ",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Ìkọ̀kọ́ rẹ̀ ti ṣẹ̀dá",
+      "CREATED_SUBTITLE": "Yóò jẹ́ afihan lẹ́kan ṣoṣo",
+      "CREATED_TITLE_SHARE": "Da ìjápọ̀ pọ̀ tàbí pín í.",
+      "CREATED_BUTTON": "DA",
+      "CREATED_CREATE_SECRET": "Ṣẹ̀dá Ìkọ̀kọ́ Tuntun",
+      "CREATED_BURNSECRET": "Kọ ìkọ̀kọ́",
+      "URL_COPIED": "Ìjápọ̀ náà ti da."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Iwọ ń lọ láti kọ ìkọ̀kọ́ yìí",
+      "SECRET_UNAVAILABLE_TEXT": "Kò ní ṣàfihàn mọ́",
+      "BURN_FOREVER": "Kọ pẹ̀lú",
+      "CANCEL": "Fagilé"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Bá ṣe ń ṣiṣẹ",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Báwo ni, o gba ìránṣẹ́ ìkọ̀kọ́!",
+      "INSTRUCTION": "Kọ àti rán ìránṣẹ́, yóò jẹ́ pé yóò parí lẹ́yìn tí a bá ka.",
+      "SHOW_MESSAGE_ONCE": "Ìránṣẹ́ tó tẹ̀le yìí yóò jẹ́ afihan lékan ṣoṣo",
+      "OPEN_SECRET_MESSAGE": "Ṣí Ìránṣẹ́ Ìkọ̀kọ́",
+      "INPUT_PASSPHRASE": "Fi Ọrọ ìkọ̀kọ́",
+      "PASS_PHRASE_PLACEHOLDER": "Ọrọ ìkọ̀kọ́",
+      "OPEN_SECRET_BUTTON": "Ṣí Ìránṣẹ́ Ìkọ̀kọ́",
+      "YOUR_SECRET_MESSAGE": "Ìránṣẹ́ Ìkọ̀kọ́ Rẹ",
+      "COPY": "Da",
+      "MESSAGE_LABEL": "Ìránṣẹ́",
+      "REPLY": "Dáhùn",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret lórí mobile, ṣẹ̀dá ìránṣẹ́ ìkọ̀kọ́ rẹ",
+      "WITHOUT_TRACE": "Láì sì ààmì.",
+      "PRIVACY_PROTECTED": "Ìpamọ́ tó dáàbò bo",
+      "ONE_TIME_VIEWABLE": "Àkọ̀kọ́ láì fẹ́rẹ̀",
+      "SECURITY_TEXT": "Ti fi ẹ̀kọ́, aabo àti ìtọ́jú nipasẹ ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

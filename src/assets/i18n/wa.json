@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Cme ça d'vî",
+      "DOWNLOAD_APP": "Téléchertî l' App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messadje Secret d' Unse-foye",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partî des secrets, et hop—lès s'n'font rimer !",
+      
+      "ENCRYPTED_PROTECTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sans trace",
+      "WITHOUT_TRACE_DESCRIPTION": "Nos assurons la protection robuste de vos informations sensibles. Tot les données sont chiffrées d'sur le client. Nén n'connèssons vôtre IP, c'qui vos partî, ou qui vos partagez les liens secrets - et pus l'plus important, l'contenu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Protection de la vie privée",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vos l'sseul qui s'save l'lien d'les informations secrets que vos avès créés et à qui vos l'partî. Dins la création d' un secret, vos poutz l'ajouter un mot d'passe avant qu'il pût ètre déverrouillé. Également, vos poutz l'séz un temps de brûleur. Nén importe quoi, un secret sera supprimé après 14 jours.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Chiffré d' bout en bout",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tots les liens et contenu sont hashés d'sur le client, ç'mean eulî nén n'connèssons ni l'lien ni l'contenu. Tchaque lien avè un ID unique de 36 longueûre qui est un chiffrement unidirectionnel pour pût accéder au Message Secret et à l'contenu chiffré avec AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Cme ça d'vî ?",
+      "STEP_1_TITLE": "Rèdèye vos messadje et/ou génèriye mot d'passe",
+      "STEP_2_TITLE": "Crèye l' Lien Secret",
+      "STEP_3_TITLE": "Partî l'lien",
+      
+      "COMPANY_LOGO_ALT": "Logo d' la Compagnie",
+      
+      "SHARE_TITLE": "Partî un messadje secret",
+      "SHARE_DESCRIPTION_PART_1": "Rèdèye et envoye messadje, ç' va ètre",
+      "SHARE_DESCRIPTION_PART_2": "supprimé d'ès lu.",
+      
+      "SHARE_BULLET_1": "Sans trace.",
+      "SHARE_BULLET_2": "Protection de la vie privée",
+      "SHARE_BULLET_3": "Vue unse-foye",
+      
+      "SHARE_ENCRYPTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Rèdèye vos messadje Secret, mot d'passe ou informations sensibles *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Laissez vide pour aucun.",
+      "SHARE_BUTTON": "Crèye l' Lien Secret",
+      
+      "CREATED_TITLE": "Vôtre Secret a été créé",
+      "CREATED_SUBTITLE": "Il s'ra montré qu'une foye",
+      
+      "CREATED_TITLE_SHARE": "Copiez l'lien ou partî-le.",
+      "CREATED_BUTTON": "COPIER",
+      "CREATED_CREATE_SECRET": "Crèye Nouveu Secret",
+      "CREATED_BURNSECRET": "Brûle Secret",
+      "URL_COPIED": "L' URL a été copié.",
+      "SHARE_BURNER_TIME": "Durée de vie",
+      "SHARE_PASS_PHRASE": "Passphrase",
+      "VIEW_SECRET": "Voye Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Cme ça d'vî",
+      "DOWNLOAD_APP": "Téléchertî l' App",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Messadje Secret d' Unse-foye",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Partî des secrets, et hop—lès s'n'font rimer !",
+    
+      "ENCRYPTED_PROTECTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret you permet d’partî lins d’viåcion on k’eye tî kî vo di nén vos si l’expéditeur et l’récipiendêre. C’est l’meilleure mwayê di r’ter l’info sénsiblo lîd des nénse d’message",
+
+      "WITHOUT_TRACE_TITLE": "Sans trace",
+      "WITHOUT_TRACE_DESCRIPTION": "Nos assurons la protection robuste de vos informations sensibles. Tot les données sont chiffrées d'sur le client. Nén n'connèssons vôtre IP, c'qui vos partî, ou qui vos partagez les liens secrets - et pus l'plus important, l'contenu.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Protection de la vie privée",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vos l'sseul qui s'save l'lien d'les informations secrets que vos avès créés et à qui vos l'partî. Dins la création d' un secret, vos poutz l'ajouter un mot d'passe avant qu'il pût ètre déverrouillé. Également, vos poutz l'séz un temps de brûleur. Nén importe quoi, un secret sera supprimé après 14 jours.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Chiffré d' bout en bout",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tots les liens et contenu sont hashés d'sur le client, ç'mean eulî nén n'connèssons ni l'lien ni l'contenu. Tchaque lien avè un ID unique de 36 longueûre qui est un chiffrement unidirectionnel pour pût accéder au Message Secret et à l'contenu chiffré avec AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Cme ça d'vî ?",
+      "STEP_1_TITLE": "Rèdèye vos messadje et/ou génèriye mot d'passe",
+      "STEP_2_TITLE": "Crèye l' Lien Secret",
+      "STEP_3_TITLE": "Partî l'lien",
+    
+      "COMPANY_LOGO_ALT": "Logo d' la Compagnie",
+    
+      "SHARE_TITLE": "Partî un messadje secret",
+      "SHARE_DESCRIPTION_PART_1": "Rèdèye et envoye messadje, ç' va ètre",
+      "SHARE_DESCRIPTION_PART_2": "supprimé d'ès lu.",
+    
+      "SHARE_BULLET_1": "Sans trace.",
+      "SHARE_BULLET_2": "Protection de la vie privée",
+      "SHARE_BULLET_3": "Vue unse-foye",
+    
+      "SHARE_ENCRYPTED_BY": "Chiffré, sécurisé et protégé par Stellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Rèdèye vos messadje Secret, mot d'passe ou informations sensibles *",
+      "SHARE_OPTIONS": "Options",
+    
+      "SHARE_EMPTY": "Laissez vide pour aucun.",
+      "SHARE_BUTTON": "Crèye l' Lien Secret",
+    
+      "CREATED_TITLE": "Vôtre Secret a été créé",
+      "CREATED_SUBTITLE": "Il s'ra montré qu'une foye",
+    
+      "CREATED_TITLE_SHARE": "Copiez l'lien ou partî-le.",
+      "CREATED_BUTTON": "COPIER",
+      "CREATED_CREATE_SECRET": "Crèye Nouveu Secret",
+      "CREATED_BURNSECRET": "Brûle Secret",
+      "URL_COPIED": "L' URL a été copié.",
+    
+      "VIEW_SECRET": "Voye Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Cme ça d'vî",
+      "DOWNLOAD_APP": "Téléchertî l' App",
+      "CREATED_TITLE": "Vôtre Secret a été créé",
+      "CREATED_SUBTITLE": "Il s'ra montré qu'une foye",
+      "CREATED_TITLE_SHARE": "Copiez l'lien ou partî-le.",
+      "CREATED_BUTTON": "COPIER",
+      "CREATED_CREATE_SECRET": "Crèye Nouveu Secret",
+      "CREATED_BURNSECRET": "Brûle Secret",
+      "URL_COPIED": "L' URL a été copié."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vos allez brûler c' secret",
+      "SECRET_UNAVAILABLE_TEXT": "Li s'rè pus disponible",
+      "BURN_FOREVER": "Brûler Pour Toujours",
+      "CANCEL": "Annuler"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Cme ça d'vî",
+      "DOWNLOAD_APP": "Téléchertî l' App",
+      "WELCOME_MESSAGE": "Bonjour, vos avèt reçû un messadje secret !",
+      "INSTRUCTION": "Rèdèye et envoye messadje, ç' va ètre supprimé d'ès lu.",
+      "SHOW_MESSAGE_ONCE": "L' messadje suivant s'rè montré  qu'une foye ",
+      "OPEN_SECRET_MESSAGE": "Ouvrir Messadje Secret",
+      "INPUT_PASSPHRASE": "Rèdèye Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Ouvrir Messadje Secret",
+      "YOUR_SECRET_MESSAGE": "Vôtre Messadje Secret",
+      "COPY": "Copier",
+      "MESSAGE_LABEL": "Messadje",
+      "REPLY": "Répondre",
+      "DOWNLOAD_MESSAGE": "Téléchertî Stellar Secret sus mobile, crèye vos messadjes secrets",
+      "WITHOUT_TRACE": "Sans trace.",
+      "PRIVACY_PROTECTED": "Protection de la vie privée",
+      "ONE_TIME_VIEWABLE": "Vue unse-foye",
+      "SECURITY_TEXT": "Chiffré, sécurisé et protégé par ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

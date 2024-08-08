@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe't it wurket",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ienris Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Diele secrets, en poef—se binne fuort!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Enkriptearre, befeilige en beskermd troch Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sûnder spoar",
+      "WITHOUT_TRACE_DESCRIPTION": "Wy soargje foar robúste beskerming fan jo gefoelige ynformaasje. Alle gegevens wurde enkriptearre oan 'e klantside. Wy witte net jo IP-adres, wat jo diele, of mei wa't jo de geheime keppelings diele - en it wichtichste, de ynhâld.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Beskermd",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jo binne de ienige dy't de keppeling kin kenne nei de geheime ynformaasje dy't jo makke hawwe en mei wa't jo it diele. By it meitsjen fan in geheim kinne jo in wachtwurd tafoegje foardat it ûntsletten wurde kin. Ek is it mooglik om in burner-tiid yn te stellen. Hoewol, in geheim sil fuorthelle wurde nei 14 dagen.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Ein-tot-ein enkriptearre",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle keppelings en ynhâld binne hashed oan 'e klantside, wat betsjut dat sels wy net witte wat de keppeling en de ynhâld is. Elke keppeling hat in unike ID fan 36 tekens dy't in ien-rjochting enkriptearring is om tagong te krijen ta it Secret Message en de ynhâld dy't enkriptearre is mei AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hoe't it wurket?",
+      "STEP_1_TITLE": "Skriuw jo berjocht en/of generearje wachtwurd",
+      "STEP_2_TITLE": "Mak de Secret Link",
+      "STEP_3_TITLE": "Diel keppeling",
+      
+      "COMPANY_LOGO_ALT": "Bedriuwslogo",
+      
+      "SHARE_TITLE": "Diel in geheim berjocht",
+      "SHARE_DESCRIPTION_PART_1": "Skriuw en stjoer berjocht, it sil wêze",
+      "SHARE_DESCRIPTION_PART_2": "fuorthelle as lêzen.",
+      
+      "SHARE_BULLET_1": "Sûnder spoar.",
+      "SHARE_BULLET_2": "Privacy Beskermd",
+      "SHARE_BULLET_3": "Ienris besjen",
+      
+      "SHARE_ENCRYPTED_BY": "Enkriptearre, befeilige en beskermd troch Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriuw jo Secret berjocht, wachtwurd of gefoelige ynformaasje *",
+      "SHARE_OPTIONS": "Opsjes",
+      
+      "SHARE_EMPTY": "Lit leech foar gjin.",
+      "SHARE_BUTTON": "Mak Secret Link",
+      
+      "CREATED_TITLE": "Jo Secret is makke",
+      "CREATED_SUBTITLE": "It sil mar ien kear sjen litte",
+      
+      "CREATED_TITLE_SHARE": "Kopiearje keppeling of diele it.",
+      "CREATED_BUTTON": "KOPIE",
+      "CREATED_CREATE_SECRET": "Mak nije Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "De URL is kopiearre.",
+      "SHARE_BURNER_TIME":"Levenstiid",
+      "SHARE_PASS_PHRASE":"Wachtwurd",
+      "VIEW_SECRET": "Sjoch Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe't it wurket",
+      "DOWNLOAD_APP": "Download App",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ienris Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Diele secrets, en poef—se binne fuort!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Enkriptearre, befeilige en beskermd troch Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret makket it mooglik om ienmalige sichtbere keppelings te diele mei gefoelige ynformaasje dy't allinnich jimme beiden witte. It is de bêste manier om gefoelige ynformaasje út elts berjochtapp te hâlden.",
+
+      "WITHOUT_TRACE_TITLE": "Sûnder spoar",
+      "WITHOUT_TRACE_DESCRIPTION": "Wy soargje foar robúste beskerming fan jo gefoelige ynformaasje. Alle gegevens wurde enkriptearre oan 'e klantside. Wy witte net jo IP-adres, wat jo diele, of mei wa't jo de geheime keppelings diele - en it wichtichste, de ynhâld.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Privacy Beskermd",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jo binne de ienige dy't de keppeling kin kenne nei de geheime ynformaasje dy't jo makke hawwe en mei wa't jo it diele. By it meitsjen fan in geheim kinne jo in wachtwurd tafoegje foardat it ûntsletten wurde kin. Ek is it mooglik om in burner-tiid yn te stellen. Hoewol, in geheim sil fuorthelle wurde nei 14 dagen.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Ein-tot-ein enkriptearre",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle keppelings en ynhâld binne hashed oan 'e klantside, wat betsjut dat sels wy net witte wat de keppeling en de ynhâld is. Elke keppeling hat in unike ID fan 36 tekens dy't in ien-rjochting enkriptearring is om tagong te krijen ta it Secret Message en de ynhâld dy't enkriptearre is mei AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Hoe't it wurket?",
+      "STEP_1_TITLE": "Skriuw jo berjocht en/of generearje wachtwurd",
+      "STEP_2_TITLE": "Mak de Secret Link",
+      "STEP_3_TITLE": "Diel keppeling",
+    
+      "COMPANY_LOGO_ALT": "Bedriuwslogo",
+    
+      "SHARE_TITLE": "Diel in geheim berjocht",
+      "SHARE_DESCRIPTION_PART_1": "Skriuw en stjoer berjocht, it sil wêze",
+      "SHARE_DESCRIPTION_PART_2": "fuorthelle as lêzen.",
+    
+      "SHARE_BULLET_1": "Sûnder spoar.",
+      "SHARE_BULLET_2": "Privacy Beskermd",
+      "SHARE_BULLET_3": "Ienris besjen",
+    
+      "SHARE_ENCRYPTED_BY": "Enkriptearre, befeilige en beskermd troch Stellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skriuw jo Secret berjocht, wachtwurd of gefoelige ynformaasje *",
+      "SHARE_OPTIONS": "Opsjes",
+    
+      "SHARE_EMPTY": "Lit leech foar gjin.",
+      "SHARE_BUTTON": "Mak Secret Link",
+    
+      "CREATED_TITLE": "Jo Secret is makke",
+      "CREATED_SUBTITLE": "It sil mar ien kear sjen litte",
+    
+      "CREATED_TITLE_SHARE": "Kopiearje keppeling of diele it.",
+      "CREATED_BUTTON": "KOPIE",
+      "CREATED_CREATE_SECRET": "Mak nije Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "De URL is kopiearre.",
+    
+      "VIEW_SECRET": "Sjoch Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe't it wurket",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Jo Secret is makke",
+      "CREATED_SUBTITLE": "It sil mar ien kear sjen litte",
+      "CREATED_TITLE_SHARE": "Kopiearje keppeling of diele it.",
+      "CREATED_BUTTON": "KOPIE",
+      "CREATED_CREATE_SECRET": "Mak nije Secret",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "De URL is kopiearre."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Jo sille dit geheim opbringe",
+      "SECRET_UNAVAILABLE_TEXT": "It sil net mear beskikber wêze",
+      "BURN_FOREVER": "Burn Foar altyd",
+      "CANCEL": "Annulearje"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe't it wurket",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Hallo dêr, jo hawwe in geheim berjocht krigen!",
+      "INSTRUCTION": "Skriuw en stjoer berjocht, it sil fuorthelle wurde as lêzen.",
+      "SHOW_MESSAGE_ONCE": "It folgjende berjocht sil mar ien kear sjen litte",
+      "OPEN_SECRET_MESSAGE": "Iepenje Secret Message",
+      "INPUT_PASSPHRASE": "Input Wachtwurd",
+      "PASS_PHRASE_PLACEHOLDER": "Wachtwurd",
+      "OPEN_SECRET_BUTTON": "Iepenje Secret Message",
+      "YOUR_SECRET_MESSAGE": "Jo Secret Message",
+      "COPY": "Kopiearje",
+      "MESSAGE_LABEL": "Berjocht",
+      "REPLY": "Antwurdzje",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret op mobile, meitsje jo geheime berjochten",
+      "WITHOUT_TRACE": "Sûnder spoar.",
+      "PRIVACY_PROTECTED": "Privacy Beskermd",
+      "ONE_TIME_VIEWABLE": "Ienris besjen",
+      "SECURITY_TEXT": "Enkriptearre, befeilige en beskermd troch ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

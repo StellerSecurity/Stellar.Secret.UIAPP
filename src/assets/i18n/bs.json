@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako funkcioniše",
+      "DOWNLOAD_APP": "Preuzmi aplikaciju",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Poruke sa jednim korišćenjem",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dijelite tajne i—poof—nestaju!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrovano, zaštićeno i obezbijeđeno od strane Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Bez traga",
+      "WITHOUT_TRACE_DESCRIPTION": "Osiguravamo robusnu zaštitu vaših osjetljivih informacija. Svi podaci se šifruju na strani klijenta. Ne znamo vašu IP adresu, šta dijelite ili sa kim dijelite tajne linkove - i što je najvažnije, sadržaj.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Zaštita privatnosti",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vi ste jedini koji zna link do tajnih informacija koje ste kreirali i sa kim ih dijelite. Kada kreirate tajnu, možete dodati lozinku prije nego što se može otključati. Također možete postaviti vrijeme za gašenje. Bez obzira na sve, tajna će biti obrisana nakon 14 dana.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifrovano od kraja do kraja",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Svi linkovi i sadržaj su hashirani na strani klijenta, što znači da čak ni mi ne znamo link i sadržaj. Svaki link ima jedinstveni ID dužine 36 koji je jednosmjerna šifrovana oznaka za pristup tajnoj poruci i njenom sadržaju koji je šifrovan sa AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kako funkcioniše?",
+      "STEP_1_TITLE": "Napišite svoju poruku i/ili generišite lozinku",
+      "STEP_2_TITLE": "Kreirajte tajni link",
+      "STEP_3_TITLE": "Podijelite link",
+      
+      "COMPANY_LOGO_ALT": "Logo kompanije",
+      
+      "SHARE_TITLE": "Podijelite tajnu poruku",
+      "SHARE_DESCRIPTION_PART_1": "Napišite i pošaljite poruku, biće",
+      "SHARE_DESCRIPTION_PART_2": "obrisana nakon čitanja.",
+      
+      "SHARE_BULLET_1": "Bez traga.",
+      "SHARE_BULLET_2": "Zaštita privatnosti",
+      "SHARE_BULLET_3": "Jednom vidljiva",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrovano, zaštićeno i obezbijeđeno od strane Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Napišite svoju tajnu poruku, lozinku ili osjetljive informacije *",
+      "SHARE_OPTIONS": "Opcije",
+      
+      "SHARE_EMPTY": "Ostavite prazno ako nema.",
+      "SHARE_BUTTON": "Kreirajte tajni link",
+      
+      "CREATED_TITLE": "Vaša tajna je kreirana",
+      "CREATED_SUBTITLE": "Biće prikazana samo jednom",
+      
+      "CREATED_TITLE_SHARE": "Kopirajte link ili ga podijelite.",
+      "CREATED_BUTTON": "KOPIRAJ",
+      "CREATED_CREATE_SECRET": "Kreirajte novu tajnu",
+      "CREATED_BURNSECRET": "Uništite tajnu",
+      "URL_COPIED": "URL je kopiran.",
+      "SHARE_BURNER_TIME": "Trajanje",
+      "SHARE_PASS_PHRASE": "Lozinka",
+      "VIEW_SECRET": "Pogledajte tajnu"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako funkcioniše",
+      "DOWNLOAD_APP": "Preuzmi aplikaciju",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Poruke sa jednim korišćenjem",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dijelite tajne i—poof—nestaju!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Šifrovano, zaštićeno i obezbijeđeno od strane Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret vam omogućava da dijelite jednokratne vidljive veze sa osjetljivim sadržajem u tajnoj vezi, koju znate samo vi i primalac. To je najbolji način za čuvanje osjetljivih informacija iz bilo koje aplikacije za slanje poruka.",
+
+      "WITHOUT_TRACE_TITLE": "Bez traga",
+      "WITHOUT_TRACE_DESCRIPTION": "Osiguravamo robusnu zaštitu vaših osjetljivih informacija. Svi podaci se šifruju na strani klijenta. Ne znamo vašu IP adresu, šta dijelite ili sa kim dijelite tajne linkove - i što je najvažnije, sadržaj.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Zaštita privatnosti",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vi ste jedini koji zna link do tajnih informacija koje ste kreirali i sa kim ih dijelite. Kada kreirate tajnu, možete dodati lozinku prije nego što se može otključati. Također možete postaviti vrijeme za gašenje. Bez obzira na sve, tajna će biti obrisana nakon 14 dana.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Šifrovano od kraja do kraja",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Svi linkovi i sadržaj su hashirani na strani klijenta, što znači da čak ni mi ne znamo link i sadržaj. Svaki link ima jedinstveni ID dužine 36 koji je jednosmjerna šifrovana oznaka za pristup tajnoj poruci i njenom sadržaju koji je šifrovan sa AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kako funkcioniše?",
+      "STEP_1_TITLE": "Napišite svoju poruku i/ili generišite lozinku",
+      "STEP_2_TITLE": "Kreirajte tajni link",
+      "STEP_3_TITLE": "Podijelite link",
+      
+      "COMPANY_LOGO_ALT": "Logo kompanije",
+      
+      "SHARE_TITLE": "Podijelite tajnu poruku",
+      "SHARE_DESCRIPTION_PART_1": "Napišite i pošaljite poruku, biće",
+      "SHARE_DESCRIPTION_PART_2": "obrisana nakon čitanja.",
+      
+      "SHARE_BULLET_1": "Bez traga.",
+      "SHARE_BULLET_2": "Zaštita privatnosti",
+      "SHARE_BULLET_3": "Jednom vidljiva",
+      
+      "SHARE_ENCRYPTED_BY": "Šifrovano, zaštićeno i obezbijeđeno od strane Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Napišite svoju tajnu poruku, lozinku ili osjetljive informacije *",
+      "SHARE_OPTIONS": "Opcije",
+      
+      "SHARE_EMPTY": "Ostavite prazno ako nema.",
+      "SHARE_BUTTON": "Kreirajte tajni link",
+      
+      "CREATED_TITLE": "Vaša tajna je kreirana",
+      "CREATED_SUBTITLE": "Biće prikazana samo jednom",
+      
+      "CREATED_TITLE_SHARE": "Kopirajte link ili ga podijelite.",
+      "CREATED_BUTTON": "KOPIRAJ",
+      "CREATED_CREATE_SECRET": "Kreirajte novu tajnu",
+      "CREATED_BURNSECRET": "Uništite tajnu",
+      "URL_COPIED": "URL je kopiran.",
+      
+      "VIEW_SECRET": "Pogledajte tajnu"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako funkcioniše",
+      "DOWNLOAD_APP": "Preuzmi aplikaciju",
+      "CREATED_TITLE": "Vaša tajna je kreirana",
+      "CREATED_SUBTITLE": "Biće prikazana samo jednom",
+      "CREATED_TITLE_SHARE": "Kopirajte link ili ga podijelite.",
+      "CREATED_BUTTON": "KOPIRAJ",
+      "CREATED_CREATE_SECRET": "Kreirajte novu tajnu",
+      "CREATED_BURNSECRET": "Uništite tajnu",
+      "URL_COPIED": "URL je kopiran."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Namjeravate da uništite ovu tajnu",
+      "SECRET_UNAVAILABLE_TEXT": "Više neće biti dostupna",
+      "BURN_FOREVER": "Uništi za uvijek",
+      "CANCEL": "Otkaži"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kako funkcioniše",
+      "DOWNLOAD_APP": "Preuzmi aplikaciju",
+      "WELCOME_MESSAGE": "Zdravo, primili ste tajnu poruku!",
+      "INSTRUCTION": "Napišite i pošaljite poruku, biće obrisana nakon čitanja.",
+      "SHOW_MESSAGE_ONCE": "Sljedeća poruka će biti prikazana samo jednom ",
+      "OPEN_SECRET_MESSAGE": "Otvori tajnu poruku",
+      "INPUT_PASSPHRASE": "Unesite lozinku",
+      "PASS_PHRASE_PLACEHOLDER": "Lozinka",
+      "OPEN_SECRET_BUTTON": "Otvori tajnu poruku",
+      "YOUR_SECRET_MESSAGE": "Vaša tajna poruka",
+      "COPY": "Kopiraj",
+      "MESSAGE_LABEL": "Poruka",
+      "REPLY": "Odgovori",
+      "DOWNLOAD_MESSAGE": "Preuzmite Stellar Secret na mobilnom uređaju, kreirajte svoje tajne poruke",
+      "WITHOUT_TRACE": "Bez traga.",
+      "PRIVACY_PROTECTED": "Zaštita privatnosti",
+      "ONE_TIME_VIEWABLE": "Jednom vidljiva",
+      "SECURITY_TEXT": "Šifrovano, zaštićeno i obezbijeđeno od strane ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Sirrin Tauraruwa",
+      "HOW_IT_WORKS": "Yadda yake aiki",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Sakon Sirri Na Wani Lokaci",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Raba sirrin, kuma sai su bace!",
+      
+      "ENCRYPTED_PROTECTED_BY": "An encrypt da tsaro daga Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Ba tare da alamar ba",
+      "WITHOUT_TRACE_DESCRIPTION": "Muna tabbatar da kariya mai karfi ga bayananka masu muhimmanci. Duk bayanai ana encrypt su a gefen abokin ciniki. Ba mu san adireshin IP dinka ba, abin da kake raba ba, ko wanda kake raba haɗin sirri tare da shi - kuma mafi muhimmanci, abun ciki.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Kariya ta Sirri",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Kai ne kawai wanda ke san haɗin sirrin da ka ƙirƙira da wanda ka raba shi da shi. Lokacin ƙirƙirar sirri, za ka iya ƙara kalmar wucewa kafin a iya buɗe shi. Hakanan yana yiwuwa a saita lokacin ƙarewa. Duk da haka, sirrin zai bace bayan kwana 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encrypt daga karshensa zuwa karshensa",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Dukkan haɗin da abun ciki suna hashed a gefen abokin ciniki, ma'ana har ma mu ba mu san haɗin da abun ciki ba. Kowanne haɗin yana da ID na musamman na tsawon 36 wanda shine encrypt ɗin hanya don samun damar zuwa Sakon Sirri da abun ciki wanda aka encrypt da AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Yadda yake aiki?",
+      "STEP_1_TITLE": "Rubuta sakonka da/ko ƙirƙirar kalmar wucewa",
+      "STEP_2_TITLE": "Ƙirƙiri Haɗin Sirri",
+      "STEP_3_TITLE": "Raba haɗin",
+      
+      "COMPANY_LOGO_ALT": "Tambarin Kamfani",
+      
+      "SHARE_TITLE": "Raba sakon sirri",
+      "SHARE_DESCRIPTION_PART_1": "Rubuta da aika sako, zai",
+      "SHARE_DESCRIPTION_PART_2": "bace bayan an karanta.",
+      
+      "SHARE_BULLET_1": "Ba tare da alamar ba.",
+      "SHARE_BULLET_2": "Kariya ta Sirri",
+      "SHARE_BULLET_3": "Wani lokaci ana duba",
+      
+      "SHARE_ENCRYPTED_BY": "An encrypt da tsaro daga Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Rubuta sakon sirrin ka, kalmar wucewa ko bayanan sirri *",
+      "SHARE_OPTIONS": "Zaɓuɓɓuka",
+      
+      "SHARE_EMPTY": "Barin kyauta don babu.",
+      "SHARE_BUTTON": "Ƙirƙiri Haɗin Sirri",
+      
+      "CREATED_TITLE": "Sakon Sirrin ka ya ƙirƙira",
+      "CREATED_SUBTITLE": "Zai bayyana sau ɗaya kawai",
+      
+      "CREATED_TITLE_SHARE": "Kwafi haɗin ko raba shi.",
+      "CREATED_BUTTON": "KWAFI",
+      "CREATED_CREATE_SECRET": "Ƙirƙiri Sabon Sirri",
+      "CREATED_BURNSECRET": "Kone Sirri",
+      "URL_COPIED": "URL ɗin an kwafe.",
+      "SHARE_BURNER_TIME":"Rayuwa",
+      "SHARE_PASS_PHRASE":"Kalmar wucewa",
+      "VIEW_SECRET": "Duba Sirri"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Sirrin Tauraruwa",
+      "HOW_IT_WORKS": "Yadda yake aiki",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Sakon Sirri Na Wani Lokaci",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Raba sirrin, kuma sai su bace!",
+      
+      "ENCRYPTED_PROTECTED_BY": "An encrypt da tsaro daga Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Sirrin Stellar yana ba ku damar raba hanyoyin haɗin yanar gizo na lokaci ɗaya da ake iya gani tare da abun ciki mai mahimmanci a cikin hanyar haɗin sirri, wanda kawai ku sani, kuma mai karɓa ya sani. Hanya mafi kyau, don kiyaye mahimman bayanai daga kowane manhaja na Messenger.",
+
+      "WITHOUT_TRACE_TITLE": "Ba tare da alamar ba",
+      "WITHOUT_TRACE_DESCRIPTION": "Muna tabbatar da kariya mai karfi ga bayananka masu muhimmanci. Duk bayanai ana encrypt su a gefen abokin ciniki. Ba mu san adireshin IP dinka ba, abin da kake raba ba, ko wanda kake raba haɗin sirri tare da shi - kuma mafi muhimmanci, abun ciki.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Kariya ta Sirri",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Kai ne kawai wanda ke san haɗin sirrin da ka ƙirƙira da wanda ka raba shi da shi. Lokacin ƙirƙirar sirri, za ka iya ƙara kalmar wucewa kafin a iya buɗe shi. Hakanan yana yiwuwa a saita lokacin ƙarewa. Duk da haka, sirrin zai bace bayan kwana 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encrypt daga karshensa zuwa karshensa",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Dukkan haɗin da abun ciki suna hashed a gefen abokin ciniki, ma'ana har ma mu ba mu san haɗin da abun ciki ba. Kowanne haɗin yana da ID na musamman na tsawon 36 wanda shine encrypt ɗin hanya don samun damar zuwa Sakon Sirri da abun ciki wanda aka encrypt da AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Yadda yake aiki?",
+      "STEP_1_TITLE": "Rubuta sakonka da/ko ƙirƙirar kalmar wucewa",
+      "STEP_2_TITLE": "Ƙirƙiri Haɗin Sirri",
+      "STEP_3_TITLE": "Raba haɗin",
+      
+      "COMPANY_LOGO_ALT": "Tambarin Kamfani",
+      
+      "SHARE_TITLE": "Raba sakon sirri",
+      "SHARE_DESCRIPTION_PART_1": "Rubuta da aika sako, zai",
+      "SHARE_DESCRIPTION_PART_2": "bace bayan an karanta.",
+      
+      "SHARE_BULLET_1": "Ba tare da alamar ba.",
+      "SHARE_BULLET_2": "Kariya ta Sirri",
+      "SHARE_BULLET_3": "Wani lokaci ana duba",
+      
+      "SHARE_ENCRYPTED_BY": "An encrypt da tsaro daga Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Rubuta sakon sirrin ka, kalmar wucewa ko bayanan sirri *",
+      "SHARE_OPTIONS": "Zaɓuɓɓuka",
+      
+      "SHARE_EMPTY": "Barin kyauta don babu.",
+      "SHARE_BUTTON": "Ƙirƙiri Haɗin Sirri",
+      
+      "CREATED_TITLE": "Sakon Sirrin ka ya ƙirƙira",
+      "CREATED_SUBTITLE": "Zai bayyana sau ɗaya kawai",
+      
+      "CREATED_TITLE_SHARE": "Kwafi haɗin ko raba shi.",
+      "CREATED_BUTTON": "KWAFI",
+      "CREATED_CREATE_SECRET": "Ƙirƙiri Sabon Sirri",
+      "CREATED_BURNSECRET": "Kone Sirri",
+      "URL_COPIED": "URL ɗin an kwafe.",
+      
+      "VIEW_SECRET": "Duba Sirri"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Sirrin Tauraruwa",
+      "HOW_IT_WORKS": "Yadda yake aiki",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Sakon Sirrin ka ya ƙirƙira",
+      "CREATED_SUBTITLE": "Zai bayyana sau ɗaya kawai",
+      "CREATED_TITLE_SHARE": "Kwafi haɗin ko raba shi.",
+      "CREATED_BUTTON": "KWAFI",
+      "CREATED_CREATE_SECRET": "Ƙirƙiri Sabon Sirri",
+      "CREATED_BURNSECRET": "Kone Sirri",
+      "URL_COPIED": "URL ɗin an kwafe."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Za ka kone wannan sirrin",
+      "SECRET_UNAVAILABLE_TEXT": "Ba zai kasance a samu ba",
+      "BURN_FOREVER": "Kone Har Abada",
+      "CANCEL": "Soke"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Sirrin Tauraruwa",
+      "HOW_IT_WORKS": "Yadda yake aiki",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Sannu, ka karɓi sakon sirri!",
+      "INSTRUCTION": "Rubuta da aika sako, zai bace bayan an karanta.",
+      "SHOW_MESSAGE_ONCE": "Sakon da ke ƙasa zai bayyana sau ɗaya kawai",
+      "OPEN_SECRET_MESSAGE": "Buɗe Sakon Sirri",
+      "INPUT_PASSPHRASE": "Shigar da Kalmar Wucewa",
+      "PASS_PHRASE_PLACEHOLDER": "Kalmar Wucewa",
+      "OPEN_SECRET_BUTTON": "Buɗe Sakon Sirri",
+      "YOUR_SECRET_MESSAGE": "Sakon Sirrin Ka",
+      "COPY": "Kwafi",
+      "MESSAGE_LABEL": "Sako",
+      "REPLY": "Amsa",
+      "DOWNLOAD_MESSAGE": "Sauke Stellar Secret akan wayarka, ƙirƙiri sakonnin sirrinka",
+      "WITHOUT_TRACE": "Ba tare da alamar ba.",
+      "PRIVACY_PROTECTED": "Kariya ta Sirri",
+      "ONE_TIME_VIEWABLE": "Wani lokaci ana duba",
+      "SECURITY_TEXT": "An encrypt da tsaro daga ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

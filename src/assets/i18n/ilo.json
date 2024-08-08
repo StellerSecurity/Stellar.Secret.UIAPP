@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kasano nga agtrabaho",
+      "DOWNLOAD_APP": "I-download ti App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Maysa a Panag-ipaay ti Sekreto",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "I-share dagiti sekreto, ket awan—napukaw da!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Naka-encrypt, na-secure ken naprotektaran babaen ti Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Awan ti bakas",
+      "WITHOUT_TRACE_DESCRIPTION": "Siguradwenmi ti naimbag a proteksyon kadagiti sensitibo a impormasyon yo. Amin a datos ket na-encrypt iti client-side. Awan ti ammom a IP address yo, anya ti i-share yo, wenno kaniya ti i-share yo ti sekreto a link - ken ti pinaka-importante, ti nilalaman.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Protektado ti Privacy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Sika laeng ti agammok ti link ti sekreto nga impormaasion a na-create mo ken kaniya ti i-share mo. No ag-create ka ti sekreto, mabalin mo nga i-add ti password sakbay a ma-access daytoy. Mabalin met nga i-set ti burner-time. Awan ti agdama, ti sekreto ket madelter kalpasan ti 14 nga aldaw.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end nga naka-encrypt",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Amin a links ken nilalaman ket na-hash iti client-side, nga agdama nga awan ti ammom ti link ken ti nilalaman. Tunggal link adda unique ID a 36 ti kaabaanna a maysa nga one-way encryption tapno ma-access ti Secret Message ken ti nilalaman a na-encrypt babaen ti AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kasano nga agtrabaho?",
+      "STEP_1_TITLE": "Isurat ti mensahe mo ken/ wenno ag-generate ti password",
+      "STEP_2_TITLE": "Ag-create ti Secret Link",
+      "STEP_3_TITLE": "I-share ti link",
+      
+      "COMPANY_LOGO_ALT": "Logo ti Kompaniya",
+      
+      "SHARE_TITLE": "I-share ti sekreto a mensahe",
+      "SHARE_DESCRIPTION_PART_1": "Isurat ken i-send ti mensahe, ket",
+      "SHARE_DESCRIPTION_PART_2": "madelter kalpasan ti nabasa.",
+      
+      "SHARE_BULLET_1": "Awan ti bakas.",
+      "SHARE_BULLET_2": "Protektado ti Privacy",
+      "SHARE_BULLET_3": "Maysa laeng a makitkita",
+      
+      "SHARE_ENCRYPTED_BY": "Naka-encrypt, na-secure ken naprotektaran babaen ti Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Isurat ti Secret mensahe mo, password wenno sensitibo a impormasyon *",
+      "SHARE_OPTIONS": "Pagpili",
+      
+      "SHARE_EMPTY": "Iwanan awan para ti awan.",
+      "SHARE_BUTTON": "Ag-create ti Secret Link",
+      
+      "CREATED_TITLE": "Ti Secret mo ket na-create",
+      "CREATED_SUBTITLE": "Makitkita laeng maysa a beses",
+      
+      "CREATED_TITLE_SHARE": "Kopyaen ti link wenno i-share mo.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Ag-create ti Baro a Sekreto",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "Ti URL ket nakopya.",
+      "SHARE_BURNER_TIME":"Panawen ti Biyag",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "Kitaen ti Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kasano nga agtrabaho",
+      "DOWNLOAD_APP": "I-download ti App",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Maysa a Panag-ipaay ti Sekreto",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "I-share dagiti sekreto, ket awan—napukaw da!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Naka-encrypt, na-secure ken naprotektaran babaen ti Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ket mangted kadagiti link a mabalin nga kitaen iti maysa a panawen laeng a naglaon iti sensitibo nga nilalaman nga ammo laeng niyo ken ti agawat. Daytoy ti kasayaatan a wagas tapno maipreservar ti sensitibo nga impormasyon manipud kadagiti amin nga aplikasyon ti mensahe",
+
+      "WITHOUT_TRACE_TITLE": "Awan ti bakas",
+      "WITHOUT_TRACE_DESCRIPTION": "Siguradwenmi ti naimbag a proteksyon kadagiti sensitibo a impormasyon yo. Amin a datos ket na-encrypt iti client-side. Awan ti ammom a IP address yo, anya ti i-share yo, wenno kaniya ti i-share yo ti sekreto a link - ken ti pinaka-importante, ti nilalaman.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Protektado ti Privacy",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Sika laeng ti agammok ti link ti sekreto nga impormaasion a na-create mo ken kaniya ti i-share mo. No ag-create ka ti sekreto, mabalin mo nga i-add ti password sakbay a ma-access daytoy. Mabalin met nga i-set ti burner-time. Awan ti agdama, ti sekreto ket madelter kalpasan ti 14 nga aldaw.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end nga naka-encrypt",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Amin a links ken nilalaman ket na-hash iti client-side, nga agdama nga awan ti ammom ti link ken ti nilalaman. Tunggal link adda unique ID a 36 ti kaabaanna a maysa nga one-way encryption tapno ma-access ti Secret Message ken ti nilalaman a na-encrypt babaen ti AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Kasano nga agtrabaho?",
+      "STEP_1_TITLE": "Isurat ti mensahe mo ken/ wenno ag-generate ti password",
+      "STEP_2_TITLE": "Ag-create ti Secret Link",
+      "STEP_3_TITLE": "I-share ti link",
+    
+      "COMPANY_LOGO_ALT": "Logo ti Kompaniya",
+    
+      "SHARE_TITLE": "I-share ti sekreto a mensahe",
+      "SHARE_DESCRIPTION_PART_1": "Isurat ken i-send ti mensahe, ket",
+      "SHARE_DESCRIPTION_PART_2": "madelter kalpasan ti nabasa.",
+    
+      "SHARE_BULLET_1": "Awan ti bakas.",
+      "SHARE_BULLET_2": "Protektado ti Privacy",
+      "SHARE_BULLET_3": "Maysa laeng a makitkita",
+    
+      "SHARE_ENCRYPTED_BY": "Naka-encrypt, na-secure ken naprotektaran babaen ti Stellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Isurat ti Secret mensahe mo, password wenno sensitibo a impormasyon *",
+      "SHARE_OPTIONS": "Pagpili",
+    
+      "SHARE_EMPTY": "Iwanan awan para ti awan.",
+      "SHARE_BUTTON": "Ag-create ti Secret Link",
+    
+      "CREATED_TITLE": "Ti Secret mo ket na-create",
+      "CREATED_SUBTITLE": "Makitkita laeng maysa a beses",
+    
+      "CREATED_TITLE_SHARE": "Kopyaen ti link wenno i-share mo.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Ag-create ti Baro a Sekreto",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "Ti URL ket nakopya.",
+    
+      "VIEW_SECRET": "Kitaen ti Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kasano nga agtrabaho",
+      "DOWNLOAD_APP": "I-download ti App",
+      "CREATED_TITLE": "Ti Secret mo ket na-create",
+      "CREATED_SUBTITLE": "Makitkita laeng maysa a beses",
+      "CREATED_TITLE_SHARE": "Kopyaen ti link wenno i-share mo.",
+      "CREATED_BUTTON": "KOPYA",
+      "CREATED_CREATE_SECRET": "Ag-create ti Baro a Sekreto",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "Ti URL ket nakopya."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "I-burn mo daytoy a sekreto",
+      "SECRET_UNAVAILABLE_TEXT": "Saanen a magun-od",
+      "BURN_FOREVER": "I-burn Ti Amin",
+      "CANCEL": "Ikansela"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kasano nga agtrabaho",
+      "DOWNLOAD_APP": "I-download ti App",
+      "WELCOME_MESSAGE": "Kumusta, nakaawat ka ti sekreto a mensahe!",
+      "INSTRUCTION": "Isurat ken i-send ti mensahe, ket madelter kalpasan ti nabasa.",
+      "SHOW_MESSAGE_ONCE": "Ti sumaganad a mensahe ket makitkita maysa laeng a beses",
+      "OPEN_SECRET_MESSAGE": "Kitaen ti Secret Message",
+      "INPUT_PASSPHRASE": "Isurat ti Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Kitaen ti Secret Message",
+      "YOUR_SECRET_MESSAGE": "Ti Secret Message mo",
+      "COPY": "KOPYA",
+      "MESSAGE_LABEL": "Mensahe",
+      "REPLY": "Sumungbat",
+      "DOWNLOAD_MESSAGE": "I-download ti Stellar Secret iti mobile, ag-create ka ti sekreto a mensahe",
+      "WITHOUT_TRACE": "Awan ti bakas.",
+      "PRIVACY_PROTECTED": "Protektado ti Privacy",
+      "ONE_TIME_VIEWABLE": "Maysa laeng a makitkita",
+      "SECURITY_TEXT": "Naka-encrypt, na-secure ken naprotektaran babaen ti ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

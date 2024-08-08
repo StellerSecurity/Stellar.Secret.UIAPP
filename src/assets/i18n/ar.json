@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "السر النجمي",
+      "HOW_IT_WORKS": "كيف يعمل",
+      "DOWNLOAD_APP": "تنزيل التطبيق",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "رسائل سرية لمرة واحدة",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "شارك الأسرار، وبف—تختفي!",
+      
+      "ENCRYPTED_PROTECTED_BY": "مشفرة، مؤمنة ومحمية بواسطة أمان ستيلار",
+      "WITHOUT_TRACE_TITLE": "بدون أثر",
+      "WITHOUT_TRACE_DESCRIPTION": "نضمن حماية قوية لمعلوماتك الحساسة. يتم تشفير جميع البيانات على جانب العميل. لا نعرف عنوان IP الخاص بك، ما تشاركه، أو مع من تشارك روابط الأسرار - والأهم من ذلك، المحتوى.",
+      
+      "PRIVACY_PROTECTED_TITLE": "حماية الخصوصية",
+      "PRIVACY_PROTECTED_DESCRIPTION": "أنت الوحيد الذي يعرف الرابط إلى المعلومات السرية التي أنشأتها ومع من تشاركها. عند إنشاء سر، يمكنك إضافة كلمة مرور قبل أن يتم فتحه. من الممكن أيضًا تعيين وقت حرق. مهما كان، سيتم حذف السر بعد 14 يومًا.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "مشفرة من طرف إلى طرف",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "جميع الروابط والمحتوى يتم تجزئته على جانب العميل، مما يعني أننا لا نعرف الرابط والمحتوى. كل رابط له معرف فريد بطول 36 وهو تشفير أحادي الاتجاه للوصول إلى رسالة السر ومحتواها الذي يتم تشفيره باستخدام AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "كيف يعمل؟",
+      "STEP_1_TITLE": "اكتب رسالتك و/أو أنشئ كلمة مرور",
+      "STEP_2_TITLE": "أنشئ رابط سرّي",
+      "STEP_3_TITLE": "شارك الرابط",
+      
+      "COMPANY_LOGO_ALT": "شعار الشركة",
+      
+      "SHARE_TITLE": "شارك رسالة سرية",
+      "SHARE_DESCRIPTION_PART_1": "اكتب و أرسل الرسالة، سيتم",
+      "SHARE_DESCRIPTION_PART_2": "حذفها بمجرد قراءتها.",
+      
+      "SHARE_BULLET_1": "بدون أثر.",
+      "SHARE_BULLET_2": "حماية الخصوصية",
+      "SHARE_BULLET_3": "قابلة للعرض لمرة واحدة",
+      
+      "SHARE_ENCRYPTED_BY": "مشفرة، مؤمنة ومحمية بواسطة أمان ستيلار",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "اكتب رسالتك السرية، كلمة المرور أو المعلومات الحساسة *",
+      "SHARE_OPTIONS": "خيارات",
+      
+      "SHARE_EMPTY": "اتركه فارغًا بدون أي شيء.",
+      "SHARE_BUTTON": "أنشئ رابط سرّي",
+      
+      "CREATED_TITLE": "تم إنشاء سرك",
+      "CREATED_SUBTITLE": "سيتم عرضه مرة واحدة فقط",
+      
+      "CREATED_TITLE_SHARE": "انسخ الرابط أو شاركه.",
+      "CREATED_BUTTON": "نسخ",
+      "CREATED_CREATE_SECRET": "أنشئ سرًا جديدًا",
+      "CREATED_BURNSECRET": "احرق السر",
+      "URL_COPIED": "تم نسخ عنوان URL.",
+      "SHARE_BURNER_TIME": "مدة الحياة",
+      "SHARE_PASS_PHRASE": "عبارة المرور",
+      "VIEW_SECRET": "عرض السر"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "السر النجمي",
+      "HOW_IT_WORKS": "كيف يعمل",
+      "DOWNLOAD_APP": "تنزيل التطبيق",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "رسائل سرية لمرة واحدة",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "شارك الأسرار، وبف—تختفي!",
+    
+      "ENCRYPTED_PROTECTED_BY": "مشفرة، مؤمنة ومحمية بواسطة أمان ستيلار",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"السر النجمي يتيح لك مشاركة روابط قابلة للرؤية لمرة واحدة تحتوي على محتوى حساس في رابط سري، يعرفه فقط أنت والمتلقي. إنها أفضل طريقة للحفاظ على المعلومات الحساسة بعيداً عن أي تطبيقات رسائل",
+
+      "WITHOUT_TRACE_TITLE": "بدون أثر",
+      "WITHOUT_TRACE_DESCRIPTION": "نضمن حماية قوية لمعلوماتك الحساسة. يتم تشفير جميع البيانات على جانب العميل. لا نعرف عنوان IP الخاص بك، ما تشاركه، أو مع من تشارك روابط الأسرار - والأهم من ذلك، المحتوى.",
+    
+      "PRIVACY_PROTECTED_TITLE": "حماية الخصوصية",
+      "PRIVACY_PROTECTED_DESCRIPTION": "أنت الوحيد الذي يعرف الرابط إلى المعلومات السرية التي أنشأتها ومع من تشاركها. عند إنشاء سر، يمكنك إضافة كلمة مرور قبل أن يتم فتحه. من الممكن أيضًا تعيين وقت حرق. مهما كان، سيتم حذف السر بعد 14 يومًا.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "مشفرة من طرف إلى طرف",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "جميع الروابط والمحتوى يتم تجزئته على جانب العميل، مما يعني أننا لا نعرف الرابط والمحتوى. كل رابط له معرف فريد بطول 36 وهو تشفير أحادي الاتجاه للوصول إلى رسالة السر ومحتواها الذي يتم تشفيره باستخدام AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "كيف يعمل؟",
+      "STEP_1_TITLE": "اكتب رسالتك و/أو أنشئ كلمة مرور",
+      "STEP_2_TITLE": "أنشئ رابط سرّي",
+      "STEP_3_TITLE": "شارك الرابط",
+    
+      "COMPANY_LOGO_ALT": "شعار الشركة",
+    
+      "SHARE_TITLE": "شارك رسالة سرية",
+      "SHARE_DESCRIPTION_PART_1": "اكتب و أرسل الرسالة، سيتم",
+      "SHARE_DESCRIPTION_PART_2": "حذفها بمجرد قراءتها.",
+    
+      "SHARE_BULLET_1": "بدون أثر.",
+      "SHARE_BULLET_2": "حماية الخصوصية",
+      "SHARE_BULLET_3": "قابلة للعرض لمرة واحدة",
+    
+      "SHARE_ENCRYPTED_BY": "مشفرة، مؤمنة ومحمية بواسطة أمان ستيلار",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "اكتب رسالتك السرية، كلمة المرور أو المعلومات الحساسة *",
+      "SHARE_OPTIONS": "خيارات",
+    
+      "SHARE_EMPTY": "اتركه فارغًا بدون أي شيء.",
+      "SHARE_BUTTON": "أنشئ رابط سرّي",
+    
+      "CREATED_TITLE": "تم إنشاء سرك",
+      "CREATED_SUBTITLE": "سيتم عرضه مرة واحدة فقط",
+    
+      "CREATED_TITLE_SHARE": "انسخ الرابط أو شاركه.",
+      "CREATED_BUTTON": "نسخ",
+      "CREATED_CREATE_SECRET": "أنشئ سرًا جديدًا",
+      "CREATED_BURNSECRET": "احرق السر",
+      "URL_COPIED": "تم نسخ عنوان URL.",
+    
+      "VIEW_SECRET": "عرض السر"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "السر النجمي",
+      "HOW_IT_WORKS": "كيف يعمل",
+      "DOWNLOAD_APP": "تنزيل التطبيق",
+      "CREATED_TITLE": "تم إنشاء سرك",
+      "CREATED_SUBTITLE": "سيتم عرضه مرة واحدة فقط",
+      "CREATED_TITLE_SHARE": "انسخ الرابط أو شاركه.",
+      "CREATED_BUTTON": "نسخ",
+      "CREATED_CREATE_SECRET": "أنشئ سرًا جديدًا",
+      "CREATED_BURNSECRET": "احرق السر",
+      "URL_COPIED": "تم نسخ عنوان URL."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "أنت على وشك حرق هذا السر",
+      "SECRET_UNAVAILABLE_TEXT": "لن يكون متاحًا بعد الآن",
+      "BURN_FOREVER": "احرق إلى الأبد",
+      "CANCEL": "إلغاء"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "السر النجمي",
+      "HOW_IT_WORKS": "كيف يعمل",
+      "DOWNLOAD_APP": "تنزيل التطبيق",
+      "WELCOME_MESSAGE": "مرحبًا، لقد تلقيت رسالة سرية!",
+      "INSTRUCTION": "اكتب وأرسل الرسالة، سيتم حذفها بمجرد قراءتها.",
+      "SHOW_MESSAGE_ONCE": "الرسالة التالية ستُعرض مرة واحدة فقط",
+      "OPEN_SECRET_MESSAGE": "افتح الرسالة السرية",
+      "INPUT_PASSPHRASE": "أدخل عبارة المرور",
+      "PASS_PHRASE_PLACEHOLDER": "عبارة المرور",
+      "OPEN_SECRET_BUTTON": "افتح الرسالة السرية",
+      "YOUR_SECRET_MESSAGE": "رسالتك السرية",
+      "COPY": "نسخ",
+      "MESSAGE_LABEL": "الرسالة",
+      "REPLY": "رد",
+      "DOWNLOAD_MESSAGE": "قم بتنزيل السر النجمي على الجوال، أنشئ رسائلك السرية",
+      "WITHOUT_TRACE": "بدون أثر.",
+      "PRIVACY_PROTECTED": "حماية الخصوصية",
+      "ONE_TIME_VIEWABLE": "قابلة للعرض لمرة واحدة",
+      "SECURITY_TEXT": "مشفرة، مؤمنة ومحمية بواسطة ",
+      "SECURITY_TEXT2": "أمان ستيلار"
+    }
+  }
+  

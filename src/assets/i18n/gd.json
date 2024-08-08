@@ -1,0 +1,149 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Secret Stellar",
+      "HOW_IT_WORKS": "Mar a tha e ag obair",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Teachdaireachd Rìbhinn Aon-ùine",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Roinn na rìbhinn, agus poof—tha iad air falbh!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Cuirpichte, tèarainte agus dìon le Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Gun trassa",
+      "WITHOUT_TRACE_DESCRIPTION": "Bidh sinn a' dèanamh cinnteach gu bheil dìon làidir air do fhiosrachadh mothachail. Tha an dàta air a churpachadh air an taobh cliant. Chan eil fios againn air do sheòladh IP, dè na tha thu a’ roinn, no cò leis a tha thu a’ roinn na ceanglaichean rìbhinn - agus nas cudromaiche, an susbaint.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Prìobhaideachd Dìon",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Is tusa a-mhàin a tha a’ faighinn fiosrachadh mu na ceanglaichean rìbhinn a chruth thu agus cò leis a tha thu a’ roinn iad. Nuair a tha thu a’ cruthachadh rìbhinn, faodaidh tu freagairtean a chur ris mus tèid e a ghlanadh. Tha e cuideachd comasach àm burnaidh a shuidheachadh. Ge bith dè, bidh rìbhinn air a dhubhadh às às dèidh 14 latha.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Curpichte bho cheann gu ceann",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tha na ceanglaichean agus an susbaint air an hashadh air an taobh cliant, a’ ciallachadh eadhon nach eil fios againn air an ceangal agus an susbaint. Tha gach ceangal a’ faighinn ID sònraichte de fad 36 a tha na chripteachadh aon-rathad gus faighinn thuigsinn am Freagairtean Rìbhinn agus a’ chùis a tha air a churpachadh le AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Mar a tha e ag obair?",
+      "STEP_1_TITLE": "Scribe do theachdaireachd agus/no cruthaich freagairtean",
+      "STEP_2_TITLE": "Cruthaich Ceangal Rìbhinn",
+      "STEP_3_TITLE": "Roinn ceangal",
+      
+      "COMPANY_LOGO_ALT": "Logo na Companaidh",
+      
+      "SHARE_TITLE": "Roinn teachdaireachd rìbhinn",
+      "SHARE_DESCRIPTION_PART_1": "Scribe agus cuir a’ theachdaireachd, bidh e",
+      "SHARE_DESCRIPTION_PART_2": "air a dhubhadh às às dèidh a leughadh.",
+      
+      "SHARE_BULLET_1": "Gun trassa.",
+      "SHARE_BULLET_2": "Prìobhaideachd Dìon",
+      "SHARE_BULLET_3": "Faic aon-ùine",
+      
+      "SHARE_ENCRYPTED_BY": "Curpichte, tèarainte agus dìon le Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Scribe do theachdaireachd Rìbhinn, freagairtean no fiosrachadh mothachail *",
+      "SHARE_OPTIONS": "Roghainnean",
+      
+      "SHARE_EMPTY": "Fàg freagairtean falamh airson neo.",
+      "SHARE_BUTTON": "Cruthaich Ceangal Rìbhinn",
+      
+      "CREATED_TITLE": "Chaidh do Rìbhinn a chruthachadh",
+      "CREATED_SUBTITLE": "Nochdaidh e dìreach aon uair",
+      
+      "CREATED_TITLE_SHARE": "Dèan lethbhreac den cheangal no roinn e.",
+      "CREATED_BUTTON": "LETHBHREAC",
+      "CREATED_CREATE_SECRET": "Cruthaich Rìbhinn Ùr",
+      "CREATED_BURNSECRET": "Dùin Rìbhinn",
+      "URL_COPIED": "Tha an URL air a bhith air lethbhreac.",
+      "SHARE_BURNER_TIME":"Ùine Beatha",
+      "SHARE_PASS_PHRASE":"Freagairtean",
+      "VIEW_SECRET": "Faic Rìbhinn"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Secret Stellar",
+      "HOW_IT_WORKS": "Mar a tha e ag obair",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Teachdaireachd Rìbhinn Aon-ùine",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Roinn na rìbhinn, agus poof—tha iad air falbh!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Cuirpichte, tèarainte agus dìon le Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Tha Stellar Secret a' leigeil leat ceanglaichean a tha ri fhaicinn aon uair a cho-roinn le susbaint freagairteach ris am faod thu agus an neach-faighinn a-mhàin faighinn freagairt. 'S e seo an dòigh as fheàrr air freagairteach fiosrachadh a chumail às na freagairtean app sam bith.",
+
+      "WITHOUT_TRACE_TITLE": "Gun trassa",
+      "WITHOUT_TRACE_DESCRIPTION": "Bidh sinn a' dèanamh cinnteach gu bheil dìon làidir air do fhiosrachadh mothachail. Tha an dàta air a churpachadh air an taobh cliant. Chan eil fios againn air do sheòladh IP, dè na tha thu a’ roinn, no cò leis a tha thu a’ roinn na ceanglaichean rìbhinn - agus nas cudromaiche, an susbaint.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Prìobhaideachd Dìon",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Is tusa a-mhàin a tha a’ faighinn fiosrachadh mu na ceanglaichean rìbhinn a chruth thu agus cò leis a tha thu a’ roinn iad. Nuair a tha thu a’ cruthachadh rìbhinn, faodaidh tu freagairtean a chur ris mus tèid e a ghlanadh. Tha e cuideachd comasach àm burnaidh a shuidheachadh. Ge bith dè, bidh rìbhinn air a dhubhadh às às dèidh 14 latha.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Curpichte bho cheann gu ceann",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tha na ceanglaichean agus an susbaint air an hashadh air an taobh cliant, a’ ciallachadh eadhon nach eil fios againn air an ceangal agus an susbaint. Tha gach ceangal a’ faighinn ID sònraichte de fad 36 a tha na chripteachadh aon-rathad gus faighinn thuigsinn am Freagairtean Rìbhinn agus a’ chùis a tha air a churpachadh le AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Mar a tha e ag obair?",
+      "STEP_1_TITLE": "Scribe do theachdaireachd agus/no cruthaich freagairtean",
+      "STEP_2_TITLE": "Cruthaich Ceangal Rìbhinn",
+      "STEP_3_TITLE": "Roinn ceangal",
+      
+      "COMPANY_LOGO_ALT": "Logo na Companaidh",
+      
+      "SHARE_TITLE": "Roinn teachdaireachd rìbhinn",
+      "SHARE_DESCRIPTION_PART_1": "Scribe agus cuir a’ theachdaireachd, bidh e",
+      "SHARE_DESCRIPTION_PART_2": "air a dhubhadh às às dèidh a leughadh.",
+      
+      "SHARE_BULLET_1": "Gun trassa.",
+      "SHARE_BULLET_2": "Prìobhaideachd Dìon",
+      "SHARE_BULLET_3": "Faic aon-ùine",
+      
+      "SHARE_ENCRYPTED_BY": "Curpichte, tèarainte agus dìon le Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Scribe do theachdaireachd Rìbhinn, freagairtean no fiosrachadh mothachail *",
+      "SHARE_OPTIONS": "Roghainnean",
+      
+      "SHARE_EMPTY": "Fàg freagairtean falamh airson neo.",
+      "SHARE_BUTTON": "Cruthaich Ceangal Rìbhinn",
+      
+      "CREATED_TITLE": "Chaidh do Rìbhinn a chruthachadh",
+      "CREATED_SUBTITLE": "Nochdaidh e dìreach aon uair",
+      
+      "CREATED_TITLE_SHARE": "Dèan lethbhreac den cheangal no roinn e.",
+      "CREATED_BUTTON": "LETHBHREAC",
+      "CREATED_CREATE_SECRET": "Cruthaich Rìbhinn Ùr",
+      "CREATED_BURNSECRET": "Dùin Rìbhinn",
+      "URL_COPIED": "Tha an URL air a bhith air lethbhreac.",
+      "VIEW_SECRET": "Faic Rìbhinn"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Secret Stellar",
+      "HOW_IT_WORKS": "Mar a tha e ag obair",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Chaidh do Rìbhinn a chruthachadh",
+      "CREATED_SUBTITLE": "Nochdaidh e dìreach aon uair",
+      "CREATED_TITLE_SHARE": "Dèan lethbhreac den cheangal no roinn e.",
+      "CREATED_BUTTON": "LETHBHREAC",
+      "CREATED_CREATE_SECRET": "Cruthaich Rìbhinn Ùr",
+      "CREATED_BURNSECRET": "Dùin Rìbhinn",
+      "URL_COPIED": "Tha an URL air a bhith air lethbhreac."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Tha thu a’ dol a dhùin an rìbhinn seo",
+      "SECRET_UNAVAILABLE_TEXT": "Chan eil e ri fhaighinn tuilleadh",
+      "BURN_FOREVER": "Dùin gu bràth",
+      "CANCEL": "Cuir às"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Secret Stellar",
+      "HOW_IT_WORKS": "Mar a tha e ag obair",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Halò, fhuair thu teachdaireachd rìbhinn!",
+      "INSTRUCTION": "Scribe agus cuir a’ theachdaireachd, bidh e air a dhubhadh às às dèidh a leughadh.",
+      "SHOW_MESSAGE_ONCE": "Nochdaidh an teachdaireachd a leanas aon uair a-mhàin",
+      "OPEN_SECRET_MESSAGE": "Furasta Teachdaireachd Rìbhinn",
+      "INPUT_PASSPHRASE": "Cuir a-steach Freagairtean",
+      "PASS_PHRASE_PLACEHOLDER": "Freagairtean",
+      "OPEN_SECRET_BUTTON": "Furasta Teachdaireachd Rìbhinn",
+      "YOUR_SECRET_MESSAGE": "Do Theachdaireachd Rìbhinn",
+      "COPY": "Lethbhreac",
+      "MESSAGE_LABEL": "Teachdaireachd",
+      "REPLY": "Freagair",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret air mòbail, cruthaich do theachdaireachd rìbhinn",
+      "WITHOUT_TRACE": "Gun trassa.",
+      "PRIVACY_PROTECTED": "Prìobhaideachd Dìon",
+      "ONE_TIME_VIEWABLE": "Faic aon-ùine",
+      "SECURITY_TEXT": "Curpichte, tèarainte agus dìon le ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

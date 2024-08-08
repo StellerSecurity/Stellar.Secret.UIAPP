@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Sɛnea ɛyɛ",
+      "DOWNLOAD_APP": "Sɔ App no",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Nkɔnsɔnkɔnsɔn Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kyɛ nkɔnsɔnkɔnsɔn, na ɛkɔ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ehyɛ yɛn ho ban na yɛn hyɛ Stellar Security so",
+      "WITHOUT_TRACE_TITLE": "Nni akwan",
+      "WITHOUT_TRACE_DESCRIPTION": "Yɛhyɛ nkɔnsɔnkɔnsɔn ahotɔ wɔ wo sensitive information no. Data nyinaa wɔ client-side so. Yɛnte wo IP address, nea wopɛ sɛ wosian anaa wɔn a wɔkyɛ secret links no - na nsɛm a ɛda ho.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ahoɔden a wɔahyɛ ho ban",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Wo na kɛkɛ na woyɛ nea ɔnim link a ɛda ho sɛnea ɛyɛ secret information a woyɛ no ne wɔn a wode kyerɛ wɔn. Sɛ wopɛ sɛ yɛyɛ secret a, wubetumi de password a ɛda ho kɔmɔ. Sɛ wopɛ a, wubetumi de burner-time a ɛda ho. Akyɛde a ɛda ho no bɛyɛ deleted akyiri nnansa anaa da koro.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Links ne content nyinaa wɔ client-side so. Eyi kyerɛ sɛ yɛn nso yɛnte link no ne content no. Link biara wɔ unique ID a ɛyɛ 36 a ɛyɛ one-way encryption de yɛbɛtumi akɔ Secret Message ne content no a ɛda ho na ɛyɛ AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Sɛnea ɛyɛ?",
+      "STEP_1_TITLE": "Kyerɛ w' message na/anaa kyerɛ password",
+      "STEP_2_TITLE": "Yɛ Secret Link",
+      "STEP_3_TITLE": "Kyɛ link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Kyɛ secret message",
+      "SHARE_DESCRIPTION_PART_1": "Kyerɛ na to message no, ɛbɛyɛ",
+      "SHARE_DESCRIPTION_PART_2": "deleted bere a ɛda ho.",
+      
+      "SHARE_BULLET_1": "Nni akwan.",
+      "SHARE_BULLET_2": "Ahoɔden a wɔahyɛ ho ban",
+      "SHARE_BULLET_3": "Nda koro a wɔde bɛhunu",
+      
+      "SHARE_ENCRYPTED_BY": "Ehyɛ yɛn ho ban na yɛn hyɛ Stellar Security so",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kyerɛ w' Secret message, password anaa sensitive information *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Gyae kwan sɛ wopɛ a, fa nni hɔ.",
+      "SHARE_BUTTON": "Yɛ Secret Link",
+      
+      "CREATED_TITLE": "W' Secret yɛɛ",
+      "CREATED_SUBTITLE": "Ɛbɛda ho koro pɛ",
+      
+      "CREATED_TITLE_SHARE": "Fa link no kyɛ anaa share.",
+      "CREATED_BUTTON": "COPIES",
+      "CREATED_CREATE_SECRET": "Yɛ Secret Foforɔ",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "URL no agyinaa.",
+      "SHARE_BURNER_TIME":"Afe",
+      "SHARE_PASS_PHRASE":"Passphrase",
+      "VIEW_SECRET": "Hwɛ Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Sɛnea ɛyɛ",
+      "DOWNLOAD_APP": "Sɔ App no",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Nkɔnsɔnkɔnsɔn Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kyɛ nkɔnsɔnkɔnsɔn, na ɛkɔ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ehyɛ yɛn ho ban na yɛn hyɛ Stellar Security so",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ma w’anya ɔkwan a ɛyɛ kɛse sɛ wɔde link a ɛda ho adi kɔma ɔbarima koro pɛ na ɛda ho adi, a ɛnyɛ w’ankasa na ɔyɛ nkyerɛkyerɛ. Ɛyɛ ɔkwan pa ara a ɛyɛ sɛ wopɛ sɛ wode nsɛm a ɛyɛ sɛ nkɔmɔ a ɛyɛ hɔ pɛ fi nkɔmɔ-apps nyinaa.",
+
+      "WITHOUT_TRACE_TITLE": "Nni akwan",
+      "WITHOUT_TRACE_DESCRIPTION": "Yɛhyɛ nkɔnsɔnkɔnsɔn ahotɔ wɔ wo sensitive information no. Data nyinaa wɔ client-side so. Yɛnte wo IP address, nea wopɛ sɛ wosian anaa wɔn a wɔkyɛ secret links no - na nsɛm a ɛda ho.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ahoɔden a wɔahyɛ ho ban",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Wo na kɛkɛ na woyɛ nea ɔnim link a ɛda ho sɛnea ɛyɛ secret information a woyɛ no ne wɔn a wode kyerɛ wɔn. Sɛ wopɛ sɛ yɛyɛ secret a, wubetumi de password a ɛda ho kɔmɔ. Sɛ wopɛ a, wubetumi de burner-time a ɛda ho. Akyɛde a ɛda ho no bɛyɛ deleted akyiri nnansa anaa da koro.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Links ne content nyinaa wɔ client-side so. Eyi kyerɛ sɛ yɛn nso yɛnte link no ne content no. Link biara wɔ unique ID a ɛyɛ 36 a ɛyɛ one-way encryption de yɛbɛtumi akɔ Secret Message ne content no a ɛda ho na ɛyɛ AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Sɛnea ɛyɛ?",
+      "STEP_1_TITLE": "Kyerɛ w' message na/anaa kyerɛ password",
+      "STEP_2_TITLE": "Yɛ Secret Link",
+      "STEP_3_TITLE": "Kyɛ link",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Kyɛ secret message",
+      "SHARE_DESCRIPTION_PART_1": "Kyerɛ na to message no, ɛbɛyɛ",
+      "SHARE_DESCRIPTION_PART_2": "deleted bere a ɛda ho.",
+      
+      "SHARE_BULLET_1": "Nni akwan.",
+      "SHARE_BULLET_2": "Ahoɔden a wɔahyɛ ho ban",
+      "SHARE_BULLET_3": "Nda koro a wɔde bɛhunu",
+      
+      "SHARE_ENCRYPTED_BY": "Ehyɛ yɛn ho ban na yɛn hyɛ Stellar Security so",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Kyerɛ w' Secret message, password anaa sensitive information *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Gyae kwan sɛ wopɛ a, fa nni hɔ.",
+      "SHARE_BUTTON": "Yɛ Secret Link",
+      
+      "CREATED_TITLE": "W' Secret yɛɛ",
+      "CREATED_SUBTITLE": "Ɛbɛda ho koro pɛ",
+      
+      "CREATED_TITLE_SHARE": "Fa link no kyɛ anaa share.",
+      "CREATED_BUTTON": "COPIES",
+      "CREATED_CREATE_SECRET": "Yɛ Secret Foforɔ",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "URL no agyinaa.",
+      
+      "VIEW_SECRET": "Hwɛ Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Sɛnea ɛyɛ",
+      "DOWNLOAD_APP": "Sɔ App no",
+      "CREATED_TITLE": "W' Secret yɛɛ",
+      "CREATED_SUBTITLE": "Ɛbɛda ho koro pɛ",
+      "CREATED_TITLE_SHARE": "Fa link no kyɛ anaa share.",
+      "CREATED_BUTTON": "COPIES",
+      "CREATED_CREATE_SECRET": "Yɛ Secret Foforɔ",
+      "CREATED_BURNSECRET": "Burn Secret",
+      "URL_COPIED": "URL no agyinaa."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Wopɛ sɛ wosɛe secret yi",
+      "SECRET_UNAVAILABLE_TEXT": "Ɛrenyɛ hɔ bio",
+      "BURN_FOREVER": "Sɛe Da Koro",
+      "CANCEL": "Gyae"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Sɛnea ɛyɛ",
+      "DOWNLOAD_APP": "Sɔ App no",
+      "WELCOME_MESSAGE": "Afehyia pa, wunya secret message!",
+      "INSTRUCTION": "Kyerɛ na to message no, ɛbɛyɛ deleted bere a ɛda ho.",
+      "SHOW_MESSAGE_ONCE": "Ná message a ɛda ho pɛ da koro pɛ",
+      "OPEN_SECRET_MESSAGE": "Bue Secret Message",
+      "INPUT_PASSPHRASE": "Tɔ Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Bue Secret Message",
+      "YOUR_SECRET_MESSAGE": "Wo Secret Message",
+      "COPY": "Kɔpi",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Ka nsɛm",
+      "DOWNLOAD_MESSAGE": "Sɔ Stellar Secret wɔ mobile, yɛ secret messages",
+      "WITHOUT_TRACE": "Nni akwan.",
+      "PRIVACY_PROTECTED": "Ahoɔden a wɔahyɛ ho ban",
+      "ONE_TIME_VIEWABLE": "Nda koro a wɔde bɛhunu",
+      "SECURITY_TEXT": "Ehyɛ yɛn ho ban na yɛn hyɛ ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

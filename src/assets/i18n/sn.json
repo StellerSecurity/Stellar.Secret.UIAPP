@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Maitiro Acho",
+      "DOWNLOAD_APP": "Dhawunirodha App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Meseji Yekunyora Kamwechete",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Govera zvemashoko, uye poof—zvanyanya!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Yakavharirwa, yakachengetedzwa uye yakadzivirirwa neStellar Security",
+      "WITHOUT_TRACE_TITLE": "Pasina Chiratidzo",
+      "WITHOUT_TRACE_DESCRIPTION": "Tinovimbisa kuchengetedzwa kwakasimba kwe ruzivo rwako rwakavanzika. Dhata yose iri kuve yakavharirwa kumutengi. Hatizive IP yako, chii chawakatumira, kana kuti kune ani wawakatumira zvinongedzo zvezvakatemwa - uye zvakanyanya, zvemukati.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Kuchengetedzwa kweZvakavanzika",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Iwe ndiwe chete anoziva chinongedzo kune ruzivo rwakavanzika rwaunogadzira uye kuti wawakatumira nani. Paunogadzira chakavanzika, unogona kuwedzera password pamberi pekuti chisunungurwe. Zvakare, zvinogoneka kumisa nguva yekupisa. Chero zvazvingava, chakavanzika chichapfuurwa mushure mezuva makumi mana nemana.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Yakavharirwa kubva pakutanga kusvika pakupedzisira",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Zvinongedzo zvese nezvinyorwa zvakashandurwa kumutengi, zvinoreva kuti kunyange isu hatizivi chinongedzo uye zvemukati. Chimwe nechimwe chinongedzo chine ID yakasarudzika yehurefu hwe36 iyo iri encryption imwe nzira kuti uwane Chinyorwa Chakavanzika uye zvemukati chakatemwa neAES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Maitiro Acho?",
+      "STEP_1_TITLE": "Nyora meseji yako uye / kana kugadzira password",
+      "STEP_2_TITLE": "Gadzira Chinongedzo Chakavanzika",
+      "STEP_3_TITLE": "Govera chinongedzo",
+      
+      "COMPANY_LOGO_ALT": "Logo yeKambani",
+      
+      "SHARE_TITLE": "Govera meseji yakavanzika",
+      "SHARE_DESCRIPTION_PART_1": "Nyora uye tumira meseji, ichave",
+      "SHARE_DESCRIPTION_PART_2": "yakapfuurwa kana yaverengwa.",
+      
+      "SHARE_BULLET_1": "Pasina Chiratidzo.",
+      "SHARE_BULLET_2": "Kuchengetedzwa kweZvakavanzika",
+      "SHARE_BULLET_3": "Inoonekwa kamwe chete",
+      
+      "SHARE_ENCRYPTED_BY": "Yakavharirwa, yakachengetedzwa uye yakadzivirirwa neStellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Nyora meseji yako Yakavanzika, password kana ruzivo rwakavanzika *",
+      "SHARE_OPTIONS": "Sarudzo",
+      
+      "SHARE_EMPTY": "Siyai isina chinhu kana isiri kushandiswa.",
+      "SHARE_BUTTON": "Gadzira Chinongedzo Chakavanzika",
+      
+      "CREATED_TITLE": "Chakavanzika Chako chagadzirwa",
+      "CREATED_SUBTITLE": "Icharatidzwa kamwe chete",
+      
+      "CREATED_TITLE_SHARE": "Kopa chinongedzo kana kugovera.",
+      "CREATED_BUTTON": "KOPA",
+      "CREATED_CREATE_SECRET": "Gadzira Chakavanzika Chitsva",
+      "CREATED_BURNSECRET": "Pisa Chakavanzika",
+      "URL_COPIED": "URL yacho yakakopiwa.",
+      "SHARE_BURNER_TIME":"Nguva yehupenyu",
+      "SHARE_PASS_PHRASE":"Shoko reKupinda",
+      "VIEW_SECRET": "Ona Chakavanzika"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Maitiro Acho",
+      "DOWNLOAD_APP": "Dhawunirodha App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Meseji Yekunyora Kamwechete",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Govera zvemashoko, uye poof—zvanyanya!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Yakavharirwa, yakachengetedzwa uye yakadzivirirwa neStellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Chakavanzika cheStellar chinokutendera kuti ugovane-imwe-nguva inotaridzika zvinongedzo neyakajeka yemukati mune yakavanzika chinongedzo, icho iwe chete unoziva, uye anogamuchira anoziva. Iyo ndiyo nzira yakanakisa, yekuchengeta ruzivo rwakadzama kubva kune chero mutumwa-apps.",
+
+      "WITHOUT_TRACE_TITLE": "Pasina Chiratidzo",
+      "WITHOUT_TRACE_DESCRIPTION": "Tinovimbisa kuchengetedzwa kwakasimba kwe ruzivo rwako rwakavanzika. Dhata yose iri kuve yakavharirwa kumutengi. Hatizive IP yako, chii chawakatumira, kana kuti kune ani wawakatumira zvinongedzo zvezvakatemwa - uye zvakanyanya, zvemukati.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Kuchengetedzwa kweZvakavanzika",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Iwe ndiwe chete anoziva chinongedzo kune ruzivo rwakavanzika rwaunogadzira uye kuti wawakatumira nani. Paunogadzira chakavanzika, unogona kuwedzera password pamberi pekuti chisunungurwe. Zvakare, zvinogoneka kumisa nguva yekupisa. Chero zvazvingava, chakavanzika chichapfuurwa mushure mezuva makumi mana nemana.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Yakavharirwa kubva pakutanga kusvika pakupedzisira",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Zvinongedzo zvese nezvinyorwa zvakashandurwa kumutengi, zvinoreva kuti kunyange isu hatizivi chinongedzo uye zvemukati. Chimwe nechimwe chinongedzo chine ID yakasarudzika yehurefu hwe36 iyo iri encryption imwe nzira kuti uwane Chinyorwa Chakavanzika uye zvemukati chakatemwa neAES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Maitiro Acho?",
+      "STEP_1_TITLE": "Nyora meseji yako uye / kana kugadzira password",
+      "STEP_2_TITLE": "Gadzira Chinongedzo Chakavanzika",
+      "STEP_3_TITLE": "Govera chinongedzo",
+      
+      "COMPANY_LOGO_ALT": "Logo yeKambani",
+      
+      "SHARE_TITLE": "Govera meseji yakavanzika",
+      "SHARE_DESCRIPTION_PART_1": "Nyora uye tumira meseji, ichave",
+      "SHARE_DESCRIPTION_PART_2": "yakapfuurwa kana yaverengwa.",
+      
+      "SHARE_BULLET_1": "Pasina Chiratidzo.",
+      "SHARE_BULLET_2": "Kuchengetedzwa kweZvakavanzika",
+      "SHARE_BULLET_3": "Inoonekwa kamwe chete",
+      
+      "SHARE_ENCRYPTED_BY": "Yakavharirwa, yakachengetedzwa uye yakadzivirirwa neStellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Nyora meseji yako Yakavanzika, password kana ruzivo rwakavanzika *",
+      "SHARE_OPTIONS": "Sarudzo",
+      
+      "SHARE_EMPTY": "Siyai isina chinhu kana isiri kushandiswa.",
+      "SHARE_BUTTON": "Gadzira Chinongedzo Chakavanzika",
+      
+      "CREATED_TITLE": "Chakavanzika Chako chagadzirwa",
+      "CREATED_SUBTITLE": "Icharatidzwa kamwe chete",
+      
+      "CREATED_TITLE_SHARE": "Kopa chinongedzo kana kugovera.",
+      "CREATED_BUTTON": "KOPA",
+      "CREATED_CREATE_SECRET": "Gadzira Chakavanzika Chitsva",
+      "CREATED_BURNSECRET": "Pisa Chakavanzika",
+      "URL_COPIED": "URL yacho yakakopiwa.",
+      
+      "VIEW_SECRET": "Ona Chakavanzika"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Maitiro Acho",
+      "DOWNLOAD_APP": "Dhawunirodha App",
+      "CREATED_TITLE": "Chakavanzika Chako chagadzirwa",
+      "CREATED_SUBTITLE": "Icharatidzwa kamwe chete",
+      "CREATED_TITLE_SHARE": "Kopa chinongedzo kana kugovera.",
+      "CREATED_BUTTON": "KOPA",
+      "CREATED_CREATE_SECRET": "Gadzira Chakavanzika Chitsva",
+      "CREATED_BURNSECRET": "Pisa Chakavanzika",
+      "URL_COPIED": "URL yacho yakakopiwa."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Uri kuzoisa chakavanzika ichi",
+      "SECRET_UNAVAILABLE_TEXT": "Hachichazowanikwi zvakare",
+      "BURN_FOREVER": "Pisa Nekusingaperi",
+      "CANCEL": "Kanzura"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Maitiro Acho",
+      "DOWNLOAD_APP": "Dhawunirodha App",
+      "WELCOME_MESSAGE": "Mhoro, wawana meseji yakavanzika!",
+      "INSTRUCTION": "Nyora uye tumira meseji, ichave yakapfuurwa kana yaverengwa.",
+      "SHOW_MESSAGE_ONCE": "Meseji inotevera icharatidzwa kamwe chete",
+      "OPEN_SECRET_MESSAGE": "Vhura Meseji Yakavanzika",
+      "INPUT_PASSPHRASE": "Nyora Shoko reKupinda",
+      "PASS_PHRASE_PLACEHOLDER": "Shoko reKupinda",
+      "OPEN_SECRET_BUTTON": "Vhura Meseji Yakavanzika",
+      "YOUR_SECRET_MESSAGE": "Meseji Yako Yakavanzika",
+      "COPY": "Kopa",
+      "MESSAGE_LABEL": "Meseji",
+      "REPLY": "Pindura",
+      "DOWNLOAD_MESSAGE": "Dhawunirodha Stellar Secret pa mobile, gadzira meseji yako yakavanzika",
+      "WITHOUT_TRACE": "Pasina Chiratidzo.",
+      "PRIVACY_PROTECTED": "Kuchengetedzwa kweZvakavanzika",
+      "ONE_TIME_VIEWABLE": "Inoonekwa kamwe chete",
+      "SECURITY_TEXT": "Yakavharirwa, yakachengetedzwa uye yakadzivirirwa ne ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

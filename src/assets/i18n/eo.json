@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stela Sekreto",
+      "HOW_IT_WORKS": "Kiel ĝi funkcias",
+      "DOWNLOAD_APP": "Elŝutu Aplikaĵon",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Unu-foja Sekreta Mesaĝado",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dividu sekretojn, kaj poof—ili malaperas!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kriptigita, sekurigita kaj protektita de Stela Sekureco",
+      "WITHOUT_TRACE_TITLE": "Senza spuro",
+      "WITHOUT_TRACE_DESCRIPTION": "Ni certigas fortan protekton de viaj sentemaj informoj. Ĉiuj datumoj estas kriptigitaj sur la kliento-flanko. Ni ne scias vian IP-adreson, kion vi dividas, aŭ kun kiu vi dividas la sekretajn ligilojn - kaj plej grave, la enhavon.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privata Protektado",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vi estas la sola, kiu scias la ligilon al la sekretaj informoj, kiujn vi kreis kaj kun kiu vi dividas ĝin. Kiam vi kreos sekreton, vi povas aldoni pasvorton antaŭ ol ĝi povas esti malŝlosita. Ankaŭ eblas agordi brul-tagon. Neniel, sekreto estos forigita post 14 tagoj.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Fin-al-fina kriptigo",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Ĉiuj ligiloj kaj enhavoj estas hashitaj sur la kliento-flanko, tio signifas ke eĉ ni ne scias la ligilon kaj la enhavon. Ĉiu ligo havas unikan ID de longeco 36 kiu estas unu-voja kriptigo por povi aliri la Sekretan Mesaĝon kaj ĝian enhavon, kiu estas kriptigita per AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kiel ĝi funkcias?",
+      "STEP_1_TITLE": "Skribu vian mesaĝon kaj/aŭ generi pasvorton",
+      "STEP_2_TITLE": "Kreu Sekretan Ligilon",
+      "STEP_3_TITLE": "Dividu ligilon",
+      
+      "COMPANY_LOGO_ALT": "Firmao Logo",
+      
+      "SHARE_TITLE": "Dividu sekretan mesaĝon",
+      "SHARE_DESCRIPTION_PART_1": "Skribu kaj sendu mesaĝon, ĝi estos",
+      "SHARE_DESCRIPTION_PART_2": "forigita post legado.",
+      
+      "SHARE_BULLET_1": "Senza spuro.",
+      "SHARE_BULLET_2": "Privata Protektado",
+      "SHARE_BULLET_3": "Unu-foje videbla",
+      
+      "SHARE_ENCRYPTED_BY": "Kriptigita, sekurigita kaj protektita de Stela Sekureco",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skribu vian Sekretan mesaĝon, pasvorton aŭ senteman informon *",
+      "SHARE_OPTIONS": "Opzioj",
+      
+      "SHARE_EMPTY": "Lasu malplena por neniu.",
+      "SHARE_BUTTON": "Kreu Sekretan Ligilon",
+      
+      "CREATED_TITLE": "Via Sekreto estis kreita",
+      "CREATED_SUBTITLE": "Ĝi estos montrita nur unufoje",
+      
+      "CREATED_TITLE_SHARE": "Kopiu ligilon aŭ dividu ĝin.",
+      "CREATED_BUTTON": "KOPIU",
+      "CREATED_CREATE_SECRET": "Kreu Novan Sekreton",
+      "CREATED_BURNSECRET": "Bruligu Sekreton",
+      "URL_COPIED": "La URL estis kopiata.",
+      "SHARE_BURNER_TIME":"Vivdaŭro",
+      "SHARE_PASS_PHRASE":"Pasvorto",
+      "VIEW_SECRET": "Vidu Sekreton"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stela Sekreto",
+      "HOW_IT_WORKS": "Kiel ĝi funkcias",
+      "DOWNLOAD_APP": "Elŝutu Aplikaĵon",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Unu-foja Sekreta Mesaĝado",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Dividu sekretojn, kaj poof—ili malaperas!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Kriptigita, sekurigita kaj protektita de Stela Sekureco",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret permesas kunhavigi unufojajn rigardeblajn ligilojn kun sentema enhavo en sekreta ligilo, kiun nur vi scias, kaj la ricevilo scias. Ĝia plej bona maniero, konservi sentemajn informojn ekstere de ajna mesaĝisto-apo.",
+
+      "WITHOUT_TRACE_TITLE": "Senza spuro",
+      "WITHOUT_TRACE_DESCRIPTION": "Ni certigas fortan protekton de viaj sentemaj informoj. Ĉiuj datumoj estas kriptigitaj sur la kliento-flanko. Ni ne scias vian IP-adreson, kion vi dividas, aŭ kun kiu vi dividas la sekretajn ligilojn - kaj plej grave, la enhavon.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privata Protektado",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Vi estas la sola, kiu scias la ligilon al la sekretaj informoj, kiujn vi kreis kaj kun kiu vi dividas ĝin. Kiam vi kreos sekreton, vi povas aldoni pasvorton antaŭ ol ĝi povas esti malŝlosita. Ankaŭ eblas agordi brul-tagon. Neniel, sekreto estos forigita post 14 tagoj.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Fin-al-fina kriptigo",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Ĉiuj ligiloj kaj enhavoj estas hashitaj sur la kliento-flanko, tio signifas ke eĉ ni ne scias la ligilon kaj la enhavon. Ĉiu ligo havas unikan ID de longeco 36 kiu estas unu-voja kriptigo por povi aliri la Sekretan Mesaĝon kaj ĝian enhavon, kiu estas kriptigita per AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kiel ĝi funkcias?",
+      "STEP_1_TITLE": "Skribu vian mesaĝon kaj/aŭ generi pasvorton",
+      "STEP_2_TITLE": "Kreu Sekretan Ligilon",
+      "STEP_3_TITLE": "Dividu ligilon",
+      
+      "COMPANY_LOGO_ALT": "Firmao Logo",
+      
+      "SHARE_TITLE": "Dividu sekretan mesaĝon",
+      "SHARE_DESCRIPTION_PART_1": "Skribu kaj sendu mesaĝon, ĝi estos",
+      "SHARE_DESCRIPTION_PART_2": "forigita post legado.",
+      
+      "SHARE_BULLET_1": "Senza spuro.",
+      "SHARE_BULLET_2": "Privata Protektado",
+      "SHARE_BULLET_3": "Unu-foje videbla",
+      
+      "SHARE_ENCRYPTED_BY": "Kriptigita, sekurigita kaj protektita de Stela Sekureco",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skribu vian Sekretan mesaĝon, pasvorton aŭ senteman informon *",
+      "SHARE_OPTIONS": "Opzioj",
+      
+      "SHARE_EMPTY": "Lasu malplena por neniu.",
+      "SHARE_BUTTON": "Kreu Sekretan Ligilon",
+      
+      "CREATED_TITLE": "Via Sekreto estis kreita",
+      "CREATED_SUBTITLE": "Ĝi estos montrita nur unufoje",
+      
+      "CREATED_TITLE_SHARE": "Kopiu ligilon aŭ dividu ĝin.",
+      "CREATED_BUTTON": "KOPIU",
+      "CREATED_CREATE_SECRET": "Kreu Novan Sekreton",
+      "CREATED_BURNSECRET": "Bruligu Sekreton",
+      "URL_COPIED": "La URL estis kopiata.",
+      
+      "VIEW_SECRET": "Vidu Sekreton"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stela Sekreto",
+      "HOW_IT_WORKS": "Kiel ĝi funkcias",
+      "DOWNLOAD_APP": "Elŝutu Aplikaĵon",
+      "CREATED_TITLE": "Via Sekreto estis kreita",
+      "CREATED_SUBTITLE": "Ĝi estos montrita nur unufoje",
+      "CREATED_TITLE_SHARE": "Kopiu ligilon aŭ dividu ĝin.",
+      "CREATED_BUTTON": "KOPIU",
+      "CREATED_CREATE_SECRET": "Kreu Novan Sekreton",
+      "CREATED_BURNSECRET": "Bruligu Sekreton",
+      "URL_COPIED": "La URL estis kopiata."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Vi bruligos ĉi tiun sekreton",
+      "SECRET_UNAVAILABLE_TEXT": "Ĝi ne estos pli havebla",
+      "BURN_FOREVER": "Bruligu Ĉiam",
+      "CANCEL": "Nuligi"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stela Sekreto",
+      "HOW_IT_WORKS": "Kiel ĝi funkcias",
+      "DOWNLOAD_APP": "Elŝutu Aplikaĵon",
+      "WELCOME_MESSAGE": "Saluton, vi ricevis sekretan mesaĝon!",
+      "INSTRUCTION": "Skribu kaj sendu mesaĝon, ĝi estos forigita post legado.",
+      "SHOW_MESSAGE_ONCE": "La sekvanta mesaĝo estos montrita nur unufoje",
+      "OPEN_SECRET_MESSAGE": "Malfermu Sekretan Mesaĝon",
+      "INPUT_PASSPHRASE": "Enigu Pasvorton",
+      "PASS_PHRASE_PLACEHOLDER": "Pasvorto",
+      "OPEN_SECRET_BUTTON": "Malfermu Sekretan Mesaĝon",
+      "YOUR_SECRET_MESSAGE": "Via Sekreta Mesaĝo",
+      "COPY": "Kopiu",
+      "MESSAGE_LABEL": "Mesaĝo",
+      "REPLY": "Respondi",
+      "DOWNLOAD_MESSAGE": "Elŝutu Stela Sekreto sur mobilan, kreu viajn sekretajn mesaĝojn",
+      "WITHOUT_TRACE": "Senza spuro.",
+      "PRIVACY_PROTECTED": "Privata Protektado",
+      "ONE_TIME_VIEWABLE": "Unu-foje videbla",
+      "SECURITY_TEXT": "Kriptigita, sekurigita kaj protektita de ",
+      "SECURITY_TEXT2": "Stela Sekureco"
+    }
+  }
+  

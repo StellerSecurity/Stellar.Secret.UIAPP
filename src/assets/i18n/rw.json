@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Uko bikorwa",
+      "DOWNLOAD_APP": "Kuramo Porogaramu",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ubutumwa bwa Sekuru rimwe gusa",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sangira amabanga, kandi poof—arasezeye!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Yahishwe, yizewe kandi irinzwe na Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Nta gitekerezo",
+      "WITHOUT_TRACE_DESCRIPTION": "Tugira umutekano ukomeye w’amakuru yawe yihariye. Amakuru yose arakunzwe ku ruhande rw’umukiriya. Nta kintu tuzi ku kugaragaza IP yawe, ibyo usangira, cyangwa uwo usangira imiyoboro y’ibanga nayo—n'ibikomeye, ibikubiye muri byo.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ubuzima bwawe burinzwe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ni wowe wenyine uzi umurongo w’amakuru y’ibanga wakoresheje n’abo uyisangiza. Iyo ukora ibanga, ushobora kongeramo ijambo ry’ibanga mbere yo gukurura. Byongeye, birashoboka gushyiraho igihe cy’imyanda. Nubwo byaba bimeze bite, ibanga rizakurwaho nyuma y'iminsi 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Yahishwe kuva ku mpera kugera ku mpera",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Imiyoboro yose n’ibikubiye muri byo birahindurwa ku ruhande rw’umukiriya, bisobanura ko n’ubwo twe ubwacu tudashobora kumenya umurongo n’ibikubiye muri byo. Umuyoboro wose ufite ID idasanzwe ifite uburebure bwa 36 ari bwo bwo kwibagirwa kugirango ushobore kubona Ubutumwa Bw’ibanga n’ibikubiye muri byo byahishwe na AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Uko bikorwa?",
+      "STEP_1_TITLE": "Andika ubutumwa bwawe cyangwa ushyiremo ijambo ry’ibanga",
+      "STEP_2_TITLE": "Kora Umuyoboro w’ibanga",
+      "STEP_3_TITLE": "Sangira umurongo",
+      
+      "COMPANY_LOGO_ALT": "Logo y’Ikigo",
+      
+      "SHARE_TITLE": "Sangira ubutumwa bw’ibanga",
+      "SHARE_DESCRIPTION_PART_1": "Andika kandi ohereza ubutumwa, buzakurwaho",
+      "SHARE_DESCRIPTION_PART_2": "nyuma yo gusomwa.",
+      
+      "SHARE_BULLET_1": "Nta gitekerezo.",
+      "SHARE_BULLET_2": "Ubuzima bwawe burinzwe",
+      "SHARE_BULLET_3": "Bya buri gihe rimwe gusa",
+      
+      "SHARE_ENCRYPTED_BY": "Yahishwe, yizewe kandi irinzwe na Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Andika ubutumwa bwawe bw’ibanga, ijambo ry’ibanga cyangwa amakuru yihariye *",
+      "SHARE_OPTIONS": "Amahitamo",
+      
+      "SHARE_EMPTY": "Bireke kubura.",
+      "SHARE_BUTTON": "Kora Umuyoboro w’ibanga",
+      
+      "CREATED_TITLE": "Ibanga ryawe ryakozwe",
+      "CREATED_SUBTITLE": "Rizerekana rimwe gusa",
+      
+      "CREATED_TITLE_SHARE": "Shyira umurongo cyangwa usangire.",
+      "CREATED_BUTTON": "KOPIYA",
+      "CREATED_CREATE_SECRET": "Kora Ibanga Rishya",
+      "CREATED_BURNSECRET": "Sohora Ibanga",
+      "URL_COPIED": "URL yashyizwe muri Clipboard.",
+      "SHARE_BURNER_TIME":"Igihe cyose",
+      "SHARE_PASS_PHRASE":"Ijambo ry’ibanga",
+      "VIEW_SECRET": "Reba Ibanga"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Uko bikorwa",
+      "DOWNLOAD_APP": "Kuramo Porogaramu",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ubutumwa bwa Sekuru rimwe gusa",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sangira amabanga, kandi poof—arasezeye!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Yahishwe, yizewe kandi irinzwe na Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Ibanga rya Stellar ryemerera gusangira inshuro imwe igaragara ihuza nibintu byoroshye mumurongo wibanga, ibyo gusa urabizi, kandi uwakiriye arabizi. Nuburyo bwiza cyane, kugirango amakuru yunvikana hanze yintumwa-porogaramu zose.",
+
+      "WITHOUT_TRACE_TITLE": "Nta gitekerezo",
+      "WITHOUT_TRACE_DESCRIPTION": "Tugira umutekano ukomeye w’amakuru yawe yihariye. Amakuru yose arakunzwe ku ruhande rw’umukiriya. Nta kintu tuzi ku kugaragaza IP yawe, ibyo usangira, cyangwa uwo usangira imiyoboro y’ibanga nayo—n'ibikomeye, ibikubiye muri byo.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ubuzima bwawe burinzwe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ni wowe wenyine uzi umurongo w’amakuru y’ibanga wakoresheje n’abo uyisangiza. Iyo ukora ibanga, ushobora kongeramo ijambo ry’ibanga mbere yo gukurura. Byongeye, birashoboka gushyiraho igihe cy’imyanda. Nubwo byaba bimeze bite, ibanga rizakurwaho nyuma y'iminsi 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Yahishwe kuva ku mpera kugera ku mpera",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Imiyoboro yose n’ibikubiye muri byo birahindurwa ku ruhande rw’umukiriya, bisobanura ko n’ubwo twe ubwacu tudashobora kumenya umurongo n’ibikubiye muri byo. Umuyoboro wose ufite ID idasanzwe ifite uburebure bwa 36 ari bwo bwo kwibagirwa kugirango ushobore kubona Ubutumwa Bw’ibanga n’ibikubiye muri byo byahishwe na AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Uko bikorwa?",
+      "STEP_1_TITLE": "Andika ubutumwa bwawe cyangwa ushyiremo ijambo ry’ibanga",
+      "STEP_2_TITLE": "Kora Umuyoboro w’ibanga",
+      "STEP_3_TITLE": "Sangira umurongo",
+      
+      "COMPANY_LOGO_ALT": "Logo y’Ikigo",
+      
+      "SHARE_TITLE": "Sangira ubutumwa bw’ibanga",
+      "SHARE_DESCRIPTION_PART_1": "Andika kandi ohereza ubutumwa, buzakurwaho",
+      "SHARE_DESCRIPTION_PART_2": "nyuma yo gusomwa.",
+      
+      "SHARE_BULLET_1": "Nta gitekerezo.",
+      "SHARE_BULLET_2": "Ubuzima bwawe burinzwe",
+      "SHARE_BULLET_3": "Bya buri gihe rimwe gusa",
+      
+      "SHARE_ENCRYPTED_BY": "Yahishwe, yizewe kandi irinzwe na Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Andika ubutumwa bwawe bw’ibanga, ijambo ry’ibanga cyangwa amakuru yihariye *",
+      "SHARE_OPTIONS": "Amahitamo",
+      
+      "SHARE_EMPTY": "Bireke kubura.",
+      "SHARE_BUTTON": "Kora Umuyoboro w’ibanga",
+      
+      "CREATED_TITLE": "Ibanga ryawe ryakozwe",
+      "CREATED_SUBTITLE": "Rizerekana rimwe gusa",
+      
+      "CREATED_TITLE_SHARE": "Shyira umurongo cyangwa usangire.",
+      "CREATED_BUTTON": "KOPIYA",
+      "CREATED_CREATE_SECRET": "Kora Ibanga Rishya",
+      "CREATED_BURNSECRET": "Sohora Ibanga",
+      "URL_COPIED": "URL yashyizwe muri Clipboard.",
+      
+      "VIEW_SECRET": "Reba Ibanga"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Uko bikorwa",
+      "DOWNLOAD_APP": "Kuramo Porogaramu",
+      "CREATED_TITLE": "Ibanga ryawe ryakozwe",
+      "CREATED_SUBTITLE": "Rizerekana rimwe gusa",
+      "CREATED_TITLE_SHARE": "Shyira umurongo cyangwa usangire.",
+      "CREATED_BUTTON": "KOPIYA",
+      "CREATED_CREATE_SECRET": "Kora Ibanga Rishya",
+      "CREATED_BURNSECRET": "Sohora Ibanga",
+      "URL_COPIED": "URL yashyizwe muri Clipboard."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Urashaka gusohoza iri banga",
+      "SECRET_UNAVAILABLE_TEXT": "Ntabwo izongera kuboneka",
+      "BURN_FOREVER": "Sohora It forever",
+      "CANCEL": "Kansela"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Uko bikorwa",
+      "DOWNLOAD_APP": "Kuramo Porogaramu",
+      "WELCOME_MESSAGE": "Muraho, wakiriye ubutumwa bw’ibanga!",
+      "INSTRUCTION": "Andika kandi ohereza ubutumwa, buzakurwaho nyuma yo gusomwa.",
+      "SHOW_MESSAGE_ONCE": "Ubutumwa bukurikira buzerekana rimwe gusa",
+      "OPEN_SECRET_MESSAGE": "Fungura Ubutumwa Bw’ibanga",
+      "INPUT_PASSPHRASE": "Shyiramo Ijambo ry’ibanga",
+      "PASS_PHRASE_PLACEHOLDER": "Ijambo ry’ibanga",
+      "OPEN_SECRET_BUTTON": "Fungura Ubutumwa Bw’ibanga",
+      "YOUR_SECRET_MESSAGE": "Ubutumwa Bw’ibanga bwawe",
+      "COPY": "Kopi",
+      "MESSAGE_LABEL": "Ubutumwa",
+      "REPLY": "Subiza",
+      "DOWNLOAD_MESSAGE": "Kuramo Stellar Secret ku murongo, kora ubutumwa bwawe bw’ibanga",
+      "WITHOUT_TRACE": "Nta gitekerezo.",
+      "PRIVACY_PROTECTED": "Ubuzima bwawe burinzwe",
+      "ONE_TIME_VIEWABLE": "Bya buri gihe rimwe gusa",
+      "SECURITY_TEXT": "Yahishwe, yizewe kandi irinzwe na ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

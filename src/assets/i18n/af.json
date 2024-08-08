@@ -1,0 +1,149 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe dit werk",
+      "DOWNLOAD_APP": "Laai App Af",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Eenmalige Geheime Boodskappe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deel geheime boodskappe, en poef—hulle is weg!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Enkripteer, beveilig en beskerm deur Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sonder 'n spoor",
+      "WITHOUT_TRACE_DESCRIPTION": "Ons verseker robuuste beskerming van jou sensitiewe inligting. Alle data word aan die kliëntkant enkripteer. Ons weet nie jou IP-adres, wat jy deel, of met wie jy die geheime skakels deel nie - en die belangrikste, die inhoud.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privaatheid Beskerm",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jy is die enigste een wat die skakel na die geheime inligting wat jy geskep het en met wie jy dit deel weet. Wanneer jy 'n geheim skep, kan jy 'n wagwoord byvoeg voordat dit ontsluit kan word. Dit is ook moontlik om 'n brander-tyd in te stel. Maak nie saak wat nie, 'n geheim sal na 14 dae verwyder word.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Eind-tot-eind enkripteer",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle skakels en inhoud word aan die kliëntkant gehas, wat beteken dat selfs ons nie die skakel en die inhoud weet nie. Elke skakel het 'n unieke ID van 36 karakters wat 'n eenrigting-enkripsie is om toegang tot die Geheime Boodskap en sy inhoud wat met AES-256 enkripteer is, te verkry.",
+      
+      "HOW_IT_WORKS_TITLE": "Hoe dit werk?",
+      "STEP_1_TITLE": "Skryf jou boodskap en/of genereer wagwoord",
+      "STEP_2_TITLE": "Skep Geheime Skakel",
+      "STEP_3_TITLE": "Deel skakel",
+      
+      "COMPANY_LOGO_ALT": "Maatskappy Logo",
+      
+      "SHARE_TITLE": "Deel 'n geheime boodskap",
+      "SHARE_DESCRIPTION_PART_1": "Skryf en stuur boodskap, dit sal wees",
+      "SHARE_DESCRIPTION_PART_2": "verwyder nadat dit gelees is.",
+      
+      "SHARE_BULLET_1": "Sonder 'n spoor.",
+      "SHARE_BULLET_2": "Privaatheid Beskerm",
+      "SHARE_BULLET_3": "Eenmalig besigtigbaar",
+      
+      "SHARE_ENCRYPTED_BY": "Enkripteer, beveilig en beskerm deur Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skryf jou Geheime boodskap, wagwoord of sensitiewe inligting *",
+      "SHARE_OPTIONS": "Opsies",
+      
+      "SHARE_EMPTY": "Laat leeg vir geen.",
+      "SHARE_BUTTON": "Skep Geheime Skakel",
+      
+      "CREATED_TITLE": "Jou Geheim is geskep",
+      "CREATED_SUBTITLE": "Dit sal net een keer vertoon word",
+      
+      "CREATED_TITLE_SHARE": "Kopieer skakel of deel dit.",
+      "CREATED_BUTTON": "KOPIEER",
+      "CREATED_CREATE_SECRET": "Skep Nuwe Geheim",
+      "CREATED_BURNSECRET": "Verbrand Geheim",
+      "URL_COPIED": "Die URL is gekopieer.",
+      "SHARE_BURNER_TIME":"Leef tyd",
+      "SHARE_PASS_PHRASE":"Wagwoord",
+      "VIEW_SECRET": "Kyk na Geheim"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe dit werk",
+      "DOWNLOAD_APP": "Laai App Af",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Eenmalige Geheime Boodskappe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deel geheime boodskappe, en poef—hulle is weg!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Enkripteer, beveilig en beskerm deur Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret laat jou toe om eenmalig besigtelike skakels met sensitiewe inhoud te deel in 'n geheime skakel, wat net jy en die ontvanger weet. Dit is die beste manier om sensitiewe inligting uit enige boodskap-apps te hou.",
+      "WITHOUT_TRACE_TITLE": "Sonder 'n spoor",
+      "WITHOUT_TRACE_DESCRIPTION": "Ons verseker robuuste beskerming van jou sensitiewe inligting. Alle data word aan die kliëntkant enkripteer. Ons weet nie jou IP-adres, wat jy deel, of met wie jy die geheime skakels deel nie - en die belangrikste, die inhoud.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privaatheid Beskerm",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jy is die enigste een wat die skakel na die geheime inligting wat jy geskep het en met wie jy dit deel weet. Wanneer jy 'n geheim skep, kan jy 'n wagwoord byvoeg voordat dit ontsluit kan word. Dit is ook moontlik om 'n brander-tyd in te stel. Maak nie saak wat nie, 'n geheim sal na 14 dae verwyder word.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Eind-tot-eind enkripteer",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle skakels en inhoud word aan die kliëntkant gehas, wat beteken dat selfs ons nie die skakel en die inhoud weet nie. Elke skakel het 'n unieke ID van 36 karakters wat 'n eenrigting-enkripsie is om toegang tot die Geheime Boodskap en sy inhoud wat met AES-256 enkripteer is, te verkry.",
+      
+      "HOW_IT_WORKS_TITLE": "Hoe dit werk?",
+      "STEP_1_TITLE": "Skryf jou boodskap en/of genereer wagwoord",
+      "STEP_2_TITLE": "Skep Geheime Skakel",
+      "STEP_3_TITLE": "Deel skakel",
+      
+      "COMPANY_LOGO_ALT": "Maatskappy Logo",
+      
+      "SHARE_TITLE": "Deel 'n geheime boodskap",
+      "SHARE_DESCRIPTION_PART_1": "Skryf en stuur boodskap, dit sal wees",
+      "SHARE_DESCRIPTION_PART_2": "verwyder nadat dit gelees is.",
+      
+      "SHARE_BULLET_1": "Sonder 'n spoor.",
+      "SHARE_BULLET_2": "Privaatheid Beskerm",
+      "SHARE_BULLET_3": "Eenmalig besigtigbaar",
+      
+      "SHARE_ENCRYPTED_BY": "Enkripteer, beveilig en beskerm deur Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skryf jou Geheime boodskap, wagwoord of sensitiewe inligting *",
+      "SHARE_OPTIONS": "Opsies",
+      
+      "SHARE_EMPTY": "Laat leeg vir geen.",
+      "SHARE_BUTTON": "Skep Geheime Skakel",
+      
+      "CREATED_TITLE": "Jou Geheim is geskep",
+      "CREATED_SUBTITLE": "Dit sal net een keer vertoon word",
+      
+      "CREATED_TITLE_SHARE": "Kopieer skakel of deel dit.",
+      "CREATED_BUTTON": "KOPIEER",
+      "CREATED_CREATE_SECRET": "Skep Nuwe Geheim",
+      "CREATED_BURNSECRET": "Verbrand Geheim",
+      "URL_COPIED": "Die URL is gekopieer.",
+      
+      "VIEW_SECRET": "Kyk na Geheim"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe dit werk",
+      "DOWNLOAD_APP": "Laai App Af",
+      "CREATED_TITLE": "Jou Geheim is geskep",
+      "CREATED_SUBTITLE": "Dit sal net een keer vertoon word",
+      "CREATED_TITLE_SHARE": "Kopieer skakel of deel dit.",
+      "CREATED_BUTTON": "KOPIEER",
+      "CREATED_CREATE_SECRET": "Skep Nuwe Geheim",
+      "CREATED_BURNSECRET": "Verbrand Geheim",
+      "URL_COPIED": "Die URL is gekopieer."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Jy gaan hierdie geheim verbrand",
+      "SECRET_UNAVAILABLE_TEXT": "Dit sal nie meer beskikbaar wees nie",
+      "BURN_FOREVER": "Verbrand Vir Altyd",
+      "CANCEL": "Kanselleer"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Hoe dit werk",
+      "DOWNLOAD_APP": "Laai App Af",
+      "WELCOME_MESSAGE": "Hallo daar, jy het 'n geheime boodskap ontvang!",
+      "INSTRUCTION": "Skryf en stuur boodskap, dit sal verwyder word nadat dit gelees is.",
+      "SHOW_MESSAGE_ONCE": "Die volgende boodskap sal net een keer vertoon word",
+      "OPEN_SECRET_MESSAGE": "Open Geheime Boodskap",
+      "INPUT_PASSPHRASE": "Voer Wagwoord In",
+      "PASS_PHRASE_PLACEHOLDER": "Wagwoord",
+      "OPEN_SECRET_BUTTON": "Open Geheime Boodskap",
+      "YOUR_SECRET_MESSAGE": "Jou Geheime Boodskap",
+      "COPY": "Kopieer",
+      "MESSAGE_LABEL": "Boodskap",
+      "REPLY": "Antwoord",
+      "DOWNLOAD_MESSAGE": "Laai Stellar Secret op jou selfoon af, skep jou geheime boodskappe",
+      "WITHOUT_TRACE": "Sonder 'n spoor.",
+      "PRIVACY_PROTECTED": "Privaatheid Beskerm",
+      "ONE_TIME_VIEWABLE": "Eenmalig besigtigbaar",
+      "SECURITY_TEXT": "Enkripteer, beveilig en beskerm deur ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

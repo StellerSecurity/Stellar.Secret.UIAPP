@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Rahsia Stellar",
+      "HOW_IT_WORKS": "Cara ia berfungsi",
+      "DOWNLOAD_APP": "Muat Turun Aplikasi",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Pesanan Rahsia Sekali Pakai",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kongsi rahsia, dan hilang—begitu sahaja!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dihash, dilindungi dan dilindungi oleh Keselamatan Stellar",
+      "WITHOUT_TRACE_TITLE": "Tanpa Jejak",
+      "WITHOUT_TRACE_DESCRIPTION": "Kami memastikan perlindungan kukuh terhadap maklumat sensitif anda. Semua data dihash di sisi pelanggan. Kami tidak tahu alamat IP anda, apa yang anda kongsi, atau dengan siapa anda berkongsi pautan rahsia - dan yang paling penting, kandungannya.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privasi Dilindungi",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Anda satu-satunya yang tahu pautan kepada maklumat rahsia yang anda buat dan dengan siapa anda berkongsi. Semasa membuat rahsia, anda boleh menambah kata laluan sebelum ia boleh dibuka. Juga mungkin untuk menetapkan masa pemusnahan. Tidak kira apa, rahsia akan dipadam selepas 14 hari.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Dihash dari hujung ke hujung",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Semua pautan dan kandungan dihash di sisi pelanggan, bermakna walaupun kami tidak tahu pautan dan kandungan tersebut. Setiap pautan mempunyai ID unik sepanjang 36 yang merupakan penghashan sehala untuk mengakses Pesanan Rahsia dan kandungannya yang dihash dengan AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Cara ia berfungsi?",
+      "STEP_1_TITLE": "Tulis pesanan anda dan/atau hasilkan kata laluan",
+      "STEP_2_TITLE": "Cipta Pautan Rahsia",
+      "STEP_3_TITLE": "Kongsi pautan",
+      
+      "COMPANY_LOGO_ALT": "Logo Syarikat",
+      
+      "SHARE_TITLE": "Kongsi pesanan rahsia",
+      "SHARE_DESCRIPTION_PART_1": "Tulis dan hantar pesanan, ia akan",
+      "SHARE_DESCRIPTION_PART_2": "dipadam selepas dibaca.",
+      
+      "SHARE_BULLET_1": "Tanpa jejak.",
+      "SHARE_BULLET_2": "Privasi Dilindungi",
+      "SHARE_BULLET_3": "Boleh dilihat sekali sahaja",
+      
+      "SHARE_ENCRYPTED_BY": "Dihash, dilindungi dan dilindungi oleh Keselamatan Stellar",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Tulis pesanan rahsia, kata laluan atau maklumat sensitif *",
+      "SHARE_OPTIONS": "Pilihan",
+      
+      "SHARE_EMPTY": "Biarkan kosong jika tiada.",
+      "SHARE_BUTTON": "Cipta Pautan Rahsia",
+      
+      "CREATED_TITLE": "Rahsia anda telah dicipta",
+      "CREATED_SUBTITLE": "Ia akan ditunjukkan hanya sekali",
+      
+      "CREATED_TITLE_SHARE": "Salin pautan atau kongsi ia.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Cipta Rahsia Baru",
+      "CREATED_BURNSECRET": "Hapuskan Rahsia",
+      "URL_COPIED": "URL telah disalin.",
+      "SHARE_BURNER_TIME": "Kehidupan",
+      "SHARE_PASS_PHRASE": "Kata Laluan",
+      "VIEW_SECRET": "Lihat Rahsia"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Rahsia Stellar",
+      "HOW_IT_WORKS": "Cara ia berfungsi",
+      "DOWNLOAD_APP": "Muat Turun Aplikasi",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Pesanan Rahsia Sekali Pakai",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kongsi rahsia, dan hilang—begitu sahaja!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Dihash, dilindungi dan dilindungi oleh Keselamatan Stellar",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Rahsia Stellar membolehkan anda berkongsi pautan boleh lihat sekali dengan kandungan sensitif dalam pautan rahsia, yang hanya anda tahu dan penerima tahu. Ini adalah cara terbaik, untuk mengelakkan maklumat sensitif daripada mana-mana apl messenger.",
+
+      "WITHOUT_TRACE_TITLE": "Tanpa Jejak",
+      "WITHOUT_TRACE_DESCRIPTION": "Kami memastikan perlindungan kukuh terhadap maklumat sensitif anda. Semua data dihash di sisi pelanggan. Kami tidak tahu alamat IP anda, apa yang anda kongsi, atau dengan siapa anda berkongsi pautan rahsia - dan yang paling penting, kandungannya.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Privasi Dilindungi",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Anda satu-satunya yang tahu pautan kepada maklumat rahsia yang anda buat dan dengan siapa anda berkongsi. Semasa membuat rahsia, anda boleh menambah kata laluan sebelum ia boleh dibuka. Juga mungkin untuk menetapkan masa pemusnahan. Tidak kira apa, rahsia akan dipadam selepas 14 hari.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Dihash dari hujung ke hujung",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Semua pautan dan kandungan dihash di sisi pelanggan, bermakna walaupun kami tidak tahu pautan dan kandungan tersebut. Setiap pautan mempunyai ID unik sepanjang 36 yang merupakan penghashan sehala untuk mengakses Pesanan Rahsia dan kandungannya yang dihash dengan AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Cara ia berfungsi?",
+      "STEP_1_TITLE": "Tulis pesanan anda dan/atau hasilkan kata laluan",
+      "STEP_2_TITLE": "Cipta Pautan Rahsia",
+      "STEP_3_TITLE": "Kongsi pautan",
+    
+      "COMPANY_LOGO_ALT": "Logo Syarikat",
+    
+      "SHARE_TITLE": "Kongsi pesanan rahsia",
+      "SHARE_DESCRIPTION_PART_1": "Tulis dan hantar pesanan, ia akan",
+      "SHARE_DESCRIPTION_PART_2": "dipadam selepas dibaca.",
+    
+      "SHARE_BULLET_1": "Tanpa jejak.",
+      "SHARE_BULLET_2": "Privasi Dilindungi",
+      "SHARE_BULLET_3": "Boleh dilihat sekali sahaja",
+    
+      "SHARE_ENCRYPTED_BY": "Dihash, dilindungi dan dilindungi oleh Keselamatan Stellar",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Tulis pesanan rahsia, kata laluan atau maklumat sensitif *",
+      "SHARE_OPTIONS": "Pilihan",
+    
+      "SHARE_EMPTY": "Biarkan kosong jika tiada.",
+      "SHARE_BUTTON": "Cipta Pautan Rahsia",
+    
+      "CREATED_TITLE": "Rahsia anda telah dicipta",
+      "CREATED_SUBTITLE": "Ia akan ditunjukkan hanya sekali",
+    
+      "CREATED_TITLE_SHARE": "Salin pautan atau kongsi ia.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Cipta Rahsia Baru",
+      "CREATED_BURNSECRET": "Hapuskan Rahsia",
+      "URL_COPIED": "URL telah disalin.",
+    
+      "VIEW_SECRET": "Lihat Rahsia"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Rahsia Stellar",
+      "HOW_IT_WORKS": "Cara ia berfungsi",
+      "DOWNLOAD_APP": "Muat Turun Aplikasi",
+      "CREATED_TITLE": "Rahsia anda telah dicipta",
+      "CREATED_SUBTITLE": "Ia akan ditunjukkan hanya sekali",
+      "CREATED_TITLE_SHARE": "Salin pautan atau kongsi ia.",
+      "CREATED_BUTTON": "SALIN",
+      "CREATED_CREATE_SECRET": "Cipta Rahsia Baru",
+      "CREATED_BURNSECRET": "Hapuskan Rahsia",
+      "URL_COPIED": "URL telah disalin."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Anda akan hapuskan rahsia ini",
+      "SECRET_UNAVAILABLE_TEXT": "Ia tidak akan tersedia lagi",
+      "BURN_FOREVER": "Hapuskan Selamanya",
+      "CANCEL": "Batal"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Rahsia Stellar",
+      "HOW_IT_WORKS": "Cara ia berfungsi",
+      "DOWNLOAD_APP": "Muat Turun Aplikasi",
+      "WELCOME_MESSAGE": "Hai, anda menerima pesanan rahsia!",
+      "INSTRUCTION": "Tulis dan hantar pesanan, ia akan dipadam selepas dibaca.",
+      "SHOW_MESSAGE_ONCE": "Pesanan berikut akan ditunjukkan hanya sekali",
+      "OPEN_SECRET_MESSAGE": "Buka Pesanan Rahsia",
+      "INPUT_PASSPHRASE": "Masukkan Kata Laluan",
+      "PASS_PHRASE_PLACEHOLDER": "Kata Laluan",
+      "OPEN_SECRET_BUTTON": "Buka Pesanan Rahsia",
+      "YOUR_SECRET_MESSAGE": "Pesanan Rahsia Anda",
+      "COPY": "Salin",
+      "MESSAGE_LABEL": "Pesanan",
+      "REPLY": "Balas",
+      "DOWNLOAD_MESSAGE": "Muat turun Rahsia Stellar di mudah alih, cipta pesanan rahsia anda",
+      "WITHOUT_TRACE": "Tanpa jejak.",
+      "PRIVACY_PROTECTED": "Privasi Dilindungi",
+      "ONE_TIME_VIEWABLE": "Boleh dilihat sekali sahaja",
+      "SECURITY_TEXT": "Dihash, dilindungi dan dilindungi oleh ",
+      "SECURITY_TEXT2": "Keselamatan Stellar"
+    }
+  }
+  

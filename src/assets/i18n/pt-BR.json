@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Como funciona",
+      "DOWNLOAD_APP": "Baixar App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Mensagens Secretas de Uso Único",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Compartilhe segredos, e puff—eles desaparecerão!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Criptografado, seguro e protegido pela Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Sem rastros",
+      "WITHOUT_TRACE_DESCRIPTION": "Garantimos a proteção robusta das suas informações sensíveis. Todos os dados são criptografados no lado do cliente. Não conhecemos seu endereço IP, o que você compartilha ou com quem você compartilha os links secretos - e o mais importante, o conteúdo.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacidade Protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Você é o único que sabe o link para a informação secreta que você criou e com quem você a compartilha. Ao criar um segredo, você pode adicionar uma senha antes que ele possa ser desbloqueado. Também é possível definir um tempo de destruição. Não importa o que aconteça, um segredo será excluído após 14 dias.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Criptografado de ponta a ponta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Todos os links e conteúdos são criptografados no lado do cliente, o que significa que até nós não sabemos o link e o conteúdo. Cada link tem um ID exclusivo de comprimento 36, que é uma criptografia unidirecional para acessar a Mensagem Secreta e seu conteúdo, que é criptografado com AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Como funciona?",
+      "STEP_1_TITLE": "Escreva sua mensagem e/ou gere uma senha",
+      "STEP_2_TITLE": "Crie o Link Secreto",
+      "STEP_3_TITLE": "Compartilhe o link",
+      
+      "COMPANY_LOGO_ALT": "Logotipo da Empresa",
+      
+      "SHARE_TITLE": "Compartilhe uma mensagem secreta",
+      "SHARE_DESCRIPTION_PART_1": "Escreva e envie a mensagem, ela será",
+      "SHARE_DESCRIPTION_PART_2": "excluída após ser lida.",
+      
+      "SHARE_BULLET_1": "Sem rastros.",
+      "SHARE_BULLET_2": "Privacidade Protegida",
+      "SHARE_BULLET_3": "Visualização única",
+      
+      "SHARE_ENCRYPTED_BY": "Criptografado, seguro e protegido pela Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escreva sua mensagem secreta, senha ou informação sensível *",
+      "SHARE_OPTIONS": "Opções",
+      
+      "SHARE_EMPTY": "Deixe vazio para nenhum.",
+      "SHARE_BUTTON": "Criar Link Secreto",
+      
+      "CREATED_TITLE": "Seu segredo foi criado",
+      "CREATED_SUBTITLE": "Ele será mostrado apenas uma vez",
+      
+      "CREATED_TITLE_SHARE": "Copie o link ou compartilhe-o.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Criar Novo Segredo",
+      "CREATED_BURNSECRET": "Queimar Segredo",
+      "URL_COPIED": "O URL foi copiado.",
+      "SHARE_BURNER_TIME": "Duração",
+      "SHARE_PASS_PHRASE": "Senha",
+      "VIEW_SECRET": "Visualizar Segredo"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Como funciona",
+      "DOWNLOAD_APP": "Baixar App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Mensagens Secretas de Uso Único",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Compartilhe segredos, e puff—eles desaparecerão!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Criptografado, seguro e protegido pela Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"O Stellar Secret permite que você compartilhe links visualizáveis ​​de uso único com conteúdo sensível em um link secreto, que só você sabe, e o destinatário sabe. É a melhor maneira de manter informações sensíveis fora de qualquer aplicativo de mensagens.",
+
+      "WITHOUT_TRACE_TITLE": "Sem rastros",
+      "WITHOUT_TRACE_DESCRIPTION": "Garantimos a proteção robusta das suas informações sensíveis. Todos os dados são criptografados no lado do cliente. Não conhecemos seu endereço IP, o que você compartilha ou com quem você compartilha os links secretos - e o mais importante, o conteúdo.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacidade Protegida",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Você é o único que sabe o link para a informação secreta que você criou e com quem você a compartilha. Ao criar um segredo, você pode adicionar uma senha antes que ele possa ser desbloqueado. Também é possível definir um tempo de destruição. Não importa o que aconteça, um segredo será excluído após 14 dias.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Criptografado de ponta a ponta",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Todos os links e conteúdos são criptografados no lado do cliente, o que significa que até nós não sabemos o link e o conteúdo. Cada link tem um ID exclusivo de comprimento 36, que é uma criptografia unidirecional para acessar a Mensagem Secreta e seu conteúdo, que é criptografado com AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Como funciona?",
+      "STEP_1_TITLE": "Escreva sua mensagem e/ou gere uma senha",
+      "STEP_2_TITLE": "Crie o Link Secreto",
+      "STEP_3_TITLE": "Compartilhe o link",
+      
+      "COMPANY_LOGO_ALT": "Logotipo da Empresa",
+      
+      "SHARE_TITLE": "Compartilhe uma mensagem secreta",
+      "SHARE_DESCRIPTION_PART_1": "Escreva e envie a mensagem, ela será",
+      "SHARE_DESCRIPTION_PART_2": "excluída após ser lida.",
+      
+      "SHARE_BULLET_1": "Sem rastros.",
+      "SHARE_BULLET_2": "Privacidade Protegida",
+      "SHARE_BULLET_3": "Visualização única",
+      
+      "SHARE_ENCRYPTED_BY": "Criptografado, seguro e protegido pela Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Escreva sua mensagem secreta, senha ou informação sensível *",
+      "SHARE_OPTIONS": "Opções",
+      
+      "SHARE_EMPTY": "Deixe vazio para nenhum.",
+      "SHARE_BUTTON": "Criar Link Secreto",
+      
+      "CREATED_TITLE": "Seu segredo foi criado",
+      "CREATED_SUBTITLE": "Ele será mostrado apenas uma vez",
+      
+      "CREATED_TITLE_SHARE": "Copie o link ou compartilhe-o.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Criar Novo Segredo",
+      "CREATED_BURNSECRET": "Queimar Segredo",
+      "URL_COPIED": "O URL foi copiado.",
+      
+      "VIEW_SECRET": "Visualizar Segredo"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Como funciona",
+      "DOWNLOAD_APP": "Baixar App",
+      "CREATED_TITLE": "Seu segredo foi criado",
+      "CREATED_SUBTITLE": "Ele será mostrado apenas uma vez",
+      "CREATED_TITLE_SHARE": "Copie o link ou compartilhe-o.",
+      "CREATED_BUTTON": "COPIAR",
+      "CREATED_CREATE_SECRET": "Criar Novo Segredo",
+      "CREATED_BURNSECRET": "Queimar Segredo",
+      "URL_COPIED": "O URL foi copiado."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Você vai queimar este segredo",
+      "SECRET_UNAVAILABLE_TEXT": "Não estará mais disponível",
+      "BURN_FOREVER": "Queimar Para Sempre",
+      "CANCEL": "Cancelar"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Como funciona",
+      "DOWNLOAD_APP": "Baixar App",
+      "WELCOME_MESSAGE": "Olá, você recebeu uma mensagem secreta!",
+      "INSTRUCTION": "Escreva e envie a mensagem, ela será excluída após ser lida.",
+      "SHOW_MESSAGE_ONCE": "A seguinte mensagem será mostrada apenas uma vez",
+      "OPEN_SECRET_MESSAGE": "Abrir Mensagem Secreta",
+      "INPUT_PASSPHRASE": "Digite a Senha",
+      "PASS_PHRASE_PLACEHOLDER": "Senha",
+      "OPEN_SECRET_BUTTON": "Abrir Mensagem Secreta",
+      "YOUR_SECRET_MESSAGE": "Sua Mensagem Secreta",
+      "COPY": "Copiar",
+      "MESSAGE_LABEL": "Mensagem",
+      "REPLY": "Responder",
+      "DOWNLOAD_MESSAGE": "Baixe o Stellar Secret no mobile, crie suas mensagens secretas",
+      "WITHOUT_TRACE": "Sem rastros.",
+      "PRIVACY_PROTECTED": "Privacidade Protegida",
+      "ONE_TIME_VIEWABLE": "Visualização única",
+      "SECURITY_TEXT": "Criptografado, seguro e protegido por ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

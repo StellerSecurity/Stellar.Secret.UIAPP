@@ -1,0 +1,149 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Geheim",
+      "HOW_IT_WORKS": "Hoe het werkt",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Eenmalige Geheime Berichten",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deel geheimen en poef—ze zijn weg!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Versleuteld, beveiligd en beschermd door Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Zonder spoor",
+      "WITHOUT_TRACE_DESCRIPTION": "Wij zorgen voor robuuste bescherming van je gevoelige informatie. Alle gegevens worden aan de cliëntzijde versleuteld. We kennen je IP-adres niet, wat je deelt, of met wie je de geheime links deelt - en vooral de inhoud.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Beschermd",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jij bent de enige die de link naar de geheime informatie die je hebt gemaakt kent en met wie je deze deelt. Bij het maken van een geheim kun je een wachtwoord toevoegen voordat het kan worden ontgrendeld. Ook is het mogelijk om een verbrandertijd in te stellen. Hoe dan ook, een geheim wordt na 14 dagen verwijderd.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Einde-tot-einde versleuteld",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle links en inhoud worden aan de cliëntzijde gehasht, wat betekent dat zelfs wij de link en de inhoud niet kennen. Elke link heeft een unieke ID van 36 tekens die een eenrichtingsversleuteling is om toegang te krijgen tot het Geheime Bericht en zijn inhoud die is versleuteld met AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hoe het werkt?",
+      "STEP_1_TITLE": "Schrijf je bericht en/of genereer een wachtwoord",
+      "STEP_2_TITLE": "Maak Geheime Link aan",
+      "STEP_3_TITLE": "Deel link",
+      
+      "COMPANY_LOGO_ALT": "Bedrijfslogo",
+      
+      "SHARE_TITLE": "Deel een geheim bericht",
+      "SHARE_DESCRIPTION_PART_1": "Schrijf en stuur bericht, het zal worden",
+      "SHARE_DESCRIPTION_PART_2": "verwijderd zodra gelezen.",
+      
+      "SHARE_BULLET_1": "Zonder spoor.",
+      "SHARE_BULLET_2": "Privacy Beschermd",
+      "SHARE_BULLET_3": "Eenmalig zichtbaar",
+      
+      "SHARE_ENCRYPTED_BY": "Versleuteld, beveiligd en beschermd door Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Schrijf je geheime bericht, wachtwoord of gevoelige informatie *",
+      "SHARE_OPTIONS": "Opties",
+      
+      "SHARE_EMPTY": "Laat leeg voor geen.",
+      "SHARE_BUTTON": "Maak Geheime Link aan",
+      
+      "CREATED_TITLE": "Je Geheim is aangemaakt",
+      "CREATED_SUBTITLE": "Het zal slechts één keer worden getoond",
+      
+      "CREATED_TITLE_SHARE": "Kopieer link of deel het.",
+      "CREATED_BUTTON": "KOPIEER",
+      "CREATED_CREATE_SECRET": "Maak Nieuw Geheim",
+      "CREATED_BURNSECRET": "Verbrand Geheim",
+      "URL_COPIED": "De URL is gekopieerd.",
+      "SHARE_BURNER_TIME":"Levensduur",
+      "SHARE_PASS_PHRASE":"Wachtwoordzin",
+      "VIEW_SECRET": "Bekijk Geheim"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Geheim",
+      "HOW_IT_WORKS": "Hoe het werkt",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Eenmalige Geheime Berichten",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Deel geheimen en poef—ze zijn weg!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Versleuteld, beveiligd en beschermd door Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Met Stellar Secret kunt u eenmalige zichtbare links delen met gevoelige content in een geheime link, die alleen u en de ontvanger kent. Het is de beste manier om gevoelige informatie uit alle messenger-apps te houden.",
+      "WITHOUT_TRACE_TITLE": "Zonder spoor",
+      "WITHOUT_TRACE_DESCRIPTION": "Wij zorgen voor robuuste bescherming van je gevoelige informatie. Alle gegevens worden aan de cliëntzijde versleuteld. We kennen je IP-adres niet, wat je deelt, of met wie je de geheime links deelt - en vooral de inhoud.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Beschermd",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Jij bent de enige die de link naar de geheime informatie die je hebt gemaakt kent en met wie je deze deelt. Bij het maken van een geheim kun je een wachtwoord toevoegen voordat het kan worden ontgrendeld. Ook is het mogelijk om een verbrandertijd in te stellen. Hoe dan ook, een geheim wordt na 14 dagen verwijderd.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Einde-tot-einde versleuteld",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Alle links en inhoud worden aan de cliëntzijde gehasht, wat betekent dat zelfs wij de link en de inhoud niet kennen. Elke link heeft een unieke ID van 36 tekens die een eenrichtingsversleuteling is om toegang te krijgen tot het Geheime Bericht en zijn inhoud die is versleuteld met AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Hoe het werkt?",
+      "STEP_1_TITLE": "Schrijf je bericht en/of genereer een wachtwoord",
+      "STEP_2_TITLE": "Maak Geheime Link aan",
+      "STEP_3_TITLE": "Deel link",
+      
+      "COMPANY_LOGO_ALT": "Bedrijfslogo",
+      
+      "SHARE_TITLE": "Deel een geheim bericht",
+      "SHARE_DESCRIPTION_PART_1": "Schrijf en stuur bericht, het zal worden",
+      "SHARE_DESCRIPTION_PART_2": "verwijderd zodra gelezen.",
+      
+      "SHARE_BULLET_1": "Zonder spoor.",
+      "SHARE_BULLET_2": "Privacy Beschermd",
+      "SHARE_BULLET_3": "Eenmalig zichtbaar",
+      
+      "SHARE_ENCRYPTED_BY": "Versleuteld, beveiligd en beschermd door Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Schrijf je geheime bericht, wachtwoord of gevoelige informatie *",
+      "SHARE_OPTIONS": "Opties",
+      
+      "SHARE_EMPTY": "Laat leeg voor geen.",
+      "SHARE_BUTTON": "Maak Geheime Link aan",
+      
+      "CREATED_TITLE": "Je Geheim is aangemaakt",
+      "CREATED_SUBTITLE": "Het zal slechts één keer worden getoond",
+      
+      "CREATED_TITLE_SHARE": "Kopieer link of deel het.",
+      "CREATED_BUTTON": "KOPIEER",
+      "CREATED_CREATE_SECRET": "Maak Nieuw Geheim",
+      "CREATED_BURNSECRET": "Verbrand Geheim",
+      "URL_COPIED": "De URL is gekopieerd.",
+      
+      "VIEW_SECRET": "Bekijk Geheim"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Geheim",
+      "HOW_IT_WORKS": "Hoe het werkt",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Je Geheim is aangemaakt",
+      "CREATED_SUBTITLE": "Het zal slechts één keer worden getoond",
+      "CREATED_TITLE_SHARE": "Kopieer link of deel het.",
+      "CREATED_BUTTON": "KOPIEER",
+      "CREATED_CREATE_SECRET": "Maak Nieuw Geheim",
+      "CREATED_BURNSECRET": "Verbrand Geheim",
+      "URL_COPIED": "De URL is gekopieerd."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Je gaat dit geheim verbranden",
+      "SECRET_UNAVAILABLE_TEXT": "Het zal niet meer beschikbaar zijn",
+      "BURN_FOREVER": "Verbrand Voor Altijd",
+      "CANCEL": "Annuleren"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Geheim",
+      "HOW_IT_WORKS": "Hoe het werkt",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Hallo, je hebt een geheim bericht ontvangen!",
+      "INSTRUCTION": "Schrijf en stuur bericht, het zal worden verwijderd zodra gelezen.",
+      "SHOW_MESSAGE_ONCE": "Het volgende bericht wordt slechts één keer getoond",
+      "OPEN_SECRET_MESSAGE": "Open Geheime Bericht",
+      "INPUT_PASSPHRASE": "Voer Wachtwoordzin in",
+      "PASS_PHRASE_PLACEHOLDER": "Wachtwoordzin",
+      "OPEN_SECRET_BUTTON": "Open Geheime Bericht",
+      "YOUR_SECRET_MESSAGE": "Je Geheime Bericht",
+      "COPY": "Kopiëren",
+      "MESSAGE_LABEL": "Bericht",
+      "REPLY": "Antwoorden",
+      "DOWNLOAD_MESSAGE": "Download Stellar Geheim op mobiel, maak je geheime berichten",
+      "WITHOUT_TRACE": "Zonder spoor.",
+      "PRIVACY_PROTECTED": "Privacy Beschermd",
+      "ONE_TIME_VIEWABLE": "Eenmalig zichtbaar",
+      "SECURITY_TEXT": "Versleuteld, beveiligd en beschermd door ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Хэрхэн ажилладаг вэ",
+      "DOWNLOAD_APP": "Аппыг татаж авах",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Нэг удаагийн нууц мессеж",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Нууцыг хуваалцаарай, үгүй болоно!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Stellar Security-ийн аюулгүй байдал, хамгаалалтаар шифрлэгдсэн",
+      "WITHOUT_TRACE_TITLE": "Мөргүйгээр",
+      "WITHOUT_TRACE_DESCRIPTION": "Таны мэдээлэл хамгаалагдсан байж байна гэдгийг баталгаажуулна. Бүх мэдээлэл хэрэглэгчийн талд шифрлэгдсэн байдаг. Бид таны IP хаяг, хуваалцаж буй зүйлс эсвэл нууц холбоосуудыг хээнд хуваалцаж байгааг мэдэхгүй - хамгийн чухал нь, агуулга.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Нууцлал хамгаалагдсан",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Та нууц мэдээллийн холбоосыг хэнтэй хуваалцаж байгааг л мэдэх юм. Нууц үг нэмэх, уг нууцыг нээхээс өмнө үүнийг нууц үгтэй болгож болно. Мөн шатах цагийг тохируулах боломжтой. Ямар ч тохиолдолд, нууц 14 хоногийн дараа устах болно.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Эцсээс эцсийн хүртэл шифрлэгдсэн",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Бүх холбоос болон агуулга хэрэглэгчийн талд хэшлэгдсэн байдаг, бид холбоос ба агуулгыг мэдэхгүй. Бүх холбоос 36 оронтой уникаль ID-тэй бөгөөд AES-256-аар шифрлэгдсэн нууц мессежийг авах боломжтой.",
+      
+      "HOW_IT_WORKS_TITLE": "Хэрхэн ажилладаг вэ?",
+      "STEP_1_TITLE": "Мессеж бичиж / нууц үг үүсгээрэй",
+      "STEP_2_TITLE": "Нууц холбоос үүсгэх",
+      "STEP_3_TITLE": "Холбоос хуваалцах",
+      
+      "COMPANY_LOGO_ALT": "Компанийн лого",
+      
+      "SHARE_TITLE": "Нууц мессеж хуваалцах",
+      "SHARE_DESCRIPTION_PART_1": "Мессеж бичиж илгээнэ, үүнийг",
+      "SHARE_DESCRIPTION_PART_2": "уншсаны дараа устгана.",
+      
+      "SHARE_BULLET_1": "Мөргүйгээр.",
+      "SHARE_BULLET_2": "Нууцлал хамгаалагдсан",
+      "SHARE_BULLET_3": "Нэг удаа үзэх боломжтой",
+      
+      "SHARE_ENCRYPTED_BY": "Stellar Security-ийн аюулгүй байдал, хамгаалалтаар шифрлэгдсэн",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Нууц мессеж, нууц үг эсвэл мэдээллээ бичнэ үү *",
+      "SHARE_OPTIONS": "Сонголтууд",
+      
+      "SHARE_EMPTY": "Юу ч үгүй болгох.",
+      "SHARE_BUTTON": "Нууц холбоос үүсгэх",
+      
+      "CREATED_TITLE": "Таны нууц үүсгэгдлээ",
+      "CREATED_SUBTITLE": "Энэ зөвхөн нэг удаа харуулна",
+      
+      "CREATED_TITLE_SHARE": "Холбоосыг хуулж эсвэл хуваалцаарай.",
+      "CREATED_BUTTON": "ХУУЛАХ",
+      "CREATED_CREATE_SECRET": "Шинэ нууц үүсгэх",
+      "CREATED_BURNSECRET": "Нууцыг устгах",
+      "URL_COPIED": "URL хуулсан.",
+      "SHARE_BURNER_TIME":"Амьдралын хугацаа",
+      "SHARE_PASS_PHRASE":"Нууц үг",
+      "VIEW_SECRET": "Нууцыг үзэх"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Хэрхэн ажилладаг вэ",
+      "DOWNLOAD_APP": "Аппыг татаж авах",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Нэг удаагийн нууц мессеж",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Нууцыг хуваалцаарай, үгүй болоно!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Stellar Security-ийн аюулгүй байдал, хамгаалалтаар шифрлэгдсэн",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Оддын нууц нь зөвхөн таны мэддэг, хүлээн авагчийн мэддэг нууц линкээр нэг удаа үзэх боломжтой холбоосуудыг хуваалцах боломжийг олгодог. Энэ нь аливаа мессенжер програмаас нууц мэдээллийг хадгалах хамгийн сайн арга юм.",
+
+      "WITHOUT_TRACE_TITLE": "Мөргүйгээр",
+      "WITHOUT_TRACE_DESCRIPTION": "Таны мэдээлэл хамгаалагдсан байж байна гэдгийг баталгаажуулна. Бүх мэдээлэл хэрэглэгчийн талд шифрлэгдсэн байдаг. Бид таны IP хаяг, хуваалцаж буй зүйлс эсвэл нууц холбоосуудыг хээнд хуваалцаж байгааг мэдэхгүй - хамгийн чухал нь, агуулга.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Нууцлал хамгаалагдсан",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Та нууц мэдээллийн холбоосыг хэнтэй хуваалцаж байгааг л мэдэх юм. Нууц үг нэмэх, уг нууцыг нээхээс өмнө үүнийг нууц үгтэй болгож болно. Мөн шатах цагийг тохируулах боломжтой. Ямар ч тохиолдолд, нууц 14 хоногийн дараа устах болно.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Эцсээс эцсийн хүртэл шифрлэгдсэн",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Бүх холбоос болон агуулга хэрэглэгчийн талд хэшлэгдсэн байдаг, бид холбоос ба агуулгыг мэдэхгүй. Бүх холбоос 36 оронтой уникаль ID-тэй бөгөөд AES-256-аар шифрлэгдсэн нууц мессежийг авах боломжтой.",
+      
+      "HOW_IT_WORKS_TITLE": "Хэрхэн ажилладаг вэ?",
+      "STEP_1_TITLE": "Мессеж бичиж / нууц үг үүсгээрэй",
+      "STEP_2_TITLE": "Нууц холбоос үүсгэх",
+      "STEP_3_TITLE": "Холбоос хуваалцах",
+      
+      "COMPANY_LOGO_ALT": "Компанийн лого",
+      
+      "SHARE_TITLE": "Нууц мессеж хуваалцах",
+      "SHARE_DESCRIPTION_PART_1": "Мессеж бичиж илгээнэ, үүнийг",
+      "SHARE_DESCRIPTION_PART_2": "уншсаны дараа устгана.",
+      
+      "SHARE_BULLET_1": "Мөргүйгээр.",
+      "SHARE_BULLET_2": "Нууцлал хамгаалагдсан",
+      "SHARE_BULLET_3": "Нэг удаа үзэх боломжтой",
+      
+      "SHARE_ENCRYPTED_BY": "Stellar Security-ийн аюулгүй байдал, хамгаалалтаар шифрлэгдсэн",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Нууц мессеж, нууц үг эсвэл мэдээллээ бичнэ үү *",
+      "SHARE_OPTIONS": "Сонголтууд",
+      
+      "SHARE_EMPTY": "Юу ч үгүй болгох.",
+      "SHARE_BUTTON": "Нууц холбоос үүсгэх",
+      
+      "CREATED_TITLE": "Таны нууц үүсгэгдлээ",
+      "CREATED_SUBTITLE": "Энэ зөвхөн нэг удаа харуулна",
+      
+      "CREATED_TITLE_SHARE": "Холбоосыг хуулж эсвэл хуваалцаарай.",
+      "CREATED_BUTTON": "ХУУЛАХ",
+      "CREATED_CREATE_SECRET": "Шинэ нууц үүсгэх",
+      "CREATED_BURNSECRET": "Нууцыг устгах",
+      "URL_COPIED": "URL хуулсан.",
+      
+      "VIEW_SECRET": "Нууцыг үзэх"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Хэрхэн ажилладаг вэ",
+      "DOWNLOAD_APP": "Аппыг татаж авах",
+      "CREATED_TITLE": "Таны нууц үүсгэгдлээ",
+      "CREATED_SUBTITLE": "Энэ зөвхөн нэг удаа харуулна",
+      "CREATED_TITLE_SHARE": "Холбоосыг хуулж эсвэл хуваалцаарай.",
+      "CREATED_BUTTON": "ХУУЛАХ",
+      "CREATED_CREATE_SECRET": "Шинэ нууц үүсгэх",
+      "CREATED_BURNSECRET": "Нууцыг устгах",
+      "URL_COPIED": "URL хуулсан."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Та энэ нууцыг устгах гэж байна",
+      "SECRET_UNAVAILABLE_TEXT": "Энэ дахин олдохгүй болно",
+      "BURN_FOREVER": "Ү永гэн устгах",
+      "CANCEL": "Цуцлах"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Хэрхэн ажилладаг вэ",
+      "DOWNLOAD_APP": "Аппыг татаж авах",
+      "WELCOME_MESSAGE": "Сайн уу, та нууц мессеж авсан байна!",
+      "INSTRUCTION": "Мессеж бичиж илгээнэ, үүнийг уншсаны дараа устгана.",
+      "SHOW_MESSAGE_ONCE": "Дараах мессеж зөвхөн нэг удаа харуулна",
+      "OPEN_SECRET_MESSAGE": "Нууц мессежийг нээх",
+      "INPUT_PASSPHRASE": "Нууц үг оруулах",
+      "PASS_PHRASE_PLACEHOLDER": "Нууц үг",
+      "OPEN_SECRET_BUTTON": "Нууц мессежийг нээх",
+      "YOUR_SECRET_MESSAGE": "Таны нууц мессеж",
+      "COPY": "ХУУЛАХ",
+      "MESSAGE_LABEL": "Мессеж",
+      "REPLY": "Хариулах",
+      "DOWNLOAD_MESSAGE": "Stellar Secret аппыг гар утсандаа татаж аваарай, нууц мессежүүдээ үүсгээрэй",
+      "WITHOUT_TRACE": "Мөргүйгээр.",
+      "PRIVACY_PROTECTED": "Нууцлал хамгаалагдсан",
+      "ONE_TIME_VIEWABLE": "Нэг удаа үзэх боломжтой",
+      "SECURITY_TEXT": "Аюулгүй байдал, хамгаалалтыг",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

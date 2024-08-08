@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "星際秘密",
+      "HOW_IT_WORKS": "如何運作",
+      "DOWNLOAD_APP": "下載應用程式",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "一次性秘密消息",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "分享秘密，瞬間消失！",
+      
+      "ENCRYPTED_PROTECTED_BY": "由星際安全加密、保護和保障",
+      "WITHOUT_TRACE_TITLE": "無跡可尋",
+      "WITHOUT_TRACE_DESCRIPTION": "我們確保您的敏感信息得到強大的保護。所有數據均在客戶端加密。我們不知道您的 IP 地址、您分享了什麼，或您與誰分享秘密連結 - 更重要的是，內容。",
+      
+      "PRIVACY_PROTECTED_TITLE": "隱私保護",
+      "PRIVACY_PROTECTED_DESCRIPTION": "只有您知道您創建的秘密信息的連結以及您與誰分享它。在創建秘密時，您可以在解鎖之前添加密碼。還可以設置燒毀時間。無論如何，秘密將在 14 天後被刪除。",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "端到端加密",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "所有連結和內容都在客戶端進行哈希處理，這意味著即使是我們也不知道連結和內容。每個連結都有一個長度為 36 的唯一 ID，這是一種單向加密，可以訪問秘密消息及其用 AES-256 加密的內容。",
+      
+      "HOW_IT_WORKS_TITLE": "如何運作？",
+      "STEP_1_TITLE": "寫下您的消息和/或生成密碼",
+      "STEP_2_TITLE": "創建秘密連結",
+      "STEP_3_TITLE": "分享連結",
+      
+      "COMPANY_LOGO_ALT": "公司標誌",
+      
+      "SHARE_TITLE": "分享秘密消息",
+      "SHARE_DESCRIPTION_PART_1": "撰寫並發送消息，它將被",
+      "SHARE_DESCRIPTION_PART_2": "閱讀後刪除。",
+      
+      "SHARE_BULLET_1": "無跡可尋。",
+      "SHARE_BULLET_2": "隱私保護",
+      "SHARE_BULLET_3": "一次性可查看",
+      
+      "SHARE_ENCRYPTED_BY": "由星際安全加密、保護和保障",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "撰寫您的秘密消息、密碼或敏感信息 *",
+      "SHARE_OPTIONS": "選項",
+      
+      "SHARE_EMPTY": "留空則無。",
+      "SHARE_BUTTON": "創建秘密連結",
+      
+      "CREATED_TITLE": "您的秘密已創建",
+      "CREATED_SUBTITLE": "僅顯示一次",
+      
+      "CREATED_TITLE_SHARE": "複製連結或分享它。",
+      "CREATED_BUTTON": "複製",
+      "CREATED_CREATE_SECRET": "創建新秘密",
+      "CREATED_BURNSECRET": "燒毀秘密",
+      "URL_COPIED": "URL 已被複製。",
+      "SHARE_BURNER_TIME": "使用壽命",
+      "SHARE_PASS_PHRASE": "密碼短語",
+      "VIEW_SECRET": "查看秘密"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "星際秘密",
+      "HOW_IT_WORKS": "如何運作",
+      "DOWNLOAD_APP": "下載應用程式",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "一次性秘密消息",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "分享秘密，瞬間消失！",
+      
+      "ENCRYPTED_PROTECTED_BY": "由星際安全加密、保護和保障",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret 讓你分享一次性可查看的連結，這些連結包含敏感內容，只有你和收件人知道。這是保持敏感信息遠離任何即時消息應用程序的最佳方式。",
+
+      "WITHOUT_TRACE_TITLE": "無跡可尋",
+      "WITHOUT_TRACE_DESCRIPTION": "我們確保您的敏感信息得到強大的保護。所有數據均在客戶端加密。我們不知道您的 IP 地址、您分享了什麼，或您與誰分享秘密連結 - 更重要的是，內容。",
+      
+      "PRIVACY_PROTECTED_TITLE": "隱私保護",
+      "PRIVACY_PROTECTED_DESCRIPTION": "只有您知道您創建的秘密信息的連結以及您與誰分享它。在創建秘密時，您可以在解鎖之前添加密碼。還可以設置燒毀時間。無論如何，秘密將在 14 天後被刪除。",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "端到端加密",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "所有連結和內容都在客戶端進行哈希處理，這意味著即使是我們也不知道連結和內容。每個連結都有一個長度為 36 的唯一 ID，這是一種單向加密，可以訪問秘密消息及其用 AES-256 加密的內容。",
+      
+      "HOW_IT_WORKS_TITLE": "如何運作？",
+      "STEP_1_TITLE": "寫下您的消息和/或生成密碼",
+      "STEP_2_TITLE": "創建秘密連結",
+      "STEP_3_TITLE": "分享連結",
+      
+      "COMPANY_LOGO_ALT": "公司標誌",
+      
+      "SHARE_TITLE": "分享秘密消息",
+      "SHARE_DESCRIPTION_PART_1": "撰寫並發送消息，它將被",
+      "SHARE_DESCRIPTION_PART_2": "閱讀後刪除。",
+      
+      "SHARE_BULLET_1": "無跡可尋。",
+      "SHARE_BULLET_2": "隱私保護",
+      "SHARE_BULLET_3": "一次性可查看",
+      
+      "SHARE_ENCRYPTED_BY": "由星際安全加密、保護和保障",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "撰寫您的秘密消息、密碼或敏感信息 *",
+      "SHARE_OPTIONS": "選項",
+      
+      "SHARE_EMPTY": "留空則無。",
+      "SHARE_BUTTON": "創建秘密連結",
+      
+      "CREATED_TITLE": "您的秘密已創建",
+      "CREATED_SUBTITLE": "僅顯示一次",
+      
+      "CREATED_TITLE_SHARE": "複製連結或分享它。",
+      "CREATED_BUTTON": "複製",
+      "CREATED_CREATE_SECRET": "創建新秘密",
+      "CREATED_BURNSECRET": "燒毀秘密",
+      "URL_COPIED": "URL 已被複製。",
+      
+      "VIEW_SECRET": "查看秘密"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "星際秘密",
+      "HOW_IT_WORKS": "如何運作",
+      "DOWNLOAD_APP": "下載應用程式",
+      "CREATED_TITLE": "您的秘密已創建",
+      "CREATED_SUBTITLE": "僅顯示一次",
+      "CREATED_TITLE_SHARE": "複製連結或分享它。",
+      "CREATED_BUTTON": "複製",
+      "CREATED_CREATE_SECRET": "創建新秘密",
+      "CREATED_BURNSECRET": "燒毀秘密",
+      "URL_COPIED": "URL 已被複製。"
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "您將要燒毀這個秘密",
+      "SECRET_UNAVAILABLE_TEXT": "它將不再可用",
+      "BURN_FOREVER": "永遠燒毀",
+      "CANCEL": "取消"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "星際秘密",
+      "HOW_IT_WORKS": "如何運作",
+      "DOWNLOAD_APP": "下載應用程式",
+      "WELCOME_MESSAGE": "你好，您收到了一條秘密消息！",
+      "INSTRUCTION": "撰寫並發送消息，它將在閱讀後被刪除。",
+      "SHOW_MESSAGE_ONCE": "以下消息將僅顯示一次",
+      "OPEN_SECRET_MESSAGE": "打開秘密消息",
+      "INPUT_PASSPHRASE": "輸入密碼短語",
+      "PASS_PHRASE_PLACEHOLDER": "密碼短語",
+      "OPEN_SECRET_BUTTON": "打開秘密消息",
+      "YOUR_SECRET_MESSAGE": "您的秘密消息",
+      "COPY": "複製",
+      "MESSAGE_LABEL": "消息",
+      "REPLY": "回覆",
+      "DOWNLOAD_MESSAGE": "下載星際秘密應用程式，創建您的秘密消息",
+      "WITHOUT_TRACE": "無跡可尋。",
+      "PRIVACY_PROTECTED": "隱私保護",
+      "ONE_TIME_VIEWABLE": "一次性可查看",
+      "SECURITY_TEXT": "由",
+      "SECURITY_TEXT2": "星際安全加密、保護和保障"
+    }
+  }
+  

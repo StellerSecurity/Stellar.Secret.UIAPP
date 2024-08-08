@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Li cas nws works",
+      "DOWNLOAD_APP": "Rub tawm App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ib lub sijhawm Xov Xwm",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Xa xov xwm, thiab poof—lawv mus!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured thiab tiv thaiv los ntawm Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Tsis muaj ntawv",
+      "WITHOUT_TRACE_DESCRIPTION": "Peb xyuas kom muaj kev tiv thaiv koj cov ntaub ntawv tseem ceeb. Txhua yam ntaub ntawv tau encrypted ntawm lub client-side. Peb tsis paub txog koj IP chaw, dab tsi koj xa, lossis leej twg koj xa cov secret links nrog - thiab tseem ceeb tshaj plaws, cov ntsiab lus.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Kev Cai Ruaj Ntseg",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Koj yog tus neeg nkaus xwb uas paub txog tus link rau cov ntaub ntawv secret koj tsim thiab leej twg koj xa nws nrog. Thaum tsim ib qho secret, koj tuaj yeem ntxiv ib qho password ua ntej nws tuaj yeem qhib. Qhov tseem ceeb, koj tuaj yeem teeb tsa ib qho burner-time. Txawm li cas los xij, ib qho secret yuav raug rho tawm tom qab 14 hnub.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Tua-tua encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tag nrho cov links thiab cov ntsiab lus tau hashed ntawm lub client-side, txhais tau tias txawm peb tsis paub txog tus link thiab cov ntsiab lus. Txhua link muaj ib qho ID tshwj xeeb ntawm ntev ntawm 36 uas yog ib qho one-way encryption kom tuaj yeem nkag tau rau hauv Secret Message thiab nws cov ntsiab lus uas tau encrypted nrog AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Li cas nws works?",
+      "STEP_1_TITLE": "Sau koj cov lus thiab/los yog tsim password",
+      "STEP_2_TITLE": "Tsim Secret Link",
+      "STEP_3_TITLE": "Xa link",
+      
+      "COMPANY_LOGO_ALT": "Logo tuam txhab",
+      
+      "SHARE_TITLE": "Xa ib qho secret message",
+      "SHARE_DESCRIPTION_PART_1": "Sau thiab xa lus, nws yuav",
+      "SHARE_DESCRIPTION_PART_2": "rho tawm tom qab nyeem.",
+      
+      "SHARE_BULLET_1": "Tsis muaj ntawv.",
+      "SHARE_BULLET_2": "Kev Cai Ruaj Ntseg",
+      "SHARE_BULLET_3": "Ib lub sijhawm pom tau",
+      
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured thiab tiv thaiv los ntawm Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Sau koj Secret message, password lossis cov ntaub ntawv tseem ceeb *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Hais kom tsis muaj.",
+      "SHARE_BUTTON": "Tsim Secret Link",
+      
+      "CREATED_TITLE": "Koj Secret tau tsim",
+      "CREATED_SUBTITLE": "Nws yuav tshwm sim ib zaug nkaus xwb",
+      
+      "CREATED_TITLE_SHARE": "Tsum link lossis xa nws.",
+      "CREATED_BUTTON": "COPI",
+      "CREATED_CREATE_SECRET": "Tsim Tshiab Secret",
+      "CREATED_BURNSECRET": "Rho tawm Secret",
+      "URL_COPIED": "URL tau raug copied.",
+      "SHARE_BURNER_TIME": "Lub neej",
+      "SHARE_PASS_PHRASE": "Passphrase",
+      "VIEW_SECRET": "Saib Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Li cas nws works",
+      "DOWNLOAD_APP": "Rub tawm App",
+    
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ib lub sijhawm Xov Xwm",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Xa xov xwm, thiab poof—lawv mus!",
+    
+      "ENCRYPTED_PROTECTED_BY": "Encrypted, secured thiab tiv thaiv los ntawm Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret tso cai rau koj los qhia ib lub sij hawm saib cov kev sib txuas nrog cov ntsiab lus rhiab hauv qhov txuas tsis pub lwm tus paub, uas tsuas yog koj paub, thiab tus txais yuav paub. Nws yog txoj hauv kev zoo tshaj plaws kom khaws cov ntaub ntawv rhiab tawm ntawm txhua tus tub txib-apps.",
+
+      "WITHOUT_TRACE_TITLE": "Tsis muaj ntawv",
+      "WITHOUT_TRACE_DESCRIPTION": "Peb xyuas kom muaj kev tiv thaiv koj cov ntaub ntawv tseem ceeb. Txhua yam ntaub ntawv tau encrypted ntawm lub client-side. Peb tsis paub txog koj IP chaw, dab tsi koj xa, lossis leej twg koj xa cov secret links nrog - thiab tseem ceeb tshaj plaws, cov ntsiab lus.",
+    
+      "PRIVACY_PROTECTED_TITLE": "Kev Cai Ruaj Ntseg",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Koj yog tus neeg nkaus xwb uas paub txog tus link rau cov ntaub ntawv secret koj tsim thiab leej twg koj xa nws nrog. Thaum tsim ib qho secret, koj tuaj yeem ntxiv ib qho password ua ntej nws tuaj yeem qhib. Qhov tseem ceeb, koj tuaj yeem teeb tsa ib qho burner-time. Txawm li cas los xij, ib qho secret yuav raug rho tawm tom qab 14 hnub.",
+    
+      "END_TO_END_ENCRYPTED_TITLE": "Tua-tua encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Tag nrho cov links thiab cov ntsiab lus tau hashed ntawm lub client-side, txhais tau tias txawm peb tsis paub txog tus link thiab cov ntsiab lus. Txhua link muaj ib qho ID tshwj xeeb ntawm ntev ntawm 36 uas yog ib qho one-way encryption kom tuaj yeem nkag tau rau hauv Secret Message thiab nws cov ntsiab lus uas tau encrypted nrog AES-256.",
+    
+      "HOW_IT_WORKS_TITLE": "Li cas nws works?",
+      "STEP_1_TITLE": "Sau koj cov lus thiab/los yog tsim password",
+      "STEP_2_TITLE": "Tsim Secret Link",
+      "STEP_3_TITLE": "Xa link",
+    
+      "COMPANY_LOGO_ALT": "Logo tuam txhab",
+    
+      "SHARE_TITLE": "Xa ib qho secret message",
+      "SHARE_DESCRIPTION_PART_1": "Sau thiab xa lus, nws yuav",
+      "SHARE_DESCRIPTION_PART_2": "rho tawm tom qab nyeem.",
+    
+      "SHARE_BULLET_1": "Tsis muaj ntawv.",
+      "SHARE_BULLET_2": "Kev Cai Ruaj Ntseg",
+      "SHARE_BULLET_3": "Ib lub sijhawm pom tau",
+    
+      "SHARE_ENCRYPTED_BY": "Encrypted, secured thiab tiv thaiv los ntawm Stellar Security",
+    
+      "SHARE_TEXTAREA_PLACEHOLDER": "Sau koj Secret message, password lossis cov ntaub ntawv tseem ceeb *",
+      "SHARE_OPTIONS": "Options",
+    
+      "SHARE_EMPTY": "Hais kom tsis muaj.",
+      "SHARE_BUTTON": "Tsim Secret Link",
+    
+      "CREATED_TITLE": "Koj Secret tau tsim",
+      "CREATED_SUBTITLE": "Nws yuav tshwm sim ib zaug nkaus xwb",
+    
+      "CREATED_TITLE_SHARE": "Tsum link lossis xa nws.",
+      "CREATED_BUTTON": "COPI",
+      "CREATED_CREATE_SECRET": "Tsim Tshiab Secret",
+      "CREATED_BURNSECRET": "Rho tawm Secret",
+      "URL_COPIED": "URL tau raug copied.",
+    
+      "VIEW_SECRET": "Saib Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Li cas nws works",
+      "DOWNLOAD_APP": "Rub tawm App",
+      "CREATED_TITLE": "Koj Secret tau tsim",
+      "CREATED_SUBTITLE": "Nws yuav tshwm sim ib zaug nkaus xwb",
+      "CREATED_TITLE_SHARE": "Tsum link lossis xa nws.",
+      "CREATED_BUTTON": "COPI",
+      "CREATED_CREATE_SECRET": "Tsim Tshiab Secret",
+      "CREATED_BURNSECRET": "Rho tawm Secret",
+      "URL_COPIED": "URL tau raug copied."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Koj yuav rho tawm qhov secret no",
+      "SECRET_UNAVAILABLE_TEXT": "Nws yuav tsis muaj ntau ntxiv",
+      "BURN_FOREVER": "Rho tawm ib tx lifetime",
+      "CANCEL": "Tso tseg"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Li cas nws works",
+      "DOWNLOAD_APP": "Rub tawm App",
+      "WELCOME_MESSAGE": "Nyob zoo, koj tau txais ib qho secret message!",
+      "INSTRUCTION": "Sau thiab xa lus, nws yuav rho tawm tom qab nyeem.",
+      "SHOW_MESSAGE_ONCE": "Daim ntawv tshaj tawm yuav tshwm sim tsuas ib zaug nkaus xwb",
+      "OPEN_SECRET_MESSAGE": "Qhib Secret Message",
+      "INPUT_PASSPHRASE": "Sau Passphrase",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Qhib Secret Message",
+      "YOUR_SECRET_MESSAGE": "Koj Secret Message",
+      "COPY": "COPI",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Tshawb",
+      "DOWNLOAD_MESSAGE": "Rub tawm Stellar Secret rau hauv mobile, tsim koj cov secret messages",
+      "WITHOUT_TRACE": "Tsis muaj ntawv.",
+      "PRIVACY_PROTECTED": "Kev Cai Ruaj Ntseg",
+      "ONE_TIME_VIEWABLE": "Ib lub sijhawm pom tau",
+      "SECURITY_TEXT": "Encrypted, secured thiab tiv thaiv los ntawm ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

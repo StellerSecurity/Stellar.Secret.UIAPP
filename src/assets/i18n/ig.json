@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Nkọwa Mma",
+      "HOW_IT_WORKS": "Olee otú ọ na-arụ ọrụ",
+      "DOWNLOAD_APP": "Budata ngwa",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ozi Ozi Otu Oge",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kekọrịta ozi, na poof—ha na-apụ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Edebere, echebe ma zere site na Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Na-enweghị mkpụrụ",
+      "WITHOUT_TRACE_DESCRIPTION": "Anyị na-eme ka nchekwa siri ike nke ozi gị. A na-encrypt data niile na ndị na-ahụ anya. Anyị amaghị adreesị IP gị, ihe ị na-ekekọrịta, ma ọ bụ onye ị na-ekekọrịta njikọ nzuzo ahụ - na nke kachasị mkpa, ọdịnaya ahụ.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Nzuzo Echebe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ị bụ naanị onye maara njikọ nke ozi nzuzo ị mepụtara na onye ị na-ekekọrịta ya na ya. Mgbe ị na-eme ihe nzuzo, ị nwere ike ịtinye paswọọdụ tupu enwere ike imeghe ya. Ọzọkwa, enwere ike ịtọ oge ọkụ. Ma ihe ọ bụla, ozi nzuzo ga-ehichapụ mgbe ụbọchị 14 gachara.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Njikọ niile na ọdịnaya bụ hashed na ndị na-ahụ anya, nke pụtara na anyị amaghị njikọ ahụ na ọdịnaya ahụ. Njikọ ọ bụla nwere ID pụrụ iche nke ogologo nke 36 nke bụ ịchekwa na-arụ ọrụ iji nweta Ozi Nzuzo na ọdịnaya ya nke na-eji AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Olee otú ọ na-arụ ọrụ?",
+      "STEP_1_TITLE": "Dee ozi gị ma ọ bụ mepụta paswọọdụ",
+      "STEP_2_TITLE": "Mepụta Njikọ Nzuzo",
+      "STEP_3_TITLE": "Kekọrịta njikọ",
+      
+      "COMPANY_LOGO_ALT": "Logo Ụlọ Ọrụ",
+      
+      "SHARE_TITLE": "Kekọrịta ozi nzuzo",
+      "SHARE_DESCRIPTION_PART_1": "Dee ma zipu ozi, a ga-eme ya",
+      "SHARE_DESCRIPTION_PART_2": "ehichapụ mgbe a gụsịrị.",
+      
+      "SHARE_BULLET_1": "Na-enweghị mkpụrụ.",
+      "SHARE_BULLET_2": "Nzuzo Echebe",
+      "SHARE_BULLET_3": "Otu oge na-ahụ anya",
+      
+      "SHARE_ENCRYPTED_BY": "Edebere, echebe ma zere site na Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Dee ozi Nzuzo gị, paswọọdụ ma ọ bụ ozi dị mkpa *",
+      "SHARE_OPTIONS": "Nhọrọ",
+      
+      "SHARE_EMPTY": "Hapụ efu maka nke ọ bụla.",
+      "SHARE_BUTTON": "Mepụta Njikọ Nzuzo",
+      
+      "CREATED_TITLE": "Ozi Nzuzo gị emere",
+      "CREATED_SUBTITLE": "A ga-egosi ya naanị otu oge",
+      
+      "CREATED_TITLE_SHARE": "Detuo njikọ ma ọ bụ kekọrịta ya.",
+      "CREATED_BUTTON": "DETOO",
+      "CREATED_CREATE_SECRET": "Mepụta Nzuzo ọhụrụ",
+      "CREATED_BURNSECRET": "Tụpụ Nzuzo",
+      "URL_COPIED": "URL ahụ e deturu.",
+      "SHARE_BURNER_TIME": "Ọdịnihu",
+      "SHARE_PASS_PHRASE": "Okwu nzuzo",
+      "VIEW_SECRET": "Lee Nzuzo"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Nkọwa Mma",
+      "HOW_IT_WORKS": "Olee otú ọ na-arụ ọrụ",
+      "DOWNLOAD_APP": "Budata ngwa",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Ozi Ozi Otu Oge",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Kekọrịta ozi, na poof—ha na-apụ!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Edebere, echebe ma zere site na Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Nzuzo Stellar na-enye gị ohere ịkekọrịta njikọ nwere ike ịhụ otu oge yana ọdịnaya nwere mmetụta na njikọ nzuzo, nke naanị gị maara, yana onye nnata maara. Ụzọ ya kacha mma, idobe ozi dị nro na ngwa ozi-ngwa ọ bụla.",
+
+      "WITHOUT_TRACE_TITLE": "Na-enweghị mkpụrụ",
+      "WITHOUT_TRACE_DESCRIPTION": "Anyị na-eme ka nchekwa siri ike nke ozi gị. A na-encrypt data niile na ndị na-ahụ anya. Anyị amaghị adreesị IP gị, ihe ị na-ekekọrịta, ma ọ bụ onye ị na-ekekọrịta njikọ nzuzo ahụ - na nke kachasị mkpa, ọdịnaya ahụ.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Nzuzo Echebe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ị bụ naanị onye maara njikọ nke ozi nzuzo ị mepụtara na onye ị na-ekekọrịta ya na ya. Mgbe ị na-eme ihe nzuzo, ị nwere ike ịtinye paswọọdụ tupu enwere ike imeghe ya. Ọzọkwa, enwere ike ịtọ oge ọkụ. Ma ihe ọ bụla, ozi nzuzo ga-ehichapụ mgbe ụbọchị 14 gachara.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Njikọ niile na ọdịnaya bụ hashed na ndị na-ahụ anya, nke pụtara na anyị amaghị njikọ ahụ na ọdịnaya ahụ. Njikọ ọ bụla nwere ID pụrụ iche nke ogologo nke 36 nke bụ ịchekwa na-arụ ọrụ iji nweta Ozi Nzuzo na ọdịnaya ya nke na-eji AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Olee otú ọ na-arụ ọrụ?",
+      "STEP_1_TITLE": "Dee ozi gị ma ọ bụ mepụta paswọọdụ",
+      "STEP_2_TITLE": "Mepụta Njikọ Nzuzo",
+      "STEP_3_TITLE": "Kekọrịta njikọ",
+      
+      "COMPANY_LOGO_ALT": "Logo Ụlọ Ọrụ",
+      
+      "SHARE_TITLE": "Kekọrịta ozi nzuzo",
+      "SHARE_DESCRIPTION_PART_1": "Dee ma zipu ozi, a ga-eme ya",
+      "SHARE_DESCRIPTION_PART_2": "ehichapụ mgbe a gụsịrị.",
+      
+      "SHARE_BULLET_1": "Na-enweghị mkpụrụ.",
+      "SHARE_BULLET_2": "Nzuzo Echebe",
+      "SHARE_BULLET_3": "Otu oge na-ahụ anya",
+      
+      "SHARE_ENCRYPTED_BY": "Edebere, echebe ma zere site na Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Dee ozi Nzuzo gị, paswọọdụ ma ọ bụ ozi dị mkpa *",
+      "SHARE_OPTIONS": "Nhọrọ",
+      
+      "SHARE_EMPTY": "Hapụ efu maka nke ọ bụla.",
+      "SHARE_BUTTON": "Mepụta Njikọ Nzuzo",
+      
+      "CREATED_TITLE": "Ozi Nzuzo gị emere",
+      "CREATED_SUBTITLE": "A ga-egosi ya naanị otu oge",
+      
+      "CREATED_TITLE_SHARE": "Detuo njikọ ma ọ bụ kekọrịta ya.",
+      "CREATED_BUTTON": "DETOO",
+      "CREATED_CREATE_SECRET": "Mepụta Nzuzo ọhụrụ",
+      "CREATED_BURNSECRET": "Tụpụ Nzuzo",
+      "URL_COPIED": "URL ahụ e deturu.",
+      
+      "VIEW_SECRET": "Lee Nzuzo"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Nkọwa Mma",
+      "HOW_IT_WORKS": "Olee otú ọ na-arụ ọrụ",
+      "DOWNLOAD_APP": "Budata ngwa",
+      "CREATED_TITLE": "Ozi Nzuzo gị emere",
+      "CREATED_SUBTITLE": "A ga-egosi ya naanị otu oge",
+      "CREATED_TITLE_SHARE": "Detuo njikọ ma ọ bụ kekọrịta ya.",
+      "CREATED_BUTTON": "DETOO",
+      "CREATED_CREATE_SECRET": "Mepụta Nzuzo ọhụrụ",
+      "CREATED_BURNSECRET": "Tụpụ Nzuzo",
+      "URL_COPIED": "URL ahụ e deturu."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Ị ga-ehichapụ ozi nzuzo a",
+      "SECRET_UNAVAILABLE_TEXT": "A gaghị enwe ya ọzọ",
+      "BURN_FOREVER": "Tụpụ Ndụmọdụ",
+      "CANCEL": "Kwụsị"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Nkọwa Mma",
+      "HOW_IT_WORKS": "Olee otú ọ na-arụ ọrụ",
+      "DOWNLOAD_APP": "Budata ngwa",
+      "WELCOME_MESSAGE": "Ndewo, ị natara ozi nzuzo!",
+      "INSTRUCTION": "Dee ma zipu ozi, a ga-eme ya",
+      "SHOW_MESSAGE_ONCE": "Ozi ndị a ga-egosi otu oge naanị",
+      "OPEN_SECRET_MESSAGE": "Meghee Ozi Nzuzo",
+      "INPUT_PASSPHRASE": "Tinye Okwu Nzuzo",
+      "PASS_PHRASE_PLACEHOLDER": "Okwu nzuzo",
+      "OPEN_SECRET_BUTTON": "Meghee Ozi Nzuzo",
+      "YOUR_SECRET_MESSAGE": "Ozi Nzuzo Gị",
+      "COPY": "Detuo",
+      "MESSAGE_LABEL": "Ozi",
+      "REPLY": "Zaa",
+      "DOWNLOAD_MESSAGE": "Budata Stellar Secret na mobile, mepụta ozi nzuzo gị",
+      "WITHOUT_TRACE": "Na-enweghị mkpụrụ.",
+      "PRIVACY_PROTECTED": "Nzuzo Echebe",
+      "ONE_TIME_VIEWABLE": "Otu oge na-ahụ anya",
+      "SECURITY_TEXT": "Edebere, echebe ma zere site na ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

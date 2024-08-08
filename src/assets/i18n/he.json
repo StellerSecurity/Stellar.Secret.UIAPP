@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "סוד כוכב",
+      "HOW_IT_WORKS": "איך זה עובד",
+      "DOWNLOAD_APP": "הורד אפליקציה",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "הודעות סודיות חד-פעמיות",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "שתף סודות, וחפץ—הם נעלמים!",
+      
+      "ENCRYPTED_PROTECTED_BY": "מוצפן, מאובטח ומוגן על ידי אבטחת כוכב",
+      "WITHOUT_TRACE_TITLE": "ללא עקבות",
+      "WITHOUT_TRACE_DESCRIPTION": "אנו מבטיחים הגנה חזקה על המידע הרגיש שלך. כל הנתונים מוצפנים בצד הלקוח. איננו יודעים את כתובת ה-IP שלך, מה אתה משתף, או עם מי אתה משתף את הקישורים הסודיים - ויותר חשוב, את התוכן.",
+      
+      "PRIVACY_PROTECTED_TITLE": "הגנה על פרטיות",
+      "PRIVACY_PROTECTED_DESCRIPTION": "רק אתה יודע את הקישור למידע הסודי שיצרת ועם מי אתה משתף אותו. כשאתה יוצר סוד, תוכל להוסיף סיסמה לפני שניתן יהיה לפתוח אותו. אפשר גם לקבוע זמן מחיקה. לא משנה מה, סוד יימחק לאחר 14 ימים.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "מוצפן מקצה לקצה",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "כל הקישורים והתוכן מחושבים בצד הלקוח, כלומר גם אנו לא יודעים את הקישור ואת התוכן. לכל קישור יש מזהה ייחודי באורך של 36 שהוא הצפנה חד-כיוונית כדי לגשת להודעת הסוד ולתוכן שלה שמוצפן עם AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "איך זה עובד?",
+      "STEP_1_TITLE": "כתוב את ההודעה שלך ו/או יצור סיסמה",
+      "STEP_2_TITLE": "צור קישור סודי",
+      "STEP_3_TITLE": "שתף את הקישור",
+      
+      "COMPANY_LOGO_ALT": "לוגו החברה",
+      
+      "SHARE_TITLE": "שתף הודעה סודית",
+      "SHARE_DESCRIPTION_PART_1": "כתוב ושלח הודעה, היא תימחק",
+      "SHARE_DESCRIPTION_PART_2": "לאחר הקריאה.",
+      
+      "SHARE_BULLET_1": "ללא עקבות.",
+      "SHARE_BULLET_2": "הגנה על פרטיות",
+      "SHARE_BULLET_3": "נראה חד-פעמי",
+      
+      "SHARE_ENCRYPTED_BY": "מוצפן, מאובטח ומוגן על ידי אבטחת כוכב",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "כתוב את ההודעה הסודית שלך, סיסמה או מידע רגיש *",
+      "SHARE_OPTIONS": "אפשרויות",
+      
+      "SHARE_EMPTY": "השאר ריק עבור ללא",
+      "SHARE_BUTTON": "צור קישור סודי",
+      
+      "CREATED_TITLE": "הסוד שלך נוצר",
+      "CREATED_SUBTITLE": "הוא יופיע רק פעם אחת",
+      
+      "CREATED_TITLE_SHARE": "העתק קישור או שתף אותו.",
+      "CREATED_BUTTON": "העתק",
+      "CREATED_CREATE_SECRET": "צור סוד חדש",
+      "CREATED_BURNSECRET": "השמד סוד",
+      "URL_COPIED": "הכתובת הועתקה.",
+      "SHARE_BURNER_TIME":"אורך חיים",
+      "SHARE_PASS_PHRASE":"מילת סיסמה",
+      "VIEW_SECRET": "צפה בסוד"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "סוד כוכב",
+      "HOW_IT_WORKS": "איך זה עובד",
+      "DOWNLOAD_APP": "הורד אפליקציה",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "הודעות סודיות חד-פעמיות",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "שתף סודות, וחפץ—הם נעלמים!",
+      
+      "ENCRYPTED_PROTECTED_BY": "מוצפן, מאובטח ומוגן על ידי אבטחת כוכב",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret מאפשר לך לשתף קישורים ניתנים לצפייה חד-פעמית עם תוכן רגיש בקישור סודי, שרק אתה מכיר, והמקלט יודע. זו הדרך הטובה ביותר להרחיק מידע רגיש מכל אפליקציות מסנג'ר.",
+
+      "WITHOUT_TRACE_TITLE": "ללא עקבות",
+      "WITHOUT_TRACE_DESCRIPTION": "אנו מבטיחים הגנה חזקה על המידע הרגיש שלך. כל הנתונים מוצפנים בצד הלקוח. איננו יודעים את כתובת ה-IP שלך, מה אתה משתף, או עם מי אתה משתף את הקישורים הסודיים - ויותר חשוב, את התוכן.",
+      
+      "PRIVACY_PROTECTED_TITLE": "הגנה על פרטיות",
+      "PRIVACY_PROTECTED_DESCRIPTION": "רק אתה יודע את הקישור למידע הסודי שיצרת ועם מי אתה משתף אותו. כשאתה יוצר סוד, תוכל להוסיף סיסמה לפני שניתן יהיה לפתוח אותו. אפשר גם לקבוע זמן מחיקה. לא משנה מה, סוד יימחק לאחר 14 ימים.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "מוצפן מקצה לקצה",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "כל הקישורים והתוכן מחושבים בצד הלקוח, כלומר גם אנו לא יודעים את הקישור ואת התוכן. לכל קישור יש מזהה ייחודי באורך של 36 שהוא הצפנה חד-כיוונית כדי לגשת להודעת הסוד ולתוכן שלה שמוצפן עם AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "איך זה עובד?",
+      "STEP_1_TITLE": "כתוב את ההודעה שלך ו/או יצור סיסמה",
+      "STEP_2_TITLE": "צור קישור סודי",
+      "STEP_3_TITLE": "שתף את הקישור",
+      
+      "COMPANY_LOGO_ALT": "לוגו החברה",
+      
+      "SHARE_TITLE": "שתף הודעה סודית",
+      "SHARE_DESCRIPTION_PART_1": "כתוב ושלח הודעה, היא תימחק",
+      "SHARE_DESCRIPTION_PART_2": "לאחר הקריאה.",
+      
+      "SHARE_BULLET_1": "ללא עקבות.",
+      "SHARE_BULLET_2": "הגנה על פרטיות",
+      "SHARE_BULLET_3": "נראה חד-פעמי",
+      
+      "SHARE_ENCRYPTED_BY": "מוצפן, מאובטח ומוגן על ידי אבטחת כוכב",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "כתוב את ההודעה הסודית שלך, סיסמה או מידע רגיש *",
+      "SHARE_OPTIONS": "אפשרויות",
+      
+      "SHARE_EMPTY": "השאר ריק עבור ללא",
+      "SHARE_BUTTON": "צור קישור סודי",
+      
+      "CREATED_TITLE": "הסוד שלך נוצר",
+      "CREATED_SUBTITLE": "הוא יופיע רק פעם אחת",
+      
+      "CREATED_TITLE_SHARE": "העתק קישור או שתף אותו.",
+      "CREATED_BUTTON": "העתק",
+      "CREATED_CREATE_SECRET": "צור סוד חדש",
+      "CREATED_BURNSECRET": "השמד סוד",
+      "URL_COPIED": "הכתובת הועתקה.",
+      
+      "VIEW_SECRET": "צפה בסוד"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "סוד כוכב",
+      "HOW_IT_WORKS": "איך זה עובד",
+      "DOWNLOAD_APP": "הורד אפליקציה",
+      "CREATED_TITLE": "הסוד שלך נוצר",
+      "CREATED_SUBTITLE": "הוא יופיע רק פעם אחת",
+      "CREATED_TITLE_SHARE": "העתק קישור או שתף אותו.",
+      "CREATED_BUTTON": "העתק",
+      "CREATED_CREATE_SECRET": "צור סוד חדש",
+      "CREATED_BURNSECRET": "השמד סוד",
+      "URL_COPIED": "הכתובת הועתקה."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "אתה הולך להשמיד את הסוד הזה",
+      "SECRET_UNAVAILABLE_TEXT": "הוא לא יהיה זמין יותר",
+      "BURN_FOREVER": "השמד לצמיתות",
+      "CANCEL": "ביטול"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "סוד כוכב",
+      "HOW_IT_WORKS": "איך זה עובד",
+      "DOWNLOAD_APP": "הורד אפליקציה",
+      "WELCOME_MESSAGE": "שלום, קיבלת הודעה סודית!",
+      "INSTRUCTION": "כתוב ושלח הודעה, היא תימחק לאחר הקריאה.",
+      "SHOW_MESSAGE_ONCE": "ההודעה הבאה תוצג רק פעם אחת",
+      "OPEN_SECRET_MESSAGE": "פתח את ההודעה הסודית",
+      "INPUT_PASSPHRASE": "הזן סיסמה",
+      "PASS_PHRASE_PLACEHOLDER": "סיסמה",
+      "OPEN_SECRET_BUTTON": "פתח את ההודעה הסודית",
+      "YOUR_SECRET_MESSAGE": "ההודעה הסודית שלך",
+      "COPY": "העתק",
+      "MESSAGE_LABEL": "הודעה",
+      "REPLY": "ענה",
+      "DOWNLOAD_MESSAGE": "הורד את סוד כוכב לנייד, צור את ההודעות הסודיות שלך",
+      "WITHOUT_TRACE": "ללא עקבות.",
+      "PRIVACY_PROTECTED": "הגנה על פרטיות",
+      "ONE_TIME_VIEWABLE": "נראה חד-פעמי",
+      "SECURITY_TEXT": "מוצפן, מאובטח ומוגן על ידי ",
+      "SECURITY_TEXT2": "אבטחת כוכב"
+    }
+  }
+  

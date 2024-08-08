@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Ekitibwa ky'ekibanja",
+      "HOW_IT_WORKS": "Ekitibwa ky'ekibanja",
+      "DOWNLOAD_APP": "Dha App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Okukozesa ebyokulabirako bumu",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gabasenga, era bwebinakoma!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ekitibwa, okwefuga, n'okulwanyisa eby'enfuna obutalina ku by'okulonda ky'ekibanja",
+      "WITHOUT_TRACE_TITLE": "Waliwo kitabe",
+      "WITHOUT_TRACE_DESCRIPTION": "Tukirindaamu ku buno obutafuna kubisinga eby'enfuna. Byonna birina okwekebejebwa ku mukutu. Tetukimanyi ku IP yawe, kye wogedde, oba kiki ky'oguddewo - era ekikulu, eby'okulonda.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ekitibwa kisobola",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ono ye asinga okutegeera ekiteeso ku nkola ya tekinologiya gyo ne bye y'osanga. Bw'otandika ekiteeso, osobola okuteekamu ekiteeso omukutu osinga okuggyeko. Era ky'osobola okukozesa ekiseera ky'enkola. Noolwekyo, ekiteeso kityo kimala okuva mu nnaku 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Ekitibwa okuva mu nkomerero",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Eby'olugambo n'ebikozesebwa byonna byakaddibwako ku mukutu, nga totulina kitukiririza mu link n'ebikozesebwa. Buli link erina ID ey'enjawulo ya 36 ey'ekikozesebwa okubala okutegeeza Ekiteeso n'ebikozesebwa ebyakaddibwako na AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Ekitibwa ky'ekibanja?",
+      "STEP_1_TITLE": "Yandikamu ekiteeso n'osobola okukozesa ekiseera",
+      "STEP_2_TITLE": "Tandika Link y'ekiteeso",
+      "STEP_3_TITLE": "Sangira link",
+      
+      "COMPANY_LOGO_ALT": "Ekitibwa ky'ekibanja",
+      
+      "SHARE_TITLE": "Sangira ekiteeso ky'ekibanja",
+      "SHARE_DESCRIPTION_PART_1": "Yandikamu n'osangamu ekiteeso, kijja kuba",
+      "SHARE_DESCRIPTION_PART_2": "kijjanjaba nga bwe kiva.",
+      
+      "SHARE_BULLET_1": "Waliwo kitabe.",
+      "SHARE_BULLET_2": "Ekitibwa kisobola",
+      "SHARE_BULLET_3": "Ekiteeso ky'okukozesa kimu",
+      
+      "SHARE_ENCRYPTED_BY": "Ekitibwa, okwefuga, n'okulwanyisa eby'enfuna obutalina ku by'okulonda ky'ekibanja",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Yandikamu ekiteeso ky'ekibanja, ekiteeso, oba eby'enfuna *",
+      "SHARE_OPTIONS": "Ekitibwa",
+      
+      "SHARE_EMPTY": "Waliwo kitabe.",
+      "SHARE_BUTTON": "Tandika Link y'ekiteeso",
+      
+      "CREATED_TITLE": "Ekiteeso kyo kityo kitatandikiddwa",
+      "CREATED_SUBTITLE": "Kijja kuba kimu",
+      
+      "CREATED_TITLE_SHARE": "Koppa link oba osangire.",
+      "CREATED_BUTTON": "KOPPA",
+      "CREATED_CREATE_SECRET": "Tandika Ekiteeso Ekitongole",
+      "CREATED_BURNSECRET": "Zikiza Ekiteeso",
+      "URL_COPIED": "URL ekopeddwa.",
+      "SHARE_BURNER_TIME":"Obutale",
+      "SHARE_PASS_PHRASE":"Ekiteeso",
+      "VIEW_SECRET": "Laba Ekiteeso"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Ekitibwa ky'ekibanja",
+      "HOW_IT_WORKS": "Ekitibwa ky'ekibanja",
+      "DOWNLOAD_APP": "Dha App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Okukozesa ebyokulabirako bumu",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gabasenga, era bwebinakoma!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ekitibwa, okwefuga, n'okulwanyisa eby'enfuna obutalina ku by'okulonda ky'ekibanja",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret ekusobozesa okugabana enkolagana ezirabibwa omulundi gumu n’ebintu ebikulu mu nkolagana ey’ekyama, ggwe wekka gy’omanyi, era oyo afuna y’amanyi. Its the best way, okukuuma amawulire amakulu okuva mu messenger-apps zonna.",
+
+      "WITHOUT_TRACE_TITLE": "Waliwo kitabe",
+      "WITHOUT_TRACE_DESCRIPTION": "Tukirindaamu ku buno obutafuna kubisinga eby'enfuna. Byonna birina okwekebejebwa ku mukutu. Tetukimanyi ku IP yawe, kye wogedde, oba kiki ky'oguddewo - era ekikulu, eby'okulonda.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Ekitibwa kisobola",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Ono ye asinga okutegeera ekiteeso ku nkola ya tekinologiya gyo ne bye y'osanga. Bw'otandika ekiteeso, osobola okuteekamu ekiteeso omukutu osinga okuggyeko. Era ky'osobola okukozesa ekiseera ky'enkola. Noolwekyo, ekiteeso kityo kimala okuva mu nnaku 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Ekitibwa okuva mu nkomerero",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Eby'olugambo n'ebikozesebwa byonna byakaddibwako ku mukutu, nga totulina kitukiririza mu link n'ebikozesebwa. Buli link erina ID ey'enjawulo ya 36 ey'ekikozesebwa okubala okutegeeza Ekiteeso n'ebikozesebwa ebyakaddibwako na AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Ekitibwa ky'ekibanja?",
+      "STEP_1_TITLE": "Yandikamu ekiteeso n'osobola okukozesa ekiseera",
+      "STEP_2_TITLE": "Tandika Link y'ekiteeso",
+      "STEP_3_TITLE": "Sangira link",
+      
+      "COMPANY_LOGO_ALT": "Ekitibwa ky'ekibanja",
+      
+      "SHARE_TITLE": "Sangira ekiteeso ky'ekibanja",
+      "SHARE_DESCRIPTION_PART_1": "Yandikamu n'osangamu ekiteeso, kijja kuba",
+      "SHARE_DESCRIPTION_PART_2": "kijjanjaba nga bwe kiva.",
+      
+      "SHARE_BULLET_1": "Waliwo kitabe.",
+      "SHARE_BULLET_2": "Ekitibwa kisobola",
+      "SHARE_BULLET_3": "Ekiteeso ky'okukozesa kimu",
+      
+      "SHARE_ENCRYPTED_BY": "Ekitibwa, okwefuga, n'okulwanyisa eby'enfuna obutalina ku by'okulonda ky'ekibanja",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Yandikamu ekiteeso ky'ekibanja, ekiteeso, oba eby'enfuna *",
+      "SHARE_OPTIONS": "Ekitibwa",
+      
+      "SHARE_EMPTY": "Waliwo kitabe.",
+      "SHARE_BUTTON": "Tandika Link y'ekiteeso",
+      
+      "CREATED_TITLE": "Ekiteeso kyo kityo kitatandikiddwa",
+      "CREATED_SUBTITLE": "Kijja kuba kimu",
+      
+      "CREATED_TITLE_SHARE": "Koppa link oba osangire.",
+      "CREATED_BUTTON": "KOPPA",
+      "CREATED_CREATE_SECRET": "Tandika Ekiteeso Ekitongole",
+      "CREATED_BURNSECRET": "Zikiza Ekiteeso",
+      "URL_COPIED": "URL ekopeddwa.",
+      
+      "VIEW_SECRET": "Laba Ekiteeso"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Ekitibwa ky'ekibanja",
+      "HOW_IT_WORKS": "Ekitibwa ky'ekibanja",
+      "DOWNLOAD_APP": "Dha App",
+      "CREATED_TITLE": "Ekiteeso kyo kityo kitatandikiddwa",
+      "CREATED_SUBTITLE": "Kijja kuba kimu",
+      "CREATED_TITLE_SHARE": "Koppa link oba osangire.",
+      "CREATED_BUTTON": "KOPPA",
+      "CREATED_CREATE_SECRET": "Tandika Ekiteeso Ekitongole",
+      "CREATED_BURNSECRET": "Zikiza Ekiteeso",
+      "URL_COPIED": "URL ekopeddwa."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Ono gy'ogenda kugikozesa",
+      "SECRET_UNAVAILABLE_TEXT": "Kijja kuba kitabe",
+      "BURN_FOREVER": "Zikiza Obutale",
+      "CANCEL": "Kansala"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Ekitibwa ky'ekibanja",
+      "HOW_IT_WORKS": "Ekitibwa ky'ekibanja",
+      "DOWNLOAD_APP": "Dha App",
+      "WELCOME_MESSAGE": "Gyebale ko, osanga ekiteeso ky'ekibanja!",
+      "INSTRUCTION": "Yandikamu n'osangamu ekiteeso, kijja kuba kimu.",
+      "SHOW_MESSAGE_ONCE": "Ekiteeso ky'ekibanja kijja kuba kimu kyokka",
+      "OPEN_SECRET_MESSAGE": "Fungula Ekiteeso ky'ekibanja",
+      "INPUT_PASSPHRASE": "Londawo Ekiteeso",
+      "PASS_PHRASE_PLACEHOLDER": "Ekiteeso",
+      "OPEN_SECRET_BUTTON": "Fungula Ekiteeso ky'ekibanja",
+      "YOUR_SECRET_MESSAGE": "Ekiteeso ky'ekibanja",
+      "COPY": "Koppa",
+      "MESSAGE_LABEL": "Ekitibwa",
+      "REPLY": "Jjukira",
+      "DOWNLOAD_MESSAGE": "Dha Stellar Secret ku mobile, tandika ekiteeso ky'ekibanja",
+      "WITHOUT_TRACE": "Waliwo kitabe.",
+      "PRIVACY_PROTECTED": "Ekitibwa kisobola",
+      "ONE_TIME_VIEWABLE": "Ekiteeso ky'okukozesa kimu",
+      "SECURITY_TEXT": "Ekitibwa, okwefuga, n'okulwanyisa eby'enfuna obutalina ku ",
+      "SECURITY_TEXT2": "Ekitibwa ky'ekibanja"
+    }
+  }
+  

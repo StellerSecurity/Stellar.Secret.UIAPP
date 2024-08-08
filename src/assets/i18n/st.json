@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Tse Ling Joang",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Mesebetsi ea Sekhahla se le 'ngoe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Arola mehlolo, 'me poof—e tlosoa!",
+      
+      "ENCRYPTED_PROTECTED_BY": "E bolokiloeng, e sirelelitsoe le Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Ha ho na matsapa",
+      "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tsireletso e tiileng ea boitsebahatso ba hau bo sa bonahaleng. Tlhahisoleseding eohle e patoa ka lehlakoreng la moreki. Ha re tsebe aterese ea IP, seo o se arolang, kapa le mehlolo eo o e arolang le bona - le ho bohlokoa, litaba.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Boitsebahatso bo sirelelitsoe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "O le mong feela ea tsebang sehokelo sa ts'ireletso seo u se thehang le bao u ba arolang le bona. Ha u etsa sekhahla, u ka eketsa phasefo pele e ka buleha. Hape ho ka etsoa hore nako ea poof e be. Le fa e le efe, sekhahla se tla hlakoloa ka mor'a matsatsi a 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end e patiloeng",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Link le litaba tsohle li hashed ka lehlakoreng la moreki, ho bolelang hore le rona ha re tsebe sehokelo le litaba. Link e 'ngoe le e' ngoe e na le ID e ikhethang ea bolelele ba 36 e le e le letho e le ho khona ho fumana Mesebetsi ea Sekhahla le litaba tse patiloeng ka AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Tse Ling Joang?",
+      "STEP_1_TITLE": "Ngola molaetsa oa hau le/ kapa theha phasefo",
+      "STEP_2_TITLE": "Theha Link ea Sekhahla",
+      "STEP_3_TITLE": "Arola link",
+      
+      "COMPANY_LOGO_ALT": "Logo ea Khamphani",
+      
+      "SHARE_TITLE": "Arola molaetsa oa sekhahla",
+      "SHARE_DESCRIPTION_PART_1": "Ngola le ho romella molaetsa, e tla",
+      "SHARE_DESCRIPTION_PART_2": "hlakoloa ha e se e baloa.",
+      
+      "SHARE_BULLET_1": "Ha ho na matsapa.",
+      "SHARE_BULLET_2": "Boitsebahatso bo sirelelitsoe",
+      "SHARE_BULLET_3": "E ka baloa nako e le 'ngoe",
+      
+      "SHARE_ENCRYPTED_BY": "E patiloeng, e sirelelitsoe le Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ngola molaetsa oa Sekhahla, phasefo kapa boitsebahatso bo amanang *",
+      "SHARE_OPTIONS": "Lethathamo",
+      
+      "SHARE_EMPTY": "Tlohela e sa na letho.",
+      "SHARE_BUTTON": "Theha Link ea Sekhahla",
+      
+      "CREATED_TITLE": "Sekhahla sa hau se thehiloe",
+      "CREATED_SUBTITLE": "Se tla bontšoa hang feela",
+      
+      "CREATED_TITLE_SHARE": "Ekopi link kapa arola.",
+      "CREATED_BUTTON": "EKOPI",
+      "CREATED_CREATE_SECRET": "Theha Sekhahla se Secha",
+      "CREATED_BURNSECRET": "Tosa Sekhahla",
+      "URL_COPIED": "URL e ekopiloe.",
+      "SHARE_BURNER_TIME":"Nako e ehlile",
+      "SHARE_PASS_PHRASE":"Phasefo",
+      "VIEW_SECRET": "Bontša Sekhahla"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Tse Ling Joang",
+      "DOWNLOAD_APP": "Download App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Mesebetsi ea Sekhahla se le 'ngoe",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Arola mehlolo, 'me poof—e tlosoa!",
+      
+      "ENCRYPTED_PROTECTED_BY": "E bolokiloeng, e sirelelitsoe le Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret e u fa monyetla oa ho arolelana likhokahano tse ka bonwang hang feela tse nang le litaba tse amanang le borai tseo u tsebang tsona feela le moamogedi. Ke tsela e molemo ka ho fetisisa ea ho boloka ts'ebetso ea borai hole le mekgwa e meng ea molaetsa.",
+
+      "WITHOUT_TRACE_TITLE": "Ha ho na matsapa",
+      "WITHOUT_TRACE_DESCRIPTION": "Re netefatsa tsireletso e tiileng ea boitsebahatso ba hau bo sa bonahaleng. Tlhahisoleseding eohle e patoa ka lehlakoreng la moreki. Ha re tsebe aterese ea IP, seo o se arolang, kapa le mehlolo eo o e arolang le bona - le ho bohlokoa, litaba.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Boitsebahatso bo sirelelitsoe",
+      "PRIVACY_PROTECTED_DESCRIPTION": "O le mong feela ea tsebang sehokelo sa ts'ireletso seo u se thehang le bao u ba arolang le bona. Ha u etsa sekhahla, u ka eketsa phasefo pele e ka buleha. Hape ho ka etsoa hore nako ea poof e be. Le fa e le efe, sekhahla se tla hlakoloa ka mor'a matsatsi a 14.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end e patiloeng",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Link le litaba tsohle li hashed ka lehlakoreng la moreki, ho bolelang hore le rona ha re tsebe sehokelo le litaba. Link e 'ngoe le e' ngoe e na le ID e ikhethang ea bolelele ba 36 e le e le letho e le ho khona ho fumana Mesebetsi ea Sekhahla le litaba tse patiloeng ka AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Tse Ling Joang?",
+      "STEP_1_TITLE": "Ngola molaetsa oa hau le/ kapa theha phasefo",
+      "STEP_2_TITLE": "Theha Link ea Sekhahla",
+      "STEP_3_TITLE": "Arola link",
+      
+      "COMPANY_LOGO_ALT": "Logo ea Khamphani",
+      
+      "SHARE_TITLE": "Arola molaetsa oa sekhahla",
+      "SHARE_DESCRIPTION_PART_1": "Ngola le ho romella molaetsa, e tla",
+      "SHARE_DESCRIPTION_PART_2": "hlakoloa ha e se e baloa.",
+      
+      "SHARE_BULLET_1": "Ha ho na matsapa.",
+      "SHARE_BULLET_2": "Boitsebahatso bo sirelelitsoe",
+      "SHARE_BULLET_3": "E ka baloa nako e le 'ngoe",
+      
+      "SHARE_ENCRYPTED_BY": "E patiloeng, e sirelelitsoe le Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ngola molaetsa oa Sekhahla, phasefo kapa boitsebahatso bo amanang *",
+      "SHARE_OPTIONS": "Lethathamo",
+      
+      "SHARE_EMPTY": "Tlohela e sa na letho.",
+      "SHARE_BUTTON": "Theha Link ea Sekhahla",
+      
+      "CREATED_TITLE": "Sekhahla sa hau se thehiloe",
+      "CREATED_SUBTITLE": "Se tla bontšoa hang feela",
+      
+      "CREATED_TITLE_SHARE": "Ekopi link kapa arola.",
+      "CREATED_BUTTON": "EKOPI",
+      "CREATED_CREATE_SECRET": "Theha Sekhahla se Secha",
+      "CREATED_BURNSECRET": "Tosa Sekhahla",
+      "URL_COPIED": "URL e ekopiloe.",
+      
+      "VIEW_SECRET": "Bontša Sekhahla"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Tse Ling Joang",
+      "DOWNLOAD_APP": "Download App",
+      "CREATED_TITLE": "Sekhahla sa hau se thehiloe",
+      "CREATED_SUBTITLE": "Se tla bontšoa hang feela",
+      "CREATED_TITLE_SHARE": "Ekopi link kapa arola.",
+      "CREATED_BUTTON": "EKOPI",
+      "CREATED_CREATE_SECRET": "Theha Sekhahla se Secha",
+      "CREATED_BURNSECRET": "Tosa Sekhahla",
+      "URL_COPIED": "URL e ekopiloe."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "U tla tosa sekhahla sena",
+      "SECRET_UNAVAILABLE_TEXT": "Se ke ke sa fumaneha hape",
+      "BURN_FOREVER": "Tosa Ka Nako e sa Feleng",
+      "CANCEL": "Hana"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Tse Ling Joang",
+      "DOWNLOAD_APP": "Download App",
+      "WELCOME_MESSAGE": "Lumela, u amohetse molaetsa oa sekhahla!",
+      "INSTRUCTION": "Ngola le ho romella molaetsa, e tla hlakoloa ha e se e baloa.",
+      "SHOW_MESSAGE_ONCE": "Molaetsa o latelang o tla bontšoa hang feela",
+      "OPEN_SECRET_MESSAGE": "Bulela Molaetsa oa Sekhahla",
+      "INPUT_PASSPHRASE": "Kenya Phasefo",
+      "PASS_PHRASE_PLACEHOLDER": "Phasefo",
+      "OPEN_SECRET_BUTTON": "Bulela Molaetsa oa Sekhahla",
+      "YOUR_SECRET_MESSAGE": "Molaetsa oa Hao oa Sekhahla",
+      "COPY": "Ekopi",
+      "MESSAGE_LABEL": "Molaetsa",
+      "REPLY": "Araba",
+      "DOWNLOAD_MESSAGE": "Download Stellar Secret mohapheto, theha mehlolo ea hau ea sekhahla",
+      "WITHOUT_TRACE": "Ha ho na matsapa.",
+      "PRIVACY_PROTECTED": "Boitsebahatso bo sirelelitsoe",
+      "ONE_TIME_VIEWABLE": "E ka baloa nako e le 'ngoe",
+      "SECURITY_TEXT": "E patiloeng, e sirelelitsoe le ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

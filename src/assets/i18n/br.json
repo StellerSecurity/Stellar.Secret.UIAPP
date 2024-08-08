@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Penaos e labour",
+      "DOWNLOAD_APP": "Distro ar Raktres",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Kaozeadennoù Dikenkinet",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Lakaat ar sekredoù, ha poof—zeo peogwir 'zo !",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dibabet, diwallet hag ampart gant Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Hag ur skeudenn",
+      "WITHOUT_TRACE_DESCRIPTION": "Gwelet hon eus ur surentez kreñv evit ho titl. Tostit ho data a zo enskrivet war ar c'hleient. N'eus ket a gompren ho IP, petra ho kinnig, pe piv a zo o vezañ desket ar sekredoù - hag ar gwellañ, ar content.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Huchet o privadurezh",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Hiziv e resis an linenn da ar sekred titl hag piv oc'h o c'hinnig. Pa greatez ur sekred, e c'hallit ouzhpennañ ur ger-keloù a-raok ober an diskouez. Gant ur 'burner-time' ivez. Evel-se, e vo kaset ar sekred dindan 14 devezh.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Enskrivet e-kichen d'an end",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Ar links hag ar contennoù a zo hashed war ar c'hleient, setu ma ne c'hallomp ket kompren ar link ha ar contennoù. Pep link a zo ur ID unik 36 hag a zo ur enskrivadur un-way evit gallout gwelet ar Sekred Keloù ha ar contennoù enskrivet gant AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Penaos e labour?",
+      "STEP_1_TITLE": "Skrivit ho keloù hag/pe gegin ur ger-keloù",
+      "STEP_2_TITLE": "Krouiñ ur Link Sekred",
+      "STEP_3_TITLE": "Kinnig ar link",
+      
+      "COMPANY_LOGO_ALT": "Logo ar C'hempañs",
+      
+      "SHARE_TITLE": "Kinnig ur mesk",
+      "SHARE_DESCRIPTION_PART_1": "Skrivit hag kasit ar mesk, e vo",
+      "SHARE_DESCRIPTION_PART_2": "kastet pa vo lennet.",
+      
+      "SHARE_BULLET_1": "Hag ur skeudenn.",
+      "SHARE_BULLET_2": "Huchet o privadurezh",
+      "SHARE_BULLET_3": "Un den-diviz.",
+      
+      "SHARE_ENCRYPTED_BY": "Dibabet, diwallet hag ampart gant Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skrivit ho mesk sekred, ur ger-keloù pe titl-keloù*",
+      "SHARE_OPTIONS": "Dre-se",
+      
+      "SHARE_EMPTY": "Lez ar mech koad evit netra.",
+      "SHARE_BUTTON": "Krouiñ Link Sekred",
+      
+      "CREATED_TITLE": "Ho Sekred a zo krouet",
+      "CREATED_SUBTITLE": "E vo diskouezet ur wech hepken",
+      
+      "CREATED_TITLE_SHARE": "Kopiez ar link pe kinnigit anezhañ.",
+      "CREATED_BUTTON": "KOPIEZ",
+      "CREATED_CREATE_SECRET": "Krouiñ Sekred nevez",
+      "CREATED_BURNSECRET": "Kas ar Sekred",
+      "URL_COPIED": "Ar URL a zo kopiet.",
+      "SHARE_BURNER_TIME":"E-vit-erv",
+      "SHARE_PASS_PHRASE":"Kinnigoù",
+      "VIEW_SECRET": "Gwelet ar Sekred"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Penaos e labour",
+      "DOWNLOAD_APP": "Distro ar Raktres",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Kaozeadennoù Dikenkinet",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Lakaat ar sekredoù, ha poof—zeo peogwir 'zo !",
+      
+      "ENCRYPTED_PROTECTED_BY": "Dibabet, diwallet hag ampart gant Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Gant Stellar Secret e c'hallit rannañ liammoù a c'haller gwelet ur wech hepken gant endalc'hadoù kizidik en ul liamm kuzh, ha n'anavezit nemet c'hwi hag ar resever. An doare gwellañ eo, mirout titouroù kizidik diouzh an arloadoù kemennadennoù.",
+
+      "WITHOUT_TRACE_TITLE": "Hag ur skeudenn",
+      "WITHOUT_TRACE_DESCRIPTION": "Gwelet hon eus ur surentez kreñv evit ho titl. Tostit ho data a zo enskrivet war ar c'hleient. N'eus ket a gompren ho IP, petra ho kinnig, pe piv a zo o vezañ desket ar sekredoù - hag ar gwellañ, ar content.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Huchet o privadurezh",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Hiziv e resis an linenn da ar sekred titl hag piv oc'h o c'hinnig. Pa greatez ur sekred, e c'hallit ouzhpennañ ur ger-keloù a-raok ober an diskouez. Gant ur 'burner-time' ivez. Evel-se, e vo kaset ar sekred dindan 14 devezh.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Enskrivet e-kichen d'an end",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Ar links hag ar contennoù a zo hashed war ar c'hleient, setu ma ne c'hallomp ket kompren ar link ha ar contennoù. Pep link a zo ur ID unik 36 hag a zo ur enskrivadur un-way evit gallout gwelet ar Sekred Keloù ha ar contennoù enskrivet gant AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Penaos e labour?",
+      "STEP_1_TITLE": "Skrivit ho keloù hag/pe gegin ur ger-keloù",
+      "STEP_2_TITLE": "Krouiñ ur Link Sekred",
+      "STEP_3_TITLE": "Kinnig ar link",
+      
+      "COMPANY_LOGO_ALT": "Logo ar C'hempañs",
+      
+      "SHARE_TITLE": "Kinnig ur mesk",
+      "SHARE_DESCRIPTION_PART_1": "Skrivit hag kasit ar mesk, e vo",
+      "SHARE_DESCRIPTION_PART_2": "kastet pa vo lennet.",
+      
+      "SHARE_BULLET_1": "Hag ur skeudenn.",
+      "SHARE_BULLET_2": "Huchet o privadurezh",
+      "SHARE_BULLET_3": "Un den-diviz.",
+      
+      "SHARE_ENCRYPTED_BY": "Dibabet, diwallet hag ampart gant Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Skrivit ho mesk sekred, ur ger-keloù pe titl-keloù*",
+      "SHARE_OPTIONS": "Dre-se",
+      
+      "SHARE_EMPTY": "Lez ar mech koad evit netra.",
+      "SHARE_BUTTON": "Krouiñ Link Sekred",
+      
+      "CREATED_TITLE": "Ho Sekred a zo krouet",
+      "CREATED_SUBTITLE": "E vo diskouezet ur wech hepken",
+      
+      "CREATED_TITLE_SHARE": "Kopiez ar link pe kinnigit anezhañ.",
+      "CREATED_BUTTON": "KOPIEZ",
+      "CREATED_CREATE_SECRET": "Krouiñ Sekred nevez",
+      "CREATED_BURNSECRET": "Kas ar Sekred",
+      "URL_COPIED": "Ar URL a zo kopiet.",
+      
+      "VIEW_SECRET": "Gwelet ar Sekred"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Penaos e labour",
+      "DOWNLOAD_APP": "Distro ar Raktres",
+      "CREATED_TITLE": "Ho Sekred a zo krouet",
+      "CREATED_SUBTITLE": "E vo diskouezet ur wech hepken",
+      "CREATED_TITLE_SHARE": "Kopiez ar link pe kinnigit anezhañ.",
+      "CREATED_BUTTON": "KOPIEZ",
+      "CREATED_CREATE_SECRET": "Krouiñ Sekred nevez",
+      "CREATED_BURNSECRET": "Kas ar Sekred",
+      "URL_COPIED": "Ar URL a zo kopiet."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Ho peus da gas ar sekred-mañ",
+      "SECRET_UNAVAILABLE_TEXT": "Ne vo ket preneet ken",
+      "BURN_FOREVER": "Kas dindan amzer",
+      "CANCEL": "Kansell"
+    },
+    "VIEW":{
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Penaos e labour",
+      "DOWNLOAD_APP": "Distro ar Raktres",
+      "WELCOME_MESSAGE": "Demat, ho peus kinnig ur mesk sekred !",
+      "INSTRUCTION": "Skrivit hag kasit ar mesk, e vo kastet pa vo lennet.",
+      "SHOW_MESSAGE_ONCE": "Ar mesk-mañ a vo diskouezet ur wech hepken",
+      "OPEN_SECRET_MESSAGE": "Ouvrit ar Mesaj Sekred",
+      "INPUT_PASSPHRASE": "Skrivit ar Ger-Keloù",
+      "PASS_PHRASE_PLACEHOLDER": "Ger-Keloù",
+      "OPEN_SECRET_BUTTON": "Ouvrit ar Mesaj Sekred",
+      "YOUR_SECRET_MESSAGE": "Ho Mesaj Sekred",
+      "COPY": "Kopiez",
+      "MESSAGE_LABEL": "Mesaj",
+      "REPLY": "Respont",
+      "DOWNLOAD_MESSAGE": "Distro Stellar Secret war ar c'hleient, krouiñ ho mesk sekred",
+      "WITHOUT_TRACE": "Hag ur skeudenn.",
+      "PRIVACY_PROTECTED": "Huchet o privadurezh",
+      "ONE_TIME_VIEWABLE": "Un den-diviz.",
+      "SECURITY_TEXT": "Dibabet, diwallet hag ampart gant ",
+      "SECURITY_TEXT2":"Stellar Security"
+    }
+  }
+  

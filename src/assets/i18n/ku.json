@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Sîreta Stellar",
+      "HOW_IT_WORKS": "Çawa dixebite",
+      "DOWNLOAD_APP": "Serlêdana Sepana",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Peyama Sîrê ya Rêza Yekcar",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sîrên xwe parve bikin, û poof—ji nêzîk in!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encriptkirî, ewlehî û parastî ji hêla Stellar Security ve",
+      "WITHOUT_TRACE_TITLE": "Bêşopa",
+      "WITHOUT_TRACE_DESCRIPTION": "Em ji hêla client-side de daneyên we parastin. Em nikaribin nasnameya IP'yê we, çi hûn parve dikin, an jî kî hûn sîrêyan parve dikin - û herî girîng, naveroka.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Taybetî Parastî",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Hûn tenê yên ku zanyarîya sîrê ya ku hûn çêkirî ye û kî hûn bi wan re parve dikin. Dema ku sîrê çêdikin, hûn dikarin şîfre zêde bikin heya ku ew wekî kêm e. Hêkariya kêm a sîrê bi 14 rojan re bi qasî ye.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encriptkirî ji destê heta destê",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Hemî girêdan û naverok li client-side de hashed in, wêne ku herî zêde em jî nikarin nasnameya girêdan û naveroka zanîn. Her girêdan hejmara taybet a 36-yê hene ku encamê wisa hûn dikarin peyama Sîrê û naveroka ku bi AES-256 ve encam e.",
+      
+      "HOW_IT_WORKS_TITLE": "Çawa dixebite?",
+      "STEP_1_TITLE": "Peyama xwe binivîse û/yan şîfre çêke",
+      "STEP_2_TITLE": "Girêdana Sîrê çêke",
+      "STEP_3_TITLE": "Girêdan parve bike",
+      
+      "COMPANY_LOGO_ALT": "Lîstika Şirketê",
+      
+      "SHARE_TITLE": "Peyama sîrê parve bike",
+      "SHARE_DESCRIPTION_PART_1": "Peyam binivîse û bişîne, ew dê",
+      "SHARE_DESCRIPTION_PART_2": "bi dawî bibe.",
+      
+      "SHARE_BULLET_1": "Bêşopa.",
+      "SHARE_BULLET_2": "Taybetî Parastî",
+      "SHARE_BULLET_3": "Yekcar dikaribin bibin",
+      
+      "SHARE_ENCRYPTED_BY": "Encriptkirî, ewlehî û parastî ji hêla Stellar Security ve",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Peyama sîrê xwe, şîfre an zanyarîya hêrsî binivîse *",
+      "SHARE_OPTIONS": "Vebijêrkên",
+      
+      "SHARE_EMPTY": "Ji bo ne hêle bibe.",
+      "SHARE_BUTTON": "Girêdana Sîrê çêke",
+      
+      "CREATED_TITLE": "Sîrê we çêkirî ye",
+      "CREATED_SUBTITLE": "Ew dê tenê carê yekê nîşan bide",
+      
+      "CREATED_TITLE_SHARE": "Girêdan kopî bikin an parve bikin.",
+      "CREATED_BUTTON": "KOPÎ",
+      "CREATED_CREATE_SECRET": "Sîrê Nû çêke",
+      "CREATED_BURNSECRET": "Sîrê bi nûçeyê bikişîne",
+      "URL_COPIED": "URL kopî bû.",
+      "SHARE_BURNER_TIME":"Jiyana",
+      "SHARE_PASS_PHRASE":"Şîfre",
+      "VIEW_SECRET": "Peyama Sîrê Nîşan Bide"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Sîreta Stellar",
+      "HOW_IT_WORKS": "Çawa dixebite",
+      "DOWNLOAD_APP": "Serlêdana Sepana",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Peyama Sîrê ya Rêza Yekcar",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Sîrên xwe parve bikin, û poof—ji nêzîk in!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Encriptkirî, ewlehî û parastî ji hêla Stellar Security ve",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret dihêle hûn di girêdanek veşartî de, ku tenê hûn pê dizanin, û wergir jî zencîreyên dîtbar ên yek-carî bi naverokek hesas re parve bikin. Awayê çêtirîn ew e ku agahdariya hesas ji her sepanên peyamberan dûr bixe.",
+
+      "WITHOUT_TRACE_TITLE": "Bêşopa",
+      "WITHOUT_TRACE_DESCRIPTION": "Em ji hêla client-side de daneyên we parastin. Em nikaribin nasnameya IP'yê we, çi hûn parve dikin, an jî kî hûn sîrêyan parve dikin - û herî girîng, naveroka.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Taybetî Parastî",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Hûn tenê yên ku zanyarîya sîrê ya ku hûn çêkirî ye û kî hûn bi wan re parve dikin. Dema ku sîrê çêdikin, hûn dikarin şîfre zêde bikin heya ku ew wekî kêm e. Hêkariya kêm a sîrê bi 14 rojan re bi qasî ye.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Encriptkirî ji destê heta destê",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Hemî girêdan û naverok li client-side de hashed in, wêne ku herî zêde em jî nikarin nasnameya girêdan û naveroka zanîn. Her girêdan hejmara taybet a 36-yê hene ku encamê wisa hûn dikarin peyama Sîrê û naveroka ku bi AES-256 ve encam e.",
+      
+      "HOW_IT_WORKS_TITLE": "Çawa dixebite?",
+      "STEP_1_TITLE": "Peyama xwe binivîse û/yan şîfre çêke",
+      "STEP_2_TITLE": "Girêdana Sîrê çêke",
+      "STEP_3_TITLE": "Girêdan parve bike",
+      
+      "COMPANY_LOGO_ALT": "Lîstika Şirketê",
+      
+      "SHARE_TITLE": "Peyama sîrê parve bike",
+      "SHARE_DESCRIPTION_PART_1": "Peyam binivîse û bişîne, ew dê",
+      "SHARE_DESCRIPTION_PART_2": "bi dawî bibe.",
+      
+      "SHARE_BULLET_1": "Bêşopa.",
+      "SHARE_BULLET_2": "Taybetî Parastî",
+      "SHARE_BULLET_3": "Yekcar dikaribin bibin",
+      
+      "SHARE_ENCRYPTED_BY": "Encriptkirî, ewlehî û parastî ji hêla Stellar Security ve",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Peyama sîrê xwe, şîfre an zanyarîya hêrsî binivîse *",
+      "SHARE_OPTIONS": "Vebijêrkên",
+      
+      "SHARE_EMPTY": "Ji bo ne hêle bibe.",
+      "SHARE_BUTTON": "Girêdana Sîrê çêke",
+      
+      "CREATED_TITLE": "Sîrê we çêkirî ye",
+      "CREATED_SUBTITLE": "Ew dê tenê carê yekê nîşan bide",
+      
+      "CREATED_TITLE_SHARE": "Girêdan kopî bikin an parve bikin.",
+      "CREATED_BUTTON": "KOPÎ",
+      "CREATED_CREATE_SECRET": "Sîrê Nû çêke",
+      "CREATED_BURNSECRET": "Sîrê bi nûçeyê bikişîne",
+      "URL_COPIED": "URL kopî bû.",
+      
+      "VIEW_SECRET": "Peyama Sîrê Nîşan Bide"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Sîreta Stellar",
+      "HOW_IT_WORKS": "Çawa dixebite",
+      "DOWNLOAD_APP": "Serlêdana Sepana",
+      "CREATED_TITLE": "Sîrê we çêkirî ye",
+      "CREATED_SUBTITLE": "Ew dê tenê carê yekê nîşan bide",
+      "CREATED_TITLE_SHARE": "Girêdan kopî bikin an parve bikin.",
+      "CREATED_BUTTON": "KOPÎ",
+      "CREATED_CREATE_SECRET": "Sîrê Nû çêke",
+      "CREATED_BURNSECRET": "Sîrê bi nûçeyê bikişîne",
+      "URL_COPIED": "URL kopî bû."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Hûn ê vê sîrê bi nûçeyê bikişînin",
+      "SECRET_UNAVAILABLE_TEXT": "Ew dê ne amade be",
+      "BURN_FOREVER": "Bi heman jiyana",
+      "CANCEL": "Bişopîne"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Sîreta Stellar",
+      "HOW_IT_WORKS": "Çawa dixebite",
+      "DOWNLOAD_APP": "Serlêdana Sepana",
+      "WELCOME_MESSAGE": "Silav, hûn peyama sîrê wergirtin!",
+      "INSTRUCTION": "Peyam binivîse û bişîne, ew dê bi dawî bibe.",
+      "SHOW_MESSAGE_ONCE": "Peyama jêrîn dê tenê carê yekê nîşan bide tenê carê yekê",
+      "OPEN_SECRET_MESSAGE": "Peyama Sîrê Vebike",
+      "INPUT_PASSPHRASE": "Şîfre binivîse",
+      "PASS_PHRASE_PLACEHOLDER": "Şîfre",
+      "OPEN_SECRET_BUTTON": "Peyama Sîrê Vebike",
+      "YOUR_SECRET_MESSAGE": "Peyama Sîrê We",
+      "COPY": "KOPÎ",
+      "MESSAGE_LABEL": "Peyam",
+      "REPLY": "Bersiv",
+      "DOWNLOAD_MESSAGE": "Sîreta Stellar li ser mobîlê daneyê, peyamên sîrê xwe çêke",
+      "WITHOUT_TRACE": "Bêşopa.",
+      "PRIVACY_PROTECTED": "Taybetî Parastî",
+      "ONE_TIME_VIEWABLE": "Yekcar dikaribin bibin",
+      "SECURITY_TEXT": "Encriptkirî, ewlehî û parastî ji hêla ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

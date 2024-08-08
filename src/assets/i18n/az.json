@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Necə işləyir",
+      "DOWNLOAD_APP": "Tətbiqi Yüklə",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Bir dəfəlik Gizli Mesajlaşma",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gizli məlumatları paylaşın, və bam - getdi!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Şifrlənmiş, qorunmuş və Stellar Təhlükəsizliyi tərəfindən qorunur",
+      "WITHOUT_TRACE_TITLE": "İz olmadan",
+      "WITHOUT_TRACE_DESCRIPTION": "Həssas məlumatlarınızın güclü qorunmasını təmin edirik. Bütün məlumatlar müştəri tərəfində şifrlənir. Biz sizin IP ünvanınızı, nəyi paylaşdığınızı və kimlərlə paylaşdığınızı bilmirik - və ən önəmlisi, məzmunu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Məxfilik Qorunur",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Siz yalnız özünüzün yaratdığınız gizli məlumatların linkini və kimlərlə paylaşdığınızı bilirsiniz. Gizli məlumat yaradan zaman, onu açmaq üçün parol əlavə edə bilərsiniz. Həmçinin, bir istifadə müddəti təyin etmək mümkündür. Nə olursa olsun, gizli məlumat 14 gündən sonra silinəcək.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Son-dan-Sona Şifrlənmiş",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Bütün linklər və məzmun müştəri tərəfində şifrlənmişdir, bu deməkdir ki, biz linki və məzmunu bilmirik. Hər link 36 uzunluğunda unikal ID-yə malikdir ki, bu da Secret Mesajı və AES-256 ilə şifrlənmiş məzmununa giriş üçün bir istiqamətli şifrləmədir.",
+      
+      "HOW_IT_WORKS_TITLE": "Necə işləyir?",
+      "STEP_1_TITLE": "Mesajınızı yazın və/və ya parol yaradın",
+      "STEP_2_TITLE": "Gizli Link Yaradın",
+      "STEP_3_TITLE": "Linki Paylaşın",
+      
+      "COMPANY_LOGO_ALT": "Şirkət Loqosu",
+      
+      "SHARE_TITLE": "Gizli Mesajı Paylaşın",
+      "SHARE_DESCRIPTION_PART_1": "Mesajınızı yazın və göndərin, o",
+      "SHARE_DESCRIPTION_PART_2": "oxunduqdan sonra silinəcək.",
+      
+      "SHARE_BULLET_1": "İz olmadan.",
+      "SHARE_BULLET_2": "Məxfilik Qorunur",
+      "SHARE_BULLET_3": "Bir dəfəlik baxış",
+      
+      "SHARE_ENCRYPTED_BY": "Şifrlənmiş, qorunmuş və Stellar Təhlükəsizliyi tərəfindən qorunur",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Gizli mesajınızı, parolunuzu və ya həssas məlumatınızı yazın *",
+      "SHARE_OPTIONS": "Seçimlər",
+      
+      "SHARE_EMPTY": "Heç bir şey yazmayın.",
+      "SHARE_BUTTON": "Gizli Link Yaradın",
+      
+      "CREATED_TITLE": "Sizin Gizli məlumat yaradıldı",
+      "CREATED_SUBTITLE": "Yalnız bir dəfə göstəriləcək",
+      
+      "CREATED_TITLE_SHARE": "Linki kopyalayın və ya paylaşın.",
+      "CREATED_BUTTON": "KOPYALA",
+      "CREATED_CREATE_SECRET": "Yeni Gizli Məlumat Yaradın",
+      "CREATED_BURNSECRET": "Gizli Məlumatı Yandır",
+      "URL_COPIED": "URL kopyalandı.",
+      "SHARE_BURNER_TIME": "Ömürlük",
+      "SHARE_PASS_PHRASE": "Şifrə ifadəsi",
+      "VIEW_SECRET": "Gizli Məlumatı Gör"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Necə işləyir",
+      "DOWNLOAD_APP": "Tətbiqi Yüklə",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Bir dəfəlik Gizli Mesajlaşma",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Gizli məlumatları paylaşın, və bam - getdi!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Şifrlənmiş, qorunmuş və Stellar Təhlükəsizliyi tərəfindən qorunur",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret sizə yalnız siz və alıcının bildiyi bir gizli bağlantıda həssas məzmunu bir dəfə baxıla bilən bağlantılar şəklində paylaşmağa imkan verir. Bu, həssas məlumatları hər hansı bir mesajlaşma tətbiqindən uzaq tutmağın ən yaxşı yoludur",
+
+      "WITHOUT_TRACE_TITLE": "İz olmadan",
+      "WITHOUT_TRACE_DESCRIPTION": "Həssas məlumatlarınızın güclü qorunmasını təmin edirik. Bütün məlumatlar müştəri tərəfində şifrlənir. Biz sizin IP ünvanınızı, nəyi paylaşdığınızı və kimlərlə paylaşdığınızı bilmirik - və ən önəmlisi, məzmunu.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Məxfilik Qorunur",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Siz yalnız özünüzün yaratdığınız gizli məlumatların linkini və kimlərlə paylaşdığınızı bilirsiniz. Gizli məlumat yaradan zaman, onu açmaq üçün parol əlavə edə bilərsiniz. Həmçinin, bir istifadə müddəti təyin etmək mümkündür. Nə olursa olsun, gizli məlumat 14 gündən sonra silinəcək.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Son-dan-Sona Şifrlənmiş",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Bütün linklər və məzmun müştəri tərəfində şifrlənmişdir, bu deməkdir ki, biz linki və məzmunu bilmirik. Hər link 36 uzunluğunda unikal ID-yə malikdir ki, bu da Secret Mesajı və AES-256 ilə şifrlənmiş məzmununa giriş üçün bir istiqamətli şifrləmədir.",
+      
+      "HOW_IT_WORKS_TITLE": "Necə işləyir?",
+      "STEP_1_TITLE": "Mesajınızı yazın və/və ya parol yaradın",
+      "STEP_2_TITLE": "Gizli Link Yaradın",
+      "STEP_3_TITLE": "Linki Paylaşın",
+      
+      "COMPANY_LOGO_ALT": "Şirkət Loqosu",
+      
+      "SHARE_TITLE": "Gizli Mesajı Paylaşın",
+      "SHARE_DESCRIPTION_PART_1": "Mesajınızı yazın və göndərin, o",
+      "SHARE_DESCRIPTION_PART_2": "oxunduqdan sonra silinəcək.",
+      
+      "SHARE_BULLET_1": "İz olmadan.",
+      "SHARE_BULLET_2": "Məxfilik Qorunur",
+      "SHARE_BULLET_3": "Bir dəfəlik baxış",
+      
+      "SHARE_ENCRYPTED_BY": "Şifrlənmiş, qorunmuş və Stellar Təhlükəsizliyi tərəfindən qorunur",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Gizli mesajınızı, parolunuzu və ya həssas məlumatınızı yazın *",
+      "SHARE_OPTIONS": "Seçimlər",
+      
+      "SHARE_EMPTY": "Heç bir şey yazmayın.",
+      "SHARE_BUTTON": "Gizli Link Yaradın",
+      
+      "CREATED_TITLE": "Sizin Gizli məlumat yaradıldı",
+      "CREATED_SUBTITLE": "Yalnız bir dəfə göstəriləcək",
+      
+      "CREATED_TITLE_SHARE": "Linki kopyalayın və ya paylaşın.",
+      "CREATED_BUTTON": "KOPYALA",
+      "CREATED_CREATE_SECRET": "Yeni Gizli Məlumat Yaradın",
+      "CREATED_BURNSECRET": "Gizli Məlumatı Yandır",
+      "URL_COPIED": "URL kopyalandı.",
+      
+      "VIEW_SECRET": "Gizli Məlumatı Gör"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Necə işləyir",
+      "DOWNLOAD_APP": "Tətbiqi Yüklə",
+      "CREATED_TITLE": "Sizin Gizli məlumat yaradıldı",
+      "CREATED_SUBTITLE": "Yalnız bir dəfə göstəriləcək",
+      "CREATED_TITLE_SHARE": "Linki kopyalayın və ya paylaşın.",
+      "CREATED_BUTTON": "KOPYALA",
+      "CREATED_CREATE_SECRET": "Yeni Gizli Məlumat Yaradın",
+      "CREATED_BURNSECRET": "Gizli Məlumatı Yandır",
+      "URL_COPIED": "URL kopyalandı."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Bu gizli məlumatı yandıracaqsınız",
+      "SECRET_UNAVAILABLE_TEXT": "Artıq mövcud olmayacaq",
+      "BURN_FOREVER": "Əbədi Yandır",
+      "CANCEL": "İmtina Et"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Necə işləyir",
+      "DOWNLOAD_APP": "Tətbiqi Yüklə",
+      "WELCOME_MESSAGE": "Salam, siz gizli mesaj aldınız!",
+      "INSTRUCTION": "Mesajınızı yazın və göndərin, o oxunduqdan sonra silinəcək.",
+      "SHOW_MESSAGE_ONCE": "Aşağıdakı mesaj yalnız bir dəfə göstəriləcək",
+      "OPEN_SECRET_MESSAGE": "Gizli Mesajı Açın",
+      "INPUT_PASSPHRASE": "Şifrə İfadesini Daxil Edin",
+      "PASS_PHRASE_PLACEHOLDER": "Şifrə İfadesi",
+      "OPEN_SECRET_BUTTON": "Gizli Mesajı Açın",
+      "YOUR_SECRET_MESSAGE": "Sizin Gizli Mesajınız",
+      "COPY": "Kopyala",
+      "MESSAGE_LABEL": "Mesaj",
+      "REPLY": "Cavab ver",
+      "DOWNLOAD_MESSAGE": "Stellar Secret-i mobil cihazınıza yükləyin, gizli mesajlar yaradın",
+      "WITHOUT_TRACE": "İz olmadan.",
+      "PRIVACY_PROTECTED": "Məxfilik Qorunur",
+      "ONE_TIME_VIEWABLE": "Bir dəfəlik baxış",
+      "SECURITY_TEXT": "Şifrlənmiş, qorunmuş və ",
+      "SECURITY_TEXT2": "Stellar Təhlükəsizliyi tərəfindən qorunur"
+    }
+  }
+  

@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kha ziak a hman hnem",
+      "DOWNLOAD_APP": "App a download ang",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Chhiar leh a hmel loh chuan a hmu a, a hma lo!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Stellar Security chuan a chhuak leh a pakhat a hman",
+      "WITHOUT_TRACE_TITLE": "Trace a lo thil a",
+      "WITHOUT_TRACE_DESCRIPTION": "I chhantu chu a hlauhawm a hmu a, chhinchhawn leh in chhuak a phal bawk. Kan IP address, chu in chhuak chhuak leh a hmu chuan a ni a, chuan chhanchhuak zungzaw lo hmu a.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protected",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Secret a hmu theih chuan i chhuak zawng lo. Chhinchhawn hman chuan password a thil a, a hmu leh a hman a chhuak. A chhan lo, 14 ni chhung a chhuak a.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Links leh content tura hash a chhuak a, kan hriat lo. Chutih rawn a hmu chi hrang a, ID 36 a pawisa chi a hmu leh a hmu chhuak a, AES-256 encryption hman a.",
+      
+      "HOW_IT_WORKS_TITLE": "Kha ziak a hman hnem?",
+      "STEP_1_TITLE": "I message a chhuak leh password a a hmu",
+      "STEP_2_TITLE": "Secret Link a chhuak",
+      "STEP_3_TITLE": "Link a chhuak",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Secret message a chhuak",
+      "SHARE_DESCRIPTION_PART_1": "Message a chhuak leh a hmu a, a hmu a ni lo.",
+      "SHARE_DESCRIPTION_PART_2": "A hmu leh a hmu a chhuak.",
+      
+      "SHARE_BULLET_1": "Trace a lo thil a.",
+      "SHARE_BULLET_2": "Privacy Protected",
+      "SHARE_BULLET_3": "One-time viewable",
+      
+      "SHARE_ENCRYPTED_BY": "Stellar Security chuan a chhuak leh a pakhat a hman",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "I Secret message, password, loh chhuak chhuak *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Khawngai a lo ni.",
+      "SHARE_BUTTON": "Secret Link a chhuak",
+      
+      "CREATED_TITLE": "I Secret a chhuak ang",
+      "CREATED_SUBTITLE": "A hmu a chhuak ang a hmu a",
+      
+      "CREATED_TITLE_SHARE": "Link a copy leh a hmu.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "New Secret a chhuak",
+      "CREATED_BURNSECRET": "Secret a chhuak",
+      "URL_COPIED": "URL a copy a ni.",
+      "SHARE_BURNER_TIME": "Lifetime",
+      "SHARE_PASS_PHRASE": "Passphrase",
+      "VIEW_SECRET": "View Secret"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kha ziak a hman hnem",
+      "DOWNLOAD_APP": "App a download ang",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Chhiar leh a hmel loh chuan a hmu a, a hma lo!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Stellar Security chuan a chhuak leh a pakhat a hman",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret hian vawi khata en theih link te chu secret link-ah sensitive content nen share theih a ni a, chu chu nangmah chauhin i hria a, a dawngtu pawhin a hre bawk. A kawng tha ber, eng messenger-apps atanga sensitive information chhuah loh nan.",
+
+      "WITHOUT_TRACE_TITLE": "Trace a lo thil a",
+      "WITHOUT_TRACE_DESCRIPTION": "I chhantu chu a hlauhawm a hmu a, chhinchhawn leh in chhuak a phal bawk. Kan IP address, chu in chhuak chhuak leh a hmu chuan a ni a, chuan chhanchhuak zungzaw lo hmu a.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privacy Protected",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Secret a hmu theih chuan i chhuak zawng lo. Chhinchhawn hman chuan password a thil a, a hmu leh a hman a chhuak. A chhan lo, 14 ni chhung a chhuak a.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "End-to-end encrypted",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Links leh content tura hash a chhuak a, kan hriat lo. Chutih rawn a hmu chi hrang a, ID 36 a pawisa chi a hmu leh a hmu chhuak a, AES-256 encryption hman a.",
+      
+      "HOW_IT_WORKS_TITLE": "Kha ziak a hman hnem?",
+      "STEP_1_TITLE": "I message a chhuak leh password a a hmu",
+      "STEP_2_TITLE": "Secret Link a chhuak",
+      "STEP_3_TITLE": "Link a chhuak",
+      
+      "COMPANY_LOGO_ALT": "Company Logo",
+      
+      "SHARE_TITLE": "Secret message a chhuak",
+      "SHARE_DESCRIPTION_PART_1": "Message a chhuak leh a hmu a, a hmu a ni lo.",
+      "SHARE_DESCRIPTION_PART_2": "A hmu leh a hmu a chhuak.",
+      
+      "SHARE_BULLET_1": "Trace a lo thil a.",
+      "SHARE_BULLET_2": "Privacy Protected",
+      "SHARE_BULLET_3": "One-time viewable",
+      
+      "SHARE_ENCRYPTED_BY": "Stellar Security chuan a chhuak leh a pakhat a hman",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "I Secret message, password, loh chhuak chhuak *",
+      "SHARE_OPTIONS": "Options",
+      
+      "SHARE_EMPTY": "Khawngai a lo ni.",
+      "SHARE_BUTTON": "Secret Link a chhuak",
+      
+      "CREATED_TITLE": "I Secret a chhuak ang",
+      "CREATED_SUBTITLE": "A hmu a chhuak ang a hmu a",
+      
+      "CREATED_TITLE_SHARE": "Link a copy leh a hmu.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "New Secret a chhuak",
+      "CREATED_BURNSECRET": "Secret a chhuak",
+      "URL_COPIED": "URL a copy a ni.",
+      
+      "VIEW_SECRET": "View Secret"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kha ziak a hman hnem",
+      "DOWNLOAD_APP": "App a download ang",
+      "CREATED_TITLE": "I Secret a chhuak ang",
+      "CREATED_SUBTITLE": "A hmu a chhuak ang a hmu a",
+      "CREATED_TITLE_SHARE": "Link a copy leh a hmu.",
+      "CREATED_BUTTON": "COPY",
+      "CREATED_CREATE_SECRET": "New Secret a chhuak",
+      "CREATED_BURNSECRET": "Secret a chhuak",
+      "URL_COPIED": "URL a copy a ni."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "I chhiar a hmu a, chhantu hi hmu a ni loh a",
+      "SECRET_UNAVAILABLE_TEXT": "A hmu a hmel loh a",
+      "BURN_FOREVER": "Chhiar a hmu a",
+      "CANCEL": "Cancel"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kha ziak a hman hnem",
+      "DOWNLOAD_APP": "App a download ang",
+      "WELCOME_MESSAGE": "Hi, i chhantu hi a hmu a ni!",
+      "INSTRUCTION": "Message a chhuak leh a hmu a, a hmu a ni lo.",
+      "SHOW_MESSAGE_ONCE": "A message hi thil pakhat a hmu a ni.",
+      "OPEN_SECRET_MESSAGE": "Open Secret Message",
+      "INPUT_PASSPHRASE": "Passphrase a chhuak",
+      "PASS_PHRASE_PLACEHOLDER": "Passphrase",
+      "OPEN_SECRET_BUTTON": "Open Secret Message",
+      "YOUR_SECRET_MESSAGE": "I Secret Message",
+      "COPY": "COPY",
+      "MESSAGE_LABEL": "Message",
+      "REPLY": "Reply",
+      "DOWNLOAD_MESSAGE": "Stellar Secret app a download ang, i secret messages a chhuak",
+      "WITHOUT_TRACE": "Trace a lo thil a.",
+      "PRIVACY_PROTECTED": "Privacy Protected",
+      "ONE_TIME_VIEWABLE": "One-time viewable",
+      "SECURITY_TEXT": "Stellar Security chuan a chhuak leh a pakhat a hman",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  

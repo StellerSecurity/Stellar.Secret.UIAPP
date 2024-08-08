@@ -1,0 +1,151 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት እንደሚሰራ",
+      "DOWNLOAD_APP": "አፕ እንደሚጫኑ",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "አንድ ጊዜ ሲክረት መልእክት",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "ሲክረቶችን እና እንደአንድ ጊዜ እንደሚወድቅ አሳየን!",
+      
+      "ENCRYPTED_PROTECTED_BY": "በስቴላር የደህንነት የተደገፈ በማስጠበቅ ተጠበቅቷል",
+      "WITHOUT_TRACE_TITLE": "በመነሻ ስለማይቀር",
+      "WITHOUT_TRACE_DESCRIPTION": "የሚሰጥ መረጃዎች በሰው ገጽ ተከልቷል። የምንለውን አንደኛ እና ምንን እና ማንን እንደሚሰጥ እና አሳይንበት የምንለውን አሳይንበት።",
+      
+      "PRIVACY_PROTECTED_TITLE": "የግል አበረታች ይጠበቃል",
+      "PRIVACY_PROTECTED_DESCRIPTION": "በተለያዩ መድረኮች ማንኛውም በዚህ ምንን እንደሚሰጥ እና አንደኛውን መጠን የሚታወቅ በትክክል ይቀበላል። ከስልኩን ጥርጥር ለማድረግ ይችላል።",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "ከመጀመሪያ እስከ መጨረሻ በሚበረታታ",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "ሁሉም የእቃ አይቀርም። የምንለውን አንደኛውን ተመንታል። በኤኤስ ኤስ-256 የተደገፈ።",
+      
+      "HOW_IT_WORKS_TITLE": "እንዴት እንደሚሰራ?",
+      "STEP_1_TITLE": "መልእክትዎን ይጻፉና ወይም የፓስወርድ ተከታይ አድርጉ",
+      "STEP_2_TITLE": "ሲክረት ሊንክ ይፍጠሩ",
+      "STEP_3_TITLE": "ሊንኩን እንደሚሰጥ",
+      
+      "COMPANY_LOGO_ALT": "የኩባንያ ሎጎ",
+      
+      "SHARE_TITLE": "አስቀድሞ ለመጠቀም ሊንክ ይጠቀሙ",
+      "SHARE_DESCRIPTION_PART_1": "መልእክት ይጻፉ እና ሲሰጥ በእርስዎ እንደ አንድ ጊዜ ይጠፋል።",
+      "SHARE_DESCRIPTION_PART_2": "በእርስዎ ተዘጋጅቷል።",
+      
+      "SHARE_BULLET_1": "በመነሻ ስለማይቀር.",
+      "SHARE_BULLET_2": "የግል አበረታች ይጠበቃል",
+      "SHARE_BULLET_3": "አንድ ጊዜ በማየት ይችላል",
+      
+      "SHARE_ENCRYPTED_BY": "በስቴላር የደህንነት የተደገፈ በማስጠበቅ ተጠበቅቷል",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "የሚጠቀሙ እንደሚሰጥ መልእክትዎን ይጻፉ፣ ፓስወርድዎን ወይም ተወዳጅ መረጃዎን *",
+      "SHARE_OPTIONS": "አማራጮች",
+      
+      "SHARE_EMPTY": "ለአንደኛ ሳይኖርም አልነበረም።",
+      "SHARE_BUTTON": "አዲስ ሲክረት ሊንክ ይፍጠሩ",
+      
+      "CREATED_TITLE": "ሲክረትዎ ተፍጠረ",
+      "CREATED_SUBTITLE": "በአንድ ጊዜ ብቻ ይታያል",
+      
+      "CREATED_TITLE_SHARE": "ሊንኩን ይቅርብ ወይም አሳይት",
+      "CREATED_BUTTON": "ኮፒ",
+      "CREATED_CREATE_SECRET": "አዲስ ሲክረት ይፍጠሩ",
+      "CREATED_BURNSECRET": "ሲክረት ተቋርጥ",
+      "URL_COPIED": "የአድራሻው ተቀመጠ።",
+      "SHARE_BURNER_TIME": "የሕይወት ጊዜ",
+      "SHARE_PASS_PHRASE": "ፓስፍራዝ",
+      "VIEW_SECRET": "ሲክረትን ይመልከቱ"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት እንደሚሰራ",
+      "DOWNLOAD_APP": "አፕ እንደሚጫኑ",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "አንድ ጊዜ ሲክረት መልእክት",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "ሲክረቶችን እና እንደአንድ ጊዜ እንደሚወድቅ አሳየን!",
+      
+      "ENCRYPTED_PROTECTED_BY": "በስቴላር የደህንነት የተደገፈ በማስጠበቅ ተጠበቅቷል",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"ስቴላር ሲክሪት ንሓደ ግዜ ዝረአ መላግቦታት ምስ ተሃዋሲ ትሕዝቶ ኣብ ምስጢራዊ መላግቦ ከተካፍል የኽእለካ፣ ንስኻ ጥራይ እትፈልጦን እቲ ተቐባሊ ድማ ዝፈልጦን። Its the best way, ስሱዕ ሓበሬታ ካብ ዝኾነ messenger-apps ንኸይወጽእ።",
+
+      "WITHOUT_TRACE_TITLE": "በመነሻ ስለማይቀር",
+      "WITHOUT_TRACE_DESCRIPTION": "የሚሰጥ መረጃዎች በሰው ገጽ ተከልቷል። የምንለውን አንደኛ እና ምንን እና ማንን እንደሚሰጥ እና አሳይንበት የምንለውን አሳይንበት።",
+      
+      "PRIVACY_PROTECTED_TITLE": "የግል አበረታች ይጠበቃል",
+      "PRIVACY_PROTECTED_DESCRIPTION": "በተለያዩ መድረኮች ማንኛውም በዚህ ምንን እንደሚሰጥ እና አንደኛውን መጠን የሚታወቅ በትክክል ይቀበላል። ከስልኩን ጥርጥር ለማድረግ ይችላል።",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "ከመጀመሪያ እስከ መጨረሻ በሚበረታታ",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "ሁሉም የእቃ አይቀርም። የምንለውን አንደኛውን ተመንታል። በኤኤስ ኤስ-256 የተደገፈ።",
+      
+      "HOW_IT_WORKS_TITLE": "እንዴት እንደሚሰራ?",
+      "STEP_1_TITLE": "መልእክትዎን ይጻፉና ወይም የፓስወርድ ተከታይ አድርጉ",
+      "STEP_2_TITLE": "ሲክረት ሊንክ ይፍጠሩ",
+      "STEP_3_TITLE": "ሊንኩን እንደሚሰጥ",
+      
+      "COMPANY_LOGO_ALT": "የኩባንያ ሎጎ",
+      
+      "SHARE_TITLE": "አስቀድሞ ለመጠቀም ሊንክ ይጠቀሙ",
+      "SHARE_DESCRIPTION_PART_1": "መልእክት ይጻፉ እና ሲሰጥ በእርስዎ እንደ አንድ ጊዜ ይጠፋል።",
+      "SHARE_DESCRIPTION_PART_2": "በእርስዎ ተዘጋጅቷል።",
+      
+      "SHARE_BULLET_1": "በመነሻ ስለማይቀር.",
+      "SHARE_BULLET_2": "የግል አበረታች ይጠበቃል",
+      "SHARE_BULLET_3": "አንድ ጊዜ በማየት ይችላል",
+      
+      "SHARE_ENCRYPTED_BY": "በስቴላር የደህንነት የተደገፈ በማስጠበቅ ተጠበቅቷል",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "የሚጠቀሙ እንደሚሰጥ መልእክትዎን ይጻፉ፣ ፓስወርድዎን ወይም ተወዳጅ መረጃዎን *",
+      "SHARE_OPTIONS": "አማራጮች",
+      
+      "SHARE_EMPTY": "ለአንደኛ ሳይኖርም አልነበረም።",
+      "SHARE_BUTTON": "አዲስ ሲክረት ሊንክ ይፍጠሩ",
+      
+      "CREATED_TITLE": "ሲክረትዎ ተፍጠረ",
+      "CREATED_SUBTITLE": "በአንድ ጊዜ ብቻ ይታያል",
+      
+      "CREATED_TITLE_SHARE": "ሊንኩን ይቅርብ ወይም አሳይት",
+      "CREATED_BUTTON": "ኮፒ",
+      "CREATED_CREATE_SECRET": "አዲስ ሲክረት ይፍጠሩ",
+      "CREATED_BURNSECRET": "ሲክረት ተቋርጥ",
+      "URL_COPIED": "የአድራሻው ተቀመጠ።",
+      "SHARE_BURNER_TIME": "የሕይወት ጊዜ",
+      "SHARE_PASS_PHRASE": "ፓስፍራዝ",
+      "VIEW_SECRET": "ሲክረትን ይመልከቱ"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት እንደሚሰራ",
+      "DOWNLOAD_APP": "አፕ እንደሚጫኑ",
+      "CREATED_TITLE": "ሲክረትዎ ተፍጠረ",
+      "CREATED_SUBTITLE": "በአንድ ጊዜ ብቻ ይታያል",
+      "CREATED_TITLE_SHARE": "ሊንኩን ይቅርብ ወይም አሳይት",
+      "CREATED_BUTTON": "ኮፒ",
+      "CREATED_CREATE_SECRET": "አዲስ ሲክረት ይፍጠሩ",
+      "CREATED_BURNSECRET": "ሲክረት ተቋርጥ",
+      "URL_COPIED": "የአድራሻው ተቀመጠ።"
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "ይህን ሲክረት እንደ ተቋርጥተዋል",
+      "SECRET_UNAVAILABLE_TEXT": "አሁን አይገኝም",
+      "BURN_FOREVER": "በዘላለም ተቋርጥ",
+      "CANCEL": "ተወው"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "ስቴላር ሲክረት",
+      "HOW_IT_WORKS": "እንዴት እንደሚሰራ",
+      "DOWNLOAD_APP": "አፕ እንደሚጫኑ",
+      "WELCOME_MESSAGE": "ሰላም፣ እንደምንም ሰላም መልእክት ተቀብለዋል!",
+      "INSTRUCTION": "መልእክትዎን ይጻፉ እና በመሰጥ አይወጣም።",
+      "SHOW_MESSAGE_ONCE": "በታች አንደኛ ጊዜ ብቻ ይታያል",
+      "OPEN_SECRET_MESSAGE": "ሲክረትን ክፈት",
+      "INPUT_PASSPHRASE": "ፓስፍራዝን ያስገቡ",
+      "PASS_PHRASE_PLACEHOLDER": "ፓስፍራዝ",
+      "OPEN_SECRET_BUTTON": "ሲክረትን ክፈት",
+      "YOUR_SECRET_MESSAGE": "የእርስዎ ሲክረት መልእክት",
+      "COPY": "ኮፒ",
+      "MESSAGE_LABEL": "መልእክት",
+      "REPLY": "መልስ ይስጡ",
+      "DOWNLOAD_MESSAGE": "እባኮትን ስቴላር ሲክረት በሞባይል ይጫኑ፣ ሲክረት መልእክቶችዎን ይፍጠሩ",
+      "WITHOUT_TRACE": "በመነሻ ስለማይቀር",
+      "PRIVACY_PROTECTED": "የግል አበረታች",
+      "ONE_TIME_VIEWABLE": "አንድ ጊዜ በማየት",
+      "SECURITY_TEXT": "በ",
+      "SECURITY_TEXT2": "ስቴላር የደህንነት"
+    }
+  }
+  

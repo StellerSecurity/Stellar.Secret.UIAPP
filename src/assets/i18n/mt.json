@@ -1,0 +1,150 @@
+{
+    "HOME": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kif jaħdem",
+      "DOWNLOAD_APP": "Niżżel l-App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Korrispondenza Sigrieta ta' darba waħda",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ikkunsma sigrieti, u poof—għadhom ma jibqgħux!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ikun kriptat, sikur u protett minn Stellar Security",
+      "WITHOUT_TRACE_TITLE": "Mingħajr traċċi",
+      "WITHOUT_TRACE_DESCRIPTION": "Aħna niżguraw protezzjoni soda ta' l-informazzjoni sensittiva tiegħek. Id-dejta kollha tkun kriptata fuq il-klijent. Aħna ma nafux l-indirizz IP tiegħek, x'inqas tagħti, jew maħrugha l-linki sigrieti - u l-aktar importanti, il-kontenut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatibà Protetta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Int biss li taf il-link għall-informazzjoni sigrieta li ħolqt u min inti taqsamha magħha. Meta toħloq sigriet, tista' żżid password qabel ma tiġi sblokkata. Ukoll huwa possibbli li tissettja ħin ta' brull. X'jiswa x'jiġri, sigriet jiġi mitmugħ wara 14-il jum.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Kriptat minn n-naħa għal oħra",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Il-linki kollha u l-kontenut huma hashed fuq il-klijent, li jfisser anke aħna ma nafux il-link u l-kontenut. Kull link għandu ID uniku ta' tul ta' 36 li huwa kriptazzjoni waħda biex tkun tista' aċċessa l-Messaġġ Sigriet u l-kontenut tiegħu li huwa kriptat bl-AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kif jaħdem?",
+      "STEP_1_TITLE": "Ikteb il-messaġġ tiegħek u/jew ġenera password",
+      "STEP_2_TITLE": "Oħloq Link Sigriet",
+      "STEP_3_TITLE": "Aqsam il-link",
+      
+      "COMPANY_LOGO_ALT": "Logo tal-Kumpanija",
+      
+      "SHARE_TITLE": "Aqsam messaġġ sigriet",
+      "SHARE_DESCRIPTION_PART_1": "Ikteb u ibgħat messaġġ, se jkun",
+      "SHARE_DESCRIPTION_PART_2": "imnaddaf ladarba jiġi qrat.",
+      
+      "SHARE_BULLET_1": "Mingħajr traċċi.",
+      "SHARE_BULLET_2": "Privatibà Protetta",
+      "SHARE_BULLET_3": "Viżibbli darba waħda",
+      
+      "SHARE_ENCRYPTED_BY": "Ikun kriptat, sikur u protett minn Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ikteb il-messaġġ sigriet tiegħek, password jew informazzjoni sensittiva *",
+      "SHARE_OPTIONS": "Għażliet",
+      
+      "SHARE_EMPTY": "Ibgħat vojt għal xejn.",
+      "SHARE_BUTTON": "Oħloq Link Sigriet",
+      
+      "CREATED_TITLE": "Is-Sigriet tiegħek ġie maħluq",
+      "CREATED_SUBTITLE": "Se juri biss darba waħda",
+      
+      "CREATED_TITLE_SHARE": "Kopja il-link jew aqsamha.",
+      "CREATED_BUTTON": "KOPJA",
+      "CREATED_CREATE_SECRET": "Oħloq Sigriet Ġdid",
+      "CREATED_BURNSECRET": "Ħassar is-Sigriet",
+      "URL_COPIED": "Il-URL ġie kopjat.",
+      "SHARE_BURNER_TIME": "Żmien tal-Ħajja",
+      "SHARE_PASS_PHRASE": "Phrasa tal-Pass",
+      "VIEW_SECRET": "Ara s-Sigriet"
+    },
+    "HOWITWORK": {
+      "HEADER_TITLE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kif jaħdem",
+      "DOWNLOAD_APP": "Niżżel l-App",
+      
+      "ONE_TIME_SECRET_MESSAGING_TITLE": "Korrispondenza Sigrieta ta' darba waħda",
+      "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Ikkunsma sigrieti, u poof—għadhom ma jibqgħux!",
+      
+      "ENCRYPTED_PROTECTED_BY": "Ikun kriptat, sikur u protett minn Stellar Security",
+      "ENCRYPTED_PROTECTED_BY_DESCRIPTION":"Stellar Secret jippermettilek taqsam links li jistgħu jidhru darba b'kontenut sensittiv f'rabta sigrieta, li taf int biss, u r-riċevitur jaf. Huwa l-aħjar mod, biex iżżomm informazzjoni sensittiva barra minn kwalunkwe apps tal-messaġġier.",
+
+      "WITHOUT_TRACE_TITLE": "Mingħajr traċċi",
+      "WITHOUT_TRACE_DESCRIPTION": "Aħna niżguraw protezzjoni soda ta' l-informazzjoni sensittiva tiegħek. Id-dejta kollha tkun kriptata fuq il-klijent. Aħna ma nafux l-indirizz IP tiegħek, x'inqas tagħti, jew maħrugha l-linki sigrieti - u l-aktar importanti, il-kontenut.",
+      
+      "PRIVACY_PROTECTED_TITLE": "Privatibà Protetta",
+      "PRIVACY_PROTECTED_DESCRIPTION": "Int biss li taf il-link għall-informazzjoni sigrieta li ħolqt u min inti taqsamha magħha. Meta toħloq sigriet, tista' żżid password qabel ma tiġi sblokkata. Ukoll huwa possibbli li tissettja ħin ta' brull. X'jiswa x'jiġri, sigriet jiġi mitmugħ wara 14-il jum.",
+      
+      "END_TO_END_ENCRYPTED_TITLE": "Kriptat minn n-naħa għal oħra",
+      "END_TO_END_ENCRYPTED_DESCRIPTION": "Il-linki kollha u l-kontenut huma hashed fuq il-klijent, li jfisser anke aħna ma nafux il-link u l-kontenut. Kull link għandu ID uniku ta' tul ta' 36 li huwa kriptazzjoni waħda biex tkun tista' aċċessa l-Messaġġ Sigriet u l-kontenut tiegħu li huwa kriptat bl-AES-256.",
+      
+      "HOW_IT_WORKS_TITLE": "Kif jaħdem?",
+      "STEP_1_TITLE": "Ikteb il-messaġġ tiegħek u/jew ġenera password",
+      "STEP_2_TITLE": "Oħloq Link Sigriet",
+      "STEP_3_TITLE": "Aqsam il-link",
+      
+      "COMPANY_LOGO_ALT": "Logo tal-Kumpanija",
+      
+      "SHARE_TITLE": "Aqsam messaġġ sigriet",
+      "SHARE_DESCRIPTION_PART_1": "Ikteb u ibgħat messaġġ, se jkun",
+      "SHARE_DESCRIPTION_PART_2": "imnaddaf ladarba jiġi qrat.",
+      
+      "SHARE_BULLET_1": "Mingħajr traċċi.",
+      "SHARE_BULLET_2": "Privatibà Protetta",
+      "SHARE_BULLET_3": "Viżibbli darba waħda",
+      
+      "SHARE_ENCRYPTED_BY": "Ikun kriptat, sikur u protett minn Stellar Security",
+      
+      "SHARE_TEXTAREA_PLACEHOLDER": "Ikteb il-messaġġ sigriet tiegħek, password jew informazzjoni sensittiva *",
+      "SHARE_OPTIONS": "Għażliet",
+      
+      "SHARE_EMPTY": "Ibgħat vojt għal xejn.",
+      "SHARE_BUTTON": "Oħloq Link Sigriet",
+      
+      "CREATED_TITLE": "Is-Sigriet tiegħek ġie maħluq",
+      "CREATED_SUBTITLE": "Se juri biss darba waħda",
+      
+      "CREATED_TITLE_SHARE": "Kopja il-link jew aqsamha.",
+      "CREATED_BUTTON": "KOPJA",
+      "CREATED_CREATE_SECRET": "Oħloq Sigriet Ġdid",
+      "CREATED_BURNSECRET": "Ħassar is-Sigriet",
+      "URL_COPIED": "Il-URL ġie kopjat.",
+      
+      "VIEW_SECRET": "Ara s-Sigriet"
+    },
+    "CREATEDPAGE": {
+      "CREATEDPAGE": "Stellar Secret",
+      "HOW_IT_WORKS": "Kif jaħdem",
+      "DOWNLOAD_APP": "Niżżel l-App",
+      "CREATED_TITLE": "Is-Sigriet tiegħek ġie maħluq",
+      "CREATED_SUBTITLE": "Se juri biss darba waħda",
+      "CREATED_TITLE_SHARE": "Kopja il-link jew aqsamha.",
+      "CREATED_BUTTON": "KOPJA",
+      "CREATED_CREATE_SECRET": "Oħloq Sigriet Ġdid",
+      "CREATED_BURNSECRET": "Ħassar is-Sigriet",
+      "URL_COPIED": "Il-URL ġie kopjat."
+    },
+    "CONFIRMATION": {
+      "YOURE_GONNA_BURN_THIS_SECRET": "Se toħroġ dan is-sigriet",
+      "SECRET_UNAVAILABLE_TEXT": "Ma jkunx disponibbli aktar",
+      "BURN_FOREVER": "Ħassar għal Dejjem",
+      "CANCEL": "Ikkanċella"
+    },
+    "VIEW": {
+      "LOGO_TEXT": "Stellar Secret",
+      "HOW_IT_WORKS": "Kif jaħdem",
+      "DOWNLOAD_APP": "Niżżel l-App",
+      "WELCOME_MESSAGE": "Ħelow, irċevejt messaġġ sigriet!",
+      "INSTRUCTION": "Ikteb u ibgħat messaġġ, se jkun imnaddaf ladarba jiġi qrat.",
+      "SHOW_MESSAGE_ONCE": "Il-messaġġ li ġej se juri biss darba waħda",
+      "OPEN_SECRET_MESSAGE": "Oħloq Messaġġ Sigriet",
+      "INPUT_PASSPHRASE": "Idħol fil-Phrasa tal-Pass",
+      "PASS_PHRASE_PLACEHOLDER": "Phrasa tal-Pass",
+      "OPEN_SECRET_BUTTON": "Oħloq Messaġġ Sigriet",
+      "YOUR_SECRET_MESSAGE": "Il-Messaġġ Sigriet Tiegħek",
+      "COPY": "Kopja",
+      "MESSAGE_LABEL": "Messaġġ",
+      "REPLY": "Iwieġeb",
+      "DOWNLOAD_MESSAGE": "Niżżel Stellar Secret fuq il-mowbajl, oħloq il-messaġġi sigrieti tiegħek",
+      "WITHOUT_TRACE": "Mingħajr traċċi.",
+      "PRIVACY_PROTECTED": "Privatibà Protetta",
+      "ONE_TIME_VIEWABLE": "Viżibbli darba waħda",
+      "SECURITY_TEXT": "Ikun kriptat, sikur u protett minn ",
+      "SECURITY_TEXT2": "Stellar Security"
+    }
+  }
+  
