@@ -8,7 +8,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { TranslateHttpLoader } from './app.translate.loader'; 
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-import { ApplicationInsightsModule, AppInsightsService } from '@microsoft/applicationinsights-web';
+import { ApplicationInsightsModule } from '@microsoft/applicationinsights-web';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,6 +27,7 @@ export function createTranslateLoader(http: HttpClient) {
       useFactory: (createTranslateLoader),
       deps: [HttpClient]
     }
+
   }), ServiceWorkerModule.register('ngsw-worker.js', {
   enabled: !isDevMode(),
   // Register the ServiceWorker as soon as the application is stable
