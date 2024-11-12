@@ -8,7 +8,7 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
-    path: 'home',
+    path: '',
     redirectTo: '',
     pathMatch: 'full'
   },

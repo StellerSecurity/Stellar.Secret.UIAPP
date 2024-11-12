@@ -25,6 +25,8 @@ export class ViewPage implements OnInit {
     
     public openMessage = false;
 
+    public passwordProtected = false;
+
     constructor(private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
         
         this.activatedRoute.params.subscribe(
@@ -86,6 +88,8 @@ export class ViewPage implements OnInit {
                 this.secretModel = response;
                 if(this.secretModel.password === null) {
                     this.secretModel.password = "";
+                } else {
+                    this.passwordProtected = true;
                 }
 
                 if(this.secretModel.password.length == 0) {
