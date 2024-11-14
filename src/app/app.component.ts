@@ -1,9 +1,10 @@
-import { Component, NgZone } from '@angular/core';
+import { Component, Inject, NgZone, PLATFORM_ID } from '@angular/core';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { Router } from '@angular/router';
 import { App, URLOpenListenerEvent } from '@capacitor/app';
 import { Platform } from '@ionic/angular';
 import { TranslateService } from '@ngx-translate/core';
+import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -12,7 +13,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   selectedLanguage: string = 'en';
 
-  constructor(private router: Router, private zone: NgZone, public platform: Platform, private translate: TranslateService) {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object, private router: Router, private zone: NgZone, public platform: Platform, private translate: TranslateService) {
     // Set default language
     translate.setDefaultLang('en');
     // Use a language
@@ -50,6 +51,7 @@ export class AppComponent {
 
   setDefaultLanguage() {
     // Get browser language
+    if(isPlatformBrowser(this.platformId)){
     const browserLang = navigator.language.split('-')[0]; // Extract language code (e.g., 'en', 'fr')
     console.log(browserLang,'browserLang');
     
@@ -78,6 +80,7 @@ export class AppComponent {
 
     this.translate.setDefaultLang(this.selectedLanguage);
     this.translate.use(this.selectedLanguage);
+  }
   }
 
 }

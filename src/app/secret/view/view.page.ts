@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import {ActivatedRoute, Params, Router} from "@angular/router";
 import {SecretapiService} from "../../services/secretapi.service";
 
@@ -6,6 +6,7 @@ import {AlertController, LoadingController, ToastController} from '@ionic/angula
 import {Secret} from "../../models/secret";
 import * as CryptoJS from 'crypto-js';
 import {async} from "rxjs";
+import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-view',
   templateUrl: './view.page.html',
@@ -27,7 +28,9 @@ export class ViewPage implements OnInit {
 
     public passwordProtected = false;
 
-    constructor(private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
+    constructor(
+        @Inject(PLATFORM_ID) private platformId: Object,
+        private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
         
         this.activatedRoute.params.subscribe(
             (params: Params) => {
@@ -49,6 +52,7 @@ export class ViewPage implements OnInit {
         var copyText = this.secretModel.message;
 
         // Copy the text inside the text field
+        if(isPlatformBrowser(this.platformId)){
         await navigator.clipboard.writeText(copyText);
 
         const toast = await this.toastController.create({
@@ -58,6 +62,7 @@ export class ViewPage implements OnInit {
         });
 
         await toast.present();
+    }
     }
 
     public async openMessageBox(){

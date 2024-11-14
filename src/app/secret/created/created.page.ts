@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 import { SecretapiService } from "../../services/secretapi.service";
 import {LoadingController, ToastController, ModalController, Platform} from "@ionic/angular";
 import { Secret } from "../../models/secret";
 import { ConfirmationModalComponent } from './confirmation-modal.component';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-created',
@@ -18,7 +19,9 @@ export class CreatedPage {
 
   public secret: Secret = new Secret();
 
-  constructor(private router: Router,
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private router: Router,
               private modalCtrl: ModalController, private toastController: ToastController,
               private secretapi: SecretapiService,
               private loadingCtrl: LoadingController, private route: ActivatedRoute, private platform: Platform) {
@@ -35,6 +38,7 @@ export class CreatedPage {
     const copyText = this.url;
 
     // Copy the text inside the text field
+    if(isPlatformBrowser(this.platformId)){
     await navigator.clipboard.writeText(copyText);
 
     const toast = await this.toastController.create({
@@ -45,7 +49,7 @@ export class CreatedPage {
 
 
     await toast.present();
-
+  }
   }
 
   public createSecret() {
