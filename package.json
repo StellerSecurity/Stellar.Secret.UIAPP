@@ -11,7 +11,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "build:ssr": "ng build && ng run app:server",
-    "serve:ssr": "node dist/app/server/server.mjs"
+    "serve:ssr": "node dist/app/server/main.js",
+    "serve:ssr:app": "node dist/app/server/server.mjs"
   },
   "private": true,
   "dependencies": {
