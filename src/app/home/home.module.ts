@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { TranslateModule } from '@ngx-translate/core';
+import { MetaTagsDirective } from '../directives/meta-tags.directive';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { TranslateModule } from '@ngx-translate/core';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    TranslateModule
+    TranslateModule,
+    MetaTagsDirective
   ],
   declarations: [HomePage]
 })

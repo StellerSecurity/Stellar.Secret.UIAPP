@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { HowItWorksPageRoutingModule } from './how-it-works-routing.module';
 import { HowItWorksPage } from './how-it-works.page';
 import { TranslateModule } from '@ngx-translate/core';
+import { MetaTagsDirective } from '../directives/meta-tags.directive';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TranslateModule } from '@ngx-translate/core';
     FormsModule,
     IonicModule,
     HowItWorksPageRoutingModule,
-    TranslateModule
+    TranslateModule,
+    MetaTagsDirective
   ],
   declarations: [HowItWorksPage]
 })
