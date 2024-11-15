@@ -12,6 +12,7 @@ export class HowItWorksPage  implements OnInit {
   metaDescription:string = 'Learn how Stellar Secret ensures privacy with encrypted, end-to-end secure messaging. Send your confidential messages safely without a trace, keeping your data protected.';
   metaTitle:string = 'Privacy & Security: How It Works';
   metaKeywords:string = 'Encrypted messaging process, Secure message encryption, End-to-end encryption, Privacy without trace, Protect your personal data, How secure messaging works';
+  url: string = 'https://stellarsecret.io/how-it-works';
 
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang(this.selectedLanguage);

@@ -21,6 +21,7 @@ export class HomePage {
   metaDescription:string = 'Safely convert usernames, passwords, and personal details into secret messages with Stellar Secret. Protect your privacy and securely share confidential information.';
   metaTitle:string = 'Stellar Secret | Share a Secret Message';
   metaKeywords:string = 'Secret message generator, Secure message sharing, Encrypt personal information, Password protection, User data encryption, Private data sharing, Convert sensitive data';
+  url: string = 'https://stellarsecret.io/';
 
   public addSecretModal = new Secret();
 

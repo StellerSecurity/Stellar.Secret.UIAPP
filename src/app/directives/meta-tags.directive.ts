@@ -7,42 +7,43 @@ import { Title } from '@angular/platform-browser';
   selector: '[appMetaTags]',
   standalone: true
 })
-export class MetaTagsDirective implements OnInit, OnDestroy {
+export class MetaTagsDirective implements OnInit {
 
-  @Input() description: string | undefined;
-  @Input() title: string | undefined;
-  @Input() keywords: string | undefined;
+  @Input() title!: string;
+  @Input() description?: string;
+  @Input() keywords?: string;
+  @Input() image?: string;
+  @Input() url?: string;
 
-  constructor(private meta: Meta,private titleService: Title) { }
+  constructor(
+    private meta: Meta,
+    private titleService: Title
+  ){}
 
-  ngOnInit() {
-    this.addMetaTags();
+  ngOnInit(): void {
+      this.setMetaData();
   }
 
-  ngOnDestroy() {
-    this.removeMetaTags();
+  private setMetaData(){
+    this.titleService.setTitle(this.title);
+    this.meta.updateTag({ name: 'description', content: this.description || '' });
+    this.meta.updateTag({ name: 'keywords', content: this.keywords || '' });
+
+    //open graph (OG) tags
+    this.meta.updateTag({ property: 'og:site_name', content: 'Stellar Secret' });
+    this.meta.updateTag({ property: 'og:title', content: this.title || '' });
+    this.meta.updateTag({ property: 'og:description', content: this.description || '' });
+    this.meta.updateTag({ property: 'og:image', content: this.image  || '' });
+    this.meta.updateTag({ property: 'og:image:alt', content: 'Stellar Secret'});
+    this.meta.updateTag({ property: 'og:url', content: this.url  || '' });
+    this.meta.updateTag({ property: 'og:type', content: 'website' || '' });
+
+    //twitter card tags
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image'});
+    this.meta.updateTag({ name: 'twitter:title', content: this.title  || '' });
+    this.meta.updateTag({ name: 'twitter:description', content: this.description || ''  });
+    this.meta.updateTag({ name: 'twitter:image', content: this.image  || '' });
+    this.meta.updateTag({ property: 'twitter:url', content: this.url || '' })
   }
 
-  private addMetaTags() {
-    if (this.description) {
-      this.meta.addTag({ name: 'description', content: this.description });
-    }
-
-    if (this.title) {
-      this.titleService.setTitle(this.title);
-      this.meta.addTag({ property: 'og:title', content: this.title });
-    }
-    if (this.keywords) {
-      this.meta.addTag({ property: 'keywords', content: this.keywords });
-    }
-
-    // Add more meta tags as needed
-  }
-
-  private removeMetaTags() {
-    this.meta.removeTag('name="description"');
-    this.meta.removeTag('property="og:title"');
-    this.meta.removeTag('property="keywords"');
-    // Remove other meta tags as needed
-  }
 }
