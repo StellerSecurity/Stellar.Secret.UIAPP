@@ -13,6 +13,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'home',
+    redirectTo: '',
+    pathMatch: 'full'
+  },
+  {
     path: 'secret/created',
     loadChildren: () => import('./secret/created/created.module').then( m => m.CreatedPageModule)
   },
