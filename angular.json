@@ -63,6 +63,7 @@
                   "maximumError": "600kb"
                 }
               ],
+              "serviceWorker": "true",
               "outputHashing": "all"
             },
             "development": {
