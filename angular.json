@@ -44,6 +44,7 @@
             "styles": ["src/theme/variables.scss", "src/global.scss"],
             "scripts": [],
             "server": "src/main.server.ts",
+            "prerender": true,
             "ssr": {
               "entry": "server.ts"
             }
@@ -67,11 +68,7 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true,
-              "namedChunks": true
-            },
-            "ci": {
-              "progress": false
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"
@@ -106,9 +103,6 @@
             },
             "development": {
               "buildTarget": "app:build:development"
-            },
-            "ci": {
-              "progress": false
             }
           },
           "defaultConfiguration": "development"
