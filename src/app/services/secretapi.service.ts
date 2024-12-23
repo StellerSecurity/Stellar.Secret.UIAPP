@@ -39,7 +39,7 @@ export class SecretapiService {
       })
     };
 
-    return this.http.post<any>(environment.secret_api_url + "v1/secretcontroller/add", secret, httpOptions).pipe();
+    return this.http.post<any>(environment.secret_api_url + "v2/secretcontroller/add", secret, httpOptions).pipe();
 
   }
 

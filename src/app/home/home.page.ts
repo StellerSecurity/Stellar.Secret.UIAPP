@@ -63,6 +63,7 @@ export class HomePage {
       this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, secret_id).toString();
     } else {
       this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, this.addSecretModal.password).toString();
+      this.addSecretModal.password = sha512(this.addSecretModal.password).toString();
     }
 
     const loading = await this.loadingCtrl.create({
