@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "app": {
-      "projectType": "application",
+      "projectType": "applicaftion",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",

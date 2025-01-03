@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {LoadingController} from "@ionic/angular";
+import {AlertController, LoadingController} from "@ionic/angular";
 import {SecretapiService} from "../services/secretapi.service";
 import {Secret} from "../models/secret";
 import {Router} from "@angular/router";
@@ -30,7 +30,11 @@ export class HomePage {
   public burnerTimes = [1, 6, 24];
 
   public chosenBurnerTime = 0;
-  constructor(private loadingCtrl: LoadingController, private router: Router, private secretapi: SecretapiService,private translate: TranslateService) {
+  constructor(private loadingCtrl: LoadingController,
+              private alertController: AlertController,
+              private router: Router,
+              private secretapi: SecretapiService,
+              private translate: TranslateService) {
     this.translate.setDefaultLang(this.selectedLanguage);
   }
 
@@ -50,6 +54,12 @@ export class HomePage {
   public async createLink() {
 
     if(this.addSecretModal.message.length == 0) {
+      const alert = await this.alertController.create({
+        header: 'Error',
+        message: 'No message was added, please add and try again',
+        buttons: ['OK'],
+      });
+      await alert.present();
       return;
     }
 
@@ -58,31 +68,36 @@ export class HomePage {
     this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
 
-    // if no password is set, encrypt the message with the generated UUID.
-    if(this.addSecretModal.password.length == 0) {
-      this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, secret_id).toString();
-    } else {
-      this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, this.addSecretModal.password).toString();
-      this.addSecretModal.password = sha512(this.addSecretModal.password).toString();
+    // as default, we encrypt the message in DB, with the UUID id.
+    let encryptionKey = secret_id;
+
+    // PW was set, so we update encryptionKey with the User-defined-Password.
+    if(this.addSecretModal.password.length > 0) {
+      encryptionKey = sha512(this.addSecretModal.password).toString();
+      this.addSecretModal.password = sha512(encryptionKey).toString();
     }
 
-    const loading = await this.loadingCtrl.create({
-      message: 'Creating Secret..',
-    });
+    this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, encryptionKey).toString();
 
+    const loading = await this.loadingCtrl.create({message: 'Creating Secret..'});
     await loading.present();
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
-        this.addSecretModal = new Secret(); // reset
         await this.router.navigateByUrl("/secret/created?id=" + secret_id)
-        await loading.dismiss();
-    });
+    },
+    async error => {
+      const alert = await this.alertController.create({
+        header: 'Error',
+        message: 'Something went wrong. Please try again',
+        buttons: ['OK'],
+      });
+      await alert.present();
+    },
+        async () => {
+          await loading.dismiss();
+          this.addSecretModal = new Secret(); // reset
+        })
 
-  }
-
-  changeLanguage(event: any) {
-    this.selectedLanguage = event.detail.value;
-    this.translate.use(this.selectedLanguage);
   }
 
 }
