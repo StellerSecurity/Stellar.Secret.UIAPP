@@ -83,9 +83,11 @@ export class HomePage {
     await loading.present();
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
+        await loading.dismiss();
         await this.router.navigateByUrl("/secret/created?id=" + secret_id)
     },
     async error => {
+      await loading.dismiss();
       const alert = await this.alertController.create({
         header: 'Error',
         message: 'Something went wrong. Please try again',
