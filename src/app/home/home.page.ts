@@ -73,7 +73,7 @@ export class HomePage {
 
     // PW was set, so we update encryptionKey with the User-defined-Password.
     if(this.addSecretModal.password.length > 0) {
-      encryptionKey = sha512(this.addSecretModal.password).toString();
+      encryptionKey = this.addSecretModal.password;
       this.addSecretModal.password = sha512(encryptionKey).toString();
     }
 
