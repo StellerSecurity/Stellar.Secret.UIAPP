@@ -69,9 +69,6 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
-            },
-            "ci": {
-              "progress": false
             }
           },
           "defaultConfiguration": "production"
@@ -149,12 +146,6 @@
               "progress": false,
               "watch": false
             }
-          }
-        },
-        "lint": {
-          "builder": "@angular-eslint/builder:lint",
-          "options": {
-            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
