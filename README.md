@@ -1,10 +1,6 @@
 # Stellar.Secret.UIAPP
 
-The Stellar Secret application, https://stellarsecret.io and the android app.
-
-Can easily be converted to a iOS-app thanks to ionic-framework.
-
-## Run a Project on development mode in Local enviroment(Without SSR)
+### Run a project in development mode on the Local environment(Without SSR)
 
 Step 1: `cp angular.dev.json angular.json`
 
@@ -12,7 +8,7 @@ Step 2: `ionic serve`
 
 Go to in browser: http://localhost:8100/
 
-## Run a Project on development mode in Local enviroment(With SSR)
+### Run a Project in development mode on the Local environment(With SSR)
 
 Step 1: `cp angular.dev-ssr.json angular.json`
 
@@ -30,7 +26,7 @@ Go to in browser: http://localhost:4000/
 
 **Please note:** The above changes are temporary and meant for running the project in the local environment. There is no need to push these changes.
 
-## Run a Project on Server With SSR
+### Run a project on the Server With SSR
 
 Step 1: delete `dist` folder
 
