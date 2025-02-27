@@ -28,7 +28,7 @@ Step 6: `npm run serve:ssr:app`
 
 Go to in browser: http://localhost:4000/
 
-Please note: The above changes are temporary and meant for running the project in the local environment. There is no need to push these changes.
+**Please note:** The above changes are temporary and meant for running the project in the local environment. There is no need to push these changes.
 
 ## Run a Project on Server With SSR
 
