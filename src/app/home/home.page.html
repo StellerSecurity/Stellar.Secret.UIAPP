@@ -113,6 +113,11 @@
                     [(ngModel)]="addSecretModal.password"></ion-input><br>
                 </div>
               </div>
+
+
+                <input type="file" class="file-input" multiple (change)="onChangeFileUpload($event)" />
+
+
               <span class="blue-btn" (click)="createLink()">{{ 'HOME.SHARE_BUTTON' | translate }}</span>
             </div>
           </ion-col>
