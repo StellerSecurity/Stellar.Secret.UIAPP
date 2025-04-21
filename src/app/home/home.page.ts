@@ -73,7 +73,7 @@ export class HomePage {
           let base64encoded = reader.result;
           let secretFile = new SecretFile();
           secretFile.id = null; // will be set once 'create secret' is being clicked on.
-          secretFile.content = base64encoded?.toString();
+          secretFile.content = base64encoded?.toString(); // will be encrypted with the encryption-key once 'create secret' is being clicked on.
           this.secretFiles.push(secretFile);
         },
         false,
