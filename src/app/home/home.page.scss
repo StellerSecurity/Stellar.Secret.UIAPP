@@ -6,6 +6,20 @@ ion-header {
   background: #2761FC;
 }
 
+.attach-file {
+  color: blue;
+  cursor: pointer;
+}
+
+.delete-file {
+  color: red;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
 ion-toolbar {
   --background: transparent;
 

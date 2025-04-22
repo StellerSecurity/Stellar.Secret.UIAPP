@@ -41,10 +41,31 @@ export class ViewPage implements OnInit {
 
     }
 
-    ngOnInit(): void {
-        console.log('hi');
-        
+    base64ToFile(base64String: string, mimeType: string, fileName: string) {
+        // Remove data URL scheme if present
+        const base64Data = base64String.replace(/^data:.+;base64,/, '');
+        const byteCharacters = atob(base64Data); // Decode Base64 string
+        const byteNumbers = new Array(byteCharacters.length);
+
+        for (let i = 0; i < byteCharacters.length; i++) {
+            byteNumbers[i] = byteCharacters.charCodeAt(i);
+        }
+
+        const byteArray = new Uint8Array(byteNumbers);
+        const blob = new Blob([byteArray], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+
+        // Create a link element to download the file
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = fileName;
+        link.click();
+
+        // Cleanup
+        URL.revokeObjectURL(url);
     }
+
+    ngOnInit(): void {}
 
     public async copy() {
 
@@ -67,6 +88,7 @@ export class ViewPage implements OnInit {
 
     public async openMessageBox(){
         this.openMessage = true;
+
 
         this.loaded = false;
         const loading = await this.loadingCtrl.create({
@@ -99,6 +121,11 @@ export class ViewPage implements OnInit {
 
                 if(this.secretModel.password.length == 0) {
                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
+
+                   if(this.secretModel.files !== undefined && this.secretModel.files !== null) {
+                       this.secretModel.files[0].content = CryptoJS.AES.decrypt(this.secretModel.files[0].content, this.id).toString(CryptoJS.enc.Utf8);
+                   }
+
                    this.unlocked = true;
                 }
 
@@ -110,6 +137,17 @@ export class ViewPage implements OnInit {
 
         });
 
+    }
+
+    public downloadAttachedFile() {
+
+        if(this.secretModel.files !== undefined && this.secretModel.files !== null) {
+            let mime = this.secretModel.files[0].content.split(";");
+            mime[0] = mime[0].replace("data:", "");
+            this.base64ToFile(this.secretModel.files[0].content, mime[0], "File");
+        } else {
+            alert('Something went wrong')
+        }
     }
 
     public async unlockByPassword() {
@@ -127,6 +165,11 @@ export class ViewPage implements OnInit {
 
         } else {
             this.secretModel.message = decryptedMessage;
+
+            if(this.secretModel.files !== undefined && this.secretModel.files !== null) {
+                this.secretModel.files[0].content = CryptoJS.AES.decrypt(this.secretModel.files[0].content, this.inputPassword).toString(CryptoJS.enc.Utf8);
+            }
+
             this.unlocked = true;
         }
 

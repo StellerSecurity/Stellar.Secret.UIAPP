@@ -64,6 +64,16 @@ export class HomePage {
       return;
     }
 
+    if(this.secretFiles.length + 1 > 1) {
+      const alert = await this.alertController.create({
+        header: 'Error - max 1 file per secret.',
+        message: 'A secret can only include one file.',
+        buttons: ['OK'],
+      });
+      await alert.present();
+      return;
+    }
+
     const reader = new FileReader();
 
     this.secretFiles = [];
@@ -72,6 +82,7 @@ export class HomePage {
           // this will then display a text file
           let base64encoded = reader.result;
           let secretFile = new SecretFile();
+          secretFile.name = "File 1";
           secretFile.id = null; // will be set once 'create secret' is being clicked on.
           secretFile.content = base64encoded?.toString(); // will be encrypted with the encryption-key once 'create secret' is being clicked on.
           this.secretFiles.push(secretFile);
@@ -81,6 +92,14 @@ export class HomePage {
 
     reader.readAsDataURL(file);
 
+  }
+
+  /**
+   * Currently, we only support 1 file for upload, so index not needed atm.
+   * @param index
+   */
+  public removeFile(index: number) {
+    this.secretFiles = [];
   }
 
   public setBurnerTime(burnerTime: number) {
