@@ -158,7 +158,7 @@ export class HomePage {
       await loading.dismiss();
       const alert = await this.alertController.create({
         header: 'Error',
-        message: 'Something went wrong. Please try again',
+        message: 'Something went wrong. Please try again. If you included a file, the limit is ' + this.MAX_FILE_SIZE_MB + ' MB.',
         buttons: ['OK'],
       });
       await alert.present();
