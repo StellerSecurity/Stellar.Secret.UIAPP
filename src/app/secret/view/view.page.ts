@@ -145,7 +145,7 @@ export class ViewPage implements OnInit {
             let mime = this.secretModel.files[0].content.split(";");
             mime[0] = mime[0].replace("data:", "");
             // TODO: MAYBE USE THE ORIGINAL FILE-NAME THE SENDER ADDED?
-            let randomNumber = getRandomNumber(9999, 999999)
+            let randomNumber = Math.random() * (999999999 - 9999) + 9999;
             this.base64ToFile(this.secretModel.files[0].content, mime[0], "File-" + randomNumber);
         } else {
             alert('Something went wrong')
