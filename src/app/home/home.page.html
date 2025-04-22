@@ -113,6 +113,21 @@
                     [(ngModel)]="addSecretModal.password"></ion-input><br>
                 </div>
               </div>
+
+                <div *ngIf="secretFiles.length > 0">
+                    <strong>Attached Files:</strong><br><br>
+                    <span *ngFor="let secretFile of secretFiles; let i = index">
+                    <ion-icon name="document-outline"></ion-icon> {{secretFile.name}} (<span class="delete-file" (click)="removeFile(i)">remove</span>)<br>
+                    </span><br>
+                </div>
+
+                <span class="attach-file" (click)="fileInput.click()">
+                    <ion-icon name="cloud-upload-outline"></ion-icon> Attach file (max 15 MB)
+                </span><br><br>
+
+                <input type="file" #fileInput class="file-input" multiple (change)="onChangeFileUpload($event)" />
+
+
               <span class="blue-btn" (click)="createLink()">{{ 'HOME.SHARE_BUTTON' | translate }}</span>
             </div>
           </ion-col>
