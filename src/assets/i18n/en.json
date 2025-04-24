@@ -144,22 +144,7 @@
     "ONE_TIME_VIEWABLE": "One-time viewable",
     "SECURITY_TEXT": "Encrypted, secured and protected by ",
     "SECURITY_TEXT2":"Stellar Security"
-  },
-  "ERROR": "Error",
-  "OK": "OK",
-  "NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN": "No message or File was added, please add and try again",
-  "FILE_IS_TOO_BIG_MAX_SIZE_IS": "File is too big. Max size is",
-  "MB_FILE_WAS_NOT_ADDED": "MB. File was not added.",
-  "ERROR_MAX_1_FILE_PER_SECRET": "Error - max 1 file per secret.",
-  "A_SECRET_CAN_ONLY_INCLUDE_ONE_FILE": "A secret can only include one file.",
-  "CREATING_SECRET": "Creating Secret..",
-  "SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS": "Something went wrong. Please try again. If you included a file, the limit is",
-  "MB": "MB.",
-  "THE_SECRET_URL_HAS_BEEN_COPIED": "The Secret URL has been copied.",
-  "BURNING_SECRET": "Burning secret...",
-  "THE_MESSAGE_HAS_BEEN_COPIED": "The message has been copied.",
-  "SECRET_ERROR": "Secret error",
-  "THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED": "The Secret Link does not exist or has already been viewed.",
-  "SOMETHING_WENT_WRONG": "Something went wrong",
-  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "The password is not correct. Try again."
+  }
+
+  
 }

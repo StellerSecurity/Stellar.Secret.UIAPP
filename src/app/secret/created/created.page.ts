@@ -5,7 +5,6 @@ import {LoadingController, ToastController, ModalController, Platform} from "@io
 import { Secret } from "../../models/secret";
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { isPlatformBrowser } from '@angular/common';
-import { TranslationService } from 'src/app/services/translation.service';
 
 @Component({
   selector: 'app-created',
@@ -25,8 +24,7 @@ export class CreatedPage {
     private router: Router,
               private modalCtrl: ModalController, private toastController: ToastController,
               private secretapi: SecretapiService,
-              private loadingCtrl: LoadingController, private route: ActivatedRoute, private platform: Platform,
-              private translationService: TranslationService) {
+              private loadingCtrl: LoadingController, private route: ActivatedRoute, private platform: Platform) {
     this.route.queryParams.subscribe(async params => {
       this.id = params['id'];
       this.url = "https://stellarsecret.io/" + this.id;
@@ -44,7 +42,7 @@ export class CreatedPage {
     await navigator.clipboard.writeText(copyText);
 
     const toast = await this.toastController.create({
-      message: this.translationService.allTranslations.THE_SECRET_URL_HAS_BEEN_COPIED,
+      message: 'The Secret URL has been copied.',
       duration: 3000,
       position: 'bottom'
     });
@@ -70,7 +68,7 @@ export class CreatedPage {
         if (confirm) {
           // User confirmed deletion, proceed with deletion logic
           const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.BURNING_SECRET,
+            message: 'Burning secret...',
           });
 
           await loading.present();

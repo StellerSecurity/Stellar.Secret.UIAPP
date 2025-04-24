@@ -8,10 +8,9 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { TranslateHttpLoader } from './app.translate.loader'; 
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-import { TranslationService } from './services/translation.service';
 
-export function createTranslateLoader(http: HttpClient, translationService: TranslationService) {
-  return new TranslateHttpLoader(http, translationService);
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http);
 }
 
 @NgModule({
@@ -23,7 +22,7 @@ export function createTranslateLoader(http: HttpClient, translationService: Tran
     loader: {
       provide: TranslateLoader,
       useFactory: (createTranslateLoader),
-      deps: [HttpClient, TranslationService]
+      deps: [HttpClient]
     }
 
   }), ServiceWorkerModule.register('ngsw-worker.js', {

@@ -7,7 +7,6 @@ import {Secret} from "../../models/secret";
 import * as CryptoJS from 'crypto-js';
 import {async} from "rxjs";
 import { isPlatformBrowser } from '@angular/common';
-import { TranslationService } from 'src/app/services/translation.service';
 @Component({
   selector: 'app-view',
   templateUrl: './view.page.html',
@@ -31,8 +30,7 @@ export class ViewPage implements OnInit {
 
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,
-        private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute,
-        private translationService: TranslationService) {
+        private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute) {
         
         this.activatedRoute.params.subscribe(
             (params: Params) => {
@@ -79,7 +77,7 @@ export class ViewPage implements OnInit {
         await navigator.clipboard.writeText(copyText);
 
         const toast = await this.toastController.create({
-            message: this.translationService.allTranslations.THE_MESSAGE_HAS_BEEN_COPIED,
+            message: 'The message has been copied.',
             duration: 3000,
             position: 'top'
         });
@@ -94,7 +92,7 @@ export class ViewPage implements OnInit {
 
         this.loaded = false;
         const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.BURNING_SECRET
+            message: 'Getting secret...'
         });
 
         await loading.present();
@@ -105,9 +103,9 @@ export class ViewPage implements OnInit {
             if(response.response_code !== 200) {
 
                 const alert = await this.alertController.create({
-                    header: this.translationService.allTranslations.SECRET_ERROR,
-                    message: this.translationService.allTranslations.THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED,
-                    buttons: [this.translationService.allTranslations.OK],
+                    header: 'Secret error',
+                    message: 'The Secret Link does not exist or has already been viewed.',
+                    buttons: ['OK'],
                 });
 
                 await alert.present();
@@ -150,7 +148,7 @@ export class ViewPage implements OnInit {
             let randomNumber =  Math.floor(Math.random() * (999999999 - 9999) + 9999);
             this.base64ToFile(this.secretModel.files[0].content, mime[0], "File-" + randomNumber);
         } else {
-            alert(this.translationService.allTranslations.SOMETHING_WENT_WRONG)
+            alert('Something went wrong')
         }
     }
 
@@ -160,9 +158,9 @@ export class ViewPage implements OnInit {
 
         if (decryptedMessage.length === 0) {
             const alert = await this.alertController.create({
-                header: this.translationService.allTranslations.SECRET_ERROR,
-                message: this.translationService.allTranslations.THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN,
-                buttons: [this.translationService.allTranslations.OK],
+                header: 'Secret error',
+                message: 'The password is not correct. Try again.',
+                buttons: ['OK'],
             });
 
             await alert.present();
