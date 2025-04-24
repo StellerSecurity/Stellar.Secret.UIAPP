@@ -10,6 +10,7 @@ import * as CryptoJS from 'crypto-js';
 import { TranslateService } from '@ngx-translate/core';
 import {SecretFile} from "../models/secretfile";
 import {reader} from "ionicons/icons";
+import { TranslationService } from '../services/translation.service';
 
 @Component({
   selector: 'app-home',
@@ -40,7 +41,8 @@ export class HomePage {
               private alertController: AlertController,
               private router: Router,
               private secretapi: SecretapiService,
-              private translate: TranslateService) {
+              private translate: TranslateService,
+              private translationService: TranslationService) {
     this.translate.setDefaultLang(this.selectedLanguage);
   }
 
@@ -56,9 +58,9 @@ export class HomePage {
 
     if(totalSizeMB > this.MAX_FILE_SIZE_MB) {
       const alert = await this.alertController.create({
-        header: 'Error',
-        message: 'File is too big. Max size is ' + this.MAX_FILE_SIZE_MB + ' MB. File was not added.',
-        buttons: ['OK'],
+        header: this.translationService.allTranslations.ERROR,
+        message: this.translationService.allTranslations.FILE_IS_TOO_BIG_MAX_SIZE_IS + ' ' + this.MAX_FILE_SIZE_MB + ' ' + this.translationService.allTranslations.MB_FILE_WAS_NOT_ADDED,
+        buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
       return;
@@ -66,9 +68,9 @@ export class HomePage {
 
     if(this.secretFiles.length + 1 > 1) {
       const alert = await this.alertController.create({
-        header: 'Error - max 1 file per secret.',
-        message: 'A secret can only include one file.',
-        buttons: ['OK'],
+        header: this.translationService.allTranslations.ERROR_MAX_1_FILE_PER_SECRET,
+        message: this.translationService.allTranslations.A_SECRET_CAN_ONLY_INCLUDE_ONE_FILE,
+        buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
       return;
@@ -115,9 +117,9 @@ export class HomePage {
 
     if(this.addSecretModal.message.length == 0 && this.secretFiles.length == 0) {
       const alert = await this.alertController.create({
-        header: 'Error',
-        message: 'No message or File was added, please add and try again',
-        buttons: ['OK'],
+        header: this.translationService.allTranslations.ERROR,
+        message: this.translationService.allTranslations.NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
+        buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
       return;
@@ -147,7 +149,7 @@ export class HomePage {
     }
 
     // api
-    const loading = await this.loadingCtrl.create({message: 'Creating Secret..'});
+    const loading = await this.loadingCtrl.create({message: this.translationService.allTranslations.CREATING_SECRET});
     await loading.present();
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
@@ -157,9 +159,9 @@ export class HomePage {
     async error => {
       await loading.dismiss();
       const alert = await this.alertController.create({
-        header: 'Error',
-        message: 'Something went wrong. Please try again. If you included a file, the limit is ' + this.MAX_FILE_SIZE_MB + ' MB.',
-        buttons: ['OK'],
+        header: this.translationService.allTranslations.ERROR,
+        message: this.translationService.allTranslations.SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS + ' ' + this.MAX_FILE_SIZE_MB + ' ' + this.translationService.allTranslations.MB,
+        buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
     },
