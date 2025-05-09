@@ -1,27 +1,48 @@
 import { Directive, Input, OnInit, OnDestroy } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { Title } from '@angular/platform-browser';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { Subscription, filter, map, mergeMap } from 'rxjs';
 
 
 @Directive({
   selector: '[appMetaTags]',
   standalone: true
 })
-export class MetaTagsDirective implements OnInit {
+export class MetaTagsDirective implements OnInit, OnDestroy {
 
   @Input() title!: string;
   @Input() description?: string;
   @Input() keywords?: string;
   @Input() image?: string;
   @Input() url?: string;
+  subscriptions: Subscription[] = [];
 
   constructor(
     private meta: Meta,
-    private titleService: Title
+    private titleService: Title,
+    private router: Router,
+    private route: ActivatedRoute,
   ){}
 
   ngOnInit(): void {
       this.setMetaData();
+
+      this.subscriptions.push( this.router.events.pipe(
+        filter(event => event instanceof NavigationEnd),
+        map(() => this.route),
+        map(route => {
+          while (route.firstChild) route = route.firstChild;
+          return route;
+        }),
+        mergeMap(route => route.data)
+      ).subscribe(data => {
+        this.titleService.setTitle(this.title);
+      }));
+  }
+
+  ngOnDestroy(): void {
+      this.subscriptions.forEach(s => s.unsubscribe())
   }
 
   private setMetaData(){
