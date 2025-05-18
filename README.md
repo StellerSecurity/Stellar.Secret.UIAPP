@@ -1,5 +1,7 @@
 # Stellar.Secret.UIAPP
 
+This is the user-interface for https://stellarsecret.io/ you can run the project locally simply by following the guide below.
+
 ### Run a project in development mode on the Local environment(Without SSR)
 
 Step 1: `cp angular.dev.json angular.json`

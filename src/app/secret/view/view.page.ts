@@ -36,7 +36,6 @@ export class ViewPage implements OnInit {
         
         this.activatedRoute.params.subscribe(
             (params: Params) => {
-                console.log(params['id']);
                 this.id = params['id'];
             }
         )
@@ -76,7 +75,7 @@ export class ViewPage implements OnInit {
 
         // Copy the text inside the text field
         if(isPlatformBrowser(this.platformId)){
-        await navigator.clipboard.writeText(copyText);
+            await navigator.clipboard.writeText(copyText);
 
         const toast = await this.toastController.create({
             message: this.translationService.allTranslations.THE_MESSAGE_HAS_BEEN_COPIED,
@@ -84,8 +83,9 @@ export class ViewPage implements OnInit {
             position: 'top'
         });
 
-        await toast.present();
-    }
+
+            await toast.present();
+        }
     }
 
     public async openMessageBox(){
@@ -132,6 +132,7 @@ export class ViewPage implements OnInit {
                 }
 
                 setTimeout(async () => {
+                    this.clear();
                     await this.router.navigateByUrl("/");
                 }, 300000);
 
@@ -180,7 +181,12 @@ export class ViewPage implements OnInit {
     }
 
     public reply() {
+        this.clear();
         this.router.navigate(['/']).then(r => {})
+    }
+
+    private clear() {
+        this.secretModel = new Secret();
     }
 
 }
