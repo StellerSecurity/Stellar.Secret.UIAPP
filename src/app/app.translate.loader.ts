@@ -9,7 +9,8 @@ export class TranslateHttpLoader implements TranslateLoader {
   constructor(private http: HttpClient, private translationService: TranslationService) {}
 
   getTranslation(lang: string): Observable<any> {
-    return this.http.get(`/assets/i18n/${lang}.json`).pipe(
+    //return this.http.get(`/assets/i18n/${lang}.json`).pipe(
+      return this.http.get(`/assets/i18n/en.json`).pipe(
       map((response: any) => {
         this.translationService.allTranslations = response;
         return response;
