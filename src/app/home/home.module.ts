@@ -7,6 +7,7 @@ import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
 import { TranslateModule } from '@ngx-translate/core';
 import { MetaTagsDirective } from '../directives/meta-tags.directive';
+import { FooterComponent } from '../app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { MetaTagsDirective } from '../directives/meta-tags.directive';
     IonicModule,
     HomePageRoutingModule,
     TranslateModule,
-    MetaTagsDirective
+    MetaTagsDirective,
+    FooterComponent
   ],
   declarations: [HomePage]
 })
