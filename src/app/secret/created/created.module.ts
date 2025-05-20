@@ -9,6 +9,7 @@ import { CreatedPageRoutingModule } from './created-routing.module';
 import { CreatedPage } from './created.page';
 import { TranslateModule } from '@ngx-translate/core';
 import { ConfirmationModalComponent } from './confirmation-modal.component';
+import { FooterComponent } from 'src/app/app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { ConfirmationModalComponent } from './confirmation-modal.component';
     FormsModule,
     IonicModule,
     CreatedPageRoutingModule,
-    TranslateModule
+    TranslateModule,
+    FooterComponent
   ],
   declarations: [CreatedPage,ConfirmationModalComponent]
 })
