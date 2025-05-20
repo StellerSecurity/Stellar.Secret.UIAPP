@@ -145,6 +145,7 @@
     "SECURITY_TEXT": "Encrypted, secured and protected by ",
     "SECURITY_TEXT2":"Stellar Security"
   },
+
   "ERROR": "Error",
   "OK": "OK",
   "NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN": "No message or File was added, please add and try again",
