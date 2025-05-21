@@ -101,3 +101,26 @@ ion-header ion-toolbar {
     }
   }
 }
+
+
+.custom-popover::part(content) {
+  border-radius: 20px !important;
+  overflow: hidden;
+  --offset-y: 20px; /* Shift popover 20px further down */
+}
+
+.popover-inner-content {
+  --background: transparent;
+}
+
+.store-links {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.store-links img {
+  width: 100%;
+  height: auto;
+}

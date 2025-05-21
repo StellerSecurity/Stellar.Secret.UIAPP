@@ -43,18 +43,26 @@
     </ion-toolbar>
   </ion-header>
   
-  <ion-popover trigger="click-trigger" triggerAction="click">
-    <ng-template>
-      <ion-content class="ion-padding">
-        {{ 'HOME.SHARE_DESCRIPTION_PART_1' | translate }}<br><br>
-        <a href="https://play.google.com/store/apps/details?id=stellar.secret.app" target="_blank">
-          <img style="height: 74px; width: 100%" src="assets/playstore.png">
-        </a>
-        <a href="https://auroraoss.com/" target="_blank">
-          <img style="height: 74px; width: 100%" src="assets/aurora.jpg">
-        </a>
-      </ion-content>
-    </ng-template>
+  <ion-popover
+    trigger="click-trigger"
+    triggerAction="click"
+    side="bottom"
+    alignment="end"
+    cssClass="custom-popover"
+    [showBackdrop]="true"
+    [translucent]="true">
+      <ng-template>
+        <ion-content class="popover-inner-content">
+          <div class="store-links">
+            <a href="https://play.google.com/store/apps/details?id=stellar.secret.app" target="_blank">
+              <img src="assets/google-play-download.png" alt="Google Play" />
+            </a>
+            <a href="https://auroraoss.com/" target="_blank">
+              <img src="assets/aurora-store-download.png" alt="Aurora Store" />
+            </a>
+          </div>
+        </ion-content>
+      </ng-template>
   </ion-popover>
   
   <ion-content [fullscreen]="false" class="main-sec">
