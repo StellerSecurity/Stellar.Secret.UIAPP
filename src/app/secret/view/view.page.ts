@@ -28,6 +28,10 @@ export class ViewPage implements OnInit {
     public openMessage = false;
 
     public passwordProtected = false;
+    public url: string = "";
+    metaDescription:string = '';
+    metaTitle:string = 'Stellar Secret';
+    metaKeywords:string = '';
 
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,
