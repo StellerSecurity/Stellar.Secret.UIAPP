@@ -29,10 +29,10 @@
                 </ion-col>
 
                 <ion-col size-sm="6" size-xs="6" class="download-btn">
-                  <span (click)="openPopover($event)">
+                  <ion-button (click)="openPopover($event)" style="display: flex;" class="ion-align-items-center">
                     <img src="/assets/icon/download-icon.svg">
-                    {{ 'HOME.DOWNLOAD_APP' | translate }}
-                  </span>
+                    <span>{{ 'HOME.DOWNLOAD_APP' | translate }}</span>
+                  </ion-button>
                 </ion-col>
 
               </ion-row>
