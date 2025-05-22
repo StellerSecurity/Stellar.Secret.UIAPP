@@ -106,7 +106,7 @@ ion-header ion-toolbar {
 .custom-popover::part(content) {
   border-radius: 20px !important;
   overflow: hidden !important;
-  --offset-y: 20px!important; /* Shift popover 20px further down */
+  --offset-y: 20px!important;
 }
 
 .popover-inner-content {
@@ -115,7 +115,7 @@ ion-header ion-toolbar {
 }
 
 .store-links {
-  padding: 25px;
+  padding: 25px 25px 23px;
   display: flex;
   flex-direction: column;
   gap: 15px;

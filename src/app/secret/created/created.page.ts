@@ -18,7 +18,7 @@ export class CreatedPage {
 
   public url: string = "";
   metaDescription:string = '';
-  metaTitle:string = 'Stellar Secret';
+  metaTitle:string = 'Created Secret Message - Stellar Secret';
   metaKeywords:string = '';
 
   public secret: Secret = new Secret();

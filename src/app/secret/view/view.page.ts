@@ -30,7 +30,7 @@ export class ViewPage implements OnInit {
     public passwordProtected = false;
     public url: string = "";
     metaDescription:string = '';
-    metaTitle:string = 'Stellar Secret';
+    metaTitle:string = 'Secret Message - Stellar Secret';
     metaKeywords:string = '';
 
     constructor(
@@ -98,7 +98,7 @@ export class ViewPage implements OnInit {
 
         this.loaded = false;
         const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.BURNING_SECRET
+            message: this.translationService.allTranslations.GETTING_SECRET
         });
 
         await loading.present();

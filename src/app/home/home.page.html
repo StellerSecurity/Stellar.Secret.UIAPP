@@ -49,14 +49,14 @@
                   <br><br>
                   <span>{{ 'HOME.SHARE_BURNER_TIME' | translate }}</span><br><br>
                   <ion-grid class="grid options-grids">
-                    <ion-col *ngFor="let burnerTime of burnerTimes">
+                    <ion-col *ngFor="let burnerTime of burnerTimes" style="padding: 5px!important;">
                       <span (click)="setBurnerTime(burnerTime)" class="timer-option"
                         [ngClass]="{active: chosenBurnerTime === burnerTime}">
                         {{burnerTime}} hours
                       </span>
                     </ion-col>
                   </ion-grid><br>
-                  <ion-input autocomplete="off" [placeholder]="'HOME.SHARE_PASS_PHRASE' | translate" type="password"
+                  <ion-input class="passphrase-input" autocomplete="off" [placeholder]="'HOME.SHARE_PASS_PHRASE' | translate" type="password"
                     [(ngModel)]="addSecretModal.password"></ion-input><br>
                 </div>
               </div>
