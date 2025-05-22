@@ -28,6 +28,10 @@ export class ViewPage implements OnInit {
     public openMessage = false;
 
     public passwordProtected = false;
+    public url: string = "";
+    metaDescription:string = '';
+    metaTitle:string = 'Secret Message - Stellar Secret';
+    metaKeywords:string = '';
 
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,
@@ -94,7 +98,7 @@ export class ViewPage implements OnInit {
 
         this.loaded = false;
         const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.BURNING_SECRET
+            message: this.translationService.allTranslations.GETTING_SECRET
         });
 
         await loading.present();

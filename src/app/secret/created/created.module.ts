@@ -10,6 +10,7 @@ import { CreatedPage } from './created.page';
 import { TranslateModule } from '@ngx-translate/core';
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { FooterComponent } from 'src/app/app/components/footer/footer.component';
+import { HeaderComponent } from "../../app/components/header/header.component";
 
 @NgModule({
   imports: [
@@ -18,8 +19,9 @@ import { FooterComponent } from 'src/app/app/components/footer/footer.component'
     IonicModule,
     CreatedPageRoutingModule,
     TranslateModule,
-    FooterComponent
-  ],
+    FooterComponent,
+    HeaderComponent
+],
   declarations: [CreatedPage,ConfirmationModalComponent]
 })
 export class CreatedPageModule {}
