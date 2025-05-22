@@ -4,8 +4,8 @@
     "HOW_IT_WORKS": "How it works",
     "DOWNLOAD_APP": "Download App",
     
-    "ONE_TIME_SECRET_MESSAGING_TITLE": "One-Time Secret Messaging",
-    "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Share secrets, and poof—they're gone!",
+    "ONE_TIME_SECRET_MESSAGING_TITLE": "A new way to share sensitive information.",
+    "ONE_TIME_SECRET_MESSAGING_SUBTITLE": "Share one time viewable secrets. Poof—they're gone! This is Stellar Secret.",
     
     "ENCRYPTED_PROTECTED_BY": "Encrypted, secured and protected by Stellar Security",
     "WITHOUT_TRACE_TITLE": "Without a trace",
@@ -24,8 +24,8 @@
     
     "COMPANY_LOGO_ALT": "Company Logo",
     
-    "SHARE_TITLE": "Share a onetime secret message",
-    "SHARE_DESCRIPTION_PART_1": "Write and send message, it will be",
+    "SHARE_TITLE": "Share a one time secret message",
+    "SHARE_DESCRIPTION_PART_1": "Write and send a one time message, it will be",
     "SHARE_DESCRIPTION_PART_2": "deleted once read.",
     
     "SHARE_BULLET_1": "Without a trace.",
@@ -44,7 +44,7 @@
     "CREATED_SUBTITLE": "It will be shown only once",
     
     "CREATED_TITLE_SHARE": "Copy link or share it.",
-    "CREATED_BUTTON": "COPY",
+    "CREATED_BUTTON": "COPY LINK",
     "CREATED_CREATE_SECRET": "Create New Secret",
     "CREATED_BURNSECRET": "Burn Secret",
     "URL_COPIED": "The URL has been copied.",
@@ -98,7 +98,7 @@
   "CREATED_SUBTITLE": "It will be shown only once",
   
   "CREATED_TITLE_SHARE": "Copy link or share it.",
-  "CREATED_BUTTON": "COPY",
+  "CREATED_BUTTON": "COPY LINK",
   "CREATED_CREATE_SECRET": "Create New Secret",
   "CREATED_BURNSECRET": "Burn Secret",
   "URL_COPIED": "The URL has been copied.",
@@ -110,7 +110,7 @@
     "HOW_IT_WORKS": "How it works",
     "DOWNLOAD_APP": "Download App",
     "CREATED_TITLE": "Your Secret was created",
-    "CREATED_SUBTITLE": "It will be shown only once",
+    "CREATED_SUBTITLE": "The receiver can only see it once.",
     "CREATED_TITLE_SHARE": "Copy link or share it.",
     "CREATED_BUTTON": "COPY",
     "CREATED_CREATE_SECRET": "Create New Secret",
@@ -128,7 +128,7 @@
     "HOW_IT_WORKS": "How it works",
     "DOWNLOAD_APP": "Download App",
     "WELCOME_MESSAGE": "Hi there, you received a secret message!",
-    "INSTRUCTION": "Keep sensitive info out of your email and chat logs. Share a onetime secret.",
+    "INSTRUCTION": "Keep sensitive info out of your email and chat logs. Share a one time secret.",
     "SHOW_MESSAGE_ONCE": "The following message will be shown only once",
     "OPEN_SECRET_MESSAGE": "Open Secret Message",
     "INPUT_PASSPHRASE": "Input Passphrase",
