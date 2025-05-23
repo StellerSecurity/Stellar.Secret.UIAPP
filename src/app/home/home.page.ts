@@ -104,6 +104,11 @@ export class HomePage {
     this.secretFiles = [];
   }
 
+  ionViewWillEnter(){
+    this.secretFiles = [];
+    this.addSecretModal = new Secret();
+  }
+
   public setBurnerTime(burnerTime: number) {
 
     if(burnerTime === this.chosenBurnerTime) {
