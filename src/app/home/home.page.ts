@@ -130,6 +130,9 @@ export class HomePage {
       return;
     }
 
+    const loading = await this.loadingCtrl.create({message: this.translationService.allTranslations.CREATING_SECRET});
+    await loading.present();
+
     let secret_id = uuid();
 
     this.addSecretModal.id = sha512(secret_id);
@@ -153,9 +156,6 @@ export class HomePage {
       this.addSecretModal.files = this.secretFiles;
     }
 
-    // api
-    const loading = await this.loadingCtrl.create({message: this.translationService.allTranslations.CREATING_SECRET});
-    await loading.present();
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
         await loading.dismiss();
