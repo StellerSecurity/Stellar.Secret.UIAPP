@@ -9,6 +9,7 @@ import { HowItWorksPage } from './how-it-works.page';
 import { TranslateModule } from '@ngx-translate/core';
 import { MetaTagsDirective } from '../directives/meta-tags.directive';
 import { FooterComponent } from '../app/components/footer/footer.component';
+import { HeaderComponent } from "../app/components/header/header.component";
 
 
 @NgModule({
@@ -19,8 +20,9 @@ import { FooterComponent } from '../app/components/footer/footer.component';
     HowItWorksPageRoutingModule,
     TranslateModule,
     MetaTagsDirective,
-    FooterComponent
-  ],
+    FooterComponent,
+    HeaderComponent
+],
   declarations: [HowItWorksPage]
 })
 export class HowItWorksPageModule {}

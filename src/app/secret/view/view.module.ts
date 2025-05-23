@@ -9,6 +9,7 @@ import { ViewPageRoutingModule } from './view-routing.module';
 import { ViewPage } from './view.page';
 import { TranslateModule } from '@ngx-translate/core';
 import { FooterComponent } from 'src/app/app/components/footer/footer.component';
+import { HeaderComponent } from "../../app/components/header/header.component";
 
 
 @NgModule({
@@ -18,8 +19,9 @@ import { FooterComponent } from 'src/app/app/components/footer/footer.component'
     IonicModule,
     ViewPageRoutingModule,
     TranslateModule,
-    FooterComponent
-  ],
+    FooterComponent,
+    HeaderComponent
+],
   declarations: [ViewPage]
 })
 export class ViewPageModule {}
