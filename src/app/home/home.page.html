@@ -1,61 +1,8 @@
-<ion-header [translucent]="false"
-  appMetaTags 
-  [title]="metaTitle" 
-  [description]="metaDescription" 
-  [keywords]="metaKeywords"
-  [url]="url"
->
-    <ion-toolbar>
-      <ion-title>
-        <div class="container">
-          <ion-row>
-            <ion-col size-sm="6" size-xs="6">
-              <div class="left logo">
-                <ion-button routerLink="/">
-                  <img src="/assets/icon/secret_icon_white.png"> 
-                  <span>{{ 'HOME.HEADER_TITLE' | translate }}</span>
-                </ion-button>
-              </div>
-            </ion-col>
-            <ion-col size-sm="6" size-xs="6">
-              <div class="right">
-                <ion-row>
-                   
-                  <ion-col size-sm="6" size-xs="12">
-                    <ion-button routerLink="/how-it-works">
-                      <img src="/assets/icon/tabler-icon-info-circle.svg"> 
-                      <span>{{ 'HOME.HOW_IT_WORKS' | translate }}</span>
-                    </ion-button>
-                  </ion-col>
-                  
-                  <ion-col size-sm="6" size-xs="6" class="download-btn">
-                    <span id="click-trigger">
-                      <img src="/assets/icon/download-icon.svg">
-                      {{ 'HOME.DOWNLOAD_APP' | translate }}
-                    </span>
-                  </ion-col>
-                </ion-row>
-              </div>
-            </ion-col>
-          </ion-row>
-        </div>
-      </ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
-  <ion-popover trigger="click-trigger" triggerAction="click">
-    <ng-template>
-      <ion-content class="ion-padding">
-        {{ 'HOME.SHARE_DESCRIPTION_PART_1' | translate }}<br><br>
-        <a href="https://play.google.com/store/apps/details?id=stellar.secret.app" target="_blank">
-          <img style="height: 74px; width: 100%" src="assets/playstore.png">
-        </a>
-        <a href="https://auroraoss.com/" target="_blank">
-          <img style="height: 74px; width: 100%" src="assets/aurora.jpg">
-        </a>
-      </ion-content>
-    </ng-template>
-  </ion-popover>
+<app-header [title]="metaTitle" 
+[description]="metaDescription" 
+[keywords]="metaKeywords"
+[url]="url">
+</app-header>
   
   <ion-content [fullscreen]="false" class="main-sec">
     <div class="container">
@@ -102,14 +49,14 @@
                   <br><br>
                   <span>{{ 'HOME.SHARE_BURNER_TIME' | translate }}</span><br><br>
                   <ion-grid class="grid options-grids">
-                    <ion-col *ngFor="let burnerTime of burnerTimes">
+                    <ion-col *ngFor="let burnerTime of burnerTimes" style="padding: 5px!important;">
                       <span (click)="setBurnerTime(burnerTime)" class="timer-option"
                         [ngClass]="{active: chosenBurnerTime === burnerTime}">
                         {{burnerTime}} hours
                       </span>
                     </ion-col>
                   </ion-grid><br>
-                  <ion-input autocomplete="off" [placeholder]="'HOME.SHARE_PASS_PHRASE' | translate" type="password"
+                  <ion-input class="passphrase-input" autocomplete="off" [placeholder]="'HOME.SHARE_PASS_PHRASE' | translate" type="password"
                     [(ngModel)]="addSecretModal.password"></ion-input><br>
                 </div>
               </div>
