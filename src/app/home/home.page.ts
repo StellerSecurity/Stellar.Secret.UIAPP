@@ -104,6 +104,11 @@ export class HomePage {
     this.secretFiles = [];
   }
 
+  ionViewWillEnter(){
+    this.secretFiles = [];
+    this.addSecretModal = new Secret();
+  }
+
   public setBurnerTime(burnerTime: number) {
 
     if(burnerTime === this.chosenBurnerTime) {
@@ -124,6 +129,9 @@ export class HomePage {
       await alert.present();
       return;
     }
+
+    const loading = await this.loadingCtrl.create({message: this.translationService.allTranslations.CREATING_SECRET});
+    await loading.present();
 
     let secret_id = uuid();
 
@@ -148,9 +156,6 @@ export class HomePage {
       this.addSecretModal.files = this.secretFiles;
     }
 
-    // api
-    const loading = await this.loadingCtrl.create({message: this.translationService.allTranslations.CREATING_SECRET});
-    await loading.present();
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
         await loading.dismiss();
