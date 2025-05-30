@@ -27,6 +27,10 @@ const routes: Routes = [
     //component: HowItWorksPage
   },
   {
+    path: 'terms-and-conditions',
+    loadChildren: () => import('./terms-and-conditions/terms-and-conditions.module').then( m => m.TermsAndConditionsModule)
+  },
+  {
     path: ':id',
     loadChildren: () => import('./secret/view/view.module').then( m => m.ViewPageModule)
   },
