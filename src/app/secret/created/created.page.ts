@@ -93,4 +93,8 @@ export class CreatedPage {
     return await modal.present();
   }
 
+  dismissModal() {
+    this.modalCtrl.dismiss();
+  }
+
 }
