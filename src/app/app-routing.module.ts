@@ -31,6 +31,10 @@ const routes: Routes = [
     loadChildren: () => import('./terms-and-conditions/terms-and-conditions.module').then( m => m.TermsAndConditionsModule)
   },
   {
+    path: 'privacy-policy',
+    loadChildren: () => import('./privacy-policy/privacy-policy.module').then( m => m.PrivacyPolicyModule)
+  },
+  {
     path: ':id',
     loadChildren: () => import('./secret/view/view.module').then( m => m.ViewPageModule)
   },
