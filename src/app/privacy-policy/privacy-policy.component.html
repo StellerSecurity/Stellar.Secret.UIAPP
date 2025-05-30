@@ -1,0 +1,68 @@
+<app-header [title]="metaTitle" [description]="metaDescription" [keywords]="metaKeywords" [url]="url">
+</app-header>
+<ion-content [fullscreen]="false" class="main-sec">
+  <div class="container privacy-policy-container">
+    <div class="title">Privacy Policy</div>
+    <div class="privacy-policy-detail">
+      <div>
+        <div class="sub-title">General</div>
+        <p>
+          We only retain collected information for as long as necessary to provide you with your requested service.
+          What data we store, we'll protect within commercially acceptable means to prevent loss and theft, as well as
+          unauthorized access, disclosure, copying, use, or modification.
+        </p>
+
+        <p>
+          We don't share any personally identifying information publicly or with third parties.
+          Our website may link to external sites that are not operated by us. Please be aware that we have no control
+          over the content and practices of these sites and cannot accept responsibility or liability for their
+          respective privacy policies.
+        </p>
+
+        <p>
+          You are free to refuse our request for your personal information, with the understanding that we may be unable
+          to provide you with some of your desired services.
+        </p>
+
+        <p>
+          Your continued use of our website will be regarded as acceptance of our practices around privacy and personal
+          information. If you have any questions about how we handle user data and personal information, feel free to
+          contact us.
+        </p>
+      </div>
+
+      <div>
+        <div class="sub-title sub-title-mt">Trustlook Cloud SDKs</div>
+        <p>
+          Stellar Secret uses TrustLook SDK to scan for viruses.
+        </p>
+
+        <p>
+          Trustlook CloudSDK provides Android malware detection services based on Trustlook NGSE cloud service. It
+          collects application data but not other data for antivirus purpose:
+        </p>
+
+        <ul>
+          <li>
+            <span><strong>User Data</strong></span>
+            <p class="mt-4px">
+              CloudSDK DOES NOT collect any personal information from the mobile devices, including username,
+              password, email address, address, telephone number, contacts, text messages, fingerprint, photos, and
+              videos
+              etc.
+            </p>
+          </li>
+
+          <li>
+            <span><strong>Device Data</strong></span>
+            <p class="mt-4px">
+              CloudSDK DOES NOT collect any device information, including device name, manufacture, model,
+              system version and device id etc.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</ion-content>
