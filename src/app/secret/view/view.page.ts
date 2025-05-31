@@ -149,7 +149,7 @@ export class ViewPage implements OnInit {
     public async downloadAttachedFile() {
 
         const loading = await this.loadingCtrl.create();
-        loading.present();
+        await loading.present();
 
         if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
             let mime = this.secretModel.files[0].content.split(";");
