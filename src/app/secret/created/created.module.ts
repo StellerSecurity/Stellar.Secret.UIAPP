@@ -11,6 +11,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { FooterComponent } from 'src/app/app/components/footer/footer.component';
 import { HeaderComponent } from "../../app/components/header/header.component";
+import { QrCodeComponent } from 'ng-qrcode';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from "../../app/components/header/header.component";
     CreatedPageRoutingModule,
     TranslateModule,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    QrCodeComponent
 ],
   declarations: [CreatedPage,ConfirmationModalComponent]
 })
