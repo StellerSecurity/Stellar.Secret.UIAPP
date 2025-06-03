@@ -33,6 +33,7 @@ export class ViewPage implements OnInit {
     metaTitle:string = 'Secret Message - Stellar Secret';
     metaKeywords:string = '';
 
+
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,
         private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute,
@@ -45,6 +46,11 @@ export class ViewPage implements OnInit {
         )
 
     }
+
+    ionViewWillEnter(){
+        this.secretModel = new Secret();
+    }
+
 
     base64ToFile(base64String: string, mimeType: string, fileName: string) {
         // Remove data URL scheme if present
