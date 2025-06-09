@@ -48,7 +48,7 @@ export class ViewPage implements OnInit {
     }
 
     ionViewWillEnter(){
-        this.secretModel = new Secret();
+        this.clear();
     }
 
 
@@ -154,20 +154,23 @@ export class ViewPage implements OnInit {
 
     public async downloadAttachedFile() {
 
-        const loading = await this.loadingCtrl.create();
-        await loading.present();
-
         if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
+
+            const loading = await this.loadingCtrl.create();
+            await loading.present();
+
             let mime = this.secretModel.files[0].content.split(";");
             mime[0] = mime[0].replace("data:", "");
             // TODO: MAYBE USE THE ORIGINAL FILE-NAME THE SENDER ADDED?
             let randomNumber = Math.floor(Math.random() * (999999999 - 9999) + 9999);
             this.base64ToFile(this.secretModel.files[0].content, mime[0], "File-" + randomNumber);
+
+            await loading.dismiss();
+
         } else {
             alert(this.translationService.allTranslations.SOMETHING_WENT_WRONG)
         }
 
-        await loading.dismiss()
 
     }
 
