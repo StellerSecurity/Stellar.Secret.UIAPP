@@ -206,6 +206,8 @@ export class ViewPage implements OnInit {
 
     private clear() {
         this.secretModel = new Secret();
+        this.unlocked = false;
+        this.openMessage = false;
     }
 
 }
