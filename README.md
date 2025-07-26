@@ -30,14 +30,16 @@ Go to in browser: http://localhost:4000/
 
 ### Run a project on the Server With SSR
 
-Step 1: delete `dist` folder
+Step 1: `cp angular-server-ssr.json angular.json`
 
-Step 2: delete `node_modules` folder
+Step 2: delete `dist` folder
 
-Step 3: `npm install`
+Step 3: delete `node_modules` folder
 
-Step 4: `npm run build:ssr`
+Step 4: `npm install`
 
-Step 5: `npm run serve:ssr:app`
+Step 5: `npm run build:ssr`
+
+Step 6: `npm run serve:ssr:app`
 
 go to in browser and check live URL
