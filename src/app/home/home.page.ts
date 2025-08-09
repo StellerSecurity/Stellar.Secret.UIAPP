@@ -32,7 +32,7 @@ export class HomePage {
 
   public burnerTimes = [1, 6, 24];
 
-  private MAX_FILE_SIZE_MB = 15;
+  private MAX_FILE_SIZE_MB = 30;
 
   secretFiles: SecretFile[] = [];
 
