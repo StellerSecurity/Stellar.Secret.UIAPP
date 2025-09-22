@@ -28,6 +28,8 @@ export class HomePage {
 
   public addSecretModal = new Secret();
 
+  public creating = false;
+
   public optionsDisplay = false;
 
   public burnerTimes = [1, 6, 24];
@@ -121,6 +123,8 @@ export class HomePage {
 
   public async createLink() {
 
+    if(this.creating) return;
+
     if(this.addSecretModal.message.length == 0 && this.secretFiles.length == 0) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
@@ -131,8 +135,7 @@ export class HomePage {
       return;
     }
 
-    const loading = await this.loadingCtrl.create({message: this.translationService.allTranslations.CREATING_SECRET});
-    await loading.present();
+    this.creating = true;
 
     let secret_id = uuid();
 
@@ -159,21 +162,22 @@ export class HomePage {
 
 
     (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
-        await loading.dismiss();
+        this.creating = false;
         await this.router.navigateByUrl("/secret/created?id=" + secret_id)
     },
     async error => {
-      await loading.dismiss();
+      this.creating = false;
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
         message: this.translationService.allTranslations.SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS + ' ' + this.MAX_FILE_SIZE_MB + ' ' + this.translationService.allTranslations.MB,
         buttons: [this.translationService.allTranslations.OK],
       });
+
       await alert.present();
     },
         async () => {
-          await loading.dismiss();
-          this.addSecretModal = new Secret(); // reset
+            this.creating = false;
+            this.addSecretModal = new Secret(); // reset
         })
 
   }

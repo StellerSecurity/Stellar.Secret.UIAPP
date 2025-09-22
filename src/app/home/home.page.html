@@ -73,9 +73,10 @@
                 </span><br><br>
 
                 <input type="file" #fileInput class="file-input" multiple (change)="onChangeFileUpload($event)" />
-
-
-              <span class="blue-btn" (click)="createLink()">{{ 'HOME.SHARE_BUTTON' | translate }}</span>
+                <span class="blue-btn" (click)="createLink()">
+                    <ion-spinner  *ngIf="creating"></ion-spinner>
+                    <span *ngIf="!creating">{{ 'HOME.SHARE_BUTTON' | translate }}</span>
+                </span>
             </div>
           </ion-col>
         </ion-row>

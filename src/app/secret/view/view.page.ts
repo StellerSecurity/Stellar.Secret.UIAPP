@@ -23,7 +23,7 @@ export class ViewPage implements OnInit {
 
     public inputPassword = "";
 
-    public loaded = false;
+    public openingLoading = false;
     
     public openMessage = false;
 
@@ -98,21 +98,17 @@ export class ViewPage implements OnInit {
         }
     }
 
-    public async openMessageBox(){
-        this.openMessage = true;
+    public async loadSecret() {
+        this.openingLoading = true;
+        await this.openMessageBox();
+    }
 
-
-        this.loaded = false;
-        const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.GETTING_SECRET
-        });
-
-        await loading.present();
+    public openMessageBox(){
+        this.openingLoading = true;
 
         this.secretapi.view(this.id).subscribe(async (response) => {
-            this.loaded = true;
-            await loading.dismiss();
-            if(response.response_code !== 200) {
+            this.openMessage = true;
+            if (response.response_code !== 200) {
 
                 const alert = await this.alertController.create({
                     header: this.translationService.allTranslations.SECRET_ERROR,
@@ -124,26 +120,27 @@ export class ViewPage implements OnInit {
 
                 await this.router.navigateByUrl("/");
             } else {
+                this.openingLoading = false;
                 this.secretModel = response;
-                if(this.secretModel.password === null) {
+                if (this.secretModel.password === null) {
                     this.secretModel.password = "";
                 } else {
                     this.passwordProtected = true;
                 }
 
-                if(this.secretModel.password.length == 0) {
-                   this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
+                if (this.secretModel.password.length == 0) {
+                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
 
-                   if(this.secretModel.files !== undefined && this.secretModel.files !== null) {
-                       this.secretModel.files[0].content = CryptoJS.AES.decrypt(this.secretModel.files[0].content, this.id).toString(CryptoJS.enc.Utf8);
-                   }
+                    if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
+                        this.secretModel.files[0].content = CryptoJS.AES.decrypt(this.secretModel.files[0].content, this.id).toString(CryptoJS.enc.Utf8);
+                    }
 
-                   this.unlocked = true;
+                    this.unlocked = true;
                 }
 
                 setTimeout(async () => {
                     this.clear();
-                    await this.router.navigateByUrl("/");
+                    //await this.router.navigateByUrl("/");
                 }, 300000);
 
             }
@@ -205,6 +202,7 @@ export class ViewPage implements OnInit {
     }
 
     private clear() {
+        this.openingLoading = false;
         this.secretModel = new Secret();
         this.unlocked = false;
         this.openMessage = false;
