@@ -25,8 +25,8 @@
     "COMPANY_LOGO_ALT": "Company Logo",
     
     "SHARE_TITLE": "Share a onetime secret message",
-    "SHARE_DESCRIPTION_PART_1": "Write and send a onetime message, it will be",
-    "SHARE_DESCRIPTION_PART_2": "deleted once read.",
+    "SHARE_DESCRIPTION_PART_1": "Send a one-time message — it will disappear once it’s read.",
+    "SHARE_DESCRIPTION_PART_2": "",
     
     "SHARE_BULLET_1": "Without a trace.",
     "SHARE_BULLET_2": "Privacy Protected",
@@ -110,7 +110,7 @@
     "HOW_IT_WORKS": "How it works",
     "DOWNLOAD_APP": "Download App",
     "CREATED_TITLE": "Your Secret was created",
-    "CREATED_SUBTITLE": "The receiver can only see it once.",
+    "CREATED_SUBTITLE": "The receiver can only view the secret once. If it isn’t opened within 14 days, it will be automatically deleted.",
     "CREATED_TITLE_SHARE": "Copy link or share it.",
     "CREATED_BUTTON": "COPY",
     "CREATED_CREATE_SECRET": "Create New Secret",
