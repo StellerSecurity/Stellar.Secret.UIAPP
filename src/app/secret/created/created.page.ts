@@ -22,6 +22,8 @@ export class CreatedPage {
   metaKeywords:string = '';
 
   public secret: Secret = new Secret();
+  public copied = false;
+  public popoverEvent: MouseEvent | null = null;
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
@@ -36,8 +38,22 @@ export class CreatedPage {
     });
   }
 
+    async handleCopy(ev: MouseEvent) {
+        // your existing copy() logic (or inline)
+        try {
+            await this.copy(); // or: await navigator.clipboard.writeText(this.value);
+        } catch (e) {
+            // optional: show an error toast instead
+        }
 
-  public async copy() {
+        this.popoverEvent = ev;  // positions the popover at the button
+        this.copied = true;
+
+        // auto-hide after 1.2s
+        setTimeout(() => (this.copied = false), 1200);
+    }
+
+  private async copy() {
 
     // Select the text field
     const copyText = this.url;
@@ -45,21 +61,16 @@ export class CreatedPage {
     // Copy the text inside the text field
     if(isPlatformBrowser(this.platformId)){
     await navigator.clipboard.writeText(copyText);
-
-    const toast = await this.toastController.create({
-      message: this.translationService.allTranslations.THE_SECRET_URL_HAS_BEEN_COPIED,
-      duration: 3000,
-      position: 'bottom'
-    });
-
-
-    await toast.present();
   }
   }
 
   public createSecret() {
     this.router.navigate(['/'])
   }
+
+
+
+
 
   public async delete() {
     const modal = await this.modalCtrl.create({

@@ -115,7 +115,7 @@
     "CREATED_BUTTON": "COPY",
     "CREATED_CREATE_SECRET": "Create New Secret",
     "CREATED_BURNSECRET": "Burn Secret",
-    "URL_COPIED": "The URL has been copied."
+    "URL_COPIED": "The Secret URL has been copied."
   },
   "CONFIRMATION": {
     "YOURE_GONNA_BURN_THIS_SECRET": "You're gonna burn this secret",
