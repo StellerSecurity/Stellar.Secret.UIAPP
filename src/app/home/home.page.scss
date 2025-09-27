@@ -11,6 +11,23 @@ ion-header {
   cursor: pointer;
 }
 
+.busy-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 8rem; /* keeps width stable */
+}
+
+.busy-spinner, .busy-label { transition: opacity 150ms ease; }
+
+/* center spinner over the label */
+.busy-spinner {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
 .delete-file {
   color: red;
   cursor: pointer;
