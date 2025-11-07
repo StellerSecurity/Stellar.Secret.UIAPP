@@ -59,18 +59,14 @@ export class CreatedPage {
     const copyText = this.url;
 
     // Copy the text inside the text field
-    if(isPlatformBrowser(this.platformId)){
-    await navigator.clipboard.writeText(copyText);
-  }
+    if(isPlatformBrowser(this.platformId)) {
+      await navigator.clipboard.writeText(copyText);
+    }
   }
 
   public createSecret() {
     this.router.navigate(['/'])
   }
-
-
-
-
 
   public async delete() {
     const modal = await this.modalCtrl.create({
@@ -90,7 +86,7 @@ export class CreatedPage {
           await loading.present();
 
           (
-            await this.secretapi.delete(this.id)
+              this.secretapi.delete(this.id)
           ).subscribe(async (response) => {
             await this.router.navigate(['/'])
             await loading.dismiss();
