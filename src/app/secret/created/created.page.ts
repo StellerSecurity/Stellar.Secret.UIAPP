@@ -28,7 +28,7 @@ export class CreatedPage {
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
     private router: Router,
-              private modalCtrl: ModalController, private toastController: ToastController,
+              private modalCtrl: ModalController,
               private secretapi: SecretapiService,
               private loadingCtrl: LoadingController, private route: ActivatedRoute, private platform: Platform,
               private translationService: TranslationService) {

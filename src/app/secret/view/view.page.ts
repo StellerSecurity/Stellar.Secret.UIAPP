@@ -13,7 +13,7 @@ import { TranslationService } from 'src/app/services/translation.service';
   templateUrl: './view.page.html',
   styleUrls: ['./view.page.scss'],
 })
-export class ViewPage implements OnInit {
+export class ViewPage {
 
     private id : string = "";
 
@@ -76,15 +76,13 @@ export class ViewPage implements OnInit {
         URL.revokeObjectURL(url);
     }
 
-    ngOnInit(): void {}
-
     public async copy() {
 
         // Select the text field
-        var copyText = this.secretModel.message;
+        const copyText = this.secretModel.message;
 
         // Copy the text inside the text field
-        if(isPlatformBrowser(this.platformId)){
+        if(isPlatformBrowser(this.platformId)) {
             await navigator.clipboard.writeText(copyText);
 
         const toast = await this.toastController.create({
@@ -92,7 +90,6 @@ export class ViewPage implements OnInit {
             duration: 3000,
             position: 'top'
         });
-
 
             await toast.present();
         }
@@ -140,11 +137,9 @@ export class ViewPage implements OnInit {
 
                 setTimeout(async () => {
                     this.clear();
-                    //await this.router.navigateByUrl("/");
+                    await this.router.navigateByUrl("/");
                 }, 300000);
-
             }
-
         });
 
     }
