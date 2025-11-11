@@ -31,7 +31,13 @@ export class SecretapiService {
       })
     };
 
-    return this.http.delete<any>(environment.secret_api_url + "v1/secretcontroller/delete?id=" + id,httpOptions).pipe();
+    return this.http.delete<any>(
+        environment.secret_api_url + 'v1/secretcontroller/delete',
+        {
+          ...httpOptions,
+          body: { id }
+        }
+    ).pipe();
   }
 
 
