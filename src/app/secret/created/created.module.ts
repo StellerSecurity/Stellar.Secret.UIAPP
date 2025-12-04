@@ -11,19 +11,19 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { FooterComponent } from 'src/app/app/components/footer/footer.component';
 import { HeaderComponent } from "../../app/components/header/header.component";
-import { QrCodeComponent } from 'ng-qrcode';
+import {QrCodeComponent, QrCodeModule} from 'ng-qrcode';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    CreatedPageRoutingModule,
-    TranslateModule,
-    FooterComponent,
-    HeaderComponent,
-    QrCodeComponent
-],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        CreatedPageRoutingModule,
+        TranslateModule,
+        FooterComponent,
+        HeaderComponent,
+        QrCodeModule
+    ],
   declarations: [CreatedPage,ConfirmationModalComponent]
 })
 export class CreatedPageModule {}
