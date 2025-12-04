@@ -42,7 +42,10 @@ dependencies {
     implementation project(':capacitor-cordova-android-plugins')
 }
 
-apply from: 'capacitor.build.gradle'
+def cordovaVarsFile = new File("../capacitor-cordova-android-plugins/cordova.variables.gradle")
+if (cordovaVarsFile.exists()) {
+    apply from: cordovaVarsFile
+}
 
 try {
     def servicesJSON = file('google-services.json')
