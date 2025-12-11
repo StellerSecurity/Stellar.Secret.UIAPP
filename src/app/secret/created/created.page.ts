@@ -1,7 +1,7 @@
-import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 import { SecretapiService } from "../../services/secretapi.service";
-import {LoadingController, ToastController, ModalController, Platform} from "@ionic/angular";
+import { LoadingController, ModalController, Platform } from "@ionic/angular";
 import { Secret } from "../../models/secret";
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { isPlatformBrowser } from '@angular/common';
@@ -17,55 +17,82 @@ export class CreatedPage {
   public id: string = "";
 
   public url: string = "";
-  metaDescription:string = '';
-  metaTitle:string = 'Created Secret Message - Stellar Secret';
-  metaKeywords:string = '';
+  metaDescription: string = '';
+  metaTitle: string = 'Created Secret Message - Stellar Secret';
+  metaKeywords: string = '';
 
   public secret: Secret = new Secret();
   public copied = false;
   public popoverEvent: MouseEvent | null = null;
 
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object,
-    private router: Router,
-              private modalCtrl: ModalController,
-              private secretapi: SecretapiService,
-              private loadingCtrl: LoadingController, private route: ActivatedRoute, private platform: Platform,
-              private translationService: TranslationService) {
-    this.route.queryParams.subscribe(async params => {
-      this.id = params['id'];
-      this.url = "https://stellarsecret.io/" + this.id;
-    });
+      @Inject(PLATFORM_ID) private platformId: Object,
+      private router: Router,
+      private modalCtrl: ModalController,
+      private secretapi: SecretapiService,
+      private loadingCtrl: LoadingController,
+      private route: ActivatedRoute,
+      private platform: Platform,
+      private translationService: TranslationService
+  ) {
+    // First, try getCurrentNavigation (works on first navigation)
+    const nav = this.router.getCurrentNavigation();
+    const idFromNav = nav?.extras?.state?.['id'];
+
+    // Fallback to history.state for reloads / direct access
+    const idFromHistory = history.state?.['id'];
+
+    this.id = idFromNav || idFromHistory || '';
+
+    if (!this.id) {
+      // No id available → user hit /secret/created directly, just send them home
+      this.router.navigate(['/']);
+    } else {
+      this.url = this.getBaseUrl() + this.id;
+    }
   }
 
-    async handleCopy(ev: MouseEvent) {
-        // your existing copy() logic (or inline)
-        try {
-            await this.copy(); // or: await navigator.clipboard.writeText(this.value);
-        } catch (e) {
-            // optional: show an error toast instead
-        }
+  private getBaseUrl(): string {
+    if (isPlatformBrowser(this.platformId)) {
+      // Try to respect <base href="..."> first
+      const baseTag = document.getElementsByTagName('base')[0]?.href;
 
-        this.popoverEvent = ev;  // positions the popover at the button
-        this.copied = true;
+      if (baseTag && baseTag.length > 0) {
+        return baseTag.endsWith('/') ? baseTag : baseTag + '/';
+      }
 
-        // auto-hide after 1.2s
-        setTimeout(() => (this.copied = false), 1200);
+      const origin = window.location.origin;
+      return origin.endsWith('/') ? origin : origin + '/';
     }
 
-  private async copy() {
+    // Fallback for non-browser env
+    const fallback = 'https://stellarsecret.io/';
+    return fallback.endsWith('/') ? fallback : fallback + '/';
+  }
 
-    // Select the text field
+  async handleCopy(ev: MouseEvent) {
+    try {
+      await this.copy();
+    } catch (e) {
+      // optional: you can add a toast here if clipboard fails
+    }
+
+    this.popoverEvent = ev;
+    this.copied = true;
+
+    setTimeout(() => (this.copied = false), 1200);
+  }
+
+  private async copy() {
     const copyText = this.url;
 
-    // Copy the text inside the text field
-    if(isPlatformBrowser(this.platformId)) {
+    if (isPlatformBrowser(this.platformId)) {
       await navigator.clipboard.writeText(copyText);
     }
   }
 
   public createSecret() {
-    this.router.navigate(['/'])
+    this.router.navigate(['/']);
   }
 
   public async delete() {
@@ -78,21 +105,20 @@ export class CreatedPage {
       if (data && data.data) {
         const confirm = data.data as boolean;
         if (confirm) {
-          // User confirmed deletion, proceed with deletion logic
           const loading = await this.loadingCtrl.create({
             message: this.translationService.allTranslations.BURNING_SECRET,
           });
 
           await loading.present();
 
-          (
-              this.secretapi.delete(this.id)
-          ).subscribe(async (response) => {
-            await this.router.navigate(['/'])
-            await loading.dismiss();
-          });
+          this.secretapi.delete(this.id).subscribe(
+              async (response) => {
+                await this.router.navigate(['/']);
+                await loading.dismiss();
+              }
+          );
         } else {
-          // User canceled deletion, do nothing
+          // User cancelled, do nothing
         }
       }
     });

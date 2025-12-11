@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
-import {AlertController, LoadingController} from "@ionic/angular";
-import {SecretapiService} from "../services/secretapi.service";
-import {Secret} from "../models/secret";
-import {Router} from "@angular/router";
-import { sha512, sha384, sha512_256, sha512_224 } from 'js-sha512';
+import { AlertController, LoadingController } from '@ionic/angular';
+import { SecretapiService } from '../services/secretapi.service';
+import { Secret } from '../models/secret';
+import { Router } from '@angular/router';
+import { sha512 } from 'js-sha512';
 import { v4 as uuid } from 'uuid';
 
 import * as CryptoJS from 'crypto-js';
 import { TranslateService } from '@ngx-translate/core';
-import {SecretFile} from "../models/secretfile";
-import {reader} from "ionicons/icons";
+import { SecretFile } from '../models/secretfile';
 import { TranslationService } from '../services/translation.service';
 
 @Component({
@@ -18,12 +17,13 @@ import { TranslationService } from '../services/translation.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
   selectedLanguage: string = 'en'; // Default language
 
-  metaDescription:string = 'Share a one-time secret message and file with Stellar Secret. Protect your privacy and securely share confidential information.';
-  metaTitle:string = 'Stellar Secret | Share a One-Time Secret Message and File';
-  metaKeywords:string = 'Secret message generator, Secure message sharing, Encrypt personal information, Password protection, User data encryption, Private data sharing, Convert sensitive data';
+  metaDescription: string =
+      'Share a one-time secret message and file with Stellar Secret. Protect your privacy and securely share confidential information.';
+  metaTitle: string = 'Stellar Secret | Share a One-Time Secret Message and File';
+  metaKeywords: string =
+      'Secret message generator, Secure message sharing, Encrypt personal information, Password protection, User data encryption, Private data sharing, Convert sensitive data';
   url: string = 'https://stellarsecret.io/';
 
   public addSecretModal = new Secret();
@@ -34,17 +34,22 @@ export class HomePage {
 
   public burnerTimes = [1, 6, 24];
 
-  private MAX_FILE_SIZE_MB = 30;
+  private readonly MAX_FILE_SIZE_MB = 30;
+
+  private readonly ENCRYPTION_VERSION = 'v1';
 
   secretFiles: SecretFile[] = [];
 
   public chosenBurnerTime = 0;
-  constructor(private loadingCtrl: LoadingController,
-              private alertController: AlertController,
-              private router: Router,
-              private secretapi: SecretapiService,
-              private translate: TranslateService,
-              private translationService: TranslationService) {
+
+  constructor(
+      private loadingCtrl: LoadingController,
+      private alertController: AlertController,
+      private router: Router,
+      private secretapi: SecretapiService,
+      private translate: TranslateService,
+      private translationService: TranslationService
+  ) {
     this.translate.setDefaultLang(this.selectedLanguage);
   }
 
@@ -53,22 +58,31 @@ export class HomePage {
   }
 
   async onChangeFileUpload(event: any) {
+    const file: File | undefined = event?.target?.files?.[0];
 
-    const file = event.target.files[0];
+    if (!file) {
+      return;
+    }
 
-    let totalSizeMB = file.size / Math.pow(1024,2);
+    const totalSizeMB = file.size / Math.pow(1024, 2);
 
-    if(totalSizeMB > this.MAX_FILE_SIZE_MB) {
+    if (totalSizeMB > this.MAX_FILE_SIZE_MB) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
-        message: this.translationService.allTranslations.FILE_IS_TOO_BIG_MAX_SIZE_IS + ' ' + this.MAX_FILE_SIZE_MB + ' ' + this.translationService.allTranslations.MB_FILE_WAS_NOT_ADDED,
+        message:
+            this.translationService.allTranslations.FILE_IS_TOO_BIG_MAX_SIZE_IS +
+            ' ' +
+            this.MAX_FILE_SIZE_MB +
+            ' ' +
+            this.translationService.allTranslations.MB_FILE_WAS_NOT_ADDED,
         buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
       return;
     }
 
-    if(this.secretFiles.length + 1 > 1) {
+    // Only 1 file per secret
+    if (this.secretFiles.length + 1 > 1) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR_MAX_1_FILE_PER_SECRET,
         message: this.translationService.allTranslations.A_SECRET_CAN_ONLY_INCLUDE_ONE_FILE,
@@ -80,22 +94,23 @@ export class HomePage {
 
     const reader = new FileReader();
 
+    // Reset any previous file when a new one is chosen
     this.secretFiles = [];
 
-    reader.addEventListener("load", () => {
-          // this will then display a text file
-          let base64encoded = reader.result;
-          let secretFile = new SecretFile();
-          secretFile.name = "File 1";
+    reader.addEventListener(
+        'load',
+        () => {
+          const base64encoded = reader.result;
+          const secretFile = new SecretFile();
+          secretFile.name = file.name || 'File 1';
           secretFile.id = null; // will be set once 'create secret' is being clicked on.
-          secretFile.content = base64encoded?.toString(); // will be encrypted with the encryption-key once 'create secret' is being clicked on.
+          secretFile.content = base64encoded?.toString() || ''; // will be encrypted with the encryption-key once 'create secret' is being clicked on.
           this.secretFiles.push(secretFile);
         },
-        false,
+        false
     );
 
     reader.readAsDataURL(file);
-
   }
 
   /**
@@ -106,15 +121,14 @@ export class HomePage {
     this.secretFiles = [];
   }
 
-  ionViewWillEnter(){
+  ionViewWillEnter() {
     this.secretFiles = [];
     this.addSecretModal = new Secret();
     this.chosenBurnerTime = 0;
   }
 
   public setBurnerTime(burnerTime: number) {
-
-    if(burnerTime === this.chosenBurnerTime) {
+    if (burnerTime === this.chosenBurnerTime) {
       burnerTime = 0;
     }
 
@@ -122,13 +136,20 @@ export class HomePage {
   }
 
   public async createLink() {
+    if (this.creating) {
+      return;
+    }
 
-    if(this.creating) return;
+    const message = (this.addSecretModal.message || '').toString();
+    const hasMessage = message.trim().length > 0;
+    const hasFile = this.secretFiles.length > 0;
 
-    if(this.addSecretModal.message.length == 0 && this.secretFiles.length == 0) {
+    if (!hasMessage && !hasFile) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
-        message: this.translationService.allTranslations.NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
+        message:
+        this.translationService.allTranslations
+            .NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
         buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
@@ -137,49 +158,102 @@ export class HomePage {
 
     this.creating = true;
 
-    let secret_id = uuid();
+    const secret_id = uuid();
 
     this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
 
-    // as default, we encrypt the message in DB, with the UUID id.
+    // Set encryption version for forward compatibility.
+    (this.addSecretModal as any).encryption_version = this.ENCRYPTION_VERSION;
+
+    // As default, we encrypt the message in DB with the UUID id.
     let encryptionKey = secret_id;
 
-    // PW was set, so we update encryptionKey with the User-defined-Password.
-    if(this.addSecretModal.password.length > 0) {
-      encryptionKey = this.addSecretModal.password;
-      this.addSecretModal.password = sha512(encryptionKey).toString();
+    // PW was set, so we update encryptionKey with the user-defined password.
+    const userPassword = (this.addSecretModal.password || '').toString();
+
+    if (userPassword.length > 0) {
+      encryptionKey = userPassword;
+
+      // Hash only used as a marker in DB – bind it to this specific secret_id
+      const passwordMarker = sha512(secret_id + ':' + userPassword).toString();
+      this.addSecretModal.password = passwordMarker;
+    } else {
+      // Explicitly clear password in payload if not used
+      this.addSecretModal.password = null as any;
     }
 
-    this.addSecretModal.message = CryptoJS.AES.encrypt(this.addSecretModal.message, encryptionKey).toString();
-
-    // file upload handling.
-    if(this.secretFiles.length > 0) {
-      this.secretFiles[0].id = sha512(secret_id);
-      this.secretFiles[0].content = CryptoJS.AES.encrypt(this.secretFiles[0].content, encryptionKey).toString();
-      this.addSecretModal.files = this.secretFiles;
+    // Encrypt message only if present
+    if (hasMessage) {
+      this.addSecretModal.message = CryptoJS.AES.encrypt(
+          message,
+          encryptionKey
+      ).toString();
+    } else {
+      this.addSecretModal.message = '';
     }
 
+    // File upload handling.
+    if (hasFile) {
+      const file = this.secretFiles[0];
+      file.id = sha512(secret_id);
+      file.content = CryptoJS.AES.encrypt(
+          file.content || '',
+          encryptionKey
+      ).toString();
+      this.addSecretModal.files = [file];
+    } else {
+      this.addSecretModal.files = [];
+    }
 
-    (await this.secretapi.create(this.addSecretModal)).subscribe(async (response) => {
-        this.creating = false;
-        await this.router.navigateByUrl("/secret/created?id=" + secret_id)
-    },
-    async error => {
+    try {
+      (await this.secretapi.create(this.addSecretModal)).subscribe(
+          async (response) => {
+            this.creating = false;
+
+            // IMPORTANT: no more ?id=... in URL, use router state instead
+            await this.router.navigate(
+                ['/secret/created'],
+                { state: { id: secret_id } }
+            );
+          },
+          async (error) => {
+            this.creating = false;
+            const alert = await this.alertController.create({
+              header: this.translationService.allTranslations.ERROR,
+              message:
+                  this.translationService.allTranslations
+                      .SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
+                  ' ' +
+                  this.MAX_FILE_SIZE_MB +
+                  ' ' +
+                  this.translationService.allTranslations.MB,
+              buttons: [this.translationService.allTranslations.OK],
+            });
+
+            await alert.present();
+          },
+          async () => {
+            this.creating = false;
+            this.addSecretModal = new Secret(); // reset
+            this.secretFiles = [];
+            this.chosenBurnerTime = 0;
+          }
+      );
+    } catch (e) {
       this.creating = false;
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
-        message: this.translationService.allTranslations.SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS + ' ' + this.MAX_FILE_SIZE_MB + ' ' + this.translationService.allTranslations.MB,
+        message:
+            this.translationService.allTranslations
+                .SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
+            ' ' +
+            this.MAX_FILE_SIZE_MB +
+            ' ' +
+            this.translationService.allTranslations.MB,
         buttons: [this.translationService.allTranslations.OK],
       });
-
       await alert.present();
-    },
-        async () => {
-            this.creating = false;
-            this.addSecretModal = new Secret(); // reset
-        })
-
+    }
   }
-
 }

@@ -1,56 +1,52 @@
-import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
-import {ActivatedRoute, Params, Router} from "@angular/router";
-import {SecretapiService} from "../../services/secretapi.service";
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { ActivatedRoute, Params, Router } from '@angular/router';
+import { SecretapiService } from '../../services/secretapi.service';
 
-import {AlertController, LoadingController, ToastController} from '@ionic/angular';
-import {Secret} from "../../models/secret";
+import { AlertController, LoadingController, ToastController } from '@ionic/angular';
+import { Secret } from '../../models/secret';
 import * as CryptoJS from 'crypto-js';
-import {async} from "rxjs";
 import { isPlatformBrowser } from '@angular/common';
 import { TranslationService } from 'src/app/services/translation.service';
+
 @Component({
-  selector: 'app-view',
-  templateUrl: './view.page.html',
-  styleUrls: ['./view.page.scss'],
+    selector: 'app-view',
+    templateUrl: './view.page.html',
+    styleUrls: ['./view.page.scss'],
 })
 export class ViewPage {
+    private id: string = '';
 
-    private id : string = "";
-
-    public secretModel : Secret = new Secret();
+    public secretModel: Secret = new Secret();
 
     public unlocked = false;
-
-    public inputPassword = "";
-
+    public inputPassword = '';
     public openingLoading = false;
-    
     public openMessage = false;
-
     public passwordProtected = false;
-    public url: string = "";
-    metaDescription:string = '';
-    metaTitle:string = 'Secret Message - Stellar Secret';
-    metaKeywords:string = '';
 
+    public url: string = '';
+    metaDescription: string = '';
+    metaTitle: string = 'Secret Message - Stellar Secret';
+    metaKeywords: string = '';
 
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,
-        private router: Router, private toastController: ToastController, private alertController: AlertController, private loadingCtrl: LoadingController, private activatedRoute: ActivatedRoute, private secretapi: SecretapiService, private route: ActivatedRoute,
-        private translationService: TranslationService) {
-        
-        this.activatedRoute.params.subscribe(
-            (params: Params) => {
-                this.id = params['id'];
-            }
-        )
-
+        private router: Router,
+        private toastController: ToastController,
+        private alertController: AlertController,
+        private loadingCtrl: LoadingController,
+        private activatedRoute: ActivatedRoute,
+        private secretapi: SecretapiService,
+        private translationService: TranslationService
+    ) {
+        this.activatedRoute.params.subscribe((params: Params) => {
+            this.id = params['id'];
+        });
     }
 
-    ionViewWillEnter(){
+    ionViewWillEnter() {
         this.clear();
     }
-
 
     base64ToFile(base64String: string, mimeType: string, fileName: string) {
         // Remove data URL scheme if present
@@ -77,98 +73,126 @@ export class ViewPage {
     }
 
     public async copy() {
+        const copyText = this.secretModel.message || '';
 
-        // Select the text field
-        const copyText = this.secretModel.message;
-
-        // Copy the text inside the text field
-        if(isPlatformBrowser(this.platformId)) {
+        if (isPlatformBrowser(this.platformId)) {
             await navigator.clipboard.writeText(copyText);
 
-        const toast = await this.toastController.create({
-            message: this.translationService.allTranslations.THE_MESSAGE_HAS_BEEN_COPIED,
-            duration: 3000,
-            position: 'top'
-        });
+            const toast = await this.toastController.create({
+                message: this.translationService.allTranslations.THE_MESSAGE_HAS_BEEN_COPIED,
+                duration: 3000,
+                position: 'top',
+            });
 
             await toast.present();
         }
     }
 
-    public async loadSecret() {
+    public loadSecret() {
+        if (this.openingLoading) {
+            return;
+        }
         this.openingLoading = true;
-        await this.openMessageBox();
+        this.openMessageBox();
     }
 
-    public openMessageBox(){
+    public openMessageBox() {
         this.openingLoading = true;
 
-        this.secretapi.view(this.id).subscribe(async (response) => {
-            this.openMessage = true;
-            if (response.response_code !== 200) {
+        this.secretapi.view(this.id).subscribe(
+            async (response) => {
+                this.openMessage = true;
 
-                const alert = await this.alertController.create({
-                    header: this.translationService.allTranslations.SECRET_ERROR,
-                    message: this.translationService.allTranslations.THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED,
-                    buttons: [this.translationService.allTranslations.OK],
-                });
+                if (response.response_code !== 200) {
+                    this.openingLoading = false;
 
-                await alert.present();
+                    const alert = await this.alertController.create({
+                        header: this.translationService.allTranslations.SECRET_ERROR,
+                        message:
+                        this.translationService.allTranslations
+                            .THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED,
+                        buttons: [this.translationService.allTranslations.OK],
+                    });
 
-                await this.router.navigateByUrl("/");
-            } else {
+                    await alert.present();
+
+                    await this.router.navigateByUrl('/');
+                    return;
+                }
+
                 this.openingLoading = false;
-                this.secretModel = response;
-                if (this.secretModel.password === null) {
-                    this.secretModel.password = "";
+
+                // Response contains the encrypted secret model
+                this.secretModel = response as Secret;
+
+                if (this.secretModel.password === null || this.secretModel.password === undefined) {
+                    this.secretModel.password = '';
                 } else {
                     this.passwordProtected = true;
                 }
 
-                if (this.secretModel.password.length == 0) {
-                    this.secretModel.message = CryptoJS.AES.decrypt(this.secretModel.message, this.id).toString(CryptoJS.enc.Utf8);
+                // No password set, decrypt directly with secret link ID
+                if ((this.secretModel.password || '').length === 0) {
+                    this.secretModel.message = CryptoJS.AES.decrypt(
+                        this.secretModel.message,
+                        this.id
+                    ).toString(CryptoJS.enc.Utf8);
 
                     if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
-                        this.secretModel.files[0].content = CryptoJS.AES.decrypt(this.secretModel.files[0].content, this.id).toString(CryptoJS.enc.Utf8);
+                        this.secretModel.files[0].content = CryptoJS.AES.decrypt(
+                            this.secretModel.files[0].content,
+                            this.id
+                        ).toString(CryptoJS.enc.Utf8);
                     }
 
                     this.unlocked = true;
                 }
 
+                // Auto-clear and redirect after 5 minutes
                 setTimeout(async () => {
                     this.clear();
-                    await this.router.navigateByUrl("/");
+                    await this.router.navigateByUrl('/');
                 }, 300000);
-            }
-        });
+            },
+            async (error) => {
+                this.openingLoading = false;
 
+                const alert = await this.alertController.create({
+                    header: this.translationService.allTranslations.SECRET_ERROR,
+                    message: this.translationService.allTranslations.SOMETHING_WENT_WRONG,
+                    buttons: [this.translationService.allTranslations.OK],
+                });
+
+                await alert.present();
+            }
+        );
     }
 
     public async downloadAttachedFile() {
-
         if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
-
             const loading = await this.loadingCtrl.create();
             await loading.present();
 
-            let mime = this.secretModel.files[0].content.split(";");
-            mime[0] = mime[0].replace("data:", "");
-            // TODO: MAYBE USE THE ORIGINAL FILE-NAME THE SENDER ADDED?
-            let randomNumber = Math.floor(Math.random() * (999999999 - 9999) + 9999);
-            this.base64ToFile(this.secretModel.files[0].content, mime[0], "File-" + randomNumber);
+            const fileContent = this.secretModel.files[0].content || '';
+            const mime = fileContent.split(';');
+            mime[0] = mime[0].replace('data:', '');
+
+            const randomNumber = Math.floor(Math.random() * (999999999 - 9999) + 9999);
+            this.base64ToFile(fileContent, mime[0], 'File-' + randomNumber);
 
             await loading.dismiss();
-
         } else {
-            alert(this.translationService.allTranslations.SOMETHING_WENT_WRONG)
+            alert(this.translationService.allTranslations.SOMETHING_WENT_WRONG);
         }
-
-
     }
 
     public async unlockByPassword() {
+        const inputPwd = this.inputPassword || '';
 
-        let decryptedMessage = CryptoJS.AES.decrypt(this.secretModel.message, this.inputPassword).toString(CryptoJS.enc.Utf8);
+        const decryptedMessage = CryptoJS.AES.decrypt(
+            this.secretModel.message,
+            inputPwd
+        ).toString(CryptoJS.enc.Utf8);
 
         if (decryptedMessage.length === 0) {
             const alert = await this.alertController.create({
@@ -178,22 +202,24 @@ export class ViewPage {
             });
 
             await alert.present();
-
-        } else {
-            this.secretModel.message = decryptedMessage;
-
-            if(this.secretModel.files !== undefined && this.secretModel.files !== null) {
-                this.secretModel.files[0].content = CryptoJS.AES.decrypt(this.secretModel.files[0].content, this.inputPassword).toString(CryptoJS.enc.Utf8);
-            }
-
-            this.unlocked = true;
+            return;
         }
 
+        this.secretModel.message = decryptedMessage;
+
+        if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
+            this.secretModel.files[0].content = CryptoJS.AES.decrypt(
+                this.secretModel.files[0].content,
+                inputPwd
+            ).toString(CryptoJS.enc.Utf8);
+        }
+
+        this.unlocked = true;
     }
 
     public reply() {
         this.clear();
-        this.router.navigate(['/']).then(r => {})
+        this.router.navigate(['/']).then(() => {});
     }
 
     private clear() {
@@ -201,6 +227,7 @@ export class ViewPage {
         this.secretModel = new Secret();
         this.unlocked = false;
         this.openMessage = false;
+        this.inputPassword = '';
+        this.passwordProtected = false;
     }
-
 }
