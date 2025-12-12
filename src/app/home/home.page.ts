@@ -115,7 +115,6 @@ export class HomePage {
 
   /**
    * Currently, we only support 1 file for upload, so index not needed atm.
-   * @param index
    */
   public removeFile(index: number) {
     this.secretFiles = [];
@@ -160,28 +159,30 @@ export class HomePage {
 
     const secret_id = uuid();
 
+    // id is the hashed UUID (server never sees the raw secret_id)
     this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
 
     // Set encryption version for forward compatibility.
     (this.addSecretModal as any).encryption_version = this.ENCRYPTION_VERSION;
 
-    // As default, we encrypt the message in DB with the UUID id.
+    // Default encryption key is the UUID
     let encryptionKey = secret_id;
 
-    // PW was set, so we update encryptionKey with the user-defined password.
+    // User-defined password (never leaves the client in any form)
     const userPassword = (this.addSecretModal.password || '').toString();
 
-    if (userPassword.length > 0) {
-      encryptionKey = userPassword;
+    // Set has_password flag for the backend, but do NOT send the password or any hash of it
+    const hasPassword = userPassword.length > 0;
+    (this.addSecretModal as any).has_password = hasPassword;
 
-      // Hash only used as a marker in DB – bind it to this specific secret_id
-      const passwordMarker = sha512(secret_id + ':' + userPassword).toString();
-      this.addSecretModal.password = passwordMarker;
-    } else {
-      // Explicitly clear password in payload if not used
-      this.addSecretModal.password = null as any;
+    if (hasPassword) {
+      // If password is set, we use it as the encryption key
+      encryptionKey = userPassword;
     }
+
+    // Ensure we do NOT send password to the backend at all
+    (this.addSecretModal as any).password = undefined;
 
     // Encrypt message only if present
     if (hasMessage) {
@@ -193,7 +194,7 @@ export class HomePage {
       this.addSecretModal.message = '';
     }
 
-    // File upload handling.
+    // File upload handling: encrypt file content with the same key
     if (hasFile) {
       const file = this.secretFiles[0];
       file.id = sha512(secret_id);

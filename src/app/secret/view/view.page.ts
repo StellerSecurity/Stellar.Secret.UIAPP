@@ -49,9 +49,8 @@ export class ViewPage {
     }
 
     base64ToFile(base64String: string, mimeType: string, fileName: string) {
-        // Remove data URL scheme if present
         const base64Data = base64String.replace(/^data:.+;base64,/, '');
-        const byteCharacters = atob(base64Data); // Decode Base64 string
+        const byteCharacters = atob(base64Data);
         const byteNumbers = new Array(byteCharacters.length);
 
         for (let i = 0; i < byteCharacters.length; i++) {
@@ -62,13 +61,11 @@ export class ViewPage {
         const blob = new Blob([byteArray], { type: mimeType });
         const url = URL.createObjectURL(blob);
 
-        // Create a link element to download the file
         const link = document.createElement('a');
         link.href = url;
         link.download = fileName;
         link.click();
 
-        // Cleanup
         URL.revokeObjectURL(url);
     }
 
@@ -122,23 +119,20 @@ export class ViewPage {
 
                 this.openingLoading = false;
 
-                // Response contains the encrypted secret model
+                // Response contains the encrypted secret model (with has_password flag)
                 this.secretModel = response as Secret;
 
-                if (this.secretModel.password === null || this.secretModel.password === undefined) {
-                    this.secretModel.password = '';
-                } else {
-                    this.passwordProtected = true;
-                }
+                // Determine if the secret is password protected
+                this.passwordProtected = !!(this.secretModel as any).has_password;
 
-                // No password set, decrypt directly with secret link ID
-                if ((this.secretModel.password || '').length === 0) {
+                // No password set: decrypt directly with the raw secret link ID
+                if (!this.passwordProtected) {
                     this.secretModel.message = CryptoJS.AES.decrypt(
                         this.secretModel.message,
                         this.id
                     ).toString(CryptoJS.enc.Utf8);
 
-                    if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
+                    if (this.secretModel.files && this.secretModel.files.length > 0) {
                         this.secretModel.files[0].content = CryptoJS.AES.decrypt(
                             this.secretModel.files[0].content,
                             this.id
@@ -169,7 +163,7 @@ export class ViewPage {
     }
 
     public async downloadAttachedFile() {
-        if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
+        if (this.secretModel.files && this.secretModel.files.length > 0) {
             const loading = await this.loadingCtrl.create();
             await loading.present();
 
@@ -207,7 +201,7 @@ export class ViewPage {
 
         this.secretModel.message = decryptedMessage;
 
-        if (this.secretModel.files !== undefined && this.secretModel.files !== null) {
+        if (this.secretModel.files && this.secretModel.files.length > 0) {
             this.secretModel.files[0].content = CryptoJS.AES.decrypt(
                 this.secretModel.files[0].content,
                 inputPwd
