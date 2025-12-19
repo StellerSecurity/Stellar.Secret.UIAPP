@@ -20,6 +20,8 @@ type EnvelopeV2 = {
   ct_b64: string;
 };
 
+
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -41,8 +43,9 @@ export class HomePage {
   public burnerTimes = [1, 6, 24];
   private readonly MAX_FILE_SIZE_MB = 30;
 
+
   // Bump version since format changes (envelope JSON).
-  private readonly ENCRYPTION_VERSION = 'v2';
+  private readonly ENCRYPTION_VERSION: Secret['encryption_version'] = 'v2';
 
   // PBKDF2 tuning. 600k is a reasonable baseline on modern devices.
   // If you see performance issues on low-end phones, tune down but do not go back to CryptoJS passphrase mode.
@@ -209,7 +212,7 @@ export class HomePage {
 
     const message = (this.addSecretModal.message || '').toString();
     const hasMessage = message.trim().length > 0;
-    const hasFile = this.secretFiles.length > 0;
+    const hasFile = this.secretFiles.length > 0; // kept, but not the focus
 
     if (!hasMessage && !hasFile) {
       const alert = await this.alertController.create({
@@ -224,45 +227,38 @@ export class HomePage {
     this.creating = true;
 
     const secret_id = uuid();
+    const hashedId = sha512(secret_id);
 
-    // Server never sees raw secret_id
-    this.addSecretModal.id = sha512(secret_id);
-    this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
-    this.addSecretModal.encryption_version = 'v2';
-
-    // Password logic stays the same (but now goes through PBKDF2, not CryptoJS passphrase junk).
     const userPassword = (this.addSecretModal.password || '').toString().trim();
     const hasPassword = userPassword.length > 0;
-    (this.addSecretModal as any).has_password = hasPassword;
-
     const passwordOrUuid = hasPassword ? userPassword : secret_id;
 
-    // Never send password
-    (this.addSecretModal as any).password = undefined;
-
     try {
-      // Encrypt message
-      if (hasMessage) {
-        this.addSecretModal.message = await this.encryptEnvelopeV2(message, passwordOrUuid);
-      } else {
-        this.addSecretModal.message = '';
-      }
+      const encryptedMessage = hasMessage
+          ? await this.encryptEnvelopeV2(message, passwordOrUuid)
+          : '';
 
-      // Encrypt file content (still DataURL string, as in your current design)
+      // Build a payload explicitly to avoid accidentally sending password or other junk.
+      const payload: Secret = {
+        id: hashedId,
+        message: encryptedMessage,
+        expires_at: this.chosenBurnerTime.toString(),
+        has_password: hasPassword,
+        encryption_version: this.ENCRYPTION_VERSION,
+        files: [],
+        password: undefined, // still present in type, but won't matter if your serializer omits undefined
+      };
+
       if (hasFile) {
         const file = this.secretFiles[0];
-        file.id = sha512(secret_id);
+        file.id = hashedId;
         file.content = await this.encryptEnvelopeV2(file.content || '', passwordOrUuid);
-        this.addSecretModal.files = [file];
-      } else {
-        this.addSecretModal.files = [];
+        payload.files = [file];
       }
 
-      (await this.secretapi.create(this.addSecretModal)).subscribe(
+      (await this.secretapi.create(payload)).subscribe(
           async () => {
             this.creating = false;
-
-            // No fragments, no query param. Router state only (same as your current behavior).
             await this.router.navigate(['/secret/created'], { state: { id: secret_id } });
           },
           async () => {
@@ -286,7 +282,7 @@ export class HomePage {
             this.chosenBurnerTime = 0;
           }
       );
-    } catch (e) {
+    } catch {
       this.creating = false;
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
@@ -301,4 +297,5 @@ export class HomePage {
       await alert.present();
     }
   }
+
 }
