@@ -5,11 +5,20 @@ import { Secret } from '../models/secret';
 import { Router } from '@angular/router';
 import { sha512 } from 'js-sha512';
 import { v4 as uuid } from 'uuid';
-
-import * as CryptoJS from 'crypto-js';
 import { TranslateService } from '@ngx-translate/core';
 import { SecretFile } from '../models/secretfile';
 import { TranslationService } from '../services/translation.service';
+
+type EnvelopeV2 = {
+  v: 'v2';
+  alg: 'A256GCM';
+  kdf: 'PBKDF2';
+  hash: 'SHA-256';
+  iter: number;
+  salt_b64: string;
+  iv_b64: string;
+  ct_b64: string;
+};
 
 @Component({
   selector: 'app-home',
@@ -17,7 +26,7 @@ import { TranslationService } from '../services/translation.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  selectedLanguage: string = 'en'; // Default language
+  selectedLanguage: string = 'en';
 
   metaDescription: string =
       'Share a one-time secret message and file with Stellar Secret. Protect your privacy and securely share confidential information.';
@@ -27,20 +36,22 @@ export class HomePage {
   url: string = 'https://stellarsecret.io/';
 
   public addSecretModal = new Secret();
-
   public creating = false;
-
   public optionsDisplay = false;
-
   public burnerTimes = [1, 6, 24];
-
   private readonly MAX_FILE_SIZE_MB = 30;
 
-  private readonly ENCRYPTION_VERSION = 'v1';
+  // Bump version since format changes (envelope JSON).
+  private readonly ENCRYPTION_VERSION = 'v2';
+
+  // PBKDF2 tuning. 600k is a reasonable baseline on modern devices.
+  // If you see performance issues on low-end phones, tune down but do not go back to CryptoJS passphrase mode.
+  private readonly PBKDF2_ITERATIONS = 600_000;
 
   secretFiles: SecretFile[] = [];
-
   public chosenBurnerTime = 0;
+
+  private readonly textEnc = new TextEncoder();
 
   constructor(
       private loadingCtrl: LoadingController,
@@ -59,13 +70,9 @@ export class HomePage {
 
   async onChangeFileUpload(event: any) {
     const file: File | undefined = event?.target?.files?.[0];
-
-    if (!file) {
-      return;
-    }
+    if (!file) return;
 
     const totalSizeMB = file.size / Math.pow(1024, 2);
-
     if (totalSizeMB > this.MAX_FILE_SIZE_MB) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
@@ -93,8 +100,6 @@ export class HomePage {
     }
 
     const reader = new FileReader();
-
-    // Reset any previous file when a new one is chosen
     this.secretFiles = [];
 
     reader.addEventListener(
@@ -103,8 +108,8 @@ export class HomePage {
           const base64encoded = reader.result;
           const secretFile = new SecretFile();
           secretFile.name = file.name || 'File 1';
-          secretFile.id = null; // will be set once 'create secret' is being clicked on.
-          secretFile.content = base64encoded?.toString() || ''; // will be encrypted with the encryption-key once 'create secret' is being clicked on.
+          secretFile.id = null;
+          secretFile.content = base64encoded?.toString() || '';
           this.secretFiles.push(secretFile);
         },
         false
@@ -113,9 +118,6 @@ export class HomePage {
     reader.readAsDataURL(file);
   }
 
-  /**
-   * Currently, we only support 1 file for upload, so index not needed atm.
-   */
   public removeFile(index: number) {
     this.secretFiles = [];
   }
@@ -127,17 +129,83 @@ export class HomePage {
   }
 
   public setBurnerTime(burnerTime: number) {
-    if (burnerTime === this.chosenBurnerTime) {
-      burnerTime = 0;
-    }
-
+    if (burnerTime === this.chosenBurnerTime) burnerTime = 0;
     this.chosenBurnerTime = burnerTime;
   }
 
-  public async createLink() {
-    if (this.creating) {
-      return;
+  // ---------- Crypto helpers (WebCrypto AES-256-GCM + PBKDF2-SHA256) ----------
+
+  private b64encode(bytes: Uint8Array): string {
+    let s = '';
+    for (let i = 0; i < bytes.length; i++) s += String.fromCharCode(bytes[i]);
+    return btoa(s);
+  }
+
+  private b64decode(b64: string): Uint8Array {
+    const bin = atob(b64);
+    const out = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+
+  private async deriveAesGcmKey(passwordOrUuid: string, salt: Uint8Array, iterations: number): Promise<CryptoKey> {
+    const baseKey = await crypto.subtle.importKey(
+        'raw',
+        this.textEnc.encode(passwordOrUuid),
+        'PBKDF2',
+        false,
+        ['deriveKey']
+    );
+
+    return crypto.subtle.deriveKey(
+        {
+          name: 'PBKDF2',
+          hash: 'SHA-256',
+          salt,
+          iterations,
+        },
+        baseKey,
+        { name: 'AES-GCM', length: 256 },
+        false,
+        ['encrypt', 'decrypt']
+    );
+  }
+
+  private async encryptEnvelopeV2(plaintext: string, passwordOrUuid: string): Promise<string> {
+    if (!crypto?.subtle) {
+      throw new Error('WebCrypto not available');
     }
+
+    const iter = this.PBKDF2_ITERATIONS;
+    const salt = crypto.getRandomValues(new Uint8Array(16));
+    const iv = crypto.getRandomValues(new Uint8Array(12)); // 96-bit IV recommended for GCM
+
+    const key = await this.deriveAesGcmKey(passwordOrUuid, salt, iter);
+
+    const ctBuf = await crypto.subtle.encrypt(
+        { name: 'AES-GCM', iv, tagLength: 128 },
+        key,
+        this.textEnc.encode(plaintext)
+    );
+
+    const env: EnvelopeV2 = {
+      v: 'v2',
+      alg: 'A256GCM',
+      kdf: 'PBKDF2',
+      hash: 'SHA-256',
+      iter,
+      salt_b64: this.b64encode(salt),
+      iv_b64: this.b64encode(iv),
+      ct_b64: this.b64encode(new Uint8Array(ctBuf)),
+    };
+
+    return JSON.stringify(env);
+  }
+
+  // ------------------------------ Main flow ------------------------------
+
+  public async createLink() {
+    if (this.creating) return;
 
     const message = (this.addSecretModal.message || '').toString();
     const hasMessage = message.trim().length > 0;
@@ -146,9 +214,7 @@ export class HomePage {
     if (!hasMessage && !hasFile) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
-        message:
-        this.translationService.allTranslations
-            .NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
+        message: this.translationService.allTranslations.NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
         buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
@@ -159,84 +225,63 @@ export class HomePage {
 
     const secret_id = uuid();
 
-    // id is the hashed UUID (server never sees the raw secret_id)
+    // Server never sees raw secret_id
     this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
-
-    // Set encryption version for forward compatibility.
     (this.addSecretModal as any).encryption_version = this.ENCRYPTION_VERSION;
 
-    // Default encryption key is the UUID
-    let encryptionKey = secret_id;
-
-    // User-defined password (never leaves the client in any form)
-    const userPassword = (this.addSecretModal.password || '').toString();
-
-    // Set has_password flag for the backend, but do NOT send the password or any hash of it
+    // Password logic stays the same (but now goes through PBKDF2, not CryptoJS passphrase junk).
+    const userPassword = (this.addSecretModal.password || '').toString().trim();
     const hasPassword = userPassword.length > 0;
     (this.addSecretModal as any).has_password = hasPassword;
 
-    if (hasPassword) {
-      // If password is set, we use it as the encryption key
-      encryptionKey = userPassword;
-    }
+    const passwordOrUuid = hasPassword ? userPassword : secret_id;
 
-    // Ensure we do NOT send password to the backend at all
+    // Never send password
     (this.addSecretModal as any).password = undefined;
 
-    // Encrypt message only if present
-    if (hasMessage) {
-      this.addSecretModal.message = CryptoJS.AES.encrypt(
-          message,
-          encryptionKey
-      ).toString();
-    } else {
-      this.addSecretModal.message = '';
-    }
-
-    // File upload handling: encrypt file content with the same key
-    if (hasFile) {
-      const file = this.secretFiles[0];
-      file.id = sha512(secret_id);
-      file.content = CryptoJS.AES.encrypt(
-          file.content || '',
-          encryptionKey
-      ).toString();
-      this.addSecretModal.files = [file];
-    } else {
-      this.addSecretModal.files = [];
-    }
-
     try {
+      // Encrypt message
+      if (hasMessage) {
+        this.addSecretModal.message = await this.encryptEnvelopeV2(message, passwordOrUuid);
+      } else {
+        this.addSecretModal.message = '';
+      }
+
+      // Encrypt file content (still DataURL string, as in your current design)
+      if (hasFile) {
+        const file = this.secretFiles[0];
+        file.id = sha512(secret_id);
+        file.content = await this.encryptEnvelopeV2(file.content || '', passwordOrUuid);
+        this.addSecretModal.files = [file];
+      } else {
+        this.addSecretModal.files = [];
+      }
+
       (await this.secretapi.create(this.addSecretModal)).subscribe(
-          async (response) => {
+          async () => {
             this.creating = false;
 
-            // IMPORTANT: no more ?id=... in URL, use router state instead
-            await this.router.navigate(
-                ['/secret/created'],
-                { state: { id: secret_id } }
-            );
+            // No fragments, no query param. Router state only (same as your current behavior).
+            await this.router.navigate(['/secret/created'], { state: { id: secret_id } });
           },
-          async (error) => {
+          async () => {
             this.creating = false;
             const alert = await this.alertController.create({
               header: this.translationService.allTranslations.ERROR,
               message:
-                  this.translationService.allTranslations
-                      .SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
+                  this.translationService.allTranslations.SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
                   ' ' +
                   this.MAX_FILE_SIZE_MB +
                   ' ' +
                   this.translationService.allTranslations.MB,
               buttons: [this.translationService.allTranslations.OK],
             });
-
             await alert.present();
           },
           async () => {
             this.creating = false;
-            this.addSecretModal = new Secret(); // reset
+            this.addSecretModal = new Secret();
             this.secretFiles = [];
             this.chosenBurnerTime = 0;
           }
@@ -246,8 +291,7 @@ export class HomePage {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
         message:
-            this.translationService.allTranslations
-                .SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
+            this.translationService.allTranslations.SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
             ' ' +
             this.MAX_FILE_SIZE_MB +
             ' ' +
