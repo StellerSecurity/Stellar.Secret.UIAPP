@@ -228,7 +228,7 @@ export class HomePage {
     // Server never sees raw secret_id
     this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
-    (this.addSecretModal as any).encryption_version = this.ENCRYPTION_VERSION;
+    this.addSecretModal.encryption_version = 'v2';
 
     // Password logic stays the same (but now goes through PBKDF2, not CryptoJS passphrase junk).
     const userPassword = (this.addSecretModal.password || '').toString().trim();
