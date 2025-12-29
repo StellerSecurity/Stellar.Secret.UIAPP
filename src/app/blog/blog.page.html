@@ -29,14 +29,13 @@
                 (ionInput)="onSearchInput($event)"
                 animated="true"
                 inputmode="search"
-                show-clear-button="focus"
-        ></ion-searchbar>
+                show-clear-button="focus">
+        </ion-searchbar>
 
         <div class="segment-shell">
           <ion-segment
                   [value]="selectedCategory"
-                  (ionChange)="onCategorySegmentChange($event)"
-          >
+                  (ionChange)="onCategorySegmentChange($event)">
             <ion-segment-button *ngFor="let c of categories" [value]="c">
               <ion-label>{{ c }}</ion-label>
             </ion-segment-button>
@@ -50,13 +49,13 @@
                 [class.active]="selectedTag === t"
                 *ngFor="let t of tags"
                 type="button"
-                (click)="onTagChange(t)"
-        >
+                (click)="onTagChange(t)">
           {{ t }}
         </button>
       </div>
     </div>
 
+    <!-- LOADING -->
     <ng-container *ngIf="isLoading; else loaded">
       <div class="posts-grid">
         <div class="skeleton" *ngFor="let _ of [1,2,3,4,5,6]">
@@ -67,6 +66,7 @@
       </div>
     </ng-container>
 
+    <!-- LOADED -->
     <ng-template #loaded>
       <div class="posts-grid" *ngIf="visiblePosts?.length; else empty">
         <ion-card
@@ -74,8 +74,8 @@
                 [class.featured]="p.featured"
                 *ngFor="let p of visiblePosts; trackBy: trackBySlug"
                 [routerLink]="['/blog', p.slug]"
-                button="true"
-        >
+                button="true">
+
           <ion-card-header>
             <div class="post-meta">
               <span class="post-pill">{{ p.category }}</span>
@@ -103,15 +103,18 @@
           <p class="empty-text">Try a different search or clear filters.</p>
         </div>
       </ng-template>
-
-      <ion-infinite-scroll
-              *ngIf="hasMore"
-              threshold="120px"
-              (ionInfinite)="loadMore($event)"
-      >
-        <ion-infinite-scroll-content></ion-infinite-scroll-content>
-      </ion-infinite-scroll>
     </ng-template>
+
+    <!-- IMPORTANT: never *ngIf infinite-scroll on mobile. Keep it mounted and disable instead -->
+    <ion-infinite-scroll
+            threshold="200px"
+            [disabled]="isLoading || !hasMore"
+            (ionInfinite)="loadMore($event)">
+      <ion-infinite-scroll-content
+              loadingSpinner="dots"
+              loadingText="Loading more...">
+      </ion-infinite-scroll-content>
+    </ion-infinite-scroll>
 
   </div>
 
