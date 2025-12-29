@@ -10,11 +10,11 @@
 
     <div class="post-shell" *ngIf="!isLoading && post; else loadingOrMissing">
 
-      <!-- Back to all posts -->
+      <!-- Back to blog -->
       <div class="post-actions">
         <ion-button fill="clear" class="back-link" routerLink="/blog">
           <ion-icon name="arrow-back-outline" slot="start"></ion-icon>
-          All posts
+          Back to all posts
         </ion-button>
       </div>
 
@@ -64,7 +64,9 @@
           <div class="cta" *ngIf="block.type === 'cta'">
             <div class="cta-title">{{ block.title }}</div>
             <div class="cta-text">{{ block.text }}</div>
-            <ion-button class="cta-btn" [routerLink]="block.href">{{ block.buttonText }}</ion-button>
+            <ion-button class="cta-btn" [routerLink]="block.href">
+              {{ block.buttonText }}
+            </ion-button>
           </div>
 
         </ng-container>

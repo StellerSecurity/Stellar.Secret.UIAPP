@@ -39,7 +39,6 @@ export class BlogPage implements OnInit {
 
     this.blog.getPosts().subscribe({
       next: (data) => {
-        // stable ordering: featured first, then newest date
         this.posts = (data || []).slice().sort((a, b) => {
           const f = (a.featured === b.featured) ? 0 : (a.featured ? -1 : 1);
           if (f !== 0) return f;
@@ -51,7 +50,6 @@ export class BlogPage implements OnInit {
 
         this.buildFilters();
 
-        // Keep selections valid
         if (!this.categories.includes(this.selectedCategory)) this.selectedCategory = 'All';
         if (!this.tags.includes(this.selectedTag)) this.selectedTag = 'All';
 
@@ -93,25 +91,19 @@ export class BlogPage implements OnInit {
     const value = ev?.detail?.value ?? 'All';
     this.selectedCategory = String(value || 'All');
 
-    // IMPORTANT: category change often invalidates tag results.
-    // Reset tag so users don't get "Nothing found" for no obvious reason.
+    // Reset tag to avoid accidental “Nothing found”
     this.selectedTag = 'All';
 
     this.applyFilters(true);
   }
 
   onTagChange(value: string) {
-    // Toggle behavior (better UX for chips):
-    // clicking same tag again clears it back to All
     const v = value || 'All';
     this.selectedTag = (this.selectedTag === v) ? 'All' : v;
-
     this.applyFilters(true);
   }
 
   doRefresh(ev: any) {
-    // If JSON is local, refresh should still behave like a refresh
-    // so we reload service data (in case file changed / caching).
     this.loadPosts(() => ev?.target?.complete?.());
   }
 
@@ -120,10 +112,14 @@ export class BlogPage implements OnInit {
       this.page += 1;
       this.applyFilters(false);
       ev?.target?.complete?.();
-
-      // Optional: hard-disable when done (mobile sometimes behaves better)
-      if (!this.hasMore && ev?.target) ev.target.disabled = true;
+      // DO NOT set ev.target.disabled here. Control it via [disabled] in HTML.
     }, 200);
+  }
+
+  // Manual fallback button
+  loadMoreManual() {
+    this.page += 1;
+    this.applyFilters(false);
   }
 
   private applyFilters(resetPaging: boolean) {
