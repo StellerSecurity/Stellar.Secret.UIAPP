@@ -35,6 +35,14 @@ const routes: Routes = [
     loadChildren: () => import('./privacy-policy/privacy-policy.module').then( m => m.PrivacyPolicyModule)
   },
   {
+    path: 'blog/:slug',
+    loadChildren: () => import('./blog/blog-post/blog-post.module').then( m => m.BlogPostPageModule)
+  },
+  {
+    path: 'blog',
+    loadChildren: () => import('./blog/blog.module').then( m => m.BlogPageModule)
+  },
+  {
     path: ':id',
     loadChildren: () => import('./secret/view/view.module').then( m => m.ViewPageModule)
   },
