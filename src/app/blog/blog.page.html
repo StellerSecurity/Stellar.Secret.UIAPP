@@ -32,7 +32,7 @@
                 show-clear-button="focus">
         </ion-searchbar>
 
-        <div class="segment-shell">
+        <!--<div class="segment-shell">
           <ion-segment
                   [value]="selectedCategory"
                   (ionChange)="onCategorySegmentChange($event)">
@@ -40,10 +40,10 @@
               <ion-label>{{ c }}</ion-label>
             </ion-segment-button>
           </ion-segment>
-        </div>
+        </div>-->
       </div>
 
-      <div class="tag-row" *ngIf="tags?.length && tags.length > 1">
+      <!--<div class="tag-row" *ngIf="tags?.length && tags.length > 1">
         <button
                 class="tag-chip"
                 [class.active]="selectedTag === t"
@@ -52,7 +52,7 @@
                 (click)="onTagChange(t)">
           {{ t }}
         </button>
-      </div>
+      </div>-->
     </div>
 
     <!-- LOADING -->
