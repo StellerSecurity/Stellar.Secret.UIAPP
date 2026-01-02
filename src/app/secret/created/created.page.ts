@@ -48,7 +48,8 @@ export class CreatedPage {
       // No id available → user hit /secret/created directly, just send them home
       this.router.navigate(['/']);
     } else {
-      this.url = this.getBaseUrl() + this.id;
+      //this.url = this.getBaseUrl() + this.id;
+      this.url = "http://stellarsecret.io/" + this.id;
     }
   }
 
