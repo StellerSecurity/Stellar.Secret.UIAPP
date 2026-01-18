@@ -74,7 +74,7 @@
 
                 <input type="file" #fileInput class="file-input" multiple (change)="onChangeFileUpload($event)" />
                 <span class="blue-btn busy-btn" (click)="createLink()" [attr.aria-busy]="creating">
-                  <ion-spinner class="busy-spinner" [style.opacity]="creating ? 1 : 0"></ion-spinner>
+                  <ion-spinner class="open-spinner" [style.opacity]="creating ? 1 : 0"></ion-spinner>
                   <span class="busy-label" [style.opacity]="creating ? 0 : 1">
                     {{ 'HOME.SHARE_BUTTON' | translate }}
                   </span>
