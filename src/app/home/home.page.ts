@@ -1,5 +1,6 @@
+// home.page.ts
 import { Component } from '@angular/core';
-import { AlertController, LoadingController } from '@ionic/angular';
+import { AlertController, LoadingController, Platform } from '@ionic/angular';
 import { SecretapiService } from '../services/secretapi.service';
 import { Secret } from '../models/secret';
 import { Router } from '@angular/router';
@@ -10,6 +11,7 @@ import * as CryptoJS from 'crypto-js';
 import { TranslateService } from '@ngx-translate/core';
 import { SecretFile } from '../models/secretfile';
 import { TranslationService } from '../services/translation.service';
+import { Capacitor } from '@capacitor/core';
 
 @Component({
   selector: 'app-home',
@@ -42,15 +44,26 @@ export class HomePage {
 
   public chosenBurnerTime = 0;
 
+  // Used to hide "Attach file" UI on iOS
+  public isIOS = false;
+
   constructor(
       private loadingCtrl: LoadingController,
       private alertController: AlertController,
       private router: Router,
       private secretapi: SecretapiService,
       private translate: TranslateService,
-      private translationService: TranslationService
+      private translationService: TranslationService,
+      private platform: Platform
   ) {
     this.translate.setDefaultLang(this.selectedLanguage);
+
+    // Hide on iOS (native + iOS Safari/PWA)
+    this.isIOS =
+        Capacitor.getPlatform() === 'ios' ||
+        this.platform.is('ios') ||
+        this.platform.is('iphone') ||
+        this.platform.is('ipad');
   }
 
   public optionsToggle() {
@@ -186,10 +199,7 @@ export class HomePage {
 
     // Encrypt message only if present
     if (hasMessage) {
-      this.addSecretModal.message = CryptoJS.AES.encrypt(
-          message,
-          encryptionKey
-      ).toString();
+      this.addSecretModal.message = CryptoJS.AES.encrypt(message, encryptionKey).toString();
     } else {
       this.addSecretModal.message = '';
     }
@@ -198,10 +208,7 @@ export class HomePage {
     if (hasFile) {
       const file = this.secretFiles[0];
       file.id = sha512(secret_id);
-      file.content = CryptoJS.AES.encrypt(
-          file.content || '',
-          encryptionKey
-      ).toString();
+      file.content = CryptoJS.AES.encrypt(file.content || '', encryptionKey).toString();
       this.addSecretModal.files = [file];
     } else {
       this.addSecretModal.files = [];
@@ -213,10 +220,7 @@ export class HomePage {
             this.creating = false;
 
             // IMPORTANT: no more ?id=... in URL, use router state instead
-            await this.router.navigate(
-                ['/secret/created'],
-                { state: { id: secret_id } }
-            );
+            await this.router.navigate(['/secret/created'], { state: { id: secret_id } });
           },
           async (error) => {
             this.creating = false;
