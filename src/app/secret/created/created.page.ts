@@ -1,10 +1,11 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { SecretapiService } from '../../services/secretapi.service';
+import { isPlatformBrowser } from '@angular/common';
 import { LoadingController, ModalController, Platform } from '@ionic/angular';
+
+import { SecretapiService } from '../../services/secretapi.service';
 import { Secret } from '../../models/secret';
 import { ConfirmationModalComponent } from './confirmation-modal.component';
-import { isPlatformBrowser } from '@angular/common';
 import { TranslationService } from 'src/app/services/translation.service';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
@@ -16,7 +17,6 @@ import { Haptics, ImpactStyle } from '@capacitor/haptics';
 export class CreatedPage {
   public id: string = '';
   public url: string = '';
-
   metaDescription: string = '';
   metaTitle: string = 'Created Secret Message - Stellar Secret';
   metaKeywords: string = '';
@@ -26,7 +26,7 @@ export class CreatedPage {
   public popoverEvent: MouseEvent | null = null;
 
   constructor(
-      @Inject(PLATFORM_ID) private platformId: Object,
+      @Inject(PLATFORM_ID) private platformId: object,
       private router: Router,
       private modalCtrl: ModalController,
       private secretapi: SecretapiService,
@@ -44,7 +44,7 @@ export class CreatedPage {
     if (!this.id) {
       this.router.navigate(['/']);
     } else {
-      this.url = 'http://stellarsecret.io/' + this.id;
+      this.url = 'https://stellarsecret.io/' + this.id;
     }
   }
 
@@ -83,9 +83,8 @@ export class CreatedPage {
   async handleCopy(ev: MouseEvent): Promise<void> {
     try {
       await this.copy();
-      await this.lightTap();
     } catch {
-      // clipboard can fail on unsupported/browser contexts
+      // clipboard failed
     }
 
     this.popoverEvent = ev;
@@ -116,26 +115,21 @@ export class CreatedPage {
     });
 
     modal.onDidDismiss().then(async (data) => {
-      if (data && data.data) {
+      if (data?.data) {
         const confirm = data.data as boolean;
 
         if (confirm) {
           await this.mediumTap();
 
           const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.BURNING_SECRET,
+            message: this.translationService.allTranslations?.BURNING_SECRET || 'Burning secret...',
           });
 
           await loading.present();
 
-          this.secretapi.delete(this.id).subscribe({
-            next: async () => {
-              await this.router.navigate(['/']);
-              await loading.dismiss();
-            },
-            error: async () => {
-              await loading.dismiss();
-            },
+          this.secretapi.delete(this.id).subscribe(async () => {
+            await this.router.navigate(['/']);
+            await loading.dismiss();
           });
         }
       }
