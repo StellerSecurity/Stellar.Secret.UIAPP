@@ -1,4 +1,3 @@
-// home.page.ts
 import { Component } from '@angular/core';
 import { AlertController, LoadingController, Platform } from '@ionic/angular';
 import { SecretapiService } from '../services/secretapi.service';
@@ -12,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { SecretFile } from '../models/secretfile';
 import { TranslationService } from '../services/translation.service';
 import { Capacitor } from '@capacitor/core';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
 @Component({
   selector: 'app-home',
@@ -223,7 +223,6 @@ export class HomePage {
             this.creating = false;
             await this.mediumTap();
 
-            // IMPORTANT: no more ?id=... in URL, use router state instead
             await this.router.navigate(['/secret/created'], { state: { id: secret_id } });
           },
           async () => {
