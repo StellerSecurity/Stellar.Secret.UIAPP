@@ -1,4 +1,4 @@
-import { Component, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
+import { Component, HostListener, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { SecretapiService } from '../../services/secretapi.service';
 
@@ -60,6 +60,16 @@ export class ViewPage implements OnDestroy {
 
     ionViewWillEnter(): void {
         this.clear();
+    }
+
+    @HostListener('window:pageshow', ['$event'])
+    async onPageShow(event: PageTransitionEvent): Promise<void> {
+        if (!event.persisted) {
+            return;
+        }
+
+        this.clear();
+        await this.router.navigateByUrl('/', { replaceUrl: true });
     }
 
     ngOnDestroy(): void {
