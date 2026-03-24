@@ -5,7 +5,7 @@ import { SecretapiService } from '../../services/secretapi.service';
 import { AlertController, LoadingController, ToastController } from '@ionic/angular';
 import { Secret } from '../../models/secret';
 import * as CryptoJS from 'crypto-js';
-import { isPlatformBrowser } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { TranslationService } from 'src/app/services/translation.service';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
@@ -23,6 +23,7 @@ export class ViewPage implements OnDestroy {
     private typewriterTimer: ReturnType<typeof setInterval> | null = null;
     private redirectTimer: ReturnType<typeof setTimeout> | null = null;
     private countdownTimer: ReturnType<typeof setInterval> | null = null;
+    private hasNavigatedAwayAfterReveal = false;
 
     public secretModel: Secret = new Secret();
 
@@ -45,6 +46,7 @@ export class ViewPage implements OnDestroy {
 
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,
+        @Inject(DOCUMENT) private document: Document,
         private router: Router,
         private toastController: ToastController,
         private alertController: AlertController,
@@ -68,8 +70,31 @@ export class ViewPage implements OnDestroy {
             return;
         }
 
-        this.clear();
-        await this.router.navigateByUrl('/', { replaceUrl: true });
+        await this.clearAndLeaveView();
+    }
+
+    @HostListener('window:pagehide')
+    onPageHide(): void {
+        if (this.unlocked || this.openMessage) {
+            this.clear();
+        }
+    }
+
+    @HostListener('document:visibilitychange')
+    async onVisibilityChange(): Promise<void> {
+        if (!isPlatformBrowser(this.platformId)) {
+            return;
+        }
+
+        if (this.document.visibilityState !== 'hidden') {
+            return;
+        }
+
+        if (!this.unlocked && !this.openMessage) {
+            return;
+        }
+
+        await this.clearAndLeaveView();
     }
 
     ngOnDestroy(): void {
@@ -112,6 +137,18 @@ export class ViewPage implements OnDestroy {
             clearInterval(this.countdownTimer);
             this.countdownTimer = null;
         }
+    }
+
+    private async clearAndLeaveView(): Promise<void> {
+        if (this.hasNavigatedAwayAfterReveal) {
+            this.clear();
+            return;
+        }
+
+        this.hasNavigatedAwayAfterReveal = true;
+        this.clear();
+
+        await this.router.navigateByUrl('/', { replaceUrl: true });
     }
 
     private startUnlockAnimation(): void {
@@ -182,6 +219,7 @@ export class ViewPage implements OnDestroy {
 
     private revealUnlockedSecret(decryptedMessage: string): void {
         this.secretModel.message = decryptedMessage;
+        this.hasNavigatedAwayAfterReveal = false;
         this.startUnlockAnimation();
         this.startTypewriterMessage(decryptedMessage);
         this.startRedirectCountdown();
@@ -212,8 +250,7 @@ export class ViewPage implements OnDestroy {
         }, 1000);
 
         this.redirectTimer = setTimeout(async () => {
-            this.clear();
-            await this.router.navigateByUrl('/');
+            await this.clearAndLeaveView();
         }, this.redirectDurationMs);
     }
 
@@ -413,8 +450,7 @@ export class ViewPage implements OnDestroy {
 
     public async reply(): Promise<void> {
         await this.lightTap();
-        this.clear();
-        await this.router.navigate(['/']);
+        await this.clearAndLeaveView();
     }
 
     private clear(): void {
