@@ -47,16 +47,24 @@ ion-content {
   font-family: 'Poppins';
 }
 
-/* Filters block: Home-style dark overlay */
+/* Filters block */
 .filters {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
   margin: 10px 0 14px;
-
   padding: 14px;
   border-radius: 16px;
   background: rgba(0, 0, 0, 0.08);
+  transition:
+          transform var(--app-duration-base) var(--app-ease-decelerate),
+          background-color var(--app-duration-base) var(--app-ease-standard),
+          border-color var(--app-duration-base) var(--app-ease-standard);
+}
+
+.filters:focus-within {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.14);
 }
 
 @media (min-width: 720px) {
@@ -66,18 +74,15 @@ ion-content {
   }
 }
 
-/* Search input: light overlay */
 ion-searchbar {
   --border-radius: 12px;
   --box-shadow: none;
-
   --background: rgba(255, 255, 255, 0.14);
   --color: #fff;
   --placeholder-color: rgba(255, 255, 255, 0.85);
   --icon-color: rgba(255, 255, 255, 0.9);
 }
 
-/* Segment shell: pill overlay */
 .segment-shell {
   border-radius: 14px;
   overflow: hidden;
@@ -101,7 +106,6 @@ ion-segment-button {
   --background-checked: #ffffff;
 }
 
-/* Tags: Home-like chips */
 .tag-row {
   display: flex;
   flex-wrap: wrap;
@@ -116,7 +120,6 @@ ion-segment-button {
   font-weight: 700;
   line-height: 1;
   opacity: 1;
-
   background: rgba(255, 255, 255, 0.14);
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -128,7 +131,6 @@ ion-segment-button {
   border-color: #fff;
 }
 
-/* Grid stays */
 .posts-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -142,23 +144,42 @@ ion-segment-button {
   }
 }
 
-/* Cards: Home white card style */
 .post-card {
   border-radius: 24px;
   overflow: hidden;
-
-  background: #fff;
+  background: rgba(255, 255, 255, 0.96);
   color: #62636A;
-  border: 1px solid #EAEAF0;
+  border: 1px solid rgba(234, 234, 240, 0.9);
+  box-shadow: var(--app-shadow-rest);
+  transform-origin: center center;
+  backface-visibility: hidden;
 }
 
 .post-card.featured {
   border-color: rgba(39, 97, 252, 0.35);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 12px 34px rgba(11, 12, 25, 0.14);
 }
 
 .post-card ion-card-header {
   padding-bottom: 6px;
+}
+
+.post-title,
+.post-excerpt,
+.read-link,
+.post-pill {
+  transition:
+          color var(--app-duration-fast) var(--app-ease-standard),
+          opacity var(--app-duration-fast) var(--app-ease-standard),
+          transform var(--app-duration-fast) var(--app-ease-standard);
+}
+
+.post-card:hover .post-title {
+  transform: translateY(-1px);
+}
+
+.post-card:hover .read-link {
+  transform: translateX(2px);
 }
 
 .post-meta {
@@ -168,7 +189,6 @@ ion-segment-button {
   align-items: center;
   font-size: 12px;
   margin-bottom: 6px;
-
   color: #62636A;
   opacity: 1;
   font-weight: 600;
@@ -180,7 +200,6 @@ ion-segment-button {
   font-weight: 700;
   padding: 6px 10px;
   border-radius: 999px;
-
   background: #F6F6FD;
   color: #2761FC;
   border: 1px solid #EAEAF0;
@@ -191,7 +210,6 @@ ion-segment-button {
   font-weight: 800;
   letter-spacing: -0.02em;
   margin: 0;
-
   color: #0B0C19;
   font-family: 'Poppins';
 }
@@ -200,7 +218,6 @@ ion-segment-button {
   font-size: 13px;
   line-height: 1.45;
   margin: 10px 0 0;
-
   color: #62636A;
   opacity: 1;
   font-family: 'Poppins';
@@ -219,11 +236,9 @@ ion-segment-button {
   letter-spacing: -0.01em;
   font-size: 13px;
   opacity: 1;
-
   color: #2761FC;
 }
 
-/* Empty state on blue bg */
 .empty-state {
   text-align: center;
   padding: 28px 8px 6px;
@@ -245,14 +260,13 @@ ion-segment-button {
   font-family: 'Poppins';
 }
 
-/* Skeletons: match blue bg overlays */
 .skeleton {
   border-radius: 18px;
   overflow: hidden;
-
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: rgba(0, 0, 0, 0.08);
   padding: 16px;
+  animation: skeletonPulse 1.6s ease-in-out infinite;
 }
 
 .skeleton-line {
@@ -268,4 +282,16 @@ ion-segment-button {
 
 ion-infinite-scroll {
   margin-top: 8px;
+}
+
+@keyframes skeletonPulse {
+  0%, 100% {
+    opacity: 0.72;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.01);
+  }
 }

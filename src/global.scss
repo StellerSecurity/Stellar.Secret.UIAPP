@@ -35,7 +35,116 @@
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
+:root {
+  --app-ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --app-ease-decelerate: cubic-bezier(0.16, 1, 0.3, 1);
 
+  --app-duration-fast: 160ms;
+  --app-duration-base: 240ms;
+  --app-duration-slow: 360ms;
+
+  --app-shadow-rest: 0 10px 30px rgba(11, 12, 25, 0.08);
+  --app-shadow-lift: 0 18px 40px rgba(11, 12, 25, 0.14);
+
+  --app-scale-press: 0.985;
+  --app-scale-hover: 1.012;
+}
+
+html {
+  scroll-behavior: smooth;
+  --ion-dynamic-font: var(--ion-default-dynamic-font);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+ion-content::part(scroll) {
+  overscroll-behavior-y: contain;
+}
+
+.app-fade-up {
+  animation: appFadeUp var(--app-duration-slow) var(--app-ease-decelerate) both;
+}
+
+.app-stagger > * {
+  animation: appFadeUp var(--app-duration-slow) var(--app-ease-decelerate) both;
+}
+
+.app-stagger > *:nth-child(1) { animation-delay: 20ms; }
+.app-stagger > *:nth-child(2) { animation-delay: 60ms; }
+.app-stagger > *:nth-child(3) { animation-delay: 100ms; }
+.app-stagger > *:nth-child(4) { animation-delay: 140ms; }
+.app-stagger > *:nth-child(5) { animation-delay: 180ms; }
+.app-stagger > *:nth-child(6) { animation-delay: 220ms; }
+.app-stagger > *:nth-child(7) { animation-delay: 260ms; }
+.app-stagger > *:nth-child(8) { animation-delay: 300ms; }
+
+.app-surface {
+  transition:
+    transform var(--app-duration-base) var(--app-ease-decelerate),
+    box-shadow var(--app-duration-base) var(--app-ease-decelerate),
+    background-color var(--app-duration-base) var(--app-ease-standard),
+    border-color var(--app-duration-base) var(--app-ease-standard),
+    opacity var(--app-duration-fast) var(--app-ease-standard);
+  will-change: transform, box-shadow;
+}
+
+.app-surface:hover {
+  transform: translateY(-2px) scale(var(--app-scale-hover));
+  box-shadow: var(--app-shadow-lift);
+}
+
+.app-surface:active {
+  transform: scale(var(--app-scale-press));
+}
+
+.app-glass {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+@keyframes appFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.985);
+    filter: blur(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .app-fade-up,
+  .app-stagger > *,
+  .app-surface,
+  .app-surface:hover,
+  .app-surface:active {
+    animation: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
 
 .container {
   max-width: 1300px;

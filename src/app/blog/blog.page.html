@@ -12,7 +12,7 @@
       <ion-refresher-content></ion-refresher-content>
     </ion-refresher>
 
-    <div class="blog-top">
+    <div class="blog-top app-fade-up">
       <div class="blog-title-row">
         <div>
           <h1 class="blog-title">Guides & Updates</h1>
@@ -22,21 +22,20 @@
         </div>
       </div>
 
-      <div class="filters">
+      <div class="filters app-glass">
         <ion-searchbar
                 placeholder="Search posts"
                 [value]="search"
                 (ionInput)="onSearchInput($event)"
                 animated="true"
                 inputmode="search"
-                show-clear-button="focus"
-        ></ion-searchbar>
+                show-clear-button="focus">
+        </ion-searchbar>
 
         <!--<div class="segment-shell">
           <ion-segment
-                  [value]="selectedCategory"
-                  (ionChange)="onCategorySegmentChange($event)"
-          >
+            [value]="selectedCategory"
+            (ionChange)="onCategorySegmentChange($event)">
             <ion-segment-button *ngFor="let c of categories" [value]="c">
               <ion-label>{{ c }}</ion-label>
             </ion-segment-button>
@@ -47,21 +46,19 @@
       <!-- Tags (exclude "All" from chip list, keep it as state only) -->
       <!--<div class="tag-row" *ngIf="tags?.length && tags.length > 1">
         <button
-                class="tag-chip"
-                [class.active]="selectedTag === 'All'"
-                type="button"
-                (click)="onTagChange('All')"
-        >
+          class="tag-chip"
+          [class.active]="selectedTag === 'All'"
+          type="button"
+          (click)="onTagChange('All')">
           All
         </button>
 
         <button
-                class="tag-chip"
-                [class.active]="selectedTag === t"
-                *ngFor="let t of (tags || []).slice(1)"
-                type="button"
-                (click)="onTagChange(t)"
-        >
+          class="tag-chip"
+          [class.active]="selectedTag === t"
+          *ngFor="let t of (tags || []).slice(1)"
+          type="button"
+          (click)="onTagChange(t)">
           {{ t }}
         </button>
       </div>-->
@@ -78,14 +75,13 @@
     </ng-container>
 
     <ng-template #loaded>
-      <div class="posts-grid" *ngIf="visiblePosts?.length; else empty">
+      <div class="posts-grid app-stagger" *ngIf="visiblePosts?.length; else empty">
         <ion-card
-                class="post-card"
+                class="post-card app-surface"
                 [class.featured]="p.featured"
                 *ngFor="let p of visiblePosts; trackBy: trackBySlug"
                 [routerLink]="['/blog', p.slug]"
-                button="true"
-        >
+                button="true">
           <ion-card-header>
             <div class="post-meta">
               <span class="post-pill">{{ p.category }}</span>
@@ -108,25 +104,22 @@
       </div>
 
       <ng-template #empty>
-        <div class="empty-state">
+        <div class="empty-state app-fade-up">
           <p class="empty-title">Nothing found</p>
           <p class="empty-text">Try a different search or clear filters.</p>
         </div>
       </ng-template>
 
-      <!-- Manual fallback (mobile-friendly) -->
       <div class="load-more-wrap" *ngIf="!isLoading && hasMore">
         <ion-button expand="block" class="load-more-btn" (click)="loadMoreManual()">
           Load more
         </ion-button>
       </div>
 
-      <!-- Infinite scroll should NOT be destroyed/created with *ngIf -->
       <ion-infinite-scroll
               threshold="200px"
               [disabled]="isLoading || !hasMore"
-              (ionInfinite)="loadMore($event)"
-      >
+              (ionInfinite)="loadMore($event)">
         <ion-infinite-scroll-content></ion-infinite-scroll-content>
       </ion-infinite-scroll>
     </ng-template>
