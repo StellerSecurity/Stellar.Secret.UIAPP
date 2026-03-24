@@ -139,5 +139,8 @@
   "SECRET_ERROR": "Error del secreto",
   "THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED": "El enlace secreto no existe o ya ha sido visto.",
   "SOMETHING_WENT_WRONG": "Algo salió mal",
-  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "La contraseña no es correcta. Inténtalo de nuevo."
+  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "La contraseña no es correcta. Inténtalo de nuevo.",
+  "DOWNLOAD_ATTACHED_FILE_CONFIRM_TITLE": "¿Descargar archivo adjunto?",
+  "DOWNLOAD": "Descargar",
+  "CANCEL": "Cancelar"
 }

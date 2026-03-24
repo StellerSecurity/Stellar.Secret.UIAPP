@@ -139,5 +139,8 @@
   "SECRET_ERROR": "Erreur du secret",
   "THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED": "Le lien secret n’existe pas ou a déjà été consulté.",
   "SOMETHING_WENT_WRONG": "Quelque chose s’est mal passé",
-  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Le mot de passe n’est pas correct. Réessayez."
+  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Le mot de passe n’est pas correct. Réessayez.",
+  "DOWNLOAD_ATTACHED_FILE_CONFIRM_TITLE": "Télécharger le fichier joint ?",
+  "DOWNLOAD": "Télécharger",
+  "CANCEL": "Annuler"
 }

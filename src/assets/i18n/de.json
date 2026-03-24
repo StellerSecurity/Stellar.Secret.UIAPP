@@ -139,5 +139,8 @@
   "SECRET_ERROR": "Geheimnisfehler",
   "THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED": "Der geheime Link existiert nicht oder wurde bereits angesehen.",
   "SOMETHING_WENT_WRONG": "Etwas ist schiefgelaufen",
-  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Das Passwort ist nicht korrekt. Versuchen Sie es erneut."
+  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Das Passwort ist nicht korrekt. Versuchen Sie es erneut.",
+  "DOWNLOAD_ATTACHED_FILE_CONFIRM_TITLE": "Angehängte Datei herunterladen?",
+  "DOWNLOAD": "Herunterladen",
+  "CANCEL": "Abbrechen"
 }

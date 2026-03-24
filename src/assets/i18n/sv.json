@@ -139,5 +139,8 @@
   "SECRET_ERROR": "Hemlighetsfel",
   "THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED": "Den hemliga länken finns inte eller har redan visats.",
   "SOMETHING_WENT_WRONG": "Något gick fel",
-  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Lösenordet är inte korrekt. Försök igen."
+  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Lösenordet är inte korrekt. Försök igen.",
+  "DOWNLOAD_ATTACHED_FILE_CONFIRM_TITLE": "Ladda ner bifogad fil?",
+  "DOWNLOAD": "Ladda ner",
+  "CANCEL": "Avbryt"
 }

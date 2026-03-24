@@ -139,5 +139,8 @@
   "SECRET_ERROR": "Hemmelighedsfejl",
   "THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED": "Det hemmelige link findes ikke eller er allerede blevet vist.",
   "SOMETHING_WENT_WRONG": "Noget gik galt",
-  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Adgangskoden er ikke korrekt. Prøv igen."
+  "THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN": "Adgangskoden er ikke korrekt. Prøv igen.",
+  "DOWNLOAD_ATTACHED_FILE_CONFIRM_TITLE": "Download vedhæftet fil?",
+  "DOWNLOAD": "Download",
+  "CANCEL": "Annuller"
 }
