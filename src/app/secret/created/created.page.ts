@@ -1,10 +1,11 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
-import { ActivatedRoute, Router } from "@angular/router";
-import { SecretapiService } from "../../services/secretapi.service";
-import { LoadingController, ModalController, Platform } from "@ionic/angular";
-import { Secret } from "../../models/secret";
-import { ConfirmationModalComponent } from './confirmation-modal.component';
+import { ActivatedRoute, Router } from '@angular/router';
 import { isPlatformBrowser } from '@angular/common';
+import { LoadingController, ModalController, Platform } from '@ionic/angular';
+
+import { SecretapiService } from '../../services/secretapi.service';
+import { Secret } from '../../models/secret';
+import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { TranslationService } from 'src/app/services/translation.service';
 
 @Component({
@@ -13,10 +14,8 @@ import { TranslationService } from 'src/app/services/translation.service';
   styleUrls: ['./created.page.scss'],
 })
 export class CreatedPage {
-
-  public id: string = "";
-
-  public url: string = "";
+  public id: string = '';
+  public url: string = '';
   metaDescription: string = '';
   metaTitle: string = 'Created Secret Message - Stellar Secret';
   metaKeywords: string = '';
@@ -26,7 +25,7 @@ export class CreatedPage {
   public popoverEvent: MouseEvent | null = null;
 
   constructor(
-      @Inject(PLATFORM_ID) private platformId: Object,
+      @Inject(PLATFORM_ID) private platformId: object,
       private router: Router,
       private modalCtrl: ModalController,
       private secretapi: SecretapiService,
@@ -35,27 +34,21 @@ export class CreatedPage {
       private platform: Platform,
       private translationService: TranslationService
   ) {
-    // First, try getCurrentNavigation (works on first navigation)
     const nav = this.router.getCurrentNavigation();
     const idFromNav = nav?.extras?.state?.['id'];
-
-    // Fallback to history.state for reloads / direct access
     const idFromHistory = history.state?.['id'];
 
     this.id = idFromNav || idFromHistory || '';
 
     if (!this.id) {
-      // No id available → user hit /secret/created directly, just send them home
       this.router.navigate(['/']);
     } else {
-      //this.url = this.getBaseUrl() + this.id;
-      this.url = "http://stellarsecret.io/" + this.id;
+      this.url = 'https://stellarsecret.io/' + this.id;
     }
   }
 
   private getBaseUrl(): string {
     if (isPlatformBrowser(this.platformId)) {
-      // Try to respect <base href="..."> first
       const baseTag = document.getElementsByTagName('base')[0]?.href;
 
       if (baseTag && baseTag.length > 0) {
@@ -66,7 +59,6 @@ export class CreatedPage {
       return origin.endsWith('/') ? origin : origin + '/';
     }
 
-    // Fallback for non-browser env
     const fallback = 'https://stellarsecret.io/';
     return fallback.endsWith('/') ? fallback : fallback + '/';
   }
@@ -74,20 +66,22 @@ export class CreatedPage {
   async handleCopy(ev: MouseEvent) {
     try {
       await this.copy();
-    } catch (e) {
-      // optional: you can add a toast here if clipboard fails
+    } catch {
+      // clipboard failed
     }
 
     this.popoverEvent = ev;
     this.copied = true;
 
-    setTimeout(() => (this.copied = false), 1200);
+    setTimeout(() => {
+      this.copied = false;
+    }, 1200);
   }
 
   private async copy() {
     const copyText = this.url;
 
-    if (isPlatformBrowser(this.platformId)) {
+    if (isPlatformBrowser(this.platformId) && navigator?.clipboard) {
       await navigator.clipboard.writeText(copyText);
     }
   }
@@ -99,27 +93,24 @@ export class CreatedPage {
   public async delete() {
     const modal = await this.modalCtrl.create({
       component: ConfirmationModalComponent,
-      cssClass: 'confirmation-popup'
+      cssClass: 'confirmation-popup',
     });
 
     modal.onDidDismiss().then(async (data) => {
-      if (data && data.data) {
+      if (data?.data) {
         const confirm = data.data as boolean;
+
         if (confirm) {
           const loading = await this.loadingCtrl.create({
-            message: this.translationService.allTranslations.BURNING_SECRET,
+            message: this.translationService.allTranslations?.BURNING_SECRET || 'Burning secret...',
           });
 
           await loading.present();
 
-          this.secretapi.delete(this.id).subscribe(
-              async (response) => {
-                await this.router.navigate(['/']);
-                await loading.dismiss();
-              }
-          );
-        } else {
-          // User cancelled, do nothing
+          this.secretapi.delete(this.id).subscribe(async () => {
+            await this.router.navigate(['/']);
+            await loading.dismiss();
+          });
         }
       }
     });
@@ -130,5 +121,4 @@ export class CreatedPage {
   dismissModal() {
     this.modalCtrl.dismiss();
   }
-
 }
