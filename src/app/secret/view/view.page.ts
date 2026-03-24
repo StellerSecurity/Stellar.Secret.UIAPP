@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { SecretapiService } from '../../services/secretapi.service';
 
@@ -14,16 +14,23 @@ import { Haptics, ImpactStyle } from '@capacitor/haptics';
     templateUrl: './view.page.html',
     styleUrls: ['./view.page.scss'],
 })
-export class ViewPage {
+export class ViewPage implements OnDestroy {
     private id: string = '';
+    private unlockAnimationTimer: ReturnType<typeof setTimeout> | null = null;
+    private typewriterTimer: ReturnType<typeof setInterval> | null = null;
+    private redirectTimer: ReturnType<typeof setTimeout> | null = null;
 
     public secretModel: Secret = new Secret();
 
     public unlocked = false;
+    public unlockingAnimation = false;
     public inputPassword = '';
     public openingLoading = false;
     public openMessage = false;
     public passwordProtected = false;
+
+    public displayedMessage = '';
+    public isTypingMessage = false;
 
     public url: string = '';
     metaDescription: string = '';
@@ -49,6 +56,10 @@ export class ViewPage {
         this.clear();
     }
 
+    ngOnDestroy(): void {
+        this.clearTimers();
+    }
+
     private async lightTap(): Promise<void> {
         try {
             await Haptics.impact({ style: ImpactStyle.Light });
@@ -63,6 +74,95 @@ export class ViewPage {
         } catch {
             // ignore on unsupported platforms
         }
+    }
+
+    private clearTimers(): void {
+        if (this.unlockAnimationTimer) {
+            clearTimeout(this.unlockAnimationTimer);
+            this.unlockAnimationTimer = null;
+        }
+
+        if (this.typewriterTimer) {
+            clearInterval(this.typewriterTimer);
+            this.typewriterTimer = null;
+        }
+
+        if (this.redirectTimer) {
+            clearTimeout(this.redirectTimer);
+            this.redirectTimer = null;
+        }
+    }
+
+    private startUnlockAnimation(): void {
+        if (this.unlockAnimationTimer) {
+            clearTimeout(this.unlockAnimationTimer);
+        }
+
+        this.unlocked = true;
+        this.unlockingAnimation = true;
+
+        this.unlockAnimationTimer = setTimeout(() => {
+            this.unlockingAnimation = false;
+            this.unlockAnimationTimer = null;
+        }, 1400);
+    }
+
+    private startTypewriterMessage(fullMessage: string): void {
+        if (this.typewriterTimer) {
+            clearInterval(this.typewriterTimer);
+            this.typewriterTimer = null;
+        }
+
+        this.displayedMessage = '';
+        this.isTypingMessage = true;
+
+        if (!fullMessage || fullMessage.length === 0) {
+            this.isTypingMessage = false;
+            return;
+        }
+
+        const characters = Array.from(fullMessage);
+        let index = 0;
+
+        const typingDelay = this.getTypingDelay(fullMessage);
+
+        this.typewriterTimer = setInterval(() => {
+            this.displayedMessage += characters[index];
+            index += 1;
+
+            if (index >= characters.length) {
+                if (this.typewriterTimer) {
+                    clearInterval(this.typewriterTimer);
+                    this.typewriterTimer = null;
+                }
+
+                this.isTypingMessage = false;
+            }
+        }, typingDelay);
+    }
+
+    private getTypingDelay(message: string): number {
+        const length = message.length;
+
+        if (length <= 120) {
+            return 18;
+        }
+
+        if (length <= 300) {
+            return 12;
+        }
+
+        if (length <= 700) {
+            return 8;
+        }
+
+        return 5;
+    }
+
+    private revealUnlockedSecret(decryptedMessage: string): void {
+        this.secretModel.message = decryptedMessage;
+        this.startUnlockAnimation();
+        this.startTypewriterMessage(decryptedMessage);
     }
 
     base64ToFile(base64String: string, mimeType: string, fileName: string): void {
@@ -141,7 +241,7 @@ export class ViewPage {
                 this.passwordProtected = !!(this.secretModel as any).has_password;
 
                 if (!this.passwordProtected) {
-                    this.secretModel.message = CryptoJS.AES.decrypt(
+                    const decryptedMessage = CryptoJS.AES.decrypt(
                         this.secretModel.message,
                         this.id
                     ).toString(CryptoJS.enc.Utf8);
@@ -153,11 +253,15 @@ export class ViewPage {
                         ).toString(CryptoJS.enc.Utf8);
                     }
 
-                    this.unlocked = true;
+                    this.revealUnlockedSecret(decryptedMessage);
                     await this.mediumTap();
                 }
 
-                setTimeout(async () => {
+                if (this.redirectTimer) {
+                    clearTimeout(this.redirectTimer);
+                }
+
+                this.redirectTimer = setTimeout(async () => {
                     this.clear();
                     await this.router.navigateByUrl('/');
                 }, 300000);
@@ -241,8 +345,6 @@ export class ViewPage {
             return;
         }
 
-        this.secretModel.message = decryptedMessage;
-
         if (this.secretModel.files && this.secretModel.files.length > 0) {
             this.secretModel.files[0].content = CryptoJS.AES.decrypt(
                 this.secretModel.files[0].content,
@@ -250,7 +352,7 @@ export class ViewPage {
             ).toString(CryptoJS.enc.Utf8);
         }
 
-        this.unlocked = true;
+        this.revealUnlockedSecret(decryptedMessage);
         await this.mediumTap();
     }
 
@@ -261,11 +363,16 @@ export class ViewPage {
     }
 
     private clear(): void {
+        this.clearTimers();
+
         this.openingLoading = false;
         this.secretModel = new Secret();
         this.unlocked = false;
+        this.unlockingAnimation = false;
         this.openMessage = false;
         this.inputPassword = '';
         this.passwordProtected = false;
+        this.displayedMessage = '';
+        this.isTypingMessage = false;
     }
 }

@@ -1,7 +1,7 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 import { isPlatformBrowser } from '@angular/common';
-import { LoadingController, ModalController, Platform } from '@ionic/angular';
+import { LoadingController, ModalController } from '@ionic/angular';
 
 import { SecretapiService } from '../../services/secretapi.service';
 import { Secret } from '../../models/secret';
@@ -31,8 +31,6 @@ export class CreatedPage {
       private modalCtrl: ModalController,
       private secretapi: SecretapiService,
       private loadingCtrl: LoadingController,
-      private route: ActivatedRoute,
-      private platform: Platform,
       private translationService: TranslationService
   ) {
     const nav = this.router.getCurrentNavigation();
@@ -44,7 +42,7 @@ export class CreatedPage {
     if (!this.id) {
       this.router.navigate(['/']);
     } else {
-      this.url = 'https://stellarsecret.io/' + this.id;
+      this.url = `${this.getBaseUrl()}${this.id}`;
     }
   }
 
@@ -53,15 +51,15 @@ export class CreatedPage {
       const baseTag = document.getElementsByTagName('base')[0]?.href;
 
       if (baseTag && baseTag.length > 0) {
-        return baseTag.endsWith('/') ? baseTag : baseTag + '/';
+        return baseTag.endsWith('/') ? baseTag : `${baseTag}/`;
       }
 
       const origin = window.location.origin;
-      return origin.endsWith('/') ? origin : origin + '/';
+      return origin.endsWith('/') ? origin : `${origin}/`;
     }
 
     const fallback = 'https://stellarsecret.io/';
-    return fallback.endsWith('/') ? fallback : fallback + '/';
+    return fallback.endsWith('/') ? fallback : `${fallback}/`;
   }
 
   private async lightTap(): Promise<void> {
@@ -100,6 +98,19 @@ export class CreatedPage {
 
     if (isPlatformBrowser(this.platformId) && navigator?.clipboard) {
       await navigator.clipboard.writeText(copyText);
+      return;
+    }
+
+    if (isPlatformBrowser(this.platformId)) {
+      const textArea = document.createElement('textarea');
+      textArea.value = copyText;
+      textArea.style.position = 'fixed';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
     }
   }
 
