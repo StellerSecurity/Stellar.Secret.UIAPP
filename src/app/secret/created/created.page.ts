@@ -7,6 +7,7 @@ import { SecretapiService } from '../../services/secretapi.service';
 import { Secret } from '../../models/secret';
 import { ConfirmationModalComponent } from './confirmation-modal.component';
 import { TranslationService } from 'src/app/services/translation.service';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
 @Component({
   selector: 'app-created',
@@ -63,7 +64,23 @@ export class CreatedPage {
     return fallback.endsWith('/') ? fallback : fallback + '/';
   }
 
-  async handleCopy(ev: MouseEvent) {
+  private async lightTap(): Promise<void> {
+    try {
+      await Haptics.impact({ style: ImpactStyle.Light });
+    } catch {
+      // ignore on unsupported platforms
+    }
+  }
+
+  private async mediumTap(): Promise<void> {
+    try {
+      await Haptics.impact({ style: ImpactStyle.Medium });
+    } catch {
+      // ignore on unsupported platforms
+    }
+  }
+
+  async handleCopy(ev: MouseEvent): Promise<void> {
     try {
       await this.copy();
     } catch {
@@ -78,7 +95,7 @@ export class CreatedPage {
     }, 1200);
   }
 
-  private async copy() {
+  private async copy(): Promise<void> {
     const copyText = this.url;
 
     if (isPlatformBrowser(this.platformId) && navigator?.clipboard) {
@@ -86,11 +103,12 @@ export class CreatedPage {
     }
   }
 
-  public createSecret() {
-    this.router.navigate(['/']);
+  public async createSecret(): Promise<void> {
+    await this.lightTap();
+    await this.router.navigate(['/']);
   }
 
-  public async delete() {
+  public async delete(): Promise<void> {
     const modal = await this.modalCtrl.create({
       component: ConfirmationModalComponent,
       cssClass: 'confirmation-popup',
@@ -101,6 +119,8 @@ export class CreatedPage {
         const confirm = data.data as boolean;
 
         if (confirm) {
+          await this.mediumTap();
+
           const loading = await this.loadingCtrl.create({
             message: this.translationService.allTranslations?.BURNING_SECRET || 'Burning secret...',
           });
@@ -115,10 +135,11 @@ export class CreatedPage {
       }
     });
 
-    return await modal.present();
+    await modal.present();
   }
 
-  dismissModal() {
-    this.modalCtrl.dismiss();
+  async dismissModal(): Promise<void> {
+    await this.lightTap();
+    await this.modalCtrl.dismiss();
   }
 }

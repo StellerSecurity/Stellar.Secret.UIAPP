@@ -7,6 +7,7 @@ import { Secret } from '../../models/secret';
 import * as CryptoJS from 'crypto-js';
 import { isPlatformBrowser } from '@angular/common';
 import { TranslationService } from 'src/app/services/translation.service';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
 @Component({
     selector: 'app-view',
@@ -44,11 +45,27 @@ export class ViewPage {
         });
     }
 
-    ionViewWillEnter() {
+    ionViewWillEnter(): void {
         this.clear();
     }
 
-    base64ToFile(base64String: string, mimeType: string, fileName: string) {
+    private async lightTap(): Promise<void> {
+        try {
+            await Haptics.impact({ style: ImpactStyle.Light });
+        } catch {
+            // ignore on unsupported platforms
+        }
+    }
+
+    private async mediumTap(): Promise<void> {
+        try {
+            await Haptics.impact({ style: ImpactStyle.Medium });
+        } catch {
+            // ignore on unsupported platforms
+        }
+    }
+
+    base64ToFile(base64String: string, mimeType: string, fileName: string): void {
         const base64Data = base64String.replace(/^data:.+;base64,/, '');
         const byteCharacters = atob(base64Data);
         const byteNumbers = new Array(byteCharacters.length);
@@ -69,15 +86,16 @@ export class ViewPage {
         URL.revokeObjectURL(url);
     }
 
-    public async copy() {
+    public async copy(): Promise<void> {
         const copyText = this.secretModel.message || '';
 
-        if (isPlatformBrowser(this.platformId)) {
+        if (isPlatformBrowser(this.platformId) && navigator?.clipboard) {
             await navigator.clipboard.writeText(copyText);
+            await this.lightTap();
 
             const toast = await this.toastController.create({
                 message: this.translationService.allTranslations.THE_MESSAGE_HAS_BEEN_COPIED,
-                duration: 3000,
+                duration: 2500,
                 position: 'top',
             });
 
@@ -85,15 +103,17 @@ export class ViewPage {
         }
     }
 
-    public loadSecret() {
+    public async loadSecret(): Promise<void> {
         if (this.openingLoading) {
             return;
         }
+
+        await this.lightTap();
         this.openingLoading = true;
         this.openMessageBox();
     }
 
-    public openMessageBox() {
+    public openMessageBox(): void {
         this.openingLoading = true;
 
         this.secretapi.view(this.id).subscribe(
@@ -112,20 +132,14 @@ export class ViewPage {
                     });
 
                     await alert.present();
-
                     await this.router.navigateByUrl('/');
                     return;
                 }
 
                 this.openingLoading = false;
-
-                // Response contains the encrypted secret model (with has_password flag)
                 this.secretModel = response as Secret;
-
-                // Determine if the secret is password protected
                 this.passwordProtected = !!(this.secretModel as any).has_password;
 
-                // No password set: decrypt directly with the raw secret link ID
                 if (!this.passwordProtected) {
                     this.secretModel.message = CryptoJS.AES.decrypt(
                         this.secretModel.message,
@@ -140,15 +154,15 @@ export class ViewPage {
                     }
 
                     this.unlocked = true;
+                    await this.mediumTap();
                 }
 
-                // Auto-clear and redirect after 5 minutes
                 setTimeout(async () => {
                     this.clear();
                     await this.router.navigateByUrl('/');
                 }, 300000);
             },
-            async (error) => {
+            async () => {
                 this.openingLoading = false;
 
                 const alert = await this.alertController.create({
@@ -162,25 +176,53 @@ export class ViewPage {
         );
     }
 
-    public async downloadAttachedFile() {
-        if (this.secretModel.files && this.secretModel.files.length > 0) {
-            const loading = await this.loadingCtrl.create();
-            await loading.present();
+    public async downloadAttachedFile(): Promise<void> {
+        if (!this.secretModel.files || this.secretModel.files.length === 0) {
+            alert(this.translationService.allTranslations.SOMETHING_WENT_WRONG);
+            return;
+        }
 
+        const confirmAlert = await this.alertController.create({
+            header: 'Download attached file?',
+            message: 'Downloading will store a local copy of this file on this device.',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                },
+                {
+                    text: 'Download',
+                    role: 'confirm',
+                },
+            ],
+        });
+
+        await confirmAlert.present();
+
+        const result = await confirmAlert.onDidDismiss();
+
+        if (result.role !== 'confirm') {
+            return;
+        }
+
+        await this.mediumTap();
+
+        const loading = await this.loadingCtrl.create();
+        await loading.present();
+
+        try {
             const fileContent = this.secretModel.files[0].content || '';
             const mime = fileContent.split(';');
             mime[0] = mime[0].replace('data:', '');
 
             const randomNumber = Math.floor(Math.random() * (999999999 - 9999) + 9999);
             this.base64ToFile(fileContent, mime[0], 'File-' + randomNumber);
-
+        } finally {
             await loading.dismiss();
-        } else {
-            alert(this.translationService.allTranslations.SOMETHING_WENT_WRONG);
         }
     }
 
-    public async unlockByPassword() {
+    public async unlockByPassword(): Promise<void> {
         const inputPwd = this.inputPassword || '';
 
         const decryptedMessage = CryptoJS.AES.decrypt(
@@ -209,14 +251,16 @@ export class ViewPage {
         }
 
         this.unlocked = true;
+        await this.mediumTap();
     }
 
-    public reply() {
+    public async reply(): Promise<void> {
+        await this.lightTap();
         this.clear();
-        this.router.navigate(['/']).then(() => {});
+        await this.router.navigate(['/']);
     }
 
-    private clear() {
+    private clear(): void {
         this.openingLoading = false;
         this.secretModel = new Secret();
         this.unlocked = false;
