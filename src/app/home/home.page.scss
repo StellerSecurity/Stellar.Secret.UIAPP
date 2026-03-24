@@ -7,8 +7,26 @@ ion-header {
 }
 
 .attach-file {
-  color: blue;
+  color: #2761FC;
   cursor: pointer;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 700;
+  transition:
+          color var(--app-duration-fast) var(--app-ease-standard),
+          opacity var(--app-duration-fast) var(--app-ease-standard),
+          transform var(--app-duration-fast) var(--app-ease-standard);
+}
+
+.attach-file:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
 }
 
 .busy-btn {
@@ -16,21 +34,58 @@ ion-header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 8rem; /* keeps width stable */
+  width: 100%;
+  min-width: 100%;
+  min-height: 56px;
+  border: 0;
+  transition:
+          transform var(--app-duration-fast) var(--app-ease-standard),
+          box-shadow var(--app-duration-base) var(--app-ease-decelerate),
+          opacity var(--app-duration-fast) var(--app-ease-standard);
 }
 
-.busy-spinner, .busy-label { transition: opacity 150ms ease; }
+.busy-btn:active {
+  transform: scale(var(--app-scale-press));
+}
 
-/* center spinner over the label */
+.busy-spinner,
+.busy-label {
+  transition:
+          opacity 150ms ease,
+          transform 150ms ease;
+}
+
 .busy-spinner {
   position: absolute;
   inset: 0;
   margin: auto;
+  transform: scale(0.92);
+}
+
+.busy-label {
+  transform: scale(1);
+}
+
+.busy-btn[aria-busy="true"] {
+  pointer-events: none;
+  opacity: 0.94;
+}
+
+.busy-btn[aria-busy="true"] .busy-spinner {
+  transform: scale(1);
+}
+
+.busy-btn[aria-busy="true"] .busy-label {
+  transform: scale(0.96);
 }
 
 .delete-file {
   color: red;
   cursor: pointer;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-weight: 700;
 }
 
 .file-input {
@@ -78,10 +133,11 @@ ion-toolbar {
 }
 
 .password-box {
-  border-radius: 24px 24px;
-  background: #fff;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.98);
   color: #62636A;
   padding: 30px;
+  box-shadow: var(--app-shadow-rest);
 
   ion-textarea {
     border: 1px #EAEAF0 solid;
@@ -90,6 +146,14 @@ ion-toolbar {
     font-size: 14px;
     --ion-text-color: #EAEAF0;
     min-height: 150px;
+    transition:
+            border-color var(--app-duration-fast) var(--app-ease-standard),
+            box-shadow var(--app-duration-base) var(--app-ease-decelerate),
+            transform var(--app-duration-fast) var(--app-ease-standard);
+  }
+
+  ion-textarea:focus-within {
+    transform: translateY(-1px);
   }
 }
 
@@ -99,7 +163,6 @@ ion-toolbar {
   --background: transparent;
   --box-shadow: unset;
   --background-hover: none;
-  font-size: 16px;
   font-weight: 600;
   color: #fff;
   position: relative;
@@ -114,7 +177,6 @@ ion-toolbar {
 
 @media only screen and (min-width: 768px) {
   ion-content.main-sec {
-
     --padding-start: var(--ion-padding, 100px);
     --padding-end: var(--ion-padding, 100px);
     --padding-top: var(--ion-padding, 100px);
@@ -124,11 +186,9 @@ ion-toolbar {
   }
 
   ion-toolbar {
-
     --padding-start: var(--ion-padding, 100px);
     --padding-end: var(--ion-padding, 100px);
   }
-
 }
 
 .title {
@@ -136,6 +196,7 @@ ion-toolbar {
   font-family: 'Poppins';
   font-weight: 700;
   margin: 0;
+  letter-spacing: -0.03em;
 }
 
 .white-box-options {
@@ -147,7 +208,6 @@ ion-toolbar {
     //height: 100vh;
   }
 }
-
 
 ion-title {
   font-size: 14px;
@@ -196,7 +256,6 @@ ion-title img {
 }
 
 .header-md {
-  /* Removes the toolbar shadow. */
   box-shadow: none !important;
 }
 
@@ -214,6 +273,40 @@ ion-content.main-sec {
   border-radius: 12px;
   font-weight: 600;
   margin-bottom: 25px;
+  transition:
+          transform var(--app-duration-base) var(--app-ease-decelerate),
+          box-shadow var(--app-duration-base) var(--app-ease-decelerate),
+          background-color var(--app-duration-base) var(--app-ease-standard);
+}
+
+.options.options-open {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(11, 12, 25, 0.06);
+}
+
+.options-selector {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  font: inherit;
+  color: inherit;
+}
+
+.options-chevron {
+  float: right;
+  transition: transform var(--app-duration-base) var(--app-ease-decelerate);
+}
+
+.options-chevron-open {
+  transform: rotate(180deg);
+}
+
+.options-content {
+  animation: appFadeUp var(--app-duration-base) var(--app-ease-decelerate) both;
 }
 
 ion-input {
@@ -235,7 +328,7 @@ ion-input {
 }
 
 .blue-btn {
-  display: flex;
+  display: inline-flex;
   padding: 14px 24px;
   justify-content: center;
   align-items: center;
@@ -246,6 +339,18 @@ ion-input {
   border-radius: 250px;
   font-weight: 700;
   cursor: pointer;
+  border: 0;
+  box-shadow: 0 12px 24px rgba(39, 97, 252, 0.24);
+  transition:
+          transform var(--app-duration-fast) var(--app-ease-standard),
+          box-shadow var(--app-duration-base) var(--app-ease-decelerate),
+          filter var(--app-duration-fast) var(--app-ease-standard);
+}
+
+.blue-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 32px rgba(39, 97, 252, 0.3);
+  filter: saturate(1.03);
 }
 
 .monkeys {
@@ -262,10 +367,18 @@ ion-input {
   background-color: #fff;
   border: 1px #EAEAF0 solid;
   cursor: pointer;
+  font-family: 'Poppins';
+  transition:
+          transform var(--app-duration-fast) var(--app-ease-standard),
+          box-shadow var(--app-duration-base) var(--app-ease-decelerate),
+          border-color var(--app-duration-fast) var(--app-ease-standard),
+          background-color var(--app-duration-fast) var(--app-ease-standard),
+          color var(--app-duration-fast) var(--app-ease-standard);
 }
 
-.options-selector {
-  cursor: pointer;
+.timer-option:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(11, 12, 25, 0.06);
 }
 
 .timer-option.active {
@@ -281,8 +394,21 @@ ion-input {
 
 .options-grid {
   ion-col {
-  margin: 5px;
+    margin: 5px;
   }
+}
+
+.attached-files {
+  line-height: 1.8;
+}
+
+button.blue-btn:focus-visible,
+button.attach-file:focus-visible,
+button.delete-file:focus-visible,
+button.options-selector:focus-visible,
+button.timer-option:focus-visible {
+  outline: 2px solid rgba(39, 97, 252, 0.45);
+  outline-offset: 3px;
 }
 
 @media screen and (max-width: 575px) {
@@ -344,6 +470,10 @@ ion-input {
 
   .passphrase-input {
     margin-top: 5px;
+  }
+
+  .busy-btn {
+    width: 100%;
   }
 }
 

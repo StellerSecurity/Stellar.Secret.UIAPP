@@ -10,6 +10,7 @@ import * as CryptoJS from 'crypto-js';
 import { TranslateService } from '@ngx-translate/core';
 import { SecretFile } from '../models/secretfile';
 import { TranslationService } from '../services/translation.service';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +18,7 @@ import { TranslationService } from '../services/translation.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  selectedLanguage: string = 'en'; // Default language
+  selectedLanguage: string = 'en';
 
   metaDescription: string =
       'Share a one-time secret message and file with Stellar Secret. Protect your privacy and securely share confidential information.';
@@ -27,19 +28,14 @@ export class HomePage {
   url: string = 'https://stellarsecret.io/';
 
   public addSecretModal = new Secret();
-
   public creating = false;
-
   public optionsDisplay = false;
-
   public burnerTimes = [1, 6, 24];
 
   private readonly MAX_FILE_SIZE_MB = 30;
-
   private readonly ENCRYPTION_VERSION = 'v1';
 
   secretFiles: SecretFile[] = [];
-
   public chosenBurnerTime = 0;
 
   constructor(
@@ -53,16 +49,35 @@ export class HomePage {
     this.translate.setDefaultLang(this.selectedLanguage);
   }
 
-  public optionsToggle() {
+  private async lightTap(): Promise<void> {
+    try {
+      await Haptics.impact({ style: ImpactStyle.Light });
+    } catch {
+      // ignore on unsupported platforms
+    }
+  }
+
+  private async mediumTap(): Promise<void> {
+    try {
+      await Haptics.impact({ style: ImpactStyle.Medium });
+    } catch {
+      // ignore on unsupported platforms
+    }
+  }
+
+  public async optionsToggle(): Promise<void> {
+    await this.lightTap();
     this.optionsDisplay = !this.optionsDisplay;
   }
 
-  async onChangeFileUpload(event: any) {
+  async onChangeFileUpload(event: any): Promise<void> {
     const file: File | undefined = event?.target?.files?.[0];
 
     if (!file) {
       return;
     }
+
+    await this.lightTap();
 
     const totalSizeMB = file.size / Math.pow(1024, 2);
 
@@ -81,7 +96,6 @@ export class HomePage {
       return;
     }
 
-    // Only 1 file per secret
     if (this.secretFiles.length + 1 > 1) {
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR_MAX_1_FILE_PER_SECRET,
@@ -93,8 +107,6 @@ export class HomePage {
     }
 
     const reader = new FileReader();
-
-    // Reset any previous file when a new one is chosen
     this.secretFiles = [];
 
     reader.addEventListener(
@@ -103,8 +115,8 @@ export class HomePage {
           const base64encoded = reader.result;
           const secretFile = new SecretFile();
           secretFile.name = file.name || 'File 1';
-          secretFile.id = null; // will be set once 'create secret' is being clicked on.
-          secretFile.content = base64encoded?.toString() || ''; // will be encrypted with the encryption-key once 'create secret' is being clicked on.
+          secretFile.id = null;
+          secretFile.content = base64encoded?.toString() || '';
           this.secretFiles.push(secretFile);
         },
         false
@@ -113,20 +125,20 @@ export class HomePage {
     reader.readAsDataURL(file);
   }
 
-  /**
-   * Currently, we only support 1 file for upload, so index not needed atm.
-   */
-  public removeFile(index: number) {
+  public async removeFile(index: number): Promise<void> {
+    await this.lightTap();
     this.secretFiles = [];
   }
 
-  ionViewWillEnter() {
+  ionViewWillEnter(): void {
     this.secretFiles = [];
     this.addSecretModal = new Secret();
     this.chosenBurnerTime = 0;
   }
 
-  public setBurnerTime(burnerTime: number) {
+  public async setBurnerTime(burnerTime: number): Promise<void> {
+    await this.lightTap();
+
     if (burnerTime === this.chosenBurnerTime) {
       burnerTime = 0;
     }
@@ -134,10 +146,12 @@ export class HomePage {
     this.chosenBurnerTime = burnerTime;
   }
 
-  public async createLink() {
+  public async createLink(): Promise<void> {
     if (this.creating) {
       return;
     }
+
+    await this.lightTap();
 
     const message = (this.addSecretModal.message || '').toString();
     const hasMessage = message.trim().length > 0;
@@ -159,32 +173,23 @@ export class HomePage {
 
     const secret_id = uuid();
 
-    // id is the hashed UUID (server never sees the raw secret_id)
     this.addSecretModal.id = sha512(secret_id);
     this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
 
-    // Set encryption version for forward compatibility.
     (this.addSecretModal as any).encryption_version = this.ENCRYPTION_VERSION;
 
-    // Default encryption key is the UUID
     let encryptionKey = secret_id;
-
-    // User-defined password (never leaves the client in any form)
     const userPassword = (this.addSecretModal.password || '').toString();
-
-    // Set has_password flag for the backend, but do NOT send the password or any hash of it
     const hasPassword = userPassword.length > 0;
+
     (this.addSecretModal as any).has_password = hasPassword;
 
     if (hasPassword) {
-      // If password is set, we use it as the encryption key
       encryptionKey = userPassword;
     }
 
-    // Ensure we do NOT send password to the backend at all
     (this.addSecretModal as any).password = undefined;
 
-    // Encrypt message only if present
     if (hasMessage) {
       this.addSecretModal.message = CryptoJS.AES.encrypt(
           message,
@@ -194,7 +199,6 @@ export class HomePage {
       this.addSecretModal.message = '';
     }
 
-    // File upload handling: encrypt file content with the same key
     if (hasFile) {
       const file = this.secretFiles[0];
       file.id = sha512(secret_id);
@@ -209,16 +213,16 @@ export class HomePage {
 
     try {
       (await this.secretapi.create(this.addSecretModal)).subscribe(
-          async (response) => {
+          async () => {
             this.creating = false;
+            await this.mediumTap();
 
-            // IMPORTANT: no more ?id=... in URL, use router state instead
             await this.router.navigate(
                 ['/secret/created'],
                 { state: { id: secret_id } }
             );
           },
-          async (error) => {
+          async () => {
             this.creating = false;
             const alert = await this.alertController.create({
               header: this.translationService.allTranslations.ERROR,
@@ -236,12 +240,12 @@ export class HomePage {
           },
           async () => {
             this.creating = false;
-            this.addSecretModal = new Secret(); // reset
+            this.addSecretModal = new Secret();
             this.secretFiles = [];
             this.chosenBurnerTime = 0;
           }
       );
-    } catch (e) {
+    } catch {
       this.creating = false;
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
