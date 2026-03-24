@@ -12,7 +12,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   selectedLanguage: string = 'en';
-  private readonly supportedLangs: string[] = ['en', 'es', 'fr', 'de', 'da', 'sv'];
+  private readonly supportedLangs: string[] = ['en', 'es', 'fr', 'de', 'da', 'sv', 'fr'];
   constructor(
     @Inject(PLATFORM_ID) private platformId: object,
     private router: Router,

@@ -15,10 +15,14 @@ import { Haptics, ImpactStyle } from '@capacitor/haptics';
     styleUrls: ['./view.page.scss'],
 })
 export class ViewPage implements OnDestroy {
+    private readonly redirectDurationMs = 300000;
+    private readonly redirectDurationSeconds = Math.floor(this.redirectDurationMs / 1000);
+
     private id: string = '';
     private unlockAnimationTimer: ReturnType<typeof setTimeout> | null = null;
     private typewriterTimer: ReturnType<typeof setInterval> | null = null;
     private redirectTimer: ReturnType<typeof setTimeout> | null = null;
+    private countdownTimer: ReturnType<typeof setInterval> | null = null;
 
     public secretModel: Secret = new Secret();
 
@@ -31,6 +35,8 @@ export class ViewPage implements OnDestroy {
 
     public displayedMessage = '';
     public isTypingMessage = false;
+
+    public redirectCountdownSeconds = this.redirectDurationSeconds;
 
     public url: string = '';
     metaDescription: string = '';
@@ -90,6 +96,11 @@ export class ViewPage implements OnDestroy {
         if (this.redirectTimer) {
             clearTimeout(this.redirectTimer);
             this.redirectTimer = null;
+        }
+
+        if (this.countdownTimer) {
+            clearInterval(this.countdownTimer);
+            this.countdownTimer = null;
         }
     }
 
@@ -163,6 +174,49 @@ export class ViewPage implements OnDestroy {
         this.secretModel.message = decryptedMessage;
         this.startUnlockAnimation();
         this.startTypewriterMessage(decryptedMessage);
+        this.startRedirectCountdown();
+    }
+
+    private startRedirectCountdown(): void {
+        if (this.redirectTimer) {
+            clearTimeout(this.redirectTimer);
+            this.redirectTimer = null;
+        }
+
+        if (this.countdownTimer) {
+            clearInterval(this.countdownTimer);
+            this.countdownTimer = null;
+        }
+
+        this.redirectCountdownSeconds = this.redirectDurationSeconds;
+
+        this.countdownTimer = setInterval(() => {
+            if (this.redirectCountdownSeconds > 0) {
+                this.redirectCountdownSeconds -= 1;
+            }
+
+            if (this.redirectCountdownSeconds <= 0 && this.countdownTimer) {
+                clearInterval(this.countdownTimer);
+                this.countdownTimer = null;
+            }
+        }, 1000);
+
+        this.redirectTimer = setTimeout(async () => {
+            this.clear();
+            await this.router.navigateByUrl('/');
+        }, this.redirectDurationMs);
+    }
+
+    public get redirectCountdownLabel(): string {
+        const minutes = Math.floor(this.redirectCountdownSeconds / 60);
+        const seconds = this.redirectCountdownSeconds % 60;
+        const paddedSeconds = seconds.toString().padStart(2, '0');
+
+        return `${minutes}:${paddedSeconds}`;
+    }
+
+    public get isCountdownEndingSoon(): boolean {
+        return this.redirectCountdownSeconds <= 30;
     }
 
     base64ToFile(base64String: string, mimeType: string, fileName: string): void {
@@ -256,15 +310,6 @@ export class ViewPage implements OnDestroy {
                     this.revealUnlockedSecret(decryptedMessage);
                     await this.mediumTap();
                 }
-
-                if (this.redirectTimer) {
-                    clearTimeout(this.redirectTimer);
-                }
-
-                this.redirectTimer = setTimeout(async () => {
-                    this.clear();
-                    await this.router.navigateByUrl('/');
-                }, 300000);
             },
             async () => {
                 this.openingLoading = false;
@@ -287,15 +332,15 @@ export class ViewPage implements OnDestroy {
         }
 
         const confirmAlert = await this.alertController.create({
-            header: 'Download attached file?',
-            message: 'Downloading will store a local copy of this file on this device.',
+            header: this.translationService.allTranslations.DOWNLOAD_ATTACHED_FILE_CONFIRM_TITLE,
+            message: this.translationService.allTranslations.DOWNLOAD_LOCAL_COPY_NOTE,
             buttons: [
                 {
-                    text: 'Cancel',
+                    text: this.translationService.allTranslations.CANCEL,
                     role: 'cancel',
                 },
                 {
-                    text: 'Download',
+                    text: this.translationService.allTranslations.DOWNLOAD,
                     role: 'confirm',
                 },
             ],
@@ -374,5 +419,6 @@ export class ViewPage implements OnDestroy {
         this.passwordProtected = false;
         this.displayedMessage = '';
         this.isTypingMessage = false;
+        this.redirectCountdownSeconds = this.redirectDurationSeconds;
     }
 }
