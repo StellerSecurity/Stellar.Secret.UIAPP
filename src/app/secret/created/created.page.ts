@@ -2,6 +2,7 @@ import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Router } from '@angular/router';
 import { isPlatformBrowser } from '@angular/common';
 import { LoadingController, ModalController } from '@ionic/angular';
+import { Capacitor } from '@capacitor/core';
 
 import { SecretapiService } from '../../services/secretapi.service';
 import { Secret } from '../../models/secret';
@@ -24,6 +25,7 @@ export class CreatedPage {
   public secret: Secret = new Secret();
   public copied = false;
   public popoverEvent: MouseEvent | null = null;
+  private readonly publicBaseUrl = 'https://stellarsecret.io/';
 
   constructor(
       @Inject(PLATFORM_ID) private platformId: object,
@@ -47,6 +49,10 @@ export class CreatedPage {
   }
 
   private getBaseUrl(): string {
+    if (Capacitor.isNativePlatform()) {
+      return this.publicBaseUrl;
+    }
+
     if (isPlatformBrowser(this.platformId)) {
       const baseTag = document.getElementsByTagName('base')[0]?.href;
 
@@ -58,8 +64,7 @@ export class CreatedPage {
       return origin.endsWith('/') ? origin : `${origin}/`;
     }
 
-    const fallback = 'https://stellarsecret.io/';
-    return fallback.endsWith('/') ? fallback : `${fallback}/`;
+    return this.publicBaseUrl;
   }
 
   private async lightTap(): Promise<void> {

@@ -3,7 +3,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 const config: CapacitorConfig = {
   appId: 'stellar.secret.app',
   appName: 'Secret',
-  webDir: 'dist/app/browser',
+  webDir: 'www',
   server: {
     androidScheme: 'https'
   }
