@@ -120,7 +120,17 @@
     "PRIVACY_PROTECTED": "Privacy Protected",
     "ONE_TIME_VIEWABLE": "One-time viewable",
     "SECURITY_TEXT": "Encrypted, secured and protected by ",
-    "SECURITY_TEXT2": "Stellar Security"
+    "SECURITY_TEXT2": "Stellar Security",
+    "VPN_PROMO_TITLE": "Stellar VPN helps protect your connection.",
+    "VPN_PROMO_DESCRIPTION": "Browse more privately on public Wi-Fi, mobile networks, and shared connections - including when you open, send, and share private links.",
+    "VPN_PROMO_DOWNLOAD_LABEL": "Download for your device",
+    "VPN_PROMO_ARIA_LABEL": "Stellar VPN promotion",
+    "VPN_PROMO_PLATFORM_LINKS_ARIA_LABEL": "Download Stellar VPN by platform",
+    "VPN_PROMO_DOWNLOAD_IPHONE_ARIA_LABEL": "Download Stellar VPN for iPhone",
+    "VPN_PROMO_DOWNLOAD_ANDROID_ARIA_LABEL": "Download Stellar VPN for Android",
+    "VPN_PROMO_DOWNLOAD_MACOS_ARIA_LABEL": "Download Stellar VPN for macOS",
+    "VPN_PROMO_DOWNLOAD_WINDOWS_ARIA_LABEL": "Download Stellar VPN for Windows",
+    "VPN_PROMO_DOWNLOAD_LINUX_ARIA_LABEL": "Download Stellar VPN for Linux"
   },
   "ERROR": "Error",
   "OK": "OK",
