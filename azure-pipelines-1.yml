@@ -36,11 +36,10 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
-        npm install
-        npm install -g @angular/cli
-        npm install --force
+        set -eu
+        npm ci --ignore-scripts --no-audit --no-fund
         npm run build:ssr
-      displayName: 'npm install, build and test'
+      displayName: 'Build from the committed dependency lockfile'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
