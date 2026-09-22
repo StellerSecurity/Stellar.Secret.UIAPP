@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { Router } from '@angular/router';
 import { isPlatformBrowser } from '@angular/common';
 import { LoadingController, ModalController } from '@ionic/angular';
@@ -15,7 +15,7 @@ import { Haptics, ImpactStyle } from '@capacitor/haptics';
   templateUrl: './created.page.html',
   styleUrls: ['./created.page.scss'],
 })
-export class CreatedPage {
+export class CreatedPage implements OnDestroy {
   public id: string = '';
   public url: string = '';
   metaDescription: string = '';
@@ -24,6 +24,9 @@ export class CreatedPage {
 
   public secret: Secret = new Secret();
   public copied = false;
+  public copyFailed = false;
+  private copyAttempt = 0;
+  private copyTimer?: ReturnType<typeof setTimeout>;
   public popoverEvent: MouseEvent | null = null;
   private readonly publicBaseUrl = 'https://stellarsecret.io/';
 
@@ -34,12 +37,22 @@ export class CreatedPage {
       private secretapi: SecretapiService,
       private loadingCtrl: LoadingController,
       private translationService: TranslationService
-  ) {
-    const nav = this.router.getCurrentNavigation();
-    const idFromNav = nav?.extras?.state?.['id'];
-    const idFromHistory = history.state?.['id'];
+  ) {}
 
-    this.id = idFromNav || idFromHistory || '';
+  ionViewWillEnter(): void {
+    // Ionic can reuse this page, so resolve state on every entry, not construction.
+    this.id = '';
+    this.url = '';
+    this.clearCopyFeedback();
+
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
+
+    const nav = this.router.getCurrentNavigation();
+    // During navigation, do not fall back to the previous history entry.
+    const id = nav ? nav.extras.state?.['id'] : window.history.state?.['id'];
+    this.id = typeof id === 'string' ? id.trim() : '';
 
     if (!this.id) {
       this.router.navigate(['/']);
@@ -83,38 +96,69 @@ export class CreatedPage {
     }
   }
 
+  ionViewWillLeave(): void {
+    this.clearCopyFeedback();
+  }
+
+  ngOnDestroy(): void {
+    this.clearCopyFeedback();
+  }
+
+  private clearCopyFeedback(): void {
+    this.copyAttempt += 1;
+    if (this.copyTimer) {
+      clearTimeout(this.copyTimer);
+      this.copyTimer = undefined;
+    }
+    this.copied = false;
+    this.copyFailed = false;
+    this.popoverEvent = null;
+  }
+
   async handleCopy(ev: MouseEvent): Promise<void> {
+    this.clearCopyFeedback();
+    const attempt = this.copyAttempt;
+    let success = false;
     try {
-      await this.copy();
+      success = await this.copy();
     } catch {
-      // clipboard failed
+      // Report failure instead of claiming that the clipboard was updated.
+    }
+    if (attempt !== this.copyAttempt) {
+      return;
+    }
+    this.copyFailed = !success;
+    if (!success) {
+      return;
     }
 
     this.popoverEvent = ev;
     this.copied = true;
-
-    setTimeout(() => {
+    this.copyTimer = setTimeout(() => {
       this.copied = false;
+      this.copyTimer = undefined;
     }, 1200);
   }
 
-  private async copy(): Promise<void> {
-    const copyText = this.url;
-
-    if (isPlatformBrowser(this.platformId) && navigator?.clipboard) {
-      await navigator.clipboard.writeText(copyText);
-      return;
+  private async copy(): Promise<boolean> {
+    if (!this.url || !isPlatformBrowser(this.platformId)) {
+      return false;
+    }
+    if (navigator?.clipboard) {
+      await navigator.clipboard.writeText(this.url);
+      return true;
     }
 
-    if (isPlatformBrowser(this.platformId)) {
-      const textArea = document.createElement('textarea');
-      textArea.value = copyText;
-      textArea.style.position = 'fixed';
-      textArea.style.opacity = '0';
-      document.body.appendChild(textArea);
+    const textArea = document.createElement('textarea');
+    textArea.value = this.url;
+    textArea.style.position = 'fixed';
+    textArea.style.opacity = '0';
+    document.body.appendChild(textArea);
+    try {
       textArea.focus();
       textArea.select();
-      document.execCommand('copy');
+      return document.execCommand('copy');
+    } finally {
       document.body.removeChild(textArea);
     }
   }

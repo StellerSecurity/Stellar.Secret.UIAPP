@@ -1,4 +1,5 @@
 {
+  "COPY_FAILED": "Kunne ikke kopiere. Marker og kopier lenken manuelt.",
   "HOME": {
     "HEADER_TITLE": "Stellar Secret",
     "HOW_IT_WORKS": "Slik fungerer det",

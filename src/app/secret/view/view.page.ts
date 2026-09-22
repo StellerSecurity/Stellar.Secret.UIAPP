@@ -1,4 +1,4 @@
-import { Component, HostListener, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
+import { ChangeDetectorRef, Component, HostListener, Inject, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { SecretapiService } from '../../services/secretapi.service';
 
@@ -8,6 +8,7 @@ import * as CryptoJS from 'crypto-js';
 import { isPlatformBrowser } from '@angular/common';
 import { TranslationService } from 'src/app/services/translation.service';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
+import { Subscription } from 'rxjs';
 
 @Component({
     selector: 'app-view',
@@ -19,6 +20,10 @@ export class ViewPage implements OnDestroy {
     private readonly redirectDurationSeconds = Math.floor(this.redirectDurationMs / 1000);
 
     private id: string = '';
+    private active = false;
+    private entryVersion = 0;
+    private request?: Subscription;
+    private routeSubscription: Subscription;
     private unlockAnimationTimer: ReturnType<typeof setTimeout> | null = null;
     private typewriterTimer: ReturnType<typeof setInterval> | null = null;
     private redirectTimer: ReturnType<typeof setTimeout> | null = null;
@@ -51,15 +56,24 @@ export class ViewPage implements OnDestroy {
         private loadingCtrl: LoadingController,
         private activatedRoute: ActivatedRoute,
         private secretapi: SecretapiService,
-        private translationService: TranslationService
+        private translationService: TranslationService,
+        private changeDetector: ChangeDetectorRef
     ) {
-        this.activatedRoute.params.subscribe((params: Params) => {
+        this.routeSubscription = this.activatedRoute.params.subscribe((params: Params) => {
             this.id = params['id'];
         });
     }
 
     ionViewWillEnter(): void {
         this.clear();
+        this.active = true;
+    }
+
+    ionViewWillLeave(): void {
+        this.clear();
+        // Ionic detaches cached pages before the next change-detection pass.
+        // Render the cleared state now so plaintext leaves the hidden DOM too.
+        this.changeDetector.detectChanges();
     }
 
     @HostListener('window:pageshow', ['$event'])
@@ -73,7 +87,8 @@ export class ViewPage implements OnDestroy {
     }
 
     ngOnDestroy(): void {
-        this.clearTimers();
+        this.clear();
+        this.routeSubscription.unsubscribe();
     }
 
     private async lightTap(): Promise<void> {
@@ -268,71 +283,102 @@ export class ViewPage implements OnDestroy {
     }
 
     public async loadSecret(): Promise<void> {
-        if (this.openingLoading) {
+        if (!this.active || this.openingLoading || this.openMessage) {
             return;
         }
 
-        await this.lightTap();
         this.openingLoading = true;
-        this.openMessageBox();
+        const version = this.entryVersion;
+        await this.lightTap();
+        if (!this.isCurrentEntry(version)) {
+            return;
+        }
+        this.openMessageBox(version);
     }
 
-    public openMessageBox(): void {
-        this.openingLoading = true;
+    private isCurrentEntry(version: number): boolean {
+        return this.active && version === this.entryVersion;
+    }
 
-        this.secretapi.view(this.id).subscribe(
+    private async showError(message: string, version: number): Promise<void> {
+        if (!this.isCurrentEntry(version)) {
+            return;
+        }
+        const alert = await this.alertController.create({
+            header: this.translationService.allTranslations.SECRET_ERROR,
+            message,
+            buttons: [this.translationService.allTranslations.OK],
+        });
+        if (this.isCurrentEntry(version)) {
+            await alert.present();
+        }
+    }
+
+    private openMessageBox(version: number): void {
+        this.request = this.secretapi.view(this.id).subscribe(
             async (response) => {
-                this.openMessage = true;
+                if (!this.isCurrentEntry(version)) {
+                    return;
+                }
+                this.openingLoading = false;
 
                 if (response.response_code !== 200) {
-                    this.openingLoading = false;
-
-                    const alert = await this.alertController.create({
-                        header: this.translationService.allTranslations.SECRET_ERROR,
-                        message:
-                        this.translationService.allTranslations
-                            .THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED,
-                        buttons: [this.translationService.allTranslations.OK],
-                    });
-
-                    await alert.present();
-                    await this.router.navigateByUrl('/');
+                    await this.showError(this.translationService.allTranslations
+                        .THE_SECRET_LINK_DOES_NOT_EXIST_OR_HAS_ALREADY_BEEN_VIEWED, version);
+                    if (this.isCurrentEntry(version)) {
+                        await this.router.navigateByUrl('/');
+                    }
                     return;
                 }
 
-                this.openingLoading = false;
+                this.openMessage = true;
                 this.secretModel = response as Secret;
-                this.passwordProtected = !!(this.secretModel as any).has_password;
+                this.passwordProtected = !!this.secretModel.has_password;
 
                 if (!this.passwordProtected) {
-                    const decryptedMessage = CryptoJS.AES.decrypt(
-                        this.secretModel.message,
-                        this.id
-                    ).toString(CryptoJS.enc.Utf8);
-
-                    if (this.secretModel.files && this.secretModel.files.length > 0) {
-                        this.secretModel.files[0].content = CryptoJS.AES.decrypt(
-                            this.secretModel.files[0].content,
-                            this.id
-                        ).toString(CryptoJS.enc.Utf8);
+                    try {
+                        this.decryptAndReveal(this.id);
+                    } catch {
+                        await this.showError(this.translationService.allTranslations.SOMETHING_WENT_WRONG, version);
+                        return;
                     }
-
-                    this.revealUnlockedSecret(decryptedMessage);
                     await this.mediumTap();
                 }
             },
             async () => {
+                if (!this.isCurrentEntry(version)) {
+                    return;
+                }
                 this.openingLoading = false;
-
-                const alert = await this.alertController.create({
-                    header: this.translationService.allTranslations.SECRET_ERROR,
-                    message: this.translationService.allTranslations.SOMETHING_WENT_WRONG,
-                    buttons: [this.translationService.allTranslations.OK],
-                });
-
-                await alert.present();
+                await this.showError(this.translationService.allTranslations.SOMETHING_WENT_WRONG, version);
             }
         );
+    }
+
+    private decryptAndReveal(key: string): void {
+        const encryptedMessage = this.secretModel.message || '';
+        const message = encryptedMessage
+            ? CryptoJS.AES.decrypt(encryptedMessage, key).toString(CryptoJS.enc.Utf8)
+            : '';
+        if (encryptedMessage && !message) {
+            throw new Error('Unable to decrypt message');
+        }
+
+        // Decrypt into copies: an unsuccessful attempt must leave ciphertext intact.
+        const files = (this.secretModel.files || []).map(file => {
+            const content = CryptoJS.AES.decrypt(file.content || '', key).toString(CryptoJS.enc.Utf8);
+            if (!/^data:[^,]*;base64,[A-Za-z0-9+/]*={0,2}$/.test(content)) {
+                throw new Error('Unable to decrypt attachment');
+            }
+            return { ...file, content };
+        });
+        if (!message && files.length === 0) {
+            throw new Error('Empty secret');
+        }
+
+        this.secretModel = { ...this.secretModel, files };
+        this.inputPassword = '';
+        this.revealUnlockedSecret(message);
     }
 
     public async downloadAttachedFile(): Promise<void> {
@@ -382,32 +428,23 @@ export class ViewPage implements OnDestroy {
     }
 
     public async unlockByPassword(): Promise<void> {
-        const inputPwd = this.inputPassword || '';
-
-        const decryptedMessage = CryptoJS.AES.decrypt(
-            this.secretModel.message,
-            inputPwd
-        ).toString(CryptoJS.enc.Utf8);
-
-        if (decryptedMessage.length === 0) {
-            const alert = await this.alertController.create({
-                header: this.translationService.allTranslations.SECRET_ERROR,
-                message: this.translationService.allTranslations.THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN,
-                buttons: [this.translationService.allTranslations.OK],
-            });
-
-            await alert.present();
+        if (!this.active || !this.passwordProtected || this.unlocked || this.openingLoading) {
             return;
         }
-
-        if (this.secretModel.files && this.secretModel.files.length > 0) {
-            this.secretModel.files[0].content = CryptoJS.AES.decrypt(
-                this.secretModel.files[0].content,
-                inputPwd
-            ).toString(CryptoJS.enc.Utf8);
+        this.openingLoading = true;
+        const version = this.entryVersion;
+        try {
+            // Malformed UTF-8 and empty decryptions are both wrong-password failures.
+            this.decryptAndReveal(this.inputPassword || '');
+        } catch {
+            await this.showError(this.translationService.allTranslations
+                .THE_PASSWORD_IS_NOT_CORRECT_TRY_AGAIN, version);
+            return;
+        } finally {
+            if (this.isCurrentEntry(version)) {
+                this.openingLoading = false;
+            }
         }
-
-        this.revealUnlockedSecret(decryptedMessage);
         await this.mediumTap();
     }
 
@@ -418,6 +455,10 @@ export class ViewPage implements OnDestroy {
     }
 
     private clear(): void {
+        this.active = false;
+        this.entryVersion += 1;
+        this.request?.unsubscribe();
+        this.request = undefined;
         this.clearTimers();
 
         this.openingLoading = false;

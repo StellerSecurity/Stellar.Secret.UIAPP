@@ -9,6 +9,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:isolated": "node --test local-verification/additional-bugs-test.mjs && node local-verification/created-lifecycle-test.mjs",
+    "test:a-z": "node --test local-verification/a-z-test.mjs",
     "lint": "ng lint",
     "build:ssr": "ng build && ng run app:server",
     "serve:ssr": "node dist/app/server/main.js",

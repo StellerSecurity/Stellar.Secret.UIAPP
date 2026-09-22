@@ -5,3 +5,4 @@ dist
 .vcs.xml
 # Markdown documentation stays local and must not be committed to GitHub.
 *.[mM][dD]
+local-verification/browser-observations.json

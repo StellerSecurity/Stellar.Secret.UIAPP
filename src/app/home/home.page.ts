@@ -3,6 +3,7 @@ import { AlertController, LoadingController, Platform } from '@ionic/angular';
 import { SecretapiService } from '../services/secretapi.service';
 import { Secret } from '../models/secret';
 import { Router } from '@angular/router';
+import { firstValueFrom } from 'rxjs';
 import { sha512 } from 'js-sha512';
 import { v4 as uuid } from 'uuid';
 
@@ -163,105 +164,66 @@ export class HomePage {
       return;
     }
 
-    await this.lightTap();
-
-    const message = (this.addSecretModal.message || '').toString();
-    const hasMessage = message.trim().length > 0;
-    const hasFile = this.secretFiles.length > 0;
-
-    if (!hasMessage && !hasFile) {
-      const alert = await this.alertController.create({
-        header: this.translationService.allTranslations.ERROR,
-        message:
-        this.translationService.allTranslations
-            .NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
-        buttons: [this.translationService.allTranslations.OK],
-      });
-      await alert.present();
-      return;
-    }
-
+    // Lock before haptics or any other asynchronous work.
     this.creating = true;
 
-    const secret_id = uuid();
-
-    this.addSecretModal.id = sha512(secret_id);
-    this.addSecretModal.expires_at = this.chosenBurnerTime.toString();
-
-    (this.addSecretModal as any).encryption_version = this.ENCRYPTION_VERSION;
-
-    let encryptionKey = secret_id;
-    const userPassword = (this.addSecretModal.password || '').toString();
-    const hasPassword = userPassword.length > 0;
-
-    (this.addSecretModal as any).has_password = hasPassword;
-
-    if (hasPassword) {
-      encryptionKey = userPassword;
-    }
-
-    (this.addSecretModal as any).password = undefined;
-
-    if (hasMessage) {
-      this.addSecretModal.message = CryptoJS.AES.encrypt(message, encryptionKey).toString();
-    } else {
-      this.addSecretModal.message = '';
-    }
-
-    if (hasFile) {
-      const file = this.secretFiles[0];
-      file.id = sha512(secret_id);
-      file.content = CryptoJS.AES.encrypt(file.content || '', encryptionKey).toString();
-      this.addSecretModal.files = [file];
-    } else {
-      this.addSecretModal.files = [];
-    }
-
     try {
-      (await this.secretapi.create(this.addSecretModal)).subscribe(
-          async () => {
-            this.creating = false;
-            await this.mediumTap();
+      const message = (this.addSecretModal.message || '').toString();
+      const hasMessage = message.trim().length > 0;
+      const files = this.secretFiles.map(file => ({ ...file }));
+      const userPassword = (this.addSecretModal.password || '').toString();
+      const expiresAt = this.chosenBurnerTime.toString();
 
-            await this.router.navigate(['/secret/created'], { state: { id: secret_id } });
-          },
-          async () => {
-            this.creating = false;
-            const alert = await this.alertController.create({
-              header: this.translationService.allTranslations.ERROR,
-              message:
-                  this.translationService.allTranslations
-                      .SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
-                  ' ' +
-                  this.MAX_FILE_SIZE_MB +
-                  ' ' +
-                  this.translationService.allTranslations.MB,
-              buttons: [this.translationService.allTranslations.OK],
-            });
+      await this.lightTap();
 
-            await alert.present();
-          },
-          async () => {
-            this.creating = false;
-            this.addSecretModal = new Secret();
-            this.secretFiles = [];
-            this.chosenBurnerTime = 0;
-          }
-      );
+      if (!hasMessage && files.length === 0) {
+        const alert = await this.alertController.create({
+          header: this.translationService.allTranslations.ERROR,
+          message: this.translationService.allTranslations
+              .NO_MESSAGE_OR_FILE_WAS_ADDED_PLEASE_ADD_AND_TRY_AGAIN,
+          buttons: [this.translationService.allTranslations.OK],
+        });
+        await alert.present();
+        return;
+      }
+
+      const secretId = uuid();
+      const encryptionKey = userPassword || secretId;
+      // Keep the editable draft intact so a failed request can be retried safely.
+      const payload: Secret & { encryption_version: string } = {
+        id: sha512(secretId),
+        expires_at: expiresAt,
+        encryption_version: this.ENCRYPTION_VERSION,
+        has_password: userPassword.length > 0,
+        message: hasMessage ? CryptoJS.AES.encrypt(message, encryptionKey).toString() : '',
+        files: files.map(file => ({
+          ...file,
+          id: sha512(secretId),
+          content: CryptoJS.AES.encrypt(file.content || '', encryptionKey).toString(),
+        })),
+      };
+
+      await firstValueFrom(this.secretapi.create(payload));
+      await this.mediumTap();
+      const navigated = await this.router.navigate(['/secret/created'], { state: { id: secretId } });
+      if (navigated) {
+        this.addSecretModal = new Secret();
+        this.secretFiles = [];
+        this.chosenBurnerTime = 0;
+      }
     } catch {
-      this.creating = false;
       const alert = await this.alertController.create({
         header: this.translationService.allTranslations.ERROR,
         message:
             this.translationService.allTranslations
                 .SOMETHING_WENT_WRONG_PLEASE_TRY_AGAIN_IF_YOU_INCLUDED_A_FILE_THE_LIMIT_IS +
-            ' ' +
-            this.MAX_FILE_SIZE_MB +
-            ' ' +
-            this.translationService.allTranslations.MB,
+            ' ' + this.MAX_FILE_SIZE_MB + ' ' + this.translationService.allTranslations.MB,
         buttons: [this.translationService.allTranslations.OK],
       });
       await alert.present();
+    } finally {
+      // Remain locked through the request, haptics and navigation.
+      this.creating = false;
     }
   }
 }

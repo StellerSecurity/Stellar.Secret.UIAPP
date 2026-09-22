@@ -1,4 +1,5 @@
 {
+  "COPY_FAILED": "Não foi possível copiar. Selecione e copie o link manualmente.",
   "HOME": {
     "HEADER_TITLE": "Stellar Secret",
     "HOW_IT_WORKS": "Como funciona",
