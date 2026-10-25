@@ -6,6 +6,30 @@ import { existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+export function hasUnsafeEmptyPathOutlet(requestUrl: string): boolean {
+    const pathname = requestUrl.split(/[?#]/, 1)[0];
+
+    try {
+        return /:\/\(|\(\/\(|\/\/\/\(/.test(decodeURIComponent(pathname));
+    } catch {
+        // A malformed encoded path must not be forwarded to Angular's router.
+        return true;
+    }
+}
+
+function rejectUnsafeRouterOutletRequest(
+    req: express.Request,
+    res: express.Response,
+    next: express.NextFunction
+): void {
+    if (hasUnsafeEmptyPathOutlet(req.originalUrl)) {
+        res.status(400).send('Bad Request');
+        return;
+    }
+
+    next();
+}
+
 export function app(): express.Express {
     const server = express();
     const serverDistFolder = dirname(fileURLToPath(import.meta.url));
@@ -16,6 +40,8 @@ export function app(): express.Express {
 
     server.set('view engine', 'html');
     server.set('views', browserDistFolder);
+
+    server.use(rejectUnsafeRouterOutletRequest);
 
     server.get(
         '*.*',
